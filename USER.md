@@ -6,11 +6,11 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** ruveda
 - **Pronouns:** _(optional)_
 - **Timezone:** Europe/Amsterdam
-- **Notes:**
+- **Notes:** Deeply passionate about women’s well-being, especially mothers and children.
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- Cares deeply about improving well-being outcomes for women, with a strong focus on mothers and children.
 
 ---
 
