@@ -52,7 +52,7 @@ export default function Chat() {
       console.error('Error processing message:', error);
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: 'I apologize, but I'm having trouble responding right now. Please try again.',
+        text: "I apologize, but I'm having trouble responding right now. Please try again.",
         sender: 'ai',
         timestamp: new Date()
       };
