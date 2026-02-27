@@ -602,12 +602,12 @@ export default function Home() {
     return () => window.removeEventListener('beforeinstallprompt', handler);
   }, []);
 
+  useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
+
   // Show onboarding if not completed
   if (!onboarded) {
     return <OnboardingFlow onComplete={handleOnboardingComplete} />;
   }
-
-  useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
 
   const updateDailyTip = (profiles) => {
     const ages = profiles.length > 0 ? profiles.map(c => {
