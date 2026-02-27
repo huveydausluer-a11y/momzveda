@@ -13,7 +13,7 @@
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "anthropic": "^0.12.0",
+    "@anthropic-ai/sdk": "^0.39.0",
     "openai": "^4.28.0",
     "dotenv": "^16.4.0",
     "axios": "^1.6.7"
