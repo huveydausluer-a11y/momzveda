@@ -1,5 +1,6 @@
 import { Anthropic } from '@anthropic-ai/sdk';
 import OpenAI from 'openai';
+import { AICostManager } from './AICostManager';
 
 export enum AIProvider {
   CLAUDE = 'claude',
