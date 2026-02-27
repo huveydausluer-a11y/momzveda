@@ -566,49 +566,6 @@ export default function Home() {
     }
   };
 
-  const handleOnboardingComplete = (profile) => {
-    setMomProfile(profile);
-    setChildProfiles(profile.children);
-    updateDailyTip(profile.children);
-    setOnboarded(true);
-  };
-
-  useEffect(() => {
-    setAffirmation(AFFIRMATIONS[Math.floor(Math.random() * AFFIRMATIONS.length)]);
-    updateDailyTip([]);
-
-    // Check if returning from Stripe checkout
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('premium') === 'success') {
-      setIsPremium(true);
-      setShowUpgrade(false);
-      // Clean up URL
-      window.history.replaceState({}, '', '/');
-    }
-
-    // PWA install prompt
-    const handler = (e) => {
-      e.preventDefault();
-      setDeferredPrompt(e);
-      setShowInstallPrompt(true);
-    };
-    window.addEventListener('beforeinstallprompt', handler);
-
-    // Check if already installed
-    if (window.matchMedia('(display-mode: standalone)').matches) {
-      setShowInstallPrompt(false);
-    }
-
-    return () => window.removeEventListener('beforeinstallprompt', handler);
-  }, []);
-
-  useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
-
-  // Show onboarding if not completed
-  if (!onboarded) {
-    return <OnboardingFlow onComplete={handleOnboardingComplete} />;
-  }
-
   const updateDailyTip = (profiles) => {
     const ages = profiles.length > 0 ? profiles.map(c => {
       const a = parseFloat(c.age);
@@ -684,6 +641,49 @@ export default function Home() {
     setMomWins(prev => [{ text: newWin, date: new Date().toLocaleDateString(), id: Date.now() }, ...prev]);
     setNewWin('');
   };
+
+  const handleOnboardingComplete = (profile) => {
+    setMomProfile(profile);
+    setChildProfiles(profile.children);
+    updateDailyTip(profile.children);
+    setOnboarded(true);
+  };
+
+  useEffect(() => {
+    setAffirmation(AFFIRMATIONS[Math.floor(Math.random() * AFFIRMATIONS.length)]);
+    updateDailyTip([]);
+
+    // Check if returning from Stripe checkout
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('premium') === 'success') {
+      setIsPremium(true);
+      setShowUpgrade(false);
+      // Clean up URL
+      window.history.replaceState({}, '', '/');
+    }
+
+    // PWA install prompt
+    const handler = (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+      setShowInstallPrompt(true);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+
+    // Check if already installed
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+      setShowInstallPrompt(false);
+    }
+
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
+
+  // Show onboarding if not completed
+  if (!onboarded) {
+    return <OnboardingFlow onComplete={handleOnboardingComplete} />;
+  }
 
   const inputStyle = { border: 'none', fontSize: 14, color: TEXT_DARK, background: '#F0FAF4', borderRadius: 12, padding: '10px 14px', width: '100%', fontFamily: "'DM Sans', sans-serif", outline: 'none' };
 
