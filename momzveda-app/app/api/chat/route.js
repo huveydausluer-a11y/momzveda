@@ -261,7 +261,9 @@ export async function POST(request) {
     });
 
     if (!response.ok) {
-      return Response.json({ error: 'Failed to get AI response.' }, { status: 502 });
+      const errBody = await response.text();
+      console.error('Anthropic API error:', response.status, errBody);
+      return Response.json({ error: 'Failed to get AI response.', detail: errBody }, { status: 502 });
     }
 
     return Response.json(await response.json());
