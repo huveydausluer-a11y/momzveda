@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { AIService, AIProvider } from '../services/AIService';
 
 interface Message {
   id: string;
@@ -13,7 +12,6 @@ export default function Chat() {
   const [inputMessage, setInputMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const aiService = new AIService();
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -38,8 +36,15 @@ export default function Chat() {
     setIsLoading(true);
 
     try {
-      const response = await aiService.processMessage(inputMessage);
-      
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: inputMessage }),
+      });
+      const response = await res.json();
+
+      if (!res.ok) throw new Error(response.error);
+
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
         text: response.text,
