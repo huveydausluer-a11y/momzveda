@@ -1,8 +1,7 @@
 {
-  "name": "momzveda-app",
+  "name": "momzveda",
   "version": "1.0.0",
-  "description": "AI-powered support app for mothers",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,20 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@anthropic-ai/sdk": "^0.39.0",
-    "openai": "^4.28.0",
-    "dotenv": "^16.4.0",
-    "axios": "^1.6.7"
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "stripe": "^14.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
-    "@types/react": "^18.2.0",
-    "typescript": "^5.3.0",
-    "tailwindcss": "^3.4.0",
-    "postcss": "^8.4.0",
-    "autoprefixer": "^10.4.0"
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.2.0"
   }
 }

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="92" fill="#0F1F15"/>
+  <rect x="120" y="185" width="272" height="3" rx="1.5" fill="#22C55E" opacity="0.4"/>
+  <text x="155" y="256" font-size="72" fill="#22C55E" font-family="Arial Black, Impact, sans-serif" font-weight="900" letter-spacing="2">Momz</text>
+  <text x="348" y="256" font-size="64" fill="#3B82F6" font-family="Georgia, Times New Roman, serif" font-style="italic" letter-spacing="1">Veda</text>
+  <rect x="120" y="275" width="272" height="3" rx="1.5" fill="#3B82F6" opacity="0.4"/>
+  <text x="256" y="320" text-anchor="middle" font-size="18" fill="rgba(255,255,255,0.3)" font-family="Arial, sans-serif" font-weight="600" letter-spacing="5">YOUR MOM FRIEND</text>
+</svg>
