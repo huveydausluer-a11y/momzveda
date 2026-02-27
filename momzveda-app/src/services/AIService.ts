@@ -55,8 +55,11 @@ export class AIService {
 
       this.costManager.trackUsage(AIProvider.CLAUDE, response.usage.output_tokens);
       
+      const textBlock = response.content[0];
+      const text = textBlock.type === 'text' ? textBlock.text : '';
+
       return {
-        text: response.content[0].text,
+        text,
         provider: AIProvider.CLAUDE,
         tokens: response.usage.output_tokens
       };
