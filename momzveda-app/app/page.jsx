@@ -129,21 +129,6 @@ const AGE_RANGES = [
   "Under 18", "18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50+"
 ];
 
-
-// ── COUNTRY LIST ──
-const COUNTRIES = [
-  "United States", "United Kingdom", "Canada", "Australia", "Netherlands", "Germany", "France", "India",
-  "Spain", "Italy", "Brazil", "Mexico", "South Africa", "Nigeria", "Kenya", "Japan", "South Korea",
-  "Philippines", "Indonesia", "Sweden", "Norway", "Denmark", "Finland", "Belgium", "Switzerland",
-  "Austria", "Ireland", "New Zealand", "Portugal", "Poland", "Turkey", "Egypt", "Morocco",
-  "Saudi Arabia", "UAE", "Pakistan", "Bangladesh", "Colombia", "Argentina", "Chile", "Peru",
-  "Thailand", "Vietnam", "Malaysia", "Singapore", "Israel", "Greece", "Czech Republic", "Romania", "Other"
-];
-
-const AGE_RANGES = [
-  "Under 18", "18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50+"
-];
-
 // ── ONBOARDING (5 steps: Welcome → About You → Children → Parenting → Terms) ──
 function OnboardingFlow({ onComplete }) {
   const [step, setStep] = useState(0);
