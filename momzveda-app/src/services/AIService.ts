@@ -75,12 +75,13 @@ export class AIService {
         ]
       });
 
-      this.costManager.trackUsage(AIProvider.CHATGPT, response.usage.total_tokens);
+      const tokens = response.usage?.total_tokens ?? 0;
+      this.costManager.trackUsage(AIProvider.CHATGPT, tokens);
 
       return {
         text: response.choices[0].message.content || '',
         provider: AIProvider.CHATGPT,
-        tokens: response.usage.total_tokens
+        tokens
       };
     }
   }
