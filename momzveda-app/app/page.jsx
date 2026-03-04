@@ -1022,15 +1022,10 @@ export default function Home() {
                   <p style={{ fontSize: 14, color: '#B45309', lineHeight: 1.6, marginBottom: 12 }}>
                     Get step-by-step guidance for sleep training, starting solids, taming tantrums, and more — plus unlimited daily messages.
                   </p>
-                  <div style={{ background: '#FFF', borderRadius: 10, padding: '8px 14px', marginBottom: 16, display: 'inline-flex', alignItems: 'center', gap: 6, border: '1px solid #FDE68A' }}>
-                    <span style={{ fontSize: 14 }}>🎁</span>
-                    <span style={{ fontSize: 13, fontWeight: 700, color: GREEN_DARK }}>First 30 days free!</span>
-                  </div>
-                  <br />
                   <button onClick={() => setShowUpgrade(true)} style={{ background: 'linear-gradient(135deg, #F59E0B, #D97706)', color: '#FFF', border: 'none', borderRadius: 14, padding: '14px 28px', fontSize: 16, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 16px rgba(245,158,11,0.3)' }}>
-                    Start Free Trial
+                    Upgrade to Premium
                   </button>
-                  <div style={{ fontSize: 12, color: '#B45309', marginTop: 8 }}>Then €9.99/mo or €69.99/year — cancel anytime</div>
+                  <div style={{ fontSize: 12, color: '#B45309', marginTop: 8 }}>From €9.99/mo — cancel anytime</div>
                 </div>
               </div>
             )}
@@ -1123,7 +1118,7 @@ export default function Home() {
                 </span>
               ) : (
                 <button onClick={() => setShowUpgrade(true)} style={{ fontSize: 11, color: '#D97706', fontWeight: 700, background: '#FEF3C7', border: '1px solid #FDE68A', borderRadius: 8, padding: '3px 12px', cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
-                  Daily limit reached — Start free trial for unlimited ✨
+                  Daily limit reached — Upgrade for unlimited ✨
                 </button>
               )}
             </div>
@@ -1161,9 +1156,9 @@ export default function Home() {
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontSize: 48, marginBottom: 12 }}>✨</div>
               <h2 style={{ fontSize: 24, fontWeight: 700, color: TEXT_DARK, marginBottom: 4, fontFamily: "'Playfair Display', serif" }}>
-                Try Premium Free
+                Upgrade to Premium
               </h2>
-              <div style={{ fontSize: 15, fontWeight: 700, color: GREEN_DARK, marginBottom: 6 }}>First 30 days free — cancel anytime</div>
+              <div style={{ fontSize: 15, fontWeight: 700, color: GREEN_DARK, marginBottom: 6 }}>Cancel anytime</div>
               <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 24 }}>
                 Get the full MomzVeda experience — because you deserve unlimited support, mama.
               </p>
@@ -1184,26 +1179,20 @@ export default function Home() {
                 ))}
               </div>
 
-              {/* Free trial badge */}
-              <div style={{ background: '#EBF7F0', border: `1.5px solid ${GREEN}`, borderRadius: 12, padding: '10px 16px', marginBottom: 16, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
-                <span style={{ fontSize: 18 }}>🎁</span>
-                <span style={{ fontSize: 14, fontWeight: 700, color: GREEN_DARK }}>30 days free — no charge until day 31</span>
-              </div>
-
               {/* Pricing buttons */}
               <button onClick={() => handleUpgrade('monthly')} style={{
                 width: '100%', background: 'linear-gradient(135deg, #F59E0B, #D97706)', color: '#FFF', border: 'none',
                 borderRadius: 16, padding: '16px', fontSize: 17, fontWeight: 700, cursor: 'pointer',
                 fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 20px rgba(245,158,11,0.3)', marginBottom: 10,
               }}>
-                Start Free Trial — then €9.99/mo
+                €9.99/month
               </button>
               <button onClick={() => handleUpgrade('yearly')} style={{
                 width: '100%', background: '#FFF7ED', color: '#92400E', border: '2px solid #FDE68A',
                 borderRadius: 16, padding: '14px', fontSize: 15, fontWeight: 700, cursor: 'pointer',
                 fontFamily: "'DM Sans', sans-serif", marginBottom: 16,
               }}>
-                Start Free Trial — then €69.99/yr <span style={{ fontSize: 12, fontWeight: 500, color: '#B45309' }}>save 42%</span>
+                €69.99/year <span style={{ fontSize: 12, fontWeight: 500, color: '#B45309' }}>save 42%</span>
               </button>
 
               <button onClick={() => setShowUpgrade(false)} style={{
