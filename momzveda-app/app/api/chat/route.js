@@ -218,7 +218,7 @@ export async function POST(request) {
       system += `\n\n## ABOUT THIS MOM\n`;
       if (momProfile.momName) system += `- Her name is ${momProfile.momName}. Use her name naturally in conversation to make it personal and warm.\n`;
       if (momProfile.momAge) system += `- Age range: ${momProfile.momAge}\n`;
-      if (momProfile.country) system += `- Lives in: ${momProfile.country}. Be mindful of regional context when giving suggestions.\n`;
+      if (momProfile.country) system += `- Lives in: ${momProfile.country}. Be mindful of regional context when giving suggestions. IMPORTANT: Respond in the primary language of ${momProfile.country}. If the user writes in a different language, match their language instead.\n`;
       if (momProfile.parentingStyle) {
         const styleLabels = { 'gentle': 'Gentle & Conscious parenting', 'structured': 'Structured routines & clear boundaries', 'balanced': 'A balanced mix of gentle and structured', 'instinctive': 'Instinct-led, go-with-the-flow', 'figuring-out': 'Still exploring what works for her' };
         system += `- Parenting approach: ${styleLabels[momProfile.parentingStyle] || momProfile.parentingStyle}. Match your advice to this style — don't suggest approaches that clash with her values.\n`;
