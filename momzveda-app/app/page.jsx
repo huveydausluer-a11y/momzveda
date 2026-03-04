@@ -518,31 +518,56 @@ function OnboardingFlow({ onComplete }) {
   );
 }
 
+// ── localStorage helpers ──
+function loadStored(key, fallback) {
+  if (typeof window === 'undefined') return fallback;
+  try {
+    const v = localStorage.getItem('momzveda_' + key);
+    return v !== null ? JSON.parse(v) : fallback;
+  } catch { return fallback; }
+}
+function saveStored(key, value) {
+  try { localStorage.setItem('momzveda_' + key, JSON.stringify(value)); } catch {}
+}
+
 // ── MAIN APP ──
 export default function Home() {
-  const [onboarded, setOnboarded] = useState(false);
-  const [momProfile, setMomProfile] = useState(null);
-  const [messages, setMessages] = useState([]);
+  const [onboarded, setOnboarded] = useState(() => loadStored('onboarded', false));
+  const [momProfile, setMomProfile] = useState(() => loadStored('momProfile', null));
+  const [messages, setMessages] = useState(() => loadStored('messages', []));
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const [affirmation, setAffirmation] = useState('');
   const [showWelcome, setShowWelcome] = useState(true);
   const [activeTab, setActiveTab] = useState('chat');
-  const [childProfiles, setChildProfiles] = useState([]);
+  const [childProfiles, setChildProfiles] = useState(() => loadStored('childProfiles', []));
   const [showAddChild, setShowAddChild] = useState(false);
   const [newChild, setNewChild] = useState({ name: '', age: '', notes: '' });
-  const [momWins, setMomWins] = useState([]);
+  const [momWins, setMomWins] = useState(() => loadStored('momWins', []));
   const [newWin, setNewWin] = useState('');
   const [showEmergency, setShowEmergency] = useState(false);
   const [dailyTip, setDailyTip] = useState('');
   const [showInstallPrompt, setShowInstallPrompt] = useState(false);
   const [deferredPrompt, setDeferredPrompt] = useState(null);
-  const [isPremium, setIsPremium] = useState(false);
-  const [dailyMsgCount, setDailyMsgCount] = useState(0);
+  const [isPremium, setIsPremium] = useState(() => loadStored('isPremium', false));
+  const [dailyMsgCount, setDailyMsgCount] = useState(() => {
+    const saved = loadStored('dailyMsgData', null);
+    if (saved && saved.date === new Date().toDateString()) return saved.count;
+    return 0;
+  });
   const [showUpgrade, setShowUpgrade] = useState(false);
   const FREE_MSG_LIMIT = 5;
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
+
+  // ── Persist state to localStorage ──
+  useEffect(() => { saveStored('onboarded', onboarded); }, [onboarded]);
+  useEffect(() => { saveStored('momProfile', momProfile); }, [momProfile]);
+  useEffect(() => { saveStored('messages', messages); }, [messages]);
+  useEffect(() => { saveStored('childProfiles', childProfiles); }, [childProfiles]);
+  useEffect(() => { saveStored('momWins', momWins); }, [momWins]);
+  useEffect(() => { saveStored('isPremium', isPremium); }, [isPremium]);
+  useEffect(() => { saveStored('dailyMsgData', { count: dailyMsgCount, date: new Date().toDateString() }); }, [dailyMsgCount]);
 
   // Stripe checkout handler
   const handleUpgrade = async (plan) => {
@@ -565,6 +590,44 @@ export default function Home() {
       console.error('Checkout error:', err);
     }
   };
+
+  const handleOnboardingComplete = (profile) => {
+    setMomProfile(profile);
+    setChildProfiles(profile.children);
+    updateDailyTip(profile.children);
+    setOnboarded(true);
+  };
+
+  useEffect(() => {
+    setAffirmation(AFFIRMATIONS[Math.floor(Math.random() * AFFIRMATIONS.length)]);
+    updateDailyTip(childProfiles);
+
+    // Check if returning from Stripe checkout
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('premium') === 'success') {
+      setIsPremium(true);
+      setShowUpgrade(false);
+      // Clean up URL
+      window.history.replaceState({}, '', '/');
+    }
+
+    // PWA install prompt
+    const handler = (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+      setShowInstallPrompt(true);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+
+    // Check if already installed
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+      setShowInstallPrompt(false);
+    }
+
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
 
   const updateDailyTip = (profiles) => {
     const ages = profiles.length > 0 ? profiles.map(c => {
@@ -642,50 +705,12 @@ export default function Home() {
     setNewWin('');
   };
 
-  const handleOnboardingComplete = (profile) => {
-    setMomProfile(profile);
-    setChildProfiles(profile.children);
-    updateDailyTip(profile.children);
-    setOnboarded(true);
-  };
-
-  useEffect(() => {
-    setAffirmation(AFFIRMATIONS[Math.floor(Math.random() * AFFIRMATIONS.length)]);
-    updateDailyTip([]);
-
-    // Check if returning from Stripe checkout
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('premium') === 'success') {
-      setIsPremium(true);
-      setShowUpgrade(false);
-      // Clean up URL
-      window.history.replaceState({}, '', '/');
-    }
-
-    // PWA install prompt
-    const handler = (e) => {
-      e.preventDefault();
-      setDeferredPrompt(e);
-      setShowInstallPrompt(true);
-    };
-    window.addEventListener('beforeinstallprompt', handler);
-
-    // Check if already installed
-    if (window.matchMedia('(display-mode: standalone)').matches) {
-      setShowInstallPrompt(false);
-    }
-
-    return () => window.removeEventListener('beforeinstallprompt', handler);
-  }, []);
-
-  useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
+  const inputStyle = { border: 'none', fontSize: 14, color: TEXT_DARK, background: '#F0FAF4', borderRadius: 12, padding: '10px 14px', width: '100%', fontFamily: "'DM Sans', sans-serif", outline: 'none' };
 
   // Show onboarding if not completed
   if (!onboarded) {
     return <OnboardingFlow onComplete={handleOnboardingComplete} />;
   }
-
-  const inputStyle = { border: 'none', fontSize: 14, color: TEXT_DARK, background: '#F0FAF4', borderRadius: 12, padding: '10px 14px', width: '100%', fontFamily: "'DM Sans', sans-serif", outline: 'none' };
 
   return (
     <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: BG, fontFamily: "'DM Sans', sans-serif" }}>
