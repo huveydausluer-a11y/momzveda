@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
+import { createClient } from '../lib/supabase-browser';
 
 // ── CONSTANTS ──
 const GREEN = '#22C55E', GREEN_DARK = '#16A34A', BLUE = '#3B82F6', BG = '#F2F8F5';
@@ -526,6 +528,10 @@ function saveStored(key, value) {
 
 // ── MAIN APP ──
 export default function Home() {
+  const router = useRouter();
+  const supabase = createClient();
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [onboarded, setOnboarded] = useState(() => loadStored('onboarded', false));
   const [momProfile, setMomProfile] = useState(() => loadStored('momProfile', null));
   const [messages, setMessages] = useState(() => loadStored('messages', []));
@@ -554,6 +560,56 @@ export default function Home() {
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
+  // ── Load user session + data from Supabase ──
+  useEffect(() => {
+    async function init() {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) { router.push('/login'); return; }
+      setUser(user);
+
+      // Load profile
+      const { data: profile } = await supabase.from('profiles').select('*').eq('id', user.id).single();
+      if (profile && profile.onboarded) {
+        const momProf = {
+          momName: profile.mom_name, momAge: profile.mom_age, country: profile.country,
+          parentingStyle: profile.parenting_style, challenges: profile.challenges || [],
+          supportSystem: profile.support_system,
+        };
+        setMomProfile(momProf); setOnboarded(true); setIsPremium(profile.is_premium || false);
+        saveStored('momProfile', momProf); saveStored('onboarded', true); saveStored('isPremium', profile.is_premium || false);
+      }
+
+      // Load children
+      const { data: kids } = await supabase.from('children').select('*').eq('user_id', user.id).order('created_at');
+      if (kids && kids.length > 0) {
+        const mapped = kids.map(k => ({ id: k.id, name: k.name, age: k.age, notes: k.notes || '' }));
+        setChildProfiles(mapped); saveStored('childProfiles', mapped);
+      }
+
+      // Load messages
+      const { data: msgs } = await supabase.from('messages').select('*').eq('user_id', user.id).order('created_at');
+      if (msgs && msgs.length > 0) {
+        const mapped = msgs.map(m => ({ role: m.role, content: m.content }));
+        setMessages(mapped); saveStored('messages', mapped);
+      }
+
+      // Load wins
+      const { data: wins } = await supabase.from('mom_wins').select('*').eq('user_id', user.id).order('created_at', { ascending: false });
+      if (wins && wins.length > 0) {
+        const mapped = wins.map(w => ({ id: w.id, text: w.text, date: w.date }));
+        setMomWins(mapped); saveStored('momWins', mapped);
+      }
+
+      // Load daily usage
+      const today = new Date().toDateString();
+      const { data: usage } = await supabase.from('daily_usage').select('*').eq('user_id', user.id).eq('date', today).maybeSingle();
+      if (usage) setDailyMsgCount(usage.msg_count);
+
+      setLoading(false);
+    }
+    init();
+  }, []);
+
   // ── Persist state to localStorage ──
   useEffect(() => { saveStored('onboarded', onboarded); }, [onboarded]);
   useEffect(() => { saveStored('momProfile', momProfile); }, [momProfile]);
@@ -562,6 +618,29 @@ export default function Home() {
   useEffect(() => { saveStored('momWins', momWins); }, [momWins]);
   useEffect(() => { saveStored('isPremium', isPremium); }, [isPremium]);
   useEffect(() => { saveStored('dailyMsgData', { count: dailyMsgCount, date: new Date().toDateString() }); }, [dailyMsgCount]);
+
+  // ── Sync profile changes to Supabase ──
+  useEffect(() => {
+    if (!user || !momProfile) return;
+    supabase.from('profiles').update({
+      mom_name: momProfile.momName, mom_age: momProfile.momAge, country: momProfile.country,
+      parenting_style: momProfile.parentingStyle, challenges: momProfile.challenges,
+      support_system: momProfile.supportSystem, onboarded: true, updated_at: new Date().toISOString(),
+    }).eq('id', user.id).then(() => {});
+  }, [momProfile]);
+
+  useEffect(() => {
+    if (!user) return;
+    supabase.from('profiles').update({ is_premium: isPremium, updated_at: new Date().toISOString() }).eq('id', user.id).then(() => {});
+  }, [isPremium]);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    ['onboarded','momProfile','messages','childProfiles','momWins','isPremium','dailyMsgData'].forEach(k => {
+      localStorage.removeItem('momzveda_' + k);
+    });
+    router.push('/login');
+  };
 
   // Stripe checkout handler
   const handleUpgrade = async (plan) => {
@@ -585,11 +664,22 @@ export default function Home() {
     }
   };
 
-  const handleOnboardingComplete = (profile) => {
+  const handleOnboardingComplete = async (profile) => {
     setMomProfile(profile);
     setChildProfiles(profile.children);
     updateDailyTip(profile.children);
     setOnboarded(true);
+
+    // Sync to Supabase
+    if (user) {
+      await supabase.from('profiles').update({
+        mom_name: profile.momName, mom_age: profile.momAge, country: profile.country,
+        parenting_style: profile.parentingStyle, challenges: profile.challenges,
+        support_system: profile.supportSystem, onboarded: true, updated_at: new Date().toISOString(),
+      }).eq('id', user.id);
+      const childRows = profile.children.map(c => ({ user_id: user.id, name: c.name, age: c.age, notes: c.notes || '' }));
+      if (childRows.length > 0) await supabase.from('children').insert(childRows);
+    }
   };
 
   useEffect(() => {
@@ -671,6 +761,15 @@ export default function Home() {
       const data = await res.json();
       const text2 = data.content?.map(c => c.text || '').join('') || "Hmm, let me try that again 💛";
       setMessages(prev => [...prev, { role: 'assistant', content: text2 }]);
+      // Sync messages to Supabase
+      if (user) {
+        supabase.from('messages').insert([
+          { user_id: user.id, role: 'user', content: text },
+          { user_id: user.id, role: 'assistant', content: text2 },
+        ]).then(() => {});
+        const today = new Date().toDateString();
+        supabase.from('daily_usage').upsert({ user_id: user.id, date: today, msg_count: dailyMsgCount + 1 }, { onConflict: 'user_id,date' }).then(() => {});
+      }
     } catch {
       setMessages(prev => [...prev, { role: 'assistant', content: "Something went sideways! 😅 Try again in a sec. I'm here for you! 💛" }]);
     }
@@ -678,28 +777,52 @@ export default function Home() {
     inputRef.current?.focus();
   };
 
-  const addChild = () => {
+  const addChild = async () => {
     if (!newChild.name.trim() || !newChild.age.trim()) return;
     const updated = [...childProfiles, { ...newChild, id: Date.now() }];
     setChildProfiles(updated);
     setNewChild({ name: '', age: '', notes: '' });
     setShowAddChild(false);
     updateDailyTip(updated);
+    if (user) {
+      supabase.from('children').insert({ user_id: user.id, name: newChild.name, age: newChild.age, notes: newChild.notes || '' }).then(() => {});
+    }
   };
 
   const removeChild = (id) => {
     const updated = childProfiles.filter(c => c.id !== id);
     setChildProfiles(updated);
     updateDailyTip(updated);
+    if (user) {
+      supabase.from('children').delete().eq('id', id).eq('user_id', user.id).then(() => {});
+    }
   };
 
   const addWin = () => {
     if (!newWin.trim()) return;
     setMomWins(prev => [{ text: newWin, date: new Date().toLocaleDateString(), id: Date.now() }, ...prev]);
+    if (user) {
+      supabase.from('mom_wins').insert({ user_id: user.id, text: newWin, date: new Date().toLocaleDateString() }).then(() => {});
+    }
     setNewWin('');
   };
 
   const inputStyle = { border: 'none', fontSize: 14, color: TEXT_DARK, background: '#F0FAF4', borderRadius: 12, padding: '10px 14px', width: '100%', fontFamily: "'DM Sans', sans-serif", outline: 'none' };
+
+  // Loading screen while fetching user data
+  if (loading) {
+    return (
+      <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: BG, fontFamily: "'DM Sans', sans-serif" }}>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'center', marginBottom: 16 }}>
+            <span style={{ fontFamily: "'Archivo Black', sans-serif", fontSize: 28, color: GREEN }}>Momz</span>
+            <span style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic', fontSize: 28, color: BLUE }}>Veda</span>
+          </div>
+          <div style={{ fontSize: 14, color: TEXT_LIGHT }}>Loading your space...</div>
+        </div>
+      </div>
+    );
+  }
 
   // Show onboarding if not completed
   if (!onboarded) {
@@ -727,6 +850,10 @@ export default function Home() {
           <div style={{ width: 140, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, marginTop: 8 }} />
           <div style={{ marginTop: 4, fontSize: 8, letterSpacing: 3, color: 'rgba(255,255,255,0.35)', fontWeight: 500, textTransform: 'uppercase' }}>Your Mom Friend.&nbsp;&nbsp;Always Here.</div>
         </div>
+        {/* Logout button */}
+        <button onClick={handleLogout} style={{ position: 'absolute', left: 16, top: 16, background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: 'rgba(255,255,255,0.6)', fontWeight: 600 }}>
+          Logout
+        </button>
         {/* Emergency button */}
         <button onClick={() => setShowEmergency(!showEmergency)} style={{ position: 'absolute', right: 16, top: 16, background: 'rgba(239,68,68,0.15)', border: '1px solid rgba(239,68,68,0.3)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: '#FCA5A5', fontWeight: 600 }}>
           🆘 Help
@@ -963,7 +1090,7 @@ export default function Home() {
                     <div style={{ fontSize: 14, color: TEXT_DARK, fontWeight: 500 }}>🌟 {w.text}</div>
                     <div style={{ fontSize: 11, color: TEXT_LIGHT, marginTop: 2 }}>{w.date}</div>
                   </div>
-                  <button onClick={() => setMomWins(prev => prev.filter(x => x.id !== w.id))} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 14, color: TEXT_LIGHT }}>✕</button>
+                  <button onClick={() => { setMomWins(prev => prev.filter(x => x.id !== w.id)); if (user) supabase.from('mom_wins').delete().eq('id', w.id).eq('user_id', user.id).then(() => {}); }} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 14, color: TEXT_LIGHT }}>✕</button>
                 </div>
               ))
             )}
