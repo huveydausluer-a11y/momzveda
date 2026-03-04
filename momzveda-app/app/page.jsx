@@ -450,33 +450,27 @@ function OnboardingFlow({ onComplete }) {
           <div>
             <div style={{ fontSize: 36, marginBottom: 8 }}>📋</div>
             <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>Almost there!</h2>
-            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 16 }}>Please review and accept our terms before we start.</p>
+            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 20 }}>Please review and accept our terms before we start.</p>
 
             <div style={{
-              background: CARD_BG, borderRadius: 14, padding: 18, marginBottom: 14,
-              border: `1px solid ${BORDER_LIGHT}`, maxHeight: 180, overflowY: 'auto',
-              fontSize: 13, color: TEXT_MID, lineHeight: 1.7,
+              background: CARD_BG, borderRadius: 16, padding: '20px', marginBottom: 20,
+              border: `1px solid ${BORDER_LIGHT}`, textAlign: 'center',
             }}>
-              <p style={{ fontWeight: 700, marginBottom: 8, color: TEXT_DARK }}>Key Points:</p>
-              <p style={{ marginBottom: 8 }}><strong>General Tips Only:</strong> All parenting tips, recipes, and guidance are general in nature. They are NOT tailored to your specific child or situation.</p>
-              <p style={{ marginBottom: 8 }}><strong>Not Medical or Professional Advice:</strong> MomzVeda is powered by AI and does NOT provide medical, psychological, or any other professional advice. Always consult a qualified professional.</p>
-              <p style={{ marginBottom: 8 }}><strong>No Liability:</strong> MomzVeda is NOT responsible or liable — directly or indirectly — for any harm, injury, loss, or damage of any kind to you, your children, your family members, or any other person in any shape or form.</p>
-              <p style={{ marginBottom: 8 }}><strong>Your Responsibility:</strong> You are solely responsible for all parenting decisions. You use this service entirely at your own risk.</p>
-              <p style={{ marginBottom: 8 }}><strong>Emergency:</strong> MomzVeda is NOT an emergency service. In case of emergency, call 911 or your local emergency number.</p>
-              <p style={{ marginBottom: 0 }}><strong>Privacy:</strong> Your data stays private. Chat messages are processed by AI but not permanently stored.</p>
-            </div>
-
-            <div style={{ display: 'flex', gap: 8, marginBottom: 14 }}>
-              <a href="/terms" target="_blank" style={{
-                flex: 1, textAlign: 'center', padding: '9px', borderRadius: 10,
-                background: '#F0FAF4', color: GREEN_DARK, fontSize: 13, fontWeight: 600,
-                textDecoration: 'none', border: `1px solid ${BORDER}`,
-              }}>📄 Full Terms</a>
-              <a href="/privacy" target="_blank" style={{
-                flex: 1, textAlign: 'center', padding: '9px', borderRadius: 10,
-                background: '#EFF6FF', color: '#2563EB', fontSize: 13, fontWeight: 600,
-                textDecoration: 'none', border: '1px solid #BFDBFE',
-              }}>🔒 Privacy Policy</a>
+              <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.7, marginBottom: 16 }}>
+                By using MomzVeda, you agree to our Terms of Service and Privacy Policy. These outline how the app works, how your data is handled, and your rights as a user.
+              </p>
+              <div style={{ display: 'flex', gap: 8 }}>
+                <a href="/terms" target="_blank" style={{
+                  flex: 1, textAlign: 'center', padding: '12px', borderRadius: 12,
+                  background: '#F0FAF4', color: GREEN_DARK, fontSize: 14, fontWeight: 600,
+                  textDecoration: 'none', border: `1.5px solid ${BORDER}`,
+                }}>📄 Terms of Service</a>
+                <a href="/privacy" target="_blank" style={{
+                  flex: 1, textAlign: 'center', padding: '12px', borderRadius: 12,
+                  background: '#EFF6FF', color: '#2563EB', fontSize: 14, fontWeight: 600,
+                  textDecoration: 'none', border: '1.5px solid #BFDBFE',
+                }}>🔒 Privacy Policy</a>
+              </div>
             </div>
 
             <label style={{
@@ -497,7 +491,7 @@ function OnboardingFlow({ onComplete }) {
               <div>
                 <input type="checkbox" checked={acceptedTerms} onChange={e => setAcceptedTerms(e.target.checked)} style={{ display: 'none' }} />
                 <span style={{ fontSize: 13, color: TEXT_DARK, lineHeight: 1.5 }}>
-                  I understand that MomzVeda provides <strong>general tips only</strong> and is <strong>not responsible for any harm</strong> — direct or indirect — to myself, my children, or anyone else. I accept the <strong>Terms of Service</strong> and <strong>Privacy Policy</strong>.
+                  I have read and agree to the <strong>Terms of Service</strong> and <strong>Privacy Policy</strong>.
                 </span>
               </div>
             </label>
