@@ -1,0 +1,38 @@
+[
+  {
+    "emoji": "🏠",
+    "title": "Prima settimana a casa",
+    "desc": "Affrontare i primi giorni con il neonato",
+    "prompt": "Ho appena portato il mio bambino a casa dall'ospedale. Puoi guidarmi su cosa aspettarmi nella prima settimana? Quali sono le cose più importanti su cui concentrarmi? Sono nervosa ed emozionata allo stesso tempo."
+  },
+  {
+    "emoji": "🍼",
+    "title": "Inizio dello svezzamento",
+    "desc": "Quando e come iniziare",
+    "prompt": "Penso che il mio bambino sia pronto per lo svezzamento. Puoi guidarmi su come iniziare? Quali segnali devo cercare, con quali cibi iniziare e come renderla un'esperienza positiva?"
+  },
+  {
+    "emoji": "😤",
+    "title": "Gestire i capricci",
+    "desc": "Capire le crisi",
+    "prompt": "I capricci del mio bimbo sono davvero intensi e sempre più frequenti. Puoi aiutarmi a capire cosa sta succedendo a livello di sviluppo e guidarmi su come gestirli senza perdere anch'io la calma?"
+  },
+  {
+    "emoji": "🌙",
+    "title": "Battaglie della nanna",
+    "desc": "Routine del sonno serene",
+    "prompt": "L'ora della nanna è una battaglia ogni singola sera. Puoi guidarmi nel creare una routine della nanna serena che funzioni davvero? Ho bisogno di un approccio passo dopo passo."
+  },
+  {
+    "emoji": "🎒",
+    "title": "Pronti per la scuola",
+    "desc": "Prepararsi per il grande giorno",
+    "prompt": "Il mio bambino inizierà presto la scuola e voglio assicurarmi che sia pronto — non solo dal punto di vista scolastico ma anche emotivamente e socialmente. Su cosa devo concentrarmi?"
+  },
+  {
+    "emoji": "📱",
+    "title": "Equilibrio degli schermi",
+    "desc": "Abitudini digitali sane",
+    "prompt": "Faccio fatica a gestire il tempo davanti agli schermi per i miei bambini. Come trovo un equilibrio sano senza che diventi una lotta quotidiana?"
+  }
+]

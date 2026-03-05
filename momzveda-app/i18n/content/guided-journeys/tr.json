@@ -1,0 +1,38 @@
+[
+  {
+    "emoji": "🏠",
+    "title": "Evdeki İlk Hafta",
+    "desc": "Yenidoğan günlerinde yol almak",
+    "prompt": "Bebeğimi hastaneden eve yeni getirdim. İlk haftada neler bekleyeceğimi anlatır mısın? En önemli odaklanmam gereken şeyler neler? Hem heyecanlıyım hem de gerginim."
+  },
+  {
+    "emoji": "🍼",
+    "title": "Ek Gıdaya Başlama",
+    "desc": "Ne zaman ve nasıl başlanır",
+    "prompt": "Bebeğimin ek gıdaya başlamaya hazır olduğunu düşünüyorum. Nasıl başlayacağım konusunda bana rehberlik eder misin? Hangi işaretlere bakmalıyım, hangi yiyeceklerle başlamalıyım ve bunu olumlu bir deneyim haline nasıl getiririm?"
+  },
+  {
+    "emoji": "😤",
+    "title": "Öfke Nöbetlerini Yönetme",
+    "desc": "Krizleri anlamak",
+    "prompt": "Çocuğumun öfke nöbetleri çok yoğun ve giderek sıklaşıyor. Gelişimsel olarak neler olduğunu anlamama ve kendi sakinliğimi kaybetmeden bunlarla nasıl başa çıkacağımı adım adım anlatmama yardım eder misin?"
+  },
+  {
+    "emoji": "🌙",
+    "title": "Uyku Vakti Savaşları",
+    "desc": "Huzurlu uyku rutinleri",
+    "prompt": "Uyku vakti her gece bir savaş. Gerçekten işe yarayan huzurlu bir uyku rutini oluşturmam için bana adım adım rehberlik eder misin? Adım adım bir yaklaşıma ihtiyacım var."
+  },
+  {
+    "emoji": "🎒",
+    "title": "Okula Hazır",
+    "desc": "Büyük gün için hazırlık",
+    "prompt": "Çocuğum yakında okula başlayacak ve hazır olduğundan emin olmak istiyorum — sadece akademik olarak değil, duygusal ve sosyal olarak da. Neye odaklanmalıyım?"
+  },
+  {
+    "emoji": "📱",
+    "title": "Ekran Süresi Dengesi",
+    "desc": "Sağlıklı dijital alışkanlıklar",
+    "prompt": "Çocuklarımın ekran süresini yönetmekte zorlanıyorum. Her gün kavgaya dönüşmeden sağlıklı bir denge nasıl bulurum?"
+  }
+]

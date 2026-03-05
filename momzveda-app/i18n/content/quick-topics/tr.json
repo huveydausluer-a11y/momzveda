@@ -1,0 +1,42 @@
+[
+  {
+    "emoji": "😰",
+    "label": "Bunalmış hissediyorum",
+    "prompt": "Bugün kendimi çok kaygılı ve bunalmış hissediyorum. Her şey çok fazla geliyor. Sadece anlayan biriyle konuşmaya ihtiyacım var."
+  },
+  {
+    "emoji": "💪",
+    "label": "Motivasyona ihtiyacım var",
+    "prompt": "Zor bir gün geçiriyorum ve birinin bana iyi gittiğimi hatırlatmasına ihtiyacım var. Bana biraz moral verir misin?"
+  },
+  {
+    "emoji": "😴",
+    "label": "Uyku yardımı",
+    "prompt": "Uyku konusunda zorlanıyorum — ister çocuğumun uykusu olsun ister benimki. Daha iyi uyku rutinleri ve gerçekten dinlenme için önerilerin var mı?"
+  },
+  {
+    "emoji": "😤",
+    "label": "Öfke nöbetleri & büyük duygular",
+    "prompt": "Çocuğum büyük duygular ve krizler yaşıyor. Kendi sakinliğimi kaybetmeden öfke nöbetleriyle nasıl sakin bir şekilde başa çıkabilirim?"
+  },
+  {
+    "emoji": "🍳",
+    "label": "Hızlı akşam yemeği fikri",
+    "prompt": "Neredeyse akşam yemeği zamanı ve hiç planım yok. Bana 30 dakikadan kısa sürede, sıradan malzemelerle yapabileceğim hızlı, kolay, çocukların seveceği bir tarif ver."
+  },
+  {
+    "emoji": "💔",
+    "label": "Anne suçluluğu",
+    "prompt": "Bugün anne suçluluğuyla boğuşuyorum. Yeterince yapmıyormuşum ya da doğru yapmıyormuşum gibi hissediyorum. Bakış açısı kazanmama yardım eder misin?"
+  },
+  {
+    "emoji": "🧘‍♀️",
+    "label": "Öz bakım fikirleri",
+    "prompt": "Meşgul bir anne için gerçekçi öz bakım fikirlerine ihtiyacım var. Neredeyse hiç zamanım yok ama tamamen tükendim. Gerçekten ne yapabilirim?"
+  },
+  {
+    "emoji": "🎉",
+    "label": "Eğlenceli aktivite fikirleri",
+    "prompt": "Bugün çocuklarımla yapacak eğlenceli aktivite fikirlerine ihtiyacım var. İç mekan veya dış mekan, kolay hazırlanan, özel malzeme gerektirmeyen. Ne yapalım?"
+  }
+]

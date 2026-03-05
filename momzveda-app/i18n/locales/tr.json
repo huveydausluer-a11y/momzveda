@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "Anne Arkadaşın. Her Zaman Burada.",
+    "loading": "Alanın yükleniyor...",
+    "close": "Kapat",
+    "cancel": "İptal",
+    "remove": "Kaldır",
+    "install": "Yükle",
+    "logout": "Çıkış Yap"
+  },
+
+  "login": {
+    "title": "Tekrar hoş geldin, anne!",
+    "subtitle": "Alanına giriş yap",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "senin@email.com",
+    "passwordLabel": "Şifre",
+    "passwordPlaceholder": "Şifren",
+    "submitButton": "Giriş Yap",
+    "submitting": "Giriş yapılıyor...",
+    "noAccount": "Henüz hesabın yok mu?",
+    "signUpLink": "Kayıt ol"
+  },
+
+  "signup": {
+    "title": "Köye katıl!",
+    "subtitle": "Başlamak için hesabını oluştur",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "senin@email.com",
+    "passwordLabel": "Şifre",
+    "passwordPlaceholder": "En az 6 karakter",
+    "submitButton": "Hesap Oluştur",
+    "submitting": "Hesap oluşturuluyor...",
+    "successTitle": "E-postanı kontrol et!",
+    "successMessage": "{email} adresine bir doğrulama bağlantısı gönderdik. Hesabını aktif etmek ve sohbete başlamak için tıkla!",
+    "backToLogin": "Girişe dön",
+    "hasAccount": "Zaten hesabın var mı?",
+    "signInLink": "Giriş yap"
+  },
+
+  "onboarding": {
+    "step": "Adım {current} / {total}",
+    "backButton": "← Geri",
+    "continueButton": "Devam →",
+    "finishButton": "🎉 Haydi Başlayalım!",
+    "welcome": {
+      "title": "Hoş Geldin, Anne!",
+      "description": "Alanını hazırlayalım ki senin için en iyi anne arkadaş olabileyim. Sadece bir dakika sürer — ve her şey gizli kalır.",
+      "startButton": "Hadi Başlayalım →"
+    },
+    "aboutYou": {
+      "title": "Bana kendinden bahset",
+      "subtitle": "Sohbetlerimiz kişisel olsun ve sana uygun öneriler vereyim.",
+      "nameLabel": "Adın",
+      "namePlaceholder": "Sana ne diye hitap edeyim?",
+      "ageLabel": "Yaş aralığın",
+      "countryLabel": "Nerede yaşıyorsun?",
+      "countryPlaceholder": "Ülkeni ara..."
+    },
+    "children": {
+      "title": "Miniklerinden bahset!",
+      "subtitle": "Her çocuğunun adını ve yaşını ekle ki kişiye özel, yaşa uygun öneriler vereyim ve onlara isimleriyle hitap edeyim.",
+      "childNumber": "Çocuk {number}",
+      "removeChild": "✕ Kaldır",
+      "namePlaceholder": "Çocuğun adı (veya lakıbı)",
+      "agePlaceholder": "Yaş (ör. 2, 0.5)",
+      "agePickLabel": "Veya seç...",
+      "newborn": "Yenidoğan (0-3 ay)",
+      "baby": "Bebek (3-12 ay)",
+      "toddler": "Yürümeye başlayan (1-2 yaş)",
+      "preschool": "Okul öncesi (3-5 yaş)",
+      "schoolAge": "Okul çağı (6-12)",
+      "teen": "Ergen (13-17)",
+      "expecting": "Hamile!",
+      "addAnother": "+ Başka Çocuk Ekle",
+      "expectingNote": "Hamile misin? Yaş olarak \"hamile\" yaz. Daha sonra Kids sekmesinden güncelleyebilirsin!"
+    },
+    "parenting": {
+      "title": "Ebeveynlik yolculuğun",
+      "subtitle": "Stilini anlamama yardım et ki senin havanla uyum sağlayayım.",
+      "styleLabel": "Sana ne doğru geliyor?",
+      "gentle": "Nazik & Bilinçli",
+      "gentleDesc": "Kontrol değil bağlantı",
+      "structured": "Yapılandırılmış & Rutinli",
+      "structuredDesc": "Net sınırlar & tutarlılık",
+      "balanced": "Dengeli Karışım",
+      "balancedDesc": "Esneklikle yapı",
+      "instinctive": "Akışına Bırak",
+      "instinctiveDesc": "Sezgilerime güveniyorum",
+      "figuringOut": "Hala Keşfediyorum",
+      "figuringOutDesc": "Yolda öğreniyorum!",
+      "challengesLabel": "Şu an en zor olan ne?",
+      "challengesHint": "(en fazla 4 seç)",
+      "challengesCount": "{count}/4 seçildi",
+      "sleep": "Uyku",
+      "tantrums": "Öfke nöbetleri",
+      "feeding": "Beslenme",
+      "guilt": "Anne suçluluğu",
+      "workLife": "İş-yaşam",
+      "loneliness": "Yalnızlık",
+      "anxiety": "Kaygı",
+      "partner": "Partner",
+      "screenTime": "Ekran süresi",
+      "milestones": "Gelişim endişeleri",
+      "discipline": "Sınırlar",
+      "selfCare": "Bana zaman",
+      "supportLabel": "Desteğin nasıl görünüyor?",
+      "partnerHome": "Partner evde",
+      "partnerBusy": "Partner var ama genelde meşgul",
+      "familyNearby": "Aile yakın",
+      "familyFar": "Aile uzak",
+      "solo": "Tek ebeveyn",
+      "community": "Arkadaşlar / topluluk",
+      "mixed": "Karışık / değişiyor"
+    },
+    "terms": {
+      "title": "Neredeyse hazır!",
+      "subtitle": "Başlamadan önce lütfen şartlarımızı oku ve kabul et.",
+      "description": "MomzVeda'yı kullanarak Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursun. Bunlar uygulamanın nasıl çalıştığını, verilerinin nasıl işlendiğini ve kullanıcı olarak haklarını açıklar.",
+      "termsLink": "📄 Hizmet Şartları",
+      "privacyLink": "🔒 Gizlilik Politikası",
+      "acceptCheckbox": "<strong>Hizmet Şartları</strong>'nı ve <strong>Gizlilik Politikası</strong>'nı okudum ve kabul ediyorum."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "BUGÜNÜN OLUMLAMASI",
+    "newAffirmation": "↻ Yeni",
+    "welcomeGreeting": "Selam {name}! 👋 Bana ihtiyacın olduğunda buradayım.",
+    "welcomeKidsIntro": "{kids} hakkında her şeyi biliyorum — hadi konuşalım! 💚",
+    "tapPrompt": "Bir konuya dokun veya bir şey yaz!",
+    "inputPlaceholder": "Benimle konuş, {name}... 💬",
+    "inputPlaceholderLimited": "Sınırsız mesaj için yükseltin ✨",
+    "freeMessagesLeft": "Bugün {count} ücretsiz mesaj hakkın kaldı",
+    "freeMessagesLeft_plural": "Bugün {count} ücretsiz mesaj hakkın kaldı",
+    "limitReached": "Günlük limit doldu — Sınırsız için yükseltin ✨",
+    "errorRetry": "Hmm, bir daha deneyeyim 💛",
+    "errorGeneral": "Bir şeyler ters gitti! 😅 Birazdan tekrar dene. Senin için buradayım! 💛"
+  },
+
+  "tabs": {
+    "chat": "💬 Sohbet",
+    "guides": "🗺️ Rehberler",
+    "guidesLocked": "🗺️ Rehberler 🔒",
+    "kids": "👶 Çocuklar",
+    "wins": "🌟 Başarılar"
+  },
+
+  "journeys": {
+    "title": "Rehberli Yolculuklar",
+    "premium": "✨ PREMİYUM",
+    "subtitle": "Yaygın dönüm noktaları için adım adım rehberlik",
+    "unlockTitle": "Rehberli Yolculukları Aç",
+    "unlockDesc": "Uyku eğitimi, ek gıdaya geçiş, öfke nöbetlerini yönetme ve daha fazlası için adım adım rehberlik al — üstelik sınırsız günlük mesaj.",
+    "upgradeButton": "Premium'a Yükseltin",
+    "priceNote": "€9,99/ay'dan başlayan — istediğin zaman iptal et"
+  },
+
+  "kids": {
+    "title": "Çocukların",
+    "subtitle": "MomzVeda'nın kişiye özel, yaşa uygun öneriler verebilmesi için çocuklarını ekle",
+    "ageLabel": "Yaş: {age}",
+    "addChild": "+ Çocuk ekle",
+    "namePlaceholder": "Çocuğun adı",
+    "agePlaceholder": "Yaş (ör. 2, 6 aylık, 10)",
+    "notesPlaceholder": "Notlar (alerjiler, ilgi alanları...)",
+    "addButton": "Çocuk Ekle"
+  },
+
+  "wins": {
+    "title": "Anne Başarıları 🌟",
+    "subtitle": "Küçük zaferleri kutla — bunu hak ediyorsun!",
+    "placeholder": "Bugünün başarısı ne?",
+    "emptyTitle": "Henüz bir başarı yok — ama buradasın, bu bile bir başarı! 💛",
+    "emptyHint": "Dene: \"Bebek 5 saat uyudu\" veya \"Akşam yemeğini sıfırdan yaptım\""
+  },
+
+  "emergency": {
+    "title": "🆘 Acil Durum Kaynakları"
+  },
+
+  "installBanner": {
+    "title": "📲 MomzVeda'yı Yükle",
+    "subtitle": "Hızlı erişim için ana ekranına ekle"
+  },
+
+  "premiumBanner": "Premium'a hoş geldin! Sınırsız mesaj & tüm Rehberler açık 💛",
+
+  "upgrade": {
+    "title": "Premium'a Yükseltin",
+    "cancelAnytime": "İstediğin zaman iptal et",
+    "subtitle": "Tam MomzVeda deneyimini yaşa — çünkü sınırsız desteği hak ediyorsun, anne.",
+    "unlimitedMessages": "Sınırsız günlük mesaj",
+    "fullJourneys": "Tüm Rehberli Yolculuklar kütüphanesi",
+    "prioritySpeed": "Öncelikli yanıt hızı",
+    "newGuides": "Her ay yeni rehberler",
+    "monthly": "€9,99/ay",
+    "yearly": "€69,99/yıl",
+    "yearlySave": "%42 tasarruf",
+    "maybeLater": "Belki sonra"
+  },
+
+  "help": "🆘 Yardım"
+}

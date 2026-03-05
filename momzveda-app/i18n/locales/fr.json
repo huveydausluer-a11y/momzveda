@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "Ton amie maman. Toujours là.",
+    "loading": "Chargement de ton espace...",
+    "close": "Fermer",
+    "cancel": "Annuler",
+    "remove": "Supprimer",
+    "install": "Installer",
+    "logout": "Déconnexion"
+  },
+
+  "login": {
+    "title": "Bon retour, maman !",
+    "subtitle": "Connecte-toi à ton espace",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "ton@email.com",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Ton mot de passe",
+    "submitButton": "Se connecter",
+    "submitting": "Connexion en cours...",
+    "noAccount": "Tu n'as pas de compte ?",
+    "signUpLink": "Inscris-toi"
+  },
+
+  "signup": {
+    "title": "Rejoins le village !",
+    "subtitle": "Crée ton compte pour commencer",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "ton@email.com",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Au moins 6 caractères",
+    "submitButton": "Créer un compte",
+    "submitting": "Création du compte...",
+    "successTitle": "Vérifie ta boîte mail !",
+    "successMessage": "Nous avons envoyé un lien de confirmation à {email}. Clique dessus pour activer ton compte et commencer à discuter !",
+    "backToLogin": "Retour à la connexion",
+    "hasAccount": "Tu as déjà un compte ?",
+    "signInLink": "Connecte-toi"
+  },
+
+  "onboarding": {
+    "step": "Étape {current} sur {total}",
+    "backButton": "← Retour",
+    "continueButton": "Continuer →",
+    "finishButton": "🎉 C'est parti !",
+    "welcome": {
+      "title": "Bienvenue, Maman !",
+      "description": "Configurons ton espace pour que je puisse être la meilleure amie maman pour toi. Ça ne prend qu'une minute — et tout reste privé.",
+      "startButton": "Commençons →"
+    },
+    "aboutYou": {
+      "title": "Parle-moi de toi",
+      "subtitle": "Pour que nos discussions soient personnelles et que je puisse te donner des conseils adaptés.",
+      "nameLabel": "Ton prénom",
+      "namePlaceholder": "Comment je t'appelle ?",
+      "ageLabel": "Ta tranche d'âge",
+      "countryLabel": "Où habites-tu ?",
+      "countryPlaceholder": "Cherche ton pays..."
+    },
+    "children": {
+      "title": "Parle-moi de tes petits !",
+      "subtitle": "Ajoute le nom et l'âge de chaque enfant pour que je puisse donner des conseils personnalisés et adaptés à leur âge, et les appeler par leur prénom.",
+      "childNumber": "Enfant {number}",
+      "removeChild": "✕ Supprimer",
+      "namePlaceholder": "Prénom de l'enfant (ou surnom)",
+      "agePlaceholder": "Âge (ex. 2, 0.5)",
+      "agePickLabel": "Ou choisis...",
+      "newborn": "Nouveau-né (0-3 mois)",
+      "baby": "Bébé (3-12 mois)",
+      "toddler": "Tout-petit (1-2 ans)",
+      "preschool": "Maternelle (3-5 ans)",
+      "schoolAge": "Âge scolaire (6-12)",
+      "teen": "Ado (13-17)",
+      "expecting": "Enceinte !",
+      "addAnother": "+ Ajouter un autre enfant",
+      "expectingNote": "Enceinte ? Tape \"expecting\" comme âge. Tu pourras toujours mettre à jour dans l'onglet Kids !"
+    },
+    "parenting": {
+      "title": "Ton parcours de parent",
+      "subtitle": "Aide-moi à comprendre ton style pour que je m'adapte à toi.",
+      "styleLabel": "Qu'est-ce qui te correspond ?",
+      "gentle": "Douce & Consciente",
+      "gentleDesc": "La connexion avant le contrôle",
+      "structured": "Structurée & Routinière",
+      "structuredDesc": "Limites claires & régularité",
+      "balanced": "Mix Équilibré",
+      "balancedDesc": "Structure avec flexibilité",
+      "instinctive": "Au feeling",
+      "instinctiveDesc": "Je fais confiance à mon instinct",
+      "figuringOut": "J'apprends en chemin",
+      "figuringOutDesc": "J'apprends au fur et à mesure !",
+      "challengesLabel": "Qu'est-ce qui est le plus difficile en ce moment ?",
+      "challengesHint": "(choisis jusqu'à 4)",
+      "challengesCount": "{count}/4 sélectionnés",
+      "sleep": "Sommeil",
+      "tantrums": "Crises de colère",
+      "feeding": "Alimentation",
+      "guilt": "Culpabilité de maman",
+      "workLife": "Équilibre pro-perso",
+      "loneliness": "Solitude",
+      "anxiety": "Anxiété",
+      "partner": "Couple",
+      "screenTime": "Écrans",
+      "milestones": "Inquiétudes développement",
+      "discipline": "Limites",
+      "selfCare": "Temps pour moi",
+      "supportLabel": "À quoi ressemble ton soutien ?",
+      "partnerHome": "Partenaire à la maison",
+      "partnerBusy": "Partenaire, mais souvent occupé",
+      "familyNearby": "Famille proche",
+      "familyFar": "Famille loin",
+      "solo": "Parent solo",
+      "community": "Amis / communauté",
+      "mixed": "Un mélange / ça varie"
+    },
+    "terms": {
+      "title": "Presque fini !",
+      "subtitle": "Merci de lire et d'accepter nos conditions avant de commencer.",
+      "description": "En utilisant MomzVeda, tu acceptes nos Conditions d'utilisation et notre Politique de confidentialité. Elles expliquent comment l'app fonctionne, comment tes données sont traitées et tes droits en tant qu'utilisatrice.",
+      "termsLink": "📄 Conditions d'utilisation",
+      "privacyLink": "🔒 Politique de confidentialité",
+      "acceptCheckbox": "J'ai lu et j'accepte les <strong>Conditions d'utilisation</strong> et la <strong>Politique de confidentialité</strong>."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "AFFIRMATION DU JOUR",
+    "newAffirmation": "↻ Nouvelle",
+    "welcomeGreeting": "Salut {name} ! 👋 Je suis là quand tu as besoin de moi.",
+    "welcomeKidsIntro": "Je connais bien {kids} — discutons ! 💚",
+    "tapPrompt": "Appuie sur un sujet ou écris ce que tu veux !",
+    "inputPlaceholder": "Parle-moi, {name}... 💬",
+    "inputPlaceholderLimited": "Passe à Premium pour des messages illimités ✨",
+    "freeMessagesLeft": "{count} message gratuit restant aujourd'hui",
+    "freeMessagesLeft_plural": "{count} messages gratuits restants aujourd'hui",
+    "limitReached": "Limite quotidienne atteinte — Passe à Premium pour l'illimité ✨",
+    "errorRetry": "Hmm, laisse-moi réessayer 💛",
+    "errorGeneral": "Oups, quelque chose a bugué ! 😅 Réessaie dans un instant. Je suis là pour toi ! 💛"
+  },
+
+  "tabs": {
+    "chat": "💬 Chat",
+    "guides": "🗺️ Guides",
+    "guidesLocked": "🗺️ Guides 🔒",
+    "kids": "👶 Enfants",
+    "wins": "🌟 Victoires"
+  },
+
+  "journeys": {
+    "title": "Parcours Guidés",
+    "premium": "✨ PREMIUM",
+    "subtitle": "Des guides étape par étape pour les grandes étapes",
+    "unlockTitle": "Débloquer les Parcours Guidés",
+    "unlockDesc": "Accède à des guides étape par étape pour l'apprentissage du sommeil, la diversification alimentaire, la gestion des crises, et plus encore — plus des messages quotidiens illimités.",
+    "upgradeButton": "Passer à Premium",
+    "priceNote": "À partir de €9,99/mois — annule quand tu veux"
+  },
+
+  "kids": {
+    "title": "Tes enfants",
+    "subtitle": "Ajoute tes enfants pour que MomzVeda puisse donner des conseils personnalisés et adaptés à leur âge",
+    "ageLabel": "Âge : {age}",
+    "addChild": "+ Ajouter un enfant",
+    "namePlaceholder": "Prénom de l'enfant",
+    "agePlaceholder": "Âge (ex. 2, 6 mois, 10)",
+    "notesPlaceholder": "Notes (allergies, centres d'intérêt...)",
+    "addButton": "Ajouter l'enfant"
+  },
+
+  "wins": {
+    "title": "Victoires de Maman 🌟",
+    "subtitle": "Célèbre les petites victoires — tu le mérites !",
+    "placeholder": "Quelle est ta victoire du jour ?",
+    "emptyTitle": "Pas encore de victoire enregistrée — mais tu es là, et c'est déjà une victoire ! 💛",
+    "emptyHint": "Essaie : \"Bébé a dormi 5 heures\" ou \"J'ai cuisiné le dîner maison\""
+  },
+
+  "emergency": {
+    "title": "🆘 Ressources d'urgence"
+  },
+
+  "installBanner": {
+    "title": "📲 Installer MomzVeda",
+    "subtitle": "Ajoute-le à ton écran d'accueil pour un accès rapide"
+  },
+
+  "premiumBanner": "Bienvenue en Premium ! Messages illimités & tous les Guides débloqués 💛",
+
+  "upgrade": {
+    "title": "Passer à Premium",
+    "cancelAnytime": "Annule quand tu veux",
+    "subtitle": "Profite de l'expérience complète MomzVeda — parce que tu mérites un soutien illimité, maman.",
+    "unlimitedMessages": "Messages quotidiens illimités",
+    "fullJourneys": "Bibliothèque complète des Parcours Guidés",
+    "prioritySpeed": "Vitesse de réponse prioritaire",
+    "newGuides": "Nouveaux guides chaque mois",
+    "monthly": "€9,99/mois",
+    "yearly": "€69,99/an",
+    "yearlySave": "économise 42%",
+    "maybeLater": "Peut-être plus tard"
+  },
+
+  "help": "🆘 Aide"
+}

@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "Sua Amiga Mãe. Sempre Aqui.",
+    "loading": "Carregando seu espaço...",
+    "close": "Fechar",
+    "cancel": "Cancelar",
+    "remove": "Remover",
+    "install": "Instalar",
+    "logout": "Sair"
+  },
+
+  "login": {
+    "title": "Bem-vinda de volta, mãe!",
+    "subtitle": "Entre no seu espaço",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Sua senha",
+    "submitButton": "Entrar",
+    "submitting": "Entrando...",
+    "noAccount": "Ainda não tem conta?",
+    "signUpLink": "Cadastre-se"
+  },
+
+  "signup": {
+    "title": "Faça parte da tribo!",
+    "subtitle": "Crie sua conta para começar",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "No mínimo 6 caracteres",
+    "submitButton": "Criar Conta",
+    "submitting": "Criando conta...",
+    "successTitle": "Confira seu e-mail!",
+    "successMessage": "Enviamos um link de confirmação para {email}. Clique nele para ativar sua conta e começar a conversar!",
+    "backToLogin": "Voltar ao login",
+    "hasAccount": "Já tem uma conta?",
+    "signInLink": "Entrar"
+  },
+
+  "onboarding": {
+    "step": "Passo {current} de {total}",
+    "backButton": "← Voltar",
+    "continueButton": "Continuar →",
+    "finishButton": "🎉 Vamos lá!",
+    "welcome": {
+      "title": "Bem-vinda, Mãe!",
+      "description": "Vamos preparar seu espaço para que eu possa ser a melhor amiga mãe pra você. Leva só um minutinho — e tudo fica privado.",
+      "startButton": "Vamos Começar →"
+    },
+    "aboutYou": {
+      "title": "Me conta sobre você",
+      "subtitle": "Pra nossas conversas serem pessoais e eu poder dar dicas relevantes.",
+      "nameLabel": "Seu primeiro nome",
+      "namePlaceholder": "Como posso te chamar?",
+      "ageLabel": "Sua faixa etária",
+      "countryLabel": "Onde você mora?",
+      "countryPlaceholder": "Buscar seu país..."
+    },
+    "children": {
+      "title": "Me conta sobre seus pequenos!",
+      "subtitle": "Adicione o nome e a idade de cada filho pra eu poder dar dicas personalizadas por idade e chamá-los pelo nome.",
+      "childNumber": "Filho {number}",
+      "removeChild": "✕ Remover",
+      "namePlaceholder": "Nome da criança (ou apelido)",
+      "agePlaceholder": "Idade (ex: 2, 0.5)",
+      "agePickLabel": "Ou escolha...",
+      "newborn": "Recém-nascido (0-3 m)",
+      "baby": "Bebê (3-12 m)",
+      "toddler": "Criança pequena (1-2 a)",
+      "preschool": "Pré-escola (3-5 a)",
+      "schoolAge": "Idade escolar (6-12)",
+      "teen": "Adolescente (13-17)",
+      "expecting": "Grávida!",
+      "addAnother": "+ Adicionar Outro Filho",
+      "expectingNote": "Grávida? Digite \"grávida\" como idade. Você pode atualizar depois na aba Kids!"
+    },
+    "parenting": {
+      "title": "Sua jornada de maternidade",
+      "subtitle": "Me ajude a entender seu estilo pra eu poder combinar com a sua vibe.",
+      "styleLabel": "O que parece certo pra você?",
+      "gentle": "Gentil & Consciente",
+      "gentleDesc": "Conexão acima do controle",
+      "structured": "Estruturado & Rotina",
+      "structuredDesc": "Limites claros & consistência",
+      "balanced": "Equilíbrio",
+      "balancedDesc": "Estrutura com flexibilidade",
+      "instinctive": "Seguir o Fluxo",
+      "instinctiveDesc": "Confio nos meus instintos",
+      "figuringOut": "Ainda Descobrindo",
+      "figuringOutDesc": "Aprendendo no caminho!",
+      "challengesLabel": "O que está mais difícil agora?",
+      "challengesHint": "(escolha até 4)",
+      "challengesCount": "{count}/4 selecionados",
+      "sleep": "Sono",
+      "tantrums": "Birras",
+      "feeding": "Alimentação",
+      "guilt": "Culpa de mãe",
+      "workLife": "Trabalho-vida",
+      "loneliness": "Solidão",
+      "anxiety": "Ansiedade",
+      "partner": "Parceiro(a)",
+      "screenTime": "Tempo de tela",
+      "milestones": "Preocupações com desenvolvimento",
+      "discipline": "Limites",
+      "selfCare": "Tempo pra mim",
+      "supportLabel": "Como é seu apoio?",
+      "partnerHome": "Parceiro(a) em casa",
+      "partnerBusy": "Parceiro(a), mas sempre ocupado(a)",
+      "familyNearby": "Família por perto",
+      "familyFar": "Família longe",
+      "solo": "Mãe solo",
+      "community": "Amigos / comunidade",
+      "mixed": "Uma mistura / varia"
+    },
+    "terms": {
+      "title": "Quase lá!",
+      "subtitle": "Por favor, leia e aceite nossos termos antes de começarmos.",
+      "description": "Ao usar o MomzVeda, você concorda com nossos Termos de Serviço e Política de Privacidade. Eles descrevem como o app funciona, como seus dados são tratados e seus direitos como usuária.",
+      "termsLink": "📄 Termos de Serviço",
+      "privacyLink": "🔒 Política de Privacidade",
+      "acceptCheckbox": "Eu li e concordo com os <strong>Termos de Serviço</strong> e a <strong>Política de Privacidade</strong>."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "AFIRMAÇÃO DE HOJE",
+    "newAffirmation": "↻ Nova",
+    "welcomeGreeting": "Oi {name}! 👋 Estou aqui sempre que precisar.",
+    "welcomeKidsIntro": "Eu sei tudo sobre {kids} — vamos conversar! 💚",
+    "tapPrompt": "Toque em um tema ou digite qualquer coisa!",
+    "inputPlaceholder": "Fala comigo, {name}... 💬",
+    "inputPlaceholderLimited": "Faça upgrade para mensagens ilimitadas ✨",
+    "freeMessagesLeft": "{count} mensagem grátis restante hoje",
+    "freeMessagesLeft_plural": "{count} mensagens grátis restantes hoje",
+    "limitReached": "Limite diário atingido — Faça upgrade para ilimitado ✨",
+    "errorRetry": "Hmm, deixa eu tentar de novo 💛",
+    "errorGeneral": "Algo deu errado! 😅 Tenta de novo daqui a pouco. Estou aqui pra você! 💛"
+  },
+
+  "tabs": {
+    "chat": "💬 Chat",
+    "guides": "🗺️ Guias",
+    "guidesLocked": "🗺️ Guias 🔒",
+    "kids": "👶 Filhos",
+    "wins": "🌟 Vitórias"
+  },
+
+  "journeys": {
+    "title": "Jornadas Guiadas",
+    "premium": "✨ PREMIUM",
+    "subtitle": "Orientação passo a passo para marcos comuns",
+    "unlockTitle": "Desbloqueie Jornadas Guiadas",
+    "unlockDesc": "Receba orientação passo a passo para treino do sono, introdução alimentar, lidar com birras e muito mais — além de mensagens diárias ilimitadas.",
+    "upgradeButton": "Fazer Upgrade para Premium",
+    "priceNote": "A partir de €9,99/mês — cancele quando quiser"
+  },
+
+  "kids": {
+    "title": "Seus Filhos",
+    "subtitle": "Adicione seus filhos para que o MomzVeda possa dar conselhos personalizados por idade",
+    "ageLabel": "Idade: {age}",
+    "addChild": "+ Adicionar um filho",
+    "namePlaceholder": "Nome da criança",
+    "agePlaceholder": "Idade (ex: 2, 6 meses, 10)",
+    "notesPlaceholder": "Notas (alergias, interesses...)",
+    "addButton": "Adicionar Filho"
+  },
+
+  "wins": {
+    "title": "Vitórias de Mãe 🌟",
+    "subtitle": "Celebre as pequenas vitórias — você merece!",
+    "placeholder": "Qual é sua vitória de hoje?",
+    "emptyTitle": "Nenhuma vitória registrada ainda — mas você está aqui, e isso já é uma vitória! 💛",
+    "emptyHint": "Tente: \"Bebê dormiu 5 horas\" ou \"Fiz o jantar do zero\""
+  },
+
+  "emergency": {
+    "title": "🆘 Recursos de Emergência"
+  },
+
+  "installBanner": {
+    "title": "📲 Instale o MomzVeda",
+    "subtitle": "Adicione à tela inicial para acesso rápido"
+  },
+
+  "premiumBanner": "Bem-vinda ao Premium! Mensagens ilimitadas & todos os Guias desbloqueados 💛",
+
+  "upgrade": {
+    "title": "Fazer Upgrade para Premium",
+    "cancelAnytime": "Cancele quando quiser",
+    "subtitle": "Tenha a experiência completa do MomzVeda — porque você merece apoio ilimitado, mãe.",
+    "unlimitedMessages": "Mensagens diárias ilimitadas",
+    "fullJourneys": "Biblioteca completa de Jornadas Guiadas",
+    "prioritySpeed": "Velocidade de resposta prioritária",
+    "newGuides": "Novos guias adicionados mensalmente",
+    "monthly": "€9,99/mês",
+    "yearly": "€69,99/ano",
+    "yearlySave": "economize 42%",
+    "maybeLater": "Talvez depois"
+  },
+
+  "help": "🆘 Ajuda"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "emoji": "😰",
+    "label": "Ik ben overweldigd",
+    "prompt": "Ik voel me vandaag echt angstig en overweldigd. Alles voelt als te veel. Ik heb gewoon iemand nodig om mee te praten die het begrijpt."
+  },
+  {
+    "emoji": "💪",
+    "label": "Ik heb een peptalk nodig",
+    "prompt": "Ik heb een zware dag en ik heb gewoon iemand nodig die me eraan herinnert dat het oké gaat. Kun je me een peptalk geven?"
+  },
+  {
+    "emoji": "😴",
+    "label": "Slaaphulp",
+    "prompt": "Ik worstel met slaap — of het nu de slaap van mijn kind is of die van mij. Heb je tips voor betere bedtijdroutines en echt rust krijgen?"
+  },
+  {
+    "emoji": "😤",
+    "label": "Driftbuien & grote emoties",
+    "prompt": "Mijn kind heeft grote emoties en meltdowns. Hoe ga ik kalm om met driftbuien zonder zelf mijn kalmte te verliezen?"
+  },
+  {
+    "emoji": "🍳",
+    "label": "Snel avondeten-idee",
+    "prompt": "Het is bijna etenstijd en ik heb geen plan. Geef me één snel, makkelijk, kindvriendelijk recept dat ik in minder dan 30 minuten kan maken met gewone ingrediënten."
+  },
+  {
+    "emoji": "💔",
+    "label": "Mama-schuldgevoel",
+    "prompt": "Ik worstel vandaag met mama-schuldgevoel. Ik heb het gevoel dat ik niet genoeg doe of het niet goed doe. Kun je me helpen het in perspectief te zien?"
+  },
+  {
+    "emoji": "🧘‍♀️",
+    "label": "Zelfzorg-ideeën",
+    "prompt": "Ik heb realistische zelfzorg-ideeën nodig voor een drukke moeder. Ik heb bijna geen tijd maar ik ben helemaal leeg. Wat kan ik echt doen?"
+  },
+  {
+    "emoji": "🎉",
+    "label": "Leuke activiteiten",
+    "prompt": "Ik heb leuke activiteiten-ideeën nodig voor vandaag met mijn kinderen. Binnen of buiten, makkelijk op te zetten, geen speciaal materiaal nodig. Wat zullen we doen?"
+  }
+]

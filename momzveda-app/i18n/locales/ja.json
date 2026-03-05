@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "あなたのママ友。いつもそばに。",
+    "loading": "あなたのスペースを読み込み中...",
+    "close": "閉じる",
+    "cancel": "キャンセル",
+    "remove": "削除",
+    "install": "インストール",
+    "logout": "ログアウト"
+  },
+
+  "login": {
+    "title": "おかえりなさい、ママ！",
+    "subtitle": "あなたのスペースにサインイン",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワード",
+    "submitButton": "サインイン",
+    "submitting": "サインイン中...",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "signUpLink": "新規登録"
+  },
+
+  "signup": {
+    "title": "ママの輪に加わろう！",
+    "subtitle": "アカウントを作成して始めましょう",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "6文字以上",
+    "submitButton": "アカウント作成",
+    "submitting": "アカウント作成中...",
+    "successTitle": "メールを確認してね！",
+    "successMessage": "{email} に確認リンクを送りました。リンクをクリックしてアカウントを有効にして、チャットを始めよう！",
+    "backToLogin": "ログインに戻る",
+    "hasAccount": "すでにアカウントをお持ちですか？",
+    "signInLink": "サインイン"
+  },
+
+  "onboarding": {
+    "step": "ステップ {current}/{total}",
+    "backButton": "← 戻る",
+    "continueButton": "次へ →",
+    "finishButton": "🎉 始めよう！",
+    "welcome": {
+      "title": "ようこそ、ママ！",
+      "description": "あなたにぴったりのママ友になれるように、スペースを設定しましょう。1分で終わるよ — すべてプライベートだから安心してね。",
+      "startButton": "始めよう →"
+    },
+    "aboutYou": {
+      "title": "あなたのことを教えて",
+      "subtitle": "チャットをもっとあなたに合ったものにして、ぴったりのアドバイスができるようにするためだよ。",
+      "nameLabel": "お名前（名）",
+      "namePlaceholder": "なんて呼んだらいい？",
+      "ageLabel": "年齢層",
+      "countryLabel": "どこに住んでる？",
+      "countryPlaceholder": "国を検索..."
+    },
+    "children": {
+      "title": "お子さんのことを教えて！",
+      "subtitle": "お子さんの名前と年齢を追加してね。年齢に合ったアドバイスができて、名前で呼べるようになるよ。",
+      "childNumber": "お子さん {number}",
+      "removeChild": "✕ 削除",
+      "namePlaceholder": "お子さんの名前（ニックネームでもOK）",
+      "agePlaceholder": "年齢（例: 2、0.5）",
+      "agePickLabel": "または選択...",
+      "newborn": "新生児（0-3ヶ月）",
+      "baby": "赤ちゃん（3-12ヶ月）",
+      "toddler": "よちよち歩き（1-2歳）",
+      "preschool": "幼稚園児（3-5歳）",
+      "schoolAge": "小学生（6-12歳）",
+      "teen": "ティーン（13-17歳）",
+      "expecting": "妊娠中！",
+      "addAnother": "+ もう一人追加",
+      "expectingNote": "妊娠中？年齢欄に「expecting」と入力してね。後からキッズタブでいつでも変更できるよ！"
+    },
+    "parenting": {
+      "title": "あなたの子育てジャーニー",
+      "subtitle": "あなたのスタイルを知って、ぴったりのサポートができるようにするね。",
+      "styleLabel": "しっくりくるのはどれ？",
+      "gentle": "やさしい子育て",
+      "gentleDesc": "コントロールよりつながり",
+      "structured": "しっかりルーティン",
+      "structuredDesc": "明確なルールと一貫性",
+      "balanced": "バランス型",
+      "balancedDesc": "ルールと柔軟さのミックス",
+      "instinctive": "流れに任せる",
+      "instinctiveDesc": "自分の直感を信じる",
+      "figuringOut": "まだ模索中",
+      "figuringOutDesc": "やりながら学んでる！",
+      "challengesLabel": "今一番大変なことは？",
+      "challengesHint": "（4つまで選べるよ）",
+      "challengesCount": "{count}/4 選択中",
+      "sleep": "睡眠",
+      "tantrums": "かんしゃく",
+      "feeding": "食事",
+      "guilt": "ママの罪悪感",
+      "workLife": "仕事と育児",
+      "loneliness": "孤独感",
+      "anxiety": "不安",
+      "partner": "パートナー",
+      "screenTime": "スクリーンタイム",
+      "milestones": "発達の心配",
+      "discipline": "しつけ",
+      "selfCare": "自分の時間",
+      "supportLabel": "サポート体制はどんな感じ？",
+      "partnerHome": "パートナーが家にいる",
+      "partnerBusy": "パートナーはいるけど忙しい",
+      "familyNearby": "近くに家族がいる",
+      "familyFar": "家族が遠方",
+      "solo": "シングルマザー",
+      "community": "友人 / コミュニティ",
+      "mixed": "いろいろ / その時による"
+    },
+    "terms": {
+      "title": "もうすぐ完了！",
+      "subtitle": "始める前に利用規約を確認して同意してね。",
+      "description": "MomzVedaを利用することで、利用規約とプライバシーポリシーに同意したことになります。アプリの仕組み、データの取り扱い、ユーザーとしての権利について説明しています。",
+      "termsLink": "📄 利用規約",
+      "privacyLink": "🔒 プライバシーポリシー",
+      "acceptCheckbox": "<strong>利用規約</strong>と<strong>プライバシーポリシー</strong>を読み、同意します。"
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "今日のアファメーション",
+    "newAffirmation": "↻ 新しく",
+    "welcomeGreeting": "こんにちは {name}！👋 いつでもここにいるよ。",
+    "welcomeKidsIntro": "{kids} のこと、ちゃんと知ってるよ — おしゃべりしよう！💚",
+    "tapPrompt": "トピックをタップするか、何でも書いてね！",
+    "inputPlaceholder": "話してね、{name}... 💬",
+    "inputPlaceholderLimited": "アップグレードでメッセージ無制限に ✨",
+    "freeMessagesLeft": "今日の無料メッセージ残り {count} 通",
+    "freeMessagesLeft_plural": "今日の無料メッセージ残り {count} 通",
+    "limitReached": "今日の上限に達しました — アップグレードで無制限に ✨",
+    "errorRetry": "うーん、もう一回やってみるね 💛",
+    "errorGeneral": "何かおかしくなっちゃった！😅 ちょっと待ってからもう一度試してね。ここにいるからね！💛"
+  },
+
+  "tabs": {
+    "chat": "💬 チャット",
+    "guides": "🗺️ ガイド",
+    "guidesLocked": "🗺️ ガイド 🔒",
+    "kids": "👶 キッズ",
+    "wins": "🌟 ママの勝利"
+  },
+
+  "journeys": {
+    "title": "ガイド付きジャーニー",
+    "premium": "✨ プレミアム",
+    "subtitle": "よくある節目のためのステップバイステップガイド",
+    "unlockTitle": "ガイド付きジャーニーを解放",
+    "unlockDesc": "ねんねトレーニング、離乳食の始め方、かんしゃく対策などのステップバイステップガイドに加えて、毎日のメッセージも無制限に。",
+    "upgradeButton": "プレミアムにアップグレード",
+    "priceNote": "€9.99/月から — いつでもキャンセルOK"
+  },
+
+  "kids": {
+    "title": "お子さん情報",
+    "subtitle": "お子さんを追加して、MomzVedaから年齢に合ったアドバイスをもらおう",
+    "ageLabel": "年齢: {age}",
+    "addChild": "+ お子さんを追加",
+    "namePlaceholder": "お子さんの名前",
+    "agePlaceholder": "年齢（例: 2歳、6ヶ月、10歳）",
+    "notesPlaceholder": "メモ（アレルギー、好きなこと...）",
+    "addButton": "お子さんを追加"
+  },
+
+  "wins": {
+    "title": "ママの勝利 🌟",
+    "subtitle": "小さな勝利をお祝いしよう — あなたはそれに値するよ！",
+    "placeholder": "今日の勝利は何？",
+    "emptyTitle": "まだ勝利の記録はないけど — ここにいるだけですでに勝利だよ！💛",
+    "emptyHint": "例: 「赤ちゃんが5時間寝た」や「夕飯を一から作った」"
+  },
+
+  "emergency": {
+    "title": "🆘 緊急リソース"
+  },
+
+  "installBanner": {
+    "title": "📲 MomzVedaをインストール",
+    "subtitle": "ホーム画面に追加してすぐアクセス"
+  },
+
+  "premiumBanner": "プレミアムへようこそ！メッセージ無制限＆全ガイド解放 💛",
+
+  "upgrade": {
+    "title": "プレミアムにアップグレード",
+    "cancelAnytime": "いつでもキャンセルOK",
+    "subtitle": "MomzVedaのフル体験を — ママには無制限のサポートを受ける資格があるから。",
+    "unlimitedMessages": "毎日のメッセージが無制限",
+    "fullJourneys": "ガイド付きジャーニー全ライブラリ",
+    "prioritySpeed": "優先レスポンス",
+    "newGuides": "毎月新しいガイドを追加",
+    "monthly": "€9.99/月",
+    "yearly": "€69.99/年",
+    "yearlySave": "42%お得",
+    "maybeLater": "また後で"
+  },
+
+  "help": "🆘 ヘルプ"
+}

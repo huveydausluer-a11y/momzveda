@@ -3,84 +3,14 @@
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { createClient } from '../lib/supabase-browser';
+import { useTranslation } from '../i18n';
 
 // ── CONSTANTS ──
 const GREEN = '#22C55E', GREEN_DARK = '#16A34A', BLUE = '#3B82F6', BG = '#F2F8F5';
 const CARD_BG = '#FFFFFF', TEXT_DARK = '#1A2E23', TEXT_MID = '#3D6B50', TEXT_LIGHT = '#6B9A7E';
 const BORDER = '#D5E8DC', BORDER_LIGHT = '#E8F2EC';
 
-const AFFIRMATIONS = [
-  "You're doing an amazing job, even on the hard days. 💛",
-  "It's okay to not have all the answers. You're learning alongside your little ones.",
-  "Taking a moment for yourself isn't selfish — it's necessary. You matter too.",
-  "Your kids don't need a perfect mom. They need a happy one.",
-  "Every small act of love you give is building something beautiful.",
-  "You are exactly the mom your children need.",
-  "Breathe. You've survived 100% of your hardest days so far.",
-  "It's okay to ask for help. Strong moms know when to lean on others.",
-  "Your patience today is shaping who they become tomorrow.",
-  "Some days you're the superhero. Some days you're surviving. Both count.",
-  "You don't have to enjoy every moment to be a great mom.",
-  "The laundry can wait. The dishes can wait. Your mental health can't.",
-  "Trust your instincts. Nobody knows your child like you do.",
-  "You are more than 'just a mom.' You are everything to someone.",
-  "Your child isn't giving you a hard time — they're having a hard time.",
-];
-
-const DAILY_TIPS = {
-  "newborn": [
-    "💡 Skin-to-skin contact isn't just for the first day — it helps regulate your baby's temperature, heart rate, and stress hormones for months.",
-    "💡 Your newborn can only see 8-12 inches clearly — that's exactly the distance to your face while feeding. Nature is amazing!",
-    "💡 It's okay if your house is messy. Your only job right now is to rest, feed, and bond. Everything else can wait.",
-  ],
-  "infant": [
-    "💡 Babies don't need fancy toys. A wooden spoon, a cardboard box, and your face are the best entertainment at this age.",
-    "💡 Starting solids? Follow your baby's lead. Let them explore textures and tastes without pressure to eat a certain amount.",
-    "💡 When your baby is struggling to reach a toy, wait before helping. Those moments of effort are building their brain!",
-  ],
-  "toddler": [
-    "💡 When your toddler says 'NO!' to everything — that's actually healthy! They're developing autonomy. Try offering two choices instead of yes/no questions.",
-    "💡 Tantrums aren't manipulation. Your toddler's brain literally can't regulate big emotions yet. Your calm presence is what teaches them how.",
-    "💡 Instead of 'good job!' try 'You did it! You put your shoes on all by yourself!' Specific praise builds real confidence.",
-  ],
-  "preschool": [
-    "💡 'I'm bored' is actually the doorway to creativity. Resist the urge to fix it — give them space and watch the magic happen.",
-    "💡 When your preschooler tells a wild, impossible story, go with it! Imagination at this age is building critical thinking skills for later.",
-    "💡 Help your child name their emotions: 'It looks like you're feeling frustrated.' This simple act literally helps their brain develop emotional regulation.",
-  ],
-  "school-age": [
-    "💡 Homework battles? Sit nearby doing your own 'work' (reading, writing). Kids this age learn focus by watching you model it.",
-    "💡 When your child says 'nobody likes me,' resist the urge to fix it. Say: 'That sounds really hard. Tell me more.' Listening IS helping.",
-    "💡 Family dinners (even 3x a week) are one of the strongest predictors of a child's emotional wellbeing. It's not about the food — it's about connection.",
-  ],
-  "teen": [
-    "💡 When your teen pushes you away, they still need you — just differently. Stay available without being intrusive. Think 'lighthouse, not helicopter.'",
-    "💡 Their brain is literally rewiring right now. Mood swings, risk-taking, and big emotions are neurological, not personal attacks on you.",
-    "💡 Ask 'What was the best part of your day?' instead of 'How was school?' Open-ended questions get real answers.",
-  ],
-};
-
-// ── QUICK TOPICS (fixed set for all moms) ──
-const QUICK_TOPICS = [
-  { emoji: '😰', label: "I'm overwhelmed", prompt: "I'm feeling really anxious and overwhelmed today. Everything feels like too much. I just need someone to talk to who understands." },
-  { emoji: '💪', label: 'I need a pep talk', prompt: "I'm having a rough day and I just need someone to remind me that I'm doing okay. Can you give me a pep talk?" },
-  { emoji: '😴', label: 'Sleep help', prompt: "I'm struggling with sleep — either my kid's sleep or my own. Any tips for better bedtime routines and actually getting rest?" },
-  { emoji: '😤', label: 'Tantrums & big emotions', prompt: "My kid is having big emotions and meltdowns. How do I handle tantrums calmly without losing my own cool?" },
-  { emoji: '🍳', label: 'Quick dinner idea', prompt: "It's almost dinner time and I have no plan. Give me one quick, easy, kid-friendly recipe I can make in under 30 minutes with common ingredients." },
-  { emoji: '💔', label: 'Mom guilt', prompt: "I'm struggling with mom guilt today. I feel like I'm not doing enough or not doing it right. Can you help me get some perspective?" },
-  { emoji: '🧘‍♀️', label: 'Self-care ideas', prompt: "I need realistic self-care ideas for a busy mom. I have almost no time but I'm running on empty. What can I actually do?" },
-  { emoji: '🎉', label: 'Fun activity ideas', prompt: "I need fun activity ideas for today with my kids. Indoor or outdoor, easy to set up, no special supplies needed. What should we do?" },
-];
-
-
-const GUIDED_JOURNEYS = [
-  { emoji: '🏠', title: 'First Week Home', desc: 'Navigate the newborn days', prompt: "I just brought my baby home from the hospital. Can you walk me through what to expect in the first week? What are the most important things I should focus on? I'm feeling nervous and excited." },
-  { emoji: '🥄', title: 'Starting Solids', desc: 'When and how to begin', prompt: "I think my baby is ready to start solids. Can you guide me through how to begin? What signs should I look for, what foods to start with, and how to make it a positive experience?" },
-  { emoji: '😤', title: 'Taming Tantrums', desc: 'Understand the meltdowns', prompt: "My toddler's tantrums are really intense and happening more often. Can you help me understand what's going on developmentally and walk me through how to handle them without losing my own cool?" },
-  { emoji: '🌙', title: 'Bedtime Battles', desc: 'Peaceful sleep routines', prompt: "Bedtime is a battle every single night. Can you walk me through creating a peaceful bedtime routine that actually works? I need a step-by-step approach." },
-  { emoji: '🎒', title: 'School Ready', desc: 'Prep for the big day', prompt: "My child is starting school soon and I want to make sure they're ready — not just academically but emotionally and socially. What should I focus on?" },
-  { emoji: '📱', title: 'Screen Time Balance', desc: 'Healthy digital habits', prompt: "I'm struggling with managing screen time for my kids. How do I find a healthy balance without it turning into a daily fight?" },
-];
+// Content arrays are now loaded from i18n/content/ via useTranslation().getContent()
 
 const EMERGENCY_RESOURCES = [
   { name: 'Suicide & Crisis Lifeline', number: '988', desc: 'Call or text' },
@@ -133,6 +63,7 @@ const AGE_RANGES = [
 
 // ── ONBOARDING (5 steps: Welcome → About You → Children → Parenting → Terms) ──
 function OnboardingFlow({ onComplete }) {
+  const { t } = useTranslation();
   const [step, setStep] = useState(0);
   // Step 1 — About You
   const [momName, setMomName] = useState('');
@@ -229,7 +160,7 @@ function OnboardingFlow({ onComplete }) {
           <div style={{ height: 5, background: BORDER_LIGHT, borderRadius: 3, overflow: 'hidden' }}>
             <div style={{ height: '100%', background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 3, width: `${progress}%`, transition: 'width 0.5s ease' }} />
           </div>
-          <div style={{ fontSize: 11, color: TEXT_LIGHT, marginTop: 5, textAlign: 'center' }}>Step {step} of {totalSteps - 1}</div>
+          <div style={{ fontSize: 11, color: TEXT_LIGHT, marginTop: 5, textAlign: 'center' }}>{t('onboarding.step', { current: step, total: totalSteps - 1 })}</div>
         </div>
       )}
 
@@ -253,20 +184,20 @@ function OnboardingFlow({ onComplete }) {
               <div style={{ width: 100, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, margin: '10px auto 0' }} />
             </div>
             <p style={{ fontSize: 13, color: TEXT_LIGHT, letterSpacing: 2, textTransform: 'uppercase', marginBottom: 32, fontWeight: 500 }}>
-              Your Mom Friend. Always Here.
+              {t('common.tagline')}
             </p>
             <div style={{
               background: CARD_BG, borderRadius: 24, padding: '28px 24px', marginBottom: 32,
               boxShadow: '0 4px 24px rgba(0,0,0,0.06)', border: `1px solid ${BORDER_LIGHT}`,
             }}>
               <div style={{ fontSize: 40, marginBottom: 12 }}>💚</div>
-              <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 8, fontFamily: "'Playfair Display', serif" }}>Welcome, Mama!</h2>
+              <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 8, fontFamily: "'Playfair Display', serif" }}>{t('onboarding.welcome.title')}</h2>
               <p style={{ fontSize: 15, color: TEXT_MID, lineHeight: 1.7, marginBottom: 0 }}>
-                Let's set up your space so I can be the best mom friend for you. It only takes a minute — and everything stays private.
+                {t('onboarding.welcome.description')}
               </p>
             </div>
             <button onClick={goNext} style={{ ...btnPrimary, width: '100%', padding: '16px', fontSize: 17 }}>
-              Let's Get Started →
+              {t('onboarding.welcome.startButton')}
             </button>
           </div>
         )}
@@ -275,16 +206,16 @@ function OnboardingFlow({ onComplete }) {
         {step === 1 && (
           <div>
             <div style={{ fontSize: 36, marginBottom: 8 }}>👋</div>
-            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>Tell me about you</h2>
-            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 20 }}>So our chats feel personal and I can give you relevant tips.</p>
+            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t('onboarding.aboutYou.title')}</h2>
+            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 20 }}>{t('onboarding.aboutYou.subtitle')}</p>
 
             {/* Name */}
-            <label style={sectionLabel}>Your first name</label>
+            <label style={sectionLabel}>{t('onboarding.aboutYou.nameLabel')}</label>
             <input type="text" value={momName} onChange={e => setMomName(e.target.value)}
-              placeholder="What should I call you?" style={{ ...inputStyle, marginBottom: 16 }} autoFocus />
+              placeholder={t('onboarding.aboutYou.namePlaceholder')} style={{ ...inputStyle, marginBottom: 16 }} autoFocus />
 
             {/* Age Range */}
-            <label style={sectionLabel}>Your age range</label>
+            <label style={sectionLabel}>{t('onboarding.aboutYou.ageLabel')}</label>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: 6, marginBottom: 16 }}>
               {AGE_RANGES.map(r => (
                 <button key={r} onClick={() => setMomAge(r)} style={chipSelected(momAge === r)}>{r}</button>
@@ -292,11 +223,11 @@ function OnboardingFlow({ onComplete }) {
             </div>
 
             {/* Country */}
-            <label style={sectionLabel}>Where do you live?</label>
+            <label style={sectionLabel}>{t('onboarding.aboutYou.countryLabel')}</label>
             <input type="text" value={countrySearch}
               onChange={e => { setCountrySearch(e.target.value); setCountry(''); setShowCountryList(true); }}
               onFocus={() => setShowCountryList(true)}
-              placeholder="Search your country..." style={inputStyle} />
+              placeholder={t('onboarding.aboutYou.countryPlaceholder')} style={inputStyle} />
             {showCountryList && countrySearch && !country && (
               <div style={{ maxHeight: 120, overflowY: 'auto', borderRadius: 10, border: `1px solid ${BORDER_LIGHT}`, marginTop: 4, background: CARD_BG }}>
                 {filteredCountries.map(c => (
@@ -316,8 +247,8 @@ function OnboardingFlow({ onComplete }) {
         {step === 2 && (
           <div>
             <div style={{ fontSize: 36, marginBottom: 8 }}>👶</div>
-            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>Tell me about your little ones!</h2>
-            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 16 }}>Add each child's name and age so I can give personalized, age-specific tips and call them by name.</p>
+            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t('onboarding.children.title')}</h2>
+            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 16 }}>{t('onboarding.children.subtitle')}</p>
 
             {children.map((child, i) => (
               <div key={child.id} style={{
@@ -325,31 +256,31 @@ function OnboardingFlow({ onComplete }) {
                 border: `1px solid ${BORDER_LIGHT}`, boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
               }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                  <span style={{ fontSize: 13, fontWeight: 700, color: GREEN_DARK }}>👧 Child {i + 1}</span>
+                  <span style={{ fontSize: 13, fontWeight: 700, color: GREEN_DARK }}>👧 {t('onboarding.children.childNumber', { number: i + 1 })}</span>
                   {children.length > 1 && (
                     <button onClick={() => removeChild(child.id)} style={{
                       background: 'none', border: 'none', color: '#EF4444', fontSize: 12,
                       cursor: 'pointer', fontWeight: 600, padding: '2px 6px',
-                    }}>✕ Remove</button>
+                    }}>{t('onboarding.children.removeChild')}</button>
                   )}
                 </div>
                 <input type="text" value={child.name} onChange={e => updateChild(child.id, 'name', e.target.value)}
-                  placeholder="Child's name (or nickname)"
+                  placeholder={t('onboarding.children.namePlaceholder')}
                   style={{ ...inputStyle, fontSize: 14, padding: '10px 14px', marginBottom: 8 }} />
                 <div style={{ display: 'flex', gap: 8 }}>
                   <input type="text" value={child.age} onChange={e => updateChild(child.id, 'age', e.target.value)}
-                    placeholder="Age (e.g. 2, 0.5)"
+                    placeholder={t('onboarding.children.agePlaceholder')}
                     style={{ ...inputStyle, fontSize: 14, padding: '10px 14px', flex: 1 }} />
                   <select value={child.age} onChange={e => updateChild(child.id, 'age', e.target.value)}
                     style={{ ...inputStyle, fontSize: 12, padding: '10px 8px', flex: 1, appearance: 'auto', cursor: 'pointer' }}>
-                    <option value="">Or pick...</option>
-                    <option value="0.08">Newborn (0-3 mo)</option>
-                    <option value="0.5">Baby (3-12 mo)</option>
-                    <option value="1.5">Toddler (1-2 yr)</option>
-                    <option value="3">Preschool (3-5 yr)</option>
-                    <option value="8">School-age (6-12)</option>
-                    <option value="14">Teen (13-17)</option>
-                    <option value="expecting">Expecting!</option>
+                    <option value="">{t('onboarding.children.agePickLabel')}</option>
+                    <option value="0.08">{t('onboarding.children.newborn')}</option>
+                    <option value="0.5">{t('onboarding.children.baby')}</option>
+                    <option value="1.5">{t('onboarding.children.toddler')}</option>
+                    <option value="3">{t('onboarding.children.preschool')}</option>
+                    <option value="8">{t('onboarding.children.schoolAge')}</option>
+                    <option value="14">{t('onboarding.children.teen')}</option>
+                    <option value="expecting">{t('onboarding.children.expecting')}</option>
                   </select>
                 </div>
               </div>
@@ -359,9 +290,9 @@ function OnboardingFlow({ onComplete }) {
               width: '100%', background: '#F0FAF4', border: `1.5px dashed ${GREEN}`,
               borderRadius: 12, padding: '10px', fontSize: 14, color: GREEN_DARK,
               fontWeight: 600, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif",
-            }}>+ Add Another Child</button>
+            }}>{t('onboarding.children.addAnother')}</button>
             <p style={{ fontSize: 11, color: TEXT_LIGHT, marginTop: 6, textAlign: 'center' }}>
-              Expecting? Type "expecting" as age. You can always update later in the Kids tab!
+              {t('onboarding.children.expectingNote')}
             </p>
           </div>
         )}
@@ -370,18 +301,18 @@ function OnboardingFlow({ onComplete }) {
         {step === 3 && (
           <div>
             <div style={{ fontSize: 36, marginBottom: 8 }}>🌱</div>
-            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>Your parenting journey</h2>
-            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 18 }}>Help me understand your style so I can match your vibe.</p>
+            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t('onboarding.parenting.title')}</h2>
+            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 18 }}>{t('onboarding.parenting.subtitle')}</p>
 
             {/* Parenting Style */}
-            <label style={sectionLabel}>What feels right to you?</label>
+            <label style={sectionLabel}>{t('onboarding.parenting.styleLabel')}</label>
             <div style={{ display: 'grid', gap: 8, marginBottom: 18 }}>
               {[
-                { id: 'gentle', emoji: '💚', title: 'Gentle & Conscious', desc: 'Connection over control' },
-                { id: 'structured', emoji: '📋', title: 'Structured & Routine', desc: 'Clear boundaries & consistency' },
-                { id: 'balanced', emoji: '⚖️', title: 'Balanced Mix', desc: 'Structure with flexibility' },
-                { id: 'instinctive', emoji: '✨', title: 'Go With the Flow', desc: 'Trust my instincts' },
-                { id: 'figuring-out', emoji: '🤷‍♀️', title: 'Still Figuring It Out', desc: "Learning as I go!" },
+                { id: 'gentle', emoji: '💚', title: t('onboarding.parenting.gentle'), desc: t('onboarding.parenting.gentleDesc') },
+                { id: 'structured', emoji: '📋', title: t('onboarding.parenting.structured'), desc: t('onboarding.parenting.structuredDesc') },
+                { id: 'balanced', emoji: '⚖️', title: t('onboarding.parenting.balanced'), desc: t('onboarding.parenting.balancedDesc') },
+                { id: 'instinctive', emoji: '✨', title: t('onboarding.parenting.instinctive'), desc: t('onboarding.parenting.instinctiveDesc') },
+                { id: 'figuring-out', emoji: '🤷‍♀️', title: t('onboarding.parenting.figuringOut'), desc: t('onboarding.parenting.figuringOutDesc') },
               ].map(s => (
                 <button key={s.id} onClick={() => setParentingStyle(s.id)} style={optionCard(parentingStyle === s.id)}>
                   <span style={{ fontSize: 24, flexShrink: 0 }}>{s.emoji}</span>
@@ -395,21 +326,21 @@ function OnboardingFlow({ onComplete }) {
             </div>
 
             {/* Challenges */}
-            <label style={sectionLabel}>What's hardest right now? <span style={{ fontWeight: 400, color: TEXT_LIGHT }}>(pick up to 4)</span></label>
+            <label style={sectionLabel}>{t('onboarding.parenting.challengesLabel')} <span style={{ fontWeight: 400, color: TEXT_LIGHT }}>{t('onboarding.parenting.challengesHint')}</span></label>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6, marginBottom: 4 }}>
               {[
-                { id: 'sleep', emoji: '😴', label: 'Sleep' },
-                { id: 'tantrums', emoji: '😤', label: 'Tantrums' },
-                { id: 'feeding', emoji: '🥦', label: 'Feeding' },
-                { id: 'guilt', emoji: '💔', label: 'Mom guilt' },
-                { id: 'work-life', emoji: '⏰', label: 'Work-life' },
-                { id: 'loneliness', emoji: '🫂', label: 'Loneliness' },
-                { id: 'anxiety', emoji: '😰', label: 'Anxiety' },
-                { id: 'partner', emoji: '💬', label: 'Partner' },
-                { id: 'screen-time', emoji: '📱', label: 'Screen time' },
-                { id: 'milestones', emoji: '📈', label: 'Dev worries' },
-                { id: 'discipline', emoji: '🚦', label: 'Boundaries' },
-                { id: 'self-care', emoji: '🧘‍♀️', label: 'Me-time' },
+                { id: 'sleep', emoji: '😴', label: t('onboarding.parenting.sleep') },
+                { id: 'tantrums', emoji: '😤', label: t('onboarding.parenting.tantrums') },
+                { id: 'feeding', emoji: '🥦', label: t('onboarding.parenting.feeding') },
+                { id: 'guilt', emoji: '💔', label: t('onboarding.parenting.guilt') },
+                { id: 'work-life', emoji: '⏰', label: t('onboarding.parenting.workLife') },
+                { id: 'loneliness', emoji: '🫂', label: t('onboarding.parenting.loneliness') },
+                { id: 'anxiety', emoji: '😰', label: t('onboarding.parenting.anxiety') },
+                { id: 'partner', emoji: '💬', label: t('onboarding.parenting.partner') },
+                { id: 'screen-time', emoji: '📱', label: t('onboarding.parenting.screenTime') },
+                { id: 'milestones', emoji: '📈', label: t('onboarding.parenting.milestones') },
+                { id: 'discipline', emoji: '🚦', label: t('onboarding.parenting.discipline') },
+                { id: 'self-care', emoji: '🧘‍♀️', label: t('onboarding.parenting.selfCare') },
               ].map(ch => {
                 const sel = challenges.includes(ch.id);
                 return (
@@ -423,19 +354,19 @@ function OnboardingFlow({ onComplete }) {
                 );
               })}
             </div>
-            <p style={{ fontSize: 11, color: TEXT_LIGHT, marginBottom: 18, textAlign: 'center' }}>{challenges.length}/4 selected</p>
+            <p style={{ fontSize: 11, color: TEXT_LIGHT, marginBottom: 18, textAlign: 'center' }}>{t('onboarding.parenting.challengesCount', { count: challenges.length })}</p>
 
             {/* Support System */}
-            <label style={sectionLabel}>What does your support look like?</label>
+            <label style={sectionLabel}>{t('onboarding.parenting.supportLabel')}</label>
             <div style={{ display: 'grid', gap: 8 }}>
               {[
-                { id: 'partner-home', emoji: '👫', title: 'Partner at home' },
-                { id: 'partner-busy', emoji: '💼', title: 'Partner, but often busy' },
-                { id: 'family-nearby', emoji: '👨‍👩‍👧', title: 'Family nearby' },
-                { id: 'family-far', emoji: '🌍', title: 'Family far away' },
-                { id: 'solo', emoji: '💪', title: 'Solo parent' },
-                { id: 'community', emoji: '👩‍👩‍👦', title: 'Friends / community' },
-                { id: 'mixed', emoji: '🧩', title: 'A mix / it varies' },
+                { id: 'partner-home', emoji: '👫', title: t('onboarding.parenting.partnerHome') },
+                { id: 'partner-busy', emoji: '💼', title: t('onboarding.parenting.partnerBusy') },
+                { id: 'family-nearby', emoji: '👨‍👩‍👧', title: t('onboarding.parenting.familyNearby') },
+                { id: 'family-far', emoji: '🌍', title: t('onboarding.parenting.familyFar') },
+                { id: 'solo', emoji: '💪', title: t('onboarding.parenting.solo') },
+                { id: 'community', emoji: '👩‍👩‍👦', title: t('onboarding.parenting.community') },
+                { id: 'mixed', emoji: '🧩', title: t('onboarding.parenting.mixed') },
               ].map(s => (
                 <button key={s.id} onClick={() => setSupportSystem(s.id)} style={optionCard(supportSystem === s.id)}>
                   <span style={{ fontSize: 22, flexShrink: 0 }}>{s.emoji}</span>
@@ -451,27 +382,27 @@ function OnboardingFlow({ onComplete }) {
         {step === 4 && (
           <div>
             <div style={{ fontSize: 36, marginBottom: 8 }}>📋</div>
-            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>Almost there!</h2>
-            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 20 }}>Please review and accept our terms before we start.</p>
+            <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t('onboarding.terms.title')}</h2>
+            <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 20 }}>{t('onboarding.terms.subtitle')}</p>
 
             <div style={{
               background: CARD_BG, borderRadius: 16, padding: '20px', marginBottom: 20,
               border: `1px solid ${BORDER_LIGHT}`, textAlign: 'center',
             }}>
               <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.7, marginBottom: 16 }}>
-                By using MomzVeda, you agree to our Terms of Service and Privacy Policy. These outline how the app works, how your data is handled, and your rights as a user.
+                {t('onboarding.terms.description')}
               </p>
               <div style={{ display: 'flex', gap: 8 }}>
                 <a href="/terms" target="_blank" style={{
                   flex: 1, textAlign: 'center', padding: '12px', borderRadius: 12,
                   background: '#F0FAF4', color: GREEN_DARK, fontSize: 14, fontWeight: 600,
                   textDecoration: 'none', border: `1.5px solid ${BORDER}`,
-                }}>📄 Terms of Service</a>
+                }}>{t('onboarding.terms.termsLink')}</a>
                 <a href="/privacy" target="_blank" style={{
                   flex: 1, textAlign: 'center', padding: '12px', borderRadius: 12,
                   background: '#EFF6FF', color: '#2563EB', fontSize: 14, fontWeight: 600,
                   textDecoration: 'none', border: '1.5px solid #BFDBFE',
-                }}>🔒 Privacy Policy</a>
+                }}>{t('onboarding.terms.privacyLink')}</a>
               </div>
             </div>
 
@@ -492,9 +423,7 @@ function OnboardingFlow({ onComplete }) {
               </div>
               <div>
                 <input type="checkbox" checked={acceptedTerms} onChange={e => setAcceptedTerms(e.target.checked)} style={{ display: 'none' }} />
-                <span style={{ fontSize: 13, color: TEXT_DARK, lineHeight: 1.5 }}>
-                  I have read and agree to the <strong>Terms of Service</strong> and <strong>Privacy Policy</strong>.
-                </span>
+                <span style={{ fontSize: 13, color: TEXT_DARK, lineHeight: 1.5 }} dangerouslySetInnerHTML={{ __html: t('onboarding.terms.acceptCheckbox') }} />
               </div>
             </label>
           </div>
@@ -504,9 +433,9 @@ function OnboardingFlow({ onComplete }) {
       {/* Navigation Buttons */}
       {step > 0 && (
         <div style={{ padding: '12px 24px 24px', display: 'flex', gap: 12, maxWidth: 480, width: '100%', margin: '0 auto' }}>
-          <button onClick={goBack} style={btnSecondary}>← Back</button>
+          <button onClick={goBack} style={btnSecondary}>{t('onboarding.backButton')}</button>
           <button onClick={step === 4 ? finish : goNext} style={{ ...btnPrimary, flex: 1 }}>
-            {step === 4 ? "🎉 Let's Go!" : 'Continue →'}
+            {step === 4 ? t('onboarding.finishButton') : t('onboarding.continueButton')}
           </button>
         </div>
       )}
@@ -530,6 +459,7 @@ function saveStored(key, value) {
 export default function Home() {
   const router = useRouter();
   const supabase = createClient();
+  const { t, tp, getContent, isRTL: rtl } = useTranslation();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [onboarded, setOnboarded] = useState(() => loadStored('onboarded', false));
@@ -670,6 +600,9 @@ export default function Home() {
     updateDailyTip(profile.children);
     setOnboarded(true);
 
+    // Notify i18n provider of country change
+    window.dispatchEvent(new CustomEvent('momzveda:profileUpdate', { detail: { country: profile.country } }));
+
     // Sync to Supabase
     if (user) {
       await supabase.from('profiles').update({
@@ -683,7 +616,8 @@ export default function Home() {
   };
 
   useEffect(() => {
-    setAffirmation(AFFIRMATIONS[Math.floor(Math.random() * AFFIRMATIONS.length)]);
+    const affirmations = getContent('affirmations');
+    if (affirmations?.length) setAffirmation(affirmations[Math.floor(Math.random() * affirmations.length)]);
     updateDailyTip(childProfiles);
 
     // Check if returning from Stripe checkout
@@ -714,6 +648,8 @@ export default function Home() {
   useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
 
   const updateDailyTip = (profiles) => {
+    const dailyTipsContent = getContent('dailyTips');
+    if (!dailyTipsContent) return;
     const ages = profiles.length > 0 ? profiles.map(c => {
       const a = parseFloat(c.age);
       if (a < 0.25) return 'newborn';
@@ -724,8 +660,8 @@ export default function Home() {
       return 'teen';
     }) : ['toddler'];
     const category = ages[0];
-    const tips = DAILY_TIPS[category] || DAILY_TIPS['toddler'];
-    setDailyTip(tips[Math.floor(Math.random() * tips.length)]);
+    const tips = dailyTipsContent[category] || dailyTipsContent['toddler'];
+    if (tips) setDailyTip(tips[Math.floor(Math.random() * tips.length)]);
   };
 
   const sendMessage = async (text) => {
@@ -759,7 +695,7 @@ export default function Home() {
       });
       if (!res.ok) throw new Error();
       const data = await res.json();
-      const text2 = data.content?.map(c => c.text || '').join('') || "Hmm, let me try that again 💛";
+      const text2 = data.content?.map(c => c.text || '').join('') || t('chat.errorRetry');
       setMessages(prev => [...prev, { role: 'assistant', content: text2 }]);
       // Sync messages to Supabase
       if (user) {
@@ -771,7 +707,7 @@ export default function Home() {
         supabase.from('daily_usage').upsert({ user_id: user.id, date: today, msg_count: dailyMsgCount + 1 }, { onConflict: 'user_id,date' }).then(() => {});
       }
     } catch {
-      setMessages(prev => [...prev, { role: 'assistant', content: "Something went sideways! 😅 Try again in a sec. I'm here for you! 💛" }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: t('chat.errorGeneral') }]);
     }
     setIsTyping(false);
     inputRef.current?.focus();
@@ -818,7 +754,7 @@ export default function Home() {
             <span style={{ fontFamily: "'Archivo Black', sans-serif", fontSize: 28, color: GREEN }}>Momz</span>
             <span style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic', fontSize: 28, color: BLUE }}>Veda</span>
           </div>
-          <div style={{ fontSize: 14, color: TEXT_LIGHT }}>Loading your space...</div>
+          <div style={{ fontSize: 14, color: TEXT_LIGHT }}>{t('common.loading')}</div>
         </div>
       </div>
     );
@@ -848,22 +784,22 @@ export default function Home() {
             <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 400, fontStyle: 'italic', fontSize: 22, color: BLUE, letterSpacing: 2 }}>Veda</span>
           </div>
           <div style={{ width: 140, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, marginTop: 8 }} />
-          <div style={{ marginTop: 4, fontSize: 8, letterSpacing: 3, color: 'rgba(255,255,255,0.35)', fontWeight: 500, textTransform: 'uppercase' }}>Your Mom Friend.&nbsp;&nbsp;Always Here.</div>
+          <div style={{ marginTop: 4, fontSize: 8, letterSpacing: 3, color: 'rgba(255,255,255,0.35)', fontWeight: 500, textTransform: 'uppercase' }}>{t('common.tagline')}</div>
         </div>
         {/* Logout button */}
         <button onClick={handleLogout} style={{ position: 'absolute', left: 16, top: 16, background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: 'rgba(255,255,255,0.6)', fontWeight: 600 }}>
-          Logout
+          {t('common.logout')}
         </button>
         {/* Emergency button */}
         <button onClick={() => setShowEmergency(!showEmergency)} style={{ position: 'absolute', right: 16, top: 16, background: 'rgba(239,68,68,0.15)', border: '1px solid rgba(239,68,68,0.3)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: '#FCA5A5', fontWeight: 600 }}>
-          🆘 Help
+          {t('help')}
         </button>
       </div>
 
       {/* ── EMERGENCY PANEL ── */}
       {showEmergency && (
         <div style={{ background: '#FEF2F2', padding: '16px', borderBottom: '1px solid #FECACA' }}>
-          <div style={{ fontSize: 14, fontWeight: 700, color: '#991B1B', marginBottom: 10 }}>🆘 Emergency Resources</div>
+          <div style={{ fontSize: 14, fontWeight: 700, color: '#991B1B', marginBottom: 10 }}>{t('emergency.title')}</div>
           <div style={{ display: 'grid', gap: 8 }}>
             {EMERGENCY_RESOURCES.map((r, i) => (
               <div key={i} style={{ background: '#FFF', borderRadius: 12, padding: '10px 14px', border: '1px solid #FECACA' }}>
@@ -873,7 +809,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <button onClick={() => setShowEmergency(false)} style={{ marginTop: 10, background: 'none', border: 'none', color: '#991B1B', fontSize: 12, cursor: 'pointer', fontWeight: 600 }}>Close ✕</button>
+          <button onClick={() => setShowEmergency(false)} style={{ marginTop: 10, background: 'none', border: 'none', color: '#991B1B', fontSize: 12, cursor: 'pointer', fontWeight: 600 }}>{t('common.close')} ✕</button>
         </div>
       )}
 
@@ -882,8 +818,8 @@ export default function Home() {
         <div style={{ background: 'linear-gradient(135deg, #EBF7F0, #E0F2E7)', padding: '10px 16px', display: 'flex', alignItems: 'center', gap: 12, borderBottom: `1px solid ${BORDER}` }}>
           <span style={{ fontSize: 24 }}>📲</span>
           <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK }}>Install MomzVeda</div>
-            <div style={{ fontSize: 11, color: TEXT_MID }}>Add to your home screen for quick access</div>
+            <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK }}>{t('installBanner.title')}</div>
+            <div style={{ fontSize: 11, color: TEXT_MID }}>{t('installBanner.subtitle')}</div>
           </div>
           <button onClick={async () => {
             if (deferredPrompt) {
@@ -893,7 +829,7 @@ export default function Home() {
               setDeferredPrompt(null);
             }
           }} style={{ background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none', borderRadius: 10, padding: '6px 14px', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", whiteSpace: 'nowrap' }}>
-            Install
+            {t('common.install')}
           </button>
           <button onClick={() => setShowInstallPrompt(false)} style={{ background: 'none', border: 'none', color: TEXT_LIGHT, fontSize: 16, cursor: 'pointer', padding: '0 4px' }}>✕</button>
         </div>
@@ -903,17 +839,17 @@ export default function Home() {
       {isPremium && messages.length === 0 && showWelcome && (
         <div style={{ background: 'linear-gradient(135deg, #FEF3C7, #FDE68A)', padding: '10px 16px', display: 'flex', alignItems: 'center', gap: 10, borderBottom: '1px solid #FDE68A' }}>
           <span style={{ fontSize: 20 }}>✨</span>
-          <div style={{ flex: 1, fontSize: 13, fontWeight: 600, color: '#92400E' }}>Welcome to Premium! Unlimited messages & all Guides unlocked 💛</div>
+          <div style={{ flex: 1, fontSize: 13, fontWeight: 600, color: '#92400E' }}>{t('premiumBanner')}</div>
         </div>
       )}
 
       {/* ── TAB BAR ── */}
       <div style={{ display: 'flex', gap: 0, borderBottom: `1px solid ${BORDER_LIGHT}`, background: CARD_BG }}>
         {[
-          { id: 'chat', label: '💬 Chat' },
-          { id: 'journeys', label: isPremium ? '🗺️ Guides' : '🗺️ Guides 🔒' },
-          { id: 'profiles', label: '👶 Kids' },
-          { id: 'wins', label: '🌟 Wins' },
+          { id: 'chat', label: t('tabs.chat') },
+          { id: 'journeys', label: isPremium ? t('tabs.guides') : t('tabs.guidesLocked') },
+          { id: 'profiles', label: t('tabs.kids') },
+          { id: 'wins', label: t('tabs.wins') },
         ].map(tab => (
           <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{
             flex: 1, padding: '10px 0', border: 'none', cursor: 'pointer', fontSize: 12, fontWeight: 600,
@@ -940,31 +876,31 @@ export default function Home() {
           {affirmation && showWelcome && (
             <div style={{ background: 'linear-gradient(135deg, #E8F7EE, #DCEFFE)', borderRadius: 20, padding: '22px 20px', marginBottom: 16, position: 'relative', overflow: 'hidden', boxShadow: '0 2px 16px rgba(34,197,94,0.08)' }}>
               <div style={{ position: 'absolute', top: -20, right: -20, width: 80, height: 80, borderRadius: '50%', background: 'rgba(255,255,255,0.35)' }} />
-              <div style={{ fontSize: 12, fontWeight: 600, color: GREEN_DARK, marginBottom: 6, letterSpacing: '0.05em' }}>✨ TODAY'S AFFIRMATION</div>
+              <div style={{ fontSize: 12, fontWeight: 600, color: GREEN_DARK, marginBottom: 6, letterSpacing: '0.05em' }}>✨ {t('chat.todayAffirmation')}</div>
               <div style={{ fontSize: 16, color: TEXT_DARK, lineHeight: 1.6, fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>{affirmation}</div>
-              <button onClick={() => { let n; do { n = AFFIRMATIONS[Math.floor(Math.random() * AFFIRMATIONS.length)]; } while (n === affirmation); setAffirmation(n); }} style={{ marginTop: 12, background: 'rgba(255,255,255,0.6)', border: 'none', borderRadius: 10, padding: '6px 14px', cursor: 'pointer', fontSize: 12, color: GREEN_DARK, fontWeight: 600 }}>↻ New</button>
+              <button onClick={() => { const aff = getContent('affirmations'); if (!aff?.length) return; let n; do { n = aff[Math.floor(Math.random() * aff.length)]; } while (n === affirmation && aff.length > 1); setAffirmation(n); }} style={{ marginTop: 12, background: 'rgba(255,255,255,0.6)', border: 'none', borderRadius: 10, padding: '6px 14px', cursor: 'pointer', fontSize: 12, color: GREEN_DARK, fontWeight: 600 }}>{t('chat.newAffirmation')}</button>
             </div>
           )}
           {/* Welcome */}
           {showWelcome && messages.length === 0 && (
             <div style={{ animation: 'fadeSlideIn 0.5s ease-out' }}>
               <div style={{ textAlign: 'center', padding: '8px 0 20px', color: TEXT_MID, fontSize: 14, lineHeight: 1.6 }}>
-                Hey {momProfile?.momName || 'mama'}! 👋 I'm here whenever you need me.<br />
+                {t('chat.welcomeGreeting', { name: momProfile?.momName || 'mama' })}<br />
                 {momProfile?.children?.length > 0 && (
                   <span style={{ fontSize: 13, color: GREEN_DARK, fontWeight: 600 }}>
-                    I know all about {momProfile.children.map(c => c.name).join(' & ')} — let's chat! 💚<br />
+                    {t('chat.welcomeKidsIntro', { kids: momProfile.children.map(c => c.name).join(' & ') })}<br />
                   </span>
                 )}
-                <span style={{ fontSize: 12, color: TEXT_LIGHT }}>Tap a topic or type anything!</span>
+                <span style={{ fontSize: 12, color: TEXT_LIGHT }}>{t('chat.tapPrompt')}</span>
               </div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, marginBottom: 12 }}>
-                {QUICK_TOPICS.map((t, i) => (
-                  <button key={i} onClick={() => sendMessage(t.prompt)} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 14, padding: '12px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 8, boxShadow: '0 1px 3px rgba(0,0,0,0.03)', transition: 'all 0.2s', fontFamily: "'DM Sans', sans-serif" }}
+                {(getContent('quickTopics') || []).map((qt, i) => (
+                  <button key={i} onClick={() => sendMessage(qt.prompt)} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 14, padding: '12px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 8, boxShadow: '0 1px 3px rgba(0,0,0,0.03)', transition: 'all 0.2s', fontFamily: "'DM Sans', sans-serif" }}
                     onMouseEnter={e => { e.currentTarget.style.borderColor = GREEN; e.currentTarget.style.transform = 'translateY(-1px)'; }}
                     onMouseLeave={e => { e.currentTarget.style.borderColor = BORDER; e.currentTarget.style.transform = 'translateY(0)'; }}
                   >
-                    <span style={{ fontSize: 20 }}>{t.emoji}</span>
-                    <span style={{ fontSize: 13, fontWeight: 600, color: TEXT_DARK }}>{t.label}</span>
+                    <span style={{ fontSize: 20 }}>{qt.emoji}</span>
+                    <span style={{ fontSize: 13, fontWeight: 600, color: TEXT_DARK }}>{qt.label}</span>
                   </button>
                 ))}
               </div>
@@ -979,14 +915,14 @@ export default function Home() {
         {activeTab === 'journeys' && (
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
-              <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK }}>Guided Journeys</div>
-              {!isPremium && <span style={{ fontSize: 11, fontWeight: 700, color: '#D97706', background: '#FEF3C7', padding: '3px 10px', borderRadius: 8 }}>✨ PREMIUM</span>}
+              <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK }}>{t('journeys.title')}</div>
+              {!isPremium && <span style={{ fontSize: 11, fontWeight: 700, color: '#D97706', background: '#FEF3C7', padding: '3px 10px', borderRadius: 8 }}>{t('journeys.premium')}</span>}
             </div>
-            <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>Step-by-step guidance for common milestones</div>
+            <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>{t('journeys.subtitle')}</div>
 
             {isPremium ? (
               <div style={{ display: 'grid', gap: 10 }}>
-                {GUIDED_JOURNEYS.map((j, i) => (
+                {(getContent('guidedJourneys') || []).map((j, i) => (
                   <button key={i} onClick={() => sendMessage(j.prompt)} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 16, padding: '16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 14, transition: 'all 0.2s', fontFamily: "'DM Sans', sans-serif" }}
                     onMouseEnter={e => { e.currentTarget.style.borderColor = GREEN; e.currentTarget.style.boxShadow = '0 4px 12px rgba(34,197,94,0.1)'; }}
                     onMouseLeave={e => { e.currentTarget.style.borderColor = BORDER; e.currentTarget.style.boxShadow = 'none'; }}
@@ -1003,7 +939,7 @@ export default function Home() {
               <div>
                 {/* Show journeys but locked */}
                 <div style={{ display: 'grid', gap: 10, marginBottom: 20 }}>
-                  {GUIDED_JOURNEYS.map((j, i) => (
+                  {(getContent('guidedJourneys') || []).map((j, i) => (
                     <div key={i} onClick={() => setShowUpgrade(true)} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 16, padding: '16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 14, fontFamily: "'DM Sans', sans-serif", opacity: 0.6, position: 'relative' }}>
                       <span style={{ fontSize: 28 }}>{j.emoji}</span>
                       <div style={{ flex: 1 }}>
@@ -1018,14 +954,14 @@ export default function Home() {
                 {/* Upgrade CTA */}
                 <div style={{ background: 'linear-gradient(135deg, #FFF7ED, #FEF3C7)', borderRadius: 20, padding: '24px 20px', textAlign: 'center', border: '1.5px solid #FDE68A' }}>
                   <div style={{ fontSize: 32, marginBottom: 8 }}>✨</div>
-                  <div style={{ fontSize: 18, fontWeight: 700, color: '#92400E', marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>Unlock Guided Journeys</div>
+                  <div style={{ fontSize: 18, fontWeight: 700, color: '#92400E', marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t('journeys.unlockTitle')}</div>
                   <p style={{ fontSize: 14, color: '#B45309', lineHeight: 1.6, marginBottom: 12 }}>
-                    Get step-by-step guidance for sleep training, starting solids, taming tantrums, and more — plus unlimited daily messages.
+                    {t('journeys.unlockDesc')}
                   </p>
                   <button onClick={() => setShowUpgrade(true)} style={{ background: 'linear-gradient(135deg, #F59E0B, #D97706)', color: '#FFF', border: 'none', borderRadius: 14, padding: '14px 28px', fontSize: 16, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 16px rgba(245,158,11,0.3)' }}>
-                    Upgrade to Premium
+                    {t('journeys.upgradeButton')}
                   </button>
-                  <div style={{ fontSize: 12, color: '#B45309', marginTop: 8 }}>From €9.99/mo — cancel anytime</div>
+                  <div style={{ fontSize: 12, color: '#B45309', marginTop: 8 }}>{t('journeys.priceNote')}</div>
                 </div>
               </div>
             )}
@@ -1035,30 +971,30 @@ export default function Home() {
         {/* CHILD PROFILES TAB */}
         {activeTab === 'profiles' && (
           <div>
-            <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK, marginBottom: 4 }}>Your Children</div>
-            <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>Add your kids so MomzVeda can give personalized, age-specific advice</div>
+            <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK, marginBottom: 4 }}>{t('kids.title')}</div>
+            <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>{t('kids.subtitle')}</div>
             {childProfiles.map(c => (
               <div key={c.id} style={{ background: CARD_BG, border: `1px solid ${BORDER}`, borderRadius: 16, padding: '16px', marginBottom: 10, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div>
                   <div style={{ fontSize: 16, fontWeight: 700, color: TEXT_DARK }}>{c.name}</div>
-                  <div style={{ fontSize: 13, color: TEXT_MID }}>Age: {c.age} {c.notes && `· ${c.notes}`}</div>
+                  <div style={{ fontSize: 13, color: TEXT_MID }}>{t('kids.ageLabel', { age: c.age })} {c.notes && `· ${c.notes}`}</div>
                 </div>
-                <button onClick={() => removeChild(c.id)} style={{ background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 10, padding: '6px 12px', cursor: 'pointer', fontSize: 12, color: '#DC2626', fontWeight: 600 }}>Remove</button>
+                <button onClick={() => removeChild(c.id)} style={{ background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 10, padding: '6px 12px', cursor: 'pointer', fontSize: 12, color: '#DC2626', fontWeight: 600 }}>{t('common.remove')}</button>
               </div>
             ))}
             {showAddChild ? (
               <div style={{ background: CARD_BG, border: `1.5px solid ${GREEN}`, borderRadius: 16, padding: '16px', marginTop: 8 }}>
-                <input value={newChild.name} onChange={e => setNewChild({ ...newChild, name: e.target.value })} placeholder="Child's name" style={{ ...inputStyle, marginBottom: 8 }} />
-                <input value={newChild.age} onChange={e => setNewChild({ ...newChild, age: e.target.value })} placeholder="Age (e.g., 2, 6 months, 10)" style={{ ...inputStyle, marginBottom: 8 }} />
-                <input value={newChild.notes} onChange={e => setNewChild({ ...newChild, notes: e.target.value })} placeholder="Notes (allergies, interests...)" style={{ ...inputStyle, marginBottom: 12 }} />
+                <input value={newChild.name} onChange={e => setNewChild({ ...newChild, name: e.target.value })} placeholder={t('kids.namePlaceholder')} style={{ ...inputStyle, marginBottom: 8 }} />
+                <input value={newChild.age} onChange={e => setNewChild({ ...newChild, age: e.target.value })} placeholder={t('kids.agePlaceholder')} style={{ ...inputStyle, marginBottom: 8 }} />
+                <input value={newChild.notes} onChange={e => setNewChild({ ...newChild, notes: e.target.value })} placeholder={t('kids.notesPlaceholder')} style={{ ...inputStyle, marginBottom: 12 }} />
                 <div style={{ display: 'flex', gap: 8 }}>
-                  <button onClick={addChild} style={{ flex: 1, background: GREEN, color: '#FFF', border: 'none', borderRadius: 12, padding: '10px', cursor: 'pointer', fontWeight: 600, fontSize: 14 }}>Add Child</button>
-                  <button onClick={() => setShowAddChild(false)} style={{ background: '#F5F0EB', border: 'none', borderRadius: 12, padding: '10px 16px', cursor: 'pointer', fontSize: 13, color: TEXT_MID }}>Cancel</button>
+                  <button onClick={addChild} style={{ flex: 1, background: GREEN, color: '#FFF', border: 'none', borderRadius: 12, padding: '10px', cursor: 'pointer', fontWeight: 600, fontSize: 14 }}>{t('kids.addButton')}</button>
+                  <button onClick={() => setShowAddChild(false)} style={{ background: '#F5F0EB', border: 'none', borderRadius: 12, padding: '10px 16px', cursor: 'pointer', fontSize: 13, color: TEXT_MID }}>{t('common.cancel')}</button>
                 </div>
               </div>
             ) : (
               <button onClick={() => setShowAddChild(true)} style={{ width: '100%', background: '#EBF7F0', border: `1.5px dashed ${GREEN}`, borderRadius: 16, padding: '14px', cursor: 'pointer', fontSize: 14, color: GREEN_DARK, fontWeight: 600, marginTop: 4, fontFamily: "'DM Sans', sans-serif" }}>
-                + Add a child
+                {t('kids.addChild')}
               </button>
             )}
           </div>
@@ -1067,16 +1003,16 @@ export default function Home() {
         {/* MOM WINS TAB */}
         {activeTab === 'wins' && (
           <div>
-            <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK, marginBottom: 4 }}>Mom Wins 🌟</div>
-            <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>Celebrate the small victories — you deserve it!</div>
+            <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK, marginBottom: 4 }}>{t('wins.title')}</div>
+            <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>{t('wins.subtitle')}</div>
             <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
-              <input value={newWin} onChange={e => setNewWin(e.target.value)} onKeyDown={e => e.key === 'Enter' && addWin()} placeholder="What's your win today?" style={{ ...inputStyle, flex: 1 }} />
+              <input value={newWin} onChange={e => setNewWin(e.target.value)} onKeyDown={e => e.key === 'Enter' && addWin()} placeholder={t('wins.placeholder')} style={{ ...inputStyle, flex: 1 }} />
               <button onClick={addWin} disabled={!newWin.trim()} style={{ background: newWin.trim() ? GREEN : '#D5E8DC', color: '#FFF', border: 'none', borderRadius: 12, padding: '10px 18px', cursor: newWin.trim() ? 'pointer' : 'default', fontWeight: 600, fontSize: 14, transition: 'all 0.2s' }}>+</button>
             </div>
             {momWins.length === 0 ? (
               <div style={{ textAlign: 'center', padding: '40px 20px', color: TEXT_LIGHT, fontSize: 14, lineHeight: 1.6 }}>
-                No wins logged yet — but you're here, and that's already a win! 💛<br />
-                <span style={{ fontSize: 12 }}>Try: "Baby slept 5 hours" or "Made dinner from scratch"</span>
+                {t('wins.emptyTitle')}<br />
+                <span style={{ fontSize: 12 }}>{t('wins.emptyHint')}</span>
               </div>
             ) : (
               momWins.map(w => (
@@ -1096,11 +1032,11 @@ export default function Home() {
       {/* ── QUICK TOPICS (mid-chat) ── */}
       {activeTab === 'chat' && !showWelcome && !isTyping && (
         <div style={{ padding: '6px 16px', overflowX: 'auto', display: 'flex', gap: 6, borderTop: `1px solid ${BORDER_LIGHT}` }}>
-          {QUICK_TOPICS.slice(0, 5).map((t, i) => (
-            <button key={i} onClick={() => sendMessage(t.prompt)} style={{ background: '#EBF7F0', border: `1px solid ${BORDER}`, borderRadius: 20, padding: '5px 12px', cursor: 'pointer', whiteSpace: 'nowrap', fontSize: 12, color: TEXT_MID, fontWeight: 500, transition: 'all 0.2s', flexShrink: 0, fontFamily: "'DM Sans', sans-serif" }}
+          {(getContent('quickTopics') || []).slice(0, 5).map((qt, i) => (
+            <button key={i} onClick={() => sendMessage(qt.prompt)} style={{ background: '#EBF7F0', border: `1px solid ${BORDER}`, borderRadius: 20, padding: '5px 12px', cursor: 'pointer', whiteSpace: 'nowrap', fontSize: 12, color: TEXT_MID, fontWeight: 500, transition: 'all 0.2s', flexShrink: 0, fontFamily: "'DM Sans', sans-serif" }}
               onMouseEnter={e => { e.target.style.background = '#D5F0DC'; e.target.style.borderColor = GREEN; }}
               onMouseLeave={e => { e.target.style.background = '#EBF7F0'; e.target.style.borderColor = BORDER; }}
-            >{t.emoji} {t.label}</button>
+            >{qt.emoji} {qt.label}</button>
           ))}
         </div>
       )}
@@ -1113,12 +1049,12 @@ export default function Home() {
             <div style={{ textAlign: 'center', marginBottom: 6 }}>
               {dailyMsgCount < FREE_MSG_LIMIT ? (
                 <span style={{ fontSize: 11, color: dailyMsgCount >= 4 ? '#D97706' : TEXT_LIGHT }}>
-                  {FREE_MSG_LIMIT - dailyMsgCount} free message{FREE_MSG_LIMIT - dailyMsgCount !== 1 ? 's' : ''} left today
+                  {tp('chat.freeMessagesLeft', FREE_MSG_LIMIT - dailyMsgCount)}
                   {dailyMsgCount >= 4 && ' ⚡'}
                 </span>
               ) : (
                 <button onClick={() => setShowUpgrade(true)} style={{ fontSize: 11, color: '#D97706', fontWeight: 700, background: '#FEF3C7', border: '1px solid #FDE68A', borderRadius: 8, padding: '3px 12px', cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
-                  Daily limit reached — Upgrade for unlimited ✨
+                  {t('chat.limitReached')}
                 </button>
               )}
             </div>
@@ -1129,7 +1065,7 @@ export default function Home() {
           >
             <textarea ref={inputRef} value={input} onChange={e => setInput(e.target.value)}
               onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(input); } }}
-              placeholder={!isPremium && dailyMsgCount >= FREE_MSG_LIMIT ? 'Upgrade for unlimited messages ✨' : `Talk to me, ${momProfile?.momName || 'mama'}... 💬`} rows={1}
+              placeholder={!isPremium && dailyMsgCount >= FREE_MSG_LIMIT ? t('chat.inputPlaceholderLimited') : t('chat.inputPlaceholder', { name: momProfile?.momName || 'mama' })} rows={1}
               disabled={!isPremium && dailyMsgCount >= FREE_MSG_LIMIT}
               style={{ flex: 1, border: 'none', resize: 'none', fontSize: 15, color: TEXT_DARK, background: 'transparent', fontFamily: "'DM Sans', sans-serif", lineHeight: 1.5, padding: '6px 0', maxHeight: 80, overflowY: 'auto', opacity: (!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? 0.5 : 1 }}
               onInput={e => { e.target.style.height = 'auto'; e.target.style.height = Math.min(e.target.scrollHeight, 80) + 'px'; }}
@@ -1156,20 +1092,20 @@ export default function Home() {
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontSize: 48, marginBottom: 12 }}>✨</div>
               <h2 style={{ fontSize: 24, fontWeight: 700, color: TEXT_DARK, marginBottom: 4, fontFamily: "'Playfair Display', serif" }}>
-                Upgrade to Premium
+                {t('upgrade.title')}
               </h2>
-              <div style={{ fontSize: 15, fontWeight: 700, color: GREEN_DARK, marginBottom: 6 }}>Cancel anytime</div>
+              <div style={{ fontSize: 15, fontWeight: 700, color: GREEN_DARK, marginBottom: 6 }}>{t('upgrade.cancelAnytime')}</div>
               <p style={{ fontSize: 14, color: TEXT_MID, lineHeight: 1.6, marginBottom: 24 }}>
-                Get the full MomzVeda experience — because you deserve unlimited support, mama.
+                {t('upgrade.subtitle')}
               </p>
 
               {/* Features */}
               <div style={{ textAlign: 'left', marginBottom: 24 }}>
                 {[
-                  { emoji: '💬', text: 'Unlimited daily messages' },
-                  { emoji: '🗺️', text: 'Full Guided Journeys library' },
-                  { emoji: '⚡', text: 'Priority response speed' },
-                  { emoji: '🆕', text: 'New guides added monthly' },
+                  { emoji: '💬', text: t('upgrade.unlimitedMessages') },
+                  { emoji: '🗺️', text: t('upgrade.fullJourneys') },
+                  { emoji: '⚡', text: t('upgrade.prioritySpeed') },
+                  { emoji: '🆕', text: t('upgrade.newGuides') },
                 ].map((f, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '8px 0', borderBottom: i < 3 ? `1px solid ${BORDER_LIGHT}` : 'none' }}>
                     <span style={{ fontSize: 20 }}>{f.emoji}</span>
@@ -1185,21 +1121,21 @@ export default function Home() {
                 borderRadius: 16, padding: '16px', fontSize: 17, fontWeight: 700, cursor: 'pointer',
                 fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 20px rgba(245,158,11,0.3)', marginBottom: 10,
               }}>
-                €9.99/month
+                {t('upgrade.monthly')}
               </button>
               <button onClick={() => handleUpgrade('yearly')} style={{
                 width: '100%', background: '#FFF7ED', color: '#92400E', border: '2px solid #FDE68A',
                 borderRadius: 16, padding: '14px', fontSize: 15, fontWeight: 700, cursor: 'pointer',
                 fontFamily: "'DM Sans', sans-serif", marginBottom: 16,
               }}>
-                €69.99/year <span style={{ fontSize: 12, fontWeight: 500, color: '#B45309' }}>save 42%</span>
+                {t('upgrade.yearly')} <span style={{ fontSize: 12, fontWeight: 500, color: '#B45309' }}>{t('upgrade.yearlySave')}</span>
               </button>
 
               <button onClick={() => setShowUpgrade(false)} style={{
                 background: 'none', border: 'none', color: TEXT_LIGHT, fontSize: 14, cursor: 'pointer',
                 fontFamily: "'DM Sans', sans-serif", padding: '8px',
               }}>
-                Maybe later
+                {t('upgrade.maybeLater')}
               </button>
             </div>
           </div>

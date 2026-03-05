@@ -1,0 +1,42 @@
+[
+  {
+    "emoji": "😰",
+    "label": "Je suis débordée",
+    "prompt": "Je me sens vraiment anxieuse et débordée aujourd'hui. Tout me semble trop. J'ai juste besoin de quelqu'un à qui parler qui comprend."
+  },
+  {
+    "emoji": "💪",
+    "label": "J'ai besoin d'encouragements",
+    "prompt": "Je passe une journée difficile et j'ai juste besoin que quelqu'un me rappelle que je m'en sors bien. Tu peux me remonter le moral ?"
+  },
+  {
+    "emoji": "😴",
+    "label": "Aide au sommeil",
+    "prompt": "J'ai des problèmes de sommeil — celui de mon enfant ou le mien. Tu as des conseils pour de meilleures routines du coucher et pour vraiment se reposer ?"
+  },
+  {
+    "emoji": "😤",
+    "label": "Crises & grandes émotions",
+    "prompt": "Mon enfant a de grandes émotions et des crises. Comment je gère les crises calmement sans perdre mon propre calme ?"
+  },
+  {
+    "emoji": "🍳",
+    "label": "Idée de dîner rapide",
+    "prompt": "C'est bientôt l'heure du dîner et je n'ai rien prévu. Donne-moi une recette rapide, facile et adaptée aux enfants que je peux faire en moins de 30 minutes avec des ingrédients courants."
+  },
+  {
+    "emoji": "💔",
+    "label": "Culpabilité de maman",
+    "prompt": "Je lutte avec la culpabilité de maman aujourd'hui. J'ai l'impression de ne pas en faire assez ou de mal faire. Tu peux m'aider à prendre du recul ?"
+  },
+  {
+    "emoji": "🧘‍♀️",
+    "label": "Idées self-care",
+    "prompt": "J'ai besoin d'idées de self-care réalistes pour une maman occupée. Je n'ai presque pas de temps mais je suis à bout. Qu'est-ce que je peux vraiment faire ?"
+  },
+  {
+    "emoji": "🎉",
+    "label": "Idées d'activités fun",
+    "prompt": "J'ai besoin d'idées d'activités amusantes pour aujourd'hui avec mes enfants. Intérieur ou extérieur, faciles à mettre en place, pas de matériel spécial nécessaire. On fait quoi ?"
+  }
+]

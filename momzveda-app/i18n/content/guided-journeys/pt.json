@@ -1,0 +1,38 @@
+[
+  {
+    "emoji": "🏠",
+    "title": "Primeira Semana em Casa",
+    "desc": "Navegando os dias de recém-nascido",
+    "prompt": "Acabei de trazer meu bebê do hospital pra casa. Pode me explicar o que esperar na primeira semana? Quais são as coisas mais importantes em que devo focar? Estou nervosa e animada."
+  },
+  {
+    "emoji": "🍼",
+    "title": "Introdução Alimentar",
+    "desc": "Quando e como começar",
+    "prompt": "Acho que meu bebê está pronto pra começar a comer sólidos. Pode me guiar em como começar? Quais sinais devo observar, com quais alimentos começar e como tornar uma experiência positiva?"
+  },
+  {
+    "emoji": "😤",
+    "title": "Lidando com Birras",
+    "desc": "Entendendo as crises",
+    "prompt": "As birras do meu filho estão muito intensas e acontecendo com mais frequência. Pode me ajudar a entender o que está acontecendo no desenvolvimento dele e me guiar em como lidar sem perder minha própria calma?"
+  },
+  {
+    "emoji": "🌙",
+    "title": "Batalhas na Hora de Dormir",
+    "desc": "Rotinas de sono tranquilas",
+    "prompt": "A hora de dormir é uma batalha toda noite. Pode me guiar passo a passo pra criar uma rotina de sono tranquila que realmente funcione? Preciso de uma abordagem passo a passo."
+  },
+  {
+    "emoji": "🎒",
+    "title": "Pronto pra Escola",
+    "desc": "Preparação para o grande dia",
+    "prompt": "Meu filho vai começar a escola em breve e quero garantir que ele esteja pronto — não só academicamente, mas emocional e socialmente. Em que devo focar?"
+  },
+  {
+    "emoji": "📱",
+    "title": "Equilíbrio de Tela",
+    "desc": "Hábitos digitais saudáveis",
+    "prompt": "Estou com dificuldade em gerenciar o tempo de tela dos meus filhos. Como encontro um equilíbrio saudável sem que isso vire uma briga diária?"
+  }
+]

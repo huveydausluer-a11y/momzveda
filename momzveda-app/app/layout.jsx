@@ -1,4 +1,5 @@
 import './globals.css';
+import ClientProviders from './providers';
 
 export const metadata = {
   title: 'MomzVeda — Your Mom Friend. Always Here.',
@@ -54,7 +55,7 @@ export default function RootLayout({ children }) {
         <meta name="msapplication-TileColor" content="#0F1F15" />
       </head>
       <body>
-        {children}
+        <ClientProviders>{children}</ClientProviders>
         <script
           dangerouslySetInnerHTML={{
             __html: `

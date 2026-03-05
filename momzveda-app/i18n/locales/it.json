@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "La tua amica mamma. Sempre qui.",
+    "loading": "Caricamento del tuo spazio...",
+    "close": "Chiudi",
+    "cancel": "Annulla",
+    "remove": "Rimuovi",
+    "install": "Installa",
+    "logout": "Esci"
+  },
+
+  "login": {
+    "title": "Bentornata, mamma!",
+    "subtitle": "Accedi al tuo spazio",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "tua@email.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "La tua password",
+    "submitButton": "Accedi",
+    "submitting": "Accesso in corso...",
+    "noAccount": "Non hai un account?",
+    "signUpLink": "Registrati"
+  },
+
+  "signup": {
+    "title": "Unisciti al villaggio!",
+    "subtitle": "Crea il tuo account per iniziare",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "tua@email.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Almeno 6 caratteri",
+    "submitButton": "Crea account",
+    "submitting": "Creazione account...",
+    "successTitle": "Controlla la tua e-mail!",
+    "successMessage": "Abbiamo inviato un link di conferma a {email}. Cliccaci sopra per attivare il tuo account e iniziare a chattare!",
+    "backToLogin": "Torna al login",
+    "hasAccount": "Hai già un account?",
+    "signInLink": "Accedi"
+  },
+
+  "onboarding": {
+    "step": "Passo {current} di {total}",
+    "backButton": "← Indietro",
+    "continueButton": "Continua →",
+    "finishButton": "🎉 Andiamo!",
+    "welcome": {
+      "title": "Benvenuta, Mamma!",
+      "description": "Configuriamo il tuo spazio così posso essere la migliore amica mamma per te. Ci vuole solo un minuto — e tutto resta privato.",
+      "startButton": "Iniziamo →"
+    },
+    "aboutYou": {
+      "title": "Parlami di te",
+      "subtitle": "Così le nostre chat saranno personali e potrò darti consigli su misura.",
+      "nameLabel": "Il tuo nome",
+      "namePlaceholder": "Come ti chiamo?",
+      "ageLabel": "La tua fascia d'età",
+      "countryLabel": "Dove vivi?",
+      "countryPlaceholder": "Cerca il tuo paese..."
+    },
+    "children": {
+      "title": "Parlami dei tuoi piccoli!",
+      "subtitle": "Aggiungi il nome e l'età di ogni bambino così posso dare consigli personalizzati e adatti alla loro età, e chiamarli per nome.",
+      "childNumber": "Bambino/a {number}",
+      "removeChild": "✕ Rimuovi",
+      "namePlaceholder": "Nome del bambino/a (o soprannome)",
+      "agePlaceholder": "Età (es. 2, 0.5)",
+      "agePickLabel": "Oppure scegli...",
+      "newborn": "Neonato (0-3 mesi)",
+      "baby": "Bebè (3-12 mesi)",
+      "toddler": "Bimbo piccolo (1-2 anni)",
+      "preschool": "Prescolare (3-5 anni)",
+      "schoolAge": "Età scolare (6-12)",
+      "teen": "Adolescente (13-17)",
+      "expecting": "In attesa!",
+      "addAnother": "+ Aggiungi un altro bambino/a",
+      "expectingNote": "In attesa? Scrivi \"expecting\" come età. Puoi sempre aggiornare dopo nella scheda Kids!"
+    },
+    "parenting": {
+      "title": "Il tuo percorso da genitore",
+      "subtitle": "Aiutami a capire il tuo stile così posso adattarmi a te.",
+      "styleLabel": "Cosa ti sembra giusto?",
+      "gentle": "Dolce & Consapevole",
+      "gentleDesc": "Connessione prima del controllo",
+      "structured": "Strutturata & Routinaria",
+      "structuredDesc": "Limiti chiari e costanza",
+      "balanced": "Mix Equilibrato",
+      "balancedDesc": "Struttura con flessibilità",
+      "instinctive": "Seguo il flusso",
+      "instinctiveDesc": "Mi fido del mio istinto",
+      "figuringOut": "Sto ancora scoprendo",
+      "figuringOutDesc": "Imparo strada facendo!",
+      "challengesLabel": "Cos'è più difficile in questo momento?",
+      "challengesHint": "(scegli fino a 4)",
+      "challengesCount": "{count}/4 selezionati",
+      "sleep": "Sonno",
+      "tantrums": "Capricci",
+      "feeding": "Alimentazione",
+      "guilt": "Senso di colpa da mamma",
+      "workLife": "Lavoro-vita",
+      "loneliness": "Solitudine",
+      "anxiety": "Ansia",
+      "partner": "Partner",
+      "screenTime": "Tempo schermo",
+      "milestones": "Preoccupazioni sviluppo",
+      "discipline": "Limiti",
+      "selfCare": "Tempo per me",
+      "supportLabel": "Com'è il tuo supporto?",
+      "partnerHome": "Partner a casa",
+      "partnerBusy": "Partner, ma spesso occupato",
+      "familyNearby": "Famiglia vicina",
+      "familyFar": "Famiglia lontana",
+      "solo": "Genitore single",
+      "community": "Amici / comunità",
+      "mixed": "Un mix / varia"
+    },
+    "terms": {
+      "title": "Ci siamo quasi!",
+      "subtitle": "Per favore leggi e accetta i nostri termini prima di iniziare.",
+      "description": "Usando MomzVeda, accetti i nostri Termini di Servizio e l'Informativa sulla Privacy. Questi spiegano come funziona l'app, come vengono gestiti i tuoi dati e i tuoi diritti come utente.",
+      "termsLink": "📄 Termini di Servizio",
+      "privacyLink": "🔒 Informativa sulla Privacy",
+      "acceptCheckbox": "Ho letto e accetto i <strong>Termini di Servizio</strong> e l'<strong>Informativa sulla Privacy</strong>."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "AFFERMAZIONE DEL GIORNO",
+    "newAffirmation": "↻ Nuova",
+    "welcomeGreeting": "Ciao {name}! 👋 Sono qui quando hai bisogno di me.",
+    "welcomeKidsIntro": "Conosco tutto di {kids} — parliamo! 💚",
+    "tapPrompt": "Tocca un argomento o scrivi quello che vuoi!",
+    "inputPlaceholder": "Parlami, {name}... 💬",
+    "inputPlaceholderLimited": "Passa a Premium per messaggi illimitati ✨",
+    "freeMessagesLeft": "{count} messaggio gratuito rimasto oggi",
+    "freeMessagesLeft_plural": "{count} messaggi gratuiti rimasti oggi",
+    "limitReached": "Limite giornaliero raggiunto — Passa a Premium per l'illimitato ✨",
+    "errorRetry": "Hmm, fammi riprovare 💛",
+    "errorGeneral": "Qualcosa è andato storto! 😅 Riprova tra un attimo. Sono qui per te! 💛"
+  },
+
+  "tabs": {
+    "chat": "💬 Chat",
+    "guides": "🗺️ Guide",
+    "guidesLocked": "🗺️ Guide 🔒",
+    "kids": "👶 Bimbi",
+    "wins": "🌟 Vittorie"
+  },
+
+  "journeys": {
+    "title": "Percorsi Guidati",
+    "premium": "✨ PREMIUM",
+    "subtitle": "Guide passo dopo passo per i traguardi più comuni",
+    "unlockTitle": "Sblocca i Percorsi Guidati",
+    "unlockDesc": "Accedi a guide passo dopo passo per l'addestramento al sonno, lo svezzamento, la gestione dei capricci e altro ancora — più messaggi giornalieri illimitati.",
+    "upgradeButton": "Passa a Premium",
+    "priceNote": "Da €9,99/mese — cancella quando vuoi"
+  },
+
+  "kids": {
+    "title": "I tuoi bambini",
+    "subtitle": "Aggiungi i tuoi bambini perché MomzVeda possa dare consigli personalizzati e adatti alla loro età",
+    "ageLabel": "Età: {age}",
+    "addChild": "+ Aggiungi un bambino/a",
+    "namePlaceholder": "Nome del bambino/a",
+    "agePlaceholder": "Età (es. 2, 6 mesi, 10)",
+    "notesPlaceholder": "Note (allergie, interessi...)",
+    "addButton": "Aggiungi bambino/a"
+  },
+
+  "wins": {
+    "title": "Vittorie di Mamma 🌟",
+    "subtitle": "Celebra le piccole vittorie — te lo meriti!",
+    "placeholder": "Qual è la tua vittoria di oggi?",
+    "emptyTitle": "Nessuna vittoria registrata ancora — ma sei qui, e questo è già una vittoria! 💛",
+    "emptyHint": "Prova: \"Il bebè ha dormito 5 ore\" o \"Ho cucinato la cena da zero\""
+  },
+
+  "emergency": {
+    "title": "🆘 Risorse di emergenza"
+  },
+
+  "installBanner": {
+    "title": "📲 Installa MomzVeda",
+    "subtitle": "Aggiungilo alla schermata home per un accesso rapido"
+  },
+
+  "premiumBanner": "Benvenuta in Premium! Messaggi illimitati e tutte le Guide sbloccate 💛",
+
+  "upgrade": {
+    "title": "Passa a Premium",
+    "cancelAnytime": "Cancella quando vuoi",
+    "subtitle": "Vivi l'esperienza completa MomzVeda — perché meriti supporto illimitato, mamma.",
+    "unlimitedMessages": "Messaggi giornalieri illimitati",
+    "fullJourneys": "Libreria completa dei Percorsi Guidati",
+    "prioritySpeed": "Velocità di risposta prioritaria",
+    "newGuides": "Nuove guide ogni mese",
+    "monthly": "€9,99/mese",
+    "yearly": "€69,99/anno",
+    "yearlySave": "risparmia il 42%",
+    "maybeLater": "Forse più tardi"
+  },
+
+  "help": "🆘 Aiuto"
+}

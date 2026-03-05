@@ -1,0 +1,38 @@
+[
+  {
+    "emoji": "🏠",
+    "title": "Erste Woche zu Hause",
+    "desc": "Die Neugeborenen-Tage meistern",
+    "prompt": "Ich habe gerade mein Baby aus dem Krankenhaus nach Hause gebracht. Kannst du mir erklären, was mich in der ersten Woche erwartet? Was sind die wichtigsten Dinge, auf die ich mich konzentrieren sollte? Ich bin nervös und aufgeregt zugleich."
+  },
+  {
+    "emoji": "🍼",
+    "title": "Beikoststart",
+    "desc": "Wann und wie anfangen",
+    "prompt": "Ich glaube, mein Baby ist bereit für Beikost. Kannst du mich anleiten, wie ich anfange? Auf welche Anzeichen soll ich achten, mit welchem Essen anfangen und wie mache ich es zu einer positiven Erfahrung?"
+  },
+  {
+    "emoji": "😤",
+    "title": "Wutanfälle zähmen",
+    "desc": "Die Ausraster verstehen",
+    "prompt": "Die Wutanfälle meines Kleinkinds sind wirklich heftig und passieren immer öfter. Kannst du mir helfen zu verstehen, was entwicklungsmäßig passiert, und mir erklären, wie ich damit umgehe, ohne selbst die Fassung zu verlieren?"
+  },
+  {
+    "emoji": "🌙",
+    "title": "Schlafenszeit-Kämpfe",
+    "desc": "Friedliche Schlafroutinen",
+    "prompt": "Die Schlafenszeit ist jeden einzelnen Abend ein Kampf. Kannst du mir helfen, eine friedliche Schlafroutine zu entwickeln, die wirklich funktioniert? Ich brauche einen Schritt-für-Schritt-Ansatz."
+  },
+  {
+    "emoji": "🎒",
+    "title": "Schulstart",
+    "desc": "Vorbereitung auf den großen Tag",
+    "prompt": "Mein Kind kommt bald in die Schule und ich möchte sicherstellen, dass es bereit ist — nicht nur schulisch, sondern auch emotional und sozial. Worauf sollte ich mich konzentrieren?"
+  },
+  {
+    "emoji": "📱",
+    "title": "Bildschirmzeit-Balance",
+    "desc": "Gesunde digitale Gewohnheiten",
+    "prompt": "Ich tue mich schwer damit, die Bildschirmzeit für meine Kinder zu managen. Wie finde ich eine gesunde Balance, ohne dass es jeden Tag zum Streit wird?"
+  }
+]

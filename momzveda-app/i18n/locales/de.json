@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "Deine Mama-Freundin. Immer da.",
+    "loading": "Dein Bereich wird geladen...",
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "remove": "Entfernen",
+    "install": "Installieren",
+    "logout": "Abmelden"
+  },
+
+  "login": {
+    "title": "Willkommen zurück, Mama!",
+    "subtitle": "Melde dich in deinem Bereich an",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "deine@email.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Dein Passwort",
+    "submitButton": "Anmelden",
+    "submitting": "Wird angemeldet...",
+    "noAccount": "Noch kein Konto?",
+    "signUpLink": "Registrieren"
+  },
+
+  "signup": {
+    "title": "Werde Teil unserer Gemeinschaft!",
+    "subtitle": "Erstelle dein Konto, um loszulegen",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "deine@email.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Mindestens 6 Zeichen",
+    "submitButton": "Konto erstellen",
+    "submitting": "Konto wird erstellt...",
+    "successTitle": "Schau in dein Postfach!",
+    "successMessage": "Wir haben einen Bestätigungslink an {email} gesendet. Klicke darauf, um dein Konto zu aktivieren und loszuchatten!",
+    "backToLogin": "Zurück zur Anmeldung",
+    "hasAccount": "Hast du schon ein Konto?",
+    "signInLink": "Anmelden"
+  },
+
+  "onboarding": {
+    "step": "Schritt {current} von {total}",
+    "backButton": "← Zurück",
+    "continueButton": "Weiter →",
+    "finishButton": "🎉 Los geht's!",
+    "welcome": {
+      "title": "Willkommen, Mama!",
+      "description": "Lass uns deinen Bereich einrichten, damit ich die beste Mama-Freundin für dich sein kann. Das dauert nur eine Minute — und alles bleibt privat.",
+      "startButton": "Lass uns loslegen →"
+    },
+    "aboutYou": {
+      "title": "Erzähl mir von dir",
+      "subtitle": "Damit sich unsere Chats persönlich anfühlen und ich dir passende Tipps geben kann.",
+      "nameLabel": "Dein Vorname",
+      "namePlaceholder": "Wie soll ich dich nennen?",
+      "ageLabel": "Dein Altersbereich",
+      "countryLabel": "Wo lebst du?",
+      "countryPlaceholder": "Suche dein Land..."
+    },
+    "children": {
+      "title": "Erzähl mir von deinen Kleinen!",
+      "subtitle": "Füge den Namen und das Alter jedes Kindes hinzu, damit ich personalisierte, altersgerechte Tipps geben und sie beim Namen nennen kann.",
+      "childNumber": "Kind {number}",
+      "removeChild": "✕ Entfernen",
+      "namePlaceholder": "Name des Kindes (oder Spitzname)",
+      "agePlaceholder": "Alter (z.B. 2, 0.5)",
+      "agePickLabel": "Oder wähle...",
+      "newborn": "Neugeborenes (0-3 Mo.)",
+      "baby": "Baby (3-12 Mo.)",
+      "toddler": "Kleinkind (1-2 J.)",
+      "preschool": "Vorschulkind (3-5 J.)",
+      "schoolAge": "Schulkind (6-12)",
+      "teen": "Teenager (13-17)",
+      "expecting": "Schwanger!",
+      "addAnother": "+ Weiteres Kind hinzufügen",
+      "expectingNote": "Schwanger? Gib \"expecting\" als Alter ein. Du kannst es später jederzeit im Kids-Tab aktualisieren!"
+    },
+    "parenting": {
+      "title": "Deine Elternreise",
+      "subtitle": "Hilf mir, deinen Stil zu verstehen, damit ich zu dir passe.",
+      "styleLabel": "Was fühlt sich für dich richtig an?",
+      "gentle": "Sanft & Bewusst",
+      "gentleDesc": "Verbindung statt Kontrolle",
+      "structured": "Strukturiert & Routiniert",
+      "structuredDesc": "Klare Grenzen & Beständigkeit",
+      "balanced": "Ausgewogener Mix",
+      "balancedDesc": "Struktur mit Flexibilität",
+      "instinctive": "Einfach machen",
+      "instinctiveDesc": "Meinem Bauchgefühl vertrauen",
+      "figuringOut": "Noch am Herausfinden",
+      "figuringOutDesc": "Lerne, während ich's mache!",
+      "challengesLabel": "Was ist gerade am schwersten?",
+      "challengesHint": "(wähle bis zu 4)",
+      "challengesCount": "{count}/4 ausgewählt",
+      "sleep": "Schlaf",
+      "tantrums": "Wutanfälle",
+      "feeding": "Ernährung",
+      "guilt": "Mama-Schuldgefühle",
+      "workLife": "Work-Life",
+      "loneliness": "Einsamkeit",
+      "anxiety": "Angst",
+      "partner": "Partner",
+      "screenTime": "Bildschirmzeit",
+      "milestones": "Entwicklungssorgen",
+      "discipline": "Grenzen setzen",
+      "selfCare": "Zeit für mich",
+      "supportLabel": "Wie sieht deine Unterstützung aus?",
+      "partnerHome": "Partner zu Hause",
+      "partnerBusy": "Partner, aber oft beschäftigt",
+      "familyNearby": "Familie in der Nähe",
+      "familyFar": "Familie weit weg",
+      "solo": "Alleinerziehend",
+      "community": "Freunde / Gemeinschaft",
+      "mixed": "Gemischt / unterschiedlich"
+    },
+    "terms": {
+      "title": "Fast geschafft!",
+      "subtitle": "Bitte lies und akzeptiere unsere Bedingungen, bevor wir starten.",
+      "description": "Durch die Nutzung von MomzVeda stimmst du unseren Nutzungsbedingungen und der Datenschutzerklärung zu. Diese erklären, wie die App funktioniert, wie deine Daten verarbeitet werden und welche Rechte du als Nutzerin hast.",
+      "termsLink": "📄 Nutzungsbedingungen",
+      "privacyLink": "🔒 Datenschutzerklärung",
+      "acceptCheckbox": "Ich habe die <strong>Nutzungsbedingungen</strong> und die <strong>Datenschutzerklärung</strong> gelesen und stimme ihnen zu."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "HEUTIGE AFFIRMATION",
+    "newAffirmation": "↻ Neu",
+    "welcomeGreeting": "Hey {name}! 👋 Ich bin da, wann immer du mich brauchst.",
+    "welcomeKidsIntro": "Ich weiß alles über {kids} — lass uns plaudern! 💚",
+    "tapPrompt": "Tippe auf ein Thema oder schreib einfach los!",
+    "inputPlaceholder": "Schreib mir, {name}... 💬",
+    "inputPlaceholderLimited": "Upgrade für unbegrenzte Nachrichten ✨",
+    "freeMessagesLeft": "Noch {count} Gratis-Nachricht heute",
+    "freeMessagesLeft_plural": "Noch {count} Gratis-Nachrichten heute",
+    "limitReached": "Tageslimit erreicht — Upgrade für unbegrenzt ✨",
+    "errorRetry": "Hmm, lass mich das nochmal versuchen 💛",
+    "errorGeneral": "Da ist was schiefgelaufen! 😅 Versuch's gleich nochmal. Ich bin für dich da! 💛"
+  },
+
+  "tabs": {
+    "chat": "💬 Chat",
+    "guides": "🗺️ Guides",
+    "guidesLocked": "🗺️ Guides 🔒",
+    "kids": "👶 Kinder",
+    "wins": "🌟 Erfolge"
+  },
+
+  "journeys": {
+    "title": "Geführte Reisen",
+    "premium": "✨ PREMIUM",
+    "subtitle": "Schritt-für-Schritt-Anleitungen für häufige Meilensteine",
+    "unlockTitle": "Geführte Reisen freischalten",
+    "unlockDesc": "Erhalte Schritt-für-Schritt-Anleitungen für Schlaftraining, Beikoststart, Wutanfälle zähmen und mehr — plus unbegrenzte tägliche Nachrichten.",
+    "upgradeButton": "Auf Premium upgraden",
+    "priceNote": "Ab €9,99/Monat — jederzeit kündbar"
+  },
+
+  "kids": {
+    "title": "Deine Kinder",
+    "subtitle": "Füge deine Kinder hinzu, damit MomzVeda personalisierte, altersgerechte Ratschläge geben kann",
+    "ageLabel": "Alter: {age}",
+    "addChild": "+ Kind hinzufügen",
+    "namePlaceholder": "Name des Kindes",
+    "agePlaceholder": "Alter (z.B. 2, 6 Monate, 10)",
+    "notesPlaceholder": "Notizen (Allergien, Interessen...)",
+    "addButton": "Kind hinzufügen"
+  },
+
+  "wins": {
+    "title": "Mama-Erfolge 🌟",
+    "subtitle": "Feiere die kleinen Siege — du hast es verdient!",
+    "placeholder": "Was ist dein Erfolg heute?",
+    "emptyTitle": "Noch keine Erfolge eingetragen — aber du bist hier, und das ist schon ein Erfolg! 💛",
+    "emptyHint": "Versuch's mit: \"Baby hat 5 Stunden geschlafen\" oder \"Abendessen selbst gekocht\""
+  },
+
+  "emergency": {
+    "title": "🆘 Notfall-Ressourcen"
+  },
+
+  "installBanner": {
+    "title": "📲 MomzVeda installieren",
+    "subtitle": "Füge es deinem Startbildschirm hinzu für schnellen Zugriff"
+  },
+
+  "premiumBanner": "Willkommen bei Premium! Unbegrenzte Nachrichten & alle Guides freigeschaltet 💛",
+
+  "upgrade": {
+    "title": "Auf Premium upgraden",
+    "cancelAnytime": "Jederzeit kündbar",
+    "subtitle": "Hol dir das volle MomzVeda-Erlebnis — weil du unbegrenzte Unterstützung verdienst, Mama.",
+    "unlimitedMessages": "Unbegrenzte tägliche Nachrichten",
+    "fullJourneys": "Komplette Guided Journeys Bibliothek",
+    "prioritySpeed": "Bevorzugte Antwortgeschwindigkeit",
+    "newGuides": "Neue Guides jeden Monat",
+    "monthly": "€9,99/Monat",
+    "yearly": "€69,99/Jahr",
+    "yearlySave": "42% sparen",
+    "maybeLater": "Vielleicht später"
+  },
+
+  "help": "🆘 Hilfe"
+}

@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "당신의 엄마 친구. 언제나 여기 있어요.",
+    "loading": "당신의 공간을 불러오는 중...",
+    "close": "닫기",
+    "cancel": "취소",
+    "remove": "삭제",
+    "install": "설치",
+    "logout": "로그아웃"
+  },
+
+  "login": {
+    "title": "다시 와줬구나, 엄마!",
+    "subtitle": "내 공간에 로그인하기",
+    "emailLabel": "이메일",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "비밀번호",
+    "passwordPlaceholder": "비밀번호",
+    "submitButton": "로그인",
+    "submitting": "로그인 중...",
+    "noAccount": "아직 계정이 없어요?",
+    "signUpLink": "회원가입"
+  },
+
+  "signup": {
+    "title": "우리 마을에 함께해요!",
+    "subtitle": "계정을 만들고 시작해요",
+    "emailLabel": "이메일",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "비밀번호",
+    "passwordPlaceholder": "6자 이상",
+    "submitButton": "계정 만들기",
+    "submitting": "계정 만드는 중...",
+    "successTitle": "이메일을 확인해봐요!",
+    "successMessage": "{email}로 확인 링크를 보냈어요. 링크를 클릭해서 계정을 활성화하고 대화를 시작해봐요!",
+    "backToLogin": "로그인으로 돌아가기",
+    "hasAccount": "이미 계정이 있어요?",
+    "signInLink": "로그인"
+  },
+
+  "onboarding": {
+    "step": "단계 {current}/{total}",
+    "backButton": "← 뒤로",
+    "continueButton": "계속 →",
+    "finishButton": "🎉 시작해요!",
+    "welcome": {
+      "title": "환영해요, 엄마!",
+      "description": "최고의 엄마 친구가 될 수 있도록 공간을 설정해요. 1분이면 끝나고, 모든 건 비공개예요.",
+      "startButton": "시작해요 →"
+    },
+    "aboutYou": {
+      "title": "당신에 대해 알려줘요",
+      "subtitle": "대화가 더 친근하고, 맞춤 팁을 드릴 수 있게 돼요.",
+      "nameLabel": "이름 (이름만)",
+      "namePlaceholder": "뭐라고 부를까요?",
+      "ageLabel": "나이대",
+      "countryLabel": "어디에 살아요?",
+      "countryPlaceholder": "나라 검색..."
+    },
+    "children": {
+      "title": "아이들에 대해 알려줘요!",
+      "subtitle": "아이 이름과 나이를 추가하면 나이에 맞는 맞춤 팁을 드리고 이름으로 불러줄 수 있어요.",
+      "childNumber": "아이 {number}",
+      "removeChild": "✕ 삭제",
+      "namePlaceholder": "아이 이름 (별명도 괜찮아요)",
+      "agePlaceholder": "나이 (예: 2, 0.5)",
+      "agePickLabel": "또는 선택...",
+      "newborn": "신생아 (0-3개월)",
+      "baby": "아기 (3-12개월)",
+      "toddler": "걸음마 (1-2세)",
+      "preschool": "유치원 (3-5세)",
+      "schoolAge": "학령기 (6-12세)",
+      "teen": "십대 (13-17세)",
+      "expecting": "임신 중!",
+      "addAnother": "+ 아이 추가하기",
+      "expectingNote": "임신 중이에요? 나이에 \"expecting\"이라고 입력해요. 나중에 아이 탭에서 언제든 수정할 수 있어요!"
+    },
+    "parenting": {
+      "title": "나의 육아 여정",
+      "subtitle": "엄마의 스타일을 알면 더 잘 맞는 도움을 줄 수 있어요.",
+      "styleLabel": "어떤 스타일이 맞아요?",
+      "gentle": "부드럽고 의식적인",
+      "gentleDesc": "통제보다 연결",
+      "structured": "체계적이고 규칙적인",
+      "structuredDesc": "명확한 경계와 일관성",
+      "balanced": "균형 잡힌",
+      "balancedDesc": "체계와 유연함의 조화",
+      "instinctive": "흐름에 맡기기",
+      "instinctiveDesc": "내 직감을 믿어요",
+      "figuringOut": "아직 찾는 중",
+      "figuringOutDesc": "하면서 배우고 있어요!",
+      "challengesLabel": "지금 가장 힘든 건 뭐예요?",
+      "challengesHint": "(최대 4개 선택)",
+      "challengesCount": "{count}/4 선택됨",
+      "sleep": "수면",
+      "tantrums": "떼쓰기",
+      "feeding": "식사",
+      "guilt": "엄마 죄책감",
+      "workLife": "워라밸",
+      "loneliness": "외로움",
+      "anxiety": "불안",
+      "partner": "파트너",
+      "screenTime": "스크린타임",
+      "milestones": "발달 걱정",
+      "discipline": "훈육",
+      "selfCare": "나만의 시간",
+      "supportLabel": "지금 도움을 받을 수 있는 사람이 있어요?",
+      "partnerHome": "파트너가 집에 있어요",
+      "partnerBusy": "파트너가 있지만 바빠요",
+      "familyNearby": "가까이 가족이 있어요",
+      "familyFar": "가족이 멀리 살아요",
+      "solo": "싱글맘",
+      "community": "친구 / 커뮤니티",
+      "mixed": "혼합 / 상황마다 달라요"
+    },
+    "terms": {
+      "title": "거의 다 됐어요!",
+      "subtitle": "시작하기 전에 이용약관을 확인하고 동의해 주세요.",
+      "description": "MomzVeda를 사용하면 이용약관과 개인정보 처리방침에 동의하게 돼요. 앱 작동 방식, 데이터 처리 방법, 사용자 권리에 대해 설명하고 있어요.",
+      "termsLink": "📄 이용약관",
+      "privacyLink": "🔒 개인정보 처리방침",
+      "acceptCheckbox": "<strong>이용약관</strong>과 <strong>개인정보 처리방침</strong>을 읽었으며 동의해요."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "오늘의 응원",
+    "newAffirmation": "↻ 새로",
+    "welcomeGreeting": "안녕 {name}! 👋 언제든 여기 있을게.",
+    "welcomeKidsIntro": "{kids}에 대해 다 알고 있어 — 이야기하자! 💚",
+    "tapPrompt": "주제를 탭하거나 아무거나 입력해봐요!",
+    "inputPlaceholder": "이야기해줘, {name}... 💬",
+    "inputPlaceholderLimited": "업그레이드하면 무제한 메시지 ✨",
+    "freeMessagesLeft": "오늘 무료 메시지 {count}개 남았어요",
+    "freeMessagesLeft_plural": "오늘 무료 메시지 {count}개 남았어요",
+    "limitReached": "오늘 한도에 도달했어요 — 업그레이드로 무제한 ✨",
+    "errorRetry": "음, 다시 해볼게 💛",
+    "errorGeneral": "뭔가 잘못됐어요! 😅 잠시 후 다시 시도해봐요. 여기 있을게요! 💛"
+  },
+
+  "tabs": {
+    "chat": "💬 채팅",
+    "guides": "🗺️ 가이드",
+    "guidesLocked": "🗺️ 가이드 🔒",
+    "kids": "👶 아이들",
+    "wins": "🌟 성과"
+  },
+
+  "journeys": {
+    "title": "가이드 여정",
+    "premium": "✨ 프리미엄",
+    "subtitle": "주요 단계별 맞춤 안내",
+    "unlockTitle": "가이드 여정 잠금 해제",
+    "unlockDesc": "수면 훈련, 이유식 시작, 떼쓰기 대처 등의 단계별 가이드와 함께 매일 무제한 메시지를 이용하세요.",
+    "upgradeButton": "프리미엄으로 업그레이드",
+    "priceNote": "€9.99/월부터 — 언제든 취소 가능"
+  },
+
+  "kids": {
+    "title": "우리 아이들",
+    "subtitle": "아이를 추가하면 MomzVeda가 나이에 맞는 맞춤 조언을 해줘요",
+    "ageLabel": "나이: {age}",
+    "addChild": "+ 아이 추가",
+    "namePlaceholder": "아이 이름",
+    "agePlaceholder": "나이 (예: 2세, 6개월, 10세)",
+    "notesPlaceholder": "메모 (알레르기, 관심사...)",
+    "addButton": "아이 추가"
+  },
+
+  "wins": {
+    "title": "엄마의 성과 🌟",
+    "subtitle": "작은 승리를 축하해요 — 엄마는 그럴 자격이 있어요!",
+    "placeholder": "오늘의 성과는 뭐예요?",
+    "emptyTitle": "아직 기록된 성과가 없지만 — 여기 있는 것만으로도 이미 성과예요! 💛",
+    "emptyHint": "예시: \"아기가 5시간 잤어요\" 또는 \"직접 저녁을 만들었어요\""
+  },
+
+  "emergency": {
+    "title": "🆘 긴급 도움"
+  },
+
+  "installBanner": {
+    "title": "📲 MomzVeda 설치하기",
+    "subtitle": "홈 화면에 추가해서 빠르게 접속하세요"
+  },
+
+  "premiumBanner": "프리미엄에 오신 걸 환영해요! 무제한 메시지 & 모든 가이드 잠금 해제 💛",
+
+  "upgrade": {
+    "title": "프리미엄으로 업그레이드",
+    "cancelAnytime": "언제든 취소 가능",
+    "subtitle": "MomzVeda의 모든 기능을 경험해요 — 엄마는 무제한 지원을 받을 자격이 있으니까요.",
+    "unlimitedMessages": "매일 무제한 메시지",
+    "fullJourneys": "가이드 여정 전체 라이브러리",
+    "prioritySpeed": "우선 응답",
+    "newGuides": "매달 새로운 가이드 추가",
+    "monthly": "€9.99/월",
+    "yearly": "€69.99/년",
+    "yearlySave": "42% 절약",
+    "maybeLater": "나중에 할게요"
+  },
+
+  "help": "🆘 도움말"
+}

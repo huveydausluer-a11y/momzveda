@@ -1,0 +1,38 @@
+[
+  {
+    "emoji": "🏠",
+    "title": "Primera semana en casa",
+    "desc": "Navegar los primeros días con el bebé",
+    "prompt": "Acabo de traer a mi bebé del hospital a casa. ¿Puedes guiarme sobre qué esperar en la primera semana? ¿Cuáles son las cosas más importantes en las que debo concentrarme? Estoy nerviosa y emocionada a la vez."
+  },
+  {
+    "emoji": "🍼",
+    "title": "Empezar con sólidos",
+    "desc": "Cuándo y cómo comenzar",
+    "prompt": "Creo que mi bebé está listo para empezar con sólidos. ¿Puedes guiarme sobre cómo empezar? ¿Qué señales debo buscar, con qué alimentos comenzar y cómo hacerlo una experiencia positiva?"
+  },
+  {
+    "emoji": "😤",
+    "title": "Dominar los berrinches",
+    "desc": "Entender las crisis",
+    "prompt": "Los berrinches de mi pequeño son muy intensos y cada vez más frecuentes. ¿Puedes ayudarme a entender qué está pasando a nivel de desarrollo y guiarme sobre cómo manejarlos sin perder yo la calma?"
+  },
+  {
+    "emoji": "🌙",
+    "title": "Batallas a la hora de dormir",
+    "desc": "Rutinas de sueño tranquilas",
+    "prompt": "La hora de dormir es una batalla cada noche. ¿Puedes guiarme para crear una rutina nocturna tranquila que realmente funcione? Necesito un enfoque paso a paso."
+  },
+  {
+    "emoji": "🎒",
+    "title": "Listos para la escuela",
+    "desc": "Preparación para el gran día",
+    "prompt": "Mi hijo va a empezar la escuela pronto y quiero asegurarme de que esté listo — no solo académicamente sino también emocional y socialmente. ¿En qué debo concentrarme?"
+  },
+  {
+    "emoji": "📱",
+    "title": "Equilibrio de pantallas",
+    "desc": "Hábitos digitales saludables",
+    "prompt": "Estoy luchando con manejar el tiempo de pantalla de mis hijos. ¿Cómo encuentro un equilibrio saludable sin que se convierta en una pelea diaria?"
+  }
+]

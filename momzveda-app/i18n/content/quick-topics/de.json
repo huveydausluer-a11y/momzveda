@@ -1,0 +1,42 @@
+[
+  {
+    "emoji": "😰",
+    "label": "Ich bin überfordert",
+    "prompt": "Ich fühle mich heute wirklich ängstlich und überfordert. Alles fühlt sich nach zu viel an. Ich brauche einfach jemanden zum Reden, der das versteht."
+  },
+  {
+    "emoji": "💪",
+    "label": "Ich brauche Aufmunterung",
+    "prompt": "Ich habe einen harten Tag und brauche einfach jemanden, der mich daran erinnert, dass ich das gut mache. Kannst du mich etwas aufmuntern?"
+  },
+  {
+    "emoji": "😴",
+    "label": "Schlaf-Hilfe",
+    "prompt": "Ich kämpfe mit dem Schlaf — entweder mit dem Schlaf meines Kindes oder meinem eigenen. Hast du Tipps für bessere Abendroutinen und um wirklich zur Ruhe zu kommen?"
+  },
+  {
+    "emoji": "😤",
+    "label": "Wutanfälle & große Gefühle",
+    "prompt": "Mein Kind hat gerade große Gefühle und Ausraster. Wie gehe ich ruhig mit Wutanfällen um, ohne selbst die Fassung zu verlieren?"
+  },
+  {
+    "emoji": "🍳",
+    "label": "Schnelle Abendessen-Idee",
+    "prompt": "Es ist fast Abendessen-Zeit und ich habe keinen Plan. Gib mir ein schnelles, einfaches, kindertaugliches Rezept, das ich in unter 30 Minuten mit gewöhnlichen Zutaten machen kann."
+  },
+  {
+    "emoji": "💔",
+    "label": "Mama-Schuldgefühle",
+    "prompt": "Ich kämpfe heute mit Mama-Schuldgefühlen. Ich habe das Gefühl, nicht genug zu tun oder es nicht richtig zu machen. Kannst du mir helfen, das in Perspektive zu setzen?"
+  },
+  {
+    "emoji": "🧘‍♀️",
+    "label": "Selfcare-Ideen",
+    "prompt": "Ich brauche realistische Selfcare-Ideen für eine beschäftigte Mama. Ich habe fast keine Zeit, aber ich bin total am Ende. Was kann ich wirklich tun?"
+  },
+  {
+    "emoji": "🎉",
+    "label": "Spaß-Aktivitäten",
+    "prompt": "Ich brauche lustige Aktivitätsideen für heute mit meinen Kindern. Drinnen oder draußen, einfach aufzubauen, kein besonderes Material nötig. Was sollen wir machen?"
+  }
+]

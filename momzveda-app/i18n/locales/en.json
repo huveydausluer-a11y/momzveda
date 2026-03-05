@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "Your Mom Friend. Always Here.",
+    "loading": "Loading your space...",
+    "close": "Close",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "install": "Install",
+    "logout": "Logout"
+  },
+
+  "login": {
+    "title": "Welcome back, mama!",
+    "subtitle": "Sign in to your space",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Your password",
+    "submitButton": "Sign In",
+    "submitting": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up"
+  },
+
+  "signup": {
+    "title": "Join the village!",
+    "subtitle": "Create your account to get started",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "At least 6 characters",
+    "submitButton": "Create Account",
+    "submitting": "Creating account...",
+    "successTitle": "Check your email!",
+    "successMessage": "We sent a confirmation link to {email}. Click it to activate your account and start chatting!",
+    "backToLogin": "Back to login",
+    "hasAccount": "Already have an account?",
+    "signInLink": "Sign in"
+  },
+
+  "onboarding": {
+    "step": "Step {current} of {total}",
+    "backButton": "\u2190 Back",
+    "continueButton": "Continue \u2192",
+    "finishButton": "\ud83c\udf89 Let's Go!",
+    "welcome": {
+      "title": "Welcome, Mama!",
+      "description": "Let\u2019s set up your space so I can be the best mom friend for you. It only takes a minute \u2014 and everything stays private.",
+      "startButton": "Let's Get Started \u2192"
+    },
+    "aboutYou": {
+      "title": "Tell me about you",
+      "subtitle": "So our chats feel personal and I can give you relevant tips.",
+      "nameLabel": "Your first name",
+      "namePlaceholder": "What should I call you?",
+      "ageLabel": "Your age range",
+      "countryLabel": "Where do you live?",
+      "countryPlaceholder": "Search your country..."
+    },
+    "children": {
+      "title": "Tell me about your little ones!",
+      "subtitle": "Add each child\u2019s name and age so I can give personalized, age-specific tips and call them by name.",
+      "childNumber": "Child {number}",
+      "removeChild": "\u2715 Remove",
+      "namePlaceholder": "Child's name (or nickname)",
+      "agePlaceholder": "Age (e.g. 2, 0.5)",
+      "agePickLabel": "Or pick...",
+      "newborn": "Newborn (0-3 mo)",
+      "baby": "Baby (3-12 mo)",
+      "toddler": "Toddler (1-2 yr)",
+      "preschool": "Preschool (3-5 yr)",
+      "schoolAge": "School-age (6-12)",
+      "teen": "Teen (13-17)",
+      "expecting": "Expecting!",
+      "addAnother": "+ Add Another Child",
+      "expectingNote": "Expecting? Type \"expecting\" as age. You can always update later in the Kids tab!"
+    },
+    "parenting": {
+      "title": "Your parenting journey",
+      "subtitle": "Help me understand your style so I can match your vibe.",
+      "styleLabel": "What feels right to you?",
+      "gentle": "Gentle & Conscious",
+      "gentleDesc": "Connection over control",
+      "structured": "Structured & Routine",
+      "structuredDesc": "Clear boundaries & consistency",
+      "balanced": "Balanced Mix",
+      "balancedDesc": "Structure with flexibility",
+      "instinctive": "Go With the Flow",
+      "instinctiveDesc": "Trust my instincts",
+      "figuringOut": "Still Figuring It Out",
+      "figuringOutDesc": "Learning as I go!",
+      "challengesLabel": "What\u2019s hardest right now?",
+      "challengesHint": "(pick up to 4)",
+      "challengesCount": "{count}/4 selected",
+      "sleep": "Sleep",
+      "tantrums": "Tantrums",
+      "feeding": "Feeding",
+      "guilt": "Mom guilt",
+      "workLife": "Work-life",
+      "loneliness": "Loneliness",
+      "anxiety": "Anxiety",
+      "partner": "Partner",
+      "screenTime": "Screen time",
+      "milestones": "Dev worries",
+      "discipline": "Boundaries",
+      "selfCare": "Me-time",
+      "supportLabel": "What does your support look like?",
+      "partnerHome": "Partner at home",
+      "partnerBusy": "Partner, but often busy",
+      "familyNearby": "Family nearby",
+      "familyFar": "Family far away",
+      "solo": "Solo parent",
+      "community": "Friends / community",
+      "mixed": "A mix / it varies"
+    },
+    "terms": {
+      "title": "Almost there!",
+      "subtitle": "Please review and accept our terms before we start.",
+      "description": "By using MomzVeda, you agree to our Terms of Service and Privacy Policy. These outline how the app works, how your data is handled, and your rights as a user.",
+      "termsLink": "\ud83d\udcc4 Terms of Service",
+      "privacyLink": "\ud83d\udd12 Privacy Policy",
+      "acceptCheckbox": "I have read and agree to the <strong>Terms of Service</strong> and <strong>Privacy Policy</strong>."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "TODAY'S AFFIRMATION",
+    "newAffirmation": "\u21bb New",
+    "welcomeGreeting": "Hey {name}! \ud83d\udc4b I'm here whenever you need me.",
+    "welcomeKidsIntro": "I know all about {kids} \u2014 let\u2019s chat! \ud83d\udc9a",
+    "tapPrompt": "Tap a topic or type anything!",
+    "inputPlaceholder": "Talk to me, {name}... \ud83d\udcac",
+    "inputPlaceholderLimited": "Upgrade for unlimited messages \u2728",
+    "freeMessagesLeft": "{count} free message left today",
+    "freeMessagesLeft_plural": "{count} free messages left today",
+    "limitReached": "Daily limit reached \u2014 Upgrade for unlimited \u2728",
+    "errorRetry": "Hmm, let me try that again \ud83d\udc9b",
+    "errorGeneral": "Something went sideways! \ud83d\ude05 Try again in a sec. I\u2019m here for you! \ud83d\udc9b"
+  },
+
+  "tabs": {
+    "chat": "\ud83d\udcac Chat",
+    "guides": "\ud83d\uddfa\ufe0f Guides",
+    "guidesLocked": "\ud83d\uddfa\ufe0f Guides \ud83d\udd12",
+    "kids": "\ud83d\udc76 Kids",
+    "wins": "\ud83c\udf1f Wins"
+  },
+
+  "journeys": {
+    "title": "Guided Journeys",
+    "premium": "\u2728 PREMIUM",
+    "subtitle": "Step-by-step guidance for common milestones",
+    "unlockTitle": "Unlock Guided Journeys",
+    "unlockDesc": "Get step-by-step guidance for sleep training, starting solids, taming tantrums, and more \u2014 plus unlimited daily messages.",
+    "upgradeButton": "Upgrade to Premium",
+    "priceNote": "From \u20ac9.99/mo \u2014 cancel anytime"
+  },
+
+  "kids": {
+    "title": "Your Children",
+    "subtitle": "Add your kids so MomzVeda can give personalized, age-specific advice",
+    "ageLabel": "Age: {age}",
+    "addChild": "+ Add a child",
+    "namePlaceholder": "Child's name",
+    "agePlaceholder": "Age (e.g., 2, 6 months, 10)",
+    "notesPlaceholder": "Notes (allergies, interests...)",
+    "addButton": "Add Child"
+  },
+
+  "wins": {
+    "title": "Mom Wins \ud83c\udf1f",
+    "subtitle": "Celebrate the small victories \u2014 you deserve it!",
+    "placeholder": "What\u2019s your win today?",
+    "emptyTitle": "No wins logged yet \u2014 but you\u2019re here, and that\u2019s already a win! \ud83d\udc9b",
+    "emptyHint": "Try: \"Baby slept 5 hours\" or \"Made dinner from scratch\""
+  },
+
+  "emergency": {
+    "title": "\ud83c\udd98 Emergency Resources"
+  },
+
+  "installBanner": {
+    "title": "\ud83d\udcf2 Install MomzVeda",
+    "subtitle": "Add to your home screen for quick access"
+  },
+
+  "premiumBanner": "Welcome to Premium! Unlimited messages & all Guides unlocked \ud83d\udc9b",
+
+  "upgrade": {
+    "title": "Upgrade to Premium",
+    "cancelAnytime": "Cancel anytime",
+    "subtitle": "Get the full MomzVeda experience \u2014 because you deserve unlimited support, mama.",
+    "unlimitedMessages": "Unlimited daily messages",
+    "fullJourneys": "Full Guided Journeys library",
+    "prioritySpeed": "Priority response speed",
+    "newGuides": "New guides added monthly",
+    "monthly": "\u20ac9.99/month",
+    "yearly": "\u20ac69.99/year",
+    "yearlySave": "save 42%",
+    "maybeLater": "Maybe later"
+  },
+
+  "help": "\ud83c\udd98 Help"
+}

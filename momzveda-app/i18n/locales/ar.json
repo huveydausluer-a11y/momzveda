@@ -1,0 +1,204 @@
+{
+  "common": {
+    "tagline": "صديقتك الأم. دائمًا هنا.",
+    "loading": "جاري تحميل مساحتك...",
+    "close": "إغلاق",
+    "cancel": "إلغاء",
+    "remove": "إزالة",
+    "install": "تثبيت",
+    "logout": "تسجيل الخروج"
+  },
+
+  "login": {
+    "title": "أهلاً بعودتك يا ماما!",
+    "subtitle": "سجّلي الدخول إلى مساحتك",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "كلمة المرور",
+    "submitButton": "تسجيل الدخول",
+    "submitting": "جاري تسجيل الدخول...",
+    "noAccount": "ليس لديكِ حساب؟",
+    "signUpLink": "إنشاء حساب"
+  },
+
+  "signup": {
+    "title": "انضمّي إلى مجتمعنا!",
+    "subtitle": "أنشئي حسابك للبدء",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "٦ أحرف على الأقل",
+    "submitButton": "إنشاء حساب",
+    "submitting": "جاري إنشاء الحساب...",
+    "successTitle": "تفقّدي بريدك الإلكتروني!",
+    "successMessage": "أرسلنا رابط تأكيد إلى {email}. اضغطي عليه لتفعيل حسابك وابدئي المحادثة!",
+    "backToLogin": "العودة لتسجيل الدخول",
+    "hasAccount": "لديكِ حساب بالفعل؟",
+    "signInLink": "تسجيل الدخول"
+  },
+
+  "onboarding": {
+    "step": "الخطوة {current} من {total}",
+    "backButton": "← رجوع",
+    "continueButton": "متابعة →",
+    "finishButton": "🎉 يلّا نبدأ!",
+    "welcome": {
+      "title": "أهلاً يا ماما!",
+      "description": "خلّينا نجهّز مساحتك حتى أكون أفضل صديقة أم لكِ. الأمر يأخذ دقيقة فقط — وكل شيء يبقى خاصًا.",
+      "startButton": "يلّا نبدأ →"
+    },
+    "aboutYou": {
+      "title": "حكّيلي عن نفسك",
+      "subtitle": "حتى تكون محادثاتنا شخصية وأقدر أعطيكِ نصائح مناسبة.",
+      "nameLabel": "اسمك الأول",
+      "namePlaceholder": "شو بتحبي أناديكِ؟",
+      "ageLabel": "فئتك العمرية",
+      "countryLabel": "وين تعيشين؟",
+      "countryPlaceholder": "ابحثي عن بلدك..."
+    },
+    "children": {
+      "title": "حكّيلي عن صغارك!",
+      "subtitle": "أضيفي اسم وعمر كل طفل حتى أقدر أعطيكِ نصائح مخصصة حسب العمر وأناديهم بأسمائهم.",
+      "childNumber": "الطفل {number}",
+      "removeChild": "✕ إزالة",
+      "namePlaceholder": "اسم الطفل (أو لقبه)",
+      "agePlaceholder": "العمر (مثلاً ٢، ٠.٥)",
+      "agePickLabel": "أو اختاري...",
+      "newborn": "حديث الولادة (٠-٣ أشهر)",
+      "baby": "رضيع (٣-١٢ شهر)",
+      "toddler": "دارج (١-٢ سنة)",
+      "preschool": "ما قبل المدرسة (٣-٥ سنوات)",
+      "schoolAge": "سن المدرسة (٦-١٢)",
+      "teen": "مراهق (١٣-١٧)",
+      "expecting": "حامل!",
+      "addAnother": "+ إضافة طفل آخر",
+      "expectingNote": "حامل؟ اكتبي \"expecting\" كعمر. يمكنك التعديل لاحقًا من تبويب الأطفال!"
+    },
+    "parenting": {
+      "title": "رحلتك في الأمومة",
+      "subtitle": "ساعديني أفهم أسلوبك حتى أتناسب مع طريقتك.",
+      "styleLabel": "شو الأسلوب اللي يناسبك؟",
+      "gentle": "لطيف وواعي",
+      "gentleDesc": "التواصل قبل السيطرة",
+      "structured": "منظّم وروتيني",
+      "structuredDesc": "حدود واضحة واتساق",
+      "balanced": "مزيج متوازن",
+      "balancedDesc": "نظام مع مرونة",
+      "instinctive": "ماشي الحال",
+      "instinctiveDesc": "أثق بحدسي",
+      "figuringOut": "لسّه بتعلّم",
+      "figuringOutDesc": "أتعلّم مع الوقت!",
+      "challengesLabel": "شو أصعب شي عندك حاليًا؟",
+      "challengesHint": "(اختاري لغاية ٤)",
+      "challengesCount": "{count}/٤ مختارة",
+      "sleep": "النوم",
+      "tantrums": "نوبات الغضب",
+      "feeding": "التغذية",
+      "guilt": "الشعور بالذنب",
+      "workLife": "التوازن بين العمل والحياة",
+      "loneliness": "الوحدة",
+      "anxiety": "القلق",
+      "partner": "الشريك",
+      "screenTime": "وقت الشاشة",
+      "milestones": "قلق التطور",
+      "discipline": "الحدود",
+      "selfCare": "وقتي الخاص",
+      "supportLabel": "كيف يبدو الدعم عندك؟",
+      "partnerHome": "شريك في البيت",
+      "partnerBusy": "شريك، لكن غالبًا مشغول",
+      "familyNearby": "عائلة قريبة",
+      "familyFar": "عائلة بعيدة",
+      "solo": "أم عزباء",
+      "community": "صديقات / مجتمع",
+      "mixed": "مزيج / يتغير"
+    },
+    "terms": {
+      "title": "تقريبًا خلصنا!",
+      "subtitle": "يرجى مراجعة وقبول الشروط قبل أن نبدأ.",
+      "description": "باستخدامك لتطبيق MomzVeda، أنتِ توافقين على شروط الخدمة وسياسة الخصوصية. هذه توضّح كيف يعمل التطبيق، وكيف يتم التعامل مع بياناتك، وحقوقك كمستخدمة.",
+      "termsLink": "📄 شروط الخدمة",
+      "privacyLink": "🔒 سياسة الخصوصية",
+      "acceptCheckbox": "لقد قرأت وأوافق على <strong>شروط الخدمة</strong> و<strong>سياسة الخصوصية</strong>."
+    }
+  },
+
+  "chat": {
+    "todayAffirmation": "تأكيد اليوم",
+    "newAffirmation": "↻ جديد",
+    "welcomeGreeting": "أهلاً {name}! 👋 أنا هنا وقت ما تحتاجيني.",
+    "welcomeKidsIntro": "أعرف كل شي عن {kids} — خلّينا نحكي! 💚",
+    "tapPrompt": "اضغطي على موضوع أو اكتبي أي شي!",
+    "inputPlaceholder": "حكيلي يا {name}... 💬",
+    "inputPlaceholderLimited": "ترقّي للرسائل غير المحدودة ✨",
+    "freeMessagesLeft": "متبقي {count} رسالة مجانية اليوم",
+    "freeMessagesLeft_plural": "متبقي {count} رسائل مجانية اليوم",
+    "limitReached": "وصلتِ الحد اليومي — ترقّي للرسائل غير المحدودة ✨",
+    "errorRetry": "أمم، خلّيني أحاول مرة ثانية 💛",
+    "errorGeneral": "صار شي غلط! 😅 جرّبي مرة ثانية بعد شوي. أنا هنا لكِ! 💛"
+  },
+
+  "tabs": {
+    "chat": "💬 محادثة",
+    "guides": "🗺️ أدلّة",
+    "guidesLocked": "🗺️ أدلّة 🔒",
+    "kids": "👶 الأطفال",
+    "wins": "🌟 إنجازات"
+  },
+
+  "journeys": {
+    "title": "رحلات موجّهة",
+    "premium": "✨ مميّز",
+    "subtitle": "إرشاد خطوة بخطوة للمراحل المهمة",
+    "unlockTitle": "افتحي الرحلات الموجّهة",
+    "unlockDesc": "احصلي على إرشاد خطوة بخطوة لتدريب النوم، بدء الأطعمة الصلبة، التعامل مع نوبات الغضب، والمزيد — بالإضافة إلى رسائل يومية غير محدودة.",
+    "upgradeButton": "الترقية إلى المميّز",
+    "priceNote": "ابتداءً من €٩.٩٩/شهر — إلغاء في أي وقت"
+  },
+
+  "kids": {
+    "title": "أطفالك",
+    "subtitle": "أضيفي أطفالك حتى يقدر MomzVeda يعطيكِ نصائح مخصصة حسب العمر",
+    "ageLabel": "العمر: {age}",
+    "addChild": "+ إضافة طفل",
+    "namePlaceholder": "اسم الطفل",
+    "agePlaceholder": "العمر (مثلاً ٢، ٦ أشهر، ١٠)",
+    "notesPlaceholder": "ملاحظات (حساسية، اهتمامات...)",
+    "addButton": "إضافة طفل"
+  },
+
+  "wins": {
+    "title": "إنجازات ماما 🌟",
+    "subtitle": "احتفلي بالانتصارات الصغيرة — أنتِ تستحقين!",
+    "placeholder": "شو إنجازك اليوم؟",
+    "emptyTitle": "ما في إنجازات مسجّلة بعد — لكن وجودك هنا هو إنجاز بحد ذاته! 💛",
+    "emptyHint": "جرّبي: \"الطفل نام ٥ ساعات\" أو \"طبخت عشا من الصفر\""
+  },
+
+  "emergency": {
+    "title": "🆘 موارد الطوارئ"
+  },
+
+  "installBanner": {
+    "title": "📲 ثبّتي MomzVeda",
+    "subtitle": "أضيفيه لشاشتك الرئيسية للوصول السريع"
+  },
+
+  "premiumBanner": "أهلاً بالعضوية المميزة! رسائل غير محدودة وجميع الأدلّة مفتوحة 💛",
+
+  "upgrade": {
+    "title": "الترقية إلى المميّز",
+    "cancelAnytime": "إلغاء في أي وقت",
+    "subtitle": "احصلي على تجربة MomzVeda الكاملة — لأنك تستحقين دعمًا بلا حدود يا ماما.",
+    "unlimitedMessages": "رسائل يومية غير محدودة",
+    "fullJourneys": "مكتبة الرحلات الموجّهة كاملة",
+    "prioritySpeed": "سرعة ردّ أولوية",
+    "newGuides": "أدلّة جديدة كل شهر",
+    "monthly": "€٩.٩٩/شهر",
+    "yearly": "€٦٩.٩٩/سنة",
+    "yearlySave": "وفّري ٤٢٪",
+    "maybeLater": "ربما لاحقًا"
+  },
+
+  "help": "🆘 مساعدة"
+}

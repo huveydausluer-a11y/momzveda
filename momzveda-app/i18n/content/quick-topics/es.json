@@ -1,0 +1,42 @@
+[
+  {
+    "emoji": "😰",
+    "label": "Estoy agobiada",
+    "prompt": "Me siento muy ansiosa y agobiada hoy. Todo se siente como demasiado. Solo necesito alguien con quien hablar que entienda."
+  },
+  {
+    "emoji": "💪",
+    "label": "Necesito ánimos",
+    "prompt": "Estoy teniendo un día difícil y solo necesito que alguien me recuerde que lo estoy haciendo bien. ¿Puedes darme ánimos?"
+  },
+  {
+    "emoji": "😴",
+    "label": "Ayuda con el sueño",
+    "prompt": "Estoy luchando con el sueño — ya sea el de mi hijo o el mío. ¿Tienes consejos para mejores rutinas para dormir y realmente descansar?"
+  },
+  {
+    "emoji": "😤",
+    "label": "Berrinches y emociones grandes",
+    "prompt": "Mi hijo está teniendo emociones grandes y crisis. ¿Cómo manejo los berrinches con calma sin perder yo la compostura?"
+  },
+  {
+    "emoji": "🍳",
+    "label": "Idea de cena rápida",
+    "prompt": "Ya casi es hora de cenar y no tengo plan. Dame una receta rápida, fácil y apta para niños que pueda hacer en menos de 30 minutos con ingredientes comunes."
+  },
+  {
+    "emoji": "💔",
+    "label": "Culpa de mamá",
+    "prompt": "Estoy luchando con la culpa de mamá hoy. Siento que no hago lo suficiente o que no lo hago bien. ¿Puedes ayudarme a tener perspectiva?"
+  },
+  {
+    "emoji": "🧘‍♀️",
+    "label": "Ideas de autocuidado",
+    "prompt": "Necesito ideas realistas de autocuidado para una mamá ocupada. No tengo casi tiempo pero estoy agotada. ¿Qué puedo hacer realmente?"
+  },
+  {
+    "emoji": "🎉",
+    "label": "Ideas de actividades divertidas",
+    "prompt": "Necesito ideas de actividades divertidas para hoy con mis hijos. Interior o exterior, fáciles de organizar, sin materiales especiales. ¿Qué hacemos?"
+  }
+]

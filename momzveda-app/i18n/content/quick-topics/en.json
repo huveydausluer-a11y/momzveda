@@ -1,0 +1,42 @@
+[
+  {
+    "emoji": "\ud83d\ude30",
+    "label": "I'm overwhelmed",
+    "prompt": "I'm feeling really anxious and overwhelmed today. Everything feels like too much. I just need someone to talk to who understands."
+  },
+  {
+    "emoji": "\ud83d\udcaa",
+    "label": "I need a pep talk",
+    "prompt": "I'm having a rough day and I just need someone to remind me that I'm doing okay. Can you give me a pep talk?"
+  },
+  {
+    "emoji": "\ud83d\ude34",
+    "label": "Sleep help",
+    "prompt": "I'm struggling with sleep \u2014 either my kid's sleep or my own. Any tips for better bedtime routines and actually getting rest?"
+  },
+  {
+    "emoji": "\ud83d\ude24",
+    "label": "Tantrums & big emotions",
+    "prompt": "My kid is having big emotions and meltdowns. How do I handle tantrums calmly without losing my own cool?"
+  },
+  {
+    "emoji": "\ud83c\udf73",
+    "label": "Quick dinner idea",
+    "prompt": "It's almost dinner time and I have no plan. Give me one quick, easy, kid-friendly recipe I can make in under 30 minutes with common ingredients."
+  },
+  {
+    "emoji": "\ud83d\udc94",
+    "label": "Mom guilt",
+    "prompt": "I'm struggling with mom guilt today. I feel like I'm not doing enough or not doing it right. Can you help me get some perspective?"
+  },
+  {
+    "emoji": "\ud83e\uddd8\u200d\u2640\ufe0f",
+    "label": "Self-care ideas",
+    "prompt": "I need realistic self-care ideas for a busy mom. I have almost no time but I'm running on empty. What can I actually do?"
+  },
+  {
+    "emoji": "\ud83c\udf89",
+    "label": "Fun activity ideas",
+    "prompt": "I need fun activity ideas for today with my kids. Indoor or outdoor, easy to set up, no special supplies needed. What should we do?"
+  }
+]

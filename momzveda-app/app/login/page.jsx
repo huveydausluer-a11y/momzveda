@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { createClient } from '../../lib/supabase-browser';
+import { useTranslation } from '../../i18n';
 
 const GREEN = '#22C55E', GREEN_DARK = '#16A34A', BLUE = '#3B82F6', BG = '#F2F8F5';
 const CARD_BG = '#FFFFFF', TEXT_DARK = '#1A2E23', TEXT_MID = '#3D6B50', TEXT_LIGHT = '#6B9A7E';
@@ -11,6 +12,7 @@ const BORDER = '#D5E8DC';
 export default function LoginPage() {
   const router = useRouter();
   const supabase = createClient();
+  const { t } = useTranslation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -53,14 +55,14 @@ export default function LoginPage() {
           </div>
           <div style={{ width: 80, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, margin: '10px auto 0' }} />
           <p style={{ fontSize: 12, color: TEXT_LIGHT, letterSpacing: 2, textTransform: 'uppercase', marginTop: 8, fontWeight: 500 }}>
-            Your Mom Friend. Always Here.
+            {t('common.tagline')}
           </p>
         </div>
 
         {/* Card */}
         <div style={{ background: CARD_BG, borderRadius: 24, padding: '32px 28px', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', border: `1px solid ${BORDER}` }}>
-          <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 4, fontFamily: "'Playfair Display', serif", textAlign: 'center' }}>Welcome back, mama!</h2>
-          <p style={{ fontSize: 14, color: TEXT_MID, textAlign: 'center', marginBottom: 24 }}>Sign in to your space</p>
+          <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 4, fontFamily: "'Playfair Display', serif", textAlign: 'center' }}>{t('login.title')}</h2>
+          <p style={{ fontSize: 14, color: TEXT_MID, textAlign: 'center', marginBottom: 24 }}>{t('login.subtitle')}</p>
 
           {error && (
             <div style={{ background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 12, padding: '10px 14px', marginBottom: 16, fontSize: 13, color: '#DC2626' }}>
@@ -69,13 +71,13 @@ export default function LoginPage() {
           )}
 
           <form onSubmit={handleEmailLogin}>
-            <label style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, display: 'block' }}>Email</label>
+            <label style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, display: 'block' }}>{t('login.emailLabel')}</label>
             <input type="email" value={email} onChange={e => setEmail(e.target.value)}
-              placeholder="your@email.com" required style={{ ...inputStyle, marginBottom: 14 }} />
+              placeholder={t('login.emailPlaceholder')} required style={{ ...inputStyle, marginBottom: 14 }} />
 
-            <label style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, display: 'block' }}>Password</label>
+            <label style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 6, display: 'block' }}>{t('login.passwordLabel')}</label>
             <input type="password" value={password} onChange={e => setPassword(e.target.value)}
-              placeholder="Your password" required style={{ ...inputStyle, marginBottom: 20 }} />
+              placeholder={t('login.passwordPlaceholder')} required style={{ ...inputStyle, marginBottom: 20 }} />
 
             <button type="submit" disabled={loading} style={{
               width: '100%', background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF',
@@ -84,7 +86,7 @@ export default function LoginPage() {
               boxShadow: '0 4px 16px rgba(34,197,94,0.3)', opacity: loading ? 0.6 : 1,
               transition: 'all 0.2s',
             }}>
-              {loading ? 'Signing in...' : 'Sign In'}
+              {loading ? t('login.submitting') : t('login.submitButton')}
             </button>
           </form>
 
@@ -92,8 +94,8 @@ export default function LoginPage() {
 
         {/* Sign up link */}
         <p style={{ textAlign: 'center', marginTop: 20, fontSize: 14, color: TEXT_MID }}>
-          Don't have an account?{' '}
-          <a href="/signup" style={{ color: GREEN_DARK, fontWeight: 700, textDecoration: 'none' }}>Sign up</a>
+          {t('login.noAccount')}{' '}
+          <a href="/signup" style={{ color: GREEN_DARK, fontWeight: 700, textDecoration: 'none' }}>{t('login.signUpLink')}</a>
         </p>
       </div>
     </div>

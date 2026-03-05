@@ -1,0 +1,38 @@
+[
+  {
+    "emoji": "🏠",
+    "title": "Eerste Week Thuis",
+    "desc": "De pasgeboren dagen doorkomen",
+    "prompt": "Ik heb mijn baby net mee naar huis genomen uit het ziekenhuis. Kun je me uitleggen wat ik kan verwachten in de eerste week? Wat zijn de belangrijkste dingen waar ik me op moet richten? Ik ben zenuwachtig en opgewonden."
+  },
+  {
+    "emoji": "🍼",
+    "title": "Starten met Vast Voedsel",
+    "desc": "Wanneer en hoe te beginnen",
+    "prompt": "Ik denk dat mijn baby klaar is om te beginnen met vaste voeding. Kun je me begeleiden bij hoe ik moet beginnen? Welke signalen moet ik herkennen, met welk eten begin ik, en hoe maak ik er een positieve ervaring van?"
+  },
+  {
+    "emoji": "😤",
+    "title": "Driftbuien Temmen",
+    "desc": "De meltdowns begrijpen",
+    "prompt": "De driftbuien van mijn peuter zijn echt intens en komen steeds vaker voor. Kun je me helpen begrijpen wat er ontwikkelingsmatig aan de hand is en me stap voor stap uitleggen hoe ik ermee om kan gaan zonder zelf mijn kalmte te verliezen?"
+  },
+  {
+    "emoji": "🌙",
+    "title": "Bedtijdgevechten",
+    "desc": "Rustige slaaproutines",
+    "prompt": "Bedtijd is elke avond een gevecht. Kun je me stap voor stap begeleiden bij het creëren van een rustige bedtijdroutine die echt werkt? Ik heb een stap-voor-stap aanpak nodig."
+  },
+  {
+    "emoji": "🎒",
+    "title": "Schoolklaar",
+    "desc": "Voorbereiden op de grote dag",
+    "prompt": "Mijn kind gaat binnenkort naar school en ik wil zeker weten dat het klaar is — niet alleen academisch maar ook emotioneel en sociaal. Waar moet ik me op richten?"
+  },
+  {
+    "emoji": "📱",
+    "title": "Schermtijd Balans",
+    "desc": "Gezonde digitale gewoonten",
+    "prompt": "Ik worstel met het beheren van schermtijd voor mijn kinderen. Hoe vind ik een gezonde balans zonder dat het elke dag een gevecht wordt?"
+  }
+]

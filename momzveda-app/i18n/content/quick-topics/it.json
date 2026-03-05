@@ -1,0 +1,42 @@
+[
+  {
+    "emoji": "😰",
+    "label": "Sono sopraffatta",
+    "prompt": "Mi sento davvero ansiosa e sopraffatta oggi. Tutto sembra troppo. Ho solo bisogno di qualcuno con cui parlare che capisca."
+  },
+  {
+    "emoji": "💪",
+    "label": "Ho bisogno di incoraggiamento",
+    "prompt": "Sto avendo una giornata dura e ho solo bisogno che qualcuno mi ricordi che sto andando bene. Puoi darmi un po' di carica?"
+  },
+  {
+    "emoji": "😴",
+    "label": "Aiuto con il sonno",
+    "prompt": "Sto lottando con il sonno — quello del mio bambino o il mio. Hai qualche consiglio per routine della nanna migliori e per riposare davvero?"
+  },
+  {
+    "emoji": "😤",
+    "label": "Capricci e grandi emozioni",
+    "prompt": "Il mio bambino sta avendo grandi emozioni e crisi. Come gestisco i capricci con calma senza perdere la pazienza anch'io?"
+  },
+  {
+    "emoji": "🍳",
+    "label": "Idea per una cena veloce",
+    "prompt": "È quasi ora di cena e non ho un piano. Dammi una ricetta veloce, facile e adatta ai bambini che posso fare in meno di 30 minuti con ingredienti comuni."
+  },
+  {
+    "emoji": "💔",
+    "label": "Senso di colpa da mamma",
+    "prompt": "Sto lottando con il senso di colpa da mamma oggi. Sento di non fare abbastanza o di non farlo nel modo giusto. Puoi aiutarmi a mettere le cose in prospettiva?"
+  },
+  {
+    "emoji": "🧘‍♀️",
+    "label": "Idee per il self-care",
+    "prompt": "Ho bisogno di idee realistiche di self-care per una mamma impegnata. Non ho quasi tempo ma sono completamente esaurita. Cosa posso fare davvero?"
+  },
+  {
+    "emoji": "🎉",
+    "label": "Idee per attività divertenti",
+    "prompt": "Ho bisogno di idee per attività divertenti da fare oggi con i miei bambini. Dentro o fuori, facili da organizzare, senza materiali speciali. Cosa facciamo?"
+  }
+]

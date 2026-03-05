@@ -1,0 +1,38 @@
+[
+  {
+    "emoji": "🏠",
+    "title": "Première semaine à la maison",
+    "desc": "Naviguer les premiers jours avec bébé",
+    "prompt": "Je viens de ramener mon bébé de la maternité. Tu peux m'expliquer à quoi m'attendre la première semaine ? Quelles sont les choses les plus importantes sur lesquelles me concentrer ? Je suis nerveuse et excitée à la fois."
+  },
+  {
+    "emoji": "🍼",
+    "title": "Début de la diversification",
+    "desc": "Quand et comment commencer",
+    "prompt": "Je pense que mon bébé est prêt pour la diversification alimentaire. Tu peux me guider pour commencer ? Quels signes dois-je observer, par quels aliments commencer, et comment en faire une expérience positive ?"
+  },
+  {
+    "emoji": "😤",
+    "title": "Gérer les crises",
+    "desc": "Comprendre les effondrements",
+    "prompt": "Les crises de mon tout-petit sont vraiment intenses et arrivent de plus en plus souvent. Tu peux m'aider à comprendre ce qui se passe au niveau du développement et m'expliquer comment les gérer sans perdre mon propre calme ?"
+  },
+  {
+    "emoji": "🌙",
+    "title": "Batailles du coucher",
+    "desc": "Des routines de sommeil paisibles",
+    "prompt": "Le coucher est une bataille chaque soir. Tu peux m'aider à créer une routine du coucher paisible qui fonctionne vraiment ? J'ai besoin d'une approche étape par étape."
+  },
+  {
+    "emoji": "🎒",
+    "title": "Prêt pour l'école",
+    "desc": "Préparation pour le grand jour",
+    "prompt": "Mon enfant va bientôt commencer l'école et je veux m'assurer qu'il est prêt — pas seulement scolairement mais aussi émotionnellement et socialement. Sur quoi dois-je me concentrer ?"
+  },
+  {
+    "emoji": "📱",
+    "title": "Équilibre des écrans",
+    "desc": "Des habitudes numériques saines",
+    "prompt": "J'ai du mal à gérer le temps d'écran de mes enfants. Comment trouver un équilibre sain sans que ça devienne une bataille quotidienne ?"
+  }
+]
