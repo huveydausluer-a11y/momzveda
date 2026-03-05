@@ -12,15 +12,6 @@ const BORDER = '#D5E8DC', BORDER_LIGHT = '#E8F2EC';
 
 // Content arrays are now loaded from i18n/content/ via useTranslation().getContent()
 
-const EMERGENCY_RESOURCES = [
-  { name: 'Suicide & Crisis Lifeline', number: '988', desc: 'Call or text' },
-  { name: 'Crisis Text Line', number: 'Text HOME to 741741', desc: '' },
-  { name: 'Postpartum Support Intl', number: '1-800-944-4773', desc: 'Call or text' },
-  { name: 'Domestic Violence Hotline', number: '1-800-799-7233', desc: 'Call or text START to 88788' },
-  { name: 'Childhelp Abuse Hotline', number: '1-800-422-4453', desc: '24/7' },
-  { name: 'Parent Helpline', number: '1-855-427-2736', desc: 'Emotional support' },
-  { name: 'Poison Control', number: '1-800-222-1222', desc: '24/7' },
-];
 
 // ── COMPONENTS ──
 function TypingIndicator() {
@@ -475,7 +466,6 @@ export default function Home() {
   const [newChild, setNewChild] = useState({ name: '', age: '', notes: '' });
   const [momWins, setMomWins] = useState(() => loadStored('momWins', []));
   const [newWin, setNewWin] = useState('');
-  const [showEmergency, setShowEmergency] = useState(false);
   const [dailyTip, setDailyTip] = useState('');
   const [showInstallPrompt, setShowInstallPrompt] = useState(false);
   const [deferredPrompt, setDeferredPrompt] = useState(null);
@@ -802,28 +792,8 @@ export default function Home() {
         <button onClick={handleLogout} style={{ position: 'absolute', left: 16, top: 16, background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: 'rgba(255,255,255,0.6)', fontWeight: 600 }}>
           {t('common.logout')}
         </button>
-        {/* Emergency button */}
-        <button onClick={() => setShowEmergency(!showEmergency)} style={{ position: 'absolute', right: 16, top: 16, background: 'rgba(239,68,68,0.15)', border: '1px solid rgba(239,68,68,0.3)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: '#FCA5A5', fontWeight: 600 }}>
-          {t('help')}
-        </button>
       </div>
 
-      {/* ── EMERGENCY PANEL ── */}
-      {showEmergency && (
-        <div style={{ background: '#FEF2F2', padding: '16px', borderBottom: '1px solid #FECACA' }}>
-          <div style={{ fontSize: 14, fontWeight: 700, color: '#991B1B', marginBottom: 10 }}>{t('emergency.title')}</div>
-          <div style={{ display: 'grid', gap: 8 }}>
-            {EMERGENCY_RESOURCES.map((r, i) => (
-              <div key={i} style={{ background: '#FFF', borderRadius: 12, padding: '10px 14px', border: '1px solid #FECACA' }}>
-                <div style={{ fontSize: 13, fontWeight: 600, color: '#991B1B' }}>{r.name}</div>
-                <div style={{ fontSize: 15, fontWeight: 700, color: '#DC2626' }}>{r.number}</div>
-                {r.desc && <div style={{ fontSize: 11, color: '#B91C1C' }}>{r.desc}</div>}
-              </div>
-            ))}
-          </div>
-          <button onClick={() => setShowEmergency(false)} style={{ marginTop: 10, background: 'none', border: 'none', color: '#991B1B', fontSize: 12, cursor: 'pointer', fontWeight: 600 }}>{t('common.close')} ✕</button>
-        </div>
-      )}
 
       {/* ── INSTALL APP BANNER ── */}
       {showInstallPrompt && (
