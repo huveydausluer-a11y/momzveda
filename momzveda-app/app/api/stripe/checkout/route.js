@@ -29,7 +29,6 @@ export async function POST(request) {
       automatic_tax: { enabled: true },
       locale: 'auto',
       subscription_data: {
-        trial_period_days: 30,
         metadata: {
           source: 'momzveda_app',
         },

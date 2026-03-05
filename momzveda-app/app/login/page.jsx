@@ -55,7 +55,7 @@ export default function LoginPage() {
           </div>
           <div style={{ width: 80, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, margin: '10px auto 0' }} />
           <p style={{ fontSize: 12, color: TEXT_LIGHT, letterSpacing: 2, textTransform: 'uppercase', marginTop: 8, fontWeight: 500 }}>
-            {t('common.tagline')}
+            Your Mom Friend. Always Here.
           </p>
         </div>
 

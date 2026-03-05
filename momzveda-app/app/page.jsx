@@ -184,7 +184,7 @@ function OnboardingFlow({ onComplete }) {
               <div style={{ width: 100, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, margin: '10px auto 0' }} />
             </div>
             <p style={{ fontSize: 13, color: TEXT_LIGHT, letterSpacing: 2, textTransform: 'uppercase', marginBottom: 32, fontWeight: 500 }}>
-              {t('common.tagline')}
+              Your Mom Friend. Always Here.
             </p>
             <div style={{
               background: CARD_BG, borderRadius: 24, padding: '28px 24px', marginBottom: 32,
@@ -535,6 +535,18 @@ export default function Home() {
       const { data: usage } = await supabase.from('daily_usage').select('*').eq('user_id', user.id).eq('date', today).maybeSingle();
       if (usage) setDailyMsgCount(usage.msg_count);
 
+      // Verify premium status with Stripe (authoritative source)
+      try {
+        const stripeRes = await fetch('/api/stripe/status', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ customerEmail: user.email }),
+        });
+        const stripeData = await stripeRes.json();
+        setIsPremium(stripeData.isPremium);
+        saveStored('isPremium', stripeData.isPremium);
+      } catch {}
+
       setLoading(false);
     }
     init();
@@ -582,7 +594,7 @@ export default function Home() {
       const res = await fetch('/api/stripe/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ priceId }),
+        body: JSON.stringify({ priceId, customerEmail: user?.email }),
       });
 
       const data = await res.json();
@@ -784,7 +796,7 @@ export default function Home() {
             <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 400, fontStyle: 'italic', fontSize: 22, color: BLUE, letterSpacing: 2 }}>Veda</span>
           </div>
           <div style={{ width: 140, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, marginTop: 8 }} />
-          <div style={{ marginTop: 4, fontSize: 8, letterSpacing: 3, color: 'rgba(255,255,255,0.35)', fontWeight: 500, textTransform: 'uppercase' }}>{t('common.tagline')}</div>
+          <div style={{ marginTop: 4, fontSize: 8, letterSpacing: 3, color: 'rgba(255,255,255,0.35)', fontWeight: 500, textTransform: 'uppercase' }}>Your Mom Friend. Always Here.</div>
         </div>
         {/* Logout button */}
         <button onClick={handleLogout} style={{ position: 'absolute', left: 16, top: 16, background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: 'rgba(255,255,255,0.6)', fontWeight: 600 }}>

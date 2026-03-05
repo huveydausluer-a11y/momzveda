@@ -1,6 +1,33 @@
 import Stripe from 'stripe';
+import { createClient } from '@supabase/supabase-js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+
+// Admin client bypasses RLS — used only in this webhook
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY
+);
+
+async function updatePremiumByEmail(email, isPremium) {
+  if (!email) return;
+  // profiles table has no email column — look up user ID via auth admin API
+  const { data: { users }, error: listErr } = await supabase.auth.admin.listUsers();
+  if (listErr) { console.error('Failed to list users:', listErr); return; }
+  const user = users.find(u => u.email === email);
+  if (!user) { console.error('No auth user found for', email); return; }
+
+  const { error } = await supabase
+    .from('profiles')
+    .update({ is_premium: isPremium, updated_at: new Date().toISOString() })
+    .eq('id', user.id);
+  if (error) console.error('Failed to update premium status for', email, error);
+}
+
+async function getCustomerEmail(customerId) {
+  const customer = await stripe.customers.retrieve(customerId);
+  return customer.email;
+}
 
 export async function POST(request) {
   const body = await request.text();
@@ -18,34 +45,32 @@ export async function POST(request) {
     return Response.json({ error: 'Invalid signature.' }, { status: 400 });
   }
 
-  // Handle subscription events
   switch (event.type) {
     case 'checkout.session.completed': {
       const session = event.data.object;
-      console.log('✅ New subscription:', session.customer_email, session.subscription);
-      // In a production app, you would:
-      // 1. Save the customer email + subscription ID to your database
-      // 2. Mark the user as premium
-      // For now, the app uses client-side premium state from the success URL
+      const email = session.customer_email || await getCustomerEmail(session.customer);
+      await updatePremiumByEmail(email, true);
       break;
     }
 
     case 'customer.subscription.updated': {
       const subscription = event.data.object;
-      console.log('🔄 Subscription updated:', subscription.id, subscription.status);
+      const email = await getCustomerEmail(subscription.customer);
+      const active = ['active', 'trialing'].includes(subscription.status);
+      await updatePremiumByEmail(email, active);
       break;
     }
 
     case 'customer.subscription.deleted': {
       const subscription = event.data.object;
-      console.log('❌ Subscription cancelled:', subscription.id);
-      // Mark user as free tier
+      const email = await getCustomerEmail(subscription.customer);
+      await updatePremiumByEmail(email, false);
       break;
     }
 
     case 'invoice.payment_failed': {
       const invoice = event.data.object;
-      console.log('⚠️ Payment failed:', invoice.customer_email);
+      console.error('Payment failed for', invoice.customer_email);
       break;
     }
 
