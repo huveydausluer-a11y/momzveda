@@ -11,7 +11,6 @@ export async function POST(request) {
 
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',
-      payment_method_types: undefined, // Let Stripe auto-select based on customer's country
       payment_method_collection: 'always',
       line_items: [
         {
