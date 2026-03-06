@@ -1093,9 +1093,10 @@ export default function Home() {
                   { emoji: '💬', text: t('upgrade.unlimitedMessages') },
                   { emoji: '🗺️', text: t('upgrade.fullJourneys') },
                   { emoji: '⚡', text: t('upgrade.prioritySpeed') },
-                  { emoji: '🆕', text: t('upgrade.newGuides') },
+                  { emoji: '🎯', text: t('upgrade.weeklyTips') },
+                  { emoji: '🎙️', text: t('upgrade.voiceMessages') },
                 ].map((f, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '8px 0', borderBottom: i < 3 ? `1px solid ${BORDER_LIGHT}` : 'none' }}>
+                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '8px 0', borderBottom: i < 4 ? `1px solid ${BORDER_LIGHT}` : 'none' }}>
                     <span style={{ fontSize: 20 }}>{f.emoji}</span>
                     <span style={{ fontSize: 14, color: TEXT_DARK, fontWeight: 500 }}>{f.text}</span>
                     <span style={{ marginLeft: 'auto', color: GREEN, fontWeight: 700, fontSize: 14 }}>✓</span>
