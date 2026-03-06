@@ -792,6 +792,12 @@ export default function Home() {
         <button onClick={handleLogout} style={{ position: 'absolute', left: 16, top: 16, background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: 'rgba(255,255,255,0.6)', fontWeight: 600 }}>
           {t('common.logout')}
         </button>
+        {/* Premium button */}
+        {!isPremium && (
+          <button onClick={() => setShowUpgrade(true)} style={{ position: 'absolute', right: 16, top: 16, background: 'linear-gradient(135deg, #F59E0B, #D97706)', border: 'none', borderRadius: 12, padding: '6px 12px', cursor: 'pointer', fontSize: 11, color: '#FFF', fontWeight: 700, boxShadow: '0 2px 8px rgba(245,158,11,0.3)', animation: 'fadeSlideIn 0.5s ease' }}>
+            ✨ Premium
+          </button>
+        )}
       </div>
 
 
