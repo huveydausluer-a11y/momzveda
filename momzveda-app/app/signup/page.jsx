@@ -32,6 +32,12 @@ export default function SignupPage() {
       setError(error.message);
       setLoading(false);
     } else {
+      // Subscribe to mailing list (fire-and-forget, don't block signup)
+      fetch('/api/resend/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      }).catch(() => {});
       setSuccess(true);
       setLoading(false);
     }
