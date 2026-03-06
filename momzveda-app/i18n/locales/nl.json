@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "Nog {count} gratis berichten vandaag",
     "limitReached": "Daglimiet bereikt \u2014 Upgrade voor onbeperkt \u2728",
     "errorRetry": "Hmm, laat me dat nog eens proberen \ud83d\udc9b",
-    "errorGeneral": "Er ging iets mis! \ud83d\ude05 Probeer het zo opnieuw. Ik ben er voor je! \ud83d\udc9b"
+    "errorGeneral": "Er ging iets mis! \ud83d\ude05 Probeer het zo opnieuw. Ik ben er voor je! \ud83d\udc9b",
+    "weeklyTipLabel": "Jouw Wekelijkse Tip",
+    "weeklyTipBlurred": "Ontgrendel persoonlijke wekelijkse tips voor jouw kind...",
+    "weeklyTipUnlock": "Ontgrendel Wekelijkse Tips"
   },
 
   "tabs": {

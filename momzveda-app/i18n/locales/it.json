@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "{count} messaggi gratuiti rimasti oggi",
     "limitReached": "Limite giornaliero raggiunto — Passa a Premium per l'illimitato ✨",
     "errorRetry": "Hmm, fammi riprovare 💛",
-    "errorGeneral": "Qualcosa è andato storto! 😅 Riprova tra un attimo. Sono qui per te! 💛"
+    "errorGeneral": "Qualcosa è andato storto! 😅 Riprova tra un attimo. Sono qui per te! 💛",
+    "weeklyTipLabel": "Il Tuo Consiglio Settimanale",
+    "weeklyTipBlurred": "Sblocca consigli settimanali personalizzati per il tuo bambino...",
+    "weeklyTipUnlock": "Sblocca Consigli"
   },
 
   "tabs": {

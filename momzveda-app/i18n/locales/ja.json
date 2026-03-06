@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "今日の無料メッセージ残り {count} 通",
     "limitReached": "今日の上限に達しました — アップグレードで無制限に ✨",
     "errorRetry": "うーん、もう一回やってみるね 💛",
-    "errorGeneral": "何かおかしくなっちゃった！😅 ちょっと待ってからもう一度試してね。ここにいるからね！💛"
+    "errorGeneral": "何かおかしくなっちゃった！😅 ちょっと待ってからもう一度試してね。ここにいるからね！💛",
+    "weeklyTipLabel": "今週のティップス",
+    "weeklyTipBlurred": "お子様に合わせた週間ティップスをアンロック...",
+    "weeklyTipUnlock": "週間ティップスを解除"
   },
 
   "tabs": {
@@ -185,7 +188,6 @@
   },
 
   "premiumBanner": "プレミアムへようこそ！メッセージ無制限＆全ガイド解放 💛",
-
   "upgrade": {
     "title": "プレミアムにアップグレード",
     "cancelAnytime": "いつでもキャンセルOK",

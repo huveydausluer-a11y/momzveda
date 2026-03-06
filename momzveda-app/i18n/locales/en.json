@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "{count} free messages left today",
     "limitReached": "Daily limit reached \u2014 Upgrade for unlimited \u2728",
     "errorRetry": "Hmm, let me try that again \ud83d\udc9b",
-    "errorGeneral": "Something went sideways! \ud83d\ude05 Try again in a sec. I\u2019m here for you! \ud83d\udc9b"
+    "errorGeneral": "Something went sideways! \ud83d\ude05 Try again in a sec. I\u2019m here for you! \ud83d\udc9b",
+    "weeklyTipLabel": "Your Weekly Tip",
+    "weeklyTipBlurred": "Unlock personalized weekly tips tailored to your child...",
+    "weeklyTipUnlock": "Unlock Weekly Tips"
   },
 
   "tabs": {

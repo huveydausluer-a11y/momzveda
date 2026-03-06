@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "{count} messages gratuits restants aujourd'hui",
     "limitReached": "Limite quotidienne atteinte — Passe à Premium pour l'illimité ✨",
     "errorRetry": "Hmm, laisse-moi réessayer 💛",
-    "errorGeneral": "Oups, quelque chose a bugué ! 😅 Réessaie dans un instant. Je suis là pour toi ! 💛"
+    "errorGeneral": "Oups, quelque chose a bugué ! 😅 Réessaie dans un instant. Je suis là pour toi ! 💛",
+    "weeklyTipLabel": "Votre Conseil de la Semaine",
+    "weeklyTipBlurred": "Débloquez des conseils hebdomadaires personnalisés pour votre enfant...",
+    "weeklyTipUnlock": "Débloquer les Conseils"
   },
 
   "tabs": {

@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "{count} mensajes gratis restantes hoy",
     "limitReached": "Límite diario alcanzado — Pasa a Premium para ilimitados ✨",
     "errorRetry": "Hmm, déjame intentar de nuevo 💛",
-    "errorGeneral": "¡Algo salió mal! 😅 Inténtalo de nuevo en un momento. ¡Aquí estoy para ti! 💛"
+    "errorGeneral": "¡Algo salió mal! 😅 Inténtalo de nuevo en un momento. ¡Aquí estoy para ti! 💛",
+    "weeklyTipLabel": "Tu Consejo Semanal",
+    "weeklyTipBlurred": "Desbloquea consejos semanales personalizados para tu hijo...",
+    "weeklyTipUnlock": "Desbloquear Consejos"
   },
 
   "tabs": {

@@ -450,7 +450,7 @@ function saveStored(key, value) {
 export default function Home() {
   const router = useRouter();
   const supabase = createClient();
-  const { t, tp, getContent, isRTL: rtl } = useTranslation();
+  const { t, tp, lang, getContent, isRTL: rtl } = useTranslation();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [onboarded, setOnboarded] = useState(() => loadStored('onboarded', false));
@@ -476,6 +476,10 @@ export default function Home() {
     return 0;
   });
   const [showUpgrade, setShowUpgrade] = useState(false);
+  const [weeklyTip, setWeeklyTip] = useState('');
+  const [isRecording, setIsRecording] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(false);
+  const recognitionRef = useRef(null);
   const FREE_MSG_LIMIT = 5;
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
@@ -600,6 +604,7 @@ export default function Home() {
     setMomProfile(profile);
     setChildProfiles(profile.children);
     updateDailyTip(profile.children);
+    updateWeeklyTip(profile.children);
     setOnboarded(true);
 
     // Notify i18n provider of country change
@@ -621,6 +626,7 @@ export default function Home() {
     const affirmations = getContent('affirmations');
     if (affirmations?.length) setAffirmation(affirmations[Math.floor(Math.random() * affirmations.length)]);
     updateDailyTip(childProfiles);
+    updateWeeklyTip(childProfiles);
 
     // Check if returning from Stripe checkout
     const params = new URLSearchParams(window.location.search);
@@ -647,6 +653,25 @@ export default function Home() {
     return () => window.removeEventListener('beforeinstallprompt', handler);
   }, []);
 
+  // Speech recognition setup
+  useEffect(() => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SpeechRecognition) {
+      setSpeechSupported(true);
+      const recognition = new SpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        setInput(prev => prev ? prev + ' ' + transcript : transcript);
+        setIsRecording(false);
+      };
+      recognition.onerror = () => setIsRecording(false);
+      recognition.onend = () => setIsRecording(false);
+      recognitionRef.current = recognition;
+    }
+  }, []);
+
   useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages, isTyping]);
 
   const updateDailyTip = (profiles) => {
@@ -664,6 +689,26 @@ export default function Home() {
     const category = ages[0];
     const tips = dailyTipsContent[category] || dailyTipsContent['toddler'];
     if (tips) setDailyTip(tips[Math.floor(Math.random() * tips.length)]);
+  };
+
+  const updateWeeklyTip = (profiles) => {
+    const weeklyTipsContent = getContent('weeklyTips');
+    if (!weeklyTipsContent) return;
+    const ages = profiles.length > 0 ? profiles.map(c => {
+      const a = parseFloat(c.age);
+      if (a < 0.25) return 'newborn';
+      if (a < 1) return 'infant';
+      if (a <= 3) return 'toddler';
+      if (a <= 5) return 'preschool';
+      if (a <= 12) return 'school-age';
+      return 'teen';
+    }) : ['toddler'];
+    const category = ages[0];
+    const tips = weeklyTipsContent[category] || weeklyTipsContent['toddler'];
+    if (tips) {
+      const dayOfWeek = new Date().getDay();
+      setWeeklyTip(tips[dayOfWeek % tips.length]);
+    }
   };
 
   const sendMessage = async (text) => {
@@ -722,6 +767,7 @@ export default function Home() {
     setNewChild({ name: '', age: '', notes: '' });
     setShowAddChild(false);
     updateDailyTip(updated);
+    updateWeeklyTip(updated);
     if (user) {
       supabase.from('children').insert({ user_id: user.id, name: newChild.name, age: newChild.age, notes: newChild.notes || '' }).then(() => {});
     }
@@ -731,6 +777,7 @@ export default function Home() {
     const updated = childProfiles.filter(c => c.id !== id);
     setChildProfiles(updated);
     updateDailyTip(updated);
+    updateWeeklyTip(updated);
     if (user) {
       supabase.from('children').delete().eq('id', id).eq('user_id', user.id).then(() => {});
     }
@@ -773,6 +820,7 @@ export default function Home() {
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Archivo+Black&display=swap');
         @keyframes bounce { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
         @keyframes fadeSlideIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+        @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(239,68,68,0.4)} 70%{box-shadow:0 0 0 10px rgba(239,68,68,0)} 100%{box-shadow:0 0 0 0 rgba(239,68,68,0)} }
         *{box-sizing:border-box} textarea:focus,input:focus{outline:none}
         ::-webkit-scrollbar{width:6px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:${BORDER};border-radius:3px}
       `}</style>
@@ -859,6 +907,23 @@ export default function Home() {
             <div style={{ background: 'linear-gradient(135deg, #EBF7F0, #E0F0FF)', borderRadius: 16, padding: '14px 16px', marginBottom: 12, fontSize: 14, color: TEXT_DARK, lineHeight: 1.5 }}>
               {dailyTip}
             </div>
+          )}
+          {/* Weekly Premium Tip */}
+          {showWelcome && weeklyTip && (
+            isPremium ? (
+              <div style={{ background: 'linear-gradient(135deg, #FEF9E7, #FFF7ED)', borderRadius: 16, padding: '14px 16px', marginBottom: 12, border: '1px solid #FDE68A', position: 'relative', overflow: 'hidden' }}>
+                <div style={{ position: 'absolute', top: -10, right: -10, width: 50, height: 50, borderRadius: '50%', background: 'rgba(245,158,11,0.08)' }} />
+                <div style={{ fontSize: 11, fontWeight: 700, color: '#D97706', letterSpacing: '0.05em', marginBottom: 6 }}>🎯 {t('chat.weeklyTipLabel')}</div>
+                <div style={{ fontSize: 14, color: TEXT_DARK, lineHeight: 1.5 }}>{weeklyTip}</div>
+              </div>
+            ) : (
+              <div onClick={() => setShowUpgrade(true)} style={{ background: 'linear-gradient(135deg, #F5F5F5, #EBEBEB)', borderRadius: 16, padding: '14px 16px', marginBottom: 12, border: '1px solid #E0E0E0', cursor: 'pointer', position: 'relative', overflow: 'hidden' }}>
+                <div style={{ filter: 'blur(4px)', fontSize: 14, color: '#999', lineHeight: 1.5 }}>{t('chat.weeklyTipBlurred')}</div>
+                <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ background: 'linear-gradient(135deg, #F59E0B, #D97706)', color: '#FFF', fontSize: 12, fontWeight: 700, padding: '6px 16px', borderRadius: 12, boxShadow: '0 2px 8px rgba(245,158,11,0.3)' }}>🎯 {t('chat.weeklyTipUnlock')}</span>
+                </div>
+              </div>
+            )
           )}
           {/* Affirmation */}
           {affirmation && showWelcome && (
@@ -1058,6 +1123,32 @@ export default function Home() {
               style={{ flex: 1, border: 'none', resize: 'none', fontSize: 15, color: TEXT_DARK, background: 'transparent', fontFamily: "'DM Sans', sans-serif", lineHeight: 1.5, padding: '6px 0', maxHeight: 80, overflowY: 'auto', opacity: (!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? 0.5 : 1 }}
               onInput={e => { e.target.style.height = 'auto'; e.target.style.height = Math.min(e.target.scrollHeight, 80) + 'px'; }}
             />
+            {/* Voice button */}
+            {speechSupported && (
+              <button onClick={() => {
+                if (!isPremium) { setShowUpgrade(true); return; }
+                if (isRecording) {
+                  recognitionRef.current?.stop();
+                  setIsRecording(false);
+                } else {
+                  try {
+                    const langMap = { en: 'en-US', nl: 'nl-NL', de: 'de-DE', fr: 'fr-FR', es: 'es-ES', it: 'it-IT', pt: 'pt-PT', tr: 'tr-TR', ar: 'ar-SA', ja: 'ja-JP', ko: 'ko-KR' };
+                    recognitionRef.current.lang = langMap[lang] || 'en-US';
+                    recognitionRef.current.start();
+                    setIsRecording(true);
+                  } catch { setIsRecording(false); }
+                }
+              }}
+                style={{ width: 36, height: 36, borderRadius: '50%', background: isRecording ? '#EF4444' : (isPremium ? 'rgba(34,197,94,0.1)' : 'rgba(0,0,0,0.05)'), border: isRecording ? '2px solid #EF4444' : `1px solid ${isPremium ? BORDER : '#E0E0E0'}`, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s', flexShrink: 0, animation: isRecording ? 'pulse 1.5s infinite' : 'none' }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={isRecording ? '#FFF' : (isPremium ? GREEN_DARK : '#999')} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
+                </svg>
+              </button>
+            )}
+            {/* Send button */}
             <button onClick={() => (!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? setShowUpgrade(true) : sendMessage(input)} disabled={(!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? false : (!input.trim() || isTyping)}
               style={{ width: 40, height: 40, borderRadius: '50%', background: (!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? 'linear-gradient(135deg, #F59E0B, #D97706)' : (input.trim() && !isTyping ? `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})` : '#D5E8DC'), border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s', flexShrink: 0 }}>
               {(!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? (

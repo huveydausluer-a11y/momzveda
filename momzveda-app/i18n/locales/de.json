@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "Noch {count} Gratis-Nachrichten heute",
     "limitReached": "Tageslimit erreicht — Upgrade für unbegrenzt ✨",
     "errorRetry": "Hmm, lass mich das nochmal versuchen 💛",
-    "errorGeneral": "Da ist was schiefgelaufen! 😅 Versuch's gleich nochmal. Ich bin für dich da! 💛"
+    "errorGeneral": "Da ist was schiefgelaufen! 😅 Versuch's gleich nochmal. Ich bin für dich da! 💛",
+    "weeklyTipLabel": "Dein Wöchentlicher Tipp",
+    "weeklyTipBlurred": "Schalte persönliche wöchentliche Tipps für dein Kind frei...",
+    "weeklyTipUnlock": "Wöchentliche Tipps freischalten"
   },
 
   "tabs": {

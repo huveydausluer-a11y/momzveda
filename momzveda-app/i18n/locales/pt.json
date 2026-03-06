@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "{count} mensagens grátis restantes hoje",
     "limitReached": "Limite diário atingido — Faça upgrade para ilimitado ✨",
     "errorRetry": "Hmm, deixa eu tentar de novo 💛",
-    "errorGeneral": "Algo deu errado! 😅 Tenta de novo daqui a pouco. Estou aqui pra você! 💛"
+    "errorGeneral": "Algo deu errado! 😅 Tenta de novo daqui a pouco. Estou aqui pra você! 💛",
+    "weeklyTipLabel": "Sua Dica Semanal",
+    "weeklyTipBlurred": "Desbloqueie dicas semanais personalizadas para o seu filho...",
+    "weeklyTipUnlock": "Desbloquear Dicas"
   },
 
   "tabs": {
@@ -185,7 +188,6 @@
   },
 
   "premiumBanner": "Bem-vinda ao Premium! Mensagens ilimitadas & todos os Guias desbloqueados 💛",
-
   "upgrade": {
     "title": "Fazer Upgrade para Premium",
     "cancelAnytime": "Cancele quando quiser",

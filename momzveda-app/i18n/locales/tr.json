@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "Bugün {count} ücretsiz mesaj hakkın kaldı",
     "limitReached": "Günlük limit doldu — Sınırsız için yükseltin ✨",
     "errorRetry": "Hmm, bir daha deneyeyim 💛",
-    "errorGeneral": "Bir şeyler ters gitti! 😅 Birazdan tekrar dene. Senin için buradayım! 💛"
+    "errorGeneral": "Bir şeyler ters gitti! 😅 Birazdan tekrar dene. Senin için buradayım! 💛",
+    "weeklyTipLabel": "Haftalık İpucun",
+    "weeklyTipBlurred": "Çocuğunuza özel haftalık ipuçlarını açın...",
+    "weeklyTipUnlock": "Haftalık İpuçlarını Aç"
   },
 
   "tabs": {
@@ -185,7 +188,6 @@
   },
 
   "premiumBanner": "Premium'a hoş geldin! Sınırsız mesaj & tüm Rehberler açık 💛",
-
   "upgrade": {
     "title": "Premium'a Yükseltin",
     "cancelAnytime": "İstediğin zaman iptal et",

@@ -135,7 +135,10 @@
     "freeMessagesLeft_plural": "오늘 무료 메시지 {count}개 남았어요",
     "limitReached": "오늘 한도에 도달했어요 — 업그레이드로 무제한 ✨",
     "errorRetry": "음, 다시 해볼게 💛",
-    "errorGeneral": "뭔가 잘못됐어요! 😅 잠시 후 다시 시도해봐요. 여기 있을게요! 💛"
+    "errorGeneral": "뭔가 잘못됐어요! 😅 잠시 후 다시 시도해봐요. 여기 있을게요! 💛",
+    "weeklyTipLabel": "이번 주 팁",
+    "weeklyTipBlurred": "아이를 위한 맞춤형 주간 팁을 잠금 해제하세요...",
+    "weeklyTipUnlock": "주간 팁 잠금 해제"
   },
 
   "tabs": {
@@ -185,7 +188,6 @@
   },
 
   "premiumBanner": "프리미엄에 오신 걸 환영해요! 무제한 메시지 & 모든 가이드 잠금 해제 💛",
-
   "upgrade": {
     "title": "프리미엄으로 업그레이드",
     "cancelAnytime": "언제든 취소 가능",

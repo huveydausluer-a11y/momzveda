@@ -9,6 +9,7 @@ import en from './locales/en.json';
 // Content files — English (other languages loaded dynamically below)
 import affirmationsEn from './content/affirmations/en.json';
 import dailyTipsEn from './content/daily-tips/en.json';
+import weeklyTipsEn from './content/weekly-tips/en.json';
 import quickTopicsEn from './content/quick-topics/en.json';
 import guidedJourneysEn from './content/guided-journeys/en.json';
 
@@ -67,6 +68,19 @@ const contentLoaders = {
     ja: () => import('./content/quick-topics/ja.json').then(m => m.default),
     ko: () => import('./content/quick-topics/ko.json').then(m => m.default),
   },
+  weeklyTips: {
+    en: () => Promise.resolve(weeklyTipsEn),
+    de: () => import('./content/weekly-tips/de.json').then(m => m.default),
+    fr: () => import('./content/weekly-tips/fr.json').then(m => m.default),
+    es: () => import('./content/weekly-tips/es.json').then(m => m.default),
+    it: () => import('./content/weekly-tips/it.json').then(m => m.default),
+    nl: () => import('./content/weekly-tips/nl.json').then(m => m.default),
+    pt: () => import('./content/weekly-tips/pt.json').then(m => m.default),
+    tr: () => import('./content/weekly-tips/tr.json').then(m => m.default),
+    ar: () => import('./content/weekly-tips/ar.json').then(m => m.default),
+    ja: () => import('./content/weekly-tips/ja.json').then(m => m.default),
+    ko: () => import('./content/weekly-tips/ko.json').then(m => m.default),
+  },
   guidedJourneys: {
     en: () => Promise.resolve(guidedJourneysEn),
     de: () => import('./content/guided-journeys/de.json').then(m => m.default),
@@ -90,6 +104,7 @@ export function I18nProvider({ children, country }) {
   const [content, setContent] = useState({
     affirmations: affirmationsEn,
     dailyTips: dailyTipsEn,
+    weeklyTips: weeklyTipsEn,
     quickTopics: quickTopicsEn,
     guidedJourneys: guidedJourneysEn,
   });
@@ -109,6 +124,7 @@ export function I18nProvider({ children, country }) {
         setContent({
           affirmations: affirmationsEn,
           dailyTips: dailyTipsEn,
+          weeklyTips: weeklyTipsEn,
           quickTopics: quickTopicsEn,
           guidedJourneys: guidedJourneysEn,
         });
@@ -119,17 +135,18 @@ export function I18nProvider({ children, country }) {
       if (!loader) return;
 
       try {
-        const [uiStrings, affirmations, dailyTips, quickTopics, guidedJourneys] = await Promise.all([
+        const [uiStrings, affirmations, dailyTips, weeklyTips, quickTopics, guidedJourneys] = await Promise.all([
           loader(),
           contentLoaders.affirmations[lang]?.() ?? Promise.resolve(affirmationsEn),
           contentLoaders.dailyTips[lang]?.() ?? Promise.resolve(dailyTipsEn),
+          contentLoaders.weeklyTips[lang]?.() ?? Promise.resolve(weeklyTipsEn),
           contentLoaders.quickTopics[lang]?.() ?? Promise.resolve(quickTopicsEn),
           contentLoaders.guidedJourneys[lang]?.() ?? Promise.resolve(guidedJourneysEn),
         ]);
 
         if (!cancelled) {
           setLocale(uiStrings);
-          setContent({ affirmations, dailyTips, quickTopics, guidedJourneys });
+          setContent({ affirmations, dailyTips, weeklyTips, quickTopics, guidedJourneys });
         }
       } catch {
         // Fallback to English on load failure
@@ -138,6 +155,7 @@ export function I18nProvider({ children, country }) {
           setContent({
             affirmations: affirmationsEn,
             dailyTips: dailyTipsEn,
+            weeklyTips: weeklyTipsEn,
             quickTopics: quickTopicsEn,
             guidedJourneys: guidedJourneysEn,
           });
