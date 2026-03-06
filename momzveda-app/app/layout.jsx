@@ -11,10 +11,13 @@ export const metadata = {
     statusBarStyle: 'black-translucent',
     title: 'MomzVeda',
   },
+  verification: {
+    google: '8vBQo-TCP5Y_pmjcgTM6HznlNpod6frZzSduw_3zKg4',
+  },
   openGraph: {
     title: 'MomzVeda — Your Mom Friend. Always Here.',
     description: 'An AI-powered supportive mom friend for emotional support, parenting tips, recipes, and daily affirmations.',
-    url: 'https://momzveda.com',
+    url: 'https://www.momzveda.com',
     siteName: 'MomzVeda',
     type: 'website',
     locale: 'en_US',
@@ -24,7 +27,7 @@ export const metadata = {
     title: 'MomzVeda — Your Mom Friend. Always Here.',
     description: 'An AI-powered supportive mom friend for emotional support, parenting tips, recipes, and daily affirmations.',
   },
-  metadataBase: new URL('https://momzveda.com'),
+  metadataBase: new URL('https://www.momzveda.com'),
 };
 
 export const viewport = {
