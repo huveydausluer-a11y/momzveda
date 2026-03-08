@@ -33,8 +33,8 @@ export const metadata = {
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
+  maximumScale: 5,
+  userScalable: true,
   themeColor: '#0F1F15',
 };
 
@@ -56,6 +56,36 @@ export default function RootLayout({ children }) {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="application-name" content="MomzVeda" />
         <meta name="msapplication-TileColor" content="#0F1F15" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@graph': [
+                {
+                  '@type': 'Organization',
+                  name: 'MomzVeda',
+                  url: 'https://www.momzveda.com',
+                  description: 'AI-powered supportive mom friend for emotional support, parenting tips, recipes, and daily affirmations.',
+                },
+                {
+                  '@type': 'WebApplication',
+                  name: 'MomzVeda',
+                  url: 'https://www.momzveda.com',
+                  applicationCategory: 'LifestyleApplication',
+                  operatingSystem: 'Any',
+                  offers: {
+                    '@type': 'Offer',
+                    price: '6.99',
+                    priceCurrency: 'EUR',
+                    description: 'Monthly premium subscription',
+                  },
+                  description: 'An AI-powered supportive mom friend. Get emotional support, parenting tips, quick recipes, and daily affirmations.',
+                },
+              ],
+            }),
+          }}
+        />
       </head>
       <body>
         <ClientProviders>{children}</ClientProviders>

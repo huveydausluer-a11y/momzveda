@@ -50,7 +50,7 @@ export default function SignupPage() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: BG, fontFamily: "'DM Sans', sans-serif", padding: 20 }}>
+    <main style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: BG, fontFamily: "'DM Sans', sans-serif", padding: 20 }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Archivo+Black&display=swap');
         @keyframes fadeSlideIn { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
@@ -73,7 +73,7 @@ export default function SignupPage() {
 
         {/* Card */}
         <div style={{ background: CARD_BG, borderRadius: 24, padding: '32px 28px', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', border: `1px solid ${BORDER}` }}>
-          <h2 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 4, fontFamily: "'Playfair Display', serif", textAlign: 'center' }}>{t('signup.title')}</h2>
+          <h1 style={{ fontSize: 22, fontWeight: 700, color: TEXT_DARK, marginBottom: 4, fontFamily: "'Playfair Display', serif", textAlign: 'center' }}>{t('signup.title')}</h1>
           <p style={{ fontSize: 14, color: TEXT_MID, textAlign: 'center', marginBottom: 24 }}>{t('signup.subtitle')}</p>
 
           {success ? (
@@ -128,6 +128,6 @@ export default function SignupPage() {
           </p>
         )}
       </div>
-    </div>
+    </main>
   );
 }
