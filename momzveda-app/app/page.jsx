@@ -886,6 +886,7 @@ export default function Home() {
           { id: 'journeys', label: isPremium ? t('tabs.guides') : t('tabs.guidesLocked') },
           { id: 'profiles', label: t('tabs.kids') },
           { id: 'wins', label: t('tabs.wins') },
+          { id: 'help', label: 'Help' },
         ].map(tab => (
           <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{
             flex: 1, padding: '10px 0', border: 'none', cursor: 'pointer', fontSize: 12, fontWeight: 600,
@@ -1078,6 +1079,51 @@ export default function Home() {
                 </div>
               ))
             )}
+          </div>
+        )}
+
+        {/* HELP TAB */}
+        {activeTab === 'help' && (
+          <div>
+            {/* Contact Section */}
+            <div style={{ textAlign: 'center', marginBottom: 32 }}>
+              <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK, marginBottom: 4 }}>Contact Us</div>
+              <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>Have a question, suggestion, or just want to say hi? We would love to hear from you.</div>
+              <a href="mailto:info@momzveda.com" style={{ display: 'inline-block', background: GREEN, color: '#FFFFFF', padding: '12px 32px', borderRadius: 12, fontSize: 15, fontWeight: 600, textDecoration: 'none', fontFamily: "'DM Sans', sans-serif" }}>
+                Email Us
+              </a>
+              <div style={{ fontSize: 12, color: TEXT_LIGHT, marginTop: 8 }}>info@momzveda.com</div>
+            </div>
+
+            {/* FAQ Section */}
+            <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK, marginBottom: 16 }}>Frequently Asked Questions</div>
+
+            {[
+              { q: 'What is MomzVeda?', a: 'MomzVeda is your AI-powered mom friend — a chat companion that provides parenting tips, emotional support, daily affirmations, and quick recipes. Think of it as having a supportive friend who is always available, never judges, and actually understands what you are going through.' },
+              { q: 'Is MomzVeda free?', a: 'Yes! You can use MomzVeda for free with 5 messages per day. This gives you access to the chat, daily tips, and affirmations. If you want unlimited messages, voice input, guided journeys, and personalized weekly tips, you can upgrade to Premium.' },
+              { q: 'How much does Premium cost?', a: 'Premium is available for \u20ac6.99 per month or \u20ac69.99 per year (save 17%). You can cancel anytime.' },
+              { q: 'How does the AI work?', a: 'MomzVeda uses advanced AI to have warm, supportive conversations with you. It is personalized to your parenting style, your children\'s ages, and your unique situation. The more you chat, the better it understands your needs.' },
+              { q: 'Is my data private?', a: 'Absolutely. Your conversations are private and encrypted. We never share your personal data with third parties. You can read our full privacy policy at momzveda.com/privacy.' },
+              { q: 'Who is MomzVeda for?', a: 'MomzVeda is for every mom — first-time moms, experienced parents, working moms, stay-at-home moms, single moms, and everyone in between. Whether your child is a newborn or a teenager, MomzVeda adapts to your stage of parenthood.' },
+              { q: 'Can I use MomzVeda in my language?', a: 'Yes! MomzVeda is available in 10+ languages including English, Dutch, German, French, Spanish, Italian, Portuguese, Turkish, Arabic, Japanese, and Korean. It automatically detects your language based on your profile.' },
+              { q: 'Is MomzVeda a replacement for professional help?', a: 'No. MomzVeda is a supportive daily companion, not a substitute for medical advice, therapy, or professional help. If you are experiencing a mental health crisis, please reach out to a healthcare professional.' },
+            ].map((faq, i) => (
+              <details key={i} style={{ background: CARD_BG, border: `1px solid ${BORDER}`, borderRadius: 14, padding: '14px 16px', marginBottom: 8, cursor: 'pointer' }}>
+                <summary style={{ fontSize: 14, fontWeight: 600, color: TEXT_DARK, listStyle: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  {faq.q}
+                  <span style={{ color: GREEN, fontSize: 18, fontWeight: 300 }}>+</span>
+                </summary>
+                <p style={{ fontSize: 13, color: TEXT_MID, lineHeight: 1.7, marginTop: 10, marginBottom: 0 }}>{faq.a}</p>
+              </details>
+            ))}
+
+            {/* Blog Link */}
+            <div style={{ textAlign: 'center', marginTop: 24, padding: 20, background: '#EBF7F0', borderRadius: 14 }}>
+              <div style={{ fontSize: 14, fontWeight: 600, color: TEXT_DARK, marginBottom: 8 }}>Looking for parenting tips?</div>
+              <a href="/blog" style={{ color: GREEN, fontSize: 14, fontWeight: 600, textDecoration: 'none' }}>
+                Visit our Blog &rarr;
+              </a>
+            </div>
           </div>
         )}
       </div>
