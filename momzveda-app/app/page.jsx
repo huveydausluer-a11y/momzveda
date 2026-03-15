@@ -467,7 +467,7 @@ export default function Home() {
   const [momWins, setMomWins] = useState(() => loadStored('momWins', []));
   const [newWin, setNewWin] = useState('');
   const [dailyTip, setDailyTip] = useState('');
-  const [showInstallPrompt, setShowInstallPrompt] = useState(false);
+  const [showInstallPrompt, setShowInstallPrompt] = useState(true);
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [isPremium, setIsPremium] = useState(() => loadStored('isPremium', false));
   const [dailyMsgCount, setDailyMsgCount] = useState(() => {
@@ -645,8 +645,8 @@ export default function Home() {
     };
     window.addEventListener('beforeinstallprompt', handler);
 
-    // Check if already installed
-    if (window.matchMedia('(display-mode: standalone)').matches) {
+    // Only hide if already running as installed app
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone) {
       setShowInstallPrompt(false);
     }
 
@@ -851,11 +851,11 @@ export default function Home() {
 
       {/* ── INSTALL APP BANNER ── */}
       {showInstallPrompt && (
-        <div style={{ background: 'linear-gradient(135deg, #EBF7F0, #E0F2E7)', padding: '10px 16px', display: 'flex', alignItems: 'center', gap: 12, borderBottom: `1px solid ${BORDER}` }}>
-          <span style={{ fontSize: 24 }}>📲</span>
+        <div style={{ background: 'linear-gradient(135deg, #EBF7F0, #D4EDDA)', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: 12, borderBottom: `1px solid ${BORDER}` }}>
+          <span style={{ fontSize: 26 }}>📱</span>
           <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK }}>{t('installBanner.title')}</div>
-            <div style={{ fontSize: 11, color: TEXT_MID }}>{t('installBanner.subtitle')}</div>
+            <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK }}>Get the MomzVeda App!</div>
+            <div style={{ fontSize: 11, color: TEXT_MID }}>Install for free — faster access, offline support & push notifications</div>
           </div>
           <button onClick={async () => {
             if (deferredPrompt) {
@@ -863,11 +863,13 @@ export default function Home() {
               const result = await deferredPrompt.userChoice;
               if (result.outcome === 'accepted') setShowInstallPrompt(false);
               setDeferredPrompt(null);
+            } else {
+              alert('To install MomzVeda:\\n\\n• iPhone/iPad: Tap the Share button ⬆️ then \"Add to Home Screen\"\\n\\n• Android Chrome: Tap the menu ⋮ then \"Install app\" or \"Add to Home Screen\"\\n\\n• Desktop: Click the install icon in your browser address bar');
             }
-          }} style={{ background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none', borderRadius: 10, padding: '6px 14px', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", whiteSpace: 'nowrap' }}>
-            {t('common.install')}
+          }} style={{ background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none', borderRadius: 10, padding: '8px 16px', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", whiteSpace: 'nowrap', boxShadow: '0 2px 8px rgba(46,125,50,0.3)' }}>
+            Install Free
           </button>
-          <button onClick={() => setShowInstallPrompt(false)} style={{ background: 'none', border: 'none', color: TEXT_LIGHT, fontSize: 16, cursor: 'pointer', padding: '0 4px' }}>✕</button>
+          <button onClick={() => setShowInstallPrompt(false)} style={{ background: 'none', border: 'none', color: TEXT_LIGHT, fontSize: 14, cursor: 'pointer', padding: '0 4px' }} title="Remind me later">✕</button>
         </div>
       )}
 
