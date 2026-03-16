@@ -468,6 +468,7 @@ export default function Home() {
   const [newWin, setNewWin] = useState('');
   const [dailyTip, setDailyTip] = useState('');
   const [showInstallPrompt, setShowInstallPrompt] = useState(true);
+  const [showInstallModal, setShowInstallModal] = useState(false);
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [isPremium, setIsPremium] = useState(() => loadStored('isPremium', false));
   const [dailyMsgCount, setDailyMsgCount] = useState(() => {
@@ -864,12 +865,54 @@ export default function Home() {
               if (result.outcome === 'accepted') setShowInstallPrompt(false);
               setDeferredPrompt(null);
             } else {
-              alert('To install MomzVeda:\\n\\n• iPhone/iPad: Tap the Share button ⬆️ then \"Add to Home Screen\"\\n\\n• Android Chrome: Tap the menu ⋮ then \"Install app\" or \"Add to Home Screen\"\\n\\n• Desktop: Click the install icon in your browser address bar');
+              setShowInstallModal(true);
             }
           }} style={{ background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none', borderRadius: 10, padding: '8px 16px', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", whiteSpace: 'nowrap', boxShadow: '0 2px 8px rgba(46,125,50,0.3)' }}>
             Install Free
           </button>
           <button onClick={() => setShowInstallPrompt(false)} style={{ background: 'none', border: 'none', color: TEXT_LIGHT, fontSize: 14, cursor: 'pointer', padding: '0 4px' }} title="Remind me later">✕</button>
+        </div>
+      )}
+
+      {/* ── INSTALL INSTRUCTIONS MODAL ── */}
+      {showInstallModal && (
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 20 }} onClick={() => setShowInstallModal(false)}>
+          <div style={{ background: '#FFF', borderRadius: 20, padding: '28px 24px', maxWidth: 340, width: '100%', boxShadow: '0 20px 60px rgba(0,0,0,0.3)', fontFamily: "'DM Sans', sans-serif" }} onClick={(e) => e.stopPropagation()}>
+            <div style={{ textAlign: 'center', marginBottom: 20 }}>
+              <div style={{ fontSize: 40, marginBottom: 8 }}>📱</div>
+              <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK }}>Install MomzVeda</div>
+              <div style={{ fontSize: 13, color: TEXT_MID, marginTop: 4 }}>Add to your home screen for the best experience</div>
+            </div>
+
+            <div style={{ background: '#F0FFF4', borderRadius: 14, padding: '16px', marginBottom: 12 }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 8 }}>iPhone / iPad</div>
+              <div style={{ fontSize: 12, color: TEXT_MID, lineHeight: 1.6 }}>
+                1. Tap the <span style={{ fontSize: 14 }}>⬆️</span> <strong>Share</strong> button at the bottom<br/>
+                2. Scroll down and tap <strong>"Add to Home Screen"</strong><br/>
+                3. Tap <strong>"Add"</strong> — done!
+              </div>
+            </div>
+
+            <div style={{ background: '#F0FFF4', borderRadius: 14, padding: '16px', marginBottom: 12 }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 8 }}>Android</div>
+              <div style={{ fontSize: 12, color: TEXT_MID, lineHeight: 1.6 }}>
+                1. Tap the <strong>⋮ menu</strong> (top right)<br/>
+                2. Tap <strong>"Install app"</strong> or <strong>"Add to Home Screen"</strong><br/>
+                3. Confirm — done!
+              </div>
+            </div>
+
+            <div style={{ background: '#F0FFF4', borderRadius: 14, padding: '16px', marginBottom: 20 }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 8 }}>Desktop</div>
+              <div style={{ fontSize: 12, color: TEXT_MID, lineHeight: 1.6 }}>
+                Click the <strong>install icon</strong> in your browser's address bar
+              </div>
+            </div>
+
+            <button onClick={() => setShowInstallModal(false)} style={{ width: '100%', background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none', borderRadius: 12, padding: '12px', fontSize: 14, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
+              Got it!
+            </button>
+          </div>
         </div>
       )}
 
