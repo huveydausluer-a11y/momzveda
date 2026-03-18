@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://www.momzveda.com';
+  const baseUrl = 'https://momzveda.com';
   return [
     {
       url: baseUrl,
