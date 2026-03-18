@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: ['/api/', '/auth/'],
     },
-    sitemap: 'https://www.momzveda.com/sitemap.xml',
+    sitemap: 'https://momzveda.com/sitemap.xml',
   };
 }
