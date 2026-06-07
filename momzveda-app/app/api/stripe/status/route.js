@@ -1,13 +1,37 @@
 import Stripe from 'stripe';
+import { createClient } from '../../../../lib/supabase-server';
+
+// Owner/test accounts that always have Premium (no Stripe subscription needed)
+const ALWAYS_PREMIUM_EMAILS = [
+  'info@momzveda.com',
+  'ruveydausluer@gmail.com',
+  'ruveyusluer@hotmail.com',
+];
 
 export async function POST(request) {
   try {
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-    const { customerEmail } = await request.json();
+    // Prefer the authenticated user's email — cannot be spoofed via the request body
+    let customerEmail = null;
+    try {
+      const supabase = createClient();
+      const { data: { user } } = await supabase.auth.getUser();
+      customerEmail = user?.email || null;
+    } catch {}
+
+    if (!customerEmail) {
+      const body = await request.json().catch(() => ({}));
+      customerEmail = body?.customerEmail || null;
+    }
 
     if (!customerEmail) {
       return Response.json({ isPremium: false });
     }
+
+    if (ALWAYS_PREMIUM_EMAILS.includes(customerEmail.toLowerCase())) {
+      return Response.json({ isPremium: true, plan: 'lifetime', currentPeriodEnd: null });
+    }
+
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
     // Find customer by email
     const customers = await stripe.customers.list({
