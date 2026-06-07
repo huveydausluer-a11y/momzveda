@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "Der 3-Nächte-Schlaf-Reset",
+    "subtitle": "Ein sanfter Guide ohne Schreienlassen für besseren Babyschlaf · 0–12 Monate",
+    "emoji": "🌙",
+    "intro": "Fünf kurze Videolektionen mit Veda. Sanft, wissenschaftlich fundiert und ohne Urteil — niemals Schreienlassen. Schau sie der Reihe nach oder spring direkt zu dem, was du heute Nacht brauchst.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Warum dein Baby nicht schläft (und warum es nicht deine Schuld ist)",
+        "duration": "± 7 Min.",
+        "desc": "So funktioniert Babyschlaf wirklich: Schlafzyklen, Regressionen und die Top-3-Schlafräuber.",
+        "vedaPrompt": "Ich habe gerade Lektion 1 des 3-Nächte-Schlaf-Resets gesehen (warum mein Baby nicht schläft). Kannst du mit mir herausfinden, welcher „Schlafräuber“ bei uns gerade zuschlägt?"
+      },
+      {
+        "n": 2,
+        "title": "Die Basis schaffen — die perfekte Schlafumgebung",
+        "duration": "± 6 Min.",
+        "desc": "Temperatur, Licht und Geräusche: So wird das Kinderzimmer schlaffreundlich.",
+        "vedaPrompt": "Ich habe gerade Lektion 2 des 3-Nächte-Schlaf-Resets gesehen (die Schlafumgebung). Kannst du mit mir checken, ob unser Zimmer — Temperatur, Licht, Geräusche — gut für mein Baby ist?"
+      },
+      {
+        "n": 3,
+        "title": "Die Abendroutine, die wirklich funktioniert",
+        "duration": "± 7 Min.",
+        "desc": "Eine beruhigende, wiederholbare Routine, die dein Baby lieben lernt.",
+        "vedaPrompt": "Ich habe gerade Lektion 3 des 3-Nächte-Schlaf-Resets gesehen (die Abendroutine). Kannst du mir helfen, eine realistische Routine für mein Baby und unsere Familie zu gestalten?"
+      },
+      {
+        "n": 4,
+        "title": "Nacht 1 und Nacht 2 — der Reset beginnt",
+        "duration": "± 8 Min.",
+        "desc": "Alles kommt zusammen: was du tust, was dich erwartet und wie du ruhig bleibst.",
+        "vedaPrompt": "Ich habe gerade Lektion 4 des 3-Nächte-Schlaf-Resets gesehen (Nacht 1 und 2). Wir starten den Reset — kannst du mich heute Nacht durch die schweren Momente coachen?"
+      },
+      {
+        "n": 5,
+        "title": "Nacht 3 und danach — dranbleiben",
+        "duration": "± 6 Min.",
+        "desc": "Fortschritte halten: Konsequenz, Rückschläge, Regressionen und das echte Leben.",
+        "vedaPrompt": "Ich habe gerade Lektion 5 des 3-Nächte-Schlaf-Resets gesehen (dranbleiben). Hilfst du mir, einen Plan zu machen, damit unser Schlaf-Fortschritt bleibt — auch bei Regressionen, Krankheit und Reisen?"
+      }
+    ]
+  }
+}

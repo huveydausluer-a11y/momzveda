@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "O Reset do Sono em 3 Noites",
+    "subtitle": "Um guia suave e sem choro para ajudar seu bebê a dormir melhor · 0–12 meses",
+    "emoji": "🌙",
+    "intro": "Cinco lições curtas em vídeo com a Veda. Suaves, baseadas em evidências e sem julgamentos — nunca deixar chorar. Assista em ordem ou vá direto ao que você precisa esta noite.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Por que seu bebê não dorme (e por que a culpa não é sua)",
+        "duration": "± 7 min",
+        "desc": "Como o sono do bebê realmente funciona: ciclos, regressões e os 3 maiores ladrões de sono.",
+        "vedaPrompt": "Acabei de ver a lição 1 do Reset do Sono em 3 Noites (por que meu bebê não dorme). Pode me ajudar a descobrir qual “ladrão de sono” está nos afetando?"
+      },
+      {
+        "n": 2,
+        "title": "Preparando o terreno — o ambiente perfeito para dormir",
+        "duration": "± 6 min",
+        "desc": "Temperatura, luz e som: transformar o quarto em um espaço que convida ao sono.",
+        "vedaPrompt": "Acabei de ver a lição 2 do Reset do Sono em 3 Noites (o ambiente de sono). Pode me ajudar a conferir se o nosso quarto — temperatura, luz e som — está bom para o meu bebê?"
+      },
+      {
+        "n": 3,
+        "title": "A rotina de dormir que realmente funciona",
+        "duration": "± 7 min",
+        "desc": "Uma rotina calmante e repetível que seu bebê vai aprender a reconhecer e amar.",
+        "vedaPrompt": "Acabei de ver a lição 3 do Reset do Sono em 3 Noites (a rotina de dormir). Pode me ajudar a montar uma rotina realista para o meu bebê e a nossa família?"
+      },
+      {
+        "n": 4,
+        "title": "Noite 1 e noite 2 — o reset começa",
+        "duration": "± 8 min",
+        "desc": "Tudo se encaixa: o que fazer, o que esperar e como manter a calma.",
+        "vedaPrompt": "Acabei de ver a lição 4 do Reset do Sono em 3 Noites (noites 1 e 2). Estamos começando o reset — pode me acompanhar esta noite nos momentos difíceis?"
+      },
+      {
+        "n": 5,
+        "title": "Noite 3 em diante — fazendo durar",
+        "duration": "± 6 min",
+        "desc": "Manter o progresso: consistência, recaídas, regressões e a vida real.",
+        "vedaPrompt": "Acabei de ver a lição 5 do Reset do Sono em 3 Noites (fazendo durar). Pode me ajudar a fazer um plano para manter nosso progresso, mesmo com regressões, doenças e viagens?"
+      }
+    ]
+  }
+}

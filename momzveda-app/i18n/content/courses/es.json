@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "El Reinicio del Sueño en 3 Noches",
+    "subtitle": "Una guía suave y sin llanto para ayudar a tu bebé a dormir mejor · 0–12 meses",
+    "emoji": "🌙",
+    "intro": "Cinco lecciones cortas en video con Veda. Suaves, basadas en evidencia y sin juicios — nunca dejar llorar. Míralas en orden o ve directo a lo que necesitas esta noche.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Por qué tu bebé no duerme (y por qué no es tu culpa)",
+        "duration": "± 7 min",
+        "desc": "Cómo funciona realmente el sueño del bebé: ciclos, regresiones y los 3 ladrones del sueño.",
+        "vedaPrompt": "Acabo de ver la lección 1 del Reinicio del Sueño en 3 Noches (por qué mi bebé no duerme). ¿Me ayudas a descubrir qué «ladrón del sueño» nos está afectando?"
+      },
+      {
+        "n": 2,
+        "title": "Preparar el terreno — el ambiente perfecto para dormir",
+        "duration": "± 6 min",
+        "desc": "Temperatura, luz y sonido: convertir la habitación en un espacio que invita a dormir.",
+        "vedaPrompt": "Acabo de ver la lección 2 del Reinicio del Sueño en 3 Noches (el ambiente de sueño). ¿Me ayudas a revisar si nuestra habitación — temperatura, luz y sonido — es adecuada para mi bebé?"
+      },
+      {
+        "n": 3,
+        "title": "La rutina de dormir que de verdad funciona",
+        "duration": "± 7 min",
+        "desc": "Una rutina calmante y repetible que tu bebé aprenderá a reconocer y amar.",
+        "vedaPrompt": "Acabo de ver la lección 3 del Reinicio del Sueño en 3 Noches (la rutina de dormir). ¿Me ayudas a diseñar una rutina realista para mi bebé y nuestra familia?"
+      },
+      {
+        "n": 4,
+        "title": "Noche 1 y noche 2 — empieza el reinicio",
+        "duration": "± 8 min",
+        "desc": "Todo se une: qué hacer, qué esperar y cómo mantener la calma.",
+        "vedaPrompt": "Acabo de ver la lección 4 del Reinicio del Sueño en 3 Noches (noches 1 y 2). Empezamos el reinicio — ¿me acompañas esta noche en los momentos difíciles?"
+      },
+      {
+        "n": 5,
+        "title": "Noche 3 y más allá — que los avances se mantengan",
+        "duration": "± 6 min",
+        "desc": "Mantener el progreso: constancia, recaídas, regresiones y la vida real.",
+        "vedaPrompt": "Acabo de ver la lección 5 del Reinicio del Sueño en 3 Noches (mantener los avances). ¿Me ayudas a hacer un plan para conservar nuestro progreso, incluso con regresiones, enfermedades y viajes?"
+      }
+    ]
+  }
+}

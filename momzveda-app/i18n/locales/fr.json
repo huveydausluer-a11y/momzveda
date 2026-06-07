@@ -8,7 +8,6 @@
     "install": "Installer",
     "logout": "Déconnexion"
   },
-
   "login": {
     "title": "Bon retour, maman !",
     "subtitle": "Connecte-toi à ton espace",
@@ -21,7 +20,6 @@
     "noAccount": "Tu n'as pas de compte ?",
     "signUpLink": "Inscris-toi"
   },
-
   "signup": {
     "title": "Rejoins le village !",
     "subtitle": "Crée ton compte pour commencer",
@@ -37,7 +35,6 @@
     "hasAccount": "Tu as déjà un compte ?",
     "signInLink": "Connecte-toi"
   },
-
   "onboarding": {
     "step": "Étape {current} sur {total}",
     "backButton": "← Retour",
@@ -122,7 +119,6 @@
       "acceptCheckbox": "J'ai lu et j'accepte les <strong>Conditions d'utilisation</strong> et la <strong>Politique de confidentialité</strong>."
     }
   },
-
   "chat": {
     "todayAffirmation": "AFFIRMATION DU JOUR",
     "newAffirmation": "↻ Nouvelle",
@@ -140,7 +136,6 @@
     "weeklyTipBlurred": "Débloquez des conseils hebdomadaires personnalisés pour votre enfant...",
     "weeklyTipUnlock": "Débloquer les Conseils"
   },
-
   "tabs": {
     "chat": "💬 Chat",
     "guides": "🗺️ Guides",
@@ -148,17 +143,15 @@
     "kids": "👶 Enfants",
     "wins": "🌟 Victoires"
   },
-
   "journeys": {
     "title": "Parcours Guidés",
     "premium": "✨ PREMIUM",
     "subtitle": "Des guides étape par étape pour les grandes étapes",
     "unlockTitle": "Débloquer les Parcours Guidés",
-    "unlockDesc": "Accède à des guides étape par étape pour l'apprentissage du sommeil, la diversification alimentaire, la gestion des crises, et plus encore — plus des messages quotidiens illimités.",
+    "unlockDesc": "Reçois un accompagnement pas à pas pour la première semaine à la maison, le sommeil de bébé, l'allaitement, la récupération post-partum et plus — plus le chat illimité avec Veda et tous les cours vidéo inclus.",
     "upgradeButton": "Passer à Premium",
     "priceNote": "À partir de €9,99/mois — annule quand tu veux"
   },
-
   "kids": {
     "title": "Tes enfants",
     "subtitle": "Ajoute tes enfants pour que MomzVeda puisse donner des conseils personnalisés et adaptés à leur âge",
@@ -169,7 +162,6 @@
     "notesPlaceholder": "Notes (allergies, centres d'intérêt...)",
     "addButton": "Ajouter l'enfant"
   },
-
   "wins": {
     "title": "Victoires de Maman 🌟",
     "subtitle": "Célèbre les petites victoires — tu le mérites !",
@@ -177,23 +169,19 @@
     "emptyTitle": "Pas encore de victoire enregistrée — mais tu es là, et c'est déjà une victoire ! 💛",
     "emptyHint": "Essaie : \"Bébé a dormi 5 heures\" ou \"J'ai cuisiné le dîner maison\""
   },
-
   "emergency": {
     "title": "🆘 Ressources d'urgence"
   },
-
   "installBanner": {
     "title": "📲 Installer MomzVeda",
     "subtitle": "Ajoute-le à ton écran d'accueil pour un accès rapide"
   },
-
-  "premiumBanner": "Bienvenue en Premium ! Messages illimités & tous les Guides débloqués 💛",
-
+  "premiumBanner": "Bienvenue dans Premium ! Chat illimité avec Veda + tous les cours vidéo débloqués 💛",
   "upgrade": {
     "title": "Passer à Premium",
     "cancelAnytime": "Annule quand tu veux",
     "subtitle": "Profite de l'expérience complète MomzVeda — parce que tu mérites un soutien illimité, maman.",
-    "unlimitedMessages": "Messages quotidiens illimités",
+    "unlimitedMessages": "Chat illimité avec Veda",
     "fullJourneys": "Bibliothèque complète des Parcours Guidés",
     "prioritySpeed": "Vitesse de réponse prioritaire",
     "weeklyTips": "Conseils hebdomadaires personnalisés pour votre enfant",
@@ -201,8 +189,24 @@
     "monthly": "€9,99/mois",
     "yearly": "€69,99/an",
     "yearlySave": "économise 42%",
-    "maybeLater": "Peut-être plus tard"
+    "maybeLater": "Peut-être plus tard",
+    "videoCourses": "Tous les cours vidéo inclus"
   },
-
-  "help": "🆘 Aide"
+  "help": "🆘 Aide",
+  "course": {
+    "back": "← Tous les guides",
+    "lesson": "Leçon {n}",
+    "progress": "{done} leçon(s) terminée(s) sur {total}",
+    "free": "GRATUIT",
+    "premiumBadge": "✨ PREMIUM",
+    "markDone": "Marquer la leçon comme terminée",
+    "done": "✓ Terminée",
+    "discussVeda": "💬 Parle de cette leçon avec Veda",
+    "comingSoon": "Cette vidéo arrive très bientôt — Veda est en train de l'enregistrer pour toi ! 🎬",
+    "videoError": "Impossible de charger la vidéo pour le moment. Réessaie dans un instant.",
+    "lockedTitle": "Débloque les 5 leçons",
+    "lockedDesc": "La leçon 1 est gratuite pour toutes les mamans. Passe à Premium pour suivre tout le cours — plus messages illimités et tous les guides.",
+    "lockedButton": "Passer à Premium",
+    "freeIntro": "La leçon 1 est gratuite — profites-en ! 💚"
+  }
 }

@@ -38,6 +38,42 @@ function MessageBubble({ message, isUser }) {
   );
 }
 
+// ── COURSE VIDEO PLAYER (signed URLs from /api/course/video) ──
+function CourseVideo({ courseId, lessonN, t }) {
+  const [video, setVideo] = useState({ status: 'loading', url: null });
+
+  useEffect(() => {
+    let cancelled = false;
+    setVideo({ status: 'loading', url: null });
+    fetch(`/api/course/video?course=${encodeURIComponent(courseId)}&lesson=${lessonN}`)
+      .then(res => {
+        if (!res.ok) throw res.status;
+        return res.json();
+      })
+      .then(data => { if (!cancelled) setVideo({ status: 'ready', url: data.url }); })
+      .catch(code => { if (!cancelled) setVideo({ status: code === 404 ? 'soon' : 'error', url: null }); });
+    return () => { cancelled = true; };
+  }, [courseId, lessonN]);
+
+  if (video.status === 'ready') {
+    return (
+      <video
+        controls playsInline preload="metadata" src={video.url}
+        controlsList="nodownload"
+        style={{ display: 'block', width: '100%', maxWidth: 270, margin: '0 auto 12px', borderRadius: 14, background: '#0F1F15', aspectRatio: '9 / 16' }}
+      />
+    );
+  }
+  return (
+    <div style={{ width: '100%', maxWidth: 270, aspectRatio: '9 / 16', borderRadius: 14, background: 'linear-gradient(135deg, #EBF7F0, #D5E8DC)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8, margin: '0 auto 12px', padding: 16, textAlign: 'center' }}>
+      <span style={{ fontSize: 36 }}>{video.status === 'loading' ? '🌙' : '🎬'}</span>
+      <span style={{ fontSize: 13, color: TEXT_MID, fontWeight: 600, lineHeight: 1.5 }}>
+        {video.status === 'loading' ? '…' : t(video.status === 'soon' ? 'course.comingSoon' : 'course.videoError')}
+      </span>
+    </div>
+  );
+}
+
 // ── COUNTRY LIST ──
 const COUNTRIES = [
   "United States", "United Kingdom", "Canada", "Australia", "Netherlands", "Germany", "France", "India",
@@ -477,6 +513,9 @@ export default function Home() {
     return 0;
   });
   const [showUpgrade, setShowUpgrade] = useState(false);
+  const [activeCourse, setActiveCourse] = useState(null);
+  const [expandedLesson, setExpandedLesson] = useState(1);
+  const [courseProgress, setCourseProgress] = useState(() => loadStored('courseProgress', {}));
   const [weeklyTip, setWeeklyTip] = useState('');
   const [isRecording, setIsRecording] = useState(false);
   const [speechSupported, setSpeechSupported] = useState(false);
@@ -555,6 +594,15 @@ export default function Home() {
   useEffect(() => { saveStored('momWins', momWins); }, [momWins]);
   useEffect(() => { saveStored('isPremium', isPremium); }, [isPremium]);
   useEffect(() => { saveStored('dailyMsgData', { count: dailyMsgCount, date: new Date().toDateString() }); }, [dailyMsgCount]);
+  useEffect(() => { saveStored('courseProgress', courseProgress); }, [courseProgress]);
+
+  const toggleLessonDone = (courseId, lessonN) => {
+    setCourseProgress(prev => {
+      const done = new Set(prev[courseId] || []);
+      if (done.has(lessonN)) done.delete(lessonN); else done.add(lessonN);
+      return { ...prev, [courseId]: Array.from(done) };
+    });
+  };
 
   // ── Sync profile changes to Supabase ──
   useEffect(() => {
@@ -573,7 +621,7 @@ export default function Home() {
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
-    ['onboarded','momProfile','messages','childProfiles','momWins','isPremium','dailyMsgData'].forEach(k => {
+    ['onboarded','momProfile','messages','childProfiles','momWins','isPremium','dailyMsgData','courseProgress'].forEach(k => {
       localStorage.removeItem('momzveda_' + k);
     });
     router.push('/login');
@@ -1010,8 +1058,104 @@ export default function Home() {
           <div ref={messagesEndRef} />
         </>)}
 
+        {/* COURSE VIEW (opened from a journey card with a courseId) */}
+        {activeTab === 'journeys' && activeCourse && (() => {
+          const course = (getContent('courses') || {})[activeCourse];
+          if (!course) return null;
+          const doneList = courseProgress[activeCourse] || [];
+          const totalLessons = course.lessons.length;
+          return (
+            <div>
+              <button onClick={() => setActiveCourse(null)} style={{ background: 'none', border: 'none', color: TEXT_MID, fontSize: 14, fontWeight: 600, cursor: 'pointer', padding: '4px 0', marginBottom: 10, fontFamily: "'DM Sans', sans-serif" }}>
+                {t('course.back')}
+              </button>
+
+              {/* Course header */}
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12, marginBottom: 6 }}>
+                <span style={{ fontSize: 34 }}>{course.emoji}</span>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontSize: 20, fontWeight: 700, color: TEXT_DARK, fontFamily: "'Playfair Display', serif" }}>{course.title}</div>
+                  <div style={{ fontSize: 13, color: TEXT_LIGHT }}>{course.subtitle}</div>
+                </div>
+                {!isPremium && <span style={{ fontSize: 11, fontWeight: 700, color: '#D97706', background: '#FEF3C7', padding: '3px 10px', borderRadius: 8, whiteSpace: 'nowrap' }}>{t('course.premiumBadge')}</span>}
+              </div>
+              <p style={{ fontSize: 13, color: TEXT_MID, lineHeight: 1.6, marginBottom: 14 }}>{course.intro}</p>
+
+              {/* Progress */}
+              <div style={{ marginBottom: 16 }}>
+                <div style={{ fontSize: 12, fontWeight: 600, color: TEXT_MID, marginBottom: 6 }}>{t('course.progress', { done: doneList.length, total: totalLessons })}</div>
+                <div style={{ height: 8, background: BORDER_LIGHT, borderRadius: 4, overflow: 'hidden' }}>
+                  <div style={{ height: '100%', width: `${(doneList.length / totalLessons) * 100}%`, background: `linear-gradient(90deg, ${GREEN}, ${GREEN_DARK})`, borderRadius: 4, transition: 'width 0.3s' }} />
+                </div>
+              </div>
+
+              {!isPremium && (
+                <div style={{ fontSize: 13, fontWeight: 600, color: GREEN_DARK, background: '#EBF7F0', borderRadius: 12, padding: '10px 14px', marginBottom: 14 }}>{t('course.freeIntro')}</div>
+              )}
+
+              {/* Lessons */}
+              <div style={{ display: 'grid', gap: 10 }}>
+                {course.lessons.map(lesson => {
+                  const locked = !isPremium && lesson.n !== 1;
+                  const isDone = doneList.includes(lesson.n);
+                  const isOpen = expandedLesson === lesson.n && !locked;
+                  return (
+                    <div key={lesson.n} style={{ background: CARD_BG, border: `1.5px solid ${isOpen ? GREEN : BORDER}`, borderRadius: 16, overflow: 'hidden' }}>
+                      <button
+                        onClick={() => { if (locked) { setShowUpgrade(true); } else { setExpandedLesson(isOpen ? null : lesson.n); } }}
+                        style={{ width: '100%', background: 'none', border: 'none', padding: '14px 16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 12, fontFamily: "'DM Sans', sans-serif", opacity: locked ? 0.65 : 1 }}
+                      >
+                        <span style={{ width: 32, height: 32, borderRadius: '50%', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, fontWeight: 700, background: isDone ? GREEN : BORDER_LIGHT, color: isDone ? '#FFF' : TEXT_MID }}>
+                          {isDone ? '✓' : lesson.n}
+                        </span>
+                        <span style={{ flex: 1 }}>
+                          <span style={{ display: 'block', fontSize: 14, fontWeight: 700, color: TEXT_DARK, lineHeight: 1.4 }}>{lesson.title}</span>
+                          <span style={{ display: 'block', fontSize: 12, color: TEXT_LIGHT }}>{t('course.lesson', { n: lesson.n })} · {lesson.duration}</span>
+                        </span>
+                        {locked
+                          ? <span style={{ fontSize: 16 }}>🔒</span>
+                          : (!isPremium && lesson.n === 1)
+                            ? <span style={{ fontSize: 10, fontWeight: 700, color: GREEN_DARK, background: '#EBF7F0', padding: '3px 8px', borderRadius: 8 }}>{t('course.free')}</span>
+                            : <span style={{ fontSize: 13, color: TEXT_LIGHT }}>{isOpen ? '▾' : '▸'}</span>}
+                      </button>
+
+                      {isOpen && (
+                        <div style={{ padding: '0 16px 16px' }}>
+                          <CourseVideo courseId={activeCourse} lessonN={lesson.n} t={t} />
+                          <p style={{ fontSize: 13, color: TEXT_MID, lineHeight: 1.6, marginBottom: 12 }}>{lesson.desc}</p>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                            <button onClick={() => toggleLessonDone(activeCourse, lesson.n)} style={{ background: isDone ? '#EBF7F0' : `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: isDone ? GREEN_DARK : '#FFF', border: 'none', borderRadius: 12, padding: '10px 16px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
+                              {isDone ? t('course.done') : t('course.markDone')}
+                            </button>
+                            <button onClick={() => sendMessage(lesson.vedaPrompt)} style={{ background: CARD_BG, color: TEXT_MID, border: `1.5px solid ${BORDER}`, borderRadius: 12, padding: '10px 16px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
+                              {t('course.discussVeda')}
+                            </button>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* Upgrade CTA for free users */}
+              {!isPremium && (
+                <div style={{ background: 'linear-gradient(135deg, #FFF7ED, #FEF3C7)', borderRadius: 20, padding: '24px 20px', textAlign: 'center', border: '1.5px solid #FDE68A', marginTop: 16 }}>
+                  <div style={{ fontSize: 32, marginBottom: 8 }}>✨</div>
+                  <div style={{ fontSize: 18, fontWeight: 700, color: '#92400E', marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t('course.lockedTitle')}</div>
+                  <p style={{ fontSize: 14, color: '#B45309', lineHeight: 1.6, marginBottom: 12 }}>{t('course.lockedDesc')}</p>
+                  <button onClick={() => setShowUpgrade(true)} style={{ background: 'linear-gradient(135deg, #F59E0B, #D97706)', color: '#FFF', border: 'none', borderRadius: 14, padding: '14px 28px', fontSize: 16, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 16px rgba(245,158,11,0.3)' }}>
+                    {t('course.lockedButton')}
+                  </button>
+                  <div style={{ fontSize: 12, color: '#B45309', marginTop: 8 }}>{t('journeys.priceNote')}</div>
+                </div>
+              )}
+            </div>
+          );
+        })()}
+
         {/* GUIDED JOURNEYS TAB */}
-        {activeTab === 'journeys' && (
+        {activeTab === 'journeys' && !activeCourse && (
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
               <div style={{ fontSize: 18, fontWeight: 700, color: TEXT_DARK }}>{t('journeys.title')}</div>
@@ -1022,7 +1166,7 @@ export default function Home() {
             {isPremium ? (
               <div style={{ display: 'grid', gap: 10 }}>
                 {(getContent('guidedJourneys') || []).map((j, i) => (
-                  <button key={i} onClick={() => sendMessage(j.prompt)} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 16, padding: '16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 14, transition: 'all 0.2s', fontFamily: "'DM Sans', sans-serif" }}
+                  <button key={i} onClick={() => { if (j.courseId) { setActiveCourse(j.courseId); setExpandedLesson(1); } else { sendMessage(j.prompt); } }} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 16, padding: '16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 14, transition: 'all 0.2s', fontFamily: "'DM Sans', sans-serif" }}
                     onMouseEnter={e => { e.currentTarget.style.borderColor = GREEN; e.currentTarget.style.boxShadow = '0 4px 12px rgba(34,197,94,0.1)'; }}
                     onMouseLeave={e => { e.currentTarget.style.borderColor = BORDER; e.currentTarget.style.boxShadow = 'none'; }}
                   >
@@ -1039,13 +1183,15 @@ export default function Home() {
                 {/* Show journeys but locked */}
                 <div style={{ display: 'grid', gap: 10, marginBottom: 20 }}>
                   {(getContent('guidedJourneys') || []).map((j, i) => (
-                    <div key={i} onClick={() => setShowUpgrade(true)} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 16, padding: '16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 14, fontFamily: "'DM Sans', sans-serif", opacity: 0.6, position: 'relative' }}>
+                    <div key={i} onClick={() => { if (j.courseId) { setActiveCourse(j.courseId); setExpandedLesson(1); } else { setShowUpgrade(true); } }} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 16, padding: '16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 14, fontFamily: "'DM Sans', sans-serif", opacity: j.courseId ? 1 : 0.6, position: 'relative' }}>
                       <span style={{ fontSize: 28 }}>{j.emoji}</span>
                       <div style={{ flex: 1 }}>
                         <div style={{ fontSize: 15, fontWeight: 700, color: TEXT_DARK }}>{j.title}</div>
                         <div style={{ fontSize: 12, color: TEXT_LIGHT }}>{j.desc}</div>
                       </div>
-                      <span style={{ fontSize: 18 }}>🔒</span>
+                      {j.courseId
+                        ? <span style={{ fontSize: 10, fontWeight: 700, color: GREEN_DARK, background: '#EBF7F0', padding: '3px 8px', borderRadius: 8, whiteSpace: 'nowrap' }}>{t('course.free')}</span>
+                        : <span style={{ fontSize: 18 }}>🔒</span>}
                     </div>
                   ))}
                 </div>
@@ -1273,12 +1419,13 @@ export default function Home() {
               <div style={{ textAlign: 'left', marginBottom: 24 }}>
                 {[
                   { emoji: '💬', text: t('upgrade.unlimitedMessages') },
+                  { emoji: '🎓', text: t('upgrade.videoCourses') },
                   { emoji: '🗺️', text: t('upgrade.fullJourneys') },
                   { emoji: '⚡', text: t('upgrade.prioritySpeed') },
                   { emoji: '🎯', text: t('upgrade.weeklyTips') },
                   { emoji: '🎙️', text: t('upgrade.voiceMessages') },
                 ].map((f, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '8px 0', borderBottom: i < 4 ? `1px solid ${BORDER_LIGHT}` : 'none' }}>
+                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '8px 0', borderBottom: i < 5 ? `1px solid ${BORDER_LIGHT}` : 'none' }}>
                     <span style={{ fontSize: 20 }}>{f.emoji}</span>
                     <span style={{ fontSize: 14, color: TEXT_DARK, fontWeight: 500 }}>{f.text}</span>
                     <span style={{ marginLeft: 'auto', color: GREEN, fontWeight: 700, fontSize: 14 }}>✓</span>

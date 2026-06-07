@@ -2,37 +2,38 @@
   {
     "emoji": "🏠",
     "title": "Première semaine à la maison",
-    "desc": "Naviguer les premiers jours avec bébé",
-    "prompt": "Je viens de ramener mon bébé de la maternité. Tu peux m'expliquer à quoi m'attendre la première semaine ? Quelles sont les choses les plus importantes sur lesquelles me concentrer ? Je suis nerveuse et excitée à la fois."
+    "desc": "Traverser les premiers jours",
+    "prompt": "Je viens de rentrer de la maternité avec mon bébé. Peux-tu m'expliquer à quoi m'attendre la première semaine ? Sur quoi me concentrer ? Je suis nerveuse et excitée à la fois."
   },
   {
-    "emoji": "🍼",
-    "title": "Début de la diversification",
+    "emoji": "🥄",
+    "title": "Diversification alimentaire",
     "desc": "Quand et comment commencer",
-    "prompt": "Je pense que mon bébé est prêt pour la diversification alimentaire. Tu peux me guider pour commencer ? Quels signes dois-je observer, par quels aliments commencer, et comment en faire une expérience positive ?"
+    "prompt": "Je crois que mon bébé est prêt pour la diversification. Peux-tu me guider pour commencer ? Quels signes observer, quels aliments choisir en premier, et comment en faire une expérience positive ?"
   },
   {
-    "emoji": "😤",
-    "title": "Gérer les crises",
-    "desc": "Comprendre les effondrements",
-    "prompt": "Les crises de mon tout-petit sont vraiment intenses et arrivent de plus en plus souvent. Tu peux m'aider à comprendre ce qui se passe au niveau du développement et m'expliquer comment les gérer sans perdre mon propre calme ?"
+    "emoji": "💗",
+    "title": "Tes émotions",
+    "desc": "Pendant la grossesse et le post-partum",
+    "prompt": "Mes émotions font les montagnes russes pendant la grossesse/le post-partum. Peux-tu m'aider à comprendre ce qui est normal, ce qui vient des hormones, et quand je devrais faire plus attention à ce que je ressens ?"
   },
   {
     "emoji": "🌙",
-    "title": "Batailles du coucher",
-    "desc": "Des routines de sommeil paisibles",
-    "prompt": "Le coucher est une bataille chaque soir. Tu peux m'aider à créer une routine du coucher paisible qui fonctionne vraiment ? J'ai besoin d'une approche étape par étape."
+    "title": "Guide du sommeil de bébé",
+    "desc": "Routines douces 0–24 mois",
+    "courseId": "baby-sleep-guide",
+    "prompt": "Je veux comprendre le sommeil de bébé — fenêtres d'éveil, siestes, nuits, et les régressions dont tout le monde parle. Peux-tu m'expliquer ce qui est réaliste pour l'âge de mon bébé et comment construire en douceur une routine paisible ?"
   },
   {
-    "emoji": "🎒",
-    "title": "Prêt pour l'école",
-    "desc": "Préparation pour le grand jour",
-    "prompt": "Mon enfant va bientôt commencer l'école et je veux m'assurer qu'il est prêt — pas seulement scolairement mais aussi émotionnellement et socialement. Sur quoi dois-je me concentrer ?"
+    "emoji": "🍼",
+    "title": "Allaitement",
+    "desc": "Soutien et conseils sans jugement",
+    "prompt": "J'ai tant de questions sur l'allaitement — la mise au sein, la lactation, le tire-lait, l'allaitement mixte. Peux-tu m'aider à voir ce qui marche, ce qui ne marche pas et quelles sont mes options, sans aucun jugement ?"
   },
   {
-    "emoji": "📱",
-    "title": "Équilibre des écrans",
-    "desc": "Des habitudes numériques saines",
-    "prompt": "J'ai du mal à gérer le temps d'écran de mes enfants. Comment trouver un équilibre sain sans que ça devienne une bataille quotidienne ?"
+    "emoji": "🌸",
+    "title": "Récupération post-partum",
+    "desc": "Ton corps et ton esprit après la naissance",
+    "prompt": "Je veux comprendre à quoi ressemble vraiment la récupération post-partum — la guérison physique, les hormones, l'adaptation émotionnelle. Qu'est-ce qui est normal, qu'est-ce qui ne l'est pas, et comment prendre soin de moi ?"
   }
 ]

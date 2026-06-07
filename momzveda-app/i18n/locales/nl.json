@@ -8,7 +8,6 @@
     "install": "Installeren",
     "logout": "Uitloggen"
   },
-
   "login": {
     "title": "Welkom terug, mama!",
     "subtitle": "Log in op je ruimte",
@@ -21,7 +20,6 @@
     "noAccount": "Nog geen account?",
     "signUpLink": "Registreer"
   },
-
   "signup": {
     "title": "Word onderdeel van het dorp!",
     "subtitle": "Maak een account aan om te beginnen",
@@ -37,16 +35,15 @@
     "hasAccount": "Heb je al een account?",
     "signInLink": "Inloggen"
   },
-
   "onboarding": {
     "step": "Stap {current} van {total}",
-    "backButton": "\u2190 Terug",
-    "continueButton": "Verder \u2192",
-    "finishButton": "\ud83c\udf89 Laten we gaan!",
+    "backButton": "← Terug",
+    "continueButton": "Verder →",
+    "finishButton": "🎉 Laten we gaan!",
     "welcome": {
       "title": "Welkom, Mama!",
-      "description": "Laten we je ruimte inrichten zodat ik de beste mama-vriendin voor je kan zijn. Het duurt maar een minuutje \u2014 en alles blijft priv\u00e9.",
-      "startButton": "Laten We Beginnen \u2192"
+      "description": "Laten we je ruimte inrichten zodat ik de beste mama-vriendin voor je kan zijn. Het duurt maar een minuutje — en alles blijft privé.",
+      "startButton": "Laten We Beginnen →"
     },
     "aboutYou": {
       "title": "Vertel me over jezelf",
@@ -61,7 +58,7 @@
       "title": "Vertel me over je kleintjes!",
       "subtitle": "Voeg de naam en leeftijd van elk kind toe zodat ik persoonlijke, leeftijdsgerichte tips kan geven en ze bij naam kan noemen.",
       "childNumber": "Kind {number}",
-      "removeChild": "\u2715 Verwijderen",
+      "removeChild": "✕ Verwijderen",
       "namePlaceholder": "Naam van het kind (of bijnaam)",
       "agePlaceholder": "Leeftijd (bijv. 2, 0.5)",
       "agePickLabel": "Of kies...",
@@ -96,7 +93,7 @@
       "tantrums": "Driftbuien",
       "feeding": "Eten",
       "guilt": "Mama-schuldgevoel",
-      "workLife": "Werk-priv\u00e9",
+      "workLife": "Werk-privé",
       "loneliness": "Eenzaamheid",
       "anxiety": "Angst",
       "partner": "Partner",
@@ -117,48 +114,44 @@
       "title": "Bijna klaar!",
       "subtitle": "Lees en accepteer onze voorwaarden voordat we beginnen.",
       "description": "Door MomzVeda te gebruiken, ga je akkoord met onze Servicevoorwaarden en Privacybeleid. Hierin staat hoe de app werkt, hoe je gegevens worden behandeld en wat je rechten zijn als gebruiker.",
-      "termsLink": "\ud83d\udcc4 Servicevoorwaarden",
-      "privacyLink": "\ud83d\udd12 Privacybeleid",
+      "termsLink": "📄 Servicevoorwaarden",
+      "privacyLink": "🔒 Privacybeleid",
       "acceptCheckbox": "Ik heb de <strong>Servicevoorwaarden</strong> en het <strong>Privacybeleid</strong> gelezen en ga ermee akkoord."
     }
   },
-
   "chat": {
     "todayAffirmation": "AFFIRMATIE VAN VANDAAG",
-    "newAffirmation": "\u21bb Nieuw",
-    "welcomeGreeting": "Hoi {name}! \ud83d\udc4b Ik ben er wanneer je me nodig hebt.",
-    "welcomeKidsIntro": "Ik weet alles over {kids} \u2014 laten we kletsen! \ud83d\udc9a",
+    "newAffirmation": "↻ Nieuw",
+    "welcomeGreeting": "Hoi {name}! 👋 Ik ben er wanneer je me nodig hebt.",
+    "welcomeKidsIntro": "Ik weet alles over {kids} — laten we kletsen! 💚",
     "tapPrompt": "Tik op een onderwerp of typ iets!",
-    "inputPlaceholder": "Praat met me, {name}... \ud83d\udcac",
-    "inputPlaceholderLimited": "Upgrade voor onbeperkte berichten \u2728",
+    "inputPlaceholder": "Praat met me, {name}... 💬",
+    "inputPlaceholderLimited": "Upgrade voor onbeperkte berichten ✨",
     "freeMessagesLeft": "Nog {count} gratis bericht vandaag",
     "freeMessagesLeft_plural": "Nog {count} gratis berichten vandaag",
-    "limitReached": "Daglimiet bereikt \u2014 Upgrade voor onbeperkt \u2728",
-    "errorRetry": "Hmm, laat me dat nog eens proberen \ud83d\udc9b",
-    "errorGeneral": "Er ging iets mis! \ud83d\ude05 Probeer het zo opnieuw. Ik ben er voor je! \ud83d\udc9b",
+    "limitReached": "Daglimiet bereikt — Upgrade voor onbeperkt ✨",
+    "errorRetry": "Hmm, laat me dat nog eens proberen 💛",
+    "errorGeneral": "Er ging iets mis! 😅 Probeer het zo opnieuw. Ik ben er voor je! 💛",
     "weeklyTipLabel": "Jouw Wekelijkse Tip",
     "weeklyTipBlurred": "Ontgrendel persoonlijke wekelijkse tips voor jouw kind...",
     "weeklyTipUnlock": "Ontgrendel Wekelijkse Tips"
   },
-
   "tabs": {
-    "chat": "\ud83d\udcac Chat",
-    "guides": "\ud83d\uddfa\ufe0f Gidsen",
-    "guidesLocked": "\ud83d\uddfa\ufe0f Gidsen \ud83d\udd12",
-    "kids": "\ud83d\udc76 Kids",
-    "wins": "\ud83c\udf1f Wins"
+    "chat": "💬 Chat",
+    "guides": "🗺️ Gidsen",
+    "guidesLocked": "🗺️ Gidsen 🔒",
+    "kids": "👶 Kids",
+    "wins": "🌟 Wins"
   },
-
   "journeys": {
     "title": "Begeleide Trajecten",
-    "premium": "\u2728 PREMIUM",
+    "premium": "✨ PREMIUM",
     "subtitle": "Stapsgewijze begeleiding bij veelvoorkomende mijlpalen",
     "unlockTitle": "Ontgrendel Begeleide Trajecten",
-    "unlockDesc": "Krijg stapsgewijze begeleiding bij slaaptraining, vaste voeding, driftbuien temmen en meer \u2014 plus onbeperkte dagelijkse berichten.",
+    "unlockDesc": "Krijg stapsgewijze begeleiding bij je eerste week thuis, babyslaap, borstvoeding, postpartum herstel en meer — plus onbeperkt chatten met Veda en alle videocursussen inbegrepen.",
     "upgradeButton": "Upgrade naar Premium",
-    "priceNote": "Vanaf \u20ac9,99/mnd \u2014 op elk moment opzegbaar"
+    "priceNote": "Vanaf €9,99/mnd — op elk moment opzegbaar"
   },
-
   "kids": {
     "title": "Je Kinderen",
     "subtitle": "Voeg je kinderen toe zodat MomzVeda persoonlijk, leeftijdsgericht advies kan geven",
@@ -166,43 +159,54 @@
     "addChild": "+ Kind toevoegen",
     "namePlaceholder": "Naam van het kind",
     "agePlaceholder": "Leeftijd (bijv. 2, 6 maanden, 10)",
-    "notesPlaceholder": "Notities (allergie\u00ebn, interesses...)",
+    "notesPlaceholder": "Notities (allergieën, interesses...)",
     "addButton": "Kind Toevoegen"
   },
-
   "wins": {
-    "title": "Mama Wins \ud83c\udf1f",
-    "subtitle": "Vier de kleine overwinningen \u2014 je verdient het!",
+    "title": "Mama Wins 🌟",
+    "subtitle": "Vier de kleine overwinningen — je verdient het!",
     "placeholder": "Wat is jouw win vandaag?",
-    "emptyTitle": "Nog geen wins genoteerd \u2014 maar je bent hier, en dat is al een win! \ud83d\udc9b",
+    "emptyTitle": "Nog geen wins genoteerd — maar je bent hier, en dat is al een win! 💛",
     "emptyHint": "Probeer: \"Baby sliep 5 uur\" of \"Avondeten helemaal zelf gekookt\""
   },
-
   "emergency": {
-    "title": "\ud83c\udd98 Noodhulp"
+    "title": "🆘 Noodhulp"
   },
-
   "installBanner": {
-    "title": "\ud83d\udcf2 Installeer MomzVeda",
+    "title": "📲 Installeer MomzVeda",
     "subtitle": "Voeg toe aan je startscherm voor snelle toegang"
   },
-
-  "premiumBanner": "Welkom bij Premium! Onbeperkte berichten & alle Gidsen ontgrendeld \ud83d\udc9b",
-
+  "premiumBanner": "Welkom bij Premium! Onbeperkt chatten met Veda + alle videocursussen ontgrendeld 💛",
   "upgrade": {
     "title": "Upgrade naar Premium",
     "cancelAnytime": "Op elk moment opzegbaar",
-    "subtitle": "Krijg de volledige MomzVeda-ervaring \u2014 want jij verdient onbeperkte steun, mama.",
-    "unlimitedMessages": "Onbeperkte dagelijkse berichten",
+    "subtitle": "Krijg de volledige MomzVeda-ervaring — want jij verdient onbeperkte steun, mama.",
+    "unlimitedMessages": "Onbeperkt chatten met Veda",
     "fullJourneys": "Volledige Begeleide Trajecten-bibliotheek",
     "prioritySpeed": "Prioriteit reactiesnelheid",
     "weeklyTips": "Persoonlijke wekelijkse tips voor jouw kind",
     "voiceMessages": "Spraakberichten — handsfree chatten",
-    "monthly": "\u20ac9,99/maand",
-    "yearly": "\u20ac69,99/jaar",
+    "monthly": "€9,99/maand",
+    "yearly": "€69,99/jaar",
     "yearlySave": "bespaar 42%",
-    "maybeLater": "Misschien later"
+    "maybeLater": "Misschien later",
+    "videoCourses": "Alle videocursussen inbegrepen"
   },
-
-  "help": "\ud83c\udd98 Hulp"
+  "help": "🆘 Hulp",
+  "course": {
+    "back": "← Alle gidsen",
+    "lesson": "Les {n}",
+    "progress": "{done} van {total} lessen afgerond",
+    "free": "GRATIS",
+    "premiumBadge": "✨ PREMIUM",
+    "markDone": "Les afronden",
+    "done": "✓ Afgerond",
+    "discussVeda": "💬 Praat met Veda over deze les",
+    "comingSoon": "Deze video komt er heel snel aan — Veda is hem voor je aan het opnemen! 🎬",
+    "videoError": "De video kan nu niet geladen worden. Probeer het zo nog eens.",
+    "lockedTitle": "Ontgrendel alle 5 lessen",
+    "lockedDesc": "Les 1 is gratis voor elke mama. Upgrade naar Premium voor de hele cursus — plus onbeperkte berichten en alle gidsen.",
+    "lockedButton": "Upgrade naar Premium",
+    "freeIntro": "Les 1 is gratis — geniet ervan! 💚"
+  }
 }

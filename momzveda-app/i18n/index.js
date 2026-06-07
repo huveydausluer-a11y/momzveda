@@ -12,6 +12,7 @@ import dailyTipsEn from './content/daily-tips/en.json';
 import weeklyTipsEn from './content/weekly-tips/en.json';
 import quickTopicsEn from './content/quick-topics/en.json';
 import guidedJourneysEn from './content/guided-journeys/en.json';
+import coursesEn from './content/courses/en.json';
 
 // Lazy-load non-English locales to avoid bundling everything upfront
 const localeLoaders = {
@@ -94,6 +95,19 @@ const contentLoaders = {
     ja: () => import('./content/guided-journeys/ja.json').then(m => m.default),
     ko: () => import('./content/guided-journeys/ko.json').then(m => m.default),
   },
+  courses: {
+    en: () => Promise.resolve(coursesEn),
+    de: () => import('./content/courses/de.json').then(m => m.default),
+    fr: () => import('./content/courses/fr.json').then(m => m.default),
+    es: () => import('./content/courses/es.json').then(m => m.default),
+    it: () => import('./content/courses/it.json').then(m => m.default),
+    nl: () => import('./content/courses/nl.json').then(m => m.default),
+    pt: () => import('./content/courses/pt.json').then(m => m.default),
+    tr: () => import('./content/courses/tr.json').then(m => m.default),
+    ar: () => import('./content/courses/ar.json').then(m => m.default),
+    ja: () => import('./content/courses/ja.json').then(m => m.default),
+    ko: () => import('./content/courses/ko.json').then(m => m.default),
+  },
 };
 
 const I18nContext = createContext(null);
@@ -107,6 +121,7 @@ export function I18nProvider({ children, country }) {
     weeklyTips: weeklyTipsEn,
     quickTopics: quickTopicsEn,
     guidedJourneys: guidedJourneysEn,
+    courses: coursesEn,
   });
 
   // Update language when country changes
@@ -127,6 +142,7 @@ export function I18nProvider({ children, country }) {
           weeklyTips: weeklyTipsEn,
           quickTopics: quickTopicsEn,
           guidedJourneys: guidedJourneysEn,
+          courses: coursesEn,
         });
         return;
       }
@@ -135,18 +151,19 @@ export function I18nProvider({ children, country }) {
       if (!loader) return;
 
       try {
-        const [uiStrings, affirmations, dailyTips, weeklyTips, quickTopics, guidedJourneys] = await Promise.all([
+        const [uiStrings, affirmations, dailyTips, weeklyTips, quickTopics, guidedJourneys, courses] = await Promise.all([
           loader(),
           contentLoaders.affirmations[lang]?.() ?? Promise.resolve(affirmationsEn),
           contentLoaders.dailyTips[lang]?.() ?? Promise.resolve(dailyTipsEn),
           contentLoaders.weeklyTips[lang]?.() ?? Promise.resolve(weeklyTipsEn),
           contentLoaders.quickTopics[lang]?.() ?? Promise.resolve(quickTopicsEn),
           contentLoaders.guidedJourneys[lang]?.() ?? Promise.resolve(guidedJourneysEn),
+          contentLoaders.courses[lang]?.() ?? Promise.resolve(coursesEn),
         ]);
 
         if (!cancelled) {
           setLocale(uiStrings);
-          setContent({ affirmations, dailyTips, weeklyTips, quickTopics, guidedJourneys });
+          setContent({ affirmations, dailyTips, weeklyTips, quickTopics, guidedJourneys, courses });
         }
       } catch {
         // Fallback to English on load failure
@@ -158,6 +175,7 @@ export function I18nProvider({ children, country }) {
             weeklyTips: weeklyTipsEn,
             quickTopics: quickTopicsEn,
             guidedJourneys: guidedJourneysEn,
+            courses: coursesEn,
           });
         }
       }

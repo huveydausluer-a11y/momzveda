@@ -8,7 +8,6 @@
     "install": "インストール",
     "logout": "ログアウト"
   },
-
   "login": {
     "title": "おかえりなさい、ママ！",
     "subtitle": "あなたのスペースにサインイン",
@@ -21,7 +20,6 @@
     "noAccount": "アカウントをお持ちでないですか？",
     "signUpLink": "新規登録"
   },
-
   "signup": {
     "title": "ママの輪に加わろう！",
     "subtitle": "アカウントを作成して始めましょう",
@@ -37,7 +35,6 @@
     "hasAccount": "すでにアカウントをお持ちですか？",
     "signInLink": "サインイン"
   },
-
   "onboarding": {
     "step": "ステップ {current}/{total}",
     "backButton": "← 戻る",
@@ -122,7 +119,6 @@
       "acceptCheckbox": "<strong>利用規約</strong>と<strong>プライバシーポリシー</strong>を読み、同意します。"
     }
   },
-
   "chat": {
     "todayAffirmation": "今日のアファメーション",
     "newAffirmation": "↻ 新しく",
@@ -140,7 +136,6 @@
     "weeklyTipBlurred": "お子様に合わせた週間ティップスをアンロック...",
     "weeklyTipUnlock": "週間ティップスを解除"
   },
-
   "tabs": {
     "chat": "💬 チャット",
     "guides": "🗺️ ガイド",
@@ -148,17 +143,15 @@
     "kids": "👶 キッズ",
     "wins": "🌟 ママの勝利"
   },
-
   "journeys": {
     "title": "ガイド付きジャーニー",
     "premium": "✨ プレミアム",
     "subtitle": "よくある節目のためのステップバイステップガイド",
     "unlockTitle": "ガイド付きジャーニーを解放",
-    "unlockDesc": "ねんねトレーニング、離乳食の始め方、かんしゃく対策などのステップバイステップガイドに加えて、毎日のメッセージも無制限に。",
+    "unlockDesc": "退院後の最初の1週間、赤ちゃんの睡眠、母乳育児、産後の回復など、ステップごとのガイドを受けられます — さらにVedaとの無制限チャットとすべての動画コース付き。",
     "upgradeButton": "プレミアムにアップグレード",
     "priceNote": "€9.99/月から — いつでもキャンセルOK"
   },
-
   "kids": {
     "title": "お子さん情報",
     "subtitle": "お子さんを追加して、MomzVedaから年齢に合ったアドバイスをもらおう",
@@ -169,7 +162,6 @@
     "notesPlaceholder": "メモ（アレルギー、好きなこと...）",
     "addButton": "お子さんを追加"
   },
-
   "wins": {
     "title": "ママの勝利 🌟",
     "subtitle": "小さな勝利をお祝いしよう — あなたはそれに値するよ！",
@@ -177,22 +169,19 @@
     "emptyTitle": "まだ勝利の記録はないけど — ここにいるだけですでに勝利だよ！💛",
     "emptyHint": "例: 「赤ちゃんが5時間寝た」や「夕飯を一から作った」"
   },
-
   "emergency": {
     "title": "🆘 緊急リソース"
   },
-
   "installBanner": {
     "title": "📲 MomzVedaをインストール",
     "subtitle": "ホーム画面に追加してすぐアクセス"
   },
-
-  "premiumBanner": "プレミアムへようこそ！メッセージ無制限＆全ガイド解放 💛",
+  "premiumBanner": "プレミアムへようこそ！Vedaと無制限チャット + すべての動画コースが解放されました 💛",
   "upgrade": {
     "title": "プレミアムにアップグレード",
     "cancelAnytime": "いつでもキャンセルOK",
     "subtitle": "MomzVedaのフル体験を — ママには無制限のサポートを受ける資格があるから。",
-    "unlimitedMessages": "毎日のメッセージが無制限",
+    "unlimitedMessages": "Vedaと無制限チャット",
     "fullJourneys": "ガイド付きジャーニー全ライブラリ",
     "prioritySpeed": "優先レスポンス",
     "weeklyTips": "お子様に合わせた週間パーソナルティップス",
@@ -200,8 +189,24 @@
     "monthly": "€9.99/月",
     "yearly": "€69.99/年",
     "yearlySave": "42%お得",
-    "maybeLater": "また後で"
+    "maybeLater": "また後で",
+    "videoCourses": "すべての動画コース付き"
   },
-
-  "help": "🆘 ヘルプ"
+  "help": "🆘 ヘルプ",
+  "course": {
+    "back": "← ガイド一覧へ",
+    "lesson": "レッスン{n}",
+    "progress": "{total}レッスン中{done}レッスン完了",
+    "free": "無料",
+    "premiumBadge": "✨ プレミアム",
+    "markDone": "レッスンを完了にする",
+    "done": "✓ 完了",
+    "discussVeda": "💬 このレッスンについてVedaと話す",
+    "comingSoon": "この動画はまもなく公開 — Vedaがあなたのために撮影中です！🎬",
+    "videoError": "動画を読み込めませんでした。少し待ってからもう一度お試しください。",
+    "lockedTitle": "全5レッスンを解放しよう",
+    "lockedDesc": "レッスン1はすべてのママに無料。プレミアムにアップグレードすると、コース全体に加えて無制限メッセージとすべてのガイドが使えます。",
+    "lockedButton": "プレミアムにアップグレード",
+    "freeIntro": "レッスン1は無料です — お楽しみください！💚"
+  }
 }

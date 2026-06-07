@@ -8,7 +8,6 @@
     "install": "Install",
     "logout": "Logout"
   },
-
   "login": {
     "title": "Welcome back, mama!",
     "subtitle": "Sign in to your space",
@@ -21,7 +20,6 @@
     "noAccount": "Don't have an account?",
     "signUpLink": "Sign up"
   },
-
   "signup": {
     "title": "Join the village!",
     "subtitle": "Create your account to get started",
@@ -37,16 +35,15 @@
     "hasAccount": "Already have an account?",
     "signInLink": "Sign in"
   },
-
   "onboarding": {
     "step": "Step {current} of {total}",
-    "backButton": "\u2190 Back",
-    "continueButton": "Continue \u2192",
-    "finishButton": "\ud83c\udf89 Let's Go!",
+    "backButton": "← Back",
+    "continueButton": "Continue →",
+    "finishButton": "🎉 Let's Go!",
     "welcome": {
       "title": "Welcome, Mama!",
-      "description": "Let\u2019s set up your space so I can be the best mom friend for you. It only takes a minute \u2014 and everything stays private.",
-      "startButton": "Let's Get Started \u2192"
+      "description": "Let’s set up your space so I can be the best mom friend for you. It only takes a minute — and everything stays private.",
+      "startButton": "Let's Get Started →"
     },
     "aboutYou": {
       "title": "Tell me about you",
@@ -59,9 +56,9 @@
     },
     "children": {
       "title": "Tell me about your little ones!",
-      "subtitle": "Add each child\u2019s name and age so I can give personalized, age-specific tips and call them by name.",
+      "subtitle": "Add each child’s name and age so I can give personalized, age-specific tips and call them by name.",
       "childNumber": "Child {number}",
-      "removeChild": "\u2715 Remove",
+      "removeChild": "✕ Remove",
       "namePlaceholder": "Child's name (or nickname)",
       "agePlaceholder": "Age (e.g. 2, 0.5)",
       "agePickLabel": "Or pick...",
@@ -89,7 +86,7 @@
       "instinctiveDesc": "Trust my instincts",
       "figuringOut": "Still Figuring It Out",
       "figuringOutDesc": "Learning as I go!",
-      "challengesLabel": "What\u2019s hardest right now?",
+      "challengesLabel": "What’s hardest right now?",
       "challengesHint": "(pick up to 4)",
       "challengesCount": "{count}/4 selected",
       "sleep": "Sleep",
@@ -117,48 +114,44 @@
       "title": "Almost there!",
       "subtitle": "Please review and accept our terms before we start.",
       "description": "By using MomzVeda, you agree to our Terms of Service and Privacy Policy. These outline how the app works, how your data is handled, and your rights as a user.",
-      "termsLink": "\ud83d\udcc4 Terms of Service",
-      "privacyLink": "\ud83d\udd12 Privacy Policy",
+      "termsLink": "📄 Terms of Service",
+      "privacyLink": "🔒 Privacy Policy",
       "acceptCheckbox": "I have read and agree to the <strong>Terms of Service</strong> and <strong>Privacy Policy</strong>."
     }
   },
-
   "chat": {
     "todayAffirmation": "TODAY'S AFFIRMATION",
-    "newAffirmation": "\u21bb New",
-    "welcomeGreeting": "Hey {name}! \ud83d\udc4b I'm here whenever you need me.",
-    "welcomeKidsIntro": "I know all about {kids} \u2014 let\u2019s chat! \ud83d\udc9a",
+    "newAffirmation": "↻ New",
+    "welcomeGreeting": "Hey {name}! 👋 I'm here whenever you need me.",
+    "welcomeKidsIntro": "I know all about {kids} — let’s chat! 💚",
     "tapPrompt": "Tap a topic or type anything!",
-    "inputPlaceholder": "Talk to me, {name}... \ud83d\udcac",
-    "inputPlaceholderLimited": "Upgrade for unlimited messages \u2728",
+    "inputPlaceholder": "Talk to me, {name}... 💬",
+    "inputPlaceholderLimited": "Upgrade for unlimited messages ✨",
     "freeMessagesLeft": "{count} free message left today",
     "freeMessagesLeft_plural": "{count} free messages left today",
-    "limitReached": "Daily limit reached \u2014 Upgrade for unlimited \u2728",
-    "errorRetry": "Hmm, let me try that again \ud83d\udc9b",
-    "errorGeneral": "Something went sideways! \ud83d\ude05 Try again in a sec. I\u2019m here for you! \ud83d\udc9b",
+    "limitReached": "Daily limit reached — Upgrade for unlimited ✨",
+    "errorRetry": "Hmm, let me try that again 💛",
+    "errorGeneral": "Something went sideways! 😅 Try again in a sec. I’m here for you! 💛",
     "weeklyTipLabel": "Your Weekly Tip",
     "weeklyTipBlurred": "Unlock personalized weekly tips tailored to your child...",
     "weeklyTipUnlock": "Unlock Weekly Tips"
   },
-
   "tabs": {
-    "chat": "\ud83d\udcac Chat",
-    "guides": "\ud83d\uddfa\ufe0f Guides",
-    "guidesLocked": "\ud83d\uddfa\ufe0f Guides \ud83d\udd12",
-    "kids": "\ud83d\udc76 Kids",
-    "wins": "\ud83c\udf1f Wins"
+    "chat": "💬 Chat",
+    "guides": "🗺️ Guides",
+    "guidesLocked": "🗺️ Guides 🔒",
+    "kids": "👶 Kids",
+    "wins": "🌟 Wins"
   },
-
   "journeys": {
     "title": "Guided Journeys",
-    "premium": "\u2728 PREMIUM",
+    "premium": "✨ PREMIUM",
     "subtitle": "Step-by-step guidance for common milestones",
     "unlockTitle": "Unlock Guided Journeys",
-    "unlockDesc": "Get step-by-step guidance for sleep training, starting solids, taming tantrums, and more \u2014 plus unlimited daily messages.",
+    "unlockDesc": "Get step-by-step guidance for your first week home, baby sleep, breastfeeding, postpartum recovery, and more — plus unlimited chat with Veda and all video courses included.",
     "upgradeButton": "Upgrade to Premium",
-    "priceNote": "From \u20ac9.99/mo \u2014 cancel anytime"
+    "priceNote": "From €9.99/mo — cancel anytime"
   },
-
   "kids": {
     "title": "Your Children",
     "subtitle": "Add your kids so MomzVeda can give personalized, age-specific advice",
@@ -169,40 +162,51 @@
     "notesPlaceholder": "Notes (allergies, interests...)",
     "addButton": "Add Child"
   },
-
   "wins": {
-    "title": "Mom Wins \ud83c\udf1f",
-    "subtitle": "Celebrate the small victories \u2014 you deserve it!",
-    "placeholder": "What\u2019s your win today?",
-    "emptyTitle": "No wins logged yet \u2014 but you\u2019re here, and that\u2019s already a win! \ud83d\udc9b",
+    "title": "Mom Wins 🌟",
+    "subtitle": "Celebrate the small victories — you deserve it!",
+    "placeholder": "What’s your win today?",
+    "emptyTitle": "No wins logged yet — but you’re here, and that’s already a win! 💛",
     "emptyHint": "Try: \"Baby slept 5 hours\" or \"Made dinner from scratch\""
   },
-
   "emergency": {
-    "title": "\ud83c\udd98 Emergency Resources"
+    "title": "🆘 Emergency Resources"
   },
-
   "installBanner": {
-    "title": "\ud83d\udcf2 Install MomzVeda",
+    "title": "📲 Install MomzVeda",
     "subtitle": "Add to your home screen for quick access"
   },
-
-  "premiumBanner": "Welcome to Premium! Unlimited messages & all Guides unlocked \ud83d\udc9b",
-
+  "premiumBanner": "Welcome to Premium! Unlimited chat with Veda + all video courses unlocked 💛",
   "upgrade": {
     "title": "Upgrade to Premium",
     "cancelAnytime": "Cancel anytime",
-    "subtitle": "Get the full MomzVeda experience \u2014 because you deserve unlimited support, mama.",
-    "unlimitedMessages": "Unlimited daily messages",
+    "subtitle": "Get the full MomzVeda experience — because you deserve unlimited support, mama.",
+    "unlimitedMessages": "Unlimited chat with Veda",
     "fullJourneys": "Full Guided Journeys library",
     "prioritySpeed": "Priority response speed",
     "weeklyTips": "Personalized weekly tips for your child",
     "voiceMessages": "Voice messages — hands-free chatting",
-    "monthly": "\u20ac9.99/month",
-    "yearly": "\u20ac69.99/year",
+    "monthly": "€9.99/month",
+    "yearly": "€69.99/year",
     "yearlySave": "save 42%",
-    "maybeLater": "Maybe later"
+    "maybeLater": "Maybe later",
+    "videoCourses": "All video courses included"
   },
-
-  "help": "\ud83c\udd98 Help"
+  "help": "🆘 Help",
+  "course": {
+    "back": "← All guides",
+    "lesson": "Lesson {n}",
+    "progress": "{done} of {total} lessons completed",
+    "free": "FREE",
+    "premiumBadge": "✨ PREMIUM",
+    "markDone": "Mark lesson as completed",
+    "done": "✓ Completed",
+    "discussVeda": "💬 Talk to Veda about this lesson",
+    "comingSoon": "This video is coming very soon — Veda is recording it for you! 🎬",
+    "videoError": "Couldn't load the video right now. Please try again in a moment.",
+    "lockedTitle": "Unlock all 5 lessons",
+    "lockedDesc": "Lesson 1 is free for every mama. Upgrade to Premium to watch the full course — plus unlimited messages and all guides.",
+    "lockedButton": "Upgrade to Premium",
+    "freeIntro": "Lesson 1 is free — enjoy! 💚"
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "Il Reset del Sonno in 3 Notti",
+    "subtitle": "Una guida dolce e senza pianti per aiutare il tuo bimbo a dormire meglio · 0–12 mesi",
+    "emoji": "🌙",
+    "intro": "Cinque brevi videolezioni con Veda. Dolci, basate sull'evidenza e senza giudizi — mai lasciar piangere. Guardale in ordine o vai dritta a ciò che ti serve stanotte.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Perché il tuo bimbo non dorme (e perché non è colpa tua)",
+        "duration": "± 7 min",
+        "desc": "Come funziona davvero il sonno dei bebè: cicli, regressioni e i 3 ladri di sonno.",
+        "vedaPrompt": "Ho appena visto la lezione 1 del Reset del Sonno in 3 Notti (perché il mio bimbo non dorme). Mi aiuti a capire quale «ladro di sonno» ci riguarda?"
+      },
+      {
+        "n": 2,
+        "title": "Preparare il terreno — l'ambiente perfetto per dormire",
+        "duration": "± 6 min",
+        "desc": "Temperatura, luce e suoni: trasformare la cameretta in uno spazio che concilia il sonno.",
+        "vedaPrompt": "Ho appena visto la lezione 2 del Reset del Sonno in 3 Notti (l'ambiente del sonno). Mi aiuti a controllare se la nostra cameretta — temperatura, luce e suoni — va bene per il mio bimbo?"
+      },
+      {
+        "n": 3,
+        "title": "La routine della nanna che funziona davvero",
+        "duration": "± 7 min",
+        "desc": "Una routine rilassante e ripetibile che il tuo bimbo imparerà a riconoscere e amare.",
+        "vedaPrompt": "Ho appena visto la lezione 3 del Reset del Sonno in 3 Notti (la routine della nanna). Mi aiuti a creare una routine realistica per il mio bimbo e la nostra famiglia?"
+      },
+      {
+        "n": 4,
+        "title": "Notte 1 e notte 2 — il reset comincia",
+        "duration": "± 8 min",
+        "desc": "Tutto si unisce: cosa fare, cosa aspettarti e come restare calma.",
+        "vedaPrompt": "Ho appena visto la lezione 4 del Reset del Sonno in 3 Notti (notti 1 e 2). Iniziamo il reset — mi accompagni stanotte nei momenti difficili?"
+      },
+      {
+        "n": 5,
+        "title": "Notte 3 e oltre — mantenere i progressi",
+        "duration": "± 6 min",
+        "desc": "Conservare i risultati: costanza, ricadute, regressioni e la vita vera.",
+        "vedaPrompt": "Ho appena visto la lezione 5 del Reset del Sonno in 3 Notti (mantenere i progressi). Mi aiuti a fare un piano per conservare i nostri progressi, anche con regressioni, malattie e viaggi?"
+      }
+    ]
+  }
+}

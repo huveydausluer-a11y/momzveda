@@ -8,7 +8,6 @@
     "install": "Yükle",
     "logout": "Çıkış Yap"
   },
-
   "login": {
     "title": "Tekrar hoş geldin, anne!",
     "subtitle": "Alanına giriş yap",
@@ -21,7 +20,6 @@
     "noAccount": "Henüz hesabın yok mu?",
     "signUpLink": "Kayıt ol"
   },
-
   "signup": {
     "title": "Köye katıl!",
     "subtitle": "Başlamak için hesabını oluştur",
@@ -37,7 +35,6 @@
     "hasAccount": "Zaten hesabın var mı?",
     "signInLink": "Giriş yap"
   },
-
   "onboarding": {
     "step": "Adım {current} / {total}",
     "backButton": "← Geri",
@@ -122,7 +119,6 @@
       "acceptCheckbox": "<strong>Hizmet Şartları</strong>'nı ve <strong>Gizlilik Politikası</strong>'nı okudum ve kabul ediyorum."
     }
   },
-
   "chat": {
     "todayAffirmation": "BUGÜNÜN OLUMLAMASI",
     "newAffirmation": "↻ Yeni",
@@ -140,7 +136,6 @@
     "weeklyTipBlurred": "Çocuğunuza özel haftalık ipuçlarını açın...",
     "weeklyTipUnlock": "Haftalık İpuçlarını Aç"
   },
-
   "tabs": {
     "chat": "💬 Sohbet",
     "guides": "🗺️ Rehberler",
@@ -148,17 +143,15 @@
     "kids": "👶 Çocuklar",
     "wins": "🌟 Başarılar"
   },
-
   "journeys": {
     "title": "Rehberli Yolculuklar",
     "premium": "✨ PREMİYUM",
     "subtitle": "Yaygın dönüm noktaları için adım adım rehberlik",
     "unlockTitle": "Rehberli Yolculukları Aç",
-    "unlockDesc": "Uyku eğitimi, ek gıdaya geçiş, öfke nöbetlerini yönetme ve daha fazlası için adım adım rehberlik al — üstelik sınırsız günlük mesaj.",
+    "unlockDesc": "Evdeki ilk hafta, bebek uykusu, emzirme, doğum sonrası iyileşme ve daha fazlası için adım adım rehberlik al — ayrıca Veda ile sınırsız sohbet ve tüm video kurslar dahil.",
     "upgradeButton": "Premium'a Yükseltin",
     "priceNote": "€9,99/ay'dan başlayan — istediğin zaman iptal et"
   },
-
   "kids": {
     "title": "Çocukların",
     "subtitle": "MomzVeda'nın kişiye özel, yaşa uygun öneriler verebilmesi için çocuklarını ekle",
@@ -169,7 +162,6 @@
     "notesPlaceholder": "Notlar (alerjiler, ilgi alanları...)",
     "addButton": "Çocuk Ekle"
   },
-
   "wins": {
     "title": "Anne Başarıları 🌟",
     "subtitle": "Küçük zaferleri kutla — bunu hak ediyorsun!",
@@ -177,22 +169,19 @@
     "emptyTitle": "Henüz bir başarı yok — ama buradasın, bu bile bir başarı! 💛",
     "emptyHint": "Dene: \"Bebek 5 saat uyudu\" veya \"Akşam yemeğini sıfırdan yaptım\""
   },
-
   "emergency": {
     "title": "🆘 Acil Durum Kaynakları"
   },
-
   "installBanner": {
     "title": "📲 MomzVeda'yı Yükle",
     "subtitle": "Hızlı erişim için ana ekranına ekle"
   },
-
-  "premiumBanner": "Premium'a hoş geldin! Sınırsız mesaj & tüm Rehberler açık 💛",
+  "premiumBanner": "Premium'a hoş geldin! Veda ile sınırsız sohbet + tüm video kursların kilidi açıldı 💛",
   "upgrade": {
     "title": "Premium'a Yükseltin",
     "cancelAnytime": "İstediğin zaman iptal et",
     "subtitle": "Tam MomzVeda deneyimini yaşa — çünkü sınırsız desteği hak ediyorsun, anne.",
-    "unlimitedMessages": "Sınırsız günlük mesaj",
+    "unlimitedMessages": "Veda ile sınırsız sohbet",
     "fullJourneys": "Tüm Rehberli Yolculuklar kütüphanesi",
     "prioritySpeed": "Öncelikli yanıt hızı",
     "weeklyTips": "Çocuğunuz için kişiselleştirilmiş haftalık ipuçları",
@@ -200,8 +189,24 @@
     "monthly": "€9,99/ay",
     "yearly": "€69,99/yıl",
     "yearlySave": "%42 tasarruf",
-    "maybeLater": "Belki sonra"
+    "maybeLater": "Belki sonra",
+    "videoCourses": "Tüm video kurslar dahil"
   },
-
-  "help": "🆘 Yardım"
+  "help": "🆘 Yardım",
+  "course": {
+    "back": "← Tüm rehberler",
+    "lesson": "Ders {n}",
+    "progress": "{total} dersten {done} tanesi tamamlandı",
+    "free": "ÜCRETSİZ",
+    "premiumBadge": "✨ PREMIUM",
+    "markDone": "Dersi tamamlandı olarak işaretle",
+    "done": "✓ Tamamlandı",
+    "discussVeda": "💬 Bu ders hakkında Veda ile konuş",
+    "comingSoon": "Bu video çok yakında geliyor — Veda senin için kaydediyor! 🎬",
+    "videoError": "Video şu anda yüklenemedi. Birazdan tekrar dene.",
+    "lockedTitle": "5 dersin tamamının kilidini aç",
+    "lockedDesc": "1. ders her anne için ücretsiz. Kursun tamamını izlemek için Premium'a geç — ayrıca sınırsız mesaj ve tüm rehberler.",
+    "lockedButton": "Premium'a Geç",
+    "freeIntro": "1. ders ücretsiz — keyfini çıkar! 💚"
+  }
 }

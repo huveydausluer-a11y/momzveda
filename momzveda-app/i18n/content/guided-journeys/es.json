@@ -2,37 +2,38 @@
   {
     "emoji": "🏠",
     "title": "Primera semana en casa",
-    "desc": "Navegar los primeros días con el bebé",
-    "prompt": "Acabo de traer a mi bebé del hospital a casa. ¿Puedes guiarme sobre qué esperar en la primera semana? ¿Cuáles son las cosas más importantes en las que debo concentrarme? Estoy nerviosa y emocionada a la vez."
+    "desc": "Sobrevivir los días de recién nacido",
+    "prompt": "Acabo de llegar a casa del hospital con mi bebé. ¿Puedes contarme qué esperar en la primera semana? ¿En qué debería enfocarme? Estoy nerviosa y emocionada a la vez."
   },
   {
-    "emoji": "🍼",
+    "emoji": "🥄",
     "title": "Empezar con sólidos",
     "desc": "Cuándo y cómo comenzar",
-    "prompt": "Creo que mi bebé está listo para empezar con sólidos. ¿Puedes guiarme sobre cómo empezar? ¿Qué señales debo buscar, con qué alimentos comenzar y cómo hacerlo una experiencia positiva?"
+    "prompt": "Creo que mi bebé está listo para los sólidos. ¿Me guías para empezar? ¿Qué señales debo buscar, con qué alimentos empiezo y cómo lo convierto en una experiencia positiva?"
   },
   {
-    "emoji": "😤",
-    "title": "Dominar los berrinches",
-    "desc": "Entender las crisis",
-    "prompt": "Los berrinches de mi pequeño son muy intensos y cada vez más frecuentes. ¿Puedes ayudarme a entender qué está pasando a nivel de desarrollo y guiarme sobre cómo manejarlos sin perder yo la calma?"
+    "emoji": "💗",
+    "title": "Tus emociones",
+    "desc": "Durante el embarazo y el posparto",
+    "prompt": "Mis emociones son una montaña rusa durante el embarazo/posparto. ¿Me ayudas a entender qué es normal, qué son las hormonas y cuándo debería prestar más atención a cómo me siento?"
   },
   {
     "emoji": "🌙",
-    "title": "Batallas a la hora de dormir",
-    "desc": "Rutinas de sueño tranquilas",
-    "prompt": "La hora de dormir es una batalla cada noche. ¿Puedes guiarme para crear una rutina nocturna tranquila que realmente funcione? Necesito un enfoque paso a paso."
+    "title": "Guía del sueño del bebé",
+    "desc": "Rutinas de sueño tranquilas 0–24 meses",
+    "courseId": "baby-sleep-guide",
+    "prompt": "Quiero entender el sueño del bebé — ventanas de sueño, siestas, sueño nocturno y las regresiones de las que todos hablan. ¿Me explicas qué es realista para la edad de mi bebé y cómo crear con suavidad una rutina tranquila?"
   },
   {
-    "emoji": "🎒",
-    "title": "Listos para la escuela",
-    "desc": "Preparación para el gran día",
-    "prompt": "Mi hijo va a empezar la escuela pronto y quiero asegurarme de que esté listo — no solo académicamente sino también emocional y socialmente. ¿En qué debo concentrarme?"
+    "emoji": "🍼",
+    "title": "Lactancia",
+    "desc": "Apoyo y guía sin juicios",
+    "prompt": "Tengo tantas preguntas sobre la lactancia — el agarre, la producción, el extractor, la lactancia mixta. ¿Me ayudas a ver qué funciona, qué no y cuáles son mis opciones, sin ningún juicio?"
   },
   {
-    "emoji": "📱",
-    "title": "Equilibrio de pantallas",
-    "desc": "Hábitos digitales saludables",
-    "prompt": "Estoy luchando con manejar el tiempo de pantalla de mis hijos. ¿Cómo encuentro un equilibrio saludable sin que se convierta en una pelea diaria?"
+    "emoji": "🌸",
+    "title": "Recuperación posparto",
+    "desc": "Tu cuerpo y tu mente después del parto",
+    "prompt": "Quiero entender cómo es realmente la recuperación posparto — la sanación física, las hormonas, la adaptación emocional. ¿Qué es normal, qué no, y cómo me cuido durante el proceso?"
   }
 ]

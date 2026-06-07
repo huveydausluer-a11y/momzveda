@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "Le Reset Sommeil en 3 Nuits",
+    "subtitle": "Un guide doux, sans pleurs, pour aider ton bébé à mieux dormir · 0–12 mois",
+    "emoji": "🌙",
+    "intro": "Cinq courtes leçons vidéo avec Veda. Douces, fondées sur la science et sans jugement — jamais de « laisser pleurer ». Regarde-les dans l'ordre, ou va droit à ce dont tu as besoin ce soir.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Pourquoi ton bébé ne dort pas (et pourquoi ce n'est pas ta faute)",
+        "duration": "± 7 min",
+        "desc": "Comment fonctionne vraiment le sommeil de bébé : cycles, régressions et le top 3 des voleurs de sommeil.",
+        "vedaPrompt": "Je viens de voir la leçon 1 du Reset Sommeil en 3 Nuits (pourquoi mon bébé ne dort pas). Peux-tu m'aider à trouver quel « voleur de sommeil » nous concerne ?"
+      },
+      {
+        "n": 2,
+        "title": "Préparer le terrain — l'environnement de sommeil parfait",
+        "duration": "± 6 min",
+        "desc": "Température, lumière et bruit : transformer la chambre en espace propice au sommeil.",
+        "vedaPrompt": "Je viens de voir la leçon 2 du Reset Sommeil en 3 Nuits (l'environnement de sommeil). Peux-tu vérifier avec moi si notre chambre — température, lumière, bruit — convient à mon bébé ?"
+      },
+      {
+        "n": 3,
+        "title": "La routine du coucher qui fonctionne vraiment",
+        "duration": "± 7 min",
+        "desc": "Une routine apaisante et répétable que ton bébé apprendra à reconnaître et à aimer.",
+        "vedaPrompt": "Je viens de voir la leçon 3 du Reset Sommeil en 3 Nuits (la routine du coucher). Peux-tu m'aider à créer une routine réaliste pour mon bébé et notre famille ?"
+      },
+      {
+        "n": 4,
+        "title": "Nuit 1 et nuit 2 — le reset commence",
+        "duration": "± 8 min",
+        "desc": "Tout se met en place : quoi faire, à quoi t'attendre et comment rester calme.",
+        "vedaPrompt": "Je viens de voir la leçon 4 du Reset Sommeil en 3 Nuits (nuits 1 et 2). On commence le reset — peux-tu me coacher cette nuit dans les moments difficiles ?"
+      },
+      {
+        "n": 5,
+        "title": "Nuit 3 et au-delà — faire durer les progrès",
+        "duration": "± 6 min",
+        "desc": "Garder les acquis : régularité, rechutes, régressions et la vraie vie.",
+        "vedaPrompt": "Je viens de voir la leçon 5 du Reset Sommeil en 3 Nuits (faire durer les progrès). Peux-tu m'aider à faire un plan pour garder nos progrès, même avec les régressions, les maladies et les voyages ?"
+      }
+    ]
+  }
+}

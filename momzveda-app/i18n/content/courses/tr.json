@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "3 Gecede Uyku Sıfırlama",
+    "subtitle": "Bebeğinin daha iyi uyumasına yardımcı olan nazik, ağlatmasız bir rehber · 0–12 ay",
+    "emoji": "🌙",
+    "intro": "Veda ile beş kısa video ders. Nazik, bilimsel temelli ve yargısız — asla ağlatma yöntemi yok. Sırayla izle ya da bu gece ihtiyacın olana doğrudan geç.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Bebeğin neden uyumuyor (ve bunun neden senin suçun olmadığı)",
+        "duration": "± 7 dk",
+        "desc": "Bebek uykusu gerçekte nasıl işler: uyku döngüleri, regresyonlar ve en büyük 3 uyku hırsızı.",
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 1. dersini yeni izledim (bebeğim neden uyumuyor). Bizi hangi “uyku hırsızının” etkilediğini bulmama yardım eder misin?"
+      },
+      {
+        "n": 2,
+        "title": "Başarı için hazırlık — mükemmel uyku ortamı",
+        "duration": "± 6 dk",
+        "desc": "Sıcaklık, ışık ve ses: bebek odasını uyku dostu bir alana dönüştürmek.",
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 2. dersini yeni izledim (uyku ortamı). Odamızın — sıcaklık, ışık ve ses — bebeğim için uygun olup olmadığını kontrol etmeme yardım eder misin?"
+      },
+      {
+        "n": 3,
+        "title": "Gerçekten işe yarayan uyku rutini",
+        "duration": "± 7 dk",
+        "desc": "Bebeğinin tanımayı ve sevmeyi öğreneceği sakinleştirici, tekrarlanabilir bir rutin.",
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 3. dersini yeni izledim (uyku rutini). Bebeğime ve ailemize uygun gerçekçi bir rutin oluşturmama yardım eder misin?"
+      },
+      {
+        "n": 4,
+        "title": "1. ve 2. gece — sıfırlama başlıyor",
+        "duration": "± 8 dk",
+        "desc": "Her şey bir araya geliyor: ne yapacaksın, seni ne bekliyor ve nasıl sakin kalacaksın.",
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 4. dersini yeni izledim (1. ve 2. gece). Sıfırlamaya başlıyoruz — bu gece zor anlarda bana koçluk eder misin?"
+      },
+      {
+        "n": 5,
+        "title": "3. gece ve sonrası — kalıcı hale getirmek",
+        "duration": "± 6 dk",
+        "desc": "İlerlemeyi korumak: tutarlılık, aksamalar, regresyonlar ve gerçek hayat.",
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 5. dersini yeni izledim (kalıcı hale getirmek). Regresyonlara, hastalığa ve seyahate rağmen uyku ilerlememizi korumak için bir plan yapmama yardım eder misin?"
+      }
+    ]
+  }
+}

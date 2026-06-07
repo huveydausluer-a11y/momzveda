@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "The 3-Night Sleep Reset",
+    "subtitle": "A gentle, no-cry guide to helping your baby sleep better · 0–12 months",
+    "emoji": "🌙",
+    "intro": "Five short video lessons with Veda. Gentle, evidence-based, and judgment-free — no cry-it-out, ever. Watch them in order, or jump straight to what you need tonight.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Why your baby isn't sleeping (and why it's not your fault)",
+        "duration": "± 7 min",
+        "desc": "How baby sleep really works: sleep cycles, regressions, and the top 3 sleep stealers.",
+        "vedaPrompt": "I just watched Lesson 1 of the 3-Night Sleep Reset course (why my baby isn't sleeping). I'd love to talk through my baby's sleep situation — can you help me figure out which 'sleep stealer' might be affecting us?"
+      },
+      {
+        "n": 2,
+        "title": "Setting up for success — the perfect sleep environment",
+        "duration": "± 6 min",
+        "desc": "Temperature, light, and sound: turning the nursery into a sleep-friendly space.",
+        "vedaPrompt": "I just watched Lesson 2 of the 3-Night Sleep Reset course (the sleep environment). Can you help me check whether our room setup — temperature, light, and sound — is right for my baby?"
+      },
+      {
+        "n": 3,
+        "title": "The bedtime routine that actually works",
+        "duration": "± 7 min",
+        "desc": "A calming, repeatable routine your baby will learn to recognize and love.",
+        "vedaPrompt": "I just watched Lesson 3 of the 3-Night Sleep Reset course (the bedtime routine). Can you help me design a realistic bedtime routine for my baby and our family situation?"
+      },
+      {
+        "n": 4,
+        "title": "Night 1 and Night 2 — the reset begins",
+        "duration": "± 8 min",
+        "desc": "Putting it all together: what to do, what to expect, and how to stay calm.",
+        "vedaPrompt": "I just watched Lesson 4 of the 3-Night Sleep Reset course (nights 1 and 2). We're starting the reset — can you coach me through it and help me handle the tough moments tonight?"
+      },
+      {
+        "n": 5,
+        "title": "Night 3 and beyond — making it stick",
+        "duration": "± 6 min",
+        "desc": "Keeping the progress: consistency, setbacks, regressions, and life happening.",
+        "vedaPrompt": "I just watched Lesson 5 of the 3-Night Sleep Reset course (making it stick). Can you help me make a plan to keep our sleep progress going, even through regressions, illness, and travel?"
+      }
+    ]
+  }
+}

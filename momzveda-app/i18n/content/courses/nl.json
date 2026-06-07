@@ -1,0 +1,45 @@
+{
+  "baby-sleep-guide": {
+    "title": "De 3-Nachten Slaap Reset",
+    "subtitle": "Een zachte gids zonder huilen voor betere babyslaap · 0–12 maanden",
+    "emoji": "🌙",
+    "intro": "Vijf korte videolessen met Veda. Zacht, wetenschappelijk onderbouwd en zonder oordeel — nooit laten huilen. Kijk ze op volgorde, of spring direct naar wat je vannacht nodig hebt.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Waarom je baby niet slaapt (en waarom het niet jouw schuld is)",
+        "duration": "± 7 min",
+        "desc": "Hoe babyslaap echt werkt: slaapcycli, regressies en de top 3 slaapverstoorders.",
+        "vedaPrompt": "Ik heb net les 1 van de 3-Nachten Slaap Reset gekeken (waarom mijn baby niet slaapt). Kun je met me meedenken welke 'slaapverstoorder' bij ons speelt?"
+      },
+      {
+        "n": 2,
+        "title": "De basis op orde — de perfecte slaapomgeving",
+        "duration": "± 6 min",
+        "desc": "Temperatuur, licht en geluid: van de babykamer een slaapvriendelijke plek maken.",
+        "vedaPrompt": "Ik heb net les 2 van de 3-Nachten Slaap Reset gekeken (de slaapomgeving). Kun je me helpen checken of onze kamer — temperatuur, licht en geluid — goed is voor mijn baby?"
+      },
+      {
+        "n": 3,
+        "title": "Het bedtijdritueel dat écht werkt",
+        "duration": "± 7 min",
+        "desc": "Een rustgevend, herhaalbaar ritueel dat je baby leert herkennen.",
+        "vedaPrompt": "Ik heb net les 3 van de 3-Nachten Slaap Reset gekeken (het bedtijdritueel). Kun je me helpen een realistisch ritueel te maken voor mijn baby en onze gezinssituatie?"
+      },
+      {
+        "n": 4,
+        "title": "Nacht 1 en nacht 2 — de reset begint",
+        "duration": "± 8 min",
+        "desc": "Alles komt samen: wat je doet, wat je kunt verwachten en hoe je kalm blijft.",
+        "vedaPrompt": "Ik heb net les 4 van de 3-Nachten Slaap Reset gekeken (nacht 1 en 2). We beginnen met de reset — kun je me vannacht coachen door de lastige momenten?"
+      },
+      {
+        "n": 5,
+        "title": "Nacht 3 en daarna — het vasthouden",
+        "duration": "± 6 min",
+        "desc": "Vooruitgang vasthouden: consistentie, terugval, regressies en het echte leven.",
+        "vedaPrompt": "Ik heb net les 5 van de 3-Nachten Slaap Reset gekeken (het vasthouden). Kun je me helpen een plan te maken om onze slaapvooruitgang vast te houden, ook bij regressies, ziekte en reizen?"
+      }
+    ]
+  }
+}
