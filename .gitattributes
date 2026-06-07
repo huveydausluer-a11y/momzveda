@@ -1,0 +1,15 @@
+# Normalize line endings: store LF in the repo, let each platform check out natively.
+# This prevents phantom "changed files" caused by CRLF/LF differences.
+* text=auto
+
+# Binary files — never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.mp3 binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
