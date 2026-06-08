@@ -871,7 +871,21 @@ export default function Home() {
         @keyframes fadeSlideIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
         @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(239,68,68,0.4)} 70%{box-shadow:0 0 0 10px rgba(239,68,68,0)} 100%{box-shadow:0 0 0 0 rgba(239,68,68,0)} }
         *{box-sizing:border-box} textarea:focus,input:focus{outline:none}
-        ::-webkit-scrollbar{width:6px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:${BORDER};border-radius:3px}
+        html{scrollbar-width:thin;scrollbar-color:${TEXT_MID} ${BORDER_LIGHT}}
+        ::-webkit-scrollbar{width:10px;height:10px}
+        ::-webkit-scrollbar-track{background:${BORDER_LIGHT};border-radius:5px}
+        ::-webkit-scrollbar-thumb{background:${TEXT_MID};border-radius:5px;border:2px solid ${BORDER_LIGHT}}
+        ::-webkit-scrollbar-thumb:hover{background:${TEXT_DARK}}
+        .lesson-media{display:flex;flex-direction:column;gap:14px;margin-bottom:12px}
+        .lesson-video-col{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
+        .lesson-script{flex:1;min-width:0}
+        .script-scroll{max-height:340px;overflow-y:auto;padding-right:10px;scrollbar-width:thin;scrollbar-color:${TEXT_MID} ${BORDER_LIGHT}}
+        [dir=rtl] .script-scroll{padding-right:0;padding-left:10px}
+        @media(min-width:700px){
+          .lesson-media{flex-direction:row;align-items:flex-start;gap:18px}
+          .lesson-video-col{flex:0 0 250px}
+          .script-scroll{max-height:420px}
+        }
       `}</style>
 
       {/* ── HEADER ── */}
@@ -1121,7 +1135,27 @@ export default function Home() {
 
                       {isOpen && (
                         <div style={{ padding: '0 16px 16px' }}>
-                          <CourseVideo courseId={activeCourse} lessonN={lesson.n} t={t} />
+                          <div className="lesson-media">
+                            <div className="lesson-video-col">
+                              <CourseVideo courseId={activeCourse} lessonN={lesson.n} t={t} />
+                              <span style={{ fontSize: 11, color: TEXT_LIGHT, fontWeight: 600, textAlign: 'center', marginTop: -4 }}>{t('course.audioNote')}</span>
+                            </div>
+                            {Array.isArray(lesson.script) && lesson.script.length > 0 && (
+                              <div className="lesson-script" dir={rtl ? 'rtl' : 'ltr'}>
+                                <div style={{ fontSize: 12, fontWeight: 700, color: GREEN_DARK, textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 8 }}>{t('course.transcript')}</div>
+                                <div className="script-scroll" style={{ background: '#FAFCFB', border: `1px solid ${BORDER}`, borderRadius: 12, padding: '12px 14px', textAlign: rtl ? 'right' : 'left' }}>
+                                  {lesson.script.map((sec, si) => (
+                                    <div key={si} style={{ marginBottom: si === lesson.script.length - 1 ? 0 : 14 }}>
+                                      {sec.h && <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 5, fontFamily: "'Playfair Display', serif" }}>{sec.h}</div>}
+                                      {sec.p.map((par, pi) => (
+                                        <p key={pi} style={{ fontSize: 13, color: TEXT_MID, lineHeight: 1.65, margin: pi === sec.p.length - 1 ? 0 : '0 0 8px' }}>{par}</p>
+                                      ))}
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+                          </div>
                           <p style={{ fontSize: 13, color: TEXT_MID, lineHeight: 1.6, marginBottom: 12 }}>{lesson.desc}</p>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                             <button onClick={() => toggleLessonDone(activeCourse, lesson.n)} style={{ background: isDone ? '#EBF7F0' : `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: isDone ? GREEN_DARK : '#FFF', border: 'none', borderRadius: 12, padding: '10px 16px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>

@@ -207,6 +207,8 @@
     "lockedTitle": "5 dersin tamamının kilidini aç",
     "lockedDesc": "1. ders her anne için ücretsiz. Kursun tamamını izlemek için Premium'a geç — ayrıca sınırsız mesaj ve tüm rehberler.",
     "lockedButton": "Premium'a Geç",
-    "freeIntro": "1. ders ücretsiz — keyfini çıkar! 💚"
+    "freeIntro": "1. ders ücretsiz — keyfini çıkar! 💚",
+    "transcript": "Ders metni",
+    "audioNote": "🔊 Video sesi İngilizcedir"
   }
 }

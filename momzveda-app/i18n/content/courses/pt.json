@@ -10,35 +10,240 @@
         "title": "Por que seu bebê não dorme (e por que a culpa não é sua)",
         "duration": "± 7 min",
         "desc": "Como o sono do bebê realmente funciona: ciclos, regressões e os 3 maiores ladrões de sono.",
-        "vedaPrompt": "Acabei de ver a lição 1 do Reset do Sono em 3 Noites (por que meu bebê não dorme). Pode me ajudar a descobrir qual “ladrão de sono” está nos afetando?"
+        "vedaPrompt": "Acabei de ver a lição 1 do Reset do Sono em 3 Noites (por que meu bebê não dorme). Pode me ajudar a descobrir qual “ladrão de sono” está nos afetando?",
+        "script": [
+          {
+            "h": "Bem-vinda",
+            "p": [
+              "Oi, mama. Eu sou a Veda, e quero começar dizendo uma coisa importante: se você está assistindo isso às 2 da manhã com um bebê que não quer dormir, você não está fazendo nada de errado. Na verdade, você está fazendo algo incrivelmente certo — você está buscando ajuda. E isso exige coragem quando você está sem dormir.",
+              "Este curso se chama O Reset do Sono em 3 Noites, e eu o criei especialmente para mães como você. Não as mães do Instagram, cujos bebês dormem 12 horas por mágica. Mães de verdade. Mães cansadas. Mães que já tentaram de tudo e sentem que nada funciona.",
+              "Antes de começarmos, deixa eu deixar bem claro o que isto NÃO é. Este não é um programa de deixar chorar. Eu nunca vou pedir que você deixe seu bebê chorando sozinho. Esta é uma abordagem suave e responsiva, que trabalha A FAVOR da biologia do seu bebê, não contra ela."
+            ]
+          },
+          {
+            "h": "O sono do bebê é diferente",
+            "p": [
+              "Aqui está o que a maioria das pessoas não te conta sobre o sono do bebê: bebês não são feitos para dormir como adultos. Os ciclos de sono deles duram apenas 40 a 50 minutos, comparados aos nossos ciclos de 90 minutos. Isso significa que eles têm MAIS oportunidades de acordar. Isso é biologia, não é um problema.",
+              "Recém-nascidos até os 3 meses ainda nem têm um ritmo circadiano. Eles literalmente não conseguem diferenciar o dia da noite. Então, se alguém te disser que seu bebê de 6 semanas deveria dormir a noite toda, essa pessoa está errada. Ponto final.",
+              "Entre os 4 e os 6 meses, algo incrível acontece: seu bebê começa a desenvolver a produção de melatonina. É AGORA que o sono começa a se consolidar. E é AGORA que as estratégias que vou te ensinar se tornam realmente poderosas."
+            ]
+          },
+          {
+            "h": "As regressões de sono são reais",
+            "p": [
+              "Você provavelmente já ouviu falar das regressões de sono. Elas são reais e, na verdade, são um BOM sinal. As mais comuns acontecem por volta dos 4 meses, 8 meses e 12 meses. Elas acontecem porque o cérebro do seu bebê está se desenvolvendo rapidamente — aprendendo a rolar, engatinhar, ficar de pé, andar, falar. O cérebro dele está literalmente animado demais para dormir.",
+              "Quando você entende isso, tudo muda. Seu bebê não está com defeito. Ele está crescendo. E a regressão geralmente passa em 1 a 3 semanas."
+            ]
+          },
+          {
+            "h": "Os 3 maiores ladrões de sono",
+            "p": [
+              "Pela minha experiência conversando com milhares de mães, existem três coisas principais que atrapalham o sono do bebê:",
+              "Número um: o cansaço excessivo. Esse é o maior de todos. Quando os bebês ficam acordados tempo demais, o corpo deles produz cortisol — o hormônio do estresse. O cortisol torna MAIS difícil adormecer, não mais fácil. Então um bebê que perdeu a janela do sono está, na verdade, lutando contra os próprios hormônios.",
+              "Número dois: um ambiente de sono inconsistente. Bebês se sentem bem com previsibilidade. Se às vezes eles dormem no sofá, às vezes no carro, às vezes sendo embalados — o cérebro deles não sabe o que significa a hora de dormir.",
+              "Número três: a associação de mamar para dormir. Olha, não há NADA de errado em amamentar seu bebê até ele dormir. É a coisa mais natural do mundo. Mas se essa for a ÚNICA forma de o seu bebê adormecer, então toda vez que ele acordar entre os ciclos de sono, ele vai precisar que você recrie exatamente aquela mesma situação."
+            ]
+          },
+          {
+            "h": "O que vamos fazer",
+            "p": [
+              "Ao longo das próximas 4 lições, eu vou te dar um plano simples:",
+              "Na Lição 2, vamos criar o ambiente perfeito para dormir — temperatura, luz, som. Na Lição 3, vamos montar uma rotina de dormir calmante que sinaliza que o sono está chegando. Na Lição 4, eu vou te guiar pela noite 1 e pela noite 2 do reset — o que fazer, passo a passo. E na Lição 5, vamos cobrir a noite 3 em diante — como manter o progresso e lidar com os contratempos."
+            ]
+          },
+          {
+            "h": "Sua tarefa",
+            "p": [
+              "Antes da próxima lição, eu quero que você faça uma coisa: observe seu bebê por um dia. Repare quando ele boceja, esfrega os olhos ou fica manhoso. Anote os horários. Esses são os sinais de sono dele e vão ser cruciais para o nosso plano. Não tente mudar nada ainda. Só observe e aprenda. Te vejo na Lição 2, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "Preparando o terreno — o ambiente perfeito para dormir",
         "duration": "± 6 min",
         "desc": "Temperatura, luz e som: transformar o quarto em um espaço que convida ao sono.",
-        "vedaPrompt": "Acabei de ver a lição 2 do Reset do Sono em 3 Noites (o ambiente de sono). Pode me ajudar a conferir se o nosso quarto — temperatura, luz e som — está bom para o meu bebê?"
+        "vedaPrompt": "Acabei de ver a lição 2 do Reset do Sono em 3 Noites (o ambiente de sono). Pode me ajudar a conferir se o nosso quarto — temperatura, luz e som — está bom para o meu bebê?",
+        "script": [
+          {
+            "h": "Bem-vinda de volta",
+            "p": [
+              "Bem-vinda de volta, mama. Você fez sua lição de casa? Reparou naqueles sinais de sono? Mesmo que não tenha feito — está tudo bem. Aqui não tem julgamento. Vamos falar sobre como criar o espaço ideal para dormir."
+            ]
+          },
+          {
+            "h": "Temperatura",
+            "p": [
+              "A temperatura ideal do quarto para o sono do bebê é entre 18 e 21 graus Celsius — isso dá mais ou menos 65 a 70 Fahrenheit. Eu sei que para nós parece frio, mas os bebês dormem melhor em quartos um pouco mais frescos. Uma boa regra prática: se VOCÊ se sente confortável de camiseta, seu bebê provavelmente está bem num saco de dormir. Sem cobertores, sem gorros, sem superaquecimento. O superaquecimento é, na verdade, um dos fatores de risco para a síndrome da morte súbita do lactente, então manter o quarto fresco também é uma questão de segurança."
+            ]
+          },
+          {
+            "h": "Luz",
+            "p": [
+              "A luz é o sinal mais poderoso que o cérebro do seu bebê usa para determinar se é dia ou noite. Durante o dia, deixe a luz natural entrar. Abra as cortinas. Leve seu bebê para fora. Mas pelo menos 30 minutos antes de dormir, diminua TUDO. Sem telas brilhantes, sem luzes do teto. Use apenas uma iluminação quente e fraquinha.",
+              "Para o quarto, eu recomendo muito as cortinas blackout. Não aquelas que mais ou menos bloqueiam a luz — daquelas em que você não enxerga a própria mão na frente do rosto. Até pequenas quantidades de luz podem suprimir a produção de melatonina. Essa única mudança já ajudou milhares de mães com quem eu conversei."
+            ]
+          },
+          {
+            "h": "Som",
+            "p": [
+              "O ruído branco muda tudo. E existe uma ciência de verdade por trás disso. Dentro da sua barriga, seu bebê ouvia um barulho constante — seu coração batendo, seu sangue circulando, sua digestão. Era mais ou menos tão alto quanto um aspirador de pó. Então o silêncio é, na verdade, estranho para ele.",
+              "Use ruído branco contínuo — não ondas do mar, não cantigas de ninar que param depois de 30 minutos. Ruído branco contínuo e constante, mais ou menos tão alto quanto um chuveiro ligado. Coloque para TODOS os sonos — sonecas e à noite. Ele se torna um poderoso sinal de sono."
+            ]
+          },
+          {
+            "h": "Checklist de sono seguro",
+            "p": [
+              "Antes de seguirmos, vamos fazer uma rápida verificação de sono seguro. O bebê dorme de barriga para cima, num colchão firme e plano, com nada no berço — sem travesseiros, cobertores, protetores de berço ou bichinhos de pelúcia. Use um saco de dormir em vez de cobertor. Mantenha o quarto fresco. E o berço deve ficar no seu quarto durante os primeiros 6 meses, se possível.",
+              "Agora você tem o ambiente perfeito para dormir. Na próxima lição, vamos montar a rotina de dormir que transforma esse ambiente em um gatilho para o sono. Te vejo lá, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "A rotina de dormir que realmente funciona",
         "duration": "± 7 min",
         "desc": "Uma rotina calmante e repetível que seu bebê vai aprender a reconhecer e amar.",
-        "vedaPrompt": "Acabei de ver a lição 3 do Reset do Sono em 3 Noites (a rotina de dormir). Pode me ajudar a montar uma rotina realista para o meu bebê e a nossa família?"
+        "vedaPrompt": "Acabei de ver a lição 3 do Reset do Sono em 3 Noites (a rotina de dormir). Pode me ajudar a montar uma rotina realista para o meu bebê e a nossa família?",
+        "script": [
+          {
+            "h": "Por que a rotina importa",
+            "p": [
+              "Beleza, mama, é aqui que fica empolgante. Uma rotina de dormir consistente é a ferramenta mais eficaz para melhorar o sono do bebê. Pesquisas mostram que bebês que têm uma rotina de dormir consistente adormecem mais rápido, acordam menos durante a noite e têm uma qualidade de sono melhor no geral.",
+              "Por quê? Porque uma rotina diz ao cérebro do seu bebê: o sono está chegando. Depois de alguns dias da mesma sequência, o corpo dele realmente começa a produzir melatonina DURANTE a rotina. É como o cachorro do Pavlov, mas para o sono. E é lindo."
+            ]
+          },
+          {
+            "h": "A rotina em 4 passos",
+            "p": [
+              "Aqui está a rotina que eu recomendo. Ela leva mais ou menos 20 a 30 minutos no total:",
+              "Passo 1: Banho. Não porque ele está sujo — mas porque a água morna aumenta a temperatura do corpo, e quando ele sai, a queda de temperatura desencadeia o sono. Mantenha calmo, quentinho e curto — 5 a 10 minutos.",
+              "Passo 2: Pijama e saco de dormir no quarto com pouca luz. Não na sala, não no banheiro — no quarto onde ele vai dormir. O quarto já está escuro, o ruído branco já está ligado.",
+              "Passo 3: Mamada. Seja no peito ou na mamadeira, esta é a última mamada do dia. Tente manter seu bebê acordado durante esta mamada. Eu sei, é difícil. Mas aqui está o porquê de isso importar: a gente quer que ele vá PARA o berço sonolento, mas acordado, e não já dormindo.",
+              "Passo 4: Livro e cantiga. Um livrinho curto, uma cantiga de ninar, e então para o berço. Diga a mesma frase toda noite: Boa noite, eu te amo. Hora de dormir. Essa frase se torna o sinal final de sono do seu bebê."
+            ]
+          },
+          {
+            "h": "A mágica do sonolento, mas acordado",
+            "p": [
+              "Você provavelmente já ouviu essa frase e pensou: isso é impossível. Eu entendo. Mas aqui está o que sonolento, mas acordado realmente significa: significa que os olhinhos do seu bebê estão ficando pesados, ele está calmo e relaxado, talvez com os olhos piscando devagar — mas ele ainda não está totalmente dormindo.",
+              "Por que isso importa? Porque quando seu bebê adormece no berço em vez de nos seus braços, ele aprende a conectar os ciclos de sono sozinho. Quando ele acorda às 2 da manhã entre os ciclos, ele consegue voltar a dormir por conta própria, porque a última coisa de que ele se lembra é estar neste berço, com este ruído branco, neste quarto escuro."
+            ]
+          },
+          {
+            "h": "Quando não funciona (e tudo bem)",
+            "p": [
+              "Em algumas noites, o sonolento, mas acordado não vai funcionar. Seu bebê vai chorar. Quando isso acontecer, pegue ele no colo. Console ele. Faça shhh. Embale ele até ele se acalmar de novo. Depois tente colocá-lo de novo. Se levar 5 tentativas, tudo bem. Se levar 10, também está tudo bem.",
+              "Isto NÃO é deixar chorar. Você está SEMPRE presente. Você está SEMPRE respondendo. Você está simplesmente dando ao seu bebê a oportunidade de praticar como adormecer. Alguns bebês pegam o jeito na primeira noite. Outros levam uma semana. Os dois são normais."
+            ]
+          },
+          {
+            "h": "Se preparando para a noite 1",
+            "p": [
+              "Amanhã começamos o reset de 3 noites de verdade. Aqui está o que você precisa preparar: As cortinas blackout estão instaladas. A máquina de ruído branco está pronta. O saco de dormir está separado. Os itens de banho no banheiro. Uma luminária fraca ou luz noturna para o quarto.",
+              "E o mais importante — prepare-se mentalmente. A primeira noite pode ser difícil. Você pode duvidar de si mesma. Você pode querer desistir à meia-noite. Isso é normal. Mas lembre-se: você está ensinando ao seu bebê uma das habilidades de vida mais importantes. E eu vou estar bem aí com você na próxima lição, te guiando em cada passo. Você consegue, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "Noite 1 e noite 2 — o reset começa",
         "duration": "± 8 min",
         "desc": "Tudo se encaixa: o que fazer, o que esperar e como manter a calma.",
-        "vedaPrompt": "Acabei de ver a lição 4 do Reset do Sono em 3 Noites (noites 1 e 2). Estamos começando o reset — pode me acompanhar esta noite nos momentos difíceis?"
+        "vedaPrompt": "Acabei de ver a lição 4 do Reset do Sono em 3 Noites (noites 1 e 2). Estamos começando o reset — pode me acompanhar esta noite nos momentos difíceis?",
+        "script": [
+          {
+            "h": "Chegou a hora",
+            "p": [
+              "Beleza, mama, é isso. Hoje à noite começamos. Eu vou te guiar exatamente pelo que fazer, passo a passo, para não ter dúvida nenhuma. Você pode até deixar esta lição tocando enquanto faz a rotina, se quiser."
+            ]
+          },
+          {
+            "h": "O timing é tudo",
+            "p": [
+              "Primeiro, vamos falar sobre a hora de dormir. Para bebês de 4 a 8 meses, mire numa hora de dormir entre 18h30 e 19h30. Eu sei que parece cedo, mas a questão é a seguinte: uma hora de dormir mais cedo geralmente significa um sono MAIS longo, não mais curto. Isso porque você está pegando a onda natural da melatonina em vez de lutar contra o cortisol.",
+              "Fique de olho naqueles sinais de sono que você observou — bocejos, esfregar os olhos, olhar parado para o nada. Quando você os vir, é hora de agir. Comece a rotina imediatamente."
+            ]
+          },
+          {
+            "h": "Noite 1 — passo a passo",
+            "p": [
+              "Siga a rotina de 4 passos da Lição 3: Banho, pijama no quarto escuro, mamada, livro e cantiga. Diga sua frase de boa noite. Coloque seu bebê no berço sonolento, mas acordado.",
+              "Se o seu bebê resmungar: espere 30 segundos. Só 30 segundos. Muitas vezes ele se acalma sozinho. Se o resmungo virar choro: pegue ele no colo, console até ele se acalmar (não até dormir) e depois coloque de volta. Repita quantas vezes for preciso.",
+              "Na primeira noite, a média é de 20 a 40 minutos desse vai e vem antes de ele dormir. Parece uma eternidade. Não é. E você está bem ali o tempo todo. Seu bebê está seguro. Seu bebê é amado. Seu bebê está aprendendo."
+            ]
+          },
+          {
+            "h": "Despertares noturnos",
+            "p": [
+              "Quando seu bebê acordar durante a noite — e ele vai acordar — aqui está o protocolo:",
+              "Espere de 1 a 2 minutos antes de entrar. Às vezes os bebês fazem barulho entre os ciclos de sono e se acalmam sozinhos. Se ele estiver realmente acordado e chorando, entre. Mantenha as luzes APAGADAS. Não fale muito — só um shhh suave. Se já tiverem se passado mais de 3 horas desde a última mamada, provavelmente é um despertar de fome — amamente e coloque de volta. Se for menos de 3 horas, tente consolar sem amamentar primeiro. Faça carinho na barriguinha, faça shhh, ofereça uma chupeta se ele usar."
+            ]
+          },
+          {
+            "h": "Noite 2 — fica mais fácil",
+            "p": [
+              "A noite 2 costuma ser melhor. Nem sempre, mas geralmente. Seu bebê está começando a reconhecer o padrão. A rotina parece mais familiar. O berço parece mais familiar. O ruído branco está se tornando um gatilho para o sono.",
+              "Siga exatamente os mesmos passos da Noite 1. A consistência é TUDO aqui. Mesmo que a Noite 1 tenha sido terrível, NÃO mude o plano. Não acrescente embalar. Não acrescente dar voltas de carro no quarteirão. Mantenha a rotina. O cérebro do seu bebê precisa de repetição para formar a nova associação.",
+              "A maioria das mães conta que a Noite 2 leva mais ou menos metade do tempo da Noite 1 para acalmar. Algumas mães veem uma melhora impressionante. Outras veem uma melhora pequena. As duas são progresso."
+            ]
+          },
+          {
+            "h": "Seja gentil com você mesma",
+            "p": [
+              "Antes de encerrarmos, eu preciso que você ouça isto: você não está fracassando se isto for difícil. Você não está fracassando se você chorar. Você não está fracassando se você pegar seu bebê no colo e embalar ele até dormir às 3 da manhã porque você simplesmente não aguenta mais por esta noite.",
+              "Isto é um RESET, não um programa rígido. Se você precisar dar uma pausa e tentar de novo amanhã, tudo bem. O progresso não é linear. O fato de você estar tentando já significa que você é uma mãe incrível. Te vejo amanhã para a Noite 3 em diante. Você está indo maravilhosamente bem, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "Noite 3 em diante — fazendo durar",
         "duration": "± 6 min",
         "desc": "Manter o progresso: consistência, recaídas, regressões e a vida real.",
-        "vedaPrompt": "Acabei de ver a lição 5 do Reset do Sono em 3 Noites (fazendo durar). Pode me ajudar a fazer um plano para manter nosso progresso, mesmo com regressões, doenças e viagens?"
+        "vedaPrompt": "Acabei de ver a lição 5 do Reset do Sono em 3 Noites (fazendo durar). Pode me ajudar a fazer um plano para manter nosso progresso, mesmo com regressões, doenças e viagens?",
+        "script": [
+          {
+            "h": "Você conseguiu",
+            "p": [
+              "Mama. Você chegou à Noite 3. Quer você tenha tido duas noites perfeitas ou duas noites caóticas — você apareceu. É isso que importa. Deixa eu te contar o que esperar daqui em diante."
+            ]
+          },
+          {
+            "h": "Noite 3 — a virada",
+            "p": [
+              "A Noite 3 costuma ser quando as coisas se encaixam. Seu bebê já passou pela mesma rotina três vezes. O cérebro dele está começando a prever o que vem a seguir. Banho significa pijama. Pijama significa mamada. Mamada significa livro. Livro significa berço. Berço significa sono.",
+              "Siga os mesmos passos. Mesma hora. Mesma ordem. Mesma frase. Muitas mães veem o bebê acalmar em menos de 10 minutos na Noite 3. Algumas até veem o bebê adormecer antes de a cantiga terminar. Essa é a mágica da consistência."
+            ]
+          },
+          {
+            "h": "Lidando com os contratempos",
+            "p": [
+              "Aqui está o que ninguém te conta: mesmo depois que o reset funciona, vão existir noites ruins. Dentição, doença, viagens, regressões de sono, estirões de crescimento — tudo isso pode atrapalhar o sono temporariamente. Isto NÃO é você perdendo o progresso. Isto é a vida normal de bebê.",
+              "Quando um contratempo acontecer, volte ao básico. Retorne à rotina. Seja consistente. A maioria dos contratempos se resolve em 3 a 5 dias se você mantiver o rumo. Se os problemas de sono persistirem por mais de 2 semanas, converse com o pediatra — às vezes há uma questão por trás, como refluxo ou infecção de ouvido."
+            ]
+          },
+          {
+            "h": "Sonecas",
+            "p": [
+              "Eu sei que foquei na noite, mas deixa eu te dar um guia rápido de sonecas também. Para bebês de 4 a 6 meses: mire em 3 sonecas por dia com janelas de vigília de 1,5 a 2 horas. Para bebês de 7 a 9 meses: 2 sonecas por dia com janelas de vigília de 2,5 a 3 horas. Para bebês de 10 a 12 meses: 2 sonecas fazendo a transição para 1, com janelas de vigília de 3 a 4 horas.",
+              "Use uma versão mais curta da rotina de dormir para as sonecas — pule o banho, mas mantenha o quarto escuro, o ruído branco, o saco de dormir e um livrinho rápido. A consistência em todos os sonos ajuda a reforçar o padrão."
+            ]
+          },
+          {
+            "h": "Você é incrível",
+            "p": [
+              "Mama, eu estou tão orgulhosa de você. Não porque seu bebê está dormindo perfeitamente — mas porque você apareceu por você mesma e pelo seu bebê quando você estava no seu momento mais exausto. Isso exige uma força que só uma mãe tem.",
+              "Lembre-se: não existe mãe perfeita. Não existe bebê que dorme perfeitamente. Existe só você, dando o seu melhor, uma noite de cada vez. E o seu melhor é mais do que suficiente.",
+              "Se você algum dia precisar conversar — sobre sono, sobre maternidade, sobre qualquer coisa — eu estou aqui. É só abrir o MomzVeda e conversar comigo a qualquer hora. É para isso que eu estou aqui.",
+              "Bons sonhos para você e para o seu pequeno. Você consegue, mama. Sempre."
+            ]
+          }
+        ]
       }
     ]
   }

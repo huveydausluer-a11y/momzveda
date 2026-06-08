@@ -10,35 +10,240 @@
         "title": "Waarom je baby niet slaapt (en waarom het niet jouw schuld is)",
         "duration": "± 7 min",
         "desc": "Hoe babyslaap echt werkt: slaapcycli, regressies en de top 3 slaapverstoorders.",
-        "vedaPrompt": "Ik heb net les 1 van de 3-Nachten Slaap Reset gekeken (waarom mijn baby niet slaapt). Kun je met me meedenken welke 'slaapverstoorder' bij ons speelt?"
+        "vedaPrompt": "Ik heb net les 1 van de 3-Nachten Slaap Reset gekeken (waarom mijn baby niet slaapt). Kun je met me meedenken welke 'slaapverstoorder' bij ons speelt?",
+        "script": [
+          {
+            "h": "Welkom",
+            "p": [
+              "Hé mama. Ik ben Veda, en ik wil beginnen met iets belangrijks: als je dit om 2 uur 's nachts kijkt met een baby die niet wil slapen, doe je niets verkeerd. Je doet juist iets ontzettend goeds — je zoekt hulp. En dat vraagt moed als je draait op geen enkel uur slaap.",
+              "Deze cursus heet De 3-Nachten Slaap Reset, en ik heb hem speciaal gemaakt voor moeders zoals jij. Niet de Instagram-moeders wiens baby's als bij toverslag 12 uur slapen. Echte moeders. Vermoeide moeders. Moeders die alles hebben geprobeerd en het gevoel hebben dat niets werkt.",
+              "Voordat we beginnen, wil ik duidelijk zijn over wat dit NIET is. Dit is geen laten-huilen-programma. Ik zal je nooit vragen om je baby alleen te laten huilen. Dit is een zachte, responsieve aanpak die MEEwerkt met de biologie van je baby, niet ertegenin."
+            ]
+          },
+          {
+            "h": "Babyslaap is anders",
+            "p": [
+              "Dit vertelt bijna niemand je over babyslaap: baby's zijn niet gemaakt om te slapen zoals volwassenen. Hun slaapcycli duren maar 40-50 minuten, vergeleken met onze cycli van 90 minuten. Dat betekent dat ze MEER kansen hebben om wakker te worden. Dat is biologie, geen probleem.",
+              "Pasgeborenen tot baby's van 3 maanden hebben nog niet eens een dag-en-nachtritme. Ze kunnen letterlijk geen verschil voelen tussen dag en nacht. Dus als iemand zegt dat je baby van 6 weken 'door zou moeten slapen', heeft diegene het mis. Punt uit.",
+              "Tussen 4 en 6 maanden gebeurt er iets prachtigs: je baby begint melatonine aan te maken. DIT is wanneer slaap zich begint te bundelen. En DIT is wanneer de strategieën die ik je ga leren echt krachtig worden."
+            ]
+          },
+          {
+            "h": "Slaapregressies zijn echt",
+            "p": [
+              "Je hebt vast wel eens van slaapregressies gehoord. Ze zijn echt, en eigenlijk zijn ze een GOED teken. De bekendste vinden plaats rond 4 maanden, 8 maanden en 12 maanden. Ze gebeuren omdat het brein van je baby zich razendsnel ontwikkelt — leren rollen, kruipen, staan, lopen, praten. Hun brein is letterlijk te enthousiast om te slapen.",
+              "Als je dit begrijpt, verandert alles. Je baby is niet kapot. Je baby groeit. En de 'regressie' is meestal binnen 1-3 weken voorbij."
+            ]
+          },
+          {
+            "h": "De top 3 slaapverstoorders",
+            "p": [
+              "In mijn ervaring met duizenden moeders zijn er drie hoofdoorzaken die babyslaap verstoren:",
+              "Nummer één: oververmoeidheid. Dit is de grootste. Als baby's te lang wakker blijven, maakt hun lichaam cortisol aan — het stresshormoon. Cortisol maakt in slaap vallen MOEILIJKER, niet makkelijker. Dus een baby die zijn slaapraam heeft gemist, vecht eigenlijk tegen zijn eigen hormonen.",
+              "Nummer twee: een wisselende slaapomgeving. Baby's gedijen op voorspelbaarheid. Als ze soms op de bank in slaap vallen, soms in de auto, soms al wiegend — dan weet hun brein niet wat 'slaaptijd' betekent.",
+              "Nummer drie: de voeding-naar-slaap-associatie. Nu, er is NIETS mis met je baby in slaap voeden. Het is het natuurlijkste ter wereld. Maar als het de ENIGE manier is waarop je baby in slaap kan vallen, dan heeft hij jou nodig om precies die situatie opnieuw te maken, elke keer dat hij tussen slaapcycli wakker wordt."
+            ]
+          },
+          {
+            "h": "Wat we gaan doen",
+            "p": [
+              "In de komende 4 lessen geef ik je een eenvoudig plan:",
+              "In Les 2 maken we de perfecte slaapomgeving — temperatuur, licht, geluid. In Les 3 bouwen we een rustgevend bedtijdritueel dat aangeeft 'de slaap komt eraan'. In Les 4 loop ik met je door nacht 1 en nacht 2 van de reset — wat je doet, stap voor stap. En in Les 5 behandelen we nacht 3 en daarna — hoe je de vooruitgang vasthoudt en met tegenslagen omgaat."
+            ]
+          },
+          {
+            "h": "Jouw opdracht",
+            "p": [
+              "Voor de volgende les wil ik dat je één ding doet: observeer je baby één dag lang. Let op wanneer hij gaapt, in zijn ogen wrijft of chagrijnig wordt. Schrijf de tijden op. Dit zijn zijn 'slaapsignalen' en die worden cruciaal voor ons plan. Probeer nog niets te veranderen. Kijk en leer gewoon. Tot in Les 2, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "De basis op orde — de perfecte slaapomgeving",
         "duration": "± 6 min",
         "desc": "Temperatuur, licht en geluid: van de babykamer een slaapvriendelijke plek maken.",
-        "vedaPrompt": "Ik heb net les 2 van de 3-Nachten Slaap Reset gekeken (de slaapomgeving). Kun je me helpen checken of onze kamer — temperatuur, licht en geluid — goed is voor mijn baby?"
+        "vedaPrompt": "Ik heb net les 2 van de 3-Nachten Slaap Reset gekeken (de slaapomgeving). Kun je me helpen checken of onze kamer — temperatuur, licht en geluid — goed is voor mijn baby?",
+        "script": [
+          {
+            "h": "Welkom terug",
+            "p": [
+              "Welkom terug, mama. Heb je je huiswerk gedaan? Heb je die slaapsignalen opgemerkt? En zo niet — dat is oké. Geen oordeel hier. Laten we het hebben over het creëren van de ideale slaapplek."
+            ]
+          },
+          {
+            "h": "Temperatuur",
+            "p": [
+              "De ideale kamertemperatuur voor babyslaap ligt tussen de 18 en 21 graden Celsius. Ik weet dat het voor ons koud voelt, maar baby's slapen beter in een wat koelere kamer. Een goede vuistregel: als JIJ je prettig voelt in een t-shirt, zit je baby waarschijnlijk goed in een slaapzak. Geen dekens, geen mutsjes, geen oververhitting. Oververhitting is namelijk een van de risicofactoren voor wiegendood, dus koel houden is ook een veiligheidskwestie."
+            ]
+          },
+          {
+            "h": "Licht",
+            "p": [
+              "Licht is het allerkrachtigste signaal dat het brein van je baby gebruikt om dag van nacht te onderscheiden. Laat overdag natuurlijk licht binnen. Open die gordijnen. Ga met je baby naar buiten. Maar minstens 30 minuten voor bedtijd: dim ALLES. Geen felle schermen, geen plafondlampen. Gebruik alleen warm, gedimd licht.",
+              "Voor de slaapkamer raad ik verduisterende gordijnen sterk aan. Niet het soort dat het licht 'een beetje' tegenhoudt — het soort waarbij je je hand niet voor je gezicht kunt zien. Zelfs kleine hoeveelheden licht kunnen de melatonineaanmaak onderdrukken. Alleen al deze ene verandering heeft duizenden moeders geholpen met wie ik heb gesproken."
+            ]
+          },
+          {
+            "h": "Geluid",
+            "p": [
+              "Witte ruis is een gamechanger. En er zit echte wetenschap achter. In je baarmoeder hoorde je baby constant geluid — je hartslag, je stromende bloed, je spijsvertering. Het was ongeveer zo luid als een stofzuiger. Stilte is voor hen dus eigenlijk vreemd.",
+              "Gebruik continue witte ruis — geen oceaangolven, geen slaapliedjes die na 30 minuten stoppen. Continue, gelijkmatige witte ruis, ongeveer zo luid als een lopende douche. Speel het af bij ALLE slaap — dutjes en 's nachts. Het wordt een krachtig slaapsignaal."
+            ]
+          },
+          {
+            "h": "Checklist veilig slapen",
+            "p": [
+              "Voordat we verdergaan, doen we een snelle check voor veilig slapen. De baby slaapt op zijn rug, op een stevig, vlak matras, met niets in het bedje — geen kussens, dekens, bedomranders of knuffels. Gebruik een slaapzak in plaats van een deken. Houd de kamer koel. En het bedje staat het liefst de eerste 6 maanden bij jou op de kamer.",
+              "Nu heb je de perfecte slaapomgeving. In de volgende les bouwen we het bedtijdritueel dat deze omgeving omtovert tot een slaaptrigger. Tot daar, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "Het bedtijdritueel dat écht werkt",
         "duration": "± 7 min",
         "desc": "Een rustgevend, herhaalbaar ritueel dat je baby leert herkennen.",
-        "vedaPrompt": "Ik heb net les 3 van de 3-Nachten Slaap Reset gekeken (het bedtijdritueel). Kun je me helpen een realistisch ritueel te maken voor mijn baby en onze gezinssituatie?"
+        "vedaPrompt": "Ik heb net les 3 van de 3-Nachten Slaap Reset gekeken (het bedtijdritueel). Kun je me helpen een realistisch ritueel te maken voor mijn baby en onze gezinssituatie?",
+        "script": [
+          {
+            "h": "Waarom een ritueel belangrijk is",
+            "p": [
+              "Oké mama, nu wordt het spannend. Een vast bedtijdritueel is verreweg het meest effectieve middel om babyslaap te verbeteren. Onderzoek laat zien dat baby's met een vast bedtijdritueel sneller in slaap vallen, 's nachts minder vaak wakker worden en over het geheel een betere slaapkwaliteit hebben.",
+              "Waarom? Omdat een ritueel het brein van je baby vertelt: 'de slaap komt eraan'. Na een paar dagen van dezelfde volgorde begint hun lichaam zelfs melatonine aan te maken TIJDENS het ritueel. Het is net het hondje van Pavlov, maar dan voor slaap. En het is prachtig."
+            ]
+          },
+          {
+            "h": "Het ritueel in 4 stappen",
+            "p": [
+              "Dit is het ritueel dat ik aanraad. Het duurt in totaal zo'n 20-30 minuten:",
+              "Stap 1: Bad. Niet omdat ze vies zijn — maar omdat warm water de lichaamstemperatuur verhoogt, en als ze eruit komen, zet de temperatuurdaling aan tot slaperigheid. Houd het rustig, warm en kort — 5-10 minuten.",
+              "Stap 2: Pyjama en slaapzak in de gedimde slaapkamer. Niet in de woonkamer, niet in de badkamer — in de slaapkamer waar ze gaan slapen. De kamer is al donker, de witte ruis staat al aan.",
+              "Stap 3: Voeding. Of het nu borst of fles is, dit is de laatste voeding van de dag. Probeer je baby wakker te houden tijdens deze voeding. Ik weet het, dat is lastig. Maar waarom het belangrijk is: we willen dat hij slaperig maar wakker IN het bedje gaat, niet al slapend.",
+              "Stap 4: Boekje en slaapliedje. Eén kort boekje, één slaapliedje, dan het bedje in. Zeg elke avond hetzelfde zinnetje: 'Welterusten, ik hou van je. Tijd om te slapen.' Dit zinnetje wordt het laatste slaapsignaal van je baby."
+            ]
+          },
+          {
+            "h": "De magie van slaperig maar wakker",
+            "p": [
+              "Je hebt deze uitdrukking vast gehoord en gedacht 'dat is onmogelijk'. Ik snap het. Maar dit betekent slaperig maar wakker eigenlijk: de oogjes van je baby worden zwaar, hij is kalm en ontspannen, misschien fladderen zijn oogjes — maar hij is nog niet helemaal in slaap.",
+              "Waarom is dit belangrijk? Omdat als je baby in het bedje in slaap valt in plaats van in jouw armen, hij leert zijn slaapcycli zelfstandig aan elkaar te knopen. Als hij om 2 uur 's nachts tussen cycli wakker wordt, kan hij zichzelf weer in slaap brengen, omdat het laatste wat hij zich herinnert is dat hij in dit bedje lag, met deze witte ruis, in deze donkere kamer."
+            ]
+          },
+          {
+            "h": "Als het niet werkt (en dat is oké)",
+            "p": [
+              "Sommige nachten werkt slaperig maar wakker niet. Je baby gaat huilen. Als dat gebeurt, pak hem op. Troost hem. Sus hem. Wieg hem tot hij weer kalm is. Probeer hem dan opnieuw neer te leggen. Als het 5 pogingen kost, prima. Als het er 10 zijn, ook prima.",
+              "Dit is GEEN laten-huilen. Je bent ALTIJD aanwezig. Je reageert ALTIJD. Je geeft je baby simpelweg de kans om te oefenen met in slaap vallen. Sommige baby's hebben het de eerste nacht door. Andere doen er een week over. Allebei is normaal."
+            ]
+          },
+          {
+            "h": "Klaarmaken voor nacht 1",
+            "p": [
+              "Morgen beginnen we met de echte 3-nachten reset. Dit is wat je voorbereidt: verduisterende gordijnen hangen. Het witteruis-apparaat staat klaar. De slaapzak ligt klaar. Badspullen in de badkamer. Een gedimd lampje of nachtlampje voor de slaapkamer.",
+              "En het allerbelangrijkste — bereid jezelf mentaal voor. De eerste nacht kan zwaar zijn. Je kunt aan jezelf gaan twijfelen. Je wilt misschien om middernacht opgeven. Dat is normaal. Maar onthoud: je leert je baby een van de belangrijkste vaardigheden in het leven. En ik sta naast je in de volgende les, en loop met je door elke stap. Jij kan dit, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "Nacht 1 en nacht 2 — de reset begint",
         "duration": "± 8 min",
         "desc": "Alles komt samen: wat je doet, wat je kunt verwachten en hoe je kalm blijft.",
-        "vedaPrompt": "Ik heb net les 4 van de 3-Nachten Slaap Reset gekeken (nacht 1 en 2). We beginnen met de reset — kun je me vannacht coachen door de lastige momenten?"
+        "vedaPrompt": "Ik heb net les 4 van de 3-Nachten Slaap Reset gekeken (nacht 1 en 2). We beginnen met de reset — kun je me vannacht coachen door de lastige momenten?",
+        "script": [
+          {
+            "h": "Het is zover",
+            "p": [
+              "Oké mama, dit is het. Vannacht beginnen we. Ik loop met je door precies wat je moet doen, stap voor stap, zodat je niet hoeft te gokken. Je mag deze les zelfs afspelen terwijl je het ritueel doet, als je wilt."
+            ]
+          },
+          {
+            "h": "Timing is alles",
+            "p": [
+              "Laten we eerst over bedtijd praten. Voor baby's van 4-8 maanden mik je op een bedtijd tussen 18:30 en 19:30. Ik weet dat dat vroeg klinkt, maar het zit zo: een vroegere bedtijd betekent vaak LANGER slapen, niet korter. Dat komt omdat je de natuurlijke melatoninegolf pakt in plaats van tegen cortisol te vechten.",
+              "Let op die slaapsignalen die je hebt geobserveerd — gapen, in de oogjes wrijven, voor zich uit staren. Als je ze ziet, is het tijd. Begin meteen met het ritueel."
+            ]
+          },
+          {
+            "h": "Nacht 1 — stap voor stap",
+            "p": [
+              "Volg het 4-stappenritueel uit Les 3: bad, pyjama in de donkere kamer, voeding, boekje en slaapliedje. Zeg je welterusten-zinnetje. Leg je baby slaperig maar wakker in het bedje.",
+              "Als je baby onrustig wordt: wacht 30 seconden. Maar 30 seconden. Vaak komen ze vanzelf tot rust. Als de onrust uitloopt op huilen: pak hem op, troost hem tot hij kalm is (niet in slaap), en leg hem dan weer neer. Herhaal zo vaak als nodig.",
+              "De eerste nacht is dit heen-en-weer gemiddeld 20-40 minuten voordat ze in slaap vallen. Het voelt als een eeuwigheid. Dat is het niet. En jij bent er de hele tijd bij. Je baby is veilig. Je baby is geliefd. Je baby is aan het leren."
+            ]
+          },
+          {
+            "h": "Nachtelijk wakker worden",
+            "p": [
+              "Als je baby 's nachts wakker wordt — en dat gebeurt — is dit het protocol:",
+              "Wacht 1-2 minuten voordat je naar binnen gaat. Soms maken baby's geluid tussen slaapcycli en komen ze vanzelf weer tot rust. Als hij echt wakker is en huilt, ga dan naar binnen. Houd het licht UIT. Praat weinig — sus alleen zachtjes. Als het meer dan 3 uur geleden is sinds de laatste voeding, is het waarschijnlijk een hongerwake — voed hem en leg hem weer neer. Als het minder dan 3 uur geleden is, probeer dan eerst te troosten zonder voeding. Wrijf over zijn buikje, sus, bied een speen aan als hij die gebruikt."
+            ]
+          },
+          {
+            "h": "Nacht 2 — het wordt makkelijker",
+            "p": [
+              "Nacht 2 is meestal beter. Niet altijd, maar meestal. Je baby begint het patroon te herkennen. Het ritueel voelt vertrouwder. Het bedje voelt vertrouwder. De witte ruis wordt een slaaptrigger.",
+              "Volg precies dezelfde stappen als nacht 1. Consistentie is hier ALLES. Zelfs als nacht 1 verschrikkelijk was, verander het plan NIET. Voeg geen wiegen toe. Ga niet een blokje om rijden. Houd vast aan het ritueel. Het brein van je baby heeft herhaling nodig om de nieuwe associatie te vormen.",
+              "De meeste moeders melden dat nacht 2 ongeveer de helft van de tijd van nacht 1 kost om tot rust te komen. Sommige moeders zien een enorme verbetering. Andere een kleine. Allebei is vooruitgang."
+            ]
+          },
+          {
+            "h": "Wees lief voor jezelf",
+            "p": [
+              "Voordat we afronden, wil ik dat je dit hoort: je faalt niet als dit zwaar is. Je faalt niet als je huilt. Je faalt niet als je je baby oppakt en om 3 uur 's nachts in slaap wiegt omdat je het vannacht gewoon niet meer kunt.",
+              "Dit is een RESET, geen rigide programma. Als je moet pauzeren en het morgen opnieuw moet proberen, is dat oké. Vooruitgang verloopt niet rechtlijnig. Het feit dat je het probeert, betekent dat je een geweldige moeder bent. Tot morgen voor nacht 3 en daarna. Je doet het ongelofelijk goed, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "Nacht 3 en daarna — het vasthouden",
         "duration": "± 6 min",
         "desc": "Vooruitgang vasthouden: consistentie, terugval, regressies en het echte leven.",
-        "vedaPrompt": "Ik heb net les 5 van de 3-Nachten Slaap Reset gekeken (het vasthouden). Kun je me helpen een plan te maken om onze slaapvooruitgang vast te houden, ook bij regressies, ziekte en reizen?"
+        "vedaPrompt": "Ik heb net les 5 van de 3-Nachten Slaap Reset gekeken (het vasthouden). Kun je me helpen een plan te maken om onze slaapvooruitgang vast te houden, ook bij regressies, ziekte en reizen?",
+        "script": [
+          {
+            "h": "Je hebt het gehaald",
+            "p": [
+              "Mama. Je hebt nacht 3 gehaald. Of je nu twee perfecte nachten of twee chaotische nachten hebt gehad — je stond er. Dat is wat telt. Laat me je vertellen wat je vanaf hier kunt verwachten."
+            ]
+          },
+          {
+            "h": "Nacht 3 — de doorbraak",
+            "p": [
+              "Nacht 3 is meestal wanneer het klikt. Je baby heeft nu drie keer hetzelfde ritueel meegemaakt. Zijn brein begint te voorspellen wat er komt. Bad betekent pyjama. Pyjama betekent voeding. Voeding betekent boekje. Boekje betekent bedje. Bedje betekent slaap.",
+              "Volg dezelfde stappen. Zelfde tijd. Zelfde volgorde. Zelfde zinnetje. Veel moeders zien hun baby in minder dan 10 minuten tot rust komen op nacht 3. Sommige zien hun baby zelfs in slaap vallen voordat het slaapliedje uit is. Dat is de magie van consistentie."
+            ]
+          },
+          {
+            "h": "Omgaan met tegenslagen",
+            "p": [
+              "Dit vertelt niemand je: zelfs nadat de reset werkt, komen er slechte nachten. Tandjes, ziekte, reizen, slaapregressies, groeispurts — dit kan allemaal de slaap tijdelijk verstoren. Dit betekent NIET dat je je vooruitgang verliest. Dit is normaal babyleven.",
+              "Als er een tegenslag is, ga terug naar de basis. Keer terug naar het ritueel. Wees consistent. De meeste tegenslagen lossen binnen 3-5 dagen op als je koers houdt. Als slaapproblemen langer dan 2 weken aanhouden, overleg dan met je kinderarts — soms speelt er iets onderliggends, zoals reflux of een oorontsteking."
+            ]
+          },
+          {
+            "h": "Dutjes",
+            "p": [
+              "Ik weet dat ik me op de nacht heb gericht, maar ik geef je ook een korte dutjesgids. Voor baby's van 4-6 maanden: mik op 3 dutjes per dag met waakvensters van 1,5-2 uur. Voor 7-9 maanden: 2 dutjes per dag met waakvensters van 2,5-3 uur. Voor 10-12 maanden: 2 dutjes die overgaan naar 1, met waakvensters van 3-4 uur.",
+              "Gebruik een kortere versie van het bedtijdritueel voor dutjes — sla het bad over, maar houd de donkere kamer, witte ruis, slaapzak en een kort boekje aan. Consistentie bij alle slaap helpt het patroon te versterken."
+            ]
+          },
+          {
+            "h": "Je bent geweldig",
+            "p": [
+              "Mama, ik ben zo trots op je. Niet omdat je baby perfect slaapt — maar omdat je er was voor jezelf en je baby toen je op je meest uitgeputte punt was. Dat vergt een kracht die alleen een moeder heeft.",
+              "Onthoud: er bestaat geen perfecte moeder. Er bestaat geen perfecte slaper. Er ben alleen jij, die haar best doet, nacht voor nacht. En jouw best is meer dan genoeg.",
+              "Als je ooit wilt praten — over slaap, over het moederschap, over wat dan ook — ik ben er. Open gewoon MomzVeda en chat met me wanneer je wilt. Daar ben ik voor.",
+              "Welterusten voor jou en je kleintje. Jij kan dit, mama. Altijd."
+            ]
+          }
+        ]
       }
     ]
   }

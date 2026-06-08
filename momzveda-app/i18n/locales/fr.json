@@ -207,6 +207,8 @@
     "lockedTitle": "Débloque les 5 leçons",
     "lockedDesc": "La leçon 1 est gratuite pour toutes les mamans. Passe à Premium pour suivre tout le cours — plus messages illimités et tous les guides.",
     "lockedButton": "Passer à Premium",
-    "freeIntro": "La leçon 1 est gratuite — profites-en ! 💚"
+    "freeIntro": "La leçon 1 est gratuite — profites-en ! 💚",
+    "transcript": "Script de la leçon",
+    "audioNote": "🔊 L'audio de la vidéo est en anglais"
   }
 }

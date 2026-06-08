@@ -207,6 +207,8 @@
     "lockedTitle": "Sblocca tutte le 5 lezioni",
     "lockedDesc": "La lezione 1 è gratis per ogni mamma. Passa a Premium per vedere l'intero corso — più messaggi illimitati e tutte le guide.",
     "lockedButton": "Passa a Premium",
-    "freeIntro": "La lezione 1 è gratis — goditela! 💚"
+    "freeIntro": "La lezione 1 è gratis — goditela! 💚",
+    "transcript": "Testo della lezione",
+    "audioNote": "🔊 L'audio del video è in inglese"
   }
 }

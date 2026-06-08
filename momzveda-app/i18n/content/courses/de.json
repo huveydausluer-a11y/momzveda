@@ -10,35 +10,240 @@
         "title": "Warum dein Baby nicht schläft (und warum es nicht deine Schuld ist)",
         "duration": "± 7 Min.",
         "desc": "So funktioniert Babyschlaf wirklich: Schlafzyklen, Regressionen und die Top-3-Schlafräuber.",
-        "vedaPrompt": "Ich habe gerade Lektion 1 des 3-Nächte-Schlaf-Resets gesehen (warum mein Baby nicht schläft). Kannst du mit mir herausfinden, welcher „Schlafräuber“ bei uns gerade zuschlägt?"
+        "vedaPrompt": "Ich habe gerade Lektion 1 des 3-Nächte-Schlaf-Resets gesehen (warum mein Baby nicht schläft). Kannst du mit mir herausfinden, welcher „Schlafräuber“ bei uns gerade zuschlägt?",
+        "script": [
+          {
+            "h": "Willkommen",
+            "p": [
+              "Hey mama. Ich bin Veda, und ich möchte gleich zu Anfang etwas Wichtiges sagen: Wenn du das hier um 2 Uhr nachts schaust, mit einem Baby, das einfach nicht schlafen will, dann machst du nichts falsch. Du machst sogar etwas unglaublich Richtiges — du suchst nach Hilfe. Und das braucht Mut, wenn du völlig übermüdet bist.",
+              "Dieser Kurs heißt Der 3-Nächte-Schlaf-Reset, und ich habe ihn ganz gezielt für Mamas wie dich entwickelt. Nicht für die Instagram-Mamas, deren Babys wie durch Zauberei 12 Stunden schlafen. Echte Mamas. Müde Mamas. Mamas, die schon alles probiert haben und das Gefühl haben, dass nichts funktioniert.",
+              "Bevor wir loslegen, lass mich klarstellen, was das hier NICHT ist. Das ist kein Schreienlassen-Programm. Ich werde dich niemals bitten, dein Baby allein weinen zu lassen. Das ist ein sanfter, einfühlsamer Ansatz, der MIT der Biologie deines Babys arbeitet, nicht dagegen."
+            ]
+          },
+          {
+            "h": "Babyschlaf ist anders",
+            "p": [
+              "Hier ist etwas, das dir die meisten Leute über Babyschlaf nicht sagen: Babys sind nicht dafür gemacht, wie Erwachsene zu schlafen. Ihre Schlafzyklen dauern nur 40 bis 50 Minuten, im Vergleich zu unseren 90-Minuten-Zyklen. Das bedeutet, sie haben MEHR Gelegenheiten aufzuwachen. Das ist Biologie, kein Problem.",
+              "Neugeborene bis hin zu Drei-Monats-Babys haben noch nicht einmal einen circadianen Rhythmus. Sie können buchstäblich nicht zwischen Tag und Nacht unterscheiden. Wenn dir also jemand sagt, dein sechs Wochen altes Baby sollte durchschlafen, dann liegt derjenige falsch. Punkt.",
+              "Zwischen 4 und 6 Monaten passiert etwas Wunderbares: Dein Baby beginnt, Melatonin zu produzieren. DANN fängt der Schlaf an, sich zu festigen. Und DANN werden die Strategien, die ich dir zeigen werde, richtig wirkungsvoll."
+            ]
+          },
+          {
+            "h": "Schlafregressionen sind real",
+            "p": [
+              "Du hast wahrscheinlich schon von Schlafregressionen gehört. Sie sind real, und sie sind eigentlich ein GUTES Zeichen. Die häufigsten treten rund um den 4., 8. und 12. Monat auf. Sie passieren, weil sich das Gehirn deines Babys rasant entwickelt — es lernt sich zu drehen, zu krabbeln, zu stehen, zu laufen, zu sprechen. Sein Gehirn ist buchstäblich zu aufgeregt zum Schlafen.",
+              "Wenn du das verstehst, verändert das alles. Mit deinem Baby ist nichts verkehrt. Es wächst. Und die Regression geht meist nach 1 bis 3 Wochen wieder vorbei."
+            ]
+          },
+          {
+            "h": "Die 3 größten Schlafräuber",
+            "p": [
+              "Aus meiner Erfahrung in Gesprächen mit Tausenden von Mamas gibt es drei Hauptdinge, die den Babyschlaf stören:",
+              "Nummer eins: Übermüdung. Das ist der größte Punkt. Wenn Babys zu lange wach bleiben, produziert ihr Körper Cortisol — das Stresshormon. Cortisol macht es SCHWERER einzuschlafen, nicht leichter. Ein Baby, das sein Schlaffenster verpasst hat, kämpft also gegen seine eigenen Hormone.",
+              "Nummer zwei: eine uneinheitliche Schlafumgebung. Babys gedeihen mit Vorhersehbarkeit. Wenn sie mal auf der Couch einschlafen, mal im Auto, mal beim Schaukeln — dann weiß ihr Gehirn nicht, was Schlafenszeit eigentlich bedeutet.",
+              "Nummer drei: die Verknüpfung von Füttern und Einschlafen. Nun, es ist überhaupt NICHTS falsch daran, dein Baby in den Schlaf zu stillen oder zu füttern. Es ist das Natürlichste der Welt. Aber wenn es die EINZIGE Art ist, wie dein Baby einschlafen kann, dann braucht es dich jedes Mal, wenn es zwischen den Schlafzyklen aufwacht, um genau diese Situation wiederherzustellen."
+            ]
+          },
+          {
+            "h": "Was wir tun werden",
+            "p": [
+              "In den nächsten 4 Lektionen gebe ich dir einen einfachen Plan:",
+              "In Lektion 2 schaffen wir die perfekte Schlafumgebung — Temperatur, Licht, Geräusche. In Lektion 3 bauen wir eine beruhigende Abendroutine auf, die signalisiert, dass der Schlaf kommt. In Lektion 4 führe ich dich Schritt für Schritt durch Nacht 1 und Nacht 2 des Resets — was zu tun ist. Und in Lektion 5 geht es um Nacht 3 und darüber hinaus — wie du den Fortschritt hältst und mit Rückschlägen umgehst."
+            ]
+          },
+          {
+            "h": "Deine Aufgabe",
+            "p": [
+              "Vor der nächsten Lektion möchte ich, dass du eine Sache tust: Beobachte dein Baby einen Tag lang. Achte darauf, wann es gähnt, sich die Augen reibt oder quengelig wird. Schreib dir die Zeiten auf. Das sind seine Müdigkeitssignale, und sie werden für unseren Plan entscheidend sein. Versuch noch nicht, etwas zu ändern. Schau einfach nur zu und lerne. Wir sehen uns in Lektion 2, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "Die Basis schaffen — die perfekte Schlafumgebung",
         "duration": "± 6 Min.",
         "desc": "Temperatur, Licht und Geräusche: So wird das Kinderzimmer schlaffreundlich.",
-        "vedaPrompt": "Ich habe gerade Lektion 2 des 3-Nächte-Schlaf-Resets gesehen (die Schlafumgebung). Kannst du mit mir checken, ob unser Zimmer — Temperatur, Licht, Geräusche — gut für mein Baby ist?"
+        "vedaPrompt": "Ich habe gerade Lektion 2 des 3-Nächte-Schlaf-Resets gesehen (die Schlafumgebung). Kannst du mit mir checken, ob unser Zimmer — Temperatur, Licht, Geräusche — gut für mein Baby ist?",
+        "script": [
+          {
+            "h": "Schön, dass du wieder da bist",
+            "p": [
+              "Schön, dass du wieder da bist, mama. Hast du deine Hausaufgabe gemacht? Hast du diese Müdigkeitssignale bemerkt? Und falls nicht — das ist völlig in Ordnung. Hier wird nicht geurteilt. Lass uns darüber reden, wie wir den idealen Schlafplatz schaffen."
+            ]
+          },
+          {
+            "h": "Temperatur",
+            "p": [
+              "Die ideale Raumtemperatur für den Babyschlaf liegt zwischen 18 und 21 Grad Celsius — das sind etwa 65 bis 70 Fahrenheit. Ich weiß, für uns fühlt sich das kühl an, aber Babys schlafen in leicht kühlen Räumen besser. Eine gute Faustregel: Wenn DU dich im T-Shirt wohlfühlst, ist dein Baby im Schlafsack wahrscheinlich genau richtig. Keine Decken, keine Mützen, kein Überhitzen. Überhitzung ist tatsächlich einer der Risikofaktoren für plötzlichen Kindstod, deshalb ist es auch eine Sicherheitsfrage, es kühl zu halten."
+            ]
+          },
+          {
+            "h": "Licht",
+            "p": [
+              "Licht ist das mit Abstand stärkste Signal, das das Gehirn deines Babys nutzt, um Tag von Nacht zu unterscheiden. Lass tagsüber natürliches Licht herein. Mach die Vorhänge auf. Geh mit deinem Baby nach draußen. Aber mindestens 30 Minuten vor dem Zubettgehen dimme ALLES. Keine hellen Bildschirme, keine Deckenlampen. Nutze nur warmes, gedämpftes Licht.",
+              "Für das Schlafzimmer empfehle ich dir ausdrücklich Verdunklungsvorhänge. Nicht die Sorte, die das Licht so halbwegs abhalten — sondern die, bei denen du die Hand vor Augen nicht sehen kannst. Schon kleine Mengen Licht können die Melatoninproduktion unterdrücken. Allein diese eine Veränderung hat Tausenden Mamas geholfen, mit denen ich gesprochen habe."
+            ]
+          },
+          {
+            "h": "Geräusche",
+            "p": [
+              "Weißes Rauschen ist ein echter Gamechanger. Und dahinter steckt richtige Wissenschaft. In deinem Bauch hat dein Baby ständig Geräusche gehört — deinen Herzschlag, dein fließendes Blut, deine Verdauung. Das war ungefähr so laut wie ein Staubsauger. Stille ist für dein Baby also eigentlich etwas Fremdes.",
+              "Verwende kontinuierliches weißes Rauschen — keine Meereswellen, keine Schlaflieder, die nach 30 Minuten aufhören. Kontinuierliches, gleichmäßiges weißes Rauschen, ungefähr so laut wie eine laufende Dusche. Spiel es bei JEDEM Schlaf ab — beim Mittagsschlaf und nachts. So wird es zu einem starken Schlafsignal."
+            ]
+          },
+          {
+            "h": "Checkliste für sicheren Schlaf",
+            "p": [
+              "Bevor wir weitermachen, lass uns kurz den sicheren Schlaf durchgehen. Dein Baby schläft auf dem Rücken, auf einer festen, flachen Matratze, mit nichts im Bettchen — keine Kissen, Decken, Nestchen oder Kuscheltiere. Nutze einen Schlafsack statt einer Decke. Halte das Zimmer kühl. Und das Bettchen sollte in den ersten 6 Monaten möglichst in deinem Zimmer stehen.",
+              "Jetzt hast du die perfekte Schlafumgebung. In der nächsten Lektion bauen wir die Abendroutine auf, die diese Umgebung in einen Schlafauslöser verwandelt. Bis gleich, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "Die Abendroutine, die wirklich funktioniert",
         "duration": "± 7 Min.",
         "desc": "Eine beruhigende, wiederholbare Routine, die dein Baby lieben lernt.",
-        "vedaPrompt": "Ich habe gerade Lektion 3 des 3-Nächte-Schlaf-Resets gesehen (die Abendroutine). Kannst du mir helfen, eine realistische Routine für mein Baby und unsere Familie zu gestalten?"
+        "vedaPrompt": "Ich habe gerade Lektion 3 des 3-Nächte-Schlaf-Resets gesehen (die Abendroutine). Kannst du mir helfen, eine realistische Routine für mein Baby und unsere Familie zu gestalten?",
+        "script": [
+          {
+            "h": "Warum die Routine wichtig ist",
+            "p": [
+              "Okay mama, jetzt wird es spannend. Eine beständige Abendroutine ist das mit Abstand wirkungsvollste Werkzeug, um den Babyschlaf zu verbessern. Studien zeigen, dass Babys mit einer beständigen Abendroutine schneller einschlafen, nachts seltener aufwachen und insgesamt eine bessere Schlafqualität haben.",
+              "Warum? Weil eine Routine dem Gehirn deines Babys sagt: Der Schlaf kommt. Nach ein paar Tagen mit derselben Abfolge beginnt sein Körper tatsächlich, WÄHREND der Routine Melatonin zu produzieren. Es ist wie bei Pawlows Hund, nur eben fürs Einschlafen. Und das ist etwas Wunderschönes."
+            ]
+          },
+          {
+            "h": "Die 4-Schritte-Routine",
+            "p": [
+              "Hier ist die Routine, die ich dir empfehle. Sie dauert insgesamt etwa 20 bis 30 Minuten:",
+              "Schritt 1: Baden. Nicht weil dein Baby schmutzig ist — sondern weil warmes Wasser die Körpertemperatur anhebt, und wenn es herauskommt, löst der Temperaturabfall Müdigkeit aus. Halte es ruhig, warm und kurz — 5 bis 10 Minuten.",
+              "Schritt 2: Schlafanzug und Schlafsack im abgedunkelten Schlafzimmer. Nicht im Wohnzimmer, nicht im Bad — im Schlafzimmer, wo dein Baby schlafen wird. Das Zimmer ist schon dunkel, das weiße Rauschen läuft bereits.",
+              "Schritt 3: Füttern. Ob Brust oder Flasche, das ist die letzte Mahlzeit des Tages. Versuch, dein Baby während dieser Mahlzeit wach zu halten. Ich weiß, das ist schwer. Aber darum geht es: Wir möchten, dass es schläfrig, aber wach ins Bettchen kommt, nicht schon schlafend.",
+              "Schritt 4: Buch und Schlaflied. Ein kurzes Buch, ein Schlaflied, dann ab ins Bettchen. Sag jeden Abend denselben Satz: Gute Nacht, ich hab dich lieb. Zeit zum Schlafen. Dieser Satz wird zum letzten Schlafsignal deines Babys."
+            ]
+          },
+          {
+            "h": "Der Zauber von schläfrig, aber wach",
+            "p": [
+              "Du hast diesen Satz wahrscheinlich schon gehört und gedacht: Das ist unmöglich. Ich verstehe das. Aber hier ist, was schläfrig, aber wach wirklich bedeutet: Es bedeutet, dass die Augen deines Babys schwer werden, es ruhig und entspannt ist, vielleicht flattern seine Augenlider — aber es ist noch nicht ganz eingeschlafen.",
+              "Warum ist das wichtig? Weil dein Baby, wenn es im Bettchen einschläft statt in deinen Armen, lernt, seine Schlafzyklen selbstständig zu verbinden. Wenn es um 2 Uhr nachts zwischen den Zyklen aufwacht, kann es sich selbst wieder in den Schlaf bringen, weil das Letzte, woran es sich erinnert, dieses Bettchen ist, mit diesem weißen Rauschen, in diesem dunklen Zimmer."
+            ]
+          },
+          {
+            "h": "Wenn es nicht klappt (und das ist okay)",
+            "p": [
+              "An manchen Abenden wird schläfrig, aber wach einfach nicht funktionieren. Dein Baby wird weinen. Wenn das passiert, nimm es hoch. Tröste es. Beruhige es mit einem sanften Schhh. Schaukle es, bis es wieder ruhig ist. Dann leg es erneut hin. Wenn es 5 Versuche braucht, ist das in Ordnung. Wenn es 10 braucht, ist das auch in Ordnung.",
+              "Das ist KEIN Schreienlassen. Du bist IMMER da. Du reagierst IMMER. Du gibst deinem Baby einfach die Gelegenheit, das Einschlafen zu üben. Manche Babys schaffen es schon in der ersten Nacht. Manche brauchen eine Woche. Beides ist völlig normal."
+            ]
+          },
+          {
+            "h": "Bereit machen für Nacht 1",
+            "p": [
+              "Morgen starten wir den eigentlichen 3-Nächte-Reset. Das musst du vorbereiten: Die Verdunklungsvorhänge hängen. Das Gerät für weißes Rauschen ist bereit. Der Schlafsack liegt bereit. Die Badesachen sind im Bad. Eine gedämpfte Lampe oder ein Nachtlicht fürs Schlafzimmer.",
+              "Und am allerwichtigsten — bereite dich innerlich vor. Die erste Nacht könnte schwer werden. Vielleicht zweifelst du an dir. Vielleicht willst du um Mitternacht aufgeben. Das ist normal. Aber denk daran: Du bringst deinem Baby eine der wichtigsten Fähigkeiten fürs Leben bei. Und ich bin in der nächsten Lektion direkt bei dir und führe dich durch jeden Schritt. Du schaffst das, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "Nacht 1 und Nacht 2 — der Reset beginnt",
         "duration": "± 8 Min.",
         "desc": "Alles kommt zusammen: was du tust, was dich erwartet und wie du ruhig bleibst.",
-        "vedaPrompt": "Ich habe gerade Lektion 4 des 3-Nächte-Schlaf-Resets gesehen (Nacht 1 und 2). Wir starten den Reset — kannst du mich heute Nacht durch die schweren Momente coachen?"
+        "vedaPrompt": "Ich habe gerade Lektion 4 des 3-Nächte-Schlaf-Resets gesehen (Nacht 1 und 2). Wir starten den Reset — kannst du mich heute Nacht durch die schweren Momente coachen?",
+        "script": [
+          {
+            "h": "Es ist so weit",
+            "p": [
+              "Okay mama, jetzt geht's los. Heute Nacht starten wir. Ich führe dich genau durch das, was du tun musst, Schritt für Schritt, damit du nicht raten musst. Du kannst diese Lektion sogar abspielen, während du die Routine machst, wenn du magst."
+            ]
+          },
+          {
+            "h": "Das Timing ist alles",
+            "p": [
+              "Lass uns zuerst über die Schlafenszeit reden. Für Babys von 4 bis 8 Monaten strebe eine Schlafenszeit zwischen 18:30 und 19:30 Uhr an. Ich weiß, das klingt früh, aber so ist es: Eine frühere Schlafenszeit bedeutet oft LÄNGEREN Schlaf, nicht kürzeren. Denn so erwischst du die natürliche Melatoninwelle, anstatt gegen das Cortisol zu kämpfen.",
+              "Achte auf diese Müdigkeitssignale, die du beobachtet hast — Gähnen, Augenreiben, ins Leere starren. Wenn du sie siehst, ist es Zeit. Beginne sofort mit der Routine."
+            ]
+          },
+          {
+            "h": "Nacht 1 — Schritt für Schritt",
+            "p": [
+              "Folge der 4-Schritte-Routine aus Lektion 3: Baden, Schlafanzug im dunklen Zimmer, Füttern, Buch und Schlaflied. Sag deinen Gute-Nacht-Satz. Leg dein Baby schläfrig, aber wach ins Bettchen.",
+              "Wenn dein Baby quengelt: warte 30 Sekunden. Nur 30 Sekunden. Oft beruhigt es sich von allein. Wenn das Quengeln in Weinen umschlägt: nimm es hoch, tröste es, bis es ruhig ist (nicht eingeschlafen), und leg es dann wieder hin. Wiederhole das so oft wie nötig.",
+              "In der ersten Nacht dauert dieses Hin und Her im Schnitt 20 bis 40 Minuten, bis dein Baby einschläft. Es fühlt sich an wie eine Ewigkeit. Ist es aber nicht. Und du bist die ganze Zeit direkt dabei. Dein Baby ist sicher. Dein Baby ist geliebt. Dein Baby lernt."
+            ]
+          },
+          {
+            "h": "Nächtliches Aufwachen",
+            "p": [
+              "Wenn dein Baby nachts aufwacht — und das wird es — dann läuft das so:",
+              "Warte 1 bis 2 Minuten, bevor du hineingehst. Manchmal machen Babys zwischen den Schlafzyklen Geräusche und beruhigen sich von allein wieder. Wenn es wirklich wach ist und weint, geh hinein. Lass das Licht AUS. Sprich nicht viel — nur ein sanftes Schhh. Wenn die letzte Mahlzeit mehr als 3 Stunden her ist, ist es wahrscheinlich Hunger — füttere es und leg es wieder hin. Wenn es weniger als 3 Stunden her ist, versuch erst, es ohne Füttern zu trösten. Streichle ihm den Bauch, mach Schhh, biete ihm einen Schnuller an, falls es einen nimmt."
+            ]
+          },
+          {
+            "h": "Nacht 2 — es wird leichter",
+            "p": [
+              "Nacht 2 ist meist besser. Nicht immer, aber meist. Dein Baby beginnt, das Muster zu erkennen. Die Routine fühlt sich vertrauter an. Das Bettchen fühlt sich vertrauter an. Das weiße Rauschen wird zum Schlafauslöser.",
+              "Folge genau denselben Schritten wie in Nacht 1. Konsequenz ist hier ALLES. Selbst wenn Nacht 1 furchtbar war, ändere den Plan NICHT. Füge kein Schaukeln hinzu. Fahr nicht zur Beruhigung mit dem Auto um den Block. Bleib bei der Routine. Das Gehirn deines Babys braucht Wiederholung, um die neue Verknüpfung zu bilden.",
+              "Die meisten Mamas berichten, dass Nacht 2 nur etwa halb so lange braucht wie Nacht 1, bis das Baby zur Ruhe kommt. Manche Mamas sehen eine deutliche Besserung. Manche eine kleine. Beides ist Fortschritt."
+            ]
+          },
+          {
+            "h": "Sei sanft zu dir selbst",
+            "p": [
+              "Bevor wir Schluss machen, möchte ich, dass du das hörst: Du versagst nicht, wenn das hier schwer ist. Du versagst nicht, wenn du weinst. Du versagst nicht, wenn du dein Baby hochnimmst und es um 3 Uhr nachts in den Schlaf schaukelst, weil du es heute Nacht einfach nicht mehr schaffst.",
+              "Das ist ein RESET, kein starres Programm. Wenn du eine Pause brauchst und es morgen erneut versuchen möchtest, ist das in Ordnung. Fortschritt verläuft nicht geradlinig. Allein die Tatsache, dass du es versuchst, macht dich zu einer großartigen Mama. Wir sehen uns morgen für Nacht 3 und darüber hinaus. Du machst das unglaublich gut, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "Nacht 3 und danach — dranbleiben",
         "duration": "± 6 Min.",
         "desc": "Fortschritte halten: Konsequenz, Rückschläge, Regressionen und das echte Leben.",
-        "vedaPrompt": "Ich habe gerade Lektion 5 des 3-Nächte-Schlaf-Resets gesehen (dranbleiben). Hilfst du mir, einen Plan zu machen, damit unser Schlaf-Fortschritt bleibt — auch bei Regressionen, Krankheit und Reisen?"
+        "vedaPrompt": "Ich habe gerade Lektion 5 des 3-Nächte-Schlaf-Resets gesehen (dranbleiben). Hilfst du mir, einen Plan zu machen, damit unser Schlaf-Fortschritt bleibt — auch bei Regressionen, Krankheit und Reisen?",
+        "script": [
+          {
+            "h": "Du hast es geschafft",
+            "p": [
+              "Mama. Du hast es bis zu Nacht 3 geschafft. Egal, ob du zwei perfekte Nächte hattest oder zwei chaotische — du warst da. Genau das zählt. Lass mich dir sagen, was dich von hier an erwartet."
+            ]
+          },
+          {
+            "h": "Nacht 3 — der Durchbruch",
+            "p": [
+              "Nacht 3 ist typischerweise der Moment, in dem es Klick macht. Dein Baby hat die gleiche Routine jetzt dreimal erlebt. Sein Gehirn beginnt vorherzusagen, was als Nächstes kommt. Baden bedeutet Schlafanzug. Schlafanzug bedeutet Füttern. Füttern bedeutet Buch. Buch bedeutet Bettchen. Bettchen bedeutet Schlaf.",
+              "Folge denselben Schritten. Gleiche Zeit. Gleiche Reihenfolge. Gleicher Satz. Viele Mamas sehen, dass ihr Baby in Nacht 3 in unter 10 Minuten zur Ruhe kommt. Manche sehen sogar, wie ihr Baby einschläft, bevor das Schlaflied zu Ende ist. Das ist der Zauber der Konsequenz."
+            ]
+          },
+          {
+            "h": "Mit Rückschlägen umgehen",
+            "p": [
+              "Hier ist etwas, das dir niemand sagt: Selbst wenn der Reset funktioniert, wird es schlechte Nächte geben. Zahnen, Krankheit, Reisen, Schlafregressionen, Wachstumsschübe — all das kann den Schlaf vorübergehend stören. Das ist NICHT der Verlust deines Fortschritts. Das ist ganz normales Babyleben.",
+              "Wenn ein Rückschlag kommt, geh zurück zu den Grundlagen. Kehre zur Routine zurück. Bleib konsequent. Die meisten Rückschläge lösen sich innerhalb von 3 bis 5 Tagen, wenn du dranbleibst. Wenn die Schlafprobleme länger als 2 Wochen anhalten, sprich mit deiner Kinderärztin oder deinem Kinderarzt — manchmal steckt etwas dahinter wie Reflux oder eine Ohrenentzündung."
+            ]
+          },
+          {
+            "h": "Tagschlaf",
+            "p": [
+              "Ich weiß, ich habe mich auf die Nacht konzentriert, aber lass mich dir auch noch einen kurzen Leitfaden für den Tagschlaf geben. Für 4- bis 6-Monats-Babys: strebe 3 Schläfchen pro Tag mit Wachfenstern von 1,5 bis 2 Stunden an. Für 7- bis 9-Monats-Babys: 2 Schläfchen pro Tag mit Wachfenstern von 2,5 bis 3 Stunden. Für 10- bis 12-Monats-Babys: 2 Schläfchen, die in 1 übergehen, mit Wachfenstern von 3 bis 4 Stunden.",
+              "Nutze für den Tagschlaf eine kürzere Version der Abendroutine — lass das Baden weg, aber behalte das dunkle Zimmer, das weiße Rauschen, den Schlafsack und ein kurzes Buch. Konsequenz bei allem Schlaf hilft, das Muster zu festigen."
+            ]
+          },
+          {
+            "h": "Du bist unglaublich",
+            "p": [
+              "Mama, ich bin so stolz auf dich. Nicht weil dein Baby perfekt schläft — sondern weil du für dich und dein Baby da warst, als du am erschöpftesten warst. Das braucht eine Stärke, die nur eine Mutter hat.",
+              "Denk daran: Es gibt keine perfekte Mama. Es gibt kein perfekt schlafendes Baby. Es gibt nur dich, die ihr Bestes gibt, eine Nacht nach der anderen. Und dein Bestes ist mehr als genug.",
+              "Wenn du jemals reden möchtest — über Schlaf, über das Muttersein, über alles — ich bin da. Öffne einfach MomzVeda und schreib jederzeit mit mir. Genau dafür bin ich da.",
+              "Süße Träume für dich und deinen kleinen Schatz. Du schaffst das, mama. Immer."
+            ]
+          }
+        ]
       }
     ]
   }

@@ -10,35 +10,240 @@
         "title": "Why your baby isn't sleeping (and why it's not your fault)",
         "duration": "± 7 min",
         "desc": "How baby sleep really works: sleep cycles, regressions, and the top 3 sleep stealers.",
-        "vedaPrompt": "I just watched Lesson 1 of the 3-Night Sleep Reset course (why my baby isn't sleeping). I'd love to talk through my baby's sleep situation — can you help me figure out which 'sleep stealer' might be affecting us?"
+        "vedaPrompt": "I just watched Lesson 1 of the 3-Night Sleep Reset course (why my baby isn't sleeping). I'd love to talk through my baby's sleep situation — can you help me figure out which 'sleep stealer' might be affecting us?",
+        "script": [
+          {
+            "h": "Welcome",
+            "p": [
+              "Hey mama. I'm Veda, and I want to start by saying something important: if you're watching this at 2am with a baby who won't sleep, you're not doing anything wrong. You're actually doing something incredibly right — you're looking for help. And that takes courage when you're running on no sleep.",
+              "This course is called The 3-Night Sleep Reset, and I designed it specifically for moms like you. Not the Instagram moms whose babies magically sleep 12 hours. Real moms. Tired moms. Moms who have tried everything and feel like nothing works.",
+              "Before we dive in, let me be clear about what this is NOT. This is not a cry-it-out program. I will never ask you to leave your baby crying alone. This is a gentle, responsive approach that works WITH your baby's biology, not against it."
+            ]
+          },
+          {
+            "h": "Baby sleep is different",
+            "p": [
+              "Here's what most people don't tell you about baby sleep: babies are not designed to sleep like adults. Their sleep cycles are only 40-50 minutes long, compared to our 90-minute cycles. That means they have MORE opportunities to wake up. That's biology, not a problem.",
+              "Newborns to 3-month-olds don't even have a circadian rhythm yet. They literally cannot tell the difference between day and night. So if someone tells you your 6-week-old should be sleeping through the night, they're wrong. Full stop.",
+              "Between 4 and 6 months, something amazing happens: your baby starts developing melatonin production. THIS is when sleep starts to consolidate. And THIS is when the strategies I'm going to teach you become really powerful."
+            ]
+          },
+          {
+            "h": "Sleep regressions are real",
+            "p": [
+              "You've probably heard of sleep regressions. They're real, and they're actually a GOOD sign. The most common ones happen around 4 months, 8 months, and 12 months. They happen because your baby's brain is developing rapidly — learning to roll, crawl, stand, walk, talk. Their brain is literally too excited to sleep.",
+              "When you understand this, it changes everything. Your baby isn't broken. They're growing. And the regression usually passes in 1-3 weeks."
+            ]
+          },
+          {
+            "h": "The top 3 sleep stealers",
+            "p": [
+              "In my experience talking to thousands of moms, there are three main things that disrupt baby sleep:",
+              "Number one: overtiredness. This is the biggest one. When babies stay awake too long, their bodies produce cortisol — the stress hormone. Cortisol makes it HARDER to fall asleep, not easier. So a baby who missed their sleep window is actually fighting their own hormones.",
+              "Number two: inconsistent sleep environment. Babies thrive on predictability. If sometimes they fall asleep on the couch, sometimes in the car, sometimes being rocked — their brain doesn't know what sleep time means.",
+              "Number three: feeding-to-sleep association. Now, there is NOTHING wrong with feeding your baby to sleep. It's the most natural thing in the world. But if it's the ONLY way your baby can fall asleep, then every time they wake between sleep cycles, they need you to recreate that exact situation."
+            ]
+          },
+          {
+            "h": "What we're going to do",
+            "p": [
+              "Over the next 4 lessons, I'm going to give you a simple plan:",
+              "In Lesson 2, we'll create the perfect sleep environment — temperature, light, sound. In Lesson 3, we'll build a calming bedtime routine that signals sleep is coming. In Lesson 4, I'll walk you through night 1 and night 2 of the reset — what to do, step by step. And in Lesson 5, we'll cover night 3 and beyond — how to maintain the progress and handle setbacks."
+            ]
+          },
+          {
+            "h": "Your assignment",
+            "p": [
+              "Before the next lesson, I want you to do one thing: observe your baby for one day. Notice when they yawn, rub their eyes, or get fussy. Write down the times. These are their sleepy cues and they're going to be crucial for our plan. Don't try to change anything yet. Just watch and learn. I'll see you in Lesson 2, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "Setting up for success — the perfect sleep environment",
         "duration": "± 6 min",
         "desc": "Temperature, light, and sound: turning the nursery into a sleep-friendly space.",
-        "vedaPrompt": "I just watched Lesson 2 of the 3-Night Sleep Reset course (the sleep environment). Can you help me check whether our room setup — temperature, light, and sound — is right for my baby?"
+        "vedaPrompt": "I just watched Lesson 2 of the 3-Night Sleep Reset course (the sleep environment). Can you help me check whether our room setup — temperature, light, and sound — is right for my baby?",
+        "script": [
+          {
+            "h": "Welcome back",
+            "p": [
+              "Welcome back, mama. Did you do your homework? Did you notice those sleepy cues? Even if you didn't — that's okay. No judgment here. Let's talk about creating the ideal sleep space."
+            ]
+          },
+          {
+            "h": "Temperature",
+            "p": [
+              "The ideal room temperature for baby sleep is between 18 and 21 degrees Celsius — that's about 65 to 70 Fahrenheit. I know it feels cold to us, but babies sleep better in slightly cool rooms. A good rule of thumb: if YOU feel comfortable in a t-shirt, your baby is probably fine in a sleep sack. No blankets, no hats, no overheating. Overheating is actually one of the risk factors for SIDS, so keeping it cool is a safety thing too."
+            ]
+          },
+          {
+            "h": "Light",
+            "p": [
+              "Light is the single most powerful signal your baby's brain uses to determine day versus night. During the day, let natural light in. Open those curtains. Take your baby outside. But at least 30 minutes before bedtime, dim EVERYTHING. No bright screens, no overhead lights. Use warm, dim lighting only.",
+              "For the bedroom, I strongly recommend blackout curtains. Not the kind that kind of block light — the kind where you can't see your hand in front of your face. Even small amounts of light can suppress melatonin production. This one change alone has helped thousands of moms I've talked to."
+            ]
+          },
+          {
+            "h": "Sound",
+            "p": [
+              "White noise is a game changer. And there's actual science behind it. Inside your womb, your baby heard constant noise — your heartbeat, your blood flowing, your digestion. It was about as loud as a vacuum cleaner. So silence is actually strange for them.",
+              "Use continuous white noise — not ocean waves, not lullabies that stop after 30 minutes. Continuous, steady white noise, about as loud as a shower running. Play it for ALL sleep — naps and nighttime. It becomes a powerful sleep cue."
+            ]
+          },
+          {
+            "h": "Safe sleep checklist",
+            "p": [
+              "Before we move on, let's do a quick safe sleep check. Baby sleeps on their back, on a firm flat mattress, with nothing in the crib — no pillows, blankets, bumpers, or stuffed animals. Use a sleep sack instead of a blanket. Keep the room cool. And the crib should be in your room for the first 6 months if possible.",
+              "Now you have the perfect sleep environment. In the next lesson, we're going to build the bedtime routine that turns this environment into a sleep trigger. See you there, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "The bedtime routine that actually works",
         "duration": "± 7 min",
         "desc": "A calming, repeatable routine your baby will learn to recognize and love.",
-        "vedaPrompt": "I just watched Lesson 3 of the 3-Night Sleep Reset course (the bedtime routine). Can you help me design a realistic bedtime routine for my baby and our family situation?"
+        "vedaPrompt": "I just watched Lesson 3 of the 3-Night Sleep Reset course (the bedtime routine). Can you help me design a realistic bedtime routine for my baby and our family situation?",
+        "script": [
+          {
+            "h": "Why routine matters",
+            "p": [
+              "Okay mama, this is where it gets exciting. A consistent bedtime routine is the single most effective tool for improving baby sleep. Research shows that babies who have a consistent bedtime routine fall asleep faster, wake less during the night, and have better sleep quality overall.",
+              "Why? Because a routine tells your baby's brain: sleep is coming. After a few days of the same sequence, their body actually starts producing melatonin DURING the routine. It's like Pavlov's dog, but for sleep. And it's beautiful."
+            ]
+          },
+          {
+            "h": "The 4-step routine",
+            "p": [
+              "Here's the routine I recommend. It takes about 20-30 minutes total:",
+              "Step 1: Bath. Not because they're dirty — because warm water raises body temperature, and when they get out, the temperature drop triggers sleepiness. Keep it calm, warm, and short — 5-10 minutes.",
+              "Step 2: Pajamas and sleep sack in the dim bedroom. Not in the living room, not in the bathroom — in the bedroom where they'll sleep. The room is already dark, white noise is already on.",
+              "Step 3: Feed. Whether breast or bottle, this is the last feed of the day. Try to keep your baby awake during this feed. I know, it's hard. But here's why it matters: we want them to go INTO the crib drowsy but awake, not already asleep.",
+              "Step 4: Book and lullaby. One short book, one lullaby, then into the crib. Say the same phrase every night: Goodnight, I love you. Time to sleep. This phrase becomes your baby's final sleep cue."
+            ]
+          },
+          {
+            "h": "The magic of drowsy but awake",
+            "p": [
+              "You've probably heard this phrase and thought that's impossible. I get it. But here's what drowsy but awake actually means: it means your baby's eyes are getting heavy, they're calm and relaxed, maybe their eyes are fluttering — but they're not fully asleep yet.",
+              "Why does this matter? Because when your baby falls asleep in the crib instead of in your arms, they learn to connect their sleep cycles independently. When they wake at 2am between cycles, they can put themselves back to sleep because the last thing they remember is being in this crib, with this white noise, in this dark room."
+            ]
+          },
+          {
+            "h": "When it doesn't work (and that's okay)",
+            "p": [
+              "Some nights, drowsy but awake won't work. Your baby will cry. When that happens, pick them up. Comfort them. Shush them. Rock them until they're calm again. Then try putting them down again. If it takes 5 attempts, that's fine. If it takes 10, that's fine too.",
+              "This is NOT cry-it-out. You are ALWAYS there. You are ALWAYS responding. You're simply giving your baby the opportunity to practice falling asleep. Some babies get it the first night. Some take a week. Both are normal."
+            ]
+          },
+          {
+            "h": "Getting ready for night 1",
+            "p": [
+              "Tomorrow we start the actual 3-night reset. Here's what you need to prepare: Blackout curtains are up. White noise machine is ready. Sleep sack is laid out. Bath supplies in the bathroom. A dim lamp or nightlight for the bedroom.",
+              "And most importantly — prepare yourself mentally. The first night might be hard. You might doubt yourself. You might want to give up at midnight. That's normal. But remember: you're teaching your baby one of the most important life skills. And I'll be right there with you in the next lesson, walking you through every step. You've got this, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "Night 1 and Night 2 — the reset begins",
         "duration": "± 8 min",
         "desc": "Putting it all together: what to do, what to expect, and how to stay calm.",
-        "vedaPrompt": "I just watched Lesson 4 of the 3-Night Sleep Reset course (nights 1 and 2). We're starting the reset — can you coach me through it and help me handle the tough moments tonight?"
+        "vedaPrompt": "I just watched Lesson 4 of the 3-Night Sleep Reset course (nights 1 and 2). We're starting the reset — can you coach me through it and help me handle the tough moments tonight?",
+        "script": [
+          {
+            "h": "It's time",
+            "p": [
+              "Okay mama, this is it. Tonight we start. I'm going to walk you through exactly what to do, step by step, so there's no guessing. You can even play this lesson while you're doing the routine if you want."
+            ]
+          },
+          {
+            "h": "Timing is everything",
+            "p": [
+              "First, let's talk about bedtime. For babies 4-8 months, aim for a bedtime between 6:30 and 7:30 PM. I know that sounds early, but here's the thing: an earlier bedtime often means LONGER sleep, not shorter. That's because you're catching the natural melatonin wave instead of fighting cortisol.",
+              "Watch for those sleepy cues you observed — yawning, eye rubbing, staring into space. When you see them, it's go time. Start the routine immediately."
+            ]
+          },
+          {
+            "h": "Night 1 — step by step",
+            "p": [
+              "Follow the 4-step routine from Lesson 3: Bath, pajamas in the dark room, feed, book and lullaby. Say your goodnight phrase. Put your baby in the crib drowsy but awake.",
+              "If your baby fusses: wait 30 seconds. Just 30 seconds. Often they'll settle on their own. If the fussing escalates to crying: pick them up, comfort them until they're calm (not asleep), then put them back down. Repeat as many times as needed.",
+              "The first night average is 20-40 minutes of this back-and-forth before they fall asleep. It feels like forever. It's not. And you are right there the entire time. Your baby is safe. Your baby is loved. Your baby is learning."
+            ]
+          },
+          {
+            "h": "Night wakings",
+            "p": [
+              "When your baby wakes during the night — and they will — here's the protocol:",
+              "Wait 1-2 minutes before going in. Sometimes babies make noise between sleep cycles and resettle on their own. If they're truly awake and crying, go in. Keep the lights OFF. Don't talk much — just soft shushing. If it's been more than 3 hours since the last feed, it's probably a hunger wake — feed them and put them back down. If it's been less than 3 hours, try comforting without feeding first. Rub their tummy, shush, offer a pacifier if they use one."
+            ]
+          },
+          {
+            "h": "Night 2 — it gets easier",
+            "p": [
+              "Night 2 is usually better. Not always, but usually. Your baby is starting to recognize the pattern. The routine feels more familiar. The crib feels more familiar. The white noise is becoming a sleep trigger.",
+              "Follow the exact same steps as Night 1. Consistency is EVERYTHING here. Even if Night 1 was terrible, do NOT change the plan. Don't add rocking. Don't add driving around the block. Stick with the routine. Your baby's brain needs repetition to form the new association.",
+              "Most moms report that Night 2 takes about half the time of Night 1 to settle. Some moms see dramatic improvement. Some see small improvement. Both are progress."
+            ]
+          },
+          {
+            "h": "Be kind to yourself",
+            "p": [
+              "Before we wrap up, I need you to hear this: you are not failing if this is hard. You are not failing if you cry. You are not failing if you pick up your baby and rock them to sleep at 3am because you just can't do it anymore tonight.",
+              "This is a RESET, not a rigid program. If you need to pause and try again tomorrow, that's okay. Progress isn't linear. The fact that you're trying means you're an amazing mom. I'll see you tomorrow for Night 3 and beyond. You're doing incredible, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "Night 3 and beyond — making it stick",
         "duration": "± 6 min",
         "desc": "Keeping the progress: consistency, setbacks, regressions, and life happening.",
-        "vedaPrompt": "I just watched Lesson 5 of the 3-Night Sleep Reset course (making it stick). Can you help me make a plan to keep our sleep progress going, even through regressions, illness, and travel?"
+        "vedaPrompt": "I just watched Lesson 5 of the 3-Night Sleep Reset course (making it stick). Can you help me make a plan to keep our sleep progress going, even through regressions, illness, and travel?",
+        "script": [
+          {
+            "h": "You made it",
+            "p": [
+              "Mama. You made it to Night 3. Whether you've had two perfect nights or two chaotic nights — you showed up. That's what matters. Let me tell you what to expect from here."
+            ]
+          },
+          {
+            "h": "Night 3 — the breakthrough",
+            "p": [
+              "Night 3 is typically when things click. Your baby has now experienced the same routine three times. Their brain is starting to predict what comes next. Bath means pajamas. Pajamas mean feeding. Feeding means book. Book means crib. Crib means sleep.",
+              "Follow the same steps. Same time. Same order. Same phrase. Many moms see their baby settle in under 10 minutes on Night 3. Some even see their baby fall asleep before the lullaby is finished. That's the magic of consistency."
+            ]
+          },
+          {
+            "h": "Handling setbacks",
+            "p": [
+              "Here's what nobody tells you: even after the reset works, there will be bad nights. Teething, illness, travel, sleep regressions, growth spurts — all of these can temporarily disrupt sleep. This is NOT you losing progress. This is normal baby life.",
+              "When a setback happens, go back to basics. Return to the routine. Be consistent. Most setbacks resolve in 3-5 days if you stay the course. If sleep problems persist for more than 2 weeks, talk to your pediatrician — sometimes there's an underlying issue like reflux or ear infection."
+            ]
+          },
+          {
+            "h": "Naps",
+            "p": [
+              "I know I've focused on nighttime, but let me give you a quick nap guide too. For 4-6 month olds: aim for 3 naps per day with 1.5-2 hour wake windows. For 7-9 month olds: 2 naps per day with 2.5-3 hour wake windows. For 10-12 month olds: 2 naps transitioning to 1, with 3-4 hour wake windows.",
+              "Use a shorter version of the bedtime routine for naps — skip the bath, but keep the dark room, white noise, sleep sack, and a quick book. Consistency across all sleep helps reinforce the pattern."
+            ]
+          },
+          {
+            "h": "You are incredible",
+            "p": [
+              "Mama, I am so proud of you. Not because your baby is sleeping perfectly — but because you showed up for yourself and your baby when you were at your most exhausted. That takes strength that only a mother has.",
+              "Remember: there is no perfect mom. There is no perfect sleeper. There is only you, doing your best, one night at a time. And your best is more than enough.",
+              "If you ever need to talk — about sleep, about motherhood, about anything — I'm here. Just open MomzVeda and chat with me anytime. That's what I'm here for.",
+              "Sweet dreams to you and your little one. You've got this, mama. Always."
+            ]
+          }
+        ]
       }
     ]
   }

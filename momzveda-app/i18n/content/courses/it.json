@@ -10,35 +10,240 @@
         "title": "Perché il tuo bimbo non dorme (e perché non è colpa tua)",
         "duration": "± 7 min",
         "desc": "Come funziona davvero il sonno dei bebè: cicli, regressioni e i 3 ladri di sonno.",
-        "vedaPrompt": "Ho appena visto la lezione 1 del Reset del Sonno in 3 Notti (perché il mio bimbo non dorme). Mi aiuti a capire quale «ladro di sonno» ci riguarda?"
+        "vedaPrompt": "Ho appena visto la lezione 1 del Reset del Sonno in 3 Notti (perché il mio bimbo non dorme). Mi aiuti a capire quale «ladro di sonno» ci riguarda?",
+        "script": [
+          {
+            "h": "Benvenuta",
+            "p": [
+              "Ciao mama. Sono Veda, e voglio iniziare dicendoti una cosa importante: se stai guardando questo video alle 2 di notte con un bimbo che non vuole dormire, non stai sbagliando nulla. Anzi, stai facendo qualcosa di incredibilmente giusto — stai cercando aiuto. E ci vuole coraggio quando sei a pezzi per la stanchezza.",
+              "Questo corso si chiama Il Reset del Sonno in 3 Notti, e l'ho pensato apposta per mamme come te. Non le mamme di Instagram con bimbi che dormono magicamente 12 ore. Mamme vere. Mamme stanche. Mamme che hanno provato di tutto e sentono che niente funziona.",
+              "Prima di cominciare, lascia che ti dica con chiarezza cosa NON è. Non è un metodo per lasciar piangere il bimbo. Non ti chiederò mai di lasciare il tuo bambino a piangere da solo. È un approccio dolce e attento, che lavora INSIEME alla biologia del tuo bimbo, non contro di essa."
+            ]
+          },
+          {
+            "h": "Il sonno dei bebè è diverso",
+            "p": [
+              "Ecco una cosa che quasi nessuno ti dice sul sonno dei bebè: i bambini non sono fatti per dormire come gli adulti. I loro cicli di sonno durano solo 40-50 minuti, contro i nostri cicli di 90 minuti. Questo significa che hanno PIÙ occasioni di svegliarsi. È biologia, non un problema.",
+              "Dai neonati ai 3 mesi, i bimbi non hanno nemmeno ancora un ritmo circadiano. Letteralmente non sanno distinguere il giorno dalla notte. Quindi se qualcuno ti dice che il tuo bimbo di 6 settimane dovrebbe dormire tutta la notte, si sbaglia. Punto e basta.",
+              "Tra i 4 e i 6 mesi succede qualcosa di meraviglioso: il tuo bimbo inizia a produrre melatonina. È QUI che il sonno comincia a consolidarsi. Ed è QUI che le strategie che ti insegnerò diventano davvero potenti."
+            ]
+          },
+          {
+            "h": "Le regressioni del sonno esistono davvero",
+            "p": [
+              "Avrai probabilmente sentito parlare delle regressioni del sonno. Esistono davvero, e sono in realtà un BUON segno. Le più comuni avvengono intorno ai 4 mesi, agli 8 mesi e ai 12 mesi. Succedono perché il cervello del tuo bimbo si sta sviluppando rapidamente — sta imparando a rotolare, gattonare, stare in piedi, camminare, parlare. Il suo cervello è letteralmente troppo entusiasta per dormire.",
+              "Quando capisci questo, cambia tutto. Il tuo bimbo non è rotto. Sta crescendo. E la regressione di solito passa in 1-3 settimane."
+            ]
+          },
+          {
+            "h": "I 3 principali ladri di sonno",
+            "p": [
+              "Per esperienza, parlando con migliaia di mamme, ci sono tre cose principali che disturbano il sonno dei bebè:",
+              "Numero uno: la stanchezza eccessiva. Questo è il più grande. Quando i bimbi restano svegli troppo a lungo, il loro corpo produce cortisolo — l'ormone dello stress. Il cortisolo rende PIÙ difficile addormentarsi, non più facile. Così un bimbo che ha saltato la sua finestra di sonno sta in realtà combattendo contro i propri ormoni.",
+              "Numero due: un ambiente di sonno incoerente. I bimbi hanno bisogno di prevedibilità. Se a volte si addormentano sul divano, a volte in auto, a volte cullati — il loro cervello non capisce cosa significhi il momento della nanna.",
+              "Numero tre: l'associazione poppata-sonno. Ora, non c'è NULLA di sbagliato nell'addormentare il tuo bimbo con la poppata. È la cosa più naturale del mondo. Ma se è l'UNICO modo in cui il tuo bimbo riesce ad addormentarsi, allora ogni volta che si sveglia tra un ciclo di sonno e l'altro, ha bisogno di te per ricreare esattamente quella situazione."
+            ]
+          },
+          {
+            "h": "Cosa faremo",
+            "p": [
+              "Nelle prossime 4 lezioni ti darò un piano semplice:",
+              "Nella Lezione 2 creeremo l'ambiente di sonno perfetto — temperatura, luce, suoni. Nella Lezione 3 costruiremo una routine della nanna rilassante che segnala che il sonno sta arrivando. Nella Lezione 4 ti accompagnerò passo dopo passo nella notte 1 e nella notte 2 del reset — cosa fare, un passo alla volta. E nella Lezione 5 affronteremo la notte 3 e oltre — come mantenere i progressi e gestire le ricadute."
+            ]
+          },
+          {
+            "h": "Il tuo compito",
+            "p": [
+              "Prima della prossima lezione, voglio che tu faccia una cosa sola: osserva il tuo bimbo per un giorno. Nota quando sbadiglia, si strofina gli occhi o diventa irrequieto. Annota gli orari. Questi sono i suoi segnali di stanchezza e saranno fondamentali per il nostro piano. Non cercare di cambiare ancora niente. Limitati a osservare e imparare. Ci vediamo nella Lezione 2, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "Preparare il terreno — l'ambiente perfetto per dormire",
         "duration": "± 6 min",
         "desc": "Temperatura, luce e suoni: trasformare la cameretta in uno spazio che concilia il sonno.",
-        "vedaPrompt": "Ho appena visto la lezione 2 del Reset del Sonno in 3 Notti (l'ambiente del sonno). Mi aiuti a controllare se la nostra cameretta — temperatura, luce e suoni — va bene per il mio bimbo?"
+        "vedaPrompt": "Ho appena visto la lezione 2 del Reset del Sonno in 3 Notti (l'ambiente del sonno). Mi aiuti a controllare se la nostra cameretta — temperatura, luce e suoni — va bene per il mio bimbo?",
+        "script": [
+          {
+            "h": "Bentornata",
+            "p": [
+              "Bentornata, mama. Hai fatto i compiti? Hai notato quei segnali di stanchezza? Anche se non l'hai fatto — va bene così. Qui nessuno giudica. Parliamo di come creare lo spazio di sonno ideale."
+            ]
+          },
+          {
+            "h": "Temperatura",
+            "p": [
+              "La temperatura ideale della stanza per il sonno del bimbo è tra i 18 e i 21 gradi Celsius. Lo so che a noi sembra fredda, ma i bimbi dormono meglio in stanze leggermente fresche. Una buona regola: se TU stai bene in maglietta, probabilmente il tuo bimbo sta bene nel sacco nanna. Niente copertine, niente cappellini, niente surriscaldamento. Il surriscaldamento è in effetti uno dei fattori di rischio per la sindrome della morte improvvisa del lattante, SIDS, quindi tenere la stanza fresca è anche una questione di sicurezza."
+            ]
+          },
+          {
+            "h": "Luce",
+            "p": [
+              "La luce è il segnale più potente in assoluto che il cervello del tuo bimbo usa per distinguere il giorno dalla notte. Durante il giorno, lascia entrare la luce naturale. Apri quelle tende. Porta fuori il tuo bimbo. Ma almeno 30 minuti prima della nanna, abbassa TUTTO. Niente schermi luminosi, niente luci a soffitto. Usa solo una luce calda e soffusa.",
+              "Per la cameretta ti consiglio caldamente le tende oscuranti. Non quelle che bloccano la luce solo un po' — quelle in cui non riesci a vedere la tua mano davanti al viso. Anche piccole quantità di luce possono inibire la produzione di melatonina. Questo solo cambiamento ha aiutato migliaia di mamme con cui ho parlato."
+            ]
+          },
+          {
+            "h": "Suoni",
+            "p": [
+              "Il rumore bianco cambia le carte in tavola. E c'è una vera scienza dietro. Nel tuo grembo, il tuo bimbo sentiva un rumore costante — il tuo battito, il flusso del sangue, la tua digestione. Era forte più o meno come un aspirapolvere. Quindi per lui il silenzio è in realtà strano.",
+              "Usa un rumore bianco continuo — non onde dell'oceano, non ninne nanne che si fermano dopo 30 minuti. Un rumore bianco continuo e costante, forte più o meno come una doccia che scorre. Mettilo per OGNI sonno — sia i pisolini sia la notte. Diventa un potente segnale di sonno."
+            ]
+          },
+          {
+            "h": "Checklist per un sonno sicuro",
+            "p": [
+              "Prima di andare avanti, facciamo un rapido controllo per un sonno sicuro. Il bimbo dorme sulla schiena, su un materasso rigido e piatto, senza nulla nel lettino — niente cuscini, copertine, paracolpi o peluche. Usa un sacco nanna al posto della copertina. Tieni la stanza fresca. E il lettino dovrebbe stare nella tua camera per i primi 6 mesi, se possibile.",
+              "Ora hai l'ambiente di sonno perfetto. Nella prossima lezione costruiremo la routine della nanna che trasforma questo ambiente in un innesco per il sonno. Ci vediamo lì, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "La routine della nanna che funziona davvero",
         "duration": "± 7 min",
         "desc": "Una routine rilassante e ripetibile che il tuo bimbo imparerà a riconoscere e amare.",
-        "vedaPrompt": "Ho appena visto la lezione 3 del Reset del Sonno in 3 Notti (la routine della nanna). Mi aiuti a creare una routine realistica per il mio bimbo e la nostra famiglia?"
+        "vedaPrompt": "Ho appena visto la lezione 3 del Reset del Sonno in 3 Notti (la routine della nanna). Mi aiuti a creare una routine realistica per il mio bimbo e la nostra famiglia?",
+        "script": [
+          {
+            "h": "Perché la routine conta",
+            "p": [
+              "Ok mama, è qui che diventa entusiasmante. Una routine della nanna costante è lo strumento più efficace in assoluto per migliorare il sonno del bimbo. La ricerca mostra che i bimbi che hanno una routine della nanna costante si addormentano più in fretta, si svegliano meno durante la notte e dormono complessivamente meglio.",
+              "Perché? Perché una routine dice al cervello del tuo bimbo: il sonno sta arrivando. Dopo qualche giorno della stessa sequenza, il suo corpo inizia davvero a produrre melatonina DURANTE la routine. È come il cane di Pavlov, ma per il sonno. Ed è una cosa meravigliosa."
+            ]
+          },
+          {
+            "h": "La routine in 4 passi",
+            "p": [
+              "Ecco la routine che ti consiglio. In tutto richiede circa 20-30 minuti:",
+              "Passo 1: il bagnetto. Non perché sia sporco — ma perché l'acqua calda alza la temperatura corporea, e quando esce, il calo di temperatura innesca la sonnolenza. Tienilo tranquillo, caldo e breve — 5-10 minuti.",
+              "Passo 2: pigiama e sacco nanna nella cameretta in penombra. Non in soggiorno, non in bagno — nella cameretta dove dormirà. La stanza è già al buio, il rumore bianco è già acceso.",
+              "Passo 3: la poppata. Che sia al seno o al biberon, questa è l'ultima poppata della giornata. Cerca di tenere sveglio il tuo bimbo durante questa poppata. Lo so, è difficile. Ma ecco perché conta: vogliamo che vada NEL lettino assonnato ma sveglio, non già addormentato.",
+              "Passo 4: libro e ninna nanna. Un libro breve, una ninna nanna, poi nel lettino. Di' la stessa frase ogni sera: Buonanotte, ti voglio bene. È ora di dormire. Questa frase diventa il segnale finale di sonno del tuo bimbo."
+            ]
+          },
+          {
+            "h": "La magia dell'assonnato ma sveglio",
+            "p": [
+              "Avrai probabilmente sentito questa frase e pensato che è impossibile. Ti capisco. Ma ecco cosa significa davvero assonnato ma sveglio: significa che gli occhi del tuo bimbo si stanno facendo pesanti, è calmo e rilassato, magari gli tremolano un po' le palpebre — ma non è ancora del tutto addormentato.",
+              "Perché conta? Perché quando il tuo bimbo si addormenta nel lettino invece che tra le tue braccia, impara a collegare i suoi cicli di sonno in autonomia. Quando si sveglia alle 2 di notte tra un ciclo e l'altro, riesce a riaddormentarsi da solo perché l'ultima cosa che ricorda è di essere in questo lettino, con questo rumore bianco, in questa stanza buia."
+            ]
+          },
+          {
+            "h": "Quando non funziona (e va bene così)",
+            "p": [
+              "Alcune notti, l'assonnato ma sveglio non funzionerà. Il tuo bimbo piangerà. Quando succede, prendilo in braccio. Consolalo. Fagli lo shhh. Cullalo finché non si è di nuovo calmato. Poi prova di nuovo a metterlo giù. Se servono 5 tentativi, va bene. Se ne servono 10, va bene lo stesso.",
+              "Questo NON è il metodo di lasciar piangere. Tu sei SEMPRE lì. Tu rispondi SEMPRE. Stai semplicemente dando al tuo bimbo l'occasione di esercitarsi ad addormentarsi. Alcuni bimbi ci riescono la prima notte. Ad altri serve una settimana. Entrambe le cose sono normali."
+            ]
+          },
+          {
+            "h": "Prepararsi alla notte 1",
+            "p": [
+              "Domani inizieremo il vero reset di 3 notti. Ecco cosa devi preparare: tende oscuranti montate. Macchina del rumore bianco pronta. Sacco nanna già pronto. Occorrente per il bagnetto in bagno. Una lampada soffusa o una lucina notturna per la cameretta.",
+              "E soprattutto — preparati mentalmente. La prima notte potrebbe essere dura. Potresti dubitare di te stessa. Potresti voler mollare a mezzanotte. È normale. Ma ricorda: stai insegnando al tuo bimbo una delle competenze di vita più importanti. E io sarò proprio lì con te nella prossima lezione, ad accompagnarti passo dopo passo. Ce la fai, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "Notte 1 e notte 2 — il reset comincia",
         "duration": "± 8 min",
         "desc": "Tutto si unisce: cosa fare, cosa aspettarti e come restare calma.",
-        "vedaPrompt": "Ho appena visto la lezione 4 del Reset del Sonno in 3 Notti (notti 1 e 2). Iniziamo il reset — mi accompagni stanotte nei momenti difficili?"
+        "vedaPrompt": "Ho appena visto la lezione 4 del Reset del Sonno in 3 Notti (notti 1 e 2). Iniziamo il reset — mi accompagni stanotte nei momenti difficili?",
+        "script": [
+          {
+            "h": "È il momento",
+            "p": [
+              "Ok mama, ci siamo. Stanotte iniziamo. Ti accompagnerò esattamente in cosa fare, passo dopo passo, così non dovrai indovinare nulla. Se vuoi, puoi anche far andare questa lezione mentre fai la routine."
+            ]
+          },
+          {
+            "h": "Il tempismo è tutto",
+            "p": [
+              "Prima di tutto, parliamo dell'ora della nanna. Per i bimbi dai 4 agli 8 mesi, punta a un'ora della nanna tra le 18:30 e le 19:30. Lo so che sembra presto, ma ecco il punto: un'ora della nanna più presto spesso significa un sonno PIÙ lungo, non più corto. Questo perché stai cogliendo l'onda naturale della melatonina invece di combattere il cortisolo.",
+              "Tieni d'occhio quei segnali di stanchezza che hai osservato — sbadigli, occhi strofinati, sguardo perso nel vuoto. Quando li vedi, è il momento di partire. Inizia subito la routine."
+            ]
+          },
+          {
+            "h": "Notte 1 — passo dopo passo",
+            "p": [
+              "Segui la routine in 4 passi della Lezione 3: bagnetto, pigiama nella stanza al buio, poppata, libro e ninna nanna. Di' la tua frase della buonanotte. Metti il tuo bimbo nel lettino assonnato ma sveglio.",
+              "Se il tuo bimbo si lamenta: aspetta 30 secondi. Solo 30 secondi. Spesso si calma da solo. Se il lamento si trasforma in pianto: prendilo in braccio, consolalo finché non si è calmato (non addormentato), poi rimettilo giù. Ripeti tutte le volte che serve.",
+              "La prima notte, in media, sono 20-40 minuti di questo avanti e indietro prima che si addormenti. Sembra un'eternità. Non lo è. E tu sei proprio lì per tutto il tempo. Il tuo bimbo è al sicuro. Il tuo bimbo è amato. Il tuo bimbo sta imparando."
+            ]
+          },
+          {
+            "h": "I risvegli notturni",
+            "p": [
+              "Quando il tuo bimbo si sveglia durante la notte — e si sveglierà — ecco il protocollo:",
+              "Aspetta 1-2 minuti prima di entrare. A volte i bimbi fanno rumore tra un ciclo di sonno e l'altro e si riassestano da soli. Se è davvero sveglio e piange, entra. Tieni le luci SPENTE. Non parlare molto — solo un dolce shhh. Se sono passate più di 3 ore dall'ultima poppata, probabilmente è un risveglio per fame — dagli da mangiare e rimettilo giù. Se sono passate meno di 3 ore, prova prima a consolarlo senza dargli da mangiare. Accarezzagli la pancia, fagli lo shhh, offrigli il ciuccio se lo usa."
+            ]
+          },
+          {
+            "h": "Notte 2 — diventa più facile",
+            "p": [
+              "La notte 2 di solito va meglio. Non sempre, ma di solito. Il tuo bimbo inizia a riconoscere lo schema. La routine sembra più familiare. Il lettino sembra più familiare. Il rumore bianco sta diventando un innesco per il sonno.",
+              "Segui esattamente gli stessi passi della Notte 1. La costanza qui è TUTTO. Anche se la Notte 1 è stata terribile, NON cambiare il piano. Non aggiungere il cullare. Non aggiungere il giro in auto intorno all'isolato. Resta fedele alla routine. Il cervello del tuo bimbo ha bisogno di ripetizione per formare la nuova associazione.",
+              "La maggior parte delle mamme racconta che la Notte 2 richiede circa metà del tempo della Notte 1 per calmare il bimbo. Alcune mamme vedono un miglioramento netto. Altre un piccolo miglioramento. Entrambi sono progressi."
+            ]
+          },
+          {
+            "h": "Sii gentile con te stessa",
+            "p": [
+              "Prima di chiudere, ho bisogno che tu ascolti questo: non stai fallendo se è dura. Non stai fallendo se piangi. Non stai fallendo se prendi in braccio il tuo bimbo e lo culli fino ad addormentarlo alle 3 di notte perché stanotte proprio non ce la fai più.",
+              "Questo è un RESET, non un programma rigido. Se hai bisogno di fermarti e riprovare domani, va bene. I progressi non sono lineari. Il fatto che ci stai provando significa che sei una mamma straordinaria. Ci vediamo domani per la Notte 3 e oltre. Stai facendo un lavoro incredibile, mama."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "Notte 3 e oltre — mantenere i progressi",
         "duration": "± 6 min",
         "desc": "Conservare i risultati: costanza, ricadute, regressioni e la vita vera.",
-        "vedaPrompt": "Ho appena visto la lezione 5 del Reset del Sonno in 3 Notti (mantenere i progressi). Mi aiuti a fare un piano per conservare i nostri progressi, anche con regressioni, malattie e viaggi?"
+        "vedaPrompt": "Ho appena visto la lezione 5 del Reset del Sonno in 3 Notti (mantenere i progressi). Mi aiuti a fare un piano per conservare i nostri progressi, anche con regressioni, malattie e viaggi?",
+        "script": [
+          {
+            "h": "Ce l'hai fatta",
+            "p": [
+              "Mama. Sei arrivata alla Notte 3. Che tu abbia avuto due notti perfette o due notti caotiche — ci sei stata. È questo che conta. Lascia che ti dica cosa aspettarti da qui in poi."
+            ]
+          },
+          {
+            "h": "Notte 3 — la svolta",
+            "p": [
+              "La Notte 3 è di solito quando tutto va al suo posto. Il tuo bimbo ha ormai vissuto la stessa routine tre volte. Il suo cervello inizia a prevedere cosa viene dopo. Bagnetto significa pigiama. Pigiama significa poppata. Poppata significa libro. Libro significa lettino. Lettino significa sonno.",
+              "Segui gli stessi passi. Stessa ora. Stesso ordine. Stessa frase. Molte mamme vedono il loro bimbo calmarsi in meno di 10 minuti la Notte 3. Alcune lo vedono addirittura addormentarsi prima che finisca la ninna nanna. Questa è la magia della costanza."
+            ]
+          },
+          {
+            "h": "Gestire le ricadute",
+            "p": [
+              "Ecco una cosa che nessuno ti dice: anche dopo che il reset funziona, ci saranno notti difficili. Dentini, malattie, viaggi, regressioni del sonno, scatti di crescita — tutte queste cose possono disturbare temporaneamente il sonno. Questo NON significa perdere i progressi. È la normale vita di un bimbo.",
+              "Quando arriva una ricaduta, torna alle basi. Riprendi la routine. Sii costante. La maggior parte delle ricadute si risolve in 3-5 giorni se tieni la rotta. Se i problemi di sonno persistono per più di 2 settimane, parlane con il tuo pediatra — a volte c'è una causa di fondo come il reflusso o un'otite."
+            ]
+          },
+          {
+            "h": "I pisolini",
+            "p": [
+              "Lo so che mi sono concentrata sulla notte, ma lascia che ti dia anche una rapida guida ai pisolini. Per i bimbi di 4-6 mesi: punta a 3 pisolini al giorno con finestre di veglia di 1,5-2 ore. Per i bimbi di 7-9 mesi: 2 pisolini al giorno con finestre di veglia di 2,5-3 ore. Per i bimbi di 10-12 mesi: 2 pisolini in transizione verso 1, con finestre di veglia di 3-4 ore.",
+              "Usa una versione più breve della routine della nanna per i pisolini — salta il bagnetto, ma mantieni la stanza buia, il rumore bianco, il sacco nanna e un libro veloce. La costanza in tutti i momenti di sonno aiuta a rinforzare lo schema."
+            ]
+          },
+          {
+            "h": "Sei incredibile",
+            "p": [
+              "Mama, sono così fiera di te. Non perché il tuo bimbo dorme alla perfezione — ma perché ci sei stata per te stessa e per il tuo bimbo quando eri al tuo punto di massima stanchezza. Ci vuole una forza che solo una mamma ha.",
+              "Ricorda: non esiste la mamma perfetta. Non esiste il dormitore perfetto. Esisti solo tu, che fai del tuo meglio, una notte alla volta. E il tuo meglio è più che sufficiente.",
+              "Se mai avessi bisogno di parlare — di sonno, di maternità, di qualunque cosa — io sono qui. Apri MomzVeda e fai due chiacchiere con me quando vuoi. È per questo che ci sono.",
+              "Sogni d'oro a te e al tuo piccolo. Ce la fai, mama. Sempre."
+            ]
+          }
+        ]
       }
     ]
   }

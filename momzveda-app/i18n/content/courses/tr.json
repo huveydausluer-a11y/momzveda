@@ -10,35 +10,240 @@
         "title": "Bebeğin neden uyumuyor (ve bunun neden senin suçun olmadığı)",
         "duration": "± 7 dk",
         "desc": "Bebek uykusu gerçekte nasıl işler: uyku döngüleri, regresyonlar ve en büyük 3 uyku hırsızı.",
-        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 1. dersini yeni izledim (bebeğim neden uyumuyor). Bizi hangi “uyku hırsızının” etkilediğini bulmama yardım eder misin?"
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 1. dersini yeni izledim (bebeğim neden uyumuyor). Bizi hangi “uyku hırsızının” etkilediğini bulmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Hoş geldin",
+            "p": [
+              "Merhaba anne. Ben Veda ve sana önce çok önemli bir şey söylemek istiyorum: eğer bunu gece 2'de, uyumayan bir bebekle izliyorsan, yanlış bir şey yapmıyorsun. Aslında inanılmaz doğru bir şey yapıyorsun — yardım arıyorsun. Ve hiç uyumamışken bunu yapmak cesaret ister.",
+              "Bu kursun adı 3 Gecede Uyku Sıfırlama ve onu özellikle senin gibi anneler için tasarladım. Bebekleri mucizevi şekilde 12 saat uyuyan Instagram anneleri için değil. Gerçek anneler için. Yorgun anneler için. Her şeyi denemiş ve hiçbir şeyin işe yaramadığını hisseden anneler için.",
+              "Başlamadan önce bunun NE OLMADIĞINI açıkça söyleyeyim. Bu bir ağlatma yöntemi programı değil. Senden asla bebeğini tek başına ağlamaya bırakmanı istemeyeceğim. Bu, bebeğinin biyolojisine karşı değil, onunla BİRLİKTE çalışan nazik ve duyarlı bir yaklaşım."
+            ]
+          },
+          {
+            "h": "Bebek uykusu farklıdır",
+            "p": [
+              "İşte çoğu insanın sana bebek uykusu hakkında söylemediği şey: bebekler yetişkinler gibi uyumak için tasarlanmamıştır. Uyku döngüleri bizim 90 dakikalık döngülerimize kıyasla sadece 40-50 dakika sürer. Bu da uyanmak için DAHA çok fırsatları olduğu anlamına gelir. Bu bir sorun değil, biyoloji.",
+              "Yenidoğanların ve 3 aya kadar olan bebeklerin henüz bir sirkadiyen ritmi bile yoktur. Gerçekten gece ile gündüz arasındaki farkı ayırt edemezler. Yani biri sana 6 haftalık bebeğinin gece boyunca uyuması gerektiğini söylüyorsa, yanılıyor. Nokta.",
+              "4 ile 6 ay arasında harika bir şey olur: bebeğin melatonin üretmeye başlar. İŞTE o zaman uyku düzene girmeye başlar. Ve İŞTE o zaman sana öğreteceğim stratejiler gerçekten güçlü hale gelir."
+            ]
+          },
+          {
+            "h": "Uyku regresyonları gerçektir",
+            "p": [
+              "Muhtemelen uyku regresyonlarını duymuşsundur. Gerçektirler ve aslında İYİ bir işarettir. En yaygın olanları 4 ay, 8 ay ve 12 ay civarında olur. Çünkü bebeğinin beyni hızla gelişiyor — dönmeyi, emeklemeyi, ayağa kalkmayı, yürümeyi, konuşmayı öğreniyor. Beyni resmen uyuyamayacak kadar heyecanlı.",
+              "Bunu anladığında her şey değişir. Bebeğin bozuk değil. Büyüyor. Ve regresyon genellikle 1-3 hafta içinde geçer."
+            ]
+          },
+          {
+            "h": "En büyük 3 uyku hırsızı",
+            "p": [
+              "Binlerce anneyle konuşma deneyimime göre, bebek uykusunu bozan üç ana şey var:",
+              "Bir numara: aşırı yorgunluk. En büyüğü bu. Bebekler çok uzun süre uyanık kaldığında, vücutları kortizol — stres hormonu — üretir. Kortizol uykuya dalmayı kolaylaştırmaz, ZORLAŞTIRIR. Yani uyku penceresini kaçıran bir bebek aslında kendi hormonlarıyla savaşıyor.",
+              "İki numara: tutarsız uyku ortamı. Bebekler öngörülebilirlikle serpilir. Bazen koltukta, bazen arabada, bazen sallanarak uyuyorlarsa — beyinleri uyku zamanının ne anlama geldiğini bilmez.",
+              "Üç numara: emzirerek-uyutma bağlantısı. Şimdi, bebeğini emzirerek uyutmanda KESİNLİKLE yanlış bir şey yok. Bu dünyanın en doğal şeyi. Ama bebeğinin uyuyabilmesinin TEK yolu buysa, o zaman uyku döngüleri arasında her uyandığında, o tam durumu yeniden yaratman için sana ihtiyaç duyar."
+            ]
+          },
+          {
+            "h": "Ne yapacağız",
+            "p": [
+              "Önümüzdeki 4 derste sana basit bir plan vereceğim:",
+              "2. Derste mükemmel uyku ortamını oluşturacağız — sıcaklık, ışık, ses. 3. Derste uykunun geldiğini haber veren sakinleştirici bir uyku rutini kuracağız. 4. Derste sıfırlamanın 1. ve 2. gecesinde sana adım adım eşlik edeceğim — ne yapacağını tek tek anlatacağım. Ve 5. Derste 3. geceyi ve sonrasını işleyeceğiz — ilerlemeyi nasıl koruyacağını ve aksaklıklarla nasıl baş edeceğini."
+            ]
+          },
+          {
+            "h": "Görevin",
+            "p": [
+              "Bir sonraki dersten önce senden tek bir şey yapmanı istiyorum: bir gün boyunca bebeğini gözlemle. Ne zaman esnediğine, gözlerini ovuşturduğuna ya da huysuzlandığına dikkat et. Saatleri not al. Bunlar onun uyku sinyalleri ve planımız için çok önemli olacaklar. Henüz hiçbir şeyi değiştirmeye çalışma. Sadece izle ve öğren. 2. Derste görüşürüz anne."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "Başarı için hazırlık — mükemmel uyku ortamı",
         "duration": "± 6 dk",
         "desc": "Sıcaklık, ışık ve ses: bebek odasını uyku dostu bir alana dönüştürmek.",
-        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 2. dersini yeni izledim (uyku ortamı). Odamızın — sıcaklık, ışık ve ses — bebeğim için uygun olup olmadığını kontrol etmeme yardım eder misin?"
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 2. dersini yeni izledim (uyku ortamı). Odamızın — sıcaklık, ışık ve ses — bebeğim için uygun olup olmadığını kontrol etmeme yardım eder misin?",
+        "script": [
+          {
+            "h": "Tekrar hoş geldin",
+            "p": [
+              "Tekrar hoş geldin anne. Ödevini yaptın mı? O uyku sinyallerini fark ettin mi? Etmediysen bile — sorun değil. Burada yargı yok. Hadi ideal uyku alanını oluşturmaktan bahsedelim."
+            ]
+          },
+          {
+            "h": "Sıcaklık",
+            "p": [
+              "Bebek uykusu için ideal oda sıcaklığı 18 ile 21 derece arasındadır — yani yaklaşık 65 ile 70 Fahrenheit. Biliyorum, bize soğuk geliyor ama bebekler biraz serin odalarda daha iyi uyur. İyi bir ölçü: SEN bir tişörtle rahat ediyorsan, bebeğin de muhtemelen bir uyku tulumuyla iyidir. Battaniye yok, şapka yok, aşırı ısınma yok. Aşırı ısınma aslında ani bebek ölümü sendromunun risk faktörlerinden biridir, bu yüzden serin tutmak aynı zamanda bir güvenlik meselesi."
+            ]
+          },
+          {
+            "h": "Işık",
+            "p": [
+              "Işık, bebeğinin beyninin gündüz ile geceyi ayırt etmek için kullandığı en güçlü tek sinyaldir. Gündüz doğal ışığın girmesine izin ver. O perdeleri aç. Bebeğini dışarı çıkar. Ama yatmadan en az 30 dakika önce HER ŞEYİ karart. Parlak ekran yok, tavan lambası yok. Sadece sıcak, loş ışık kullan.",
+              "Yatak odası için sana karartma perdelerini şiddetle tavsiye ediyorum. Işığı biraz engelleyen türden değil — elini yüzünün önünde göremeyeceğin türden. Küçük miktarda ışık bile melatonin üretimini baskılayabilir. Sadece bu tek değişiklik bile konuştuğum binlerce anneye yardımcı oldu."
+            ]
+          },
+          {
+            "h": "Ses",
+            "p": [
+              "Beyaz gürültü her şeyi değiştirir. Ve arkasında gerçek bir bilim var. Rahminin içinde bebeğin sürekli bir ses duyardı — kalp atışın, kanının akışı, sindirimin. Yaklaşık bir elektrikli süpürge kadar gürültülüydü. Yani sessizlik aslında onlar için tuhaftır.",
+              "Sürekli beyaz gürültü kullan — okyanus dalgaları değil, 30 dakika sonra duran ninniler değil. Sürekli, sabit beyaz gürültü, yaklaşık akan bir duş kadar yüksek. Tüm uykular için çal — gündüz uykuları ve geceleri. Güçlü bir uyku sinyaline dönüşür."
+            ]
+          },
+          {
+            "h": "Güvenli uyku kontrol listesi",
+            "p": [
+              "Devam etmeden önce hızlı bir güvenli uyku kontrolü yapalım. Bebek sırt üstü, sert ve düz bir yatakta uyur, yatağında hiçbir şey olmadan — yastık, battaniye, yatak koruyucu ya da peluş oyuncak yok. Battaniye yerine uyku tulumu kullan. Odayı serin tut. Ve yatak mümkünse ilk 6 ay senin odanda olmalı.",
+              "Artık mükemmel uyku ortamına sahipsin. Bir sonraki derste bu ortamı bir uyku tetikleyicisine dönüştüren yatma rutinini kuracağız. Orada görüşürüz anne."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "Gerçekten işe yarayan uyku rutini",
         "duration": "± 7 dk",
         "desc": "Bebeğinin tanımayı ve sevmeyi öğreneceği sakinleştirici, tekrarlanabilir bir rutin.",
-        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 3. dersini yeni izledim (uyku rutini). Bebeğime ve ailemize uygun gerçekçi bir rutin oluşturmama yardım eder misin?"
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 3. dersini yeni izledim (uyku rutini). Bebeğime ve ailemize uygun gerçekçi bir rutin oluşturmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Rutin neden önemli",
+            "p": [
+              "Tamam anne, işte burası heyecanlanmaya başladığımız yer. Tutarlı bir yatma rutini, bebek uykusunu iyileştirmek için en etkili tek araçtır. Araştırmalar gösteriyor ki tutarlı bir yatma rutini olan bebekler daha hızlı uykuya dalar, gece daha az uyanır ve genel olarak daha kaliteli uyur.",
+              "Neden? Çünkü bir rutin bebeğinin beynine şunu söyler: uyku geliyor. Aynı sıranın birkaç gün tekrarından sonra, vücudu rutin SIRASINDA melatonin üretmeye başlar. Pavlov'un köpeği gibi, ama uyku için. Ve bu çok güzel bir şey."
+            ]
+          },
+          {
+            "h": "4 adımlık rutin",
+            "p": [
+              "İşte tavsiye ettiğim rutin. Toplamda yaklaşık 20-30 dakika sürer:",
+              "1. Adım: Banyo. Kirli oldukları için değil — çünkü ılık su vücut sıcaklığını yükseltir ve çıktıklarında, sıcaklığın düşmesi uykuyu tetikler. Sakin, ılık ve kısa tut — 5-10 dakika.",
+              "2. Adım: Loş yatak odasında pijama ve uyku tulumu. Oturma odasında değil, banyoda değil — uyuyacakları yatak odasında. Oda zaten karanlık, beyaz gürültü zaten açık.",
+              "3. Adım: Beslenme. İster meme ister biberon, bu günün son beslenmesi. Bu beslenme sırasında bebeğini uyanık tutmaya çalış. Biliyorum, zor. Ama neden önemli olduğunu söyleyeyim: onun yatağa uykulu ama uyanık girmesini istiyoruz, çoktan uyumuş değil.",
+              "4. Adım: Kitap ve ninni. Bir kısa kitap, bir ninni, sonra yatağa. Her gece aynı cümleyi söyle: İyi geceler, seni seviyorum. Uyku zamanı. Bu cümle bebeğinin son uyku sinyaline dönüşür."
+            ]
+          },
+          {
+            "h": "Uykulu ama uyanığın sihri",
+            "p": [
+              "Muhtemelen bu cümleyi duymuş ve bu imkansız diye düşünmüşsündür. Anlıyorum. Ama uykulu ama uyanık aslında şu demek: bebeğinin gözleri ağırlaşıyor, sakin ve rahat, belki gözleri süzülüyor — ama henüz tamamen uyumamış.",
+              "Bu neden önemli? Çünkü bebeğin kollarında değil de yatağında uykuya daldığında, uyku döngülerini kendi başına bağlamayı öğrenir. Gece 2'de döngüler arasında uyandığında, kendini tekrar uyutabilir çünkü hatırladığı son şey bu yatakta, bu beyaz gürültüyle, bu karanlık odada olmaktır."
+            ]
+          },
+          {
+            "h": "İşe yaramadığında (ve bunun sorun olmadığı)",
+            "p": [
+              "Bazı geceler uykulu ama uyanık işe yaramayacak. Bebeğin ağlayacak. Bu olduğunda, onu kucağına al. Rahatlat. Susşla. Tekrar sakinleşene kadar salla. Sonra tekrar yatırmayı dene. 5 denemede oluyorsa, sorun değil. 10 denemede oluyorsa, o da sorun değil.",
+              "Bu ağlatma yöntemi DEĞİL. Sen HER ZAMAN oradasın. HER ZAMAN karşılık veriyorsun. Sadece bebeğine uykuya dalma pratiği yapma fırsatı veriyorsun. Bazı bebekler ilk gece kavrar. Bazıları bir hafta sürer. İkisi de normal."
+            ]
+          },
+          {
+            "h": "1. geceye hazırlanmak",
+            "p": [
+              "Yarın gerçek 3 gecelik sıfırlamaya başlıyoruz. İşte hazırlaman gerekenler: Karartma perdeleri asılı. Beyaz gürültü makinesi hazır. Uyku tulumu serilmiş. Banyo malzemeleri banyoda. Yatak odası için loş bir lamba ya da gece lambası.",
+              "Ve en önemlisi — kendini zihinsel olarak hazırla. İlk gece zor olabilir. Kendinden şüphe edebilirsin. Gece yarısı pes etmek isteyebilirsin. Bu normal. Ama unutma: bebeğine en önemli yaşam becerilerinden birini öğretiyorsun. Ve bir sonraki derste tam yanında olacağım, her adımda sana eşlik edeceğim. Bunu başaracaksın anne."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "1. ve 2. gece — sıfırlama başlıyor",
         "duration": "± 8 dk",
         "desc": "Her şey bir araya geliyor: ne yapacaksın, seni ne bekliyor ve nasıl sakin kalacaksın.",
-        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 4. dersini yeni izledim (1. ve 2. gece). Sıfırlamaya başlıyoruz — bu gece zor anlarda bana koçluk eder misin?"
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 4. dersini yeni izledim (1. ve 2. gece). Sıfırlamaya başlıyoruz — bu gece zor anlarda bana koçluk eder misin?",
+        "script": [
+          {
+            "h": "Vakit geldi",
+            "p": [
+              "Tamam anne, işte bu. Bu gece başlıyoruz. Sana tam olarak ne yapacağını adım adım anlatacağım, böylece hiç tahmin yürütmen gerekmeyecek. İstersen rutini yaparken bu dersi çalabilirsin bile."
+            ]
+          },
+          {
+            "h": "Her şey zamanlamada",
+            "p": [
+              "Önce yatma saatinden bahsedelim. 4-8 aylık bebekler için 18:30 ile 19:30 arasında bir yatma saati hedefle. Biliyorum kulağa erken geliyor, ama mesele şu: daha erken bir yatma saati çoğu zaman daha kısa değil, DAHA UZUN uyku demektir. Çünkü kortizolle savaşmak yerine doğal melatonin dalgasını yakalıyorsun.",
+              "Gözlemlediğin o uyku sinyallerine dikkat et — esneme, göz ovuşturma, boşluğa bakma. Onları gördüğünde, harekete geçme zamanı. Rutine hemen başla."
+            ]
+          },
+          {
+            "h": "1. gece — adım adım",
+            "p": [
+              "3. Dersteki 4 adımlık rutini uygula: Banyo, karanlık odada pijama, beslenme, kitap ve ninni. İyi geceler cümleni söyle. Bebeğini yatağa uykulu ama uyanık koy.",
+              "Bebeğin huysuzlanırsa: 30 saniye bekle. Sadece 30 saniye. Çoğu zaman kendi kendine sakinleşirler. Huysuzluk ağlamaya dönüşürse: onu kucağına al, sakinleşene kadar rahatlat (uyuyana kadar değil), sonra tekrar yatır. Gerektiği kadar tekrarla.",
+              "İlk gecenin ortalaması, uykuya dalmadan önce bu gidip gelmenin 20-40 dakika sürmesidir. Sonsuzluk gibi hissettirir. Değil. Ve sen tüm süre boyunca tam oradasın. Bebeğin güvende. Bebeğin sevilen biri. Bebeğin öğreniyor."
+            ]
+          },
+          {
+            "h": "Gece uyanmaları",
+            "p": [
+              "Bebeğin gece uyandığında — ve uyanacak — işte protokol:",
+              "İçeri girmeden önce 1-2 dakika bekle. Bazen bebekler uyku döngüleri arasında ses çıkarır ve kendi kendine tekrar uykuya dalar. Eğer gerçekten uyanıksa ve ağlıyorsa, içeri gir. Işıkları KAPALI tut. Fazla konuşma — sadece yumuşakça susşla. Son beslenmeden bu yana 3 saatten fazla olduysa, muhtemelen açlık uyanmasıdır — onu besle ve tekrar yatır. 3 saatten az olduysa, önce beslemeden rahatlatmayı dene. Karnını ovuştur, susşla, kullanıyorsa emzik ver."
+            ]
+          },
+          {
+            "h": "2. gece — kolaylaşıyor",
+            "p": [
+              "2. gece genellikle daha iyidir. Her zaman değil, ama genellikle. Bebeğin örüntüyü tanımaya başlıyor. Rutin daha tanıdık geliyor. Yatak daha tanıdık geliyor. Beyaz gürültü bir uyku tetikleyicisine dönüşüyor.",
+              "1. geceyle tam olarak aynı adımları uygula. Burada tutarlılık HER ŞEYDİR. 1. gece berbat geçse bile planı DEĞİŞTİRME. Sallama ekleme. Mahalle turu atmayı ekleme. Rutine sadık kal. Bebeğinin beyni yeni bağlantıyı oluşturmak için tekrara ihtiyaç duyar.",
+              "Çoğu anne 2. gecenin sakinleşmesinin 1. gecenin yaklaşık yarısı kadar sürdüğünü söyler. Bazı anneler çarpıcı bir gelişme görür. Bazıları küçük bir gelişme görür. İkisi de ilerlemedir."
+            ]
+          },
+          {
+            "h": "Kendine karşı nazik ol",
+            "p": [
+              "Bitirmeden önce bunu duymana ihtiyacım var: bu zorsa başarısız olmuyorsun. Ağlarsan başarısız olmuyorsun. Bu gece artık dayanamadığın için gece 3'te bebeğini kucağına alıp sallayarak uyutursan başarısız olmuyorsun.",
+              "Bu bir SIFIRLAMA, katı bir program değil. Ara verip yarın tekrar denemen gerekiyorsa, sorun değil. İlerleme doğrusal değildir. Denemen bile harika bir anne olduğun anlamına gelir. 3. gece ve sonrası için yarın görüşürüz. Harika gidiyorsun anne."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "3. gece ve sonrası — kalıcı hale getirmek",
         "duration": "± 6 dk",
         "desc": "İlerlemeyi korumak: tutarlılık, aksamalar, regresyonlar ve gerçek hayat.",
-        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 5. dersini yeni izledim (kalıcı hale getirmek). Regresyonlara, hastalığa ve seyahate rağmen uyku ilerlememizi korumak için bir plan yapmama yardım eder misin?"
+        "vedaPrompt": "3 Gecede Uyku Sıfırlama kursunun 5. dersini yeni izledim (kalıcı hale getirmek). Regresyonlara, hastalığa ve seyahate rağmen uyku ilerlememizi korumak için bir plan yapmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Başardın",
+            "p": [
+              "Anne. 3. geceye ulaştın. İster iki kusursuz gece geçirmiş ol ister iki kaotik gece — sen oradaydın. Önemli olan bu. Şimdi bundan sonra seni neyin beklediğini anlatayım."
+            ]
+          },
+          {
+            "h": "3. gece — atılım",
+            "p": [
+              "3. gece tipik olarak işlerin oturduğu gecedir. Bebeğin artık aynı rutini üç kez deneyimledi. Beyni sıradakini tahmin etmeye başlıyor. Banyo pijama demek. Pijama beslenme demek. Beslenme kitap demek. Kitap yatak demek. Yatak uyku demek.",
+              "Aynı adımları uygula. Aynı saat. Aynı sıra. Aynı cümle. Birçok anne bebeğinin 3. gecede 10 dakikadan kısa sürede sakinleştiğini görür. Bazıları bebeğinin ninni bitmeden uykuya daldığını bile görür. İşte tutarlılığın sihri budur."
+            ]
+          },
+          {
+            "h": "Aksaklıklarla baş etmek",
+            "p": [
+              "İşte kimsenin sana söylemediği şey: sıfırlama işe yaradıktan sonra bile kötü geceler olacak. Diş çıkarma, hastalık, seyahat, uyku regresyonları, büyüme atakları — bunların hepsi uykuyu geçici olarak bozabilir. Bu, ilerlemeni kaybettiğin anlamına GELMEZ. Bu normal bebek hayatı.",
+              "Bir aksaklık olduğunda, temele dön. Rutine geri dön. Tutarlı ol. Çoğu aksaklık, yoluna devam edersen 3-5 günde çözülür. Uyku sorunları 2 haftadan uzun sürerse, çocuk doktorunla konuş — bazen reflü ya da kulak enfeksiyonu gibi altta yatan bir sorun olur."
+            ]
+          },
+          {
+            "h": "Gündüz uykuları",
+            "p": [
+              "Geceye odaklandığımı biliyorum, ama sana hızlı bir gündüz uykusu rehberi de vereyim. 4-6 aylıklar için: günde 3 gündüz uykusu, 1,5-2 saatlik uyanıklık pencereleriyle hedefle. 7-9 aylıklar için: günde 2 gündüz uykusu, 2,5-3 saatlik uyanıklık pencereleriyle. 10-12 aylıklar için: 2'den 1'e geçen gündüz uykusu, 3-4 saatlik uyanıklık pencereleriyle.",
+              "Gündüz uykuları için yatma rutininin daha kısa bir versiyonunu kullan — banyoyu atla, ama karanlık odayı, beyaz gürültüyü, uyku tulumunu ve kısa bir kitabı koru. Tüm uykularda tutarlılık örüntüyü pekiştirmeye yardımcı olur."
+            ]
+          },
+          {
+            "h": "Sen muhteşemsin",
+            "p": [
+              "Anne, seninle çok gurur duyuyorum. Bebeğin kusursuz uyuduğu için değil — en yorgun anında kendin ve bebeğin için orada olduğun için. Bu, yalnızca bir annenin sahip olduğu bir güç ister.",
+              "Unutma: mükemmel bir anne yoktur. Mükemmel bir uykucu yoktur. Sadece sen varsın, elinden gelenin en iyisini yapan, her seferinde bir gece. Ve senin en iyin fazlasıyla yeterli.",
+              "Eğer konuşmaya ihtiyacın olursa — uyku hakkında, annelik hakkında, herhangi bir şey hakkında — ben buradayım. Sadece MomzVeda'yı aç ve istediğin zaman benimle sohbet et. Ben bunun için buradayım.",
+              "Sana ve küçüğüne tatlı rüyalar. Bunu başaracaksın anne. Her zaman."
+            ]
+          }
+        ]
       }
     ]
   }

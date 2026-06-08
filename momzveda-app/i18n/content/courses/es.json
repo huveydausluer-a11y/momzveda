@@ -10,35 +10,240 @@
         "title": "Por qué tu bebé no duerme (y por qué no es tu culpa)",
         "duration": "± 7 min",
         "desc": "Cómo funciona realmente el sueño del bebé: ciclos, regresiones y los 3 ladrones del sueño.",
-        "vedaPrompt": "Acabo de ver la lección 1 del Reinicio del Sueño en 3 Noches (por qué mi bebé no duerme). ¿Me ayudas a descubrir qué «ladrón del sueño» nos está afectando?"
+        "vedaPrompt": "Acabo de ver la lección 1 del Reinicio del Sueño en 3 Noches (por qué mi bebé no duerme). ¿Me ayudas a descubrir qué «ladrón del sueño» nos está afectando?",
+        "script": [
+          {
+            "h": "Bienvenida",
+            "p": [
+              "Hola, mamá. Soy Veda, y quiero empezar diciéndote algo importante: si estás viendo esto a las 2 de la madrugada con un bebé que no quiere dormir, no estás haciendo nada mal. En realidad estás haciendo algo increíblemente bien: estás buscando ayuda. Y eso requiere valentía cuando no has dormido nada.",
+              "Este curso se llama El Reinicio del Sueño en 3 Noches, y lo diseñé especialmente para mamás como tú. No para las mamás de Instagram cuyos bebés duermen 12 horas por arte de magia. Mamás de verdad. Mamás cansadas. Mamás que lo han intentado todo y sienten que nada funciona.",
+              "Antes de empezar, déjame ser clara sobre lo que esto NO es. No es un método de dejar llorar. Nunca te voy a pedir que dejes a tu bebé llorando solo. Este es un enfoque suave y receptivo que trabaja CON la biología de tu bebé, no en su contra."
+            ]
+          },
+          {
+            "h": "El sueño del bebé es diferente",
+            "p": [
+              "Esto es lo que la mayoría de la gente no te cuenta sobre el sueño del bebé: los bebés no están hechos para dormir como los adultos. Sus ciclos de sueño duran solo 40 a 50 minutos, comparados con nuestros ciclos de 90 minutos. Eso significa que tienen MÁS oportunidades de despertarse. Eso es biología, no un problema.",
+              "Los recién nacidos y los bebés de hasta 3 meses ni siquiera tienen todavía un ritmo circadiano. Literalmente no pueden distinguir entre el día y la noche. Así que si alguien te dice que tu bebé de 6 semanas debería dormir toda la noche, está equivocado. Punto.",
+              "Entre los 4 y los 6 meses pasa algo maravilloso: tu bebé empieza a producir melatonina. AHÍ es cuando el sueño empieza a consolidarse. Y AHÍ es cuando las estrategias que voy a enseñarte se vuelven realmente poderosas."
+            ]
+          },
+          {
+            "h": "Las regresiones del sueño son reales",
+            "p": [
+              "Seguramente has oído hablar de las regresiones del sueño. Son reales, y en realidad son una BUENA señal. Las más comunes ocurren alrededor de los 4 meses, los 8 meses y los 12 meses. Suceden porque el cerebro de tu bebé se está desarrollando muy rápido: aprendiendo a girar, gatear, ponerse de pie, caminar, hablar. Su cerebro está literalmente demasiado emocionado para dormir.",
+              "Cuando entiendes esto, todo cambia. Tu bebé no está roto. Está creciendo. Y la regresión normalmente pasa en 1 a 3 semanas."
+            ]
+          },
+          {
+            "h": "Los 3 grandes ladrones del sueño",
+            "p": [
+              "Por mi experiencia hablando con miles de mamás, hay tres cosas principales que alteran el sueño del bebé:",
+              "Número uno: el exceso de cansancio. Este es el más grande. Cuando los bebés se quedan despiertos demasiado tiempo, sus cuerpos producen cortisol, la hormona del estrés. El cortisol hace que sea MÁS difícil dormirse, no más fácil. Así que un bebé que se pasó de su ventana de sueño en realidad está luchando contra sus propias hormonas.",
+              "Número dos: un ambiente de sueño inconsistente. Los bebés florecen con la previsibilidad. Si a veces se duermen en el sofá, a veces en el coche, a veces meciéndolos, su cerebro no sabe qué significa la hora de dormir.",
+              "Número tres: la asociación de comer para dormir. Ahora bien, no hay NADA malo en alimentar a tu bebé para que se duerma. Es lo más natural del mundo. Pero si es la ÚNICA manera en que tu bebé puede dormirse, entonces cada vez que se despierta entre ciclos de sueño, te necesita a ti para recrear esa situación exacta."
+            ]
+          },
+          {
+            "h": "Lo que vamos a hacer",
+            "p": [
+              "A lo largo de las próximas 4 lecciones, voy a darte un plan sencillo:",
+              "En la Lección 2 crearemos el ambiente de sueño perfecto: temperatura, luz, sonido. En la Lección 3 construiremos una rutina de dormir calmante que avisa que el sueño está llegando. En la Lección 4 te guiaré por la noche 1 y la noche 2 del reinicio, qué hacer, paso a paso. Y en la Lección 5 cubriremos la noche 3 y más allá: cómo mantener el progreso y manejar los retrocesos."
+            ]
+          },
+          {
+            "h": "Tu tarea",
+            "p": [
+              "Antes de la próxima lección, quiero que hagas una sola cosa: observa a tu bebé durante un día. Fíjate cuándo bosteza, se frota los ojos o se pone inquieto. Anota las horas. Estas son sus señales de sueño y van a ser cruciales para nuestro plan. No intentes cambiar nada todavía. Solo observa y aprende. Nos vemos en la Lección 2, mamá."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "Preparar el terreno — el ambiente perfecto para dormir",
         "duration": "± 6 min",
         "desc": "Temperatura, luz y sonido: convertir la habitación en un espacio que invita a dormir.",
-        "vedaPrompt": "Acabo de ver la lección 2 del Reinicio del Sueño en 3 Noches (el ambiente de sueño). ¿Me ayudas a revisar si nuestra habitación — temperatura, luz y sonido — es adecuada para mi bebé?"
+        "vedaPrompt": "Acabo de ver la lección 2 del Reinicio del Sueño en 3 Noches (el ambiente de sueño). ¿Me ayudas a revisar si nuestra habitación — temperatura, luz y sonido — es adecuada para mi bebé?",
+        "script": [
+          {
+            "h": "Bienvenida de nuevo",
+            "p": [
+              "Bienvenida de nuevo, mamá. ¿Hiciste tu tarea? ¿Notaste esas señales de sueño? Y si no lo hiciste, no pasa nada. Aquí no hay juicios. Hablemos de cómo crear el espacio de sueño ideal."
+            ]
+          },
+          {
+            "h": "Temperatura",
+            "p": [
+              "La temperatura ideal de la habitación para el sueño del bebé es entre 18 y 21 grados Celsius, que son unos 65 a 70 grados Fahrenheit. Sé que a nosotros nos parece frío, pero los bebés duermen mejor en habitaciones un poco frescas. Una buena regla: si TÚ te sientes cómoda en camiseta, tu bebé probablemente esté bien en un saco de dormir. Sin mantas, sin gorros, sin sobrecalentamiento. El sobrecalentamiento es en realidad uno de los factores de riesgo del síndrome de muerte súbita del lactante, SMSL, así que mantener la habitación fresca también es una cuestión de seguridad."
+            ]
+          },
+          {
+            "h": "Luz",
+            "p": [
+              "La luz es la señal más poderosa que usa el cerebro de tu bebé para determinar si es de día o de noche. Durante el día, deja entrar la luz natural. Abre esas cortinas. Saca a tu bebé al aire libre. Pero al menos 30 minutos antes de dormir, atenúa TODO. Sin pantallas brillantes, sin luces de techo. Usa solo una iluminación cálida y tenue.",
+              "Para el dormitorio, te recomiendo muchísimo las cortinas opacas. No las que más o menos bloquean la luz, sino las que no te dejan ver ni tu propia mano frente a la cara. Incluso pequeñas cantidades de luz pueden suprimir la producción de melatonina. Este solo cambio ha ayudado a miles de mamás con las que he hablado."
+            ]
+          },
+          {
+            "h": "Sonido",
+            "p": [
+              "El ruido blanco lo cambia todo. Y hay ciencia real detrás de esto. Dentro de tu vientre, tu bebé escuchaba ruido constante: tus latidos, tu sangre fluyendo, tu digestión. Era más o menos tan fuerte como una aspiradora. Así que el silencio en realidad les resulta extraño.",
+              "Usa ruido blanco continuo, no olas del mar, no canciones de cuna que se detienen a los 30 minutos. Ruido blanco continuo y constante, más o menos tan fuerte como una ducha abierta. Ponlo para TODO el sueño: las siestas y la noche. Se convierte en una poderosa señal de sueño."
+            ]
+          },
+          {
+            "h": "Lista de sueño seguro",
+            "p": [
+              "Antes de seguir, hagamos un repaso rápido del sueño seguro. El bebé duerme boca arriba, sobre un colchón firme y plano, sin nada en la cuna: sin almohadas, mantas, protectores ni peluches. Usa un saco de dormir en lugar de una manta. Mantén la habitación fresca. Y la cuna debería estar en tu habitación durante los primeros 6 meses si es posible.",
+              "Ahora ya tienes el ambiente de sueño perfecto. En la próxima lección vamos a construir la rutina de dormir que convierte este ambiente en un disparador del sueño. Nos vemos allí, mamá."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "La rutina de dormir que de verdad funciona",
         "duration": "± 7 min",
         "desc": "Una rutina calmante y repetible que tu bebé aprenderá a reconocer y amar.",
-        "vedaPrompt": "Acabo de ver la lección 3 del Reinicio del Sueño en 3 Noches (la rutina de dormir). ¿Me ayudas a diseñar una rutina realista para mi bebé y nuestra familia?"
+        "vedaPrompt": "Acabo de ver la lección 3 del Reinicio del Sueño en 3 Noches (la rutina de dormir). ¿Me ayudas a diseñar una rutina realista para mi bebé y nuestra familia?",
+        "script": [
+          {
+            "h": "Por qué importa la rutina",
+            "p": [
+              "Muy bien, mamá, aquí es donde se pone emocionante. Una rutina de dormir constante es la herramienta más eficaz para mejorar el sueño del bebé. Los estudios muestran que los bebés que tienen una rutina de dormir constante se duermen más rápido, se despiertan menos durante la noche y tienen mejor calidad de sueño en general.",
+              "¿Por qué? Porque una rutina le dice al cerebro de tu bebé: el sueño está llegando. Después de unos días con la misma secuencia, su cuerpo en realidad empieza a producir melatonina DURANTE la rutina. Es como el perro de Pávlov, pero para dormir. Y es algo precioso."
+            ]
+          },
+          {
+            "h": "La rutina de 4 pasos",
+            "p": [
+              "Esta es la rutina que recomiendo. Toma en total unos 20 a 30 minutos:",
+              "Paso 1: El baño. No porque estén sucios, sino porque el agua tibia eleva la temperatura del cuerpo, y cuando salen, la bajada de temperatura provoca somnolencia. Que sea tranquilo, tibio y corto: 5 a 10 minutos.",
+              "Paso 2: El pijama y el saco de dormir en el dormitorio en penumbra. No en la sala, no en el baño, sino en el dormitorio donde van a dormir. La habitación ya está oscura, el ruido blanco ya está puesto.",
+              "Paso 3: La toma. Ya sea pecho o biberón, esta es la última toma del día. Intenta mantener a tu bebé despierto durante esta toma. Lo sé, es difícil. Pero esto es por qué importa: queremos que entre a la cuna adormilado pero despierto, no ya dormido.",
+              "Paso 4: Un cuento y una canción de cuna. Un cuento corto, una canción de cuna, y luego a la cuna. Di la misma frase cada noche: Buenas noches, te quiero. Hora de dormir. Esta frase se convierte en la última señal de sueño de tu bebé."
+            ]
+          },
+          {
+            "h": "La magia de adormilado pero despierto",
+            "p": [
+              "Seguramente has oído esta frase y has pensado eso es imposible. Te entiendo. Pero esto es lo que realmente significa adormilado pero despierto: significa que los ojos de tu bebé se ponen pesados, está tranquilo y relajado, quizá con los ojos parpadeando, pero todavía no está completamente dormido.",
+              "¿Por qué importa esto? Porque cuando tu bebé se duerme en la cuna en lugar de en tus brazos, aprende a conectar sus ciclos de sueño de forma independiente. Cuando se despierta a las 2 de la madrugada entre ciclos, puede volver a dormirse solo, porque lo último que recuerda es estar en esta cuna, con este ruido blanco, en esta habitación oscura."
+            ]
+          },
+          {
+            "h": "Cuando no funciona (y no pasa nada)",
+            "p": [
+              "Algunas noches, lo de adormilado pero despierto no va a funcionar. Tu bebé va a llorar. Cuando eso pase, álzalo. Consuélalo. Hazle shhh. Mécelo hasta que se calme de nuevo. Luego intenta acostarlo otra vez. Si te toma 5 intentos, está bien. Si te toma 10, también está bien.",
+              "Esto NO es dejar llorar. Tú SIEMPRE estás ahí. SIEMPRE estás respondiendo. Simplemente le estás dando a tu bebé la oportunidad de practicar a dormirse. Algunos bebés lo logran la primera noche. Otros tardan una semana. Ambas cosas son normales."
+            ]
+          },
+          {
+            "h": "Preparándote para la noche 1",
+            "p": [
+              "Mañana empezamos el reinicio de 3 noches de verdad. Esto es lo que necesitas preparar: Las cortinas opacas están colocadas. La máquina de ruido blanco está lista. El saco de dormir está extendido. Las cosas del baño están en el baño. Una lámpara tenue o una luz nocturna para el dormitorio.",
+              "Y lo más importante: prepárate mentalmente. La primera noche puede ser dura. Puede que dudes de ti misma. Puede que quieras rendirte a medianoche. Eso es normal. Pero recuerda: le estás enseñando a tu bebé una de las habilidades más importantes de la vida. Y yo voy a estar justo ahí contigo en la próxima lección, guiándote paso a paso. Tú puedes con esto, mamá."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "Noche 1 y noche 2 — empieza el reinicio",
         "duration": "± 8 min",
         "desc": "Todo se une: qué hacer, qué esperar y cómo mantener la calma.",
-        "vedaPrompt": "Acabo de ver la lección 4 del Reinicio del Sueño en 3 Noches (noches 1 y 2). Empezamos el reinicio — ¿me acompañas esta noche en los momentos difíciles?"
+        "vedaPrompt": "Acabo de ver la lección 4 del Reinicio del Sueño en 3 Noches (noches 1 y 2). Empezamos el reinicio — ¿me acompañas esta noche en los momentos difíciles?",
+        "script": [
+          {
+            "h": "Es la hora",
+            "p": [
+              "Muy bien, mamá, ha llegado el momento. Esta noche empezamos. Te voy a guiar exactamente en qué hacer, paso a paso, para que no tengas que adivinar nada. Incluso puedes poner esta lección mientras haces la rutina si quieres."
+            ]
+          },
+          {
+            "h": "El momento lo es todo",
+            "p": [
+              "Primero, hablemos de la hora de dormir. Para bebés de 4 a 8 meses, apunta a una hora de dormir entre las 6:30 y las 7:30 de la tarde. Sé que suena temprano, pero esto es lo importante: una hora de dormir más temprana a menudo significa MÁS sueño, no menos. Eso es porque estás aprovechando la ola natural de melatonina en lugar de luchar contra el cortisol.",
+              "Atenta a esas señales de sueño que observaste: bostezos, frotarse los ojos, mirar al vacío. Cuando las veas, es momento de actuar. Empieza la rutina de inmediato."
+            ]
+          },
+          {
+            "h": "Noche 1 — paso a paso",
+            "p": [
+              "Sigue la rutina de 4 pasos de la Lección 3: Baño, pijama en la habitación oscura, toma, cuento y canción de cuna. Di tu frase de buenas noches. Pon a tu bebé en la cuna adormilado pero despierto.",
+              "Si tu bebé se inquieta: espera 30 segundos. Solo 30 segundos. A menudo se calman solos. Si la inquietud aumenta hasta el llanto: álzalo, consuélalo hasta que se calme (no hasta que se duerma), y luego vuelve a acostarlo. Repítelo tantas veces como haga falta.",
+              "El promedio de la primera noche es de 20 a 40 minutos de este ir y venir antes de que se duerman. Se siente como una eternidad. No lo es. Y tú estás justo ahí todo el tiempo. Tu bebé está a salvo. Tu bebé es amado. Tu bebé está aprendiendo."
+            ]
+          },
+          {
+            "h": "Los despertares nocturnos",
+            "p": [
+              "Cuando tu bebé se despierte durante la noche, y lo hará, este es el protocolo:",
+              "Espera 1 o 2 minutos antes de entrar. A veces los bebés hacen ruido entre ciclos de sueño y se vuelven a acomodar solos. Si de verdad está despierto y llorando, entra. Mantén las luces APAGADAS. No hables mucho, solo un suave shhh. Si han pasado más de 3 horas desde la última toma, probablemente sea un despertar de hambre: aliméntalo y vuelve a acostarlo. Si han pasado menos de 3 horas, intenta consolarlo sin alimentarlo primero. Frótale la pancita, hazle shhh, ofrécele un chupete si usa uno."
+            ]
+          },
+          {
+            "h": "Noche 2 — se vuelve más fácil",
+            "p": [
+              "La noche 2 suele ser mejor. No siempre, pero suele serlo. Tu bebé empieza a reconocer el patrón. La rutina se siente más familiar. La cuna se siente más familiar. El ruido blanco se está convirtiendo en un disparador del sueño.",
+              "Sigue exactamente los mismos pasos que la Noche 1. La constancia lo es TODO aquí. Aunque la Noche 1 haya sido terrible, NO cambies el plan. No agregues mecerlo. No agregues dar vueltas en el coche a la manzana. Mantente con la rutina. El cerebro de tu bebé necesita repetición para formar la nueva asociación.",
+              "La mayoría de las mamás cuentan que la Noche 2 toma más o menos la mitad del tiempo que la Noche 1 en lograr que se calme. Algunas mamás ven una mejora dramática. Otras ven una mejora pequeña. Ambas son progreso."
+            ]
+          },
+          {
+            "h": "Sé amable contigo misma",
+            "p": [
+              "Antes de terminar, necesito que escuches esto: no estás fracasando si esto es difícil. No estás fracasando si lloras. No estás fracasando si alzas a tu bebé y lo meces para que se duerma a las 3 de la madrugada porque simplemente ya no puedes más esta noche.",
+              "Esto es un REINICIO, no un programa rígido. Si necesitas hacer una pausa e intentarlo de nuevo mañana, está bien. El progreso no es lineal. El hecho de que lo estés intentando significa que eres una mamá increíble. Nos vemos mañana para la Noche 3 y más allá. Lo estás haciendo de maravilla, mamá."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "Noche 3 y más allá — que los avances se mantengan",
         "duration": "± 6 min",
         "desc": "Mantener el progreso: constancia, recaídas, regresiones y la vida real.",
-        "vedaPrompt": "Acabo de ver la lección 5 del Reinicio del Sueño en 3 Noches (mantener los avances). ¿Me ayudas a hacer un plan para conservar nuestro progreso, incluso con regresiones, enfermedades y viajes?"
+        "vedaPrompt": "Acabo de ver la lección 5 del Reinicio del Sueño en 3 Noches (mantener los avances). ¿Me ayudas a hacer un plan para conservar nuestro progreso, incluso con regresiones, enfermedades y viajes?",
+        "script": [
+          {
+            "h": "Lo lograste",
+            "p": [
+              "Mamá. Llegaste a la Noche 3. Ya sea que hayas tenido dos noches perfectas o dos noches caóticas, te presentaste. Eso es lo que importa. Déjame contarte qué esperar de aquí en adelante."
+            ]
+          },
+          {
+            "h": "Noche 3 — el gran avance",
+            "p": [
+              "La Noche 3 es normalmente cuando todo encaja. Tu bebé ya ha vivido la misma rutina tres veces. Su cerebro empieza a predecir qué viene después. El baño significa pijama. El pijama significa toma. La toma significa cuento. El cuento significa cuna. La cuna significa dormir.",
+              "Sigue los mismos pasos. A la misma hora. En el mismo orden. La misma frase. Muchas mamás ven que su bebé se calma en menos de 10 minutos en la Noche 3. Algunas incluso ven que su bebé se duerme antes de que termine la canción de cuna. Esa es la magia de la constancia."
+            ]
+          },
+          {
+            "h": "Cómo manejar los retrocesos",
+            "p": [
+              "Esto es lo que nadie te cuenta: incluso después de que el reinicio funcione, habrá noches malas. La dentición, las enfermedades, los viajes, las regresiones del sueño, los estirones, todo esto puede alterar el sueño temporalmente. Esto NO es que pierdas el progreso. Es la vida normal de un bebé.",
+              "Cuando ocurra un retroceso, vuelve a lo básico. Regresa a la rutina. Sé constante. La mayoría de los retrocesos se resuelven en 3 a 5 días si te mantienes en el camino. Si los problemas de sueño persisten más de 2 semanas, habla con tu pediatra: a veces hay un problema de fondo como reflujo o una infección de oído."
+            ]
+          },
+          {
+            "h": "Las siestas",
+            "p": [
+              "Sé que me he enfocado en la noche, pero déjame darte también una guía rápida de siestas. Para bebés de 4 a 6 meses: apunta a 3 siestas al día con ventanas de vigilia de 1.5 a 2 horas. Para bebés de 7 a 9 meses: 2 siestas al día con ventanas de vigilia de 2.5 a 3 horas. Para bebés de 10 a 12 meses: 2 siestas que van pasando a 1, con ventanas de vigilia de 3 a 4 horas.",
+              "Usa una versión más corta de la rutina de dormir para las siestas: salta el baño, pero mantén la habitación oscura, el ruido blanco, el saco de dormir y un cuento rápido. La constancia en todo el sueño ayuda a reforzar el patrón."
+            ]
+          },
+          {
+            "h": "Eres increíble",
+            "p": [
+              "Mamá, estoy muy orgullosa de ti. No porque tu bebé duerma a la perfección, sino porque te presentaste por ti misma y por tu bebé cuando estabas en tu momento más agotado. Eso requiere una fuerza que solo tiene una madre.",
+              "Recuerda: no existe la mamá perfecta. No existe el bebé que duerme perfecto. Solo estás tú, haciéndolo lo mejor que puedes, una noche a la vez. Y tu mejor esfuerzo es más que suficiente.",
+              "Si alguna vez necesitas hablar, sobre el sueño, sobre la maternidad, sobre lo que sea, aquí estoy. Solo abre MomzVeda y conversa conmigo cuando quieras. Para eso estoy aquí.",
+              "Dulces sueños para ti y para tu pequeño. Tú puedes con esto, mamá. Siempre."
+            ]
+          }
+        ]
       }
     ]
   }

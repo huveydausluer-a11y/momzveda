@@ -10,35 +10,240 @@
         "title": "Pourquoi ton bébé ne dort pas (et pourquoi ce n'est pas ta faute)",
         "duration": "± 7 min",
         "desc": "Comment fonctionne vraiment le sommeil de bébé : cycles, régressions et le top 3 des voleurs de sommeil.",
-        "vedaPrompt": "Je viens de voir la leçon 1 du Reset Sommeil en 3 Nuits (pourquoi mon bébé ne dort pas). Peux-tu m'aider à trouver quel « voleur de sommeil » nous concerne ?"
+        "vedaPrompt": "Je viens de voir la leçon 1 du Reset Sommeil en 3 Nuits (pourquoi mon bébé ne dort pas). Peux-tu m'aider à trouver quel « voleur de sommeil » nous concerne ?",
+        "script": [
+          {
+            "h": "Bienvenue",
+            "p": [
+              "Coucou maman. Je suis Veda, et je veux commencer par te dire quelque chose d'important : si tu regardes ça à 2h du matin avec un bébé qui refuse de dormir, tu ne fais rien de mal. En réalité, tu fais quelque chose de profondément juste — tu cherches de l'aide. Et ça demande du courage quand tu manques de sommeil.",
+              "Ce cours s'appelle Le Reset Sommeil en 3 Nuits, et je l'ai conçu spécialement pour les mamans comme toi. Pas les mamans d'Instagram dont les bébés dorment comme par magie 12 heures d'affilée. De vraies mamans. Des mamans épuisées. Des mamans qui ont tout essayé et qui ont l'impression que rien ne marche.",
+              "Avant de nous lancer, laisse-moi être claire sur ce que ce cours n'est PAS. Ce n'est pas une méthode du « laisser pleurer ». Je ne te demanderai jamais de laisser ton bébé pleurer seul. C'est une approche douce et bienveillante qui travaille AVEC la biologie de ton bébé, et non contre elle."
+            ]
+          },
+          {
+            "h": "Le sommeil de bébé est différent",
+            "p": [
+              "Voici ce que la plupart des gens ne te disent pas sur le sommeil de bébé : les bébés ne sont pas faits pour dormir comme les adultes. Leurs cycles de sommeil ne durent que 40 à 50 minutes, contre 90 minutes pour les nôtres. Ça veut dire qu'ils ont PLUS d'occasions de se réveiller. C'est de la biologie, pas un problème.",
+              "Les nouveau-nés jusqu'à 3 mois n'ont même pas encore de rythme circadien. Ils sont littéralement incapables de faire la différence entre le jour et la nuit. Donc si quelqu'un te dit que ton bébé de 6 semaines devrait faire ses nuits, il a tort. Point final.",
+              "Entre 4 et 6 mois, il se passe quelque chose de merveilleux : ton bébé commence à produire de la mélatonine. C'EST à ce moment-là que le sommeil commence à se consolider. Et c'EST là que les stratégies que je vais t'enseigner deviennent vraiment puissantes."
+            ]
+          },
+          {
+            "h": "Les régressions du sommeil sont bien réelles",
+            "p": [
+              "Tu as sûrement entendu parler des régressions du sommeil. Elles sont bien réelles, et elles sont en fait un BON signe. Les plus courantes surviennent vers 4 mois, 8 mois et 12 mois. Elles arrivent parce que le cerveau de ton bébé se développe à toute vitesse — il apprend à se retourner, à ramper, à se tenir debout, à marcher, à parler. Son cerveau est littéralement trop excité pour dormir.",
+              "Quand tu comprends ça, tout change. Ton bébé n'a rien de cassé. Il grandit. Et la régression passe en général en 1 à 3 semaines."
+            ]
+          },
+          {
+            "h": "Le top 3 des voleurs de sommeil",
+            "p": [
+              "D'après mon expérience auprès de milliers de mamans, il y a trois grandes choses qui perturbent le sommeil de bébé :",
+              "Numéro un : la fatigue excessive. C'est la plus importante. Quand les bébés restent éveillés trop longtemps, leur corps produit du cortisol — l'hormone du stress. Le cortisol rend l'endormissement PLUS difficile, pas plus facile. Donc un bébé qui a raté sa fenêtre de sommeil lutte en réalité contre ses propres hormones.",
+              "Numéro deux : un environnement de sommeil instable. Les bébés s'épanouissent dans la prévisibilité. Si parfois ils s'endorment sur le canapé, parfois dans la voiture, parfois bercés — leur cerveau ne sait pas ce que veut dire « l'heure de dormir ».",
+              "Numéro trois : l'association tétée-sommeil. Alors, il n'y a ABSOLUMENT rien de mal à endormir ton bébé au sein ou au biberon. C'est la chose la plus naturelle du monde. Mais si c'est la SEULE façon dont ton bébé sait s'endormir, alors à chaque réveil entre les cycles de sommeil, il a besoin de toi pour recréer exactement cette situation."
+            ]
+          },
+          {
+            "h": "Ce que nous allons faire",
+            "p": [
+              "Au fil des 4 prochaines leçons, je vais te donner un plan tout simple :",
+              "Dans la leçon 2, on créera l'environnement de sommeil parfait — température, lumière, bruit. Dans la leçon 3, on construira une routine du coucher apaisante qui signale que le sommeil arrive. Dans la leçon 4, je t'accompagnerai pas à pas pour la nuit 1 et la nuit 2 du reset — quoi faire, étape par étape. Et dans la leçon 5, on abordera la nuit 3 et au-delà — comment garder les progrès et gérer les rechutes."
+            ]
+          },
+          {
+            "h": "Ta mission",
+            "p": [
+              "Avant la prochaine leçon, je veux que tu fasses une seule chose : observe ton bébé pendant une journée. Repère quand il bâille, se frotte les yeux ou devient grognon. Note les heures. Ce sont ses signes de fatigue, et ils vont être essentiels pour notre plan. N'essaie pas encore de changer quoi que ce soit. Contente-toi d'observer et d'apprendre. On se retrouve à la leçon 2, maman."
+            ]
+          }
+        ]
       },
       {
         "n": 2,
         "title": "Préparer le terrain — l'environnement de sommeil parfait",
         "duration": "± 6 min",
         "desc": "Température, lumière et bruit : transformer la chambre en espace propice au sommeil.",
-        "vedaPrompt": "Je viens de voir la leçon 2 du Reset Sommeil en 3 Nuits (l'environnement de sommeil). Peux-tu vérifier avec moi si notre chambre — température, lumière, bruit — convient à mon bébé ?"
+        "vedaPrompt": "Je viens de voir la leçon 2 du Reset Sommeil en 3 Nuits (l'environnement de sommeil). Peux-tu vérifier avec moi si notre chambre — température, lumière, bruit — convient à mon bébé ?",
+        "script": [
+          {
+            "h": "Te revoilà",
+            "p": [
+              "Te revoilà, maman. As-tu fait tes devoirs ? As-tu repéré ces signes de fatigue ? Même si tu ne l'as pas fait — c'est pas grave. Aucun jugement ici. Parlons de la création de l'espace de sommeil idéal."
+            ]
+          },
+          {
+            "h": "La température",
+            "p": [
+              "La température idéale de la chambre pour le sommeil de bébé se situe entre 18 et 21 degrés Celsius. Je sais que ça nous semble frais à nous, mais les bébés dorment mieux dans des pièces légèrement fraîches. Une bonne règle : si TOI tu te sens bien en t-shirt, ton bébé est probablement bien dans une gigoteuse. Pas de couvertures, pas de bonnet, pas de surchauffe. La surchauffe est d'ailleurs l'un des facteurs de risque de la mort subite du nourrisson, la MSN, alors garder la chambre fraîche, c'est aussi une question de sécurité."
+            ]
+          },
+          {
+            "h": "La lumière",
+            "p": [
+              "La lumière est le signal le plus puissant que le cerveau de ton bébé utilise pour déterminer le jour et la nuit. Pendant la journée, laisse entrer la lumière naturelle. Ouvre les rideaux. Sors ton bébé dehors. Mais au moins 30 minutes avant le coucher, tamise TOUT. Pas d'écrans lumineux, pas de plafonniers. Uniquement une lumière chaude et tamisée.",
+              "Pour la chambre, je te recommande vivement des rideaux occultants. Pas le genre qui bloque à moitié la lumière — le genre où tu ne vois même pas ta main devant ton visage. Même de petites quantités de lumière peuvent freiner la production de mélatonine. Ce seul changement a aidé des milliers de mamans à qui j'ai parlé."
+            ]
+          },
+          {
+            "h": "Le bruit",
+            "p": [
+              "Le bruit blanc, c'est un vrai changement de jeu. Et il y a une vraie science derrière. Dans ton ventre, ton bébé entendait un bruit constant — les battements de ton cœur, ton sang qui circule, ta digestion. C'était à peu près aussi fort qu'un aspirateur. Donc le silence est en réalité étrange pour lui.",
+              "Utilise un bruit blanc continu — pas des vagues de l'océan, pas des berceuses qui s'arrêtent au bout de 30 minutes. Un bruit blanc continu et régulier, à peu près aussi fort qu'une douche qui coule. Mets-le pour TOUS les sommeils — les siestes comme la nuit. Il devient un puissant signal de sommeil."
+            ]
+          },
+          {
+            "h": "La checklist du sommeil sécuritaire",
+            "p": [
+              "Avant de continuer, faisons un petit point sur le sommeil sécuritaire. Bébé dort sur le dos, sur un matelas ferme et plat, avec rien dans le lit — pas d'oreillers, de couvertures, de tours de lit ni de peluches. Utilise une gigoteuse plutôt qu'une couverture. Garde la chambre fraîche. Et si possible, le lit de bébé devrait être dans ta chambre pendant les 6 premiers mois.",
+              "Maintenant tu as l'environnement de sommeil parfait. Dans la prochaine leçon, on va construire la routine du coucher qui transforme cet environnement en déclencheur de sommeil. On se retrouve là-bas, maman."
+            ]
+          }
+        ]
       },
       {
         "n": 3,
         "title": "La routine du coucher qui fonctionne vraiment",
         "duration": "± 7 min",
         "desc": "Une routine apaisante et répétable que ton bébé apprendra à reconnaître et à aimer.",
-        "vedaPrompt": "Je viens de voir la leçon 3 du Reset Sommeil en 3 Nuits (la routine du coucher). Peux-tu m'aider à créer une routine réaliste pour mon bébé et notre famille ?"
+        "vedaPrompt": "Je viens de voir la leçon 3 du Reset Sommeil en 3 Nuits (la routine du coucher). Peux-tu m'aider à créer une routine réaliste pour mon bébé et notre famille ?",
+        "script": [
+          {
+            "h": "Pourquoi la routine compte",
+            "p": [
+              "Bon maman, c'est là que ça devient passionnant. Une routine du coucher régulière est l'outil le plus efficace pour améliorer le sommeil de bébé. Les recherches montrent que les bébés qui ont une routine du coucher régulière s'endorment plus vite, se réveillent moins la nuit et ont une meilleure qualité de sommeil en général.",
+              "Pourquoi ? Parce qu'une routine dit au cerveau de ton bébé : le sommeil arrive. Après quelques jours de la même séquence, son corps commence vraiment à produire de la mélatonine PENDANT la routine. C'est comme le chien de Pavlov, mais pour le sommeil. Et c'est magnifique."
+            ]
+          },
+          {
+            "h": "La routine en 4 étapes",
+            "p": [
+              "Voici la routine que je te recommande. Elle prend environ 20 à 30 minutes en tout :",
+              "Étape 1 : le bain. Pas parce que bébé est sale — mais parce que l'eau chaude fait monter la température du corps, et quand il en sort, la baisse de température déclenche la somnolence. Garde ça calme, chaud et court — 5 à 10 minutes.",
+              "Étape 2 : le pyjama et la gigoteuse dans la chambre tamisée. Pas dans le salon, pas dans la salle de bains — dans la chambre où il va dormir. La pièce est déjà sombre, le bruit blanc est déjà allumé.",
+              "Étape 3 : la tétée ou le biberon. Au sein ou au biberon, c'est le dernier repas de la journée. Essaie de garder ton bébé éveillé pendant ce repas. Je sais, c'est difficile. Mais voici pourquoi c'est important : on veut qu'il aille DANS son lit somnolent mais éveillé, pas déjà endormi.",
+              "Étape 4 : un livre et une berceuse. Un petit livre, une berceuse, puis dans le lit. Dis la même phrase chaque soir : Bonne nuit, je t'aime. C'est l'heure de dormir. Cette phrase devient le tout dernier signal de sommeil de ton bébé."
+            ]
+          },
+          {
+            "h": "La magie du « somnolent mais éveillé »",
+            "p": [
+              "Tu as sans doute déjà entendu cette expression en te disant que c'est impossible. Je comprends. Mais voici ce que « somnolent mais éveillé » veut vraiment dire : ça veut dire que les paupières de ton bébé deviennent lourdes, qu'il est calme et détendu, peut-être que ses yeux papillonnent — mais qu'il n'est pas encore complètement endormi.",
+              "Pourquoi est-ce important ? Parce que lorsque ton bébé s'endort dans son lit plutôt que dans tes bras, il apprend à relier ses cycles de sommeil tout seul. Quand il se réveille à 2h du matin entre deux cycles, il peut se rendormir seul, parce que la dernière chose dont il se souvient, c'est d'être dans ce lit, avec ce bruit blanc, dans cette chambre sombre."
+            ]
+          },
+          {
+            "h": "Quand ça ne marche pas (et c'est pas grave)",
+            "p": [
+              "Certains soirs, le « somnolent mais éveillé » ne fonctionnera pas. Ton bébé va pleurer. Quand ça arrive, prends-le dans tes bras. Réconforte-le. Fais-lui « chut ». Berce-le jusqu'à ce qu'il se calme à nouveau. Puis réessaie de le poser. Si ça prend 5 tentatives, c'est très bien. Si ça en prend 10, c'est très bien aussi.",
+              "Ce n'est PAS du « laisser pleurer ». Tu es TOUJOURS là. Tu réponds TOUJOURS. Tu donnes simplement à ton bébé l'occasion de s'entraîner à s'endormir. Certains bébés y arrivent dès la première nuit. D'autres mettent une semaine. Les deux sont normaux."
+            ]
+          },
+          {
+            "h": "Se préparer pour la nuit 1",
+            "p": [
+              "Demain, on commence le vrai reset en 3 nuits. Voici ce que tu dois préparer : les rideaux occultants sont posés. La machine à bruit blanc est prête. La gigoteuse est sortie. Les affaires de bain sont dans la salle de bains. Une lampe tamisée ou une veilleuse pour la chambre.",
+              "Et surtout — prépare-toi mentalement. La première nuit pourrait être difficile. Tu pourrais douter de toi. Tu pourrais avoir envie d'abandonner à minuit. C'est normal. Mais souviens-toi : tu apprends à ton bébé l'une des compétences les plus importantes de la vie. Et je serai juste là, avec toi, dans la prochaine leçon, à t'accompagner à chaque étape. Tu vas y arriver, maman."
+            ]
+          }
+        ]
       },
       {
         "n": 4,
         "title": "Nuit 1 et nuit 2 — le reset commence",
         "duration": "± 8 min",
         "desc": "Tout se met en place : quoi faire, à quoi t'attendre et comment rester calme.",
-        "vedaPrompt": "Je viens de voir la leçon 4 du Reset Sommeil en 3 Nuits (nuits 1 et 2). On commence le reset — peux-tu me coacher cette nuit dans les moments difficiles ?"
+        "vedaPrompt": "Je viens de voir la leçon 4 du Reset Sommeil en 3 Nuits (nuits 1 et 2). On commence le reset — peux-tu me coacher cette nuit dans les moments difficiles ?",
+        "script": [
+          {
+            "h": "C'est l'heure",
+            "p": [
+              "Bon maman, ça y est. Ce soir, on commence. Je vais t'accompagner exactement dans ce qu'il faut faire, étape par étape, pour qu'il n'y ait aucune hésitation. Tu peux même écouter cette leçon pendant que tu fais la routine, si tu veux."
+            ]
+          },
+          {
+            "h": "Le timing fait tout",
+            "p": [
+              "D'abord, parlons de l'heure du coucher. Pour les bébés de 4 à 8 mois, vise un coucher entre 18h30 et 19h30. Je sais que ça paraît tôt, mais voici la chose : un coucher plus tôt signifie souvent un sommeil PLUS long, pas plus court. C'est parce que tu attrapes la vague naturelle de mélatonine au lieu de lutter contre le cortisol.",
+              "Guette ces signes de fatigue que tu as observés — bâillements, frottement des yeux, regard dans le vide. Quand tu les vois, c'est le moment d'agir. Commence la routine immédiatement."
+            ]
+          },
+          {
+            "h": "Nuit 1 — étape par étape",
+            "p": [
+              "Suis la routine en 4 étapes de la leçon 3 : le bain, le pyjama dans la chambre sombre, la tétée ou le biberon, le livre et la berceuse. Dis ta phrase du soir. Pose ton bébé dans son lit somnolent mais éveillé.",
+              "Si ton bébé s'agite : attends 30 secondes. Juste 30 secondes. Souvent il se calmera tout seul. Si l'agitation se transforme en pleurs : prends-le dans tes bras, réconforte-le jusqu'à ce qu'il soit calme (pas endormi), puis repose-le. Recommence autant de fois que nécessaire.",
+              "La première nuit, ce va-et-vient dure en moyenne 20 à 40 minutes avant qu'il ne s'endorme. On a l'impression que ça dure une éternité. Ce n'est pas le cas. Et tu es juste là pendant tout ce temps. Ton bébé est en sécurité. Ton bébé est aimé. Ton bébé apprend."
+            ]
+          },
+          {
+            "h": "Les réveils nocturnes",
+            "p": [
+              "Quand ton bébé se réveille pendant la nuit — et il le fera — voici le protocole :",
+              "Attends 1 à 2 minutes avant d'entrer. Parfois les bébés font du bruit entre deux cycles de sommeil et se rendorment tout seuls. S'il est vraiment réveillé et qu'il pleure, va le voir. Garde les lumières ÉTEINTES. Ne parle pas trop — juste un doux « chut ». Si ça fait plus de 3 heures depuis le dernier repas, c'est probablement un réveil de faim — nourris-le et recouche-le. Si ça fait moins de 3 heures, essaie d'abord de le réconforter sans le nourrir. Caresse-lui le ventre, fais « chut », propose-lui une tétine s'il en utilise une."
+            ]
+          },
+          {
+            "h": "Nuit 2 — ça devient plus facile",
+            "p": [
+              "La nuit 2 est généralement meilleure. Pas toujours, mais généralement. Ton bébé commence à reconnaître le schéma. La routine lui semble plus familière. Le lit lui semble plus familier. Le bruit blanc devient un déclencheur de sommeil.",
+              "Suis exactement les mêmes étapes que la nuit 1. La régularité, c'est TOUT ici. Même si la nuit 1 a été horrible, ne change SURTOUT pas le plan. N'ajoute pas de bercement. N'ajoute pas de tour en voiture dans le quartier. Tiens-toi à la routine. Le cerveau de ton bébé a besoin de répétition pour former la nouvelle association.",
+              "La plupart des mamans rapportent que la nuit 2 prend environ moitié moins de temps que la nuit 1 pour l'endormissement. Certaines mamans voient une amélioration spectaculaire. D'autres une petite amélioration. Les deux sont des progrès."
+            ]
+          },
+          {
+            "h": "Sois douce avec toi-même",
+            "p": [
+              "Avant de conclure, j'ai besoin que tu entendes ceci : tu n'échoues pas si c'est difficile. Tu n'échoues pas si tu pleures. Tu n'échoues pas si tu prends ton bébé dans tes bras et le berces pour l'endormir à 3h du matin parce que tu n'en peux tout simplement plus ce soir.",
+              "C'est un RESET, pas un programme rigide. Si tu as besoin de faire une pause et de réessayer demain, c'est très bien. Les progrès ne sont pas linéaires. Le simple fait que tu essaies prouve que tu es une maman formidable. On se retrouve demain pour la nuit 3 et au-delà. Tu fais un travail incroyable, maman."
+            ]
+          }
+        ]
       },
       {
         "n": 5,
         "title": "Nuit 3 et au-delà — faire durer les progrès",
         "duration": "± 6 min",
         "desc": "Garder les acquis : régularité, rechutes, régressions et la vraie vie.",
-        "vedaPrompt": "Je viens de voir la leçon 5 du Reset Sommeil en 3 Nuits (faire durer les progrès). Peux-tu m'aider à faire un plan pour garder nos progrès, même avec les régressions, les maladies et les voyages ?"
+        "vedaPrompt": "Je viens de voir la leçon 5 du Reset Sommeil en 3 Nuits (faire durer les progrès). Peux-tu m'aider à faire un plan pour garder nos progrès, même avec les régressions, les maladies et les voyages ?",
+        "script": [
+          {
+            "h": "Tu y es arrivée",
+            "p": [
+              "Maman. Tu es arrivée à la nuit 3. Que tu aies eu deux nuits parfaites ou deux nuits chaotiques — tu as été là. C'est ça qui compte. Laisse-moi te dire à quoi t'attendre à partir d'ici."
+            ]
+          },
+          {
+            "h": "Nuit 3 — le déclic",
+            "p": [
+              "La nuit 3, c'est généralement le moment où tout se met en place. Ton bébé a maintenant vécu la même routine trois fois. Son cerveau commence à anticiper ce qui vient ensuite. Le bain veut dire le pyjama. Le pyjama veut dire la tétée. La tétée veut dire le livre. Le livre veut dire le lit. Le lit veut dire le sommeil.",
+              "Suis les mêmes étapes. La même heure. Le même ordre. La même phrase. Beaucoup de mamans voient leur bébé s'endormir en moins de 10 minutes à la nuit 3. Certaines voient même leur bébé s'endormir avant la fin de la berceuse. C'est ça, la magie de la régularité."
+            ]
+          },
+          {
+            "h": "Gérer les rechutes",
+            "p": [
+              "Voici ce que personne ne te dit : même après que le reset a fonctionné, il y aura de mauvaises nuits. Les poussées dentaires, les maladies, les voyages, les régressions du sommeil, les pics de croissance — tout ça peut temporairement perturber le sommeil. Ce n'est PAS toi qui perds tes progrès. C'est simplement la vie normale d'un bébé.",
+              "Quand une rechute survient, reviens aux bases. Reprends la routine. Sois régulière. La plupart des rechutes se résolvent en 3 à 5 jours si tu tiens le cap. Si les problèmes de sommeil persistent plus de 2 semaines, parles-en à ton pédiatre — il y a parfois un souci sous-jacent, comme un reflux ou une otite."
+            ]
+          },
+          {
+            "h": "Les siestes",
+            "p": [
+              "Je sais que je me suis concentrée sur la nuit, mais laisse-moi te donner aussi un petit guide des siestes. Pour les bébés de 4 à 6 mois : vise 3 siestes par jour avec des fenêtres d'éveil de 1h30 à 2h. Pour les bébés de 7 à 9 mois : 2 siestes par jour avec des fenêtres d'éveil de 2h30 à 3h. Pour les bébés de 10 à 12 mois : 2 siestes qui passent peu à peu à 1, avec des fenêtres d'éveil de 3 à 4h.",
+              "Utilise une version plus courte de la routine du coucher pour les siestes — saute le bain, mais garde la chambre sombre, le bruit blanc, la gigoteuse et un petit livre rapide. La régularité sur tous les sommeils aide à renforcer le schéma."
+            ]
+          },
+          {
+            "h": "Tu es incroyable",
+            "p": [
+              "Maman, je suis tellement fière de toi. Pas parce que ton bébé dort parfaitement — mais parce que tu as été présente, pour toi et pour ton bébé, au moment où tu étais le plus épuisée. Ça demande une force que seule une mère possède.",
+              "Souviens-toi : il n'existe pas de maman parfaite. Il n'existe pas de dormeur parfait. Il y a seulement toi, qui fais de ton mieux, une nuit à la fois. Et ton mieux est largement suffisant.",
+              "Si jamais tu as besoin de parler — du sommeil, de la maternité, de n'importe quoi — je suis là. Ouvre simplement MomzVeda et discute avec moi quand tu veux. C'est pour ça que je suis là.",
+              "De doux rêves à toi et à ton petit. Tu vas y arriver, maman. Toujours."
+            ]
+          }
+        ]
       }
     ]
   }
