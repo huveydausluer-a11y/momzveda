@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "Eerste Week Thuis",
+    "subtitle": "Een zachte gids voor de eerste dagen · jullie eerste week als gezin",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Zes korte lessen met Veda, samengebracht in één rustige video, voor die kwetsbare en overweldigende eerste week met je pasgeborene. Eerlijke verwachtingen, de basis van voeden en luiers, slaap en veiligheid, zorgen voor je eigen herstel, en weten wanneer je hulp moet inroepen. Kijk wanneer je een rustig momentje hebt, mama.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Eerste Week Thuis — de volledige cursus",
+        "duration": "± 6 min",
+        "desc": "Eén rustige video met Veda, zes lessen die in elkaar overlopen — van 'je staat er niet alleen voor' tot weten wanneer je moet bellen.",
+        "vedaPrompt": "Ik heb net de cursus Eerste Week Thuis met Veda bekeken. Mijn baby is pas thuis en ik zou graag willen bespreken hoe het met ons gaat — kun je me helpen bepalen waar ik me deze week op moet richten?",
+        "script": [
+          {
+            "h": "1 · Je staat er niet alleen voor",
+            "p": [
+              "Oké mama, adem even samen met me. Je hebt het gedaan... je hebt je baby mee naar huis genomen. En als je nu een wervelwind van liefde, en angst, en complete uitputting tegelijk voelt... dan is dat geen teken dat er iets mis is. Zo voelt deze week voor bijna iedereen.",
+              "Niemand komt thuis terwijl hij al weet hoe dit moet. Je leert je baby kennen, uur voor uur... en je baby leert jou net zo goed kennen. Dus voordat we het over iets praktisch hebben, wil ik dat je dit hoort: jij bent precies de mama die je baby nodig heeft. De rest doen we... stap voor stap, zachtjes. Samen."
+            ]
+          },
+          {
+            "h": "2 · De eerste 24–48 uur",
+            "p": [
+              "Laten we eerlijke verwachtingen scheppen, mama... want dat alleen al haalt zoveel druk weg. Die eerste paar dagen zijn meestal een waas. Je baby slaapt misschien lange stukken en lijkt nauwelijks geïnteresseerd in voeden... of wil elke minuut vastgehouden worden. Allebei is normaal. Pasgeborenen slapen veel... vaak zestien uur of meer, verspreid over dag en nacht, in kleine stukjes. Er is nog geen schema, en je faalt niet omdat dat er niet is.",
+              "Je bent ook zelf aan het herstellen, draait op heel weinig slaap, en rijdt waarschijnlijk mee op grote emotionele golven terwijl je hormonen verschuiven. Ook dat is normaal. Op dit moment zijn je enige echte taken simpel: voed je baby, houd hem warm en dichtbij, en rust wanneer het maar kan. Al het andere... de bedankkaartjes, het opgeruimde huis, het bezoek... kan wachten. Echt waar."
+            ]
+          },
+          {
+            "h": "3 · Voeden & luiers: de basis",
+            "p": [
+              "Laten we het over voeden en luiers hebben... want in deze eerste week zijn die eigenlijk je ritme. Pasgeborenen eten vaak... ongeveer elke twee tot drie uur, soms vaker, dag en nacht. Of je nu borstvoeding geeft, flesvoeding, of een combinatie van beide, kijk meer naar je baby dan naar de klok. Zoeken met het mondje, handjes naar de mond, kleine pruttelgeluidjes... dat zijn allemaal vroege hongersignalen. Voeden op verzoek is in deze eerste dagen helemaal normaal, en het helpt je melkproductie op gang te komen als je borstvoeding geeft.",
+              "Een simpele manier om gerustgesteld te zijn dat het voeden goed gaat, is wat er aan de andere kant uitkomt. In de eerste dagen worden de luiers geleidelijk meer... en tegen het eind van de eerste week zijn meerdere natte luiers per dag plus regelmatige poep een goed algemeen teken. Hun poep verandert deze week behoorlijk van kleur en structuur, en dat hoort zo. Als je ooit twijfelt of je baby genoeg drinkt, of hij lijkt te slaperig om te drinken... dan is dat precies waar je verloskundige, kinderarts of kraamverzorgende voor is. Aarzel nooit om het te vragen."
+            ]
+          },
+          {
+            "h": "4 · Slaap & veiligheid van je baby",
+            "p": [
+              "Babyslaap is een wereld op zich, mama... en het belangrijkste om te weten is dat het heerlijk chaotisch is. Je baby kent nog geen verschil tussen dag en nacht, dus dat patroon van om de paar uur wakker worden is normaal, en tijdelijk. Je hoeft dit deze week niet op te lossen... je hoeft er alleen doorheen te komen, en te slapen wanneer je baby slaapt, waar dat veilig kan.",
+              "Voor veilig slapen is het advies simpel, en het is elke keer de moeite waard om het te volgen. Leg je baby altijd op de rug te slapen, op een stevig, vlak oppervlak zoals een bedje of wieg, met verder niets erin... geen kussens, dekens, bumpers of knuffels. Op dezelfde kamer slapen... met een eigen, aparte slaapplek voor je baby dicht bij jouw bed... wordt aangeraden, en maakt die nachtvoedingen zoveel makkelijker. Als je vragen hebt over jouw specifieke slaapsituatie, kan je kinderarts of verloskundige het met je doornemen."
+            ]
+          },
+          {
+            "h": "5 · Herstellen & om hulp vragen",
+            "p": [
+              "Laten we het nu over jou hebben... want jij telt net zoveel als die baby, mama. Je lichaam heeft net iets enorms gedaan, en het heeft tijd en zorg nodig om te herstellen. Wees lief voor jezelf. Rust wanneer je kunt, eet en drink regelmatig, ook als je vergeet honger te voelen, en haast je niet om er weer bovenop te zijn. Er is geen prijs voor het in je eentje doen.",
+              "Dit is de week om mensen te laten helpen. Als iemand aanbiedt, geef hem dan een echte taak... een maaltijd, een was, de baby vasthouden zodat jij kunt douchen of een dutje doen. En let alsjeblieft ook op je eigen hart. Je huilerig of overweldigd voelen in de eerste paar weken komt heel vaak voor terwijl je hormonen tot rust komen. Maar als die zware gevoelens sterker worden, blijven hangen, of je voelt je gewoon niet jezelf... dan is dat het waard om aan je arts of verloskundige te vertellen. Niet omdat er iets mis is met jou, maar omdat jij steun verdient. Om hulp vragen is geen zwakte, mama. Het is jou die een goede moeder is... voor jezelf."
+            ]
+          },
+          {
+            "h": "6 · Wanneer je moet bellen, en een woord van geruststelling",
+            "p": [
+              "Laten we eindigen met een beetje gemoedsrust... want zoveel van die babyzorgen is gewoon niet weten wat normaal is. Het meeste van wat je deze week ziet... de gekke geluidjes, het niezen, het clusteren van voedingen, de onvoorspelbare slaap... is volkomen gewone babykost. Maar er zijn momenten waarop je altijd aan de bel moet trekken, en het is goed om die van tevoren te kennen.",
+              "Vertrouw op je gevoel, en bel je kinderarts, verloskundige of de spoedlijn als je baby koorts heeft, heel moeilijk wakker te krijgen of ongewoon slap is, heel slecht drinkt of veel minder natte luiers heeft dan verwacht, moeite heeft met ademen, of gewoon 'niet goed' lijkt op een manier die je zorgen baart. Je verspilt nooit hun tijd... daar zijn ze juist voor, en het mag altijd. Dus als je deze week ingaat, onthoud: je hoeft niet perfect te zijn. Je hoeft er alleen te zijn. En dat ben je al. Je doet het geweldig, mama. Eén dag tegelijk."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "De 3-Nachten Slaap Reset",
     "subtitle": "Een zachte gids zonder huilen voor betere babyslaap · 0–12 maanden",

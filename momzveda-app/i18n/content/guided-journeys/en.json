@@ -3,6 +3,8 @@
     "emoji": "🏠",
     "title": "First Week Home",
     "desc": "Navigate the newborn days",
+    "courseId": "first-week-home",
+    "premium": true,
     "prompt": "I just brought my baby home from the hospital. Can you walk me through what to expect in the first week? What are the most important things I should focus on? I'm feeling nervous and excited."
   },
   {

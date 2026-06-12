@@ -3,6 +3,8 @@
     "emoji": "🏠",
     "title": "Primera semana en casa",
     "desc": "Sobrevivir los días de recién nacido",
+    "courseId": "first-week-home",
+    "premium": true,
     "prompt": "Acabo de llegar a casa del hospital con mi bebé. ¿Puedes contarme qué esperar en la primera semana? ¿En qué debería enfocarme? Estoy nerviosa y emocionada a la vez."
   },
   {

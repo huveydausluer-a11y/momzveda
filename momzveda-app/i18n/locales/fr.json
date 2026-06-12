@@ -209,6 +209,8 @@
     "lockedButton": "Passer à Premium",
     "freeIntro": "La leçon 1 est gratuite — profites-en ! 💚",
     "transcript": "Script de la leçon",
-    "audioNote": "🔊 L'audio de la vidéo est en anglais"
+    "audioNote": "🔊 L'audio de la vidéo est en anglais",
+    "lockedTitleFull": "Débloque le cours complet",
+    "lockedDescFull": "Ce cours vidéo fait partie de Premium. Passe à Premium pour regarder tout le cours « Première semaine à la maison » — plus des messages illimités et tous les guides."
   }
 }

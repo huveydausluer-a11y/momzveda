@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "Première semaine à la maison",
+    "subtitle": "Un guide tout en douceur pour les premiers jours · votre première semaine en famille",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Six courtes leçons avec Veda, réunies en une seule vidéo apaisante, pour cette première semaine si tendre et si bouleversante avec ton nouveau-né. Des attentes honnêtes, les bases de l'allaitement et des couches, le sommeil et la sécurité, prendre soin de ta propre guérison, et savoir exactement quand demander de l'aide. Regarde-la dès que tu as un moment de calme, maman.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Première semaine à la maison — le cours complet",
+        "duration": "± 6 min",
+        "desc": "Une vidéo douce avec Veda, six leçons qui s'enchaînent — de « tu n'es pas seule » jusqu'à savoir quand appeler.",
+        "vedaPrompt": "Je viens de regarder le cours Première semaine à la maison avec Veda. Mon bébé est rentré récemment et j'aimerais parler de comment on va — peux-tu m'aider à voir sur quoi me concentrer cette semaine ?",
+        "script": [
+          {
+            "h": "1 · Tu n'es pas seule",
+            "p": [
+              "D'accord maman, respire un instant avec moi. Tu l'as fait... tu as ramené ton bébé à la maison. Et si tu ressens en ce moment un tourbillon d'amour, de terreur et d'épuisement total en même temps... ce n'est pas le signe que quelque chose ne va pas. C'est simplement ce à quoi ressemble cette semaine pour presque tout le monde.",
+              "Personne ne rentre chez soi en sachant déjà comment faire. Tu apprends à connaître ton bébé, heure après heure... et ton bébé apprend à te connaître tout autant. Alors avant de parler de quoi que ce soit de pratique, je veux que tu entendes ceci : tu es exactement la maman dont ton bébé a besoin. Le reste, on le fera... un pas tout doux à la fois. Ensemble."
+            ]
+          },
+          {
+            "h": "2 · Les premières 24–48 heures",
+            "p": [
+              "Posons des attentes honnêtes, maman... car cela seul enlève tellement de pression. Ces premiers jours sont souvent un brouillard. Ton bébé peut dormir de longues plages et sembler à peine intéressé par la tétée... ou vouloir être porté à chaque minute. Les deux sont normaux. Les nouveau-nés dorment beaucoup... souvent seize heures ou plus, réparties sur le jour et la nuit, par petits bouts. Il n'y a pas encore de rythme, et tu n'échoues pas parce qu'il n'y en a pas.",
+              "Toi aussi tu récupères, tu tiens sur très peu de sommeil, et tu traverses sûrement de grandes vagues d'émotions tandis que tes hormones changent. C'est normal aussi. En ce moment, tes seules vraies tâches sont simples : nourrir ton bébé, le garder au chaud et tout près, et te reposer dès que possible. Tout le reste... les cartes de remerciement, la maison rangée, les visites... peut attendre. Vraiment."
+            ]
+          },
+          {
+            "h": "3 · Alimentation & couches : les bases",
+            "p": [
+              "Parlons de l'alimentation et des couches... car cette première semaine, c'est en gros ton rythme. Les nouveau-nés mangent souvent... environ toutes les deux à trois heures, parfois plus, jour et nuit. Que tu allaites, donnes le biberon ou fasses un mélange des deux, observe ton bébé plus que l'horloge. Recherche du sein, mains à la bouche, petits bruits d'agitation... ce sont tous des signes précoces de faim. Nourrir à la demande ces premiers jours est tout à fait normal, et cela aide ta lactation à s'installer si tu allaites.",
+              "Une façon simple d'être rassurée que l'alimentation se passe bien, c'est ce qui ressort de l'autre côté. Les premiers jours, attends-toi à ce que les couches augmentent peu à peu... et à la fin de la première semaine, plusieurs couches mouillées par jour plus des selles régulières sont un bon signe général. Leurs selles vont beaucoup changer de couleur et de texture cette semaine, et c'est attendu. Si jamais tu doutes que ton bébé mange assez, ou s'il semble trop endormi pour téter... c'est exactement ce pour quoi ta sage-femme, ton pédiatre ou ton infirmière en post-partum sont là. N'hésite jamais à demander."
+            ]
+          },
+          {
+            "h": "4 · Sommeil & sécurité du nouveau-né",
+            "p": [
+              "Le sommeil du nouveau-né est un monde à part, maman... et la chose la plus importante à savoir, c'est qu'il est merveilleusement désordonné. Ton bébé ne distingue pas encore le jour de la nuit, donc le schéma du réveil toutes les quelques heures est normal, et temporaire. Tu n'as pas à le régler cette semaine... tu dois juste la traverser, et dormir quand ton bébé dort, partout où c'est sûr.",
+              "Pour un sommeil sûr, le conseil est simple, et il vaut la peine d'être suivi à chaque fois. Couche toujours ton bébé sur le dos pour dormir, sur une surface ferme et plane comme un lit ou un berceau, sans rien d'autre dedans... pas d'oreillers, de couvertures, de tours de lit ou de peluches. Le partage de chambre... avec un espace de sommeil séparé pour ton bébé tout près de ton lit... est recommandé, et peut rendre ces tétées de nuit tellement plus faciles. Si tu as des questions sur ton installation précise, ton pédiatre ou ta sage-femme peuvent la passer en revue avec toi."
+            ]
+          },
+          {
+            "h": "5 · Guérir & demander de l'aide",
+            "p": [
+              "Maintenant, parlons de toi... car tu comptes autant que ce bébé, maman. Ton corps vient d'accomplir quelque chose d'énorme, et il a besoin de temps et de soin pour récupérer. Sois douce avec toi-même. Repose-toi quand tu peux, mange et bois régulièrement même quand tu oublies d'avoir faim, et ne te presse pas de « retrouver la forme ». Il n'y a pas de prix pour avoir tout fait seule.",
+              "C'est la semaine pour laisser les gens t'aider. Quand quelqu'un propose, donne-lui une vraie tâche... un repas, une lessive, tenir le bébé pour que tu puisses te doucher ou faire une sieste. Et s'il te plaît, sois attentive à ton propre cœur aussi. Se sentir larmoyante ou dépassée dans les premières semaines est très fréquent tandis que tes hormones se stabilisent. Mais si ces sentiments lourds s'intensifient, persistent, ou si tu ne te sens tout simplement plus toi-même... cela vaut la peine d'en parler à ton médecin ou à ta sage-femme. Pas parce que quelque chose ne va pas chez toi, mais parce que tu mérites du soutien. Demander de l'aide n'est pas une faiblesse, maman. C'est toi qui es une bonne mère... envers toi-même."
+            ]
+          },
+          {
+            "h": "6 · Quand appeler, et un mot de réconfort",
+            "p": [
+              "Terminons avec un peu de tranquillité d'esprit... car une grande partie de l'inquiétude autour d'un nouveau-né, c'est simplement ne pas savoir ce qui est normal. La plupart de ce que tu verras cette semaine... les bruits étranges, les éternuements, les tétées groupées, le sommeil imprévisible... ce sont des choses tout à fait ordinaires chez un nouveau-né. Mais il y a des moments où tu dois toujours réagir, et c'est bien de les connaître à l'avance.",
+              "Fie-toi à ton instinct, et appelle ton pédiatre, ta sage-femme ou le numéro d'urgence si ton bébé a de la fièvre, est très difficile à réveiller ou anormalement mou, mange très mal ou a beaucoup moins de couches mouillées que prévu, a du mal à respirer, ou semble simplement « pas bien » d'une manière qui t'inquiète. Tu ne leur feras jamais perdre leur temps... c'est exactement pour cela qu'ils sont là, et il est toujours permis de demander. Alors en abordant cette semaine, souviens-toi : tu n'as pas à être parfaite. Tu dois juste être là. Et tu l'es déjà. Tu fais un travail incroyable, maman. Un jour à la fois."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "Le Reset Sommeil en 3 Nuits",
     "subtitle": "Un guide doux, sans pleurs, pour aider ton bébé à mieux dormir · 0–12 mois",

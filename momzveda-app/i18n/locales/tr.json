@@ -209,6 +209,8 @@
     "lockedButton": "Premium'a Geç",
     "freeIntro": "1. ders ücretsiz — keyfini çıkar! 💚",
     "transcript": "Ders metni",
-    "audioNote": "🔊 Video sesi İngilizcedir"
+    "audioNote": "🔊 Video sesi İngilizcedir",
+    "lockedTitleFull": "Tüm kursun kilidini aç",
+    "lockedDescFull": "Bu video kursu Premium'a dahildir. «Evdeki ilk hafta» kursunun tamamını izlemek için Premium'a geç — ayrıca sınırsız mesaj ve tüm rehberler."
   }
 }

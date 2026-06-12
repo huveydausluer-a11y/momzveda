@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "Erste Woche zu Hause",
+    "subtitle": "Ein sanfter Begleiter für die ersten Tage · eure erste Woche als Familie",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Sechs kurze Lektionen mit Veda, zusammengefasst in einem ruhigen Video, für die zarte und überwältigende erste Woche mit deinem Neugeborenen. Ehrliche Erwartungen, die Grundlagen von Füttern und Windeln, Schlaf und Sicherheit, Fürsorge für deine eigene Heilung und das Wissen, wann du Hilfe holen solltest. Schau es dir an, wann immer du einen ruhigen Moment hast, Mama.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Erste Woche zu Hause — der komplette Kurs",
+        "duration": "± 6 Min.",
+        "desc": "Ein ruhiges Video mit Veda, sechs Lektionen, die ineinander übergehen — von „du bist nicht allein damit“ bis zu dem Wissen, wann du anrufen solltest.",
+        "vedaPrompt": "Ich habe gerade den Kurs „Erste Woche zu Hause“ mit Veda angeschaut. Mein Baby ist erst seit Kurzem zu Hause und ich würde gern besprechen, wie es uns geht — kannst du mir helfen herauszufinden, worauf ich mich diese Woche konzentrieren soll?",
+        "script": [
+          {
+            "h": "1 · Du bist nicht allein damit",
+            "p": [
+              "Okay Mama, atme einen Moment mit mir. Du hast es geschafft... du hast dein Baby nach Hause gebracht. Und wenn du gerade einen Wirbel aus Liebe, Angst und völliger Erschöpfung zugleich spürst... ist das kein Zeichen, dass etwas nicht stimmt. So fühlt sich diese Woche für fast alle an.",
+              "Niemand kommt nach Hause und weiß schon, wie das geht. Du lernst dein Baby kennen, Stunde für Stunde... und dein Baby lernt genauso dich kennen. Bevor wir also über irgendetwas Praktisches sprechen, möchte ich, dass du das hörst: Du bist genau die Mama, die dein Baby braucht. Den Rest gehen wir... Schritt für Schritt, ganz sanft. Gemeinsam."
+            ]
+          },
+          {
+            "h": "2 · Die ersten 24–48 Stunden",
+            "p": [
+              "Setzen wir ehrliche Erwartungen, Mama... denn schon das nimmt so viel Druck. Diese ersten paar Tage sind meist ein einziger Nebel. Dein Baby schläft vielleicht lange am Stück und scheint kaum am Trinken interessiert... oder will jede einzelne Minute getragen werden. Beides ist normal. Neugeborene schlafen viel... oft sechzehn Stunden oder mehr, über Tag und Nacht verteilt, in kleinen Häppchen. Es gibt noch keinen Rhythmus, und du versagst nicht, weil es keinen gibt.",
+              "Du erholst dich gleichzeitig selbst, läufst auf sehr wenig Schlaf und reitest wahrscheinlich auf großen Gefühlswellen, während sich deine Hormone umstellen. Auch das ist normal. Im Moment sind deine einzigen echten Aufgaben einfach: dein Baby füttern, es warm und nah bei dir halten, und ruhen, wann immer es geht. Alles andere... die Dankeskarten, das aufgeräumte Haus, der Besuch... kann warten. Wirklich."
+            ]
+          },
+          {
+            "h": "3 · Füttern & Windeln: die Grundlagen",
+            "p": [
+              "Sprechen wir über Füttern und Windeln... denn in dieser ersten Woche sind sie im Grunde dein Rhythmus. Neugeborene essen oft... etwa alle zwei bis drei Stunden, manchmal öfter, rund um die Uhr. Ob du stillst, mit der Flasche fütterst oder beides kombinierst — achte mehr auf dein Baby als auf die Uhr. Suchbewegungen, Händchen zum Mund, kleine Quengellaute... das sind alles frühe Hungerzeichen. Füttern nach Bedarf ist in diesen ersten Tagen völlig normal und hilft deiner Milchbildung, sich einzupendeln, wenn du stillst.",
+              "Eine einfache Art, beruhigt zu sein, dass das Füttern gut läuft, ist das, was hinten herauskommt. In den ersten Tagen nehmen die Windeln nach und nach zu... und gegen Ende der ersten Woche sind mehrere nasse Windeln am Tag plus regelmäßiger Stuhl ein gutes allgemeines Zeichen. Der Stuhl wechselt diese Woche deutlich Farbe und Beschaffenheit, und das ist zu erwarten. Wenn du je unsicher bist, ob dein Baby genug trinkt, oder es zu schläfrig zum Trinken wirkt... genau dafür sind deine Hebamme, dein Kinderarzt oder deine Wochenbettpflege da. Zögere nie zu fragen."
+            ]
+          },
+          {
+            "h": "4 · Babyschlaf & Sicherheit",
+            "p": [
+              "Babyschlaf ist eine eigene Welt, Mama... und das Wichtigste ist zu wissen, dass er herrlich chaotisch ist. Dein Baby kennt noch keinen Unterschied zwischen Tag und Nacht, deshalb ist das Muster, alle paar Stunden wach zu sein, normal und vorübergehend. Du musst das diese Woche nicht lösen... du musst nur hindurchkommen und schlafen, wenn dein Baby schläft, wo immer es sicher geht.",
+              "Für sicheren Schlaf ist der Rat einfach, und es lohnt sich, ihn jedes Mal zu befolgen. Lege dein Baby immer auf den Rücken zum Schlafen, auf eine feste, flache Unterlage wie ein Babybett oder eine Wiege, mit sonst nichts darin... keine Kissen, Decken, Nestchen oder Kuscheltiere. Das Schlafen im selben Zimmer... mit einem eigenen, getrennten Schlafplatz für dein Baby nah an deinem Bett... wird empfohlen und macht die nächtlichen Mahlzeiten so viel leichter. Wenn du Fragen zu deiner konkreten Schlafsituation hast, kann dein Kinderarzt oder deine Hebamme sie mit dir durchgehen."
+            ]
+          },
+          {
+            "h": "5 · Heilen & um Hilfe bitten",
+            "p": [
+              "Reden wir jetzt über dich... denn du zählst genauso viel wie dieses Baby, Mama. Dein Körper hat gerade etwas Gewaltiges geleistet, und er braucht Zeit und Fürsorge, um sich zu erholen. Sei sanft mit dir. Ruhe, wenn du kannst, iss und trink regelmäßig, auch wenn du vergisst, Hunger zu spüren, und hetze nicht, um wieder die Alte zu sein. Es gibt keinen Preis dafür, das allein zu schaffen.",
+              "Dies ist die Woche, in der du Hilfe zulassen darfst. Wenn jemand etwas anbietet, gib ihm eine echte Aufgabe... eine Mahlzeit, eine Ladung Wäsche, das Baby halten, damit du duschen oder ein Nickerchen machen kannst. Und bitte achte auch auf dein eigenes Herz. Sich in den ersten Wochen weinerlich oder überfordert zu fühlen, ist sehr häufig, während sich die Hormone beruhigen. Aber wenn diese schweren Gefühle stärker werden, bleiben, oder du dich einfach nicht wie du selbst fühlst... ist das es wert, deinem Arzt oder deiner Hebamme zu sagen. Nicht, weil etwas mit dir nicht stimmt, sondern weil du Unterstützung verdienst. Um Hilfe zu bitten ist keine Schwäche, Mama. Es ist, dass du eine gute Mutter bist... zu dir selbst."
+            ]
+          },
+          {
+            "h": "6 · Wann du anrufen solltest, und ein Wort der Beruhigung",
+            "p": [
+              "Lass uns mit etwas Seelenfrieden enden... denn so viel von der Sorge um ein Neugeborenes ist einfach, nicht zu wissen, was normal ist. Das meiste, was du diese Woche siehst... die komischen Geräusche, das Niesen, das Clusterfüttern, der unvorhersehbare Schlaf... ist ganz gewöhnliches Neugeborenen-Verhalten. Aber es gibt Momente, in denen du dich immer melden solltest, und es ist gut, sie vorher zu kennen.",
+              "Vertraue deinem Bauchgefühl und ruf deinen Kinderarzt, deine Hebamme oder den Notdienst an, wenn dein Baby Fieber hat, sehr schwer aufzuwecken oder ungewöhnlich schlaff ist, sehr schlecht trinkt oder viel weniger nasse Windeln hat als erwartet, Mühe beim Atmen hat oder einfach auf eine Weise „nicht richtig“ wirkt, die dir Sorgen macht. Du verschwendest nie ihre Zeit... genau dafür sind sie da, und es ist immer in Ordnung zu fragen. Wenn du also in diese Woche gehst, denk daran: Du musst nicht perfekt sein. Du musst nur da sein. Und das bist du schon. Du machst das großartig, Mama. Ein Tag nach dem anderen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "Der 3-Nächte-Schlaf-Reset",
     "subtitle": "Ein sanfter Guide ohne Schreienlassen für besseren Babyschlaf · 0–12 Monate",

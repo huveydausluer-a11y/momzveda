@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "Primeira semana em casa",
+    "subtitle": "Um guia gentil para os primeiros dias · a vossa primeira semana em família",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Seis lições curtas com a Veda, reunidas num único vídeo tranquilo, para essa primeira semana tão delicada e avassaladora com o teu recém-nascido. Expectativas honestas, o básico da amamentação e das fraldas, sono e segurança, cuidar da tua própria recuperação, e saber exatamente quando pedir ajuda. Vê quando tiveres um momento de calma, mamã.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Primeira semana em casa — o curso completo",
+        "duration": "± 6 min",
+        "desc": "Um vídeo tranquilo com a Veda, seis lições que fluem umas nas outras — de «não estás sozinha nisto» até saber quando ligar.",
+        "vedaPrompt": "Acabei de ver o curso Primeira semana em casa com a Veda. Trouxe o meu bebé para casa há pouco e gostava de falar sobre como estamos — podes ajudar-me a perceber em que me focar esta semana?",
+        "script": [
+          {
+            "h": "1 · Não estás sozinha nisto",
+            "p": [
+              "Está bem, mamã, respira um momento comigo. Conseguiste... trouxeste o teu bebé para casa. E se neste momento sentes um turbilhão de amor, e terror, e exaustão total ao mesmo tempo... isso não é sinal de que algo está errado. É simplesmente como esta semana se sente para quase toda a gente.",
+              "Ninguém chega a casa já a saber fazer isto. Aprendes a conhecer o teu bebé, hora a hora... e o teu bebé aprende a conhecer-te a ti da mesma forma. Por isso, antes de falarmos de qualquer coisa prática, quero que ouças isto: és exatamente a mamã de que o teu bebé precisa. O resto faremos... um passo gentil de cada vez. Juntas."
+            ]
+          },
+          {
+            "h": "2 · As primeiras 24–48 horas",
+            "p": [
+              "Vamos pôr expectativas honestas, mamã... porque só isso já tira tanta pressão. Esses primeiros dias costumam ser uma névoa. O teu bebé pode dormir longos períodos e mal parecer interessado em mamar... ou querer estar ao colo a cada minuto. As duas coisas são normais. Os recém-nascidos dormem muito... muitas vezes dezasseis horas ou mais, espalhadas pelo dia e pela noite, em pequenos bocados. Ainda não há horário, e não estás a falhar por não haver.",
+              "Tu também estás a recuperar, a aguentar com muito pouco sono, e provavelmente a surfar grandes ondas emocionais enquanto as tuas hormonas mudam. Isso também é normal. Neste momento, as tuas únicas tarefas reais são simples: alimentar o teu bebé, mantê-lo quentinho e perto, e descansar sempre que possível. Tudo o resto... os cartões de agradecimento, a casa arrumada, as visitas... pode esperar. A sério."
+            ]
+          },
+          {
+            "h": "3 · Amamentação e fraldas: o básico",
+            "p": [
+              "Vamos falar de amamentação e fraldas... porque nesta primeira semana são basicamente o teu ritmo. Os recém-nascidos comem muitas vezes... mais ou menos a cada duas a três horas, às vezes mais, a toda a hora. Quer estejas a amamentar, a dar biberão ou a fazer uma mistura dos dois, observa mais o teu bebé do que o relógio. Procurar com a boca, mãos à boca, pequenos sons de agitação... são todos sinais precoces de fome. Alimentar em livre demanda nestes primeiros dias é completamente normal, e ajuda a tua produção de leite a estabilizar se estiveres a amamentar.",
+              "Uma forma simples de ficares tranquila de que a alimentação vai bem é o que sai do outro lado. Nos primeiros dias, espera que as fraldas aumentem aos poucos... e no fim da primeira semana, várias fraldas molhadas por dia mais dejeções regulares são um bom sinal geral. O cocó vai mudar bastante de cor e textura esta semana, e isso é esperado. Se alguma vez tiveres dúvidas se o teu bebé come o suficiente, ou se ele parecer demasiado sonolento para mamar... é exatamente para isso que existem a tua parteira, o pediatra ou o enfermeiro do pós-parto. Nunca hesites em perguntar."
+            ]
+          },
+          {
+            "h": "4 · Sono e segurança do recém-nascido",
+            "p": [
+              "O sono do recém-nascido é um mundo à parte, mamã... e o mais importante a saber é que é maravilhosamente desorganizado. O teu bebé ainda não distingue o dia da noite, por isso o padrão de acordar a cada poucas horas é normal, e temporário. Não precisas de o resolver esta semana... só precisas de a atravessar, e dormir quando o teu bebé dorme, onde for seguro.",
+              "Para um sono seguro, a orientação é simples, e vale a pena segui-la sempre. Deita sempre o teu bebé de costas para dormir, numa superfície firme e plana como um berço ou alcofa, sem mais nada lá dentro... nem almofadas, cobertores, protetores ou peluches. Partilhar o quarto... com um espaço de sono próprio e separado para o teu bebé, perto da tua cama... é recomendado, e pode tornar essas mamadas noturnas muito mais fáceis. Se tiveres dúvidas sobre a tua montagem específica, o pediatra ou a parteira podem revê-la contigo."
+            ]
+          },
+          {
+            "h": "5 · Recuperar e pedir ajuda",
+            "p": [
+              "Agora vamos falar de ti... porque importas tanto quanto esse bebé, mamã. O teu corpo acabou de fazer algo enorme, e precisa de tempo e cuidado para recuperar. Sê gentil contigo mesma. Descansa quando puderes, come e bebe com regularidade mesmo quando te esqueces de sentir fome, e não tenhas pressa de «voltar ao normal». Não há prémio por fazeres tudo sozinha.",
+              "Esta é a semana de deixar as pessoas ajudarem. Quando alguém se oferecer, dá-lhe uma tarefa a sério... uma refeição, uma máquina de roupa, segurar o bebé para que possas tomar banho ou tirar uma soneca. E por favor, presta atenção também ao teu próprio coração. Sentires-te chorosa ou sobrecarregada nas primeiras semanas é muito comum enquanto as tuas hormonas se ajustam. Mas se esses sentimentos pesados se intensificarem, persistirem, ou se simplesmente não te sentires tu mesma... vale a pena contar ao teu médico ou parteira. Não porque haja algo de errado contigo, mas porque mereces apoio. Pedir ajuda não é fraqueza, mamã. És tu a seres uma boa mãe... para ti mesma."
+            ]
+          },
+          {
+            "h": "6 · Quando ligar, e uma palavra de tranquilidade",
+            "p": [
+              "Vamos terminar com um pouco de paz de espírito... porque grande parte da preocupação com um recém-nascido é simplesmente não saber o que é normal. A maioria do que vais ver esta semana... os ruídos engraçados, os espirros, as mamadas em cacho, o sono imprevisível... são coisas totalmente comuns de um recém-nascido. Mas há alturas em que deves sempre procurar ajuda, e é bom conhecê-las de antemão.",
+              "Confia no teu instinto, e liga ao teu pediatra, parteira ou linha de emergência se o teu bebé tiver febre, for muito difícil de acordar ou estiver invulgarmente mole, mamar muito mal ou tiver muito menos fraldas molhadas do que o esperado, tiver dificuldade em respirar, ou simplesmente parecer «estranho» de uma forma que te preocupa. Nunca lhes estarás a fazer perder tempo... é exatamente para isso que existem, e está sempre tudo bem em perguntar. Por isso, ao entrares nesta semana, lembra-te: não tens de ser perfeita. Só tens de estar presente. E já estás. Estás a fazer um trabalho incrível, mamã. Um dia de cada vez."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "O Reset do Sono em 3 Noites",
     "subtitle": "Um guia suave e sem choro para ajudar seu bebê a dormir melhor · 0–12 meses",

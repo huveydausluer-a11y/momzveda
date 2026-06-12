@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "First Week Home",
+    "subtitle": "A gentle guide to the newborn days · your first week as a family",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Six short lessons with Veda, gathered into one gentle video, for the tender and overwhelming first week with your newborn. Honest expectations, the basics of feeding and diapers, newborn sleep and safety, caring for your own healing, and knowing exactly when to call for help. Watch it whenever you have a quiet moment, mama.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "First Week Home — the complete course",
+        "duration": "± 6 min",
+        "desc": "One gentle video with Veda, six lessons flowing one into the next — from 'you're not alone in this' all the way to knowing when to call for help.",
+        "vedaPrompt": "I just watched the First Week Home course with Veda. I recently brought my baby home and I'd love to talk through how we're doing — can you help me figure out what to focus on this week?",
+        "script": [
+          {
+            "h": "1 · You're Not Alone in This",
+            "p": [
+              "Okay mama, take a breath with me for a second. You did it... you brought your baby home. And if right now you're feeling a swirl of love, and terror, and total exhaustion all at once... that's not a sign something's wrong. That's just what this week feels like for almost everyone.",
+              "Nobody comes home knowing how to do this. You learn your baby one hour at a time... and your baby is learning you right back. So before we talk about anything practical, I want you to hear this: you are exactly the mama your baby needs. We'll take the rest of this... one gentle step at a time. Together."
+            ]
+          },
+          {
+            "h": "2 · The First 24–48 Hours",
+            "p": [
+              "Let's set some honest expectations, mama... because that alone takes so much pressure off. These first couple of days are usually a blur. Your baby might sleep in long stretches and barely seem interested in feeding... or want to be held every single minute. Both are normal. Newborns sleep a lot... often sixteen or more hours spread all across the day and night, in little chunks. There is no schedule yet, and you are not failing because there isn't one.",
+              "You'll also be recovering yourself, running on very little sleep, and probably riding some big emotional waves as your hormones shift. That's normal too. Right now, your only real jobs are simple: feed your baby, keep them warm and close, and rest whenever you possibly can. Everything else... the thank-you notes, the tidy house, the visitors... can wait. Truly."
+            ]
+          },
+          {
+            "h": "3 · Feeding & Diapers: The Basics",
+            "p": [
+              "Let's talk feeding and diapers... because in this first week, those are basically your rhythm. Newborns eat often... roughly every two to three hours, sometimes more, around the clock. Whether you're breastfeeding, formula feeding, or doing a mix of both, watch your baby more than the clock. Rooting, hands to mouth, little fussing sounds... those are all early hunger cues. Feeding on demand in these early days is completely normal, and it helps your milk supply settle in if you're nursing.",
+              "A simple way to feel reassured that feeding is going well is what comes out the other end. In the first days, expect diapers to gradually increase... and by the end of the first week, several wet diapers a day plus regular stools is a good general sign. Their poop will change color and texture quite a bit this week, and that's expected. If you're ever unsure whether your baby is feeding enough, or they seem too sleepy to feed... that's exactly the kind of thing your midwife, pediatrician, or postpartum nurse is there for. Never hesitate to ask."
+            ]
+          },
+          {
+            "h": "4 · Newborn Sleep & Safety",
+            "p": [
+              "Newborn sleep is its own world, mama... and the biggest thing to know is that it's wonderfully messy. Your baby doesn't know day from night yet, so the up-every-couple-hours pattern is normal, and temporary. You don't need to fix it this week... you just need to get through it, and sleep when your baby sleeps, wherever you safely can.",
+              "For safe sleep, the guidance is simple, and worth following every single time. Always place your baby on their back to sleep, on a firm, flat surface like a crib or bassinet, with nothing else in there... no pillows, blankets, bumpers, or stuffed animals. Room-sharing... with your baby's own separate sleep space close to your bed... is recommended, and can make those night feeds so much easier. If you ever have questions about your specific sleep setup, your pediatrician or midwife can walk through it with you."
+            ]
+          },
+          {
+            "h": "5 · Healing & Asking for Help",
+            "p": [
+              "Now let's talk about you... because you matter just as much as that baby, mama. Your body just did something enormous, and it needs time and care to recover. Be gentle with yourself. Rest when you can, eat and drink regularly even when you forget to feel hungry, and don't rush to bounce back. There's no prize for doing this alone.",
+              "This is the week to let people help. When someone offers, give them a real job... a meal, a load of laundry, holding the baby so you can shower or nap. And please, pay attention to your own heart, too. Feeling weepy or overwhelmed in the first couple of weeks is very common as your hormones settle. But if those heavy feelings get stronger, stick around, or you just don't feel like yourself... that's worth telling your doctor or midwife. Not because anything is wrong with you, but because you deserve support. Asking for help isn't weakness, mama. It's you being a good mother... to yourself."
+            ]
+          },
+          {
+            "h": "6 · When to Call, and a Word of Reassurance",
+            "p": [
+              "Let's end with a little peace of mind... because so much of newborn worry is just not knowing what's normal. Most of what you'll see this week... the funny noises, the sneezing, the cluster feeding, the unpredictable sleep... is completely ordinary newborn stuff. But there are times you should always reach out, and it's good to know them in advance.",
+              "Trust your gut, and call your pediatrician, midwife, or emergency line if your baby has a fever, is very hard to wake or unusually floppy, is feeding very poorly or has far fewer wet diapers than expected, is struggling to breathe, or just seems off in a way that worries you. You will never be wasting their time... that's exactly what they're there for, and it's always okay to ask. So as you head into this week, remember: you don't have to be perfect. You just have to be there. And you already are. You're doing incredible, mama. One day at a time."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "The 3-Night Sleep Reset",
     "subtitle": "A gentle, no-cry guide to helping your baby sleep better · 0–12 months",

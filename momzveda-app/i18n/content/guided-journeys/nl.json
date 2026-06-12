@@ -3,6 +3,8 @@
     "emoji": "🏠",
     "title": "Eerste Week Thuis",
     "desc": "De pasgeboren dagen doorkomen",
+    "courseId": "first-week-home",
+    "premium": true,
     "prompt": "Ik heb mijn baby net mee naar huis genomen uit het ziekenhuis. Kun je me uitleggen wat ik de eerste week kan verwachten? Waar moet ik me vooral op richten? Ik ben zenuwachtig en opgewonden tegelijk."
   },
   {

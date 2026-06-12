@@ -209,6 +209,8 @@
     "lockedButton": "Upgrade to Premium",
     "freeIntro": "Lesson 1 is free — enjoy! 💚",
     "transcript": "Lesson script",
-    "audioNote": "🔊 Video audio is in English"
+    "audioNote": "🔊 Video audio is in English",
+    "lockedTitleFull": "Unlock the full course",
+    "lockedDescFull": "This video course is part of Premium. Upgrade to watch the full First Week Home course — plus unlimited messages and all guides."
   }
 }

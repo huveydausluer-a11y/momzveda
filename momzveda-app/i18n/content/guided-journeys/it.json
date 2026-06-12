@@ -3,6 +3,8 @@
     "emoji": "🏠",
     "title": "Prima settimana a casa",
     "desc": "Affrontare i giorni da neonato",
+    "courseId": "first-week-home",
+    "premium": true,
     "prompt": "Sono appena tornata a casa dall'ospedale con il mio bimbo. Puoi spiegarmi cosa aspettarmi nella prima settimana? Su cosa dovrei concentrarmi? Sono nervosa ed emozionata insieme."
   },
   {

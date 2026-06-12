@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "Evdeki ilk hafta",
+    "subtitle": "İlk günler için yumuşacık bir rehber · aile olarak ilk haftanız",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Veda ile altı kısa ders, tek bir sakin videoda toplandı; bebeğinle geçireceğin o hassas ve bunaltıcı ilk hafta için. Dürüst beklentiler, beslenme ve bez değiştirmenin temelleri, uyku ve güvenlik, kendi iyileşmene özen göstermek ve ne zaman yardım çağıracağını tam olarak bilmek. Sakin bir anın olduğunda izle, anne.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Evdeki ilk hafta — eksiksiz kurs",
+        "duration": "± 6 dk",
+        "desc": "Veda ile sakin bir video, birbirinin içine akan altı ders — «bunda yalnız değilsin»den ne zaman arayacağını bilmeye kadar.",
+        "vedaPrompt": "Veda ile Evdeki ilk hafta kursunu yeni izledim. Bebeğimi kısa süre önce eve getirdim ve nasıl olduğumuzu konuşmak isterim — bu hafta neye odaklanmam gerektiğini bulmama yardım eder misin?",
+        "script": [
+          {
+            "h": "1 · Bunda yalnız değilsin",
+            "p": [
+              "Tamam anne, bir saniye benimle birlikte nefes al. Başardın... bebeğini eve getirdin. Ve şu anda aynı anda bir sevgi, korku ve tam bir tükenmişlik girdabı hissediyorsan... bu bir şeylerin yanlış olduğunun işareti değil. Bu hafta neredeyse herkes için böyle hissettirir.",
+              "Kimse eve bunu nasıl yapacağını bilerek gelmez. Bebeğini saat saat tanırsın... ve bebeğin de tıpkı senin gibi seni tanır. Bu yüzden pratik hiçbir şeyden konuşmadan önce şunu duymanı istiyorum: sen tam olarak bebeğinin ihtiyaç duyduğu annesin. Gerisini... her seferinde tek bir nazik adımla yaparız. Birlikte."
+            ]
+          },
+          {
+            "h": "2 · İlk 24–48 saat",
+            "p": [
+              "Dürüst beklentiler koyalım anne... çünkü sadece bu bile çok büyük bir yükü kaldırır. O ilk birkaç gün genellikle bir puslu gibidir. Bebeğin uzun süreler uyuyabilir ve beslenmeye pek ilgi göstermeyebilir... ya da her dakika kucakta olmak isteyebilir. İkisi de normal. Yenidoğanlar çok uyur... çoğu zaman on altı saat ya da daha fazla, gece gündüze yayılmış, küçük parçalar hâlinde. Henüz bir program yok ve olmadığı için başarısız olmuyorsun.",
+              "Aynı zamanda sen de iyileşiyorsun, çok az uykuyla idare ediyorsun ve hormonların değişirken muhtemelen büyük duygusal dalgaların üzerinde sörf yapıyorsun. Bu da normal. Şu anda tek gerçek görevlerin basit: bebeğini besle, onu sıcak ve yakın tut ve mümkün olduğunca dinlen. Geri kalan her şey... teşekkür kartları, derli toplu ev, ziyaretçiler... bekleyebilir. Gerçekten."
+            ]
+          },
+          {
+            "h": "3 · Beslenme ve bez: temeller",
+            "p": [
+              "Beslenme ve bezlerden konuşalım... çünkü bu ilk haftada bunlar aslında senin ritmin. Yenidoğanlar sık sık yer... aşağı yukarı her iki üç saatte bir, bazen daha sık, gece gündüz. İster emziriyor, ister mama veriyor, ister ikisini karıştırıyor ol, saate değil bebeğine bak. Ağız arama, ellerini ağzına götürme, küçük huysuzluk sesleri... bunların hepsi erken açlık işaretleri. Bu ilk günlerde isteğe bağlı beslemek tamamen normaldir ve emziriyorsan süt üretiminin oturmasına yardımcı olur.",
+              "Beslenmenin iyi gittiğine dair içinin rahat olmasının basit bir yolu, diğer uçtan çıkanlardır. İlk günlerde bezlerin yavaş yavaş artmasını bekle... ve ilk haftanın sonunda günde birkaç ıslak bez ile düzenli dışkı genel olarak iyi bir işarettir. Kakasının rengi ve kıvamı bu hafta epeyce değişecek ve bu beklenen bir şey. Bebeğinin yeterince beslenip beslenmediğinden emin olamazsan ya da beslenemeyecek kadar uykulu görünüyorsa... işte tam da bunun için ebenin, çocuk doktorunun veya loğusalık hemşirenin var. Sormaktan asla çekinme."
+            ]
+          },
+          {
+            "h": "4 · Bebek uykusu ve güvenlik",
+            "p": [
+              "Yenidoğan uykusu kendi başına bir dünyadır anne... ve bilinecek en önemli şey, onun harika bir biçimde dağınık olduğudur. Bebeğin henüz gündüzü geceden ayırt edemiyor, bu yüzden birkaç saatte bir uyanma düzeni normaldir ve geçicidir. Bunu bu hafta çözmek zorunda değilsin... sadece bunu atlatman, ve bebeğin uyurken güvenli olan her yerde uyuman gerek.",
+              "Güvenli uyku için tavsiye basit ve her seferinde uygulamaya değer. Bebeğini uyurken her zaman sırtüstü yatır, beşik ya da sepet gibi sert ve düz bir zemine, içinde başka hiçbir şey olmadan... yastık, battaniye, kenar koruyucu veya peluş oyuncak yok. Aynı odayı paylaşmak... bebeğinin kendine ait ayrı uyku alanı senin yatağının yakınında olacak şekilde... önerilir ve o gece beslenmelerini çok daha kolaylaştırabilir. Kendi özel uyku düzenin hakkında soruların olursa, çocuk doktorun veya eben seninle birlikte gözden geçirebilir."
+            ]
+          },
+          {
+            "h": "5 · İyileşmek ve yardım istemek",
+            "p": [
+              "Şimdi senden konuşalım... çünkü sen de o bebek kadar önemlisin anne. Bedenin az önce çok büyük bir şey yaptı ve iyileşmek için zamana ve özene ihtiyacı var. Kendine karşı nazik ol. Yapabildiğinde dinlen, acıktığını fark etmesen bile düzenli ye iç ve eski hâline dönmek için acele etme. Bunu tek başına yapmanın bir ödülü yok.",
+              "Bu hafta insanların yardım etmesine izin verme haftası. Biri teklif ettiğinde ona gerçek bir görev ver... bir yemek, bir çamaşır, sen duş alabilesin ya da kestirebilesin diye bebeği tutmak. Ve lütfen kendi kalbine de dikkat et. İlk birkaç haftada ağlamaklı ya da bunalmış hissetmek, hormonların yerine otururken çok yaygındır. Ama o ağır duygular güçlenir, geçmez ya da kendin gibi hissetmezsen... bunu doktoruna veya ebene söylemeye değer. Sende bir terslik olduğu için değil, desteği hak ettiğin için. Yardım istemek zayıflık değil anne. Bu, senin kendine iyi bir anne olman demek."
+            ]
+          },
+          {
+            "h": "6 · Ne zaman aramalı ve bir teselli sözü",
+            "p": [
+              "Biraz iç huzuruyla bitirelim... çünkü yenidoğan kaygısının çoğu aslında neyin normal olduğunu bilmemekten gelir. Bu hafta göreceğin şeylerin çoğu... tuhaf sesler, hapşırmalar, sık sık kümelenen beslenmeler, öngörülemez uyku... tamamen sıradan yenidoğan şeyleridir. Ama her zaman ulaşman gereken anlar vardır ve bunları önceden bilmek iyidir.",
+              "İçgüdüne güven ve bebeğinde ateş varsa, uyandırması çok zorsa ya da alışılmadık şekilde gevşekse, çok kötü besleniyorsa ya da beklenenden çok daha az ıslak bezi varsa, nefes almakta zorlanıyorsa ya da seni endişelendiren bir şekilde sadece «bir tuhaf» görünüyorsa çocuk doktorunu, ebeni veya acil hattını ara. Onların vaktini asla boşa harcamış olmazsın... tam da bunun için varlar ve sormak her zaman uygundur. Bu yüzden bu haftaya girerken şunu hatırla: mükemmel olmak zorunda değilsin. Sadece orada olman yeterli. Ve zaten oradasın. Harika gidiyorsun anne. Günü gününe."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "3 Gecede Uyku Sıfırlama",
     "subtitle": "Bebeğinin daha iyi uyumasına yardımcı olan nazik, ağlatmasız bir rehber · 0–12 ay",

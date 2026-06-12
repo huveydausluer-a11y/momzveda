@@ -3,6 +3,8 @@
     "emoji": "🏠",
     "title": "Erste Woche zu Hause",
     "desc": "Durch die Neugeborenenzeit",
+    "courseId": "first-week-home",
+    "premium": true,
     "prompt": "Ich habe mein Baby gerade aus dem Krankenhaus nach Hause gebracht. Kannst du mir erklären, was mich in der ersten Woche erwartet? Worauf sollte ich mich konzentrieren? Ich bin nervös und aufgeregt zugleich."
   },
   {

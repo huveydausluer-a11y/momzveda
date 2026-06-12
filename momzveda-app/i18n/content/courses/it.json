@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "Prima settimana a casa",
+    "subtitle": "Una guida delicata per i primi giorni · la vostra prima settimana da famiglia",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Sei brevi lezioni con Veda, raccolte in un unico video tranquillo, per quella prima settimana così tenera e travolgente con il tuo neonato. Aspettative oneste, le basi di poppate e pannolini, sonno e sicurezza, prenderti cura della tua guarigione, e sapere esattamente quando chiedere aiuto. Guardalo quando hai un momento di calma, mamma.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Prima settimana a casa — il corso completo",
+        "duration": "± 6 min",
+        "desc": "Un video delicato con Veda, sei lezioni che scorrono una nell'altra — da «non sei sola» fino a sapere quando chiamare.",
+        "vedaPrompt": "Ho appena visto il corso Prima settimana a casa con Veda. Ho portato il mio bambino a casa da poco e vorrei parlare di come stiamo andando — puoi aiutarmi a capire su cosa concentrarmi questa settimana?",
+        "script": [
+          {
+            "h": "1 · Non sei sola in questo",
+            "p": [
+              "Va bene mamma, respira un attimo con me. Ce l'hai fatta... hai portato il tuo bambino a casa. E se in questo momento senti un turbinio di amore, e paura, ed esaurimento totale tutto insieme... non è un segno che qualcosa non va. È semplicemente come ci si sente questa settimana per quasi tutti.",
+              "Nessuno torna a casa già sapendo come si fa. Impari a conoscere il tuo bambino, ora dopo ora... e il tuo bambino impara a conoscere te allo stesso modo. Quindi prima di parlare di qualsiasi cosa pratica, voglio che tu senta questo: sei esattamente la mamma di cui il tuo bambino ha bisogno. Il resto lo affronteremo... un passo delicato alla volta. Insieme."
+            ]
+          },
+          {
+            "h": "2 · Le prime 24–48 ore",
+            "p": [
+              "Mettiamo aspettative oneste, mamma... perché già solo questo toglie tantissima pressione. Quei primi giorni di solito sono un'unica nebbia. Il tuo bambino magari dorme per lunghi tratti e sembra a malapena interessato a mangiare... oppure vuole essere tenuto in braccio ogni singolo minuto. Entrambe le cose sono normali. I neonati dormono molto... spesso sedici ore o più, distribuite tra giorno e notte, a piccoli pezzi. Non c'è ancora un orario, e non stai fallendo perché non c'è.",
+              "Anche tu ti stai riprendendo, vai avanti con pochissimo sonno e probabilmente cavalchi grandi onde emotive mentre i tuoi ormoni cambiano. Anche questo è normale. In questo momento i tuoi unici veri compiti sono semplici: nutrire il tuo bambino, tenerlo al caldo e vicino, e riposare ogni volta che puoi. Tutto il resto... i biglietti di ringraziamento, la casa in ordine, le visite... può aspettare. Davvero."
+            ]
+          },
+          {
+            "h": "3 · Poppate e pannolini: le basi",
+            "p": [
+              "Parliamo di poppate e pannolini... perché in questa prima settimana sono praticamente il tuo ritmo. I neonati mangiano spesso... più o meno ogni due o tre ore, a volte di più, giorno e notte. Che tu allatti al seno, dia il biberon o faccia un misto dei due, osserva il tuo bambino più dell'orologio. Cercare con la bocca, mani alla bocca, piccoli versi di agitazione... sono tutti segnali precoci di fame. Allattare a richiesta in questi primi giorni è del tutto normale, e aiuta la tua produzione di latte ad assestarsi se allatti.",
+              "Un modo semplice per sentirti rassicurata che le poppate vadano bene è ciò che esce dall'altra parte. Nei primi giorni, aspettati che i pannolini aumentino man mano... e verso la fine della prima settimana, diversi pannolini bagnati al giorno più scariche regolari sono un buon segnale generale. La loro cacca cambierà parecchio colore e consistenza questa settimana, ed è previsto. Se non sei mai sicura che il tuo bambino mangi abbastanza, o ti sembra troppo addormentato per mangiare... è proprio per questo che ci sono la tua ostetrica, il pediatra o l'infermiera del post-parto. Non esitare mai a chiedere."
+            ]
+          },
+          {
+            "h": "4 · Sonno e sicurezza del neonato",
+            "p": [
+              "Il sonno del neonato è un mondo a sé, mamma... e la cosa più importante da sapere è che è meravigliosamente caotico. Il tuo bambino non distingue ancora il giorno dalla notte, quindi lo schema dello svegliarsi ogni paio d'ore è normale, e temporaneo. Non devi sistemarlo questa settimana... devi solo attraversarla, e dormire quando il tuo bambino dorme, ovunque sia sicuro.",
+              "Per un sonno sicuro, l'indicazione è semplice, e vale la pena seguirla ogni volta. Metti sempre il tuo bambino a dormire a pancia in su, su una superficie rigida e piatta come una culla o un lettino, senza nient'altro dentro... niente cuscini, coperte, paracolpi o peluche. Condividere la stanza... con uno spazio per dormire separato e tutto suo, vicino al tuo letto... è raccomandato, e può rendere quelle poppate notturne molto più facili. Se hai domande sulla tua sistemazione specifica, il pediatra o l'ostetrica possono rivederla con te."
+            ]
+          },
+          {
+            "h": "5 · Guarire e chiedere aiuto",
+            "p": [
+              "Ora parliamo di te... perché conti tanto quanto quel bambino, mamma. Il tuo corpo ha appena fatto qualcosa di enorme, e ha bisogno di tempo e cura per riprendersi. Sii gentile con te stessa. Riposa quando puoi, mangia e bevi con regolarità anche quando dimentichi di sentire fame, e non avere fretta di «tornare come prima». Non c'è nessun premio per avercela fatta da sola.",
+              "Questa è la settimana per lasciare che gli altri ti aiutino. Quando qualcuno si offre, dagli un compito vero... un pasto, una lavatrice, tenere il bambino così tu puoi farti una doccia o un riposino. E per favore, fai attenzione anche al tuo cuore. Sentirsi piagnucolose o sopraffatte nelle prime settimane è molto comune mentre i tuoi ormoni si assestano. Ma se quei sentimenti pesanti si fanno più forti, restano, o semplicemente non ti senti te stessa... vale la pena dirlo al tuo medico o all'ostetrica. Non perché ci sia qualcosa di sbagliato in te, ma perché meriti sostegno. Chiedere aiuto non è debolezza, mamma. Sei tu che stai facendo la brava mamma... con te stessa."
+            ]
+          },
+          {
+            "h": "6 · Quando chiamare, e una parola di rassicurazione",
+            "p": [
+              "Concludiamo con un po' di serenità... perché gran parte della preoccupazione per un neonato è semplicemente non sapere cosa sia normale. La maggior parte di ciò che vedrai questa settimana... i versi buffi, gli starnuti, le poppate ravvicinate, il sonno imprevedibile... sono cose del tutto normali di un neonato. Ma ci sono momenti in cui devi sempre farti sentire, ed è bene conoscerli in anticipo.",
+              "Fidati del tuo istinto, e chiama il pediatra, l'ostetrica o il numero di emergenza se il tuo bambino ha la febbre, è molto difficile da svegliare o insolitamente molle, mangia molto male o ha molti meno pannolini bagnati del previsto, fa fatica a respirare, o semplicemente ti sembra «strano» in un modo che ti preoccupa. Non gli farai mai perdere tempo... è esattamente per questo che ci sono, ed è sempre giusto chiedere. Quindi entrando in questa settimana, ricorda: non devi essere perfetta. Devi solo esserci. E già ci sei. Stai andando alla grande, mamma. Un giorno alla volta."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "Il Reset del Sonno in 3 Notti",
     "subtitle": "Una guida dolce e senza pianti per aiutare il tuo bimbo a dormire meglio · 0–12 mesi",

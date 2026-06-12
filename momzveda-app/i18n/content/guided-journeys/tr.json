@@ -3,6 +3,8 @@
     "emoji": "🏠",
     "title": "Evdeki ilk hafta",
     "desc": "Yenidoğan günlerini atlatmak",
+    "courseId": "first-week-home",
+    "premium": true,
     "prompt": "Bebeğimle hastaneden eve yeni döndüm. İlk haftada beni neler bekliyor, anlatır mısın? En çok neye odaklanmalıyım? Hem heyecanlı hem gerginim."
   },
   {

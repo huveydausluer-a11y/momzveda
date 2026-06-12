@@ -1,4 +1,64 @@
 {
+  "first-week-home": {
+    "title": "Primera semana en casa",
+    "subtitle": "Una guía suave para los primeros días · vuestra primera semana en familia",
+    "emoji": "🏠",
+    "fullyPremium": true,
+    "intro": "Seis lecciones cortas con Veda, reunidas en un solo vídeo tranquilo, para esa primera semana tan tierna y abrumadora con tu recién nacido. Expectativas honestas, lo básico de la alimentación y los pañales, el sueño y la seguridad, cuidar de tu propia recuperación, y saber exactamente cuándo pedir ayuda. Míralo cuando tengas un momento de calma, mamá.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Primera semana en casa — el curso completo",
+        "duration": "± 6 min",
+        "desc": "Un vídeo tranquilo con Veda, seis lecciones que fluyen una tras otra — desde «no estás sola en esto» hasta saber cuándo llamar.",
+        "vedaPrompt": "Acabo de ver el curso Primera semana en casa con Veda. Hace poco traje a mi bebé a casa y me encantaría hablar de cómo nos va — ¿puedes ayudarme a ver en qué centrarme esta semana?",
+        "script": [
+          {
+            "h": "1 · No estás sola en esto",
+            "p": [
+              "Vale, mamá, respira un momento conmigo. Lo lograste... trajiste a tu bebé a casa. Y si ahora mismo sientes un remolino de amor, y miedo, y agotamiento total a la vez... eso no es señal de que algo va mal. Es simplemente como se siente esta semana para casi todo el mundo.",
+              "Nadie llega a casa sabiendo cómo hacer esto. Aprendes a conocer a tu bebé, hora a hora... y tu bebé te va conociendo a ti igual. Así que antes de hablar de nada práctico, quiero que escuches esto: eres exactamente la mamá que tu bebé necesita. El resto lo haremos... paso a paso, con suavidad. Juntas."
+            ]
+          },
+          {
+            "h": "2 · Las primeras 24–48 horas",
+            "p": [
+              "Pongamos expectativas honestas, mamá... porque solo eso quita muchísima presión. Esos primeros días suelen ser una nebulosa. Puede que tu bebé duerma largos ratos y apenas parezca interesado en comer... o que quiera estar en brazos cada minuto. Las dos cosas son normales. Los recién nacidos duermen mucho... a menudo dieciséis horas o más, repartidas entre el día y la noche, en ratitos. Todavía no hay horario, y no estás fallando porque no lo haya.",
+              "Tú también te estás recuperando, funcionando con muy poco sueño, y probablemente surfeando grandes olas emocionales mientras cambian tus hormonas. Eso también es normal. Ahora mismo, tus únicas tareas reales son sencillas: alimentar a tu bebé, mantenerlo calentito y cerca, y descansar siempre que puedas. Todo lo demás... las notas de agradecimiento, la casa ordenada, las visitas... puede esperar. De verdad."
+            ]
+          },
+          {
+            "h": "3 · Alimentación y pañales: lo básico",
+            "p": [
+              "Hablemos de la alimentación y los pañales... porque en esta primera semana son básicamente tu ritmo. Los recién nacidos comen a menudo... más o menos cada dos o tres horas, a veces más, a todas horas. Ya sea que des pecho, biberón o una mezcla de ambos, observa a tu bebé más que al reloj. Buscar con la boca, manos a la boca, pequeños sonidos de inquietud... son todas señales tempranas de hambre. Alimentar a demanda en estos primeros días es completamente normal, y ayuda a que se asiente tu producción de leche si das pecho.",
+              "Una forma sencilla de quedarte tranquila de que la alimentación va bien es lo que sale por el otro lado. En los primeros días, espera que los pañales aumenten poco a poco... y al final de la primera semana, varios pañales mojados al día más deposiciones regulares es una buena señal general. Su caca cambiará bastante de color y textura esta semana, y es lo esperado. Si alguna vez dudas de si tu bebé come suficiente, o lo ves demasiado dormido para comer... para eso están justamente tu matrona, tu pediatra o tu enfermera de posparto. Nunca dudes en preguntar."
+            ]
+          },
+          {
+            "h": "4 · Sueño y seguridad del recién nacido",
+            "p": [
+              "El sueño del recién nacido es un mundo aparte, mamá... y lo más importante que debes saber es que es maravillosamente caótico. Tu bebé aún no distingue el día de la noche, así que ese patrón de despertarse cada pocas horas es normal, y temporal. No tienes que arreglarlo esta semana... solo tienes que atravesarla, y dormir cuando tu bebé duerma, donde sea seguro.",
+              "Para un sueño seguro, la guía es sencilla, y vale la pena seguirla siempre. Acuesta siempre a tu bebé boca arriba para dormir, sobre una superficie firme y plana como una cuna o moisés, sin nada más dentro... ni almohadas, ni mantas, ni protectores, ni peluches. Compartir habitación... con un espacio de sueño propio y separado para tu bebé cerca de tu cama... es recomendable, y puede hacer esas tomas nocturnas mucho más llevaderas. Si tienes dudas sobre tu montaje concreto, tu pediatra o tu matrona pueden repasarlo contigo."
+            ]
+          },
+          {
+            "h": "5 · Recuperarte y pedir ayuda",
+            "p": [
+              "Ahora hablemos de ti... porque importas tanto como ese bebé, mamá. Tu cuerpo acaba de hacer algo enorme, y necesita tiempo y cuidado para recuperarse. Sé amable contigo misma. Descansa cuando puedas, come y bebe con regularidad aunque te olvides de tener hambre, y no corras por «volver a ser la de antes». No hay premio por hacerlo todo sola.",
+              "Esta es la semana de dejar que la gente ayude. Cuando alguien se ofrezca, dale una tarea de verdad... una comida, una lavadora, sostener al bebé para que puedas ducharte o echar una siesta. Y por favor, presta atención también a tu propio corazón. Sentirte llorosa o desbordada en las primeras semanas es muy común mientras tus hormonas se asientan. Pero si esos sentimientos pesados se intensifican, se quedan, o simplemente no te sientes tú misma... vale la pena contárselo a tu médico o matrona. No porque haya algo malo en ti, sino porque mereces apoyo. Pedir ayuda no es debilidad, mamá. Es que estás siendo una buena madre... contigo misma."
+            ]
+          },
+          {
+            "h": "6 · Cuándo llamar, y unas palabras de tranquilidad",
+            "p": [
+              "Terminemos con un poco de tranquilidad... porque gran parte de la preocupación con un recién nacido es simplemente no saber qué es normal. Casi todo lo que verás esta semana... los ruiditos raros, los estornudos, las tomas en racimo, el sueño impredecible... son cosas completamente normales de un recién nacido. Pero hay momentos en los que siempre debes pedir ayuda, y está bien conocerlos de antemano.",
+              "Confía en tu instinto, y llama a tu pediatra, matrona o al teléfono de urgencias si tu bebé tiene fiebre, cuesta mucho despertarlo o está inusualmente flojito, come muy mal o tiene muchos menos pañales mojados de lo esperado, le cuesta respirar, o simplemente lo notas «raro» de una forma que te preocupa. Nunca les harás perder el tiempo... para eso están exactamente, y siempre está bien preguntar. Así que al entrar en esta semana, recuerda: no tienes que ser perfecta. Solo tienes que estar ahí. Y ya lo estás. Lo estás haciendo increíble, mamá. Un día a la vez."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "baby-sleep-guide": {
     "title": "El Reinicio del Sueño en 3 Noches",
     "subtitle": "Una guía suave y sin llanto para ayudar a tu bebé a dormir mejor · 0–12 meses",

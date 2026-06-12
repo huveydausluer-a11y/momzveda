@@ -1103,14 +1103,14 @@ export default function Home() {
                 </div>
               </div>
 
-              {!isPremium && (
+              {!isPremium && !course.fullyPremium && (
                 <div style={{ fontSize: 13, fontWeight: 600, color: GREEN_DARK, background: '#EBF7F0', borderRadius: 12, padding: '10px 14px', marginBottom: 14 }}>{t('course.freeIntro')}</div>
               )}
 
               {/* Lessons */}
               <div style={{ display: 'grid', gap: 10 }}>
                 {course.lessons.map(lesson => {
-                  const locked = !isPremium && lesson.n !== 1;
+                  const locked = !isPremium && (course.fullyPremium || lesson.n !== 1);
                   const isDone = doneList.includes(lesson.n);
                   const isOpen = expandedLesson === lesson.n && !locked;
                   return (
@@ -1124,7 +1124,7 @@ export default function Home() {
                         </span>
                         <span style={{ flex: 1 }}>
                           <span style={{ display: 'block', fontSize: 14, fontWeight: 700, color: TEXT_DARK, lineHeight: 1.4 }}>{lesson.title}</span>
-                          <span style={{ display: 'block', fontSize: 12, color: TEXT_LIGHT }}>{t('course.lesson', { n: lesson.n })} · {lesson.duration}</span>
+                          <span style={{ display: 'block', fontSize: 12, color: TEXT_LIGHT }}>{course.lessons.length > 1 ? `${t('course.lesson', { n: lesson.n })} · ${lesson.duration}` : lesson.duration}</span>
                         </span>
                         {locked
                           ? <span style={{ fontSize: 16 }}>🔒</span>
@@ -1176,8 +1176,8 @@ export default function Home() {
               {!isPremium && (
                 <div style={{ background: 'linear-gradient(135deg, #FFF7ED, #FEF3C7)', borderRadius: 20, padding: '24px 20px', textAlign: 'center', border: '1.5px solid #FDE68A', marginTop: 16 }}>
                   <div style={{ fontSize: 32, marginBottom: 8 }}>✨</div>
-                  <div style={{ fontSize: 18, fontWeight: 700, color: '#92400E', marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t('course.lockedTitle')}</div>
-                  <p style={{ fontSize: 14, color: '#B45309', lineHeight: 1.6, marginBottom: 12 }}>{t('course.lockedDesc')}</p>
+                  <div style={{ fontSize: 18, fontWeight: 700, color: '#92400E', marginBottom: 6, fontFamily: "'Playfair Display', serif" }}>{t(course.fullyPremium ? 'course.lockedTitleFull' : 'course.lockedTitle')}</div>
+                  <p style={{ fontSize: 14, color: '#B45309', lineHeight: 1.6, marginBottom: 12 }}>{t(course.fullyPremium ? 'course.lockedDescFull' : 'course.lockedDesc')}</p>
                   <button onClick={() => setShowUpgrade(true)} style={{ background: 'linear-gradient(135deg, #F59E0B, #D97706)', color: '#FFF', border: 'none', borderRadius: 14, padding: '14px 28px', fontSize: 16, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 16px rgba(245,158,11,0.3)' }}>
                     {t('course.lockedButton')}
                   </button>
@@ -1223,7 +1223,7 @@ export default function Home() {
                         <div style={{ fontSize: 15, fontWeight: 700, color: TEXT_DARK }}>{j.title}</div>
                         <div style={{ fontSize: 12, color: TEXT_LIGHT }}>{j.desc}</div>
                       </div>
-                      {j.courseId
+                      {j.courseId && !j.premium
                         ? <span style={{ fontSize: 10, fontWeight: 700, color: GREEN_DARK, background: '#EBF7F0', padding: '3px 8px', borderRadius: 8, whiteSpace: 'nowrap' }}>{t('course.free')}</span>
                         : <span style={{ fontSize: 18 }}>🔒</span>}
                     </div>

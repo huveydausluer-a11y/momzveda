@@ -2,9 +2,12 @@ import { NextResponse } from 'next/server';
 import { createClient as createServerClient } from '../../../../lib/supabase-server';
 import { createClient as createAdminClient } from '@supabase/supabase-js';
 
-// Courses and their lesson counts. Lesson 1 of each course is free.
+// Courses and their lesson counts. freeLessons lists the lessons playable
+// without Premium (empty = the whole course is Premium-only).
+// `file` overrides the default `lesson-N.mp4` storage path (single-video courses).
 const COURSES = {
   'baby-sleep-guide': { lessons: 5, freeLessons: [1] },
+  'first-week-home': { lessons: 1, freeLessons: [], file: 'first-week-home.mp4' },
 };
 
 const BUCKET = 'course-videos';
@@ -46,7 +49,7 @@ export async function GET(request) {
     }
 
     // Signed URL from the private bucket
-    const path = `${courseId}/lesson-${lesson}.mp4`;
+    const path = course.file ? `${courseId}/${course.file}` : `${courseId}/lesson-${lesson}.mp4`;
     const { data, error } = await admin.storage
       .from(BUCKET)
       .createSignedUrl(path, SIGNED_URL_TTL);

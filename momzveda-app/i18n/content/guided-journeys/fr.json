@@ -3,6 +3,8 @@
     "emoji": "🏠",
     "title": "Première semaine à la maison",
     "desc": "Traverser les premiers jours",
+    "courseId": "first-week-home",
+    "premium": true,
     "prompt": "Je viens de rentrer de la maternité avec mon bébé. Peux-tu m'expliquer à quoi m'attendre la première semaine ? Sur quoi me concentrer ? Je suis nerveuse et excitée à la fois."
   },
   {
