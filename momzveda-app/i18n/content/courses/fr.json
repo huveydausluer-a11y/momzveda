@@ -306,5 +306,258 @@
         ]
       }
     ]
+  },
+  "starting-solids": {
+    "title": "Les premières bouchées",
+    "subtitle": "Un guide tout en douceur pour aborder les premiers aliments de ton bébé · à partir de 6 mois environ",
+    "emoji": "🥄",
+    "intro": "Cinq courtes leçons vidéo avec Veda. De la vraie préparation à la diversification, les premières bouchées, les allergènes et les textures, la sécurité à table, jusqu'à rendre les repas joyeux — une approche calme, fondée sur les preuves et sans jugement. Que tu choisisses les purées, la DME (diversification menée par l'enfant) ou un mélange des deux, tu te sentiras confiante devant la chaise haute.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Ton bébé est-il prêt ? (les vrais signes qui comptent)",
+        "duration": "± 6 min",
+        "desc": "Quand commencer, les quatre signes de préparation, et pourquoi attendre la vraie préparation importe plus que le calendrier.",
+        "vedaPrompt": "Je viens de regarder la leçon 1 du cours Les premières bouchées (mon bébé est-il prêt ?). Peux-tu m'aider à savoir si mon bébé montre les signes de préparation et quand nous devrions commencer ?",
+        "script": [
+          {
+            "h": "Bienvenue",
+            "p": [
+              "Coucou maman. Je suis Veda, et je suis tellement heureuse que tu sois là. La diversification alimentaire est l'une des étapes les plus excitantes — ces premières bouchées maladroites et les yeux tout écarquillés, c'est de la magie pure. Mais je sais que ça peut aussi sembler beaucoup. Quand est-ce que je commence ? Qu'est-ce que je donne ? Et si elle s'étouffe ? Prends une grande respiration. On va parcourir tout ça ensemble, une étape calme à la fois.",
+              "Voici ma promesse pour ce cours : pas de pression, pas de règles rigides, pas de jugement. Que tu veuilles donner des purées à la cuillère, offrir des aliments mous que ton bébé peut saisir seul, ou faire un peu des deux — ce sont toutes de belles façons d'aimer ton enfant. Mon rôle est simplement de t'aider à te sentir confiante."
+            ]
+          },
+          {
+            "h": "Quand commencer",
+            "p": [
+              "Commençons par le timing, car c'est là que beaucoup d'entre nous doutons de nous-mêmes. Les recommandations des organisations de santé du monde entier préconisent de commencer la diversification aux alentours de six mois — pas avant quatre mois, et pas bien au-delà de six. Jusque-là, le lait maternel ou le lait infantile donne à ton bébé tout ce dont il a besoin.",
+              "Mais voici ce que je veux vraiment que tu retiennes : six mois est un repère, pas un interrupteur magique. Certains bébés sont prêts exactement à six mois, d'autres quelques semaines plus tard. On ne regarde pas le calendrier — on regarde le bébé. La préparation, c'est une question de développement, pas juste d'âge."
+            ]
+          },
+          {
+            "h": "Les quatre signes de préparation",
+            "p": [
+              "Alors comment savoir si ton bébé est vraiment prêt ? Il y a quatre signes que je veux que tu observes, et idéalement tu veux les voir tous ensemble.",
+              "Un : il peut s'asseoir avec peu ou pas de soutien et tenir sa tête stable. C'est important pour avaler en toute sécurité. Deux : il a perdu le réflexe d'extrusion — cette poussée automatique qui recrache la nourriture. Au début il les protège ; quand il s'estompe, bébé peut vraiment déplacer les aliments vers l'arrière de sa bouche. Trois : il montre un vrai intérêt pour la nourriture — il te regarde manger, se penche, ouvre la bouche, essaie peut-être d'attraper ton assiette. Et quatre : il porte des objets à sa bouche et commence à les mâchouiller intentionnellement.",
+              "Baver, mordre ses poings ou se réveiller plus souvent la nuit ne sont PAS des signes fiables de préparation — cela arrive pour plein d'autres raisons, comme les poussées dentaires ou les poussées de croissance. Recherche plutôt les quatre vrais signes."
+            ]
+          },
+          {
+            "h": "Pourquoi ne pas commencer trop tôt",
+            "p": [
+              "Tu pourrais être tentée de commencer tôt — peut-être qu'un proche insiste qu'un peu de céréales aidera ton bébé à dormir, ou tu t'inquiètes pour son poids. Je veux gentiment te dissuader de te précipiter. Avant environ quatre mois, le système digestif et la coordination pour avaler d'un bébé ne sont tout simplement pas prêts, et commencer trop tôt est associé à un risque plus élevé d'étouffement et de troubles digestifs. Et cette idée que les céréales aident à dormir ? La recherche ne le confirme pas vraiment, maman.",
+              "Attendre la vraie préparation, ce n'est pas être en retard — c'est offrir à ton bébé un départ plus sûr et plus heureux. Il n'y a pas de prix pour être la première."
+            ]
+          },
+          {
+            "h": "Ta mission",
+            "p": [
+              "Avant la prochaine leçon, voici ta douce mission : observe simplement. Au cours des prochains jours, regarde ton bébé pendant tes propres repas. Est-il assis de façon stable ? Regarde-t-il ta nourriture et ouvre-t-il la bouche ? Porte-t-il des jouets et ses mains à la bouche intentionnellement ?",
+              "Tu n'as pas encore besoin de donner de nourriture. Observe simplement. Si tu vois ces quatre signes, tu es prête pour la leçon 2, où nous aborderons les toutes premières bouchées et exactement comment commencer. On se retrouve là-bas, maman."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Premières bouchées et comment commencer",
+        "duration": "± 7 min",
+        "desc": "La mise en place, les premiers aliments, purées ou DME, et quelle quantité proposer dans ces premiers jours.",
+        "vedaPrompt": "Je viens de regarder la leçon 2 du cours Les premières bouchées (premières bouchées). Peux-tu m'aider à planifier les tout premiers repas de mon bébé — quoi proposer, en quelle quantité et comment rester détendue ?",
+        "script": [
+          {
+            "h": "Bon retour, maman",
+            "p": [
+              "Bon retour, maman. Ton bébé montre les signes et tu es prête pour le grand moment — la toute première bouchée. Ça va être amusant, et probablement hilarant. Attends-toi à des grimaces, de la nourriture partout, et peut-être plus sur le bavoir que dans la bouche. C'est tout à fait normal et exactement comme ça devrait se passer."
+            ]
+          },
+          {
+            "h": "Préparer le décor",
+            "p": [
+              "D'abord, mettons toutes les chances de notre côté. Choisis un moment où ton bébé est de bonne humeur et éveillé, pas trop fatigué ni affamé — un bébé complètement affamé est un bébé frustré. Une bonne astuce est de proposer les solides après une petite tétée ou biberon au début, pour qu'il soit curieux mais pas désespéré. Le lait reste sa principale source de nutrition toute cette première année ; les solides sont une pratique et une exploration en plus de ça.",
+              "Assieds ton bébé bien droit dans sa chaise haute avec un bon soutien, et toujours — toujours — reste juste à côté pendant qu'il mange. Ne laisse jamais un bébé manger allongé en arrière ou dans un siège auto. Et apporte ton énergie calme. Les bébés lisent nos visages ; si tu es détendue, il se détend aussi."
+            ]
+          },
+          {
+            "h": "Purées ou DME ?",
+            "p": [
+              "Maintenant, la grande question que tout le monde pose : purées à la cuillère, ou diversification menée par l'enfant (DME) où bébé se nourrit lui-même d'aliments mous ? Voici la vérité — les deux sont super, et tu ne peux vraiment pas te tromper. Les purées te permettent de contrôler la texture et peuvent sembler moins intimidantes au début. La DME développe les compétences d'auto-alimentation et laisse bébé explorer. Beaucoup de mamans, y compris celles avec qui je parle le plus, font un mélange : quelques cuillerées de purée ET quelques aliments mous à saisir. Cette combinaison est tout à fait fine.",
+              "Choisis ce qui te convient, à toi et à ta famille. Il n'y a pas de médaille pour l'une ou l'autre approche — seulement un bébé nourri et heureux."
+            ]
+          },
+          {
+            "h": "Les premiers super-aliments",
+            "p": [
+              "Alors qu'est-ce qu'on met dans ce premier bol ? De beaux premiers aliments simples incluent des légumes cuits mous et écrasés comme la patate douce, la carotte ou le butternut ; l'avocat ou la banane écrasée ; la pomme ou la poire cuite molle ; et des aliments riches en fer comme les lentilles bien cuites et finement écrasées ou les céréales pour bébé enrichies en fer diluées avec du lait.",
+              "Le fer est plus important que les gens ne le réalisent. Vers six mois, les réserves naturelles de fer de ton bébé commencent à baisser, donc les aliments riches en fer sont une vraie priorité — comme la viande cuite molle, les haricots, les lentilles et les céréales enrichies. On en parlera plus lors de la prochaine leçon. Propose un aliment simple à la fois au début pour observer comment ton bébé réagit."
+            ]
+          },
+          {
+            "h": "Quelle quantité, à quelle fréquence",
+            "p": [
+              "Enlève complètement la pression des portions. Au début, tu peux proposer les solides une seule fois par jour, et ton bébé mange peut-être une cuillère à café — ou refuse complètement. Les deux sont un succès total. L'objectif maintenant n'est pas les calories ; c'est l'apprentissage. Goûter, toucher, apprivoiser cette chose étrange qu'on appelle la nourriture.",
+              "Dans les semaines qui suivent tu passeras naturellement à deux fois, puis trois fois par jour, au fil de ce que ton bébé te montre. Suis ses signaux. Quand il tourne la tête, ferme la bouche ou perd tout intérêt — c'est fini. On ne pousse jamais « encore une petite bouchée ». Faire confiance à sa satiété dès maintenant construit une alimentation saine pour la vie."
+            ]
+          },
+          {
+            "h": "Ta mission",
+            "p": [
+              "Voici ta mission avant la leçon 3 : propose cette toute première bouchée. Choisis une chose simple, assieds ton bébé bien droit, et laisse-le explorer — sans pression pour vraiment avaler quoi que ce soit. Laisse-le écraser, goûter, faire des grimaces. Prends une photo si tu veux, parce que celle-là est à conserver.",
+              "Dans la prochaine leçon, on va aborder les sujets qui inquiètent le plus les mamans : les allergènes, la progression des textures et transformer ces goûts en vrais petits repas. Tu t'en sors à merveille, maman. À tout de suite."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Allergènes, textures et vrais petits repas",
+        "duration": "± 8 min",
+        "desc": "Introduire les allergènes en toute sécurité, progresser en textures, les aliments riches en fer, et ce qu'il faut éviter la première année.",
+        "vedaPrompt": "Je viens de regarder la leçon 3 du cours Les premières bouchées (allergènes et textures). Peux-tu m'aider à faire un plan simple pour introduire les allergènes et progresser en textures pour mon bébé ?",
+        "script": [
+          {
+            "h": "Bienvenue",
+            "p": [
+              "Bon retour, maman. Cette leçon aborde les sujets qu'on me pose le plus souvent — les allergènes et les textures. Je sais que ça peut sembler intimidant, mais à la fin tu vas te sentir calme et sereine sur les deux. On y va."
+            ]
+          },
+          {
+            "h": "Allergènes : tôt et souvent",
+            "p": [
+              "Voici quelque chose qui a vraiment changé ces dernières années. On pensait autrefois qu'il fallait retarder les aliments allergènes. On sait maintenant le contraire : introduire les allergènes courants tôt — une fois la diversification lancée, dès environ six mois — et les maintenir régulièrement dans l'alimentation de ton bébé réduit en réalité le risque de développer des allergies.",
+              "Les principaux allergènes à introduire comprennent la cacahuète (sous forme de beurre de cacahuète lisse dilué avec de l'eau ou du lait — jamais des cacahuètes entières), l'œuf (bien cuit), les produits laitiers comme le yaourt et le fromage, le blé, le soja, le poisson, les crustacés et le sésame. Introduis-les un à la fois, en petite quantité, idéalement le matin pour pouvoir observer ton bébé le reste de la journée. Une fois qu'un aliment est accepté sans problème, continue à le proposer régulièrement — environ deux fois par semaine — car c'est la régularité qui maintient la protection.",
+              "Surveille les signes de réaction : urticaire, gonflement, vomissements ou difficultés à respirer. La plupart des réactions sont légères, mais si tu observes un gonflement du visage ou des lèvres, des difficultés à respirer, ou si ton bébé devient mou ou très mal en point, appelle les secours immédiatement. Si ton bébé a un eczéma sévère ou une allergie alimentaire connue, parle à ton médecin avant de commencer les allergènes — il pourra te guider pour les introduire sous surveillance."
+            ]
+          },
+          {
+            "h": "Progresser en textures avec le temps",
+            "p": [
+              "La texture est un voyage, et avancer compte. Les bébés qui restent trop longtemps sur des purées lisses peuvent trouver les morceaux plus difficiles à accepter plus tard. Alors on progresse doucement : on commence lisse, puis dans les semaines suivantes on passe à des purées plus épaisses avec de petits morceaux mous, puis des aliments hachés et émincés mous, et des aliments à saisir mous.",
+              "Vise à proposer une variété de textures et beaucoup d'aliments à saisir vers neuf mois, et la plupart des aliments familiaux — mous et coupés de manière adaptée — vers douze mois. Pas de pression au quotidien, mais continue à progresser doucement. Un petit morceau qui provoque un haut-le-cœur, c'est ton bébé qui apprend, pas qui échoue."
+            ]
+          },
+          {
+            "h": "N'oublie pas le fer",
+            "p": [
+              "Je le redis parce que c'est tellement important : le fer. Dès environ six mois, ton bébé a besoin de fer apporté par l'alimentation. Assure-toi que la plupart des jours incluent un aliment riche en fer — viande rouge ou poulet cuit mou, haricots, lentilles, tofu, œuf ou céréales enrichies. Associer les aliments riches en fer à un peu de vitamine C, comme des fruits mous ou des légumes, aide le corps à mieux l'absorber."
+            ]
+          },
+          {
+            "h": "Les aliments à éviter cette année",
+            "p": [
+              "Quelques aliments à garder hors du menu la première année. Pas de miel — il peut contenir des bactéries responsables du botulisme infantile, et ce risque est réel jusqu'à douze mois. Pas de sel ajouté — ses reins ne peuvent pas le gérer, donc n'ajoute pas de sel à sa nourriture et va doucement sur les aliments salés comme les cubes de bouillon et les charcuteries. Va aussi très légèrement sur le sucre ajouté. Évite le lait de vache entier comme boisson principale jusqu'à douze mois, bien qu'un peu en cuisine ou dans le yaourt et le fromage soit parfaitement bien. Et pas d'aliments à risque d'étouffement comme les noix entières, les raisins entiers, le pop-corn ou des morceaux crus durs — on en parle plus dans la prochaine leçon.",
+              "Ne te noie pas dans cette liste, maman. C'est une courte liste de non clairs, et tout le reste est ouvert à une joyeuse exploration."
+            ]
+          },
+          {
+            "h": "Composer de vrais petits repas",
+            "p": [
+              "Maintenant, assembler tout ça en de vrais repas. Une belle assiette équilibrée pour bébé comprend un aliment riche en fer, un légume ou un fruit, et quelque chose avec un peu de bonne graisse ou d'énergie — comme des lentilles avec de la carotte molle et quelques tranches d'avocat, ou de l'œuf brouillé avec des mouillettes de pain mou et des bâtonnets de concombre. Propose de l'eau dans un verre ouvert ou une tasse à bec libre pendant les repas.",
+              "La variété est ta meilleure amie en ce moment. Plus ton bébé découvre de couleurs, de saveurs et de textures durant cette période, plus il a tendance à devenir un mangeur aventurier. Dans la prochaine leçon, on va s'assurer que tout ça se passe en toute sécurité — haut-le-cœur contre étouffement, et la mise en place sûre parfaite. On se retrouve là-bas, maman."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Haut-le-cœur vs étouffement et sécurité à table",
+        "duration": "± 7 min",
+        "desc": "La différence cruciale entre haut-le-cœur et étouffement, une installation sûre, et comment préparer les aliments pour réduire les risques.",
+        "vedaPrompt": "Je viens de regarder la leçon 4 du cours Les premières bouchées (haut-le-cœur vs étouffement et sécurité). Peux-tu m'aider à mettre en place des repas sûrs et à comprendre la différence entre haut-le-cœur et étouffement ?",
+        "script": [
+          {
+            "h": "Bienvenue",
+            "p": [
+              "D'accord maman, c'est la leçon qui va te soulager de ta plus grande inquiétude. La peur de l'étouffement est la principale chose qui retient les mamans de profiter de la diversification. Alors remplaçons la peur par la connaissance — car quand tu comprends ce qui se passe et comment mettre les choses en place en toute sécurité, tu peux te détendre et laisser ton bébé apprendre."
+            ]
+          },
+          {
+            "h": "Le haut-le-cœur est normal et protecteur",
+            "p": [
+              "D'abord, le point essentiel : le haut-le-cœur, ce n'est pas l'étouffement. Le haut-le-cœur est un réflexe normal, sain et protecteur. C'est le corps de ton bébé qui apprend à déplacer les aliments en toute sécurité dans sa bouche et à les pousser vers l'avant si ça va trop loin en arrière trop vite. Chez les bébés, le réflexe nauséeux est déclenché bien plus en avant sur la langue que chez les adultes — c'est exactement pour ça qu'ils ont si souvent des haut-le-cœur au début.",
+              "Le haut-le-cœur peut sembler dramatique : toux, crachats, larmes, visage rouge, peut-être recracher la nourriture ou même régurgiter. C'est bruyant, et ça peut faire peur à observer. Mais voici la clé — ton bébé gère la situation. Il fait du bruit et il est actif. La meilleure chose que tu puisses faire est de rester calme, garder les mains en retrait et le laisser s'en sortir. Intervenir ou paniquer peut en réalité transformer un haut-le-cœur en vrai problème. Laisse-le apprendre."
+            ]
+          },
+          {
+            "h": "À quoi ressemble vraiment un étouffement",
+            "p": [
+              "L'étouffement est différent, et il est silencieux. Un bébé qui s'étouffe vraiment ne peut généralement pas faire de bruit car ses voies respiratoires sont bloquées. Tu pourrais voir le silence, pas de toux efficace, un air de panique ou de détresse, la peau qui bleuît autour des lèvres, ou une perte de tonus. C'est là que tu agis immédiatement.",
+              "Je te recommande fortement, avec tout mon amour, que toi et toute personne qui s'occupe de ton bébé suiviez un cours de premiers secours pédiatriques et de réponse à l'étouffement — en présentiel ou un bon cours en ligne. Connaître les tapes dans le dos et les compressions thoraciques pour un bébé, et pouvoir les faire sans hésitation, est la chose la plus précieuse que tu puisses avoir dans ta manche. Ne t'appuie pas sur une vidéo dans le moment — apprends-le maintenant, avant d'en avoir besoin. Si un bébé s'étouffe et ne peut pas respirer, appelle les secours immédiatement."
+            ]
+          },
+          {
+            "h": "L'installation sûre",
+            "p": [
+              "Maintenant prévenons les problèmes dès le départ avec une installation sûre. Assure-toi toujours que ton bébé est assis bien droit — jamais incliné en arrière, jamais dans un siège auto ou une balançoire, et jamais en train de manger en rampant, marchant ou dans la poussette en mouvement. Attache-le dans la chaise haute. Reste toujours à portée de bras et donne toute ton attention au repas — pas question de quitter la pièce, ni de nourrir dans la voiture où tu ne peux pas l'atteindre.",
+              "Garde les repas calmes et sans précipitation. Ne laisse pas les frères et sœurs plus âgés donner de la nourriture au bébé, et ne nourris pas un bébé qui rit, pleure ou est distrait. Un bébé concentré, assis droit et surveillé est un bébé en sécurité."
+            ]
+          },
+          {
+            "h": "Préparer les aliments en toute sécurité",
+            "p": [
+              "La façon dont tu prépares les aliments fait une énorme différence. Cuis les légumes et fruits fermes jusqu'à ce qu'ils soient assez mous pour être écrasés entre ton pouce et ton index. Coupe les aliments ronds pour qu'ils ne puissent pas bloquer les voies respiratoires : les raisins et tomates cerises coupés en quatre dans le sens de la longueur, jamais entiers. Coupe les aliments en forme de saucisse dans le sens de la longueur, pas en rondelles. Retire les noyaux, les os et les peaux dures.",
+              "Évite complètement les aliments classiques à haut risque cette année : noix entières, pop-corn, morceaux de pomme ou carotte crus et durs, raisins entiers, guimauves et grosses cuillerées de beurre de noix pur — dilue-le plutôt. Pour les aliments à saisir, de longues lanières molles de la taille de ton doigt sont les plus faciles à tenir et à grignoter en toute sécurité pour les petites mains."
+            ]
+          },
+          {
+            "h": "Tu y arrives",
+            "p": [
+              "Prends une grande respiration, maman. Avec une installation bien droite, toute ton attention, des aliments bien préparés et un cours de premiers secours dans ta poche, tu as tout fait pour rendre ça sûr. Les haut-le-cœur arriveront encore — c'est de l'apprentissage. Reste calme, garde les mains en retrait et fais confiance à ton bébé.",
+              "Dans notre dernière leçon, on arrive à la meilleure partie : rendre les repas joyeux, détendus et une belle partie de votre vie de famille. On se retrouve là-bas."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Rendre les repas joyeux",
+        "duration": "± 6 min",
+        "desc": "Le partage des responsabilités, gérer les refus, accepter le désordre et élever un mangeur heureux et aventurier.",
+        "vedaPrompt": "Je viens de regarder la leçon 5 du cours Les premières bouchées (des repas joyeux). Peux-tu m'aider à créer des habitudes de repas détendues et heureuses et à gérer le refus de manger de mon bébé ?",
+        "script": [
+          {
+            "h": "Tu y es arrivée",
+            "p": [
+              "Maman, tu es arrivée à la dernière leçon — et tu peux être fière. Tu sais quand commencer, comment débuter, comment gérer les allergènes et les textures, et comment garder tout ça en sécurité. Parlons maintenant de l'essentiel : rendre les repas joyeux. Car les habitudes et les émotions que tu construis maintenant façonnent la façon dont ton enfant mangera pour le reste de sa vie."
+            ]
+          },
+          {
+            "h": "Qui est responsable de quoi",
+            "p": [
+              "Voici l'idée la plus libératrice en matière d'alimentation, et je veux que tu la gardes précieusement : c'est TOI qui décides QUOI proposer comme nourriture, et QUAND et OÙ. Ton bébé décide SI il mange et QUELLE QUANTITÉ. C'est le partage des responsabilités, et ça enlève tellement de pression à vous deux.",
+              "Ton seul rôle est de proposer une variété de bons aliments dans un environnement calme. Ce n'est vraiment pas ton rôle de faire manger ton bébé en une certaine quantité. Quand on essaie de contrôler combien il avale — en poussant, soudoyant, avec la cuillère avion, en distrayant avec des écrans — ça se retourne contre toi et rend l'alimentation stressante. Fais confiance à l'appétit de ton bébé. Il est remarquablement doué pour savoir de combien il a besoin."
+            ]
+          },
+          {
+            "h": "Quand il dit non",
+            "p": [
+              "Ton bébé va refuser des aliments. Il adorera l'avocat un jour et le lancera à travers la pièce le lendemain. C'est tout à fait normal et pas le signe d'un problème. Voici le chiffre magique : il peut falloir dix, quinze, voire vingt expositions avant qu'un bébé accepte un nouvel aliment. Alors quand il refuse, ne raye pas cet aliment de la liste — continue à le proposer gentiment un autre jour, sans pression.",
+              "Ne force jamais, ne soude jamais, ne fais jamais d'histoires pour un refus. Reste neutre et détendue. « Non merci ? C'est bien aussi. » Plus tu es calme face au refus, plus vite ils ont tendance à revenir. La pression crée des mangeurs difficiles ; la patience crée des mangeurs aventuriers."
+            ]
+          },
+          {
+            "h": "Laisse le désordre avoir sa place",
+            "p": [
+              "Il faut que tu acceptes le désordre, maman, car le désordre, c'est comme les bébés apprennent. Écraser, tartiner, faire tomber, peindre le plateau avec du yaourt — c'est ton bébé qui explore les textures et développe ses compétences. Un bébé qu'on laisse se salir glorieusement est un bébé qui apprend à aimer la nourriture.",
+              "Facilite les choses pour toi : un grand bavoir ou juste une couche, un tapis sous la chaise, et des attentes basses en matière de propreté. Résiste à l'envie d'essuyer ses mains et son visage constamment pendant le repas — garde le grand nettoyage pour la fin. Laisse-le plonger dedans."
+            ]
+          },
+          {
+            "h": "Manger ensemble",
+            "p": [
+              "La chose la plus puissante que tu puisses faire est simple : manger ensemble. Les bébés apprennent à manger en nous observant. Quand ton bébé te voit apprécier les mêmes aliments, mâcher, sourire, discuter, il veut participer. Alors quand tu peux, assieds-toi et mange avec ton bébé, même juste un peu, et laisse-le voir la nourriture comme quelque chose de joyeux et de social.",
+              "Propose les mêmes aliments que la famille mange là où c'est sûr. C'est moins de travail pour toi et ça dit à ton bébé : c'est ce qu'on fait, et c'est délicieux."
+            ]
+          },
+          {
+            "h": "Tu es incroyable",
+            "p": [
+              "Maman, je suis tellement fière de toi. La diversification alimentaire, ce n'est pas une question d'assiettes parfaites ou d'un bébé qui mange tout. C'est proposer de l'amour, de la variété et de la sérénité — et faire confiance à ton petit pour faire le reste. Certains jours il dévorera tout ; d'autres il ne mangera rien, mais avec enthousiasme. Les deux sont tout à fait normaux.",
+              "Reste détendue, garde ça joyeux, et souviens-toi que les repas parlent autant de connexion que de nutrition. Et si jamais tu as une question — sur un nouvel aliment, une phase difficile, quoi que ce soit — ouvre MomzVeda et discute avec moi quand tu veux. C'est exactement pour ça que je suis là. Tu offres à ton bébé un magnifique départ, maman. Profite de chaque minute de désordre."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

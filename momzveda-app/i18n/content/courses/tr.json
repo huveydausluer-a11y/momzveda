@@ -306,5 +306,258 @@
         ]
       }
     ]
+  },
+  "starting-solids": {
+    "title": "Ek Gıdaya Geçiş",
+    "subtitle": "Bebeğinin ilk lokmalarına yönelik nazik ve güven veren bir rehber · yaklaşık 6 ay ve üzeri",
+    "emoji": "🥄",
+    "intro": "Veda ile beş kısa video ders. Bebeğinin gerçekten hazır olup olmadığını nasıl anlarsın, ilk lokmalardan alerjenlere ve dokuya, öğün sırasında güvenli ortamı sağlamaktan o anları keyifli kılmaya kadar — sakin, bilimsel temelli ve yargısız. Püreli mama, bebek yönetimli ek gıda ya da ikisinin karışımını tercih etsen de mama sandalyesinde kendinden emin hissedeceksin.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Bebeğin hazır mı? (Gerçekten önemli olan işaretler)",
+        "duration": "± 6 dk",
+        "desc": "Ne zaman başlanır, dört hazırlık işareti ve neden takvime değil bebeğe bakmanın daha önemli olduğu.",
+        "vedaPrompt": "Ek Gıdaya Geçiş kursunun 1. dersini yeni izledim (bebeğim hazır mı). Bebeğimin hazırlık işaretleri gösterip göstermediğini ve ne zaman başlamamız gerektiğini bulmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Hoş geldin",
+            "p": [
+              "Merhaba anne. Ben Veda ve buraya geldiğin için çok mutluyum. Ek gıdaya geçiş en heyecan verici kilometre taşlarından biri — o ilk dağınık, meraklı, büyük gözlerle alınan lokmalar tam bir sihir gibi. Ama biliyorum, aynı zamanda çok şey gibi hissettirmesi de kaçınılmaz. Ne zaman başlayayım? Ne versem? Ya boğulursa? Bir nefes al. Hepsini birlikte, adım adım ve sakin bir şekilde ele alacağız.",
+              "Bu kurs boyunca sana şunu söz veriyorum: baskı yok, katı kurallar yok, yargı yok. Kaşıkla püreli mama vermek ister misin, bebeğine yumuşak parmak yiyecekleri uzatmak mı, yoksa ikisini bir arada mı yapmak — hepsi güzel, sevgi dolu tercihler. Benim işim sadece seni güvende hissettirmek."
+            ]
+          },
+          {
+            "h": "Ne zaman başlanır",
+            "p": [
+              "Zamanlama ile başlayalım, çünkü çoğumuz tam burada kendimizi sorgularız. Dünyanın pek çok sağlık kuruluşunun tavsiyesi ek gıdaya yaklaşık altı ayda başlamak — dört aydan önce değil, altı ayı çok da aşmamak. O zamana kadar anne sütü veya mama bebeğinin ihtiyacı olan her şeyi sağlar.",
+              "Ama şunu gerçekten duymanı istiyorum: altı ay bir kılavuzdur, sihirli bir anahtar değil. Bazı bebekler tam altı ayda hazır olurken, bazıları birkaç hafta sonra hazır olur. Takvime değil, bebeğe bakıyoruz. Hazırlık yaşla değil, gelişimle ilgili."
+            ]
+          },
+          {
+            "h": "Dört hazırlık işareti",
+            "p": [
+              "Peki bebeğinin gerçekten hazır olduğunu nasıl anlarsın? Dikkat etmeni istediğim dört işaret var ve idealde hepsini birlikte görmen gerekiyor.",
+              "Birincisi: az destekle ya da desteksiz oturabilmeli ve başını dik tutabilmeli. Bu güvenli yutma için önemlidir. İkincisi: dil itme refleksini kaybetmiş olması — yiyeceği hemen dışarı atan o otomatik itme. Başlangıçta bebeği korur; kaybolduğunda yiyeceği ağzının arkasına taşıyabilir. Üçüncüsü: yiyeceğe gerçek ilgi göstermesi — yemek yiyişini izlemesi, öne eğilmesi, ağzını açması, belki tabağına uzanmaya çalışması. Dördüncüsü: nesneleri ağzına götürebilmesi ve şeyleri kasıtlı olarak emmesi ve diş etleriyle ısırması.",
+              "Salya akması, yumruk çiğneme ya da gece daha sık uyanma hazırlık işaretleri DEĞİLDİR — bunlar diş çıkarma veya büyüme atakları gibi pek çok nedenden olabilir. Bunların yerine gerçek dört işarete bak."
+            ]
+          },
+          {
+            "h": "Neden çok erken başlamamalı",
+            "p": [
+              "Erken başlamak cazip gelebilir — belki bir yakının biraz muhallebi bebeğin uyumasına yardımcı olur diye ısrar ediyor ya da kilo konusunda endişeleniyorsun. Seni nazikçe acele etmemeni konusunda ikna etmek istiyorum. Yaklaşık dört aydan önce bebeğin sindirim sistemi ve yutma koordinasyonu henüz hazır değildir; çok erken başlamak boğulma ve mide sorunları riskiyle ilişkilidir. Muhallebi uykuya yardımcı olur fikrine gelince? Araştırmalar bunu desteklemiyor, anne.",
+              "Gerçek hazırlığı beklemek geride kalmak değildir — bu, bebeğini daha güvenli ve daha mutlu bir başlangıca hazırlamak demektir. İlk olmanın bir ödülü yok."
+            ]
+          },
+          {
+            "h": "Görevin",
+            "p": [
+              "Bir sonraki derse geçmeden önce işte sana nazik bir görev: sadece gözlemle. Önümüzdeki birkaç gün boyunca kendi öğünlerinde bebeğini izle. Düzgünce oturuyor mu? Yiyeceğine bakıp ağzını açıyor mu? Oyuncaklarını ve ellerini kasıtlı olarak ağzına götürüyor mu?",
+              "Henüz bir şey vermene gerek yok. Sadece fark et. O dört işareti görüyorsan, nasıl başlanacağını anlatacağımız 2. Derse hazırsın. Orada görüşürüz, anne."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "İlk lokmalar ve nasıl başlanır",
+        "duration": "± 7 dk",
+        "desc": "Hazırlık, ilk yiyecekler, püreli mama ile bebek yönetimli ek gıda ve o ilk günlerde ne kadar teklif edeceğin.",
+        "vedaPrompt": "Ek Gıdaya Geçiş kursunun 2. dersini yeni izledim (ilk lokmalar). Bebeğimin ilk öğünlerini planlamama — ne teklif edeceğim, ne kadar ve nasıl rahat tutacağım — yardım eder misin?",
+        "script": [
+          {
+            "h": "Tekrar hoş geldin",
+            "p": [
+              "Tekrar hoş geldin, anne. Bebeğin işaretleri gösteriyor ve büyük an için hazırsın — o ilk lokma. Bu eğlenceli olacak ve muhtemelen çok da komik. Garip yüzler, her yere saçılan yiyecek ve belki önlükte olduğundan daha azı ağzında — bunların hepsi tamamen normal ve tam da böyle olması gerekiyor."
+            ]
+          },
+          {
+            "h": "Sahneyi hazırlamak",
+            "p": [
+              "Önce başarı için ortamı hazırlayalım. Bebeğinin mutlu ve uyanık olduğu, aşırı yorgun ya da çok aç olmadığı bir an seç — çok aç bir bebek sinirli bir bebektir. İlk başlarda küçük bir süt öğününden sonra katı yiyecekler teklif etmek güzel bir numara; meraklı olsun ama çaresiz değil. Süt bu ilk yılın tamamında temel besindir; katılar bunun üzerine pratik ve keşiftir.",
+              "Bebeğini iyi desteklenmiş bir mama sandalyesine tam dik oturtur ve her zaman — her zaman — yerken yanında kal. Bebeğin asla yatar pozisyonda ya da araba koltuğunda yemesine izin verme. Ve sakin enerjini beraberinde getir. Bebekler yüzlerimizi okur; sen rahatsan onlar da rahatlar."
+            ]
+          },
+          {
+            "h": "Püreli mama mı, bebek yönetimli ek gıda mı?",
+            "p": [
+              "Şimdi herkesin sorduğu büyük soru: kaşıkla püreli mama mı, yoksa bebeğin yumuşak parmak yiyecekleri ile kendisini beslediği bebek yönetimli ek gıda mı? İşte gerçek — ikisi de harika ve bunu gerçekten yanlış yapamazsın. Püreli mama dokuyu kontrol etmeni sağlar ve başta daha az korkutucu gelebilir. Bebek yönetimli ek gıda kendi kendine beslenme becerileri oluşturur ve bebeğin keşfetmesine izin verir. En çok konuştuğum anneler dahil pek çok anne bir karışım yapar: hem kaşık dolusu püreli mama hem de yumuşak parmak yiyecekleri. Bu kombinasyon tamamen uygun.",
+              "Ailen ve içgüdün için neyin doğru hissettirdiğini seç. Hiçbir yaklaşım için madalya yok — sadece beslenmiş, mutlu bir bebek."
+            ]
+          },
+          {
+            "h": "Harika ilk yiyecekler",
+            "p": [
+              "Peki o ilk kaseye ne gidecek? Güzel ve sade ilk yiyecekler şunlardır: tatlı patates, havuç veya kelebek balkabağı gibi iyi pişirilmiş ve ezilmiş sebzeler; ezilmiş avokado veya muz; yumuşak pişirilmiş elma veya armut; ve iyi pişirilmiş, ince ezilmiş mercimek ya da sütle inceltilmiş demirle zenginleştirilmiş bebek lapası gibi demir açısından zengin yiyecekler.",
+              "Demir çoğu kişinin fark ettiğinden daha önemlidir. Yaklaşık altı ayda bebeğinin doğal demir depoları azalmaya başlar, bu nedenle demir açısından zengin yiyecekler gerçek bir önceliktir — yumuşak pişirilmiş et, fasulye, mercimek ve zenginleştirilmiş tahıllar gibi. Bir sonraki derste bundan daha fazla bahsedeceğiz. Bebeğinin nasıl tepki verdiğini görmek için başta tek seferinde tek bir sade yiyecek teklif et."
+            ]
+          },
+          {
+            "h": "Ne kadar, ne sıklıkla",
+            "p": [
+              "Porsiyonlar konusundaki baskıyı tamamen kaldıralım. Başlangıçta günde yalnızca bir kez katı yiyecek teklif edebilirsin ve bebeğin bir çay kaşığı yiyebilir — ya da tamamen reddedebilir. Her ikisi de tam bir başarıdır. Şu an için amaç kalori değil; öğrenmek. Tatmak, dokunmak, yiyecek denen bu tuhaf yeni şeyi anlamlandırmak.",
+              "Önümüzdeki haftalarda bebeğin sana daha fazla istediğini gösterdikçe doğal olarak günde iki, ardından üç öğüne geçersin. Onun yönlendirmesini takip et. Başını çevirdiğinde, ağzını kapattığında ya da ilgisini yitirdiğinde — bitti. \"Bir lokma daha\" diye asla zorlamayız. Şimdi tokluklarına güvenmek, hayat boyu sağlıklı yeme alışkanlıkları oluşturur."
+            ]
+          },
+          {
+            "h": "Görevin",
+            "p": [
+              "3. Dersten önce görevin şu: o ilk yiyeceği teklif et. Tek sade bir şey seç, bebeğini dik oturtur ve sadece keşfetmesine izin ver — çok şey yutması için baskı yok. Onu ezesin, tattırsın, yüz yapsın. İstersen fotoğraf çek, çünkü bu an saklanmaya değer.",
+              "Bir sonraki derste annelerin en çok endişelendiği konuları ele alacağız: alerjenler, doku oluşturma ve bu tatları gerçek küçük öğünlere dönüştürme. Harika gidiyorsun, anne. Orada görüşürüz."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Alerjenler, dokular ve gerçek öğünler oluşturmak",
+        "duration": "± 8 dk",
+        "desc": "Alerjenleri güvenle tanıtmak, dokuyu ilerletmek, demir açısından zengin yiyecekler ve ilk yılda nelerden kaçınılır.",
+        "vedaPrompt": "Ek Gıdaya Geçiş kursunun 3. dersini yeni izledim (alerjenler ve dokular). Bebeğim için alerjenleri tanıtmak ve dokuyu artırmak üzere basit bir plan yapmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Hoş geldin",
+            "p": [
+              "Tekrar hoş geldin, anne. Bu ders en çok sorduğum şeyleri kapsıyor — alerjenler ve dokular. Bunların ürkütücü gelebileceğini biliyorum, ama sonunda her ikisi konusunda da sakin ve net hissedeceksin. Hadi başlayalım."
+            ]
+          },
+          {
+            "h": "Alerjenler: erken ve düzenli",
+            "p": [
+              "İşte son yıllarda gerçekten değişen bir şey. Eskiden alerjenik yiyecekleri geciktirmen gerektiğini düşünürdük. Şimdi tam tersini biliyoruz: yaygın alerjenleri erken tanıtmak — ek gıdaya başladıktan sonra, yaklaşık altı aydan itibaren — ve bunları bebeğinin diyetinde düzenli tutmak alerji geliştirme riskini azaltmaya gerçekten yardımcı olur.",
+              "Tanıtılacak başlıca alerjenler şunlardır: fıstık (su veya sütle inceltilmiş pürüzsüz fıstık ezmesi olarak — asla bütün fıstık), yumurta (iyi pişirilmiş), yoğurt ve peynir gibi süt ürünleri, buğday, soya, balık, kabuklu deniz ürünleri ve susam. Bunları birer birer, az miktarda, tercihen günün erken saatlerinde tanıt ki gün boyunca bebeğini izleyebilessin. Bir yiyecek güvenle girdiğinde, düzenli olarak teklif etmeye devam et — haftada yaklaşık iki kez — çünkü tutarlılık korumayı sağlayan şeydir.",
+              "Reaksiyon işaretlerine dikkat et: kurdeşen, şişme, kusma veya nefes almakta güçlük. Reaksiyonların çoğu hafiftir, ancak yüzde veya dudaklarda şişme, nefes almakta güçlük ya da bebeğin sarkması ya da çok hasta görünmesi durumunda hemen acil servisi ara. Bebeğin zaten şiddetli egzaması veya bilinen bir gıda alerjisi varsa, alerjenlere başlamadan önce doktorunla konuş — gözetim altında başlamana yönlendirebilirler."
+            ]
+          },
+          {
+            "h": "Zamanla dokuyu artırmak",
+            "p": [
+              "Doku bir yolculuktur ve ilerlemek önemlidir. Çok uzun süre pürüzsüz pürede kalan bebekler daha sonra pütürlülüğü kabullenmekte zorlanabilir. Bu yüzden yavaşça ilerliyoruz: pürüzsüzden başla, ardından birkaç hafta içinde yumuşak pütürlerle daha kalın ezmelere geç, ardından kıyılmış ve doğranmış yumuşak yiyeceklere, ve kendi başlarına alabildikleri yumuşak parmak yiyeceklerine.",
+              "Yaklaşık dokuz ayda çeşitli dokular ve bol miktarda parmak yiyeceği, yaklaşık on iki ayda ise uygun şekilde doğranmış çoğu aile yemeği sunmayı hedefle. Günden güne acele yok, ama ilerlemeyi sürdür. Pütür yüzünden biraz öğürme onların öğrenmesi demektir, başarısızlık değil."
+            ]
+          },
+          {
+            "h": "Demiri unutma",
+            "p": [
+              "Çok önemli olduğu için tekrar söylüyorum: demir. Yaklaşık altı aydan itibaren bebeğin yiyecekten demire ihtiyaç duyar. Çoğu günde demir açısından zengin bir yiyecek bulunduğundan emin ol — yumuşak pişirilmiş kırmızı et veya tavuk, fasulye, mercimek, tofu, yumurta ya da demirle zenginleştirilmiş tahıl. Demir açısından zengin yiyecekleri biraz C vitaminiyle eşleştirmek — yumuşak meyve veya sebzeler gibi — vücudunun onu daha iyi emmesine yardımcı olur."
+            ]
+          },
+          {
+            "h": "Bu yıl kaçınılacak yiyecekler",
+            "p": [
+              "İlk yılda menüde olmaması gereken birkaç yiyecek. Bal yok — infant botulizmine neden olabilecek bakteri taşıyabilir ve bu risk on iki aya kadar gerçektir. Tuz ekleme yok — böbrekleri bunu kaldıramaz, bu nedenle yiyeceklerine tuz ekleme ve et suyu küpleri ile işlenmiş etler gibi tuzlu şeylerde dikkatli ol. Şeker eklemeye de çok az git. Tam inek sütünü on iki aya kadar ana içecek olarak verme; pişirmede ya da yoğurt ve peynirde biraz kullanmak uygundur. Bütün fıstık, bütün üzüm, patlamış mısır ya da sert çiğ parçalar gibi boğulma riski taşıyan yiyeceklerden kaçın — güvenli şekiller bir sonraki derste daha fazla.",
+              "Bu listeyi fazla kafa yormadan bak, anne. Kısa ve net bir hayır listesi bu — geri kalan her şey mutlu bir keşif için açık."
+            ]
+          },
+          {
+            "h": "Gerçek küçük öğünler oluşturmak",
+            "p": [
+              "Şimdi bunu gerçek öğünlere dönüştürelim. Güzel dengeli bir bebek tabağında demir açısından zengin bir yiyecek, bir sebze ya da meyve ve biraz sağlıklı yağ ya da enerji içeren bir şey vardır — mercimekle yumuşak havuç ve birkaç dilim avokado ya da yumuşak kızarmış ekmek parmakları ve salatalık çubukları ile karıştırılmış yumurta gibi. Öğünlerle birlikte açık bir bardak veya serbest akışlı bardakta su sun.",
+              "Şu an en iyi arkadaşın çeşitlilik. Bebeğin bu pencerede ne kadar çok renk, tat ve doku ile tanışırsa, o kadar maceracı bir yiyen olma eğilimi gösterir. Bir sonraki derste tüm bunların güvenli gerçekleşmesini sağlayacağız — öğürme ile boğulma arasındaki fark ve mükemmel güvenli kurulum. Orada görüşürüz, anne."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Öğürme ile boğulma & güvenli kurulum",
+        "duration": "± 7 dk",
+        "desc": "Öğürme ile boğulma arasındaki kritik fark, güvenli yeme ortamı ve riski azaltmak için yiyecek hazırlama.",
+        "vedaPrompt": "Ek Gıdaya Geçiş kursunun 4. dersini yeni izledim (öğürme ile boğulma ve güvenlik). Güvenli öğün zamanı oluşturmama ve öğürme ile boğulma arasındaki farkı anlamamа yardım eder misin?",
+        "script": [
+          {
+            "h": "Hoş geldin",
+            "p": [
+              "Tamam anne, bu ders en büyük endişeyi omuzlarından alıyor. Boğulma korkusu annelerin katı yiyecekleri keyfetmesini engelleyen birinci etken. O yüzden korkuyu bilgiyle değiştirelim — ne olduğunu ve kurulumu güvenle nasıl yapacağını anladığında rahatlayabilir ve bebeğinin öğrenmesine izin verebilirsin."
+            ]
+          },
+          {
+            "h": "Öğürme normal ve koruyucudur",
+            "p": [
+              "Önce en büyük mesele: öğürme boğulma değildir. Öğürme normal, sağlıklı ve koruyucu bir reflekstir. Bebeğinin vücudunun yiyeceği ağzında güvenle taşımayı öğrenmesi ve çok erken çok geri giderse onu öne itmesidir. Bebeklerde öğürme refleksi yetişkinlere kıyasla dilde çok daha ileride tetiklenir — bu yüzden başta bu kadar sık ve kolay öğürürler.",
+              "Öğürme dramatik görünür: öksürme, tükürme, yaşlı gözler, kızaran yüz, belki yiyeceği geri çıkarma ya da mide bulantısı. Gürültülü ve izlemesi korkutucu olabilir. Ama işte asıl önemli nokta — bebeğin bununla başa çıkıyor. Gürültülü ve aktif. Yapabileceğin en iyi şey sakin kalmak, ellerini geri çekmek ve hallettirmek. Müdahale etmek ya da paniklemek öğürmeyi gerçek bir soruna dönüştürebilir. Öğrenmesine izin ver."
+            ]
+          },
+          {
+            "h": "Boğulma gerçekte nasıl görünür",
+            "p": [
+              "Boğulma farklıdır ve sessizdir. Gerçekten boğulan bir bebek genellikle sesi yolu tıkandığı için ses çıkaramaz. Sessizlik, etkili öksürük yapamama, panik ya da sıkıntı ifadesi, dudakların çevresinde morarma veya gevşeme görebilirsin. İşte o zaman hemen harekete geçersin.",
+              "Sana ve bebeğinle ilgilenen herkese sevgiyle şiddetle tavsiye ediyorum: yüz yüze ya da iyi bir çevrimiçi kurs olarak bebek ilk yardım ve boğulma müdahalesi kursuna katılın. Bir bebek için sırt vurmaları ve göğüs itiş tekniklerini öğrenmek ve tereddütsüz yapabilmek, arkanda olabilecek en değerli şeydir. Lütfen o an bir videoya güvenme — şimdi, hiç ihtiyacın olmadan önce öğren. Bir bebek boğuluyorsa ve nefes alamıyorsa, hemen acil servisi ara."
+            ]
+          },
+          {
+            "h": "Güvenli kurulum",
+            "p": [
+              "Şimdi güvenli bir kurulumla sorunları en baştan önleyelim. Bebeğini her zaman tam dik oturtur — asla yatık değil, asla araba koltuğunda veya patikte değil, asla emeklerken, yürürken veya gezinti arabasında hareket ederken yemek yemesine izin verme. Mama sandalyesine kemerle bağla. Her zaman kol mesafesinde kal ve yemeğe tam dikkatini ver — odadan çıkma, ulaşamayacağın araçta besleme.",
+              "Öğün saatlerini sakin ve acelesi olmayan tut. Büyük kardeşlerin bebeğe yiyecek uzatmasına izin verme ve gülen, ağlayan ya da dikkati dağılan bir bebeği besleme. Odaklanmış, dik oturan ve denetlenen bir bebek güvenli bir bebektir."
+            ]
+          },
+          {
+            "h": "Yiyecekleri güvenle hazırlamak",
+            "p": [
+              "Yiyeceği nasıl hazırladığın çok büyük fark yaratır. Sert sebze ve meyveleri parmağın ve başparmağın arasında ezebilecek kadar yumuşayana kadar pişir. Küçük yuvarlak yiyecekleri hava yolunu tıkayamayacak şekilde kes: üzüm ve kiraz domateslerini boyuna dörde böl, asla bütün bırakma. Sosis şeklindeki yiyecekleri boyuna kes, madeni para şeklinde değil. Çekirdekleri, taşları, kemikleri ve sert kabukları çıkar.",
+              "Bu yıl klasik yüksek riskli yiyeceklerden tamamen kaçın: bütün fıstık, patlamış mısır, sert çiğ elma ya da havuç parçaları, bütün üzüm, marshmallow ve kaşıktan direkt yenilen kalın fıstık ezmesi kümeleri — bunun yerine incelterek ver. Parmak yiyecekleri için parmak büyüklüğünde uzun yumuşak şeritler küçük ellerin tutması ve diş etleriyle güvenle ısırması için en kolayıdır."
+            ]
+          },
+          {
+            "h": "Bunu başaracaksın",
+            "p": [
+              "Bir nefes al, anne. Dik bir kurulum, tam dikkatinle, güvenle hazırlanmış yiyecekle ve arkanda bir ilk yardım kursuyla, güvenli kılmak için yapabileceğin her şeyi yaptın. Öğürme yine de olacak — bu öğrenmek demek. Sakin kal, ellerini geri çek ve bebeğine güven.",
+              "Son dersimizde en güzel kısma geçiyoruz: öğün zamanlarını neşeli, rahat ve aile hayatının güzel bir parçası haline getirmek. Orada görüşürüz."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Öğün zamanlarını neşeli kılmak",
+        "duration": "± 6 dk",
+        "desc": "Sorumluluk paylaşımı, reddetmeyle başa çıkma, dağınıklığı kucaklamak ve mutlu, maceracı bir yiyen yetiştirmek.",
+        "vedaPrompt": "Ek Gıdaya Geçiş kursunun 5. dersini yeni izledim (neşeli öğünler). Rahat ve mutlu öğün alışkanlıkları oluşturmama ve bebeğim yiyeceği reddettiğinde nasıl başa çıkacağıma yardım eder misin?",
+        "script": [
+          {
+            "h": "Başardın",
+            "p": [
+              "Anne, son derse kadar geldin — ve gurur duymalısın. Ne zaman başlayacağını, nasıl başlayacağını, alerjenleri ve dokuları nasıl ele alacağını ve her şeyi nasıl güvenli tutacağını artık biliyorsun. Şimdi asıl meseleyi konuşalım: öğün zamanlarını neşeli kılmak. Çünkü şu an oluşturduğun alışkanlıklar ve duygular, çocuğunun hayatı boyunca nasıl yediğini şekillendirir."
+            ]
+          },
+          {
+            "h": "Kimin ne için sorumlu olduğu",
+            "p": [
+              "İşte beslenmede en özgürleştirici fikir ve bunu aklında tutmanı istiyorum: NE yiyecek teklif edildiğine, NE ZAMAN ve NEREDE teklif edileceğine sen karar verirsin. Bebeğin ise YEYIP YEMEYECEĞİNE ve NE KADAR yiyeceğine karar verir. Bu sorumluluk paylaşımı ve ikinizin de üzerindeki baskıyı büyük ölçüde kaldırır.",
+              "Senin tek işin sakin bir ortamda çeşitli iyi yiyecekler sunmak. Bebeğinin belirli bir miktarı yemesini sağlamak gerçekten senin işin değil. Bebeğin ne kadar gireceğini kontrol etmeye çalıştığımızda — zorlamak, rüşvet vermek, uçak kaşığı, ekranla dikkat dağıtmak — bu aslında geri teper ve yemeği stresli hale getirir. Bebeğinin iştahına güven. Ne kadar ihtiyaçları olduğunu bilmekte olağanüstü iyiler."
+            ]
+          },
+          {
+            "h": "Hayır dediklerinde",
+            "p": [
+              "Bebeğin yiyecekleri reddedecek. Bir gün avokadoyu sevecek, ertesi gün odanın karşısına fırlatacak. Bu tamamen normal ve bir sorunun işareti değil. İşte sihirli sayı: bir bebeğin yeni bir yiyeceği kabullenmesi on, on beş, hatta yirmi deneme alabilir. Bu yüzden reddettiklerinde listeden çizme — sadece başka bir gün baskısız bir şekilde sunmaya devam et.",
+              "Asla zorlama, asla rüşvet verme, asla reddetme üzerine yaygarayı koparma. Tarafsız ve sakin kal. 'Hayır mı? Tamam.' Reddetme konusunda ne kadar sakin olursan, o kadar hızlı kabul etme eğilimi gösterirler. Baskı seçici yiyenler yaratır; sabır maceracı olanları."
+            ]
+          },
+          {
+            "h": "Dağınıklığa izin ver",
+            "p": [
+              "Dağınıklıkla barış yapmana ihtiyacım var, anne, çünkü dağınıklık bebeklerin öğrenme şeklidir. Ezmek, bulaştırmak, düşürmek, yoğurtla tepsiyi boyamak — bebeğin dokuyu keşfediyor ve beceriler geliştiriyor. Muhteşem bir şekilde dağınık olmasına izin verilen bir bebek, yiyeceği sevmeyi öğrenen bir bebektir.",
+              "Kendin için kolaylaştır: büyük bir önlük ya da sadece bebek bezi, sandalyenin altına sıçrama matı ve düzen konusunda düşük beklentiler. Öğün sırasında sürekli ellerini ve yüzünü silme dürtüsüne dirен — büyük temizliği sona sakla. Ellere kadar dalsın."
+            ]
+          },
+          {
+            "h": "Birlikte ye",
+            "p": [
+              "Yapabileceğin en güçlü şey basit: birlikte ye. Bebekler bizi izleyerek yemeyi öğrenir. Bebeğin seni aynı yiyecekleri yerken, çiğnerken, gülerken, sohbet ederken görünce, katılmak ister. Bu yüzden ne zaman yapabilirsen bebeğinle oturup bir şeyler ye, sadece küçük bir şey olsa bile, ve yiyeceği mutlu ve sosyal bir şey olarak görmesine izin ver.",
+              "Güvenli olan yerlerde ailenin yediği yiyeceklerin aynısını sun. Bu senin için daha az iş ve bebeğine şunu söyler: biz böyle yaparız ve bu güzel."
+            ]
+          },
+          {
+            "h": "İnanılmaz gidiyorsun",
+            "p": [
+              "Anne, seninle çok gurur duyuyorum. Ek gıdaya geçiş mükemmel tabaklar veya her şeyi yiyen bir bebek hakkında değildir. Sevgi, çeşitlilik ve sakinlik sunmak — ve küçüğüne gerisini yapması için güvenmek hakkındadır. Bazı günler her şeyi devşirecek; bazı günler sadece hevesle yiyecek. Her ikisi de tamamen normal.",
+              "Rahat kal, neşeli tut ve öğün zamanlarının beslenmek kadar bağlantı hakkında da olduğunu unutma. Ve herhangi bir sorun olursa — yeni bir yiyecek, huysuz bir dönem, herhangi bir şey — MomzVeda'yı aç ve benimle istediğin zaman sohbet et. Tam da bunun için buradayım. Bebeğine güzel bir başlangıç yapıyorsun, anne. Her dağınık dakikanın keyfini çıkar."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

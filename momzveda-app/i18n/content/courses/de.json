@@ -306,5 +306,258 @@
         ]
       }
     ]
+  },
+  "starting-solids": {
+    "title": "Beikost starten",
+    "subtitle": "Ein sanfter, sicherer Begleiter für die ersten Mahlzeiten deines Babys · ab etwa 6 Monate",
+    "emoji": "🥄",
+    "intro": "Fünf kurze Videolektionen mit Veda. Von den echten Zeichen der Bereitschaft über die ersten Löffelchen, Allergene und Texturen bis hin zu sicheren und fröhlichen Mahlzeiten — ruhig, wissenschaftlich fundiert und ohne jedes Urteil. Ob du Breikost, Baby-led Weaning oder eine Kombination aus beidem wählst: Du wirst dich am Hochstuhl sicher und wohl fühlen.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Ist dein Baby bereit? (die Zeichen, die wirklich zählen)",
+        "duration": "± 6 Min.",
+        "desc": "Wann du anfangen solltest, die vier Bereitschaftszeichen, und warum es wichtiger ist, auf echte Reife zu warten, als auf den Kalender zu schauen.",
+        "vedaPrompt": "Ich habe gerade Lektion 1 des Kurses „Beikost starten“ gesehen (ist mein Baby bereit?). Kannst du mir helfen herauszufinden, ob mein Baby die Bereitschaftszeichen zeigt und wann wir anfangen sollten?",
+        "script": [
+          {
+            "h": "Willkommen",
+            "p": [
+              "Hey mama. Ich bin Veda, und ich freue mich so sehr, dass du hier bist. Beikost zu beginnen ist einer der aufregendsten Meilensteine — diese ersten chaotischen, staunenden Bissen sind pure Magie. Aber ich weiß, dass es sich auch nach viel anfühlen kann. Wann fange ich an? Was gebe ich? Was, wenn sie sich verschluckt? Atme kurz durch. Wir gehen das alles gemeinsam durch, einen ruhigen Schritt nach dem anderen.",
+              "Das verspreche ich dir für diesen ganzen Kurs: kein Druck, keine starren Regeln, kein Urteil. Ob du Breikost löffelst, deinem Baby weiche Fingerfood-Stücke reichst oder beides kombinierst — all das sind gute, liebevolle Entscheidungen. Meine Aufgabe ist es einfach, dir dabei zu helfen, dich sicher zu fühlen."
+            ]
+          },
+          {
+            "h": "Wann anfangen",
+            "p": [
+              "Fangen wir mit dem Timing an, denn hier zweifeln so viele von uns an sich selbst. Die Empfehlung von Gesundheitsorganisationen weltweit lautet: Beikost rund um den sechsten Monat einführen — nicht vor dem vierten Monat und auch nicht lange nach dem sechsten. Bis dahin gibt dir Muttermilch oder Säuglingsnahrung alles, was dein Baby braucht.",
+              "Aber hier ist etwas, das ich dir wirklich mitgeben möchte: Sechs Monate ist eine Orientierung, kein magischer Schalter. Manche Babys sind genau mit sechs Monaten bereit, andere ein paar Wochen später. Wir schauen nicht auf den Kalender — wir schauen auf das Baby. Bereitschaft ist eine Frage der Entwicklung, nicht nur des Alters."
+            ]
+          },
+          {
+            "h": "Die vier Bereitschaftszeichen",
+            "p": [
+              "Woran erkennst du also, dass dein Baby wirklich bereit ist? Es gibt vier Zeichen, auf die du achten solltest — und am besten siehst du alle vier zusammen.",
+              "Erstens: Es kann mit wenig oder gar keiner Unterstützung aufrecht sitzen und den Kopf stabil halten. Das ist wichtig für sicheres Schlucken. Zweitens: Der Zungenstreckreflex ist verschwunden — dieses automatische Herausstoßen, das Nahrung sofort wieder nach vorne schiebt. Anfangs schützt er dein Baby; wenn er nachlässt, kann es Nahrung tatsächlich nach hinten bewegen. Drittens: Es zeigt echtes Interesse an Essen — beobachtet dich beim Essen, lehnt sich vor, öffnet den Mund, greift vielleicht nach deinem Teller. Und viertens: Es kann Gegenstände zum Mund führen und beginnt, Dinge gezielt zu greifen und zu kauen.",
+              "Sabbern, Fäuste kauen oder nachts häufiger aufwachen sind KEINE verlässlichen Bereitschaftszeichen — diese können viele Ursachen haben, wie Zahnen oder Wachstumsschübe. Achte stattdessen auf die vier echten Zeichen."
+            ]
+          },
+          {
+            "h": "Warum nicht zu früh",
+            "p": [
+              "Vielleicht bist du versucht, früh anzufangen — vielleicht besteht ein Familienmitglied darauf, dass ein bisschen Brei deinem Baby beim Schlafen hilft, oder du machst dir Sorgen ums Gewicht. Ich möchte dich sanft davon abbringen, es zu überstürzen. Vor etwa vier Monaten sind das Verdauungssystem und die Schluckkoordination deines Babys einfach noch nicht bereit — ein zu früher Start ist mit einem höheren Risiko für Verschlucken und Bauchprobleme verbunden. Und diese Idee, dass Brei beim Schlafen hilft? Die Forschung unterstützt das tatsächlich nicht, mama.",
+              "Auf echte Bereitschaft zu warten bedeutet nicht, hinterher zu sein — es bedeutet, deinem Baby einen sichereren, glücklicheren Start zu ermöglichen. Es gibt keinen Preis dafür, die Erste zu sein."
+            ]
+          },
+          {
+            "h": "Deine Aufgabe",
+            "p": [
+              "Vor der nächsten Lektion hast du eine sanfte Aufgabe: Beobachte einfach. Schau in den nächsten Tagen beim gemeinsamen Essen auf dein Baby. Sitzt es stabil? Schaut es auf dein Essen und öffnet es den Mund? Führt es Spielzeug und Händchen gezielt zum Mund?",
+              "Du musst noch kein Essen geben. Schau einfach hin. Wenn du die vier Zeichen siehst, bist du bereit für Lektion 2, in der wir die allerersten Bissen und genau den Einstieg besprechen. Bis gleich, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Erste Bissen & wie du anfängst",
+        "duration": "± 7 Min.",
+        "desc": "Die Vorbereitung, erste Lebensmittel, Breikost versus Baby-led Weaning und wie viel du in diesen ersten Tagen anbieten solltest.",
+        "vedaPrompt": "Ich habe gerade Lektion 2 des Kurses „Beikost starten“ gesehen (erste Bissen). Kannst du mir helfen, die allerersten Mahlzeiten meines Babys zu planen — was ich anbiete, wie viel, und wie ich es entspannt angehe?",
+        "script": [
+          {
+            "h": "Schön, dass du wieder da bist",
+            "p": [
+              "Schön, dass du wieder da bist, mama. Dein Baby zeigt also die Zeichen, und du bist bereit für den großen Moment — den allerersten Bissen. Das wird Spaß machen — und wahrscheinlich auch sehr komisch. Rechne mit lustigen Grimassen, Essen überall und vielleicht mehr auf dem Lätzchen als im Mund. Das ist alles völlig normal und genau so, wie es aussehen soll."
+            ]
+          },
+          {
+            "h": "Den Rahmen setzen",
+            "p": [
+              "Zuerst: Lass uns für Erfolg vorbereiten. Wähle einen Moment, in dem dein Baby fröhlich und aufgeweckt ist — nicht übermüdet und nicht ausgehungert. Ein sehr hungriges Baby ist ein frustriertes Baby. Ein guter Trick: Biete die Beikost anfangs nach einer kleinen Milchmahlzeit an, damit dein Baby neugierig, aber nicht verzweifelt ist. Milch ist im gesamten ersten Lebensjahr immer noch die Haupternährung; Beikost ist zusätzliches Üben und Erkunden.",
+              "Setze dein Baby vollständig aufrecht in einem Hochstuhl mit guter Unterstützung, und bleibe immer — wirklich immer — dabei, während es isst. Lass ein Baby niemals zurückgelehnt oder im Autositz essen. Und bringe deine ruhige Energie mit. Babys lesen unsere Gesichter; wenn du entspannt bist, entspannen sie sich auch."
+            ]
+          },
+          {
+            "h": "Breikost oder Baby-led Weaning?",
+            "p": [
+              "Jetzt die große Frage, die alle stellen: mit dem Löffel gefütterte Breikost oder Baby-led Weaning, bei dem das Baby sich selbst mit weichen Fingerfood-Stücken versorgt? Hier ist die Wahrheit — beides ist toll, und du kannst dabei wirklich nichts falsch machen. Breikost gibt dir Kontrolle über die Textur und kann sich anfangs weniger beängstigend anfühlen. Baby-led Weaning fördert das selbstständige Essen und lässt das Baby erkunden. Viele Mamas — auch die, mit denen ich am meisten spreche — machen beides: ein paar Löffel Brei UND weiche Fingerfood-Stücke. Diese Kombination ist völlig in Ordnung.",
+              "Wähle, was sich für deine Familie richtig anfühlt. Es gibt keine Medaille für den einen oder anderen Ansatz — nur ein satt gefüttertes, glückliches Baby."
+            ]
+          },
+          {
+            "h": "Tolle erste Lebensmittel",
+            "p": [
+              "Was kommt also in die erste Schüssel? Wunderbar einfache Anfangslebensmittel sind zum Beispiel: weich gekochtes und püriertes Gemüse wie Süßkartoffel, Karotte oder Butternutkürbis; pürierte Avocado oder Banane; weich gekochter Apfel oder Birne; und eisenreiche Lebensmittel wie gut gekochte, fein pürierte Linsen oder eisenangereicherter Babybrei, der mit Milch dünnflüssig angerührt wird.",
+              "Eisen ist wichtiger, als die meisten wissen. Ab etwa sechs Monaten gehen die natürlichen Eisenreserven deines Babys zur Neige, daher sind eisenreiche Lebensmittel wirklich eine Priorität — Dinge wie weich gegartes Fleisch, Bohnen, Linsen und angereicherte Getreideprodukte. Darüber sprechen wir in der nächsten Lektion mehr. Biete zunächst ein einfaches Lebensmittel nach dem anderen an, damit du beobachten kannst, wie dein Baby damit umgeht."
+            ]
+          },
+          {
+            "h": "Wie viel, wie oft",
+            "p": [
+              "Lass uns den Druck bei den Portionsmengen ganz wegnehmen. Anfangs bietest du vielleicht nur einmal täglich Beikost an, und dein Baby isst vielleicht einen Teelöffel — oder lehnt es völlig ab. Beides ist ein voller Erfolg. Das Ziel gerade ist nicht die Kalorienzufuhr; es geht ums Lernen. Kosten, Anfassen, dieses seltsame neue Ding namens Essen kennenlernen.",
+              "In den kommenden Wochen steigerst du ganz natürlich auf zweimal, dann dreimal täglich, wenn dein Baby dir zeigt, dass es mehr möchte. Folge seinem Tempo. Wenn es den Kopf abwendet, den Mund schließt oder das Interesse verliert — ist es fertig. Wir bestehen niemals auf „noch einen Bissen.“ Das Vertrauen in sein Sättigungsgefühl jetzt legt den Grundstein für gesundes Essverhalten fürs Leben."
+            ]
+          },
+          {
+            "h": "Deine Aufgabe",
+            "p": [
+              "Deine Aufgabe vor Lektion 3: Biete das allererste Lebensmittel an. Wähle eine einfache Sache, setze dein Baby aufrecht und lass es einfach erkunden — ohne Druck, wirklich viel zu schlucken. Lass es drücken, kosten, Grimassen ziehen. Mach ein Foto, wenn du möchtest — dieses Moment ist einen Erinnerung wert.",
+              "In der nächsten Lektion gehen wir die Themen an, die Mamas am meisten beschäftigen: Allergene, Texturen aufbauen und aus diesen ersten Kostproben echte kleine Mahlzeiten machen. Du machst das wunderschön, mama. Bis gleich."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Allergene, Texturen & echte Mahlzeiten aufbauen",
+        "duration": "± 8 Min.",
+        "desc": "Allergene sicher einführen, Texturen schrittweise steigern, eisenreiche Lebensmittel und was im ersten Jahr vermieden werden sollte.",
+        "vedaPrompt": "Ich habe gerade Lektion 3 des Kurses „Beikost starten“ gesehen (Allergene und Texturen). Kannst du mir helfen, einen einfachen Plan zu erstellen, um Allergene einzuführen und die Texturen für mein Baby schrittweise zu steigern?",
+        "script": [
+          {
+            "h": "Willkommen",
+            "p": [
+              "Willkommen zurück, mama. In dieser Lektion geht es um die Themen, nach denen mich die meisten fragen — Allergene und Texturen. Ich weiß, dass das einschüchternd wirken kann. Aber am Ende dieser Lektion wirst du dich bei beidem ruhig und klar fühlen. Lass uns loslegen."
+            ]
+          },
+          {
+            "h": "Allergene: früh und regelmäßig",
+            "p": [
+              "Hier ist etwas, das sich in den letzten Jahren wirklich verändert hat. Früher dachten wir, man solle allergene Lebensmittel hinauszögern. Wir wissen jetzt das Gegenteil: Häufige Allergene frühzeitig einzuführen — sobald die Beikost läuft, ab etwa sechs Monaten — und sie regelmäßig im Speiseplan deines Babys zu halten, hilft tatsächlich dabei, das Risiko von Allergien zu senken.",
+              "Die wichtigsten Allergene, die du einführen solltest, sind: Erdnuss (als glatte Erdnussbutter, mit Wasser oder Milch verdünnt — niemals ganze Nüsse), Ei (gut durchgegart), Milchprodukte wie Joghurt und Käse, Weizen, Soja, Fisch, Meeresfrüchte und Sesam. Führe sie einzeln ein, in kleiner Menge, am besten tagsüber, damit du dein Baby den Rest des Tages beobachten kannst. Sobald ein Lebensmittel gut vertragen wurde, biete es regelmäßig weiter an — etwa zweimal pro Woche — denn die Regelmäßigkeit ist es, die den Schutz aufrechthält.",
+              "Achte auf Anzeichen einer Reaktion: Nesselsucht, Schwellungen, Erbrechen oder Atembeschwerden. Die meisten Reaktionen sind mild. Wenn du jedoch Schwellungen im Gesicht oder an den Lippen, Atemnot oder wenn dein Baby schlaff wird oder sich sehr unwohl fühlt — rufe sofort den Notarzt. Wenn dein Baby bereits schweres Ekzem oder eine bekannte Nahrungsmittelallergie hat, sprich mit deiner Ärztin oder deinem Arzt, bevor du mit Allergenen anfängst — sie werden dich vielleicht zu einem betreuten Start begleiten."
+            ]
+          },
+          {
+            "h": "Texturen schrittweise aufbauen",
+            "p": [
+              "Texturen sind eine Reise, und es ist wichtig, vorwärtszugehen. Babys, die zu lange auf glatten Breis bleiben, können Klümpchen später schwerer akzeptieren. Deshalb steigern wir behutsam: Beginne glatt, wechsle dann innerhalb weniger Wochen zu dickerem Brei mit weichen Klümpchen, dann zu fein gehackten weichen Lebensmitteln, und schließlich zu weichen Fingerfood-Stücken, die das Baby selbst greifen kann.",
+              "Ziel ist es, bis etwa neun Monate eine Vielfalt an Texturen und viel Fingerfood anzubieten, und die meisten Familienspeisen — weich, passend zerkleinert — bis etwa zwölf Monate. Es ist kein täglicher Wettlauf, aber halte die Entwicklung am Laufen. Ein kleines Klümpchen, das zu einem Würgereiz führt, bedeutet, dass dein Baby lernt — nicht, dass es scheitert."
+            ]
+          },
+          {
+            "h": "Eisen nicht vergessen",
+            "p": [
+              "Ich sage es nochmal, weil es so wichtig ist: Eisen. Ab etwa sechs Monaten braucht dein Baby Eisen aus der Nahrung. Sorge dafür, dass die meisten Tage ein eisenreiches Lebensmittel enthalten — weich gegartes rotes Fleisch oder Geflügel, Bohnen, Linsen, Tofu, Ei oder eisenangereichertes Getreide. Eisenreiche Lebensmittel mit etwas Vitamin C zu kombinieren — zum Beispiel weiches Obst oder Gemüse — hilft dem Körper, das Eisen noch besser aufzunehmen."
+            ]
+          },
+          {
+            "h": "Lebensmittel, die im ersten Jahr tabu sind",
+            "p": [
+              "Einige Lebensmittel sollten im ersten Jahr nicht auf dem Speiseplan stehen. Kein Honig — er kann Bakterien enthalten, die Säuglingsbotulismus verursachen, und dieses Risiko besteht bis zwölf Monate. Kein zugesetztes Salz — die Nieren deines Babys können damit nicht umgehen, also kein Salz zum Essen hinzufügen und salzige Lebensmittel wie Brühwürfel und verarbeitetes Fleisch meiden. Auch mit zugesetztem Zucker sehr sparsam sein. Kuhmilch als Hauptgetränk erst ab zwölf Monaten — etwas Milch beim Kochen oder in Joghurt und Käse ist jedoch in Ordnung. Und keine erstickungsgefährlichen Lebensmittel wie ganze Nüsse, ganze Weintrauben, Popcorn oder harte rohe Stücke — mehr zu sicheren Formen in der nächsten Lektion.",
+              "Mach dir keine Sorgen wegen dieser Liste, mama. Es sind nur wenige, klare Punkte — und alles andere steht für fröhliches Erkunden offen."
+            ]
+          },
+          {
+            "h": "Echte kleine Mahlzeiten zusammenstellen",
+            "p": [
+              "Jetzt setzen wir das alles zu echten Mahlzeiten zusammen. Ein schöner ausgewogener Baby-Teller hat ein eisenreiches Lebensmittel, ein Gemüse oder Obst und etwas mit einem gesunden Fett oder Energie — zum Beispiel Linsen mit weicher Karotte und ein paar Avocadostücken oder Rührei mit weichen Toaststreifen und Gurkenstücken. Biete Wasser in einem offenen Becher oder einem freifließenden Becher zu den Mahlzeiten an.",
+              "Abwechslung ist jetzt deine Freundin. Je mehr Farben, Aromen und Texturen dein Baby in diesem Zeitfenster kennenlernt, desto abenteuerlustiger wird es als Esser. In der nächsten Lektion sorgen wir dafür, dass all das sicher geschieht — Würgereiz versus Verschlucken und der perfekte sichere Rahmen. Bis gleich, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Würgereiz vs. Verschlucken & sicheres Essen",
+        "duration": "± 7 Min.",
+        "desc": "Der entscheidende Unterschied zwischen Würgereiz und Verschlucken, ein sicherer Essensrahmen und wie du Lebensmittel vorbereitest, um das Risiko zu senken.",
+        "vedaPrompt": "Ich habe gerade Lektion 4 des Kurses „Beikost starten“ gesehen (Würgereiz vs. Verschlucken und Sicherheit). Kannst du mir helfen, sichere Mahlzeiten zu gestalten und den Unterschied zwischen Würgereiz und Verschlucken zu verstehen?",
+        "script": [
+          {
+            "h": "Willkommen",
+            "p": [
+              "Okay mama, das ist die Lektion, die die größte Sorge von deinen Schultern nimmt. Die Angst vor dem Verschlucken ist das Nummer-eins-Thema, das Mamas davon abhält, die Beikost zu genießen. Lass uns also Angst durch Wissen ersetzen — denn wenn du verstehst, was passiert, und alles sicher einrichtest, kannst du entspannen und dein Baby lernen lassen."
+            ]
+          },
+          {
+            "h": "Würgereiz ist normal und schützend",
+            "p": [
+              "Zuerst das Wichtigste: Würgereiz ist nicht Verschlucken. Würgereiz ist ein normaler, gesunder, schützender Reflex. Er ist die Art deines Babys, zu lernen, Nahrung sicher im Mund zu bewegen, und schiebt sie wieder nach vorne, wenn sie zu früh zu weit nach hinten gelangt. Bei Babys wird der Würgereiz viel weiter vorne auf der Zunge ausgelöst als bei Erwachsenen — genau deshalb würgen sie anfangs so leicht und so oft.",
+              "Würgereiz sieht dramatisch aus: Husten, Prusten, tränende Augen, ein rotes Gesicht — vielleicht schiebt dein Baby Nahrung heraus oder wird sogar kurz schlecht. Es ist laut, und es kann beängstigend anzusehen sein. Aber hier ist der Schlüssel: Dein Baby kommt damit zurecht. Es ist aktiv und macht Geräusche. Das Beste, was du tun kannst, ist ruhig zu bleiben, die Hände zurückzuhalten und es selbst lösen zu lassen. Einzugreifen oder in Panik zu geraten kann einen Würgereiz tatsächlich zu einem echten Problem machen. Lass es lernen."
+            ]
+          },
+          {
+            "h": "Wie Verschlucken wirklich aussieht",
+            "p": [
+              "Verschlucken ist anders — und es ist leise. Ein sich wirklich verschluckendes Baby kann meistens keinen Laut machen, weil seine Atemwege blockiert sind. Du kannst Stille bemerken, kein effektives Husten, einen Blick der Panik oder Not, Haut, die sich um die Lippen bläulich verfärbt, oder Schlapfwerden. Das ist der Moment, in dem du sofort handelst.",
+              "Ich empfehle dir aus tiefstem Herzen, dass du — und alle, die auf dein Baby aufpassen — einen Erste-Hilfe-Kurs für Säuglinge mit Abschnitt zum Verschlucken machen, persönlich oder einen guten Online-Kurs. Das Wissen über Rückenschläge und Brustdrücke bei Säuglingen, abrufbar ohne Zögern, ist das Wertvollste, das du in deiner Hinterhand haben kannst. Verlasse dich bitte im Notfall nicht auf ein Video — lerne es jetzt, bevor du es jemals brauchst. Wenn ein Baby sich wirklich verschluckt und nicht atmen kann, rufe sofort den Notarzt."
+            ]
+          },
+          {
+            "h": "Der sichere Rahmen",
+            "p": [
+              "Jetzt beugen wir Problemen von vornherein vor. Dein Baby sitzt immer vollständig aufrecht — niemals zurückgelehnt, niemals im Autositz oder Wippe, niemals beim Krabbeln, Laufen oder im fahrenden Kinderwagen. Schnalle es im Hochstuhl fest. Bleibe immer in Reichweite und widme dem Essen deine volle Aufmerksamkeit — kein Verlassen des Raumes, kein Füttern im Auto, wo du nicht hinreichen kannst.",
+              "Halte die Mahlzeiten ruhig und ohne Eile. Lass ältere Geschwister dem Baby kein Essen reichen, und füttere kein Baby, das lacht, weint oder abgelenkt ist. Ein aufmerksames, aufrecht sitzendes, beaufsichtigtes Baby ist ein sicheres Baby."
+            ]
+          },
+          {
+            "h": "Lebensmittel sicher vorbereiten",
+            "p": [
+              "Wie du Lebensmittel zubereitest, macht einen enormen Unterschied. Koche festes Gemüse und Obst so weich, dass du es zwischen Daumen und Zeigefinger zerdrücken kannst. Schneide kleine runde Lebensmittel so, dass sie die Atemwege nicht blockieren können: Weintrauben und Kirschtomaten längs geviertelt — niemals ganz. Wurstförmige Lebensmittel längs schneiden, nicht in Münzform. Kerne, Steine, Knochen und harte Schalen entfernen.",
+              "Verzichte in diesem Jahr vollständig auf die klassischen Risikonahrungsmittel: ganze Nüsse, Popcorn, harte rohe Apfel- oder Karottenstücke, ganze Weintrauben, Marshmallows und klecksweise dicke Nussbutter direkt vom Löffel — verdünne sie stattdessen. Bei Fingerfood sind lange weiche Streifen, etwa so groß wie dein Finger, am einfachsten für kleine Händchen zu greifen und sicher zu kauen."
+            ]
+          },
+          {
+            "h": "Du schaffst das",
+            "p": [
+              "Atme kurz durch, mama. Mit einem aufrechten Sitzen, deiner vollen Aufmerksamkeit, sicher zubereiteten Lebensmitteln und einem Erste-Hilfe-Kurs im Gepäck hast du alles getan, was du tun kannst, um das Essen sicher zu machen. Würgereize werden trotzdem vorkommen — das ist Lernen. Bleib ruhig, halte die Hände zurück und vertraue deinem Baby.",
+              "In unserer letzten Lektion kommen wir zum schönsten Teil: Mahlzeiten fröhlich, entspannt und zu einem wunderschönen Teil eures Familienlebens zu machen. Bis gleich."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Mahlzeiten mit Freude gestalten",
+        "duration": "± 6 Min.",
+        "desc": "Verantwortung aufteilen, mit Ablehnung umgehen, das Chaos annehmen und ein glückliches, abenteuerlustiges Essverhalten fördern.",
+        "vedaPrompt": "Ich habe gerade Lektion 5 des Kurses „Beikost starten“ gesehen (fröhliche Mahlzeiten). Kannst du mir helfen, entspannte und schöne Mahlzeitengewohnheiten aufzubauen und damit umzugehen, wenn mein Baby Essen ablehnt?",
+        "script": [
+          {
+            "h": "Du hast es geschafft",
+            "p": [
+              "Mama, du hast die letzte Lektion erreicht — und du darf stolz auf dich sein. Du weißt, wann du anfängst, wie du beginnst, wie du mit Allergenen und Texturen umgehst und wie du alles sicher hältst. Jetzt lass uns über das Herzstück sprechen: Mahlzeiten mit Freude zu gestalten. Denn die Gewohnheiten und Gefühle, die du jetzt aufbaust, prägen das Essverhalten deines Kindes für den Rest seines Lebens."
+            ]
+          },
+          {
+            "h": "Wer wofür zuständig ist",
+            "p": [
+              "Hier ist der eine befreiendste Gedanke beim Füttern, den du dir merken solltest: Du entscheidest, WAS angeboten wird, und WANN und WO. Dein Baby entscheidet, OB es isst und WIE VIEL. Das ist die Aufteilung der Verantwortung, und sie nimmt so viel Druck von euch beiden.",
+              "Deine einzige Aufgabe ist es, in einer ruhigen Umgebung eine Vielfalt guter Lebensmittel anzubieten. Es ist wirklich nicht deine Aufgabe, dafür zu sorgen, dass dein Baby eine bestimmte Menge isst. Wenn wir versuchen zu kontrollieren, wie viel hineingeht — drängen, locken, der Flugzeug-Löffel, Ablenkung mit Bildschirmen — wirkt das nach hinten los und macht das Essen stressig. Vertraue dem Appetit deines Babys. Es weiß bemerkenswert gut, wie viel es braucht."
+            ]
+          },
+          {
+            "h": "Wenn sie Nein sagen",
+            "p": [
+              "Dein Baby wird Lebensmittel ablehnen. Es liebt heute Avocado und wirft sie morgen quer durchs Zimmer. Das ist völlig normal und kein Zeichen eines Problems. Hier ist die Zauberzahl: Es kann zehn, fünfzehn oder sogar zwanzig Begegnungen brauchen, bevor ein Baby ein neues Lebensmittel annimmt. Wenn es also ablehnt, streich es nicht von der Liste — biete es einfach weiter sanft an einem anderen Tag an, ohne Druck.",
+              "Niemals zwingen, niemals locken, niemals ein Aufhebens um eine Ablehnung machen. Bleib neutral und locker. „Nein danke? Das ist in Ordnung.“ Je ruhiger du auf Ablehnung reagierst, desto schneller probieren sie es in der Regel doch. Druck macht wählerische Esser; Geduld macht abenteuerlusttige."
+            ]
+          },
+          {
+            "h": "Lass es chaotisch sein",
+            "p": [
+              "Ich muss dich bitten, das Chaos anzunehmen, mama — denn Chaos ist die Art, wie Babys lernen. Drücken, Schmieren, Fallen lassen, das Tablett mit Joghurt anmalen — das ist dein Baby, das Texturen erkundet und Fähigkeiten aufbaut. Ein Baby, dem es erlaubt ist, herrlich chaotisch zu sein, ist ein Baby, das lernt, Essen zu lieben.",
+              "Mach es dir leichter: ein großes Lätzchen oder einfach nur eine Windel, eine Schutzmatte unter dem Stuhl und niedrige Erwartungen an Ordnung. Widersteht dem Drang, Händchen und Gesicht ständig während der Mahlzeit abzuwischen — spar die große Säuberungsaktion für danach. Lass sie reingreifen."
+            ]
+          },
+          {
+            "h": "Zusammen essen",
+            "p": [
+              "Das Wirkungsvollste, was du tun kannst, ist einfach: zusammen essen. Babys lernen zu essen, indem sie uns beobachten. Wenn dein Baby sieht, wie du dieselben Lebensmittel genießt, kaust, lächelst und redest, will es mitmachen. Also sitz, so oft du kannst, mit deinem Baby beim Essen zusammen — auch nur eine Kleinigkeit — und lass es sehen, dass Essen etwas Schönes und Geselliges ist.",
+              "Biete, wo es sicher ist, dieselben Lebensmittel an, die die Familie isst. Das ist weniger Arbeit für dich und sagt deinem Baby: Das machen wir so, und es ist wunderschön."
+            ]
+          },
+          {
+            "h": "Du machst das unglaublich",
+            "p": [
+              "Mama, ich bin so stolz auf dich. Beikost zu starten bedeutet keine perfekten Teller und kein Baby, das alles isst. Es bedeutet, Liebe, Abwechslung und Ruhe anzubieten — und deinem kleinen Schatz zu vertrauen, den Rest selbst zu tun. Manche Tage werden sie alles verschlingen; manche Tage essen sie nichts außer Begeisterung. Beides ist völlig normal.",
+              "Bleib entspannt, halte es fröhlich, und denk daran: Mahlzeiten sind genauso sehr eine Verbindung wie Ernährung. Und wenn du jemals eine Frage hast — über ein neues Lebensmittel, eine quengelige Phase oder irgendetwas — öffne MomzVeda und schreib mir jederzeit. Genau dafür bin ich da. Du gibst deinem Baby einen wunderschönen Start, mama. Genieße jede chaotische Minute."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

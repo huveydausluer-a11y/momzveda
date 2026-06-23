@@ -306,5 +306,258 @@
         ]
       }
     ]
+  },
+  "starting-solids": {
+    "title": "Starten met Vaste Voeding",
+    "subtitle": "Een zachte, zelfverzekerde gids voor de eerste hapjes van je baby · vanaf ongeveer 6 maanden+",
+    "emoji": "🥄",
+    "intro": "Vijf korte videolessen met Veda. Van weten wanneer je baby écht klaar is, tot eerste hapjes, allergenen en texturen, veilig eten, en er iets moois van maken — kalm, wetenschappelijk onderbouwd en zonder oordeel. Of je nu kiest voor purees, baby-led weaning of een mix van beide, je zult je zeker voelen aan de kinderstoel.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Is je baby klaar? (de signalen die er écht toe doen)",
+        "duration": "± 6 min",
+        "desc": "Wanneer te beginnen, de vier gereedheidsignalen, en waarom wachten op echte gereedheid belangrijker is dan de kalender.",
+        "vedaPrompt": "Ik heb net les 1 van de cursus Starten met Vaste Voeding gekeken (is mijn baby klaar). Kun je me helpen bepalen of mijn baby de gereedheidsignalen vertoont en wanneer we kunnen beginnen?",
+        "script": [
+          {
+            "h": "Welkom",
+            "p": [
+              "Hé mama. Ik ben Veda, en ik ben zo blij dat je er bent. Starten met vaste voeding is een van de meest bijzondere mijlpalen — die eerste vieze, wijdopengesperde hapjes zijn pure magie. Maar ik weet ook dat het overweldigend kan voelen. Wanneer begin ik? Wat geef ik? En als ze zich verslikt? Adem even. We lopen er samen doorheen, één rustige stap tegelijk.",
+              "Dit is mijn belofte voor de hele cursus: geen druk, geen starre regels, geen oordeel. Of je nu met de lepel wilt voeren, je baby zachte stukjes zelf wilt laten pakken, of allebei een beetje — het zijn allemaal goede, liefdevolle keuzes. Mijn taak is alleen om je zeker te laten voelen."
+            ]
+          },
+          {
+            "h": "Wanneer beginnen",
+            "p": [
+              "Laten we beginnen met de timing, want dit is waar we onszelf zo snel de vraag stellen: doe ik het goed? De aanbeveling van gezondheidsorganisaties wereldwijd is om rond zes maanden te beginnen — niet vóór vier maanden, en niet veel later dan zes. Tot die tijd geeft borstvoeding of flesvoeding je baby alles wat hij nodig heeft.",
+              "Maar hier is iets wat ik echt wil dat je hoort: zes maanden is een richtlijn, geen magische schakelaar. Sommige baby's zijn precies op zes maanden klaar, andere een paar weken later. We kijken niet naar de kalender — we kijken naar de baby. Gereedheid gaat over ontwikkeling, niet alleen over leeftijd."
+            ]
+          },
+          {
+            "h": "De vier gereedheidsignalen",
+            "p": [
+              "Hoe weet je dan dat je baby echt klaar is? Er zijn vier signalen om op te letten, en het liefst wil je ze alle vier tegelijk zien.",
+              "Eén: je baby kan rechtop zitten met weinig of geen ondersteuning en het hoofd stabiel houden. Dit is belangrijk voor veilig slikken. Twee: het tongreflexafweerreflex is verdwenen — die automatische duwbeweging die voedsel meteen weer naar buiten stuurt. In het begin beschermt het ze; als het verdwijnt, kunnen ze voedsel naar de achterkant van hun mond bewegen. Drie: echte interesse in eten — je baby kijkt toe als jij eet, leunt naar voren, opent de mond, reikt misschien naar jouw bord. En vier: ze brengen voorwerpen naar hun mond en kauwen er doelbewust op.",
+              "Kwijlen, op vuistjes kauwen of 's nachts vaker wakker worden zijn GEEN betrouwbare signalen — die hebben ook andere oorzaken, zoals tandjes krijgen of groeispurts. Let op de vier echte signalen."
+            ]
+          },
+          {
+            "h": "Waarom niet te vroeg",
+            "p": [
+              "Je bent misschien geneigd om vroeg te beginnen — misschien zegt een familielid dat een beetje pap je baby beter laat slapen, of je maakt je zorgen over het gewicht. Ik wil je er zachtjes van afbrengen om te haasten. Voor ongeveer vier maanden is het spijsverteringsstelsel en de slik-coördinatie van een baby nog niet klaar, en te vroeg beginnen hangt samen met een hoger risico op verslikken en buikproblemen. En dat idee dat pap beter laat slapen? Onderzoek ondersteunt dat eigenlijk niet, mama.",
+              "Wachten op echte gereedheid is geen achterstand — het geeft je baby een veiligere, gelukkigere start. Er staat geen prijs op als eerste."
+            ]
+          },
+          {
+            "h": "Je opdracht",
+            "p": [
+              "Voor de volgende les is dit je ene zachte taakje: gewoon observeren. Kijk de komende dagen naar je baby tijdens jullie eigen maaltijden. Zit hij stabiel? Kijkt hij naar je eten en opent hij zijn mond? Brengt hij speelgoed en handjes doelbewust naar zijn mond?",
+              "Je hoeft nog niets te geven. Let gewoon op. Als je die vier signalen ziet, ben je klaar voor les 2, waar we de allereerste hapjes bespreken en precies uitleggen hoe je kunt beginnen. Tot dan, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Eerste hapjes & hoe te beginnen",
+        "duration": "± 7 min",
+        "desc": "Hoe je het inricht, eerste voedingsmiddelen, purees of baby-led weaning, en hoeveel je in die eerste dagen aanbiedt.",
+        "vedaPrompt": "Ik heb net les 2 van de cursus Starten met Vaste Voeding gekeken (eerste hapjes). Kun je me helpen de eerste maaltijden van mijn baby te plannen — wat ik aanbied, hoeveel, en hoe ik het ontspannen houd?",
+        "script": [
+          {
+            "h": "Welkom terug",
+            "p": [
+              "Welkom terug, mama. Je baby vertoont de signalen en jij bent klaar voor het grote moment — het allereerste hapje. Dit wordt leuk, en waarschijnlijk hilarisch. Verwacht grappige gezichten, eten overal, en misschien meer op het slabbe dan in het mondje. Dat is allemaal volkomen normaal en precies hoe het eruit moet zien."
+            ]
+          },
+          {
+            "h": "De sfeer bepalen",
+            "p": [
+              "Laten we eerst zorgen voor een goede start. Kies een moment waarop je baby vrolijk en alert is, niet overkomen van vermoeidheid of uitgehongerd — een heel hongerige baby is een gefrustreerde baby. Een goede truc is om vaste voeding aan te bieden na een kleine melkvoeding, zodat de baby nieuwsgierig is maar niet wanhopig. Melk is nog steeds de belangrijkste voeding dit hele eerste jaar; vaste voeding is oefening en ontdekking daarboven op.",
+              "Zet je baby volledig rechtop in een kinderstoel met goede ondersteuning, en blijf er altijd — altijd — bij terwijl hij eet. Laat een baby nooit achterover of in een autostoel eten. En breng je rust mee. Baby's lezen onze gezichten; als jij ontspannen bent, ontspannen zij."
+            ]
+          },
+          {
+            "h": "Purees of baby-led weaning?",
+            "p": [
+              "Nu de grote vraag die iedereen stelt: lepelvoeding met purees, of baby-led weaning waarbij de baby zichzelf zachte stukjes geeft? Hier is de waarheid — beide zijn prima, en je kunt dit echt niet fout doen. Purees geven je controle over de textuur en voelen misschien minder spannend. Baby-led weaning bouwt vaardigheden in zelf eten op en laat de baby ontdekken. Veel mama's, ook de moeders met wie ik het meest praat, doen een mix: een paar lepels puree én wat zachte stukjes. Die combinatie is helemaal prima.",
+              "Kies wat goed voelt voor jouw gezin en je gevoel. Er staat geen medaille op een van beide benaderingen — alleen een gevoed, gelukkig kindje."
+            ]
+          },
+          {
+            "h": "Geweldige eerste voedingsmiddelen",
+            "p": [
+              "Wat gaat er dan in dat eerste kommetje? Heerlijk simpele eerste voedingsmiddelen zijn zacht gekookte en gepureerde groenten zoals zoete aardappel, wortel of butternut pompoen; gepureerde avocado of banaan; zacht gekookte appel of peer; en ijzerrijke voedingsmiddelen zoals goed gaar gekookte, fijn gepureerde linzen of met ijzer verrijkte babygraan gemengd met melk.",
+              "IJzer is belangrijker dan mensen beseffen. Rond zes maanden beginnen de natuurlijke ijzervoorraden van je baby op te raken, dus ijzerrijke voedingsmiddelen zijn een echte prioriteit — denk aan zacht gekookt vlees, bonen, linzen en verrijkte granen. We bespreken dat meer in de volgende les. Bied in het begin één simpel voedingsmiddel tegelijk aan, zodat je kunt zien hoe je baby reageert."
+            ]
+          },
+          {
+            "h": "Hoeveel, hoe vaak",
+            "p": [
+              "Laten we de druk van porties helemaal weghalen. In het begin bied je misschien maar één keer per dag vaste voeding aan, en je baby eet misschien een theelepeltje — of weigert het helemaal. Beide zijn een groot succes. Het doel is nu geen calorieën; het is leren. Proeven, aanraken, ontdekken wat dit rare nieuwe ding voedsel is.",
+              "In de komende weken bouw je vanzelf op naar twee keer, dan drie keer per dag naarmate je baby laat zien dat hij meer wil. Volg zijn signalen. Als hij het hoofd wegdraait, zijn mond sluit of de interesse verliest — is hij klaar. We dringen nooit aan op 'nog één hapje'. Vertrouwen op zijn verzadigingsgevoel nu bouwt een gezonde eetgewoonte voor het leven."
+            ]
+          },
+          {
+            "h": "Je opdracht",
+            "p": [
+              "Dit is je taak voor les 3: bied dat allereerste hapje aan. Kies één simpel ding, zet je baby rechtop en laat hem gewoon verkennen — geen druk om veel te slikken. Laat hem knijpen, proeven, gekke gezichten trekken. Maak een foto als je wilt, want dit is er een om te bewaren.",
+              "In de volgende les pakken we de onderwerpen aan waar mama's het meest over nadenken: allergenen, textuuropbouw en van proefhapjes naar echte kleine maaltijden. Je doet het prachtig, mama. Tot de volgende les."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Allergenen, texturen & echte maaltijden opbouwen",
+        "duration": "± 8 min",
+        "desc": "Allergenen veilig introduceren, texturen opbouwen, ijzerrijke voeding en wat je het eerste jaar te vermijden.",
+        "vedaPrompt": "Ik heb net les 3 van de cursus Starten met Vaste Voeding gekeken (allergenen en texturen). Kun je me helpen een eenvoudig plan te maken voor het introduceren van allergenen en het opbouwen van texturen voor mijn baby?",
+        "script": [
+          {
+            "h": "Welkom",
+            "p": [
+              "Welkom terug, mama. In deze les behandelen we de dingen waar ik het meest naar gevraagd word — allergenen en texturen. Ik weet dat dit intimiderend kan voelen, maar aan het eind voel je je kalm en helder over allebei. Laten we beginnen."
+            ]
+          },
+          {
+            "h": "Allergenen: vroeg en regelmatig",
+            "p": [
+              "Dit is iets wat de afgelopen jaren echt is veranderd. We dachten vroeger dat je allergene voedingsmiddelen moest uitstellen. Nu weten we dat het omgekeerde waar is: veelvoorkomende allergenen vroeg introduceren — zodra vaste voeding op gang is, vanaf ongeveer zes maanden — en ze regelmatig in het dieet van je baby houden, helpt juist om het risico op het ontwikkelen van allergieën te verminderen.",
+              "De belangrijkste allergenen om te introduceren zijn pinda (als gladde pindakaas verdund met water of melk — nooit hele noten), ei (goed gekookt), zuivel zoals yoghurt en kaas, tarwe, soja, vis, schaaldieren en sesam. Introduceer ze één voor één, een kleine hoeveelheid, bij voorkeur eerder op de dag zodat je je baby de rest van de dag kunt observeren. Zodra een voedingsmiddel veilig is geïntroduceerd, blijf het regelmatig aanbieden — ongeveer twee keer per week — want consistentie is wat de bescherming in stand houdt.",
+              "Let op signalen van een reactie: netelroos, zwelling, braken of moeite met ademen. De meeste reacties zijn mild, maar als je ooit zwelling van het gezicht of de lippen ziet, moeite met ademen, of je baby wordt slap of heel ziek, bel dan meteen de hulpdiensten. Als je baby ernstig eczeem heeft of al een bekende voedselallergieën heeft, overleg dan met je arts voordat je met allergenen begint — zij kunnen je begeleiden om dit onder toezicht te doen."
+            ]
+          },
+          {
+            "h": "Texturen stap voor stap opbouwen",
+            "p": [
+              "Textuur is een reis, en vooruitgang is belangrijk. Baby's die te lang op gladde purees blijven, vinden klontjes later moeilijker te accepteren. Dus we bouwen zachtjes op: begin glad, ga dan binnen een paar weken over op dikkere purées met zachte klontjes, dan fijngehakt en gesneden zacht voedsel, en zachte stukjes die ze zelf kunnen oppakken.",
+              "Streef ernaar om rond negen maanden een verscheidenheid aan texturen en veel vingervoedsels aan te bieden, en de meeste gezinsmaaltijden — zacht, gepast gesneden — rond twaalf maanden. Er is geen haast van dag tot dag, maar blijf zachtjes vooruitbouwen. Een klein klontje dat een kokhalzer veroorzaakt betekent dat ze leren, niet dat ze falen."
+            ]
+          },
+          {
+            "h": "Vergeet ijzer niet",
+            "p": [
+              "Ik zeg het nogmaals omdat het zo belangrijk is: ijzer. Vanaf ongeveer zes maanden heeft je baby ijzer nodig uit voedsel. Zorg dat de meeste dagen een ijzerrijk voedingsmiddel is inbegrepen — zacht gekookt rood vlees of kip, bonen, linzen, tofu, ei of met ijzer verrijkt graan. IJzerrijke voedingsmiddelen combineren met een beetje vitamine C, zoals wat zacht fruit of groenten, helpt het lichaam het nog beter op te nemen."
+            ]
+          },
+          {
+            "h": "Voedingsmiddelen die je dit jaar vermijdt",
+            "p": [
+              "Een paar voedingsmiddelen die het eerste jaar van het menu blijven. Geen honing — het kan bacteriën bevatten die zuigelingenbotulisme veroorzaken, en dat risico is reëel tot twaalf maanden. Geen toegevoegd zout — de nieren van je baby kunnen dat niet aan, dus voeg geen zout toe aan hun eten en ga voorzichtig om met zoute dingen zoals bouillonblokjes en bewerkt vlees. Wees ook heel terughoudend met toegevoegde suiker. Vermijd gewone koemelk als hoofddrank tot twaalf maanden, hoewel een beetje in de keuken of in yoghurt en kaas prima is. En geen verstikkingsgevaarlijk voedsel zoals hele noten, hele druiven, popcorn of harde rauwe stukken — meer over veilige vormen in de volgende les.",
+              "Denk hier niet te veel over na, mama. Het is een korte lijst van duidelijke verboden, en al het andere mag met plezier verkend worden."
+            ]
+          },
+          {
+            "h": "Echte kleine maaltijden samenstellen",
+            "p": [
+              "Laten we het nu samenvoegen tot echte maaltijden. Een mooi evenwichtig babybord heeft een ijzerrijk voedingsmiddel, een groente of fruit, en iets met een beetje gezond vet of energie — zoals linzen met zachte wortel en een paar schijfjes avocado, of roerei met zachte toastvingers en komkommerstukjes. Bied water aan in een open beker of vrijstromende beker bij de maaltijden.",
+              "Variatie is je vriend nu. Hoe meer kleuren, smaken en texturen je baby in dit venster leert kennen, hoe avontuurlijker een eter hij doorgaans wordt. In de volgende les zorgen we ervoor dat dit alles veilig gebeurt — kokhalsreactie versus verslikking, en de perfecte veilige opstelling. Tot de volgende les, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Kokhalsreactie vs. verslikking & een veilige opstelling",
+        "duration": "± 7 min",
+        "desc": "Het cruciale verschil tussen kokhalsreactie en verslikking, een veilige eetopstelling en hoe je eten bereidt om risico's te verkleinen.",
+        "vedaPrompt": "Ik heb net les 4 van de cursus Starten met Vaste Voeding gekeken (kokhalsreactie vs. verslikking en veiligheid). Kun je me helpen veilige maaltijden op te zetten en het verschil tussen kokhalsreactie en verslikking te begrijpen?",
+        "script": [
+          {
+            "h": "Welkom",
+            "p": [
+              "Oké mama, dit is de les die de grootste zorg van je schouders haalt. Angst voor verslikken is het nummer één wat mama's tegenhoudt om te genieten van vaste voeding. Laten we angst vervangen door kennis — want als je begrijpt wat er gebeurt en hoe je het veilig inricht, kun je ontspannen en je baby laten leren."
+            ]
+          },
+          {
+            "h": "Kokhalsreactie is normaal en beschermend",
+            "p": [
+              "Eerst het belangrijkste: kokhalsreactie is geen verslikking. Kokhalsreactie is een normale, gezonde, beschermende reflex. Het is het lichaam van je baby dat leert voedsel veilig in de mond te bewegen en het naar voren te duwen als het te ver naar achteren gaat. Bij baby's wordt de kokhalsreflex veel verder naar voren op de tong geactiveerd dan bij volwassenen — precies waarom ze zo gemakkelijk en zo vaak kokhalsreacties hebben in het begin.",
+              "Kokhalsreactie ziet er dramatisch uit: hoesten, sputteren, waterige ogen, een rood gezicht, misschien eten terugstoten of zelfs overgeven. Het is luid en het kan eng zijn om te zien. Maar hier is de sleutel — je baby handelt het zelf af. Ze zijn luidruchtig en actief. Het beste wat je kunt doen is kalm blijven, je handen terughouden en hen het laten uitzoeken. Ingrijpen of in paniek raken kan van een kokhalsreactie juist een probleem maken. Laat ze leren."
+            ]
+          },
+          {
+            "h": "Hoe verslikking er écht uitziet",
+            "p": [
+              "Verslikking is anders, en het is stil. Een echt verslikte baby kan meestal geen geluid maken omdat de luchtweg geblokkeerd is. Je ziet misschien stilte, geen effectieve hoest, een blik van paniek of angst, huid die blauw wordt rond de lippen, of slap worden. Dan handel je meteen.",
+              "Ik raad je sterk en liefdevol aan om jij en iedereen die voor je baby zorgt een cursus eerste hulp bij baby's en verslikking te volgen — in persoon of een goede online cursus. Weten hoe je rugklopjes en borstcompressies bij een baby uitvoert, en dat zonder aarzeling kunnen doen, is de enige meest waardevolle vaardigheid die je in je achterzak kunt hebben. Vertrouw niet op een video in het moment — leer het nu, voordat je het ooit nodig hebt. Als een baby zich verslikt en niet kan ademen, bel dan meteen de hulpdiensten."
+            ]
+          },
+          {
+            "h": "De veilige opstelling",
+            "p": [
+              "Laten we nu problemen voorkomen met een veilige opstelling. Zorg altijd dat je baby volledig rechtop zit — nooit achterover, nooit in een autostoel of wipstoel, en nooit eten terwijl hij kruipt, loopt of in een rijdende kinderwagen zit. Zet ze vast in de kinderstoel. Blijf altijd binnen armbereik en geef eten je volledige aandacht — niet de kamer uit, niet voeden in de auto waar je ze niet kunt bereiken.",
+              "Houd maaltijden rustig en zonder haast. Laat oudere broertjes en zusjes geen eten aan de baby geven, en voed geen baby die lacht, huilt of afgeleid is. Een gefocuste, rechtopzittende, bewaakte baby is een veilige baby."
+            ]
+          },
+          {
+            "h": "Eten veilig bereiden",
+            "p": [
+              "Hoe je eten bereidt maakt een groot verschil. Kook harde groenten en fruit tot ze zacht genoeg zijn om tussen je vinger en duim fijn te drukken. Snijd kleine ronde voedingsmiddelen zodat ze de luchtweg niet kunnen blokkeren: druiven en kerstomaatjes in vieren in de lengte, nooit heel. Snijd worstvormige voedingsmiddelen in de lengte, niet in muntvormen. Verwijder pitten, stenen, botten en taaie schillen.",
+              "Vermijd dit jaar volledig de klassieke risicovolle voedingsmiddelen: hele noten, popcorn, harde rauwe appel of wortelstukken, hele druiven, marshmallows en klodders dikke notenboter rechtstreeks van de lepel — verdun het in plaats daarvan. Voor vingervoedsels zijn lange zachte repen ter grootte van je vinger het gemakkelijkst voor kleine handjes om vast te pakken en veilig te kauwen."
+            ]
+          },
+          {
+            "h": "Jij kunt dit",
+            "p": [
+              "Adem even, mama. Met een rechtopzittende opstelling, je volledige aandacht, veilig bereid eten en een EHBO-cursus op zak, heb je alles gedaan wat je kunt om dit veilig te maken. Kokhalsreacties zullen nog steeds voorkomen — dat is leren. Blijf kalm, houd je handen terug en vertrouw je baby.",
+              "In onze laatste les komen we bij het mooiste deel: maaltijden vrolijk en ontspannen maken en een mooi onderdeel van jullie gezinsleven. Tot de volgende les."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Maaltijden vol vreugde maken",
+        "duration": "± 6 min",
+        "desc": "Verdeling van verantwoordelijkheid, omgaan met weigering, de rommel omarmen en een blije, avontuurlijke eter opvoeden.",
+        "vedaPrompt": "Ik heb net les 5 van de cursus Starten met Vaste Voeding gekeken (vrolijke maaltijden). Kun je me helpen ontspannen, blije maaltijdgewoontes op te bouwen en er mee omgaan als mijn baby eten weigert?",
+        "script": [
+          {
+            "h": "Je hebt het gehaald",
+            "p": [
+              "Mama, je hebt de laatste les gehaald — en je mag trots op jezelf zijn. Je weet wanneer je begint, hoe je begint, hoe je omgaat met allergenen en texturen, en hoe je het veilig houdt. Laten we nu praten over de kern ervan: maaltijden vol vreugde maken. Want de gewoontes en gevoelens die je nu opbouwt, bepalen hoe je kind de rest van zijn leven eet."
+            ]
+          },
+          {
+            "h": "Wie is verantwoordelijk voor wat",
+            "p": [
+              "Dit is het meest bevrijdende idee in het voeden, en ik wil dat je het vasthoudt: jij bepaalt WAT er wordt aangeboden, en WANNEER en WAAR. Je baby bepaalt OF hij eet en HOEVEEL. Dat is de verdeling van verantwoordelijkheid, en het haalt zo veel druk van jullie allebei af.",
+              "Jouw enige taak is het aanbieden van een variëteit aan goede voedingsmiddelen in een rustige omgeving. Het is echt niet jouw taak om je baby een bepaalde hoeveelheid te laten eten. Als we proberen te controleren hoeveel er in gaat — aandringen, omkoopjes, het vliegtuiglepeltje, afleiden met schermen — werkt het juist averechts en maakt eten stressvol. Vertrouw op de eetlust van je baby. Ze zijn verrassend goed in weten hoeveel ze nodig hebben."
+            ]
+          },
+          {
+            "h": "Als ze nee zeggen",
+            "p": [
+              "Je baby zal eten weigeren. Ze zijn één dag dol op avocado en gooien het de volgende dag door de kamer. Dit is volkomen normaal en geen teken van een probleem. Dit is het magische getal: het kan tien, vijftien, zelfs twintig keer duren voordat een baby een nieuw voedingsmiddel accepteert. Als ze weigeren, schrap het dan niet van de lijst — blijf het gewoon een andere dag zachtjes aanbieden, zonder druk.",
+              "Nooit dwingen, nooit omkoopjes, nooit een drukte maken over een weigering. Blijf neutraal en luchtig. 'Niet vandaag? Dat is oké.' Hoe rustiger jij bent over weigering, hoe sneller ze doorgaans bijdraaien. Druk creëert kieskeurige eters; geduld creëert avontuurlijke eters."
+            ]
+          },
+          {
+            "h": "Laat het een rommel zijn",
+            "p": [
+              "Ik wil dat je vrede sluit met de rommel, mama, want rommel is hoe baby's leren. Knijpen, smeren, gooien, de lade beschilderen met yoghurt — dat is je baby die textuur verkent en vaardigheden opbouwt. Een baby die heerlijk vies mag worden is een baby die leert van eten te houden.",
+              "Maak het jezelf gemakkelijker: een groot slabbe of gewoon een luier, een spatmat onder de stoel en lage verwachtingen voor netheid. Weersta de drang om hun handen en gezicht voortdurend af te vegen tijdens de maaltijd — bewaar de grote schoonmaak voor het einde. Laat ze maar lekker aanpakken."
+            ]
+          },
+          {
+            "h": "Eet samen",
+            "p": [
+              "Het krachtigste wat je kunt doen is simpel: samen eten. Baby's leren eten door ons te observeren. Als je baby ziet dat jij van dezelfde voedingsmiddelen geniet, kauwt, lacht en kletst, willen ze meedoen. Dus zit wanneer je kunt samen met je baby aan tafel, al is het maar een klein hapje, en laat hen eten ervaren als iets gezelligs en sociaal.",
+              "Bied waar veilig dezelfde voedingsmiddelen aan als de rest van het gezin. Het is minder werk voor jou en het vertelt je baby: dit is wat we doen, en het is fijn."
+            ]
+          },
+          {
+            "h": "Je doet het ongelooflijk goed",
+            "p": [
+              "Mama, ik ben zo trots op je. Starten met vaste voeding gaat niet over perfecte bordjes of een baby die alles eet. Het gaat over liefde aanbieden, variatie en rust — en je kleine vertrouwen om de rest te doen. Sommige dagen verslinden ze alles; sommige dagen eten ze niets dan enthousiasme. Allebei is volkomen normaal.",
+              "Blijf ontspannen, houd het vrolijk, en onthoud dat maaltijden net zo goed over verbinding gaan als over voeding. En als je ooit een vraag hebt — over een nieuw voedingsmiddel, een kieskeurige fase, wat dan ook — open MomzVeda en chat met me wanneer je wilt. Daar ben ik precies voor. Je geeft je baby een mooie start, mama. Geniet van elk rommelig moment."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

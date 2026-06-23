@@ -306,5 +306,258 @@
         ]
       }
     ]
+  },
+  "starting-solids": {
+    "title": "Primeros Sólidos",
+    "subtitle": "Una guía suave y segura para los primeros alimentos de tu bebé · a partir de los 6 meses",
+    "emoji": "🥄",
+    "intro": "Cinco lecciones cortas en vídeo con Veda. Desde reconocer cuándo tu bebé está realmente listo, hasta los primeros bocados, los alérgenos, las texturas, cómo mantener las comidas seguras y convertirlas en momentos de alegría — todo tranquilo, basado en evidencia y sin juicios. Tanto si eliges purés, baby-led weaning o una mezcla de ambos, te sentirás segura y confiada en la trona.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "¿Está lista tu bebé? (las señales que de verdad importan)",
+        "duration": "± 6 min",
+        "desc": "Cuándo empezar, las cuatro señales de preparación, y por qué esperar a la madurez real importa más que el calendario.",
+        "vedaPrompt": "Acabo de ver la lección 1 del curso Primeros Sólidos (¿está lista mi bebé?). ¿Puedes ayudarme a ver si mi bebé muestra las señales de preparación y cuándo deberíamos empezar?",
+        "script": [
+          {
+            "h": "Bienvenida",
+            "p": [
+              "Hola, mamá. Soy Veda, y me alegra mucho que estés aquí. Empezar con los sólidos es uno de los hitos más emocionantes — esos primeros bocados llenos de manchas y ojos como platos son pura magia. Pero sé que también puede sentirse como mucho. ¿Cuándo empiezo? ¿Qué le doy? ¿Y si se atraganta? Respira. Vamos a recorrer todo esto juntas, con calma, paso a paso.",
+              "Esta es mi promesa para todo el curso: sin presión, sin reglas rígidas, sin juicios. Tanto si quieres dar purés con cuchara, ofrecerle alimentos blandos para que coma sola, o hacer un poco de las dos cosas — todas son elecciones buenas y llenas de amor. Mi trabajo es simplemente ayudarte a sentirte segura."
+            ]
+          },
+          {
+            "h": "Cuándo empezar",
+            "p": [
+              "Empecemos por el momento, porque aquí es donde muchas nos cuestionamos. Las guías de organizaciones de salud de todo el mundo recomiendan comenzar con los sólidos alrededor de los seis meses — no antes de los cuatro meses, y no mucho más allá de los seis. Hasta entonces, la leche materna o la fórmula le da a tu bebé todo lo que necesita.",
+              "Pero esto es lo que de verdad quiero que escuches: los seis meses son una guía, no un interruptor mágico. Algunos bebés están listos justo a los seis meses, otros un par de semanas después. No miramos el calendario — miramos al bebé. La preparación tiene que ver con el desarrollo, no solo con la edad."
+            ]
+          },
+          {
+            "h": "Las cuatro señales de preparación",
+            "p": [
+              "Entonces, ¿cómo sabes que tu bebé está realmente lista? Hay cuatro señales que quiero que busques, y lo ideal es verlas todas juntas.",
+              "Primera: puede sentarse con poco o ningún apoyo y mantener la cabeza firme. Esto importa para tragar con seguridad. Segunda: ha perdido el reflejo de extrusión lingual — ese empuje automático que devuelve la comida hacia fuera. Al principio las protege; cuando desaparece, pueden mover la comida hacia el fondo de la boca. Tercera: muestra un interés real por la comida — te mira comer, se inclina, abre la boca, quizás estira la mano hacia tu plato. Y cuarta: puede llevarse objetos a la boca y empieza a masticar y chupetear cosas de forma intencionada.",
+              "Babear, morderse los puños o despertarse más por la noche NO son señales fiables de preparación — eso ocurre por muchas razones, como la dentición o los estirones. Busca las cuatro señales reales."
+            ]
+          },
+          {
+            "h": "Por qué no demasiado pronto",
+            "p": [
+              "Puede que tengas ganas de empezar antes — quizás un familiar insiste en que un poco de papilla ayudará a tu bebé a dormir, o te preocupa su peso. Con mucho cariño, quiero disuadirte de las prisas. Antes de los cuatro meses más o menos, el sistema digestivo de un bebé y su coordinación para tragar simplemente no están listos, y empezar demasiado pronto está relacionado con un mayor riesgo de atragantamiento y molestias digestivas. ¿Y eso de que la papilla ayuda a dormir? La investigación no lo respalda, mamá.",
+              "Esperar a la preparación real no es ir con retraso — es darle a tu bebé un comienzo más seguro y más feliz. No hay premio por ser la primera."
+            ]
+          },
+          {
+            "h": "Tu tarea",
+            "p": [
+              "Antes de la próxima lección, aquí tienes tu sencilla tarea: solo observa. Durante los próximos días, fíjate en tu bebé durante tus propias comidas. ¿Se sienta firme? ¿Mira tu comida y abre la boca? ¿Se lleva juguetes y manos a la boca de forma intencionada?",
+              "No necesitas darle ningún alimento todavía. Solo observa. Si ves esas cuatro señales, estás lista para la lección 2, donde hablaremos de los primeros bocados y exactamente cómo empezar. Hasta allí, mamá."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Primeros bocados y cómo empezar",
+        "duration": "± 7 min",
+        "desc": "Cómo preparar el entorno, primeros alimentos, purés frente al baby-led weaning, y cuánto ofrecer en esos primeros días.",
+        "vedaPrompt": "Acabo de ver la lección 2 del curso Primeros Sólidos (primeros bocados). ¿Puedes ayudarme a planificar las primeras comidas de mi bebé — qué ofrecerle, cuánto y cómo mantenerlo relajado?",
+        "script": [
+          {
+            "h": "Bienvenida de nuevo",
+            "p": [
+              "Bienvenida de nuevo, mamá. Así que tu bebé muestra las señales y estás lista para el gran momento — el primerísimo bocado. Va a ser divertido, y probablemente muy gracioso. Espera caritas raras, comida por todas partes, y quizás más en el babero que en la boca. Todo eso es completamente normal y exactamente como debe verse."
+            ]
+          },
+          {
+            "h": "Preparar el momento",
+            "p": [
+              "Primero, preparemos el terreno para el éxito. Elige un momento en que tu bebé esté contenta y activa, no agotada ni hambrienta — un bebé con mucha hambre es un bebé frustrado. Un buen truco es ofrecer sólidos después de una pequeña toma de leche al principio, para que tenga curiosidad pero no desesperación. La leche sigue siendo su nutrición principal durante todo el primer año; los sólidos son práctica y exploración por encima de eso.",
+              "Sienta a tu bebé completamente erguida en la trona con buen apoyo, y siempre — siempre — quédate justo ahí con ella mientras come. Nunca dejes que un bebé coma recostada o en el sillón del coche. Y lleva tu energía tranquila. Los bebés leen nuestras caras; si estás relajada, ellos se relajan."
+            ]
+          },
+          {
+            "h": "¿Purés o baby-led weaning?",
+            "p": [
+              "Ahora, la gran pregunta que todo el mundo hace: ¿purés con cuchara, o baby-led weaning donde el bebé se alimenta con alimentos blandos? La verdad es que las dos opciones son geniales, y realmente no puedes equivocarte. Los purés te permiten controlar la textura y pueden sentirse menos intimidantes al principio. El baby-led weaning desarrolla la habilidad de comer solo y deja que el bebé explore. Muchas mamás, incluidas las que más hablo, hacen una mezcla: algunas cucharadas de puré Y algunos alimentos blandos. Esa combinación está completamente bien.",
+              "Elige lo que le vaya bien a tu familia y a tu instinto. No hay medalla para ningún enfoque — solo un bebé alimentado y feliz."
+            ]
+          },
+          {
+            "h": "Primeros alimentos perfectos",
+            "p": [
+              "¿Qué va en ese primer bol? Magníficos alimentos iniciales incluyen verduras cocidas y trituradas como boniato, zanahoria o calabaza; aguacate o plátano machacados; manzana o pera cocida blanda; y alimentos ricos en hierro como lentejas bien cocidas y finamente trituradas o papilla de cereales enriquecida con hierro mezclada con leche.",
+              "El hierro importa más de lo que la gente cree. Alrededor de los seis meses, las reservas naturales de hierro de tu bebé empiezan a agotarse, así que los alimentos ricos en hierro son una prioridad real — cosas como carne blanda cocida, judías, lentejas y cereales enriquecidos. Hablaremos más de eso en la próxima lección. Ofrece un alimento sencillo a la vez al principio para ver cómo le sienta."
+            ]
+          },
+          {
+            "h": "Cuánto y con qué frecuencia",
+            "p": [
+              "Quitemos la presión de las porciones por completo. Al principio puedes ofrecer sólidos solo una vez al día, y tu bebé puede comer una cucharadita — o rechazarlo del todo. Las dos cosas son un éxito total. El objetivo ahora no son las calorías; es aprender. Probar, tocar, descubrir esta cosa nueva tan extraña llamada comida.",
+              "En las semanas siguientes irás subiendo de forma natural a dos, luego tres veces al día a medida que tu bebé te muestre que quiere más. Sigue su ritmo. Cuando aparte la cabeza, cierre la boca o pierda el interés — ha terminado. Nunca insistimos con 'solo un bocadito más'. Confiar en su saciedad ahora sienta las bases de una alimentación saludable de por vida."
+            ]
+          },
+          {
+            "h": "Tu tarea",
+            "p": [
+              "Tu tarea antes de la lección 3: ofrece ese primerísimo alimento. Elige algo sencillo, sienta a tu bebé erguida y déjala explorar — sin presión para que trague mucho. Que lo estruje, lo pruebe, haga caras. Hazte una foto si quieres, porque este momento merece guardarse.",
+              "En la próxima lección abordaremos los temas que más preocupan a las mamás: alérgenos, construir texturas y convertir esos sabores en pequeñas comidas de verdad. Lo estás haciendo de maravilla, mamá. Hasta allí."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Alérgenos, texturas y construir comidas de verdad",
+        "duration": "± 8 min",
+        "desc": "Introducir alérgenos de forma segura, progresar en texturas, alimentos ricos en hierro y qué evitar en el primer año.",
+        "vedaPrompt": "Acabo de ver la lección 3 del curso Primeros Sólidos (alérgenos y texturas). ¿Puedes ayudarme a hacer un plan sencillo para introducir alérgenos y construir texturas para mi bebé?",
+        "script": [
+          {
+            "h": "Bienvenida",
+            "p": [
+              "Bienvenida de nuevo, mamá. Esta lección cubre lo que más me preguntan — alérgenos y texturas. Sé que pueden resultar intimidantes, pero al final te vas a sentir tranquila y clara sobre los dos. Vamos a ello."
+            ]
+          },
+          {
+            "h": "Alérgenos: pronto y con frecuencia",
+            "p": [
+              "Esto ha cambiado mucho en los últimos años. Antes pensábamos que debías retrasar los alimentos alergénicos. Ahora sabemos que es lo contrario: introducir los alérgenos comunes pronto — una vez iniciados los sólidos, a partir de los seis meses aproximadamente — y mantenerlos en la dieta de tu bebé con regularidad, de hecho ayuda a reducir el riesgo de desarrollar alergias.",
+              "Los principales alérgenos a introducir incluyen el cacahuete (como mantequilla de cacahuete suave diluida con agua o leche — nunca frutos secos enteros), huevo (bien cocido), lácteos como yogur y queso, trigo, soja, pescado, marisco y sésamo. Introdúcelos de uno en uno, en pequeña cantidad, preferiblemente más temprano en el día para poder observar a tu bebé el resto del día. Una vez que un alimento esté introducido de forma segura, sigue ofreciéndolo con regularidad — unas dos veces a la semana — porque la constancia es lo que mantiene la protección.",
+              "Observa si hay señales de reacción: urticaria, hinchazón, vómitos o dificultad para respirar. La mayoría de las reacciones son leves, pero si ves hinchazón de la cara o los labios, dificultad para respirar, o tu bebé se queda flácida o muy mal, llama a los servicios de emergencia de inmediato. Si tu bebé ya tiene eczema grave o una alergia alimentaria conocida, habla con tu médico antes de empezar con los alérgenos — puede que te orienten a empezar bajo supervisión."
+            ]
+          },
+          {
+            "h": "Construir texturas poco a poco",
+            "p": [
+              "La textura es un camino, y avanzar importa. Los bebés que se quedan demasiado tiempo con purés suaves pueden tener más dificultades para aceptar los grumos después. Así que progresamos con suavidad: empieza suave, y en pocas semanas pasa a purés más espesos con grumos blandos, luego a alimentos picados y troceados blandos, y a alimentos en trozos blandos que pueda coger con los dedos.",
+              "Intenta ofrecer una variedad de texturas y muchos alimentos con los dedos a partir de los nueve meses aproximadamente, y la mayoría de los alimentos de la familia — blandos y troceados apropiadamente — alrededor de los doce meses. No hay prisa día a día, pero sí sigue avanzando. Un pequeño grumo que le haga náuseas es ella aprendiendo, no fracasando."
+            ]
+          },
+          {
+            "h": "No olvides el hierro",
+            "p": [
+              "Lo repito porque es muy importante: el hierro. A partir de los seis meses más o menos, tu bebé necesita hierro de la comida. Asegúrate de que la mayoría de los días incluya un alimento rico en hierro — carne roja o pollo bien cocidos, judías, lentejas, tofu, huevo o cereales enriquecidos. Combinar alimentos ricos en hierro con un poco de vitamina C, como fruta o verdura blanda, ayuda a que el cuerpo lo absorba todavía mejor."
+            ]
+          },
+          {
+            "h": "Alimentos a evitar este año",
+            "p": [
+              "Algunos alimentos que conviene mantener fuera del menú el primer año. Sin miel — puede albergar bacterias que causan botulismo infantil, y ese riesgo es real hasta los doce meses. Sin sal añadida — sus riñones no pueden con ella, así que no añadas sal a su comida y ve con cuidado con cosas saladas como pastillas de caldo y embutidos. También muy poca azúcar añadida. Evita la leche de vaca entera como bebida principal hasta los doce meses, aunque un poco en la cocina o en yogur y queso está bien. Y nada de alimentos con riesgo de atragantamiento como frutos secos enteros, uvas enteras, palomitas o trozos duros crudos — más sobre formas seguras en la próxima lección.",
+              "No le des demasiadas vueltas a esta lista, mamá. Es una lista corta de claros no's, y todo lo demás está abierto para una exploración feliz."
+            ]
+          },
+          {
+            "h": "Construir pequeñas comidas de verdad",
+            "p": [
+              "Ahora unámoslo todo en comidas reales. Un bonito plato equilibrado para bebé tiene un alimento rico en hierro, una verdura o fruta, y algo con un poco de grasa saludable o energía — como lentejas con zanahoria blanda y unas rodajas de aguacate, o huevo revuelto con bastoncitos de pan tostado blando y pepino. Ofrece agua en un vaso abierto o con pitorro libre durante las comidas.",
+              "La variedad es tu aliada ahora mismo. Cuantos más colores, sabores y texturas conozca tu bebé en esta etapa, más aventurero tendrá el paladar. En la próxima lección, nos aseguraremos de que todo esto ocurra de forma segura — náuseas frente a atragantamiento, y la configuración perfecta y segura. Hasta allí, mamá."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Náuseas frente a atragantamiento y una configuración segura",
+        "duration": "± 7 min",
+        "desc": "La diferencia crucial entre las náuseas y el atragantamiento, una configuración segura para comer, y cómo preparar los alimentos para reducir el riesgo.",
+        "vedaPrompt": "Acabo de ver la lección 4 del curso Primeros Sólidos (náuseas frente a atragantamiento y seguridad). ¿Puedes ayudarme a organizar comidas seguras y entender la diferencia entre las náuseas y el atragantamiento?",
+        "script": [
+          {
+            "h": "Bienvenida",
+            "p": [
+              "Bueno, mamá, esta es la lección que te quita el mayor peso de encima. El miedo al atragantamiento es lo número uno que frena a las mamás de disfrutar de los sólidos. Así que reemplazamos el miedo por conocimiento — porque cuando entiendes lo que está pasando y cómo preparar las cosas de forma segura, puedes relajarte y dejar que tu bebé aprenda."
+            ]
+          },
+          {
+            "h": "Las náuseas son normales y protectoras",
+            "p": [
+              "Primero, lo más importante: las náuseas no son atragantamiento. Las náuseas son un reflejo normal, sano y protector. Es el cuerpo de tu bebé aprendiendo a mover la comida con seguridad por la boca y empujándola hacia delante si va demasiado atrás demasiado pronto. En los bebés, el reflejo nauseoso se activa mucho más hacia delante en la lengua que en los adultos — exactamente por eso hacen náuseas tan fácilmente y tan a menudo al principio.",
+              "Las náuseas parecen dramáticas: tos, arcadas, ojos llorosos, cara roja, quizás escupir la comida o incluso vomitar. Es llamativo y puede dar miedo verlo. Pero aquí está la clave — tu bebé lo está manejando. Hace ruido y está activa. Lo mejor que puedes hacer es mantener la calma, mantener las manos quietas y dejar que lo resuelva. Intervenir o entrar en pánico puede convertir una náusea en un problema. Déjala aprender."
+            ]
+          },
+          {
+            "h": "Cómo es el atragantamiento real",
+            "p": [
+              "El atragantamiento es diferente, y es silencioso. Un bebé que realmente se está atragantando normalmente no puede hacer ruido porque tiene la vía aérea bloqueada. Puede que veas silencio, ninguna tos efectiva, una mirada de pánico o angustia, la piel poniéndose azul alrededor de los labios, o que se quede flácida. Entonces actúas de inmediato.",
+              "Con mucho cariño, te recomiendo encarecidamente que tú y cualquier persona que cuide a tu bebé hagáis un curso de primeros auxilios y respuesta al atragantamiento en bebés — presencial o uno bueno en línea. Saber los golpes en la espalda y las compresiones torácicas para un bebé, y poder realizarlos sin dudar, es lo más valioso que puedes tener en tu repertorio. Por favor, no confíes en un vídeo en el momento — aprende ahora, antes de que lo necesites nunca. Si un bebé se atraganta y no puede respirar, llama a los servicios de emergencia de inmediato."
+            ]
+          },
+          {
+            "h": "La configuración segura",
+            "p": [
+              "Ahora evitemos los problemas desde el principio con una configuración segura. Sienta siempre a tu bebé completamente erguida — nunca reclinada, nunca en el sillón del coche o en el balancín, y nunca comiendo mientras gatea, camina o está en el cochecito en movimiento. Abróchalela en la trona. Quédate siempre al alcance de la mano y presta toda tu atención a la comida — no salgas de la habitación, no la alimentes en el coche donde no puedes alcanzarla.",
+              "Mantén las comidas tranquilas y sin prisas. No dejes que los hermanos mayores le pasen comida al bebé, y no alimentes a un bebé que esté riendo, llorando o distraído. Un bebé concentrada, erguida y supervisada es un bebé segura."
+            ]
+          },
+          {
+            "h": "Preparar los alimentos de forma segura",
+            "p": [
+              "Cómo preparas los alimentos marca una gran diferencia. Cocina las verduras y frutas duras hasta que estén lo suficientemente blandas para aplastarlas entre el pulgar y el dedo índice. Corta los alimentos redondos pequeños para que no puedan bloquear la vía aérea: uvas y tomates cherry cortados en cuartos a lo largo, nunca enteros. Corta los alimentos con forma de salchicha a lo largo, no en rodajas. Quita los huesos, pepitas, espinas y pieles duras.",
+              "Evita completamente los alimentos clásicos de alto riesgo este año: frutos secos enteros, palomitas, manzana o zanahoria cruda dura en trozos, uvas enteras, nubes y pegotes de mantequilla de frutos secos directamente de la cuchara — dilúyela mejor. Para los alimentos con los dedos, las tiras largas y blandas del tamaño de tu dedo son las más fáciles de agarrar y masticar de forma segura para las manitas."
+            ]
+          },
+          {
+            "h": "Tú puedes con esto",
+            "p": [
+              "Respira, mamá. Con la trona erguida, toda tu atención, comida preparada de forma segura y un curso de primeros auxilios bajo el brazo, has hecho todo lo que está en tu mano para que esto sea seguro. Las náuseas seguirán ocurriendo — eso es aprendizaje. Mantén la calma, mantén las manos quietas y confía en tu bebé.",
+              "En nuestra última lección llegamos a lo mejor: hacer que las comidas sean una alegría, un momento de calma y una parte preciosa de la vida familiar. Hasta allí."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Hacer las comidas una alegría",
+        "duration": "± 6 min",
+        "desc": "División de responsabilidades, manejar el rechazo, abrazar el desorden y criar a una pequeña comedora feliz y aventurera.",
+        "vedaPrompt": "Acabo de ver la lección 5 del curso Primeros Sólidos (comidas alegres). ¿Puedes ayudarme a crear hábitos de comida relajados y felices y a manejar el rechazo de alimentos de mi bebé?",
+        "script": [
+          {
+            "h": "Lo has conseguido",
+            "p": [
+              "Mamá, has llegado a la última lección — y deberías sentirte orgullosa. Sabes cuándo empezar, cómo comenzar, cómo manejar los alérgenos y las texturas, y cómo mantenerlo todo seguro. Ahora hablemos del corazón de todo esto: hacer las comidas una alegría. Porque los hábitos y sentimientos que construyas ahora moldean cómo come tu hijo el resto de su vida."
+            ]
+          },
+          {
+            "h": "Quién se encarga de qué",
+            "p": [
+              "Esta es la idea más liberadora en la alimentación, y quiero que te la quedes: tú decides QUÉ alimento se ofrece, y CUÁNDO y DÓNDE. Tu bebé decide SI come y CUÁNTO. Esa es la división de responsabilidades, y quita muchísima presión a las dos.",
+              "Tu único trabajo es ofrecer una variedad de alimentos buenos en un entorno tranquilo. Genuinamente, no es tu trabajo lograr que tu bebé coma una cantidad determinada. Cuando intentamos controlar cuánto entra — insistiendo, sobornando, la cuchara en forma de avión, distrayendo con pantallas — en realidad surte el efecto contrario y hace que comer sea estresante. Confía en el apetito de tu bebé. Son notablemente buenas sabiendo cuánto necesitan."
+            ]
+          },
+          {
+            "h": "Cuando dicen que no",
+            "p": [
+              "Tu bebé va a rechazar alimentos. Adorará el aguacate un día y lo lanzará al otro lado de la habitación al siguiente. Esto es completamente normal y no es señal de ningún problema. Aquí está el número mágico: puede llevar diez, quince, hasta veinte exposiciones antes de que un bebé acepte un alimento nuevo. Así que cuando lo rechace, no lo taches de la lista — sigue ofreciéndolo con suavidad otro día, sin presión.",
+              "Nunca fuerces, nunca sobornes, nunca montes un número por un rechazo. Mantén la calma y despreocúpate. '¿Que no quieres? De acuerdo.' Cuanto más tranquila estés ante el rechazo, antes suelen acabar aceptándolo. La presión crea niños selectivos; la paciencia crea niños aventureros."
+            ]
+          },
+          {
+            "h": "Deja que sea un desastre",
+            "p": [
+              "Necesito que hagas las paces con el desorden, mamá, porque el desorden es como aprenden los bebés. Estrujar, untar, dejar caer, pintar la bandeja con yogur — así es como tu bebé explora la textura y desarrolla habilidades. Un bebé a la que le permiten mancharse gloriosamente es una bebé que aprende a amar la comida.",
+              "Facilítatelo a ti misma: un babero grande o solo el pañal, un mantel bajo la silla y expectativas bajas de limpieza. Resiste la tentación de limpiarle las manos y la cara constantemente durante la comida — guarda la gran limpieza para el final. Déjala disfrutar."
+            ]
+          },
+          {
+            "h": "Comer juntas",
+            "p": [
+              "Lo más poderoso que puedes hacer es sencillo: comer juntas. Los bebés aprenden a comer observándonos. Cuando tu bebé te ve disfrutar de los mismos alimentos, masticando, sonriendo, charlando, quiere unirse. Así que siempre que puedas, siéntate y come con tu bebé, aunque sea algo pequeño, y deja que vea la comida como algo alegre y social.",
+              "Ofrécele los mismos alimentos que come la familia cuando sea seguro. Es menos trabajo para ti y le dice a tu bebé: esto es lo que hacemos, y es maravilloso."
+            ]
+          },
+          {
+            "h": "Lo estás haciendo increíble",
+            "p": [
+              "Mamá, estoy muy orgullosa de ti. Empezar con los sólidos no va de platos perfectos ni de un bebé que come de todo. Va de ofrecer amor, variedad y calma — y confiar en que tu pequeña haga el resto. Habrá días en que devore todo; habrá días en que no coma nada más que con entusiasmo. Ambas cosas son completamente normales.",
+              "Mantente tranquila, que sea una alegría, y recuerda que las comidas son tanto una cuestión de conexión como de nutrición. Y si alguna vez tienes una pregunta — sobre un alimento nuevo, una etapa de selectividad, lo que sea — abre MomzVeda y habla conmigo cuando quieras. Para eso estoy exactamente aquí. Le estás dando a tu bebé un comienzo precioso, mamá. Disfruta de cada momento lleno de manchas."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

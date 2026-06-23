@@ -9,6 +9,7 @@
   },
   {
     "emoji": "🥄",
+    "courseId": "starting-solids",
     "title": "Ek gıdaya başlamak",
     "desc": "Ne zaman ve nasıl başlamalı",
     "prompt": "Sanırım bebeğim ek gıdaya hazır. Başlarken bana yol gösterir misin? Hangi işaretlere bakmalıyım, hangi yiyeceklerle başlamalıyım ve bunu nasıl olumlu bir deneyime dönüştürürüm?"

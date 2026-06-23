@@ -306,5 +306,258 @@
         ]
       }
     ]
+  },
+  "starting-solids": {
+    "title": "Starting Solids",
+    "subtitle": "A gentle, confident guide to your baby's first foods · around 6 months+",
+    "emoji": "🥄",
+    "intro": "Five short video lessons with Veda. From knowing when your baby is truly ready, to first bites, allergens and textures, keeping mealtimes safe, and making them joyful — calm, evidence-based, and judgment-free. Whether you choose purees, baby-led weaning, or a mix of both, you'll feel confident at the high chair.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Is your baby ready? (the signs that really matter)",
+        "duration": "± 6 min",
+        "desc": "When to start, the four readiness signs, and why waiting for true readiness matters more than the calendar.",
+        "vedaPrompt": "I just watched Lesson 1 of the Starting Solids course (is my baby ready). Can you help me figure out whether my baby is showing the readiness signs and when we should begin?",
+        "script": [
+          {
+            "h": "Welcome",
+            "p": [
+              "Hey mama. I'm Veda, and I am so happy you're here. Starting solids is one of the most exciting milestones — those first messy, wide-eyed bites are pure magic. But I know it can also feel like a lot. When do I start? What do I give? What if she chokes? Take a breath. We're going to walk through all of it together, one calm step at a time.",
+              "Here's my promise for this whole course: no pressure, no rigid rules, no judgment. Whether you want to spoon-feed purees, hand your baby soft finger foods, or do a little of both — all of those are good, loving choices. My job is just to help you feel confident."
+            ]
+          },
+          {
+            "h": "When to start",
+            "p": [
+              "Let's start with timing, because this is where so many of us second-guess ourselves. The guidance from health organizations around the world is to begin solids at around six months — not before four months, and not much past six. Until then, breast milk or formula gives your baby everything they need.",
+              "But here's the thing I really want you to hear: six months is a guide, not a magic switch. Some babies are ready right at six months, some a couple of weeks later. We don't watch the calendar — we watch the baby. Readiness is about development, not just age."
+            ]
+          },
+          {
+            "h": "The four readiness signs",
+            "p": [
+              "So how do you know your baby is truly ready? There are four signs I want you to look for, and ideally you want to see all of them together.",
+              "One: they can sit up with little or no support and hold their head steady. This matters for safe swallowing. Two: they've lost the tongue-thrust reflex — that automatic push that sends food right back out. Early on it protects them; when it fades, they can actually move food to the back of their mouth. Three: they show real interest in food — watching you eat, leaning in, opening their mouth, maybe reaching for your plate. And four: they can bring objects to their mouth and are starting to mouth and gum things on purpose.",
+              "Drooling, chewing fists, or waking more at night are NOT reliable signs of readiness — those happen for lots of reasons, like teething or growth spurts. Look for the four real signs instead."
+            ]
+          },
+          {
+            "h": "Why not too early",
+            "p": [
+              "You might be tempted to start early — maybe a relative insists a little cereal will help your baby sleep, or you're worried about weight. I gently want to talk you out of rushing. Before about four months, a baby's digestive system and swallowing coordination just aren't ready, and starting too early is linked to a higher risk of choking and tummy troubles. And that cereal-helps-sleep idea? Research doesn't actually support it, mama.",
+              "Waiting for true readiness isn't being behind — it's setting your baby up for a safer, happier start. There's no prize for being first."
+            ]
+          },
+          {
+            "h": "Your assignment",
+            "p": [
+              "Before the next lesson, here's your one gentle task: just observe. Over the next few days, watch your baby at your own mealtimes. Are they sitting steady? Are they watching your food and opening their mouth? Are they bringing toys and hands to their mouth on purpose?",
+              "You don't need to give any food yet. Just notice. If you're seeing those four signs, you're ready for Lesson 2, where we'll cover the very first bites and exactly how to begin. I'll see you there, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "First bites & how to begin",
+        "duration": "± 7 min",
+        "desc": "Setting up, first foods, purees vs baby-led weaning, and how much to offer in those early days.",
+        "vedaPrompt": "I just watched Lesson 2 of the Starting Solids course (first bites). Can you help me plan my baby's very first meals — what to offer, how much, and how to keep it relaxed?",
+        "script": [
+          {
+            "h": "Welcome back",
+            "p": [
+              "Welcome back, mama. So your baby is showing the signs and you're ready for the big moment — the very first bite. This is going to be fun, and probably hilarious. Expect funny faces, food everywhere, and maybe more on the bib than in the mouth. That's all completely normal and exactly how it should look."
+            ]
+          },
+          {
+            "h": "Setting the scene",
+            "p": [
+              "First, let's set up for success. Pick a time when your baby is happy and alert, not overtired or starving — a fully hungry baby is a frustrated baby. A good trick is to offer solids after a small milk feed at first, so they're curious but not desperate. Milk is still their main nutrition this whole first year; solids are practice and exploration on top of that.",
+              "Sit your baby fully upright in a high chair with good support, and always — always — stay right there with them while they eat. Never let a baby eat lying back or in a car seat. And bring your calm energy. Babies read our faces; if you're relaxed, they relax."
+            ]
+          },
+          {
+            "h": "Purees or baby-led weaning?",
+            "p": [
+              "Now, the big question everyone asks: spoon-fed purees, or baby-led weaning where baby feeds themselves soft finger foods? Here's the truth — both are great, and you really can't get this wrong. Purees let you control texture and can feel less scary at first. Baby-led weaning builds self-feeding skills and lets baby explore. Many moms, including the ones I talk to most, do a mix: some spoonfuls of puree AND some soft finger foods. That combination is completely fine.",
+              "Choose what feels right for your family and your gut. There's no medal for either approach — only a fed, happy baby."
+            ]
+          },
+          {
+            "h": "Great first foods",
+            "p": [
+              "So what goes in that first bowl? Lovely simple first foods include soft cooked and mashed vegetables like sweet potato, carrot, or butternut squash; mashed avocado or banana; soft cooked apple or pear; and iron-rich foods like well-cooked, finely mashed lentils or iron-fortified baby cereal mixed thin with milk.",
+              "Iron matters more than people realize. Around six months, your baby's natural iron stores start running low, so iron-rich foods are a real priority — things like soft-cooked meat, beans, lentils, and fortified cereals. We'll talk more about that next lesson. Offer one simple food at a time at first so you can watch how your baby does."
+            ]
+          },
+          {
+            "h": "How much, how often",
+            "p": [
+              "Let's take the pressure off portions completely. In the beginning, you might offer solids just once a day, and your baby might eat a teaspoon — or refuse it entirely. Both are a total success. The goal right now is not calories; it's learning. Tasting, touching, figuring out this strange new thing called food.",
+              "Over the coming weeks you'll naturally build up to twice, then three times a day as your baby shows you they want more. Follow their lead. When they turn their head away, close their mouth, or lose interest — they're done. We never push 'just one more bite.' Trusting their fullness now builds healthy eating for life."
+            ]
+          },
+          {
+            "h": "Your assignment",
+            "p": [
+              "Here's your task before Lesson 3: offer that very first food. Pick one simple thing, sit your baby upright, and just let them explore — no pressure to actually swallow much. Let them squish it, taste it, make faces. Take a photo if you want, because this one's a keeper.",
+              "In the next lesson we'll tackle the topics that worry moms most: allergens, building textures, and turning these tastes into real little meals. You're doing beautifully, mama. See you there."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Allergens, textures & building real meals",
+        "duration": "± 8 min",
+        "desc": "Introducing allergens safely, progressing textures, iron-rich foods, and what to avoid in the first year.",
+        "vedaPrompt": "I just watched Lesson 3 of the Starting Solids course (allergens and textures). Can you help me make a simple plan for introducing allergens and building up textures for my baby?",
+        "script": [
+          {
+            "h": "Welcome",
+            "p": [
+              "Welcome back, mama. This lesson covers the things I get asked about most — allergens and textures. I know these can feel intimidating, but by the end you're going to feel calm and clear about both. Let's dive in."
+            ]
+          },
+          {
+            "h": "Allergens: early and often",
+            "p": [
+              "Here's something that has really changed in recent years. We used to think you should delay allergenic foods. We now know the opposite is true: introducing common allergens early — once solids are underway, from around six months — and keeping them in your baby's diet regularly actually helps reduce the risk of developing allergies.",
+              "The main allergens to introduce include peanut (as smooth peanut butter thinned with water or milk — never whole nuts), egg (well cooked), dairy like yogurt and cheese, wheat, soy, fish, shellfish, and sesame. Introduce them one at a time, a small amount, ideally earlier in the day so you can watch your baby for the rest of the day. Once a food is in safely, keep offering it regularly — about twice a week — because consistency is what maintains the protection.",
+              "Watch for signs of a reaction: hives, swelling, vomiting, or trouble breathing. Most reactions are mild, but if you ever see swelling of the face or lips, difficulty breathing, or your baby becomes floppy or very unwell, call emergency services immediately. If your baby has severe eczema or a known food allergy already, talk to your doctor before starting allergens — they may guide you to start under supervision."
+            ]
+          },
+          {
+            "h": "Building textures over time",
+            "p": [
+              "Texture is a journey, and moving forward matters. Babies who stay on smooth purees too long can find lumps harder to accept later. So we progress gently: start smooth, then within a few weeks move to thicker mashes with soft lumps, then minced and chopped soft foods, and soft finger foods they can pick up themselves.",
+              "Aim to be offering a range of textures and plenty of finger foods by around nine months, and most family-style foods — soft, chopped appropriately — by around twelve months. There's no rush from day to day, but do keep nudging forward. A little lump that makes them gag is them learning, not failing."
+            ]
+          },
+          {
+            "h": "Don't forget iron",
+            "p": [
+              "I'll say it again because it's so important: iron. From around six months your baby needs iron from food. Make sure most days include an iron-rich food — soft-cooked red meat or chicken, beans, lentils, tofu, egg, or iron-fortified cereal. Pairing iron-rich foods with a little vitamin C, like some soft fruit or vegetables, helps their body absorb it even better."
+            ]
+          },
+          {
+            "h": "Foods to avoid this year",
+            "p": [
+              "A few foods to keep off the menu in the first year. No honey — it can carry bacteria that cause infant botulism, and that risk is real until twelve months. No added salt — their kidneys can't handle it, so don't add salt to their food and go easy on salty things like stock cubes and processed meats. Go very light on added sugar too. Avoid whole cow's milk as a main drink until twelve months, though a little in cooking or yogurt and cheese are fine. And no choking-hazard foods like whole nuts, whole grapes, popcorn, or hard raw chunks — more on safe shapes in the next lesson.",
+              "Don't overthink this list, mama. It's a short list of clear no's, and everything else is open for happy exploring."
+            ]
+          },
+          {
+            "h": "Building real little meals",
+            "p": [
+              "Now let's put it together into actual meals. A lovely balanced baby plate has an iron-rich food, a vegetable or fruit, and something with a little healthy fat or energy — like lentils with soft carrot and a few avocado slices, or scrambled egg with soft toast fingers and cucumber sticks. Offer water in an open cup or free-flow cup with meals.",
+              "Variety is your friend right now. The more colors, flavors, and textures your baby meets in this window, the more adventurous an eater they tend to become. In the next lesson, we'll make sure all of this happens safely — gagging versus choking, and the perfect safe setup. See you there, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Gagging vs choking & a safe setup",
+        "duration": "± 7 min",
+        "desc": "The crucial difference between gagging and choking, a safe eating setup, and how to prepare foods to lower risk.",
+        "vedaPrompt": "I just watched Lesson 4 of the Starting Solids course (gagging vs choking and safety). Can you help me set up safe mealtimes and understand the difference between gagging and choking?",
+        "script": [
+          {
+            "h": "Welcome",
+            "p": [
+              "Okay mama, this is the lesson that takes the biggest worry off your shoulders. Choking fear is the number one thing that holds moms back from enjoying solids. So let's replace fear with knowledge — because when you understand what's happening and how to set things up safely, you can relax and let your baby learn."
+            ]
+          },
+          {
+            "h": "Gagging is normal and protective",
+            "p": [
+              "First, the big one: gagging is not choking. Gagging is a normal, healthy, protective reflex. It's your baby's body learning to move food safely around their mouth and pushing it forward if it goes too far back too soon. In babies, the gag reflex is triggered much further forward on the tongue than in adults — which is exactly why they gag so easily and so often at first.",
+              "Gagging looks dramatic: coughing, sputtering, watery eyes, a red face, maybe pushing food back out or even being sick. It's loud, and it can be scary to watch. But here's the key — your baby is handling it. They are noisy and active. The best thing you can do is stay calm, keep your hands back, and let them work it out. Reaching in or panicking can actually turn a gag into a problem. Let them learn."
+            ]
+          },
+          {
+            "h": "What choking actually looks like",
+            "p": [
+              "Choking is different, and it's quiet. A truly choking baby usually can't make noise because their airway is blocked. You might see silence, no effective cough, a look of panic or distress, skin turning blue around the lips, or going limp. That's when you act immediately.",
+              "I strongly, lovingly recommend that you and anyone who cares for your baby take an infant first-aid and choking-response course — in person or a good online one. Knowing the back-blows and chest-thrusts for a baby, and being able to do them without hesitation, is the single most valuable thing you can have in your back pocket. Please don't rely on a video in the moment — learn it now, before you ever need it. If a baby is ever choking and can't breathe, call emergency services right away."
+            ]
+          },
+          {
+            "h": "The safe setup",
+            "p": [
+              "Now let's prevent problems in the first place with a safe setup. Always have your baby sitting fully upright — never reclined, never in a car seat or bouncer, and never eating while crawling, walking, or in the stroller moving around. Strap them into the high chair. Always stay within arm's reach and give eating your full attention — no leaving the room, no feeding in the car where you can't reach them.",
+              "Keep mealtimes calm and unhurried. Don't let older siblings hand food to the baby, and don't feed a baby who's laughing, crying, or distracted. A focused, upright, supervised baby is a safe baby."
+            ]
+          },
+          {
+            "h": "Preparing food safely",
+            "p": [
+              "How you prepare food makes a huge difference. Cook firm vegetables and fruits until soft enough to squash between your finger and thumb. Cut small round foods so they can't block the airway: grapes and cherry tomatoes quartered lengthways, never whole. Cut sausage-shaped foods lengthways, not into coin shapes. Remove pits, stones, bones, and tough skins.",
+              "Avoid the classic high-risk foods entirely this year: whole nuts, popcorn, hard raw apple or carrot chunks, whole grapes, marshmallows, and globs of thick nut butter straight from the spoon — thin it out instead. For finger foods, long soft strips about the size of your finger are easiest for little hands to hold and gum safely."
+            ]
+          },
+          {
+            "h": "You've got this",
+            "p": [
+              "Take a breath, mama. With an upright setup, your full attention, safely prepared food, and a first-aid course under your belt, you have done everything you can to make this safe. Gagging will still happen — that's learning. Stay calm, keep your hands back, and trust your baby.",
+              "In our final lesson, we get to the best part: making mealtimes joyful, relaxed, and a beautiful part of your family life. See you there."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Making mealtimes joyful",
+        "duration": "± 6 min",
+        "desc": "Division of responsibility, handling rejection, embracing the mess, and raising a happy, adventurous eater.",
+        "vedaPrompt": "I just watched Lesson 5 of the Starting Solids course (joyful mealtimes). Can you help me build relaxed, happy mealtime habits and handle it when my baby refuses food?",
+        "script": [
+          {
+            "h": "You made it",
+            "p": [
+              "Mama, you made it to the final lesson — and you should feel proud. You know when to start, how to begin, how to handle allergens and textures, and how to keep it all safe. Now let's talk about the heart of it: making mealtimes joyful. Because the habits and feelings you build now shape how your child eats for the rest of their life."
+            ]
+          },
+          {
+            "h": "Who's in charge of what",
+            "p": [
+              "Here's the single most freeing idea in feeding, and I want you to hold onto it: you decide WHAT food is offered, and WHEN and WHERE. Your baby decides WHETHER they eat and HOW MUCH. That's the division of responsibility, and it takes so much pressure off both of you.",
+              "Your only job is to offer a variety of good foods in a calm setting. It is genuinely not your job to make your baby eat a certain amount. When we try to control how much goes in — pushing, bribing, the airplane spoon, distracting with screens — it actually backfires and makes eating stressful. Trust your baby's appetite. They are remarkably good at knowing how much they need."
+            ]
+          },
+          {
+            "h": "When they say no",
+            "p": [
+              "Your baby will reject foods. They'll love avocado one day and fling it across the room the next. This is completely normal and not a sign of a problem. Here's the magic number: it can take ten, fifteen, even twenty exposures before a baby accepts a new food. So when they refuse, don't strike it off the list — just keep gently offering it another day, with no pressure.",
+              "Never force, never bribe, never make a fuss about a refusal. Stay neutral and breezy. 'No thanks? That's okay.' The calmer you are about rejection, the faster they tend to come around. Pressure creates picky eaters; patience creates adventurous ones."
+            ]
+          },
+          {
+            "h": "Let it be messy",
+            "p": [
+              "I need you to make peace with the mess, mama, because mess is how babies learn. Squishing, smearing, dropping, painting the tray with yogurt — that's your baby exploring texture and building skills. A baby allowed to get gloriously messy is a baby learning to love food.",
+              "Make it easier on yourself: a big bib or just a diaper, a splat mat under the chair, and low expectations for tidiness. Resist the urge to wipe their hands and face constantly during the meal — save the big clean-up for the end. Let them dig in."
+            ]
+          },
+          {
+            "h": "Eat together",
+            "p": [
+              "The most powerful thing you can do is simple: eat together. Babies learn to eat by watching us. When your baby sees you enjoying the same foods, chewing, smiling, chatting, they want to join in. So whenever you can, sit down and eat with your baby, even just a little something, and let them see food as a happy, social thing.",
+              "Offer the same foods the family is eating where it's safe to. It's less work for you and it tells your baby: this is what we do, and it's lovely."
+            ]
+          },
+          {
+            "h": "You're doing incredible",
+            "p": [
+              "Mama, I'm so proud of you. Starting solids isn't about perfect plates or a baby who eats everything. It's about offering love, variety, and calm — and trusting your little one to do the rest. Some days they'll devour everything; some days they'll eat nothing but enthusiasm. Both are completely normal.",
+              "Stay relaxed, keep it joyful, and remember mealtimes are about connection just as much as nutrition. And if you ever have a question — about a new food, a fussy phase, anything at all — open MomzVeda and chat with me anytime. That's exactly what I'm here for. You're giving your baby a beautiful start, mama. Enjoy every messy minute."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

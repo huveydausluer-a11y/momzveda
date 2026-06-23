@@ -306,5 +306,258 @@
         ]
       }
     ]
+  },
+  "starting-solids": {
+    "title": "I Primi Assaggi",
+    "subtitle": "Una guida dolce e sicura ai primi alimenti del tuo bimbo · dai 6 mesi in su circa",
+    "emoji": "🥄",
+    "intro": "Cinque brevi videolezioni con Veda. Da capire quando il tuo bimbo è davvero pronto, fino ai primi morsi, agli allergeni e alle consistenze, a come tenere i pasti sicuri e renderli gioiosi — con calma, basate sull'evidenza e senza giudizi. Che tu scelga le puree, il baby-led weaning, o un po' di entrambi, ti sentirai sicura davanti al seggiolone.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Il tuo bimbo è pronto? (i segnali che contano davvero)",
+        "duration": "± 6 min",
+        "desc": "Quando iniziare, i quattro segnali di prontezza, e perché aspettare la vera maturità conta più del calendario.",
+        "vedaPrompt": "Ho appena visto la lezione 1 del corso I Primi Assaggi (il mio bimbo è pronto?). Mi aiuti a capire se il mio bimbo sta mostrando i segnali di prontezza e quando dovremmo iniziare?",
+        "script": [
+          {
+            "h": "Benvenuta",
+            "p": [
+              "Ciao mama. Sono Veda, e sono così felice che tu sia qui. Iniziare con i solidi è uno dei traguardi più emozionanti — quei primi morsi confusionari, quegli occhi spalancati meravigliati sono pura magia. Ma so che può sembrare anche tanto da gestire. Quando inizio? Cosa offro? E se si strozzasse? Respira. Andremo avanti insieme, un passo tranquillo alla volta.",
+              "Ecco la mia promessa per tutto il corso: nessuna pressione, nessuna regola rigida, nessun giudizio. Che tu voglia imboccarla con le puree, offrire al bimbo morbidi bocconcini da prendere da solo, o fare un po' di entrambe le cose — tutte sono scelte belle e amorevoli. Il mio compito è solo aiutarti a sentirti sicura."
+            ]
+          },
+          {
+            "h": "Quando iniziare",
+            "p": [
+              "Iniziamo dai tempi, perché è qui che molte di noi si mettono in dubbio. L'indicazione delle organizzazioni sanitarie di tutto il mondo è di cominciare con gli alimenti intorno ai sei mesi — non prima dei quattro, e non molto oltre i sei. Fino ad allora, il latte materno o il latte artificiale fornisce al tuo bimbo tutto ciò di cui ha bisogno.",
+              "Ma c'è una cosa che voglio davvero che tu senta: i sei mesi sono una guida, non un interruttore magico. Alcuni bimbi sono pronti esattamente a sei mesi, altri qualche settimana dopo. Non guardiamo il calendario — guardiamo il bimbo. La prontezza riguarda lo sviluppo, non solo l'età."
+            ]
+          },
+          {
+            "h": "I quattro segnali di prontezza",
+            "p": [
+              "Quindi come fai a sapere che il tuo bimbo è davvero pronto? Ci sono quattro segnali da cercare, e idealmente vuoi vederli tutti insieme.",
+              "Primo: riesce a stare seduto con poco o nessun supporto e a tenere la testa ferma. Questo è importante per deglutire in sicurezza. Secondo: ha perso il riflesso di estrusione della lingua — quella spinta automatica che manda il cibo subito fuori. All'inizio li protegge; quando scompare, riescono davvero a spostare il cibo verso il fondo della bocca. Terzo: mostra vero interesse per il cibo — ti guarda mangiare, si protende in avanti, apre la bocca, magari cerca di prendere il tuo piatto. E quarto: riesce a portare oggetti alla bocca e inizia a mordicchiarli e sgranocchiarli intenzionalmente.",
+              "Sbavare, masticare i pugni, o svegliarsi più spesso di notte NON sono segnali affidabili di prontezza — succedono per tanti motivi, come la dentizione o gli scatti di crescita. Cerca invece i quattro veri segnali."
+            ]
+          },
+          {
+            "h": "Perché non troppo presto",
+            "p": [
+              "Potresti essere tentata di iniziare prima — magari un parente insiste che un po' di cereali aiuterà il bimbo a dormire, o sei preoccupata per il peso. Voglio dolcemente dissuaderti dall'avere fretta. Prima dei quattro mesi circa, il sistema digestivo del bimbo e la coordinazione della deglutizione non sono ancora pronti, e iniziare troppo presto è associato a un rischio maggiore di soffocamento e disturbi intestinali. E l'idea che i cereali aiutino a dormire? La ricerca non la supporta, mama.",
+              "Aspettare la vera prontezza non significa essere in ritardo — significa dare al tuo bimbo un inizio più sicuro e sereno. Non c'è nessun premio per essere i primi."
+            ]
+          },
+          {
+            "h": "Il tuo compito",
+            "p": [
+              "Prima della prossima lezione, ecco il tuo unico dolce compito: osserva. Nei prossimi giorni, guarda il tuo bimbo durante i tuoi pasti. Sta seduto stabile? Guarda il cibo e apre la bocca? Porta giocattoli e mani alla bocca intenzionalmente?",
+              "Non hai ancora bisogno di offrire nessun alimento. Osserva e basta. Se vedi quei quattro segnali, sei pronta per la Lezione 2, dove parleremo dei primissimi assaggi e di esattamente come iniziare. A presto, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "I primi morsi & come iniziare",
+        "duration": "± 7 min",
+        "desc": "Come prepararsi, i primi alimenti, puree vs baby-led weaning, e quanto offrire nei primi giorni.",
+        "vedaPrompt": "Ho appena visto la lezione 2 del corso I Primi Assaggi (i primi morsi). Mi aiuti a pianificare i primissimi pasti del mio bimbo — cosa offrire, quanto, e come mantenerlo rilassato?",
+        "script": [
+          {
+            "h": "Bentornata",
+            "p": [
+              "Bentornata, mama. Quindi il tuo bimbo sta mostrando i segnali e sei pronta per il grande momento — il primissimo morso. Sarà divertente, e probabilmente esilarante. Aspettati faccine buffe, cibo ovunque, e forse più sbavato sul bavaglino che in bocca. È tutto assolutamente normale ed è esattamente così che deve andare."
+            ]
+          },
+          {
+            "h": "Preparare la scena",
+            "p": [
+              "Prima di tutto, prepariamoci per il successo. Scegli un momento in cui il tuo bimbo è felice e sveglio, non troppo stanco né affamato — un bimbo completamente affamato è un bimbo frustrato. Un buon trucco è offrire i solidi dopo una piccola poppata all'inizio, così è curioso ma non disperato. Il latte è ancora la sua nutrizione principale per tutto questo primo anno; i solidi sono pratica ed esplorazione in più.",
+              "Siedili completamente eretto nel seggiolone con un buon supporto, e sempre — sempre — resta proprio lì con lui mentre mangia. Non lasciare mai un bimbo mangiare sdraiato o nel seggiolino dell'auto. E porta la tua energia tranquilla. I bimbi leggono il nostro viso; se sei rilassata, si rilassano anche loro."
+            ]
+          },
+          {
+            "h": "Puree o baby-led weaning?",
+            "p": [
+              "Ora, la grande domanda che tutti fanno: puree imboccate col cucchiaio, o baby-led weaning dove il bimbo si alimenta da solo con morbidi bocconcini? Ecco la verità — entrambi vanno benissimo, e non puoi sbagliare davvero. Le puree ti permettono di controllare la consistenza e possono sembrare meno spaventose all'inizio. Il baby-led weaning sviluppa le capacità di autoalimentazione e permette al bimbo di esplorare. Molte mamme, incluse quelle con cui parlo di più, fanno un po' di entrambe: qualche cucchiaiata di purea E qualche morbido bocconcino. Quella combinazione va benissimo.",
+              "Scegli ciò che sembra giusto per la tua famiglia e il tuo istinto. Non c'è nessuna medaglia per nessuno dei due approcci — solo un bimbo nutrito e felice."
+            ]
+          },
+          {
+            "h": "Ottimi primi alimenti",
+            "p": [
+              "Quindi cosa va in quel primo piattino? Bellissimi semplici primi alimenti includono verdure morbide cotte e schiacciate come patata dolce, carota, o zucca; avocado o banana schiacciati; mela o pera cotta morbida; e alimenti ricchi di ferro come lenticchie ben cotte e finemente schiacciate o crema di cereali per bambini arricchita di ferro diluita con il latte.",
+              "Il ferro conta più di quanto si pensi. Intorno ai sei mesi, le riserve naturali di ferro del tuo bimbo iniziano a diminuire, quindi gli alimenti ricchi di ferro sono una vera priorità — come carne e pollo cotti a puntino, legumi, lenticchie e cereali arricchiti. Ne parleremo di più nella prossima lezione. All'inizio offri un alimento semplice alla volta così puoi osservare come reagisce il tuo bimbo."
+            ]
+          },
+          {
+            "h": "Quanto e quanto spesso",
+            "p": [
+              "Togliamo completamente la pressione sulle porzioni. All'inizio, potresti offrire i solidi solo una volta al giorno, e il tuo bimbo potrebbe mangiare un cucchiaino — o rifiutare del tutto. Entrambi sono un successo totale. L'obiettivo in questo momento non sono le calorie; è imparare. Assaggiare, toccare, capire questa strana cosa nuova chiamata cibo.",
+              "Nelle settimane a venire costruirai naturalmente fino a due, poi tre volte al giorno man mano che il tuo bimbo ti mostra che vuole di più. Segui il suo ritmo. Quando gira la testa, chiude la bocca, o perde interesse — ha finito. Non spingiamo mai 'ancora un boccone'. Fidarsi della sua sazietà ora costruisce un'alimentazione sana per tutta la vita."
+            ]
+          },
+          {
+            "h": "Il tuo compito",
+            "p": [
+              "Ecco il tuo compito prima della Lezione 3: offri il primissimo alimento. Scegli una cosa semplice, siediti il bimbo eretto, e lascia che esplori — nessuna pressione di inghiottire molto. Lascialo schiacciare, assaggiare, fare smorfie. Scatta una foto se vuoi, perché questa è da conservare.",
+              "Nella prossima lezione affronteremo gli argomenti che preoccupano di più le mamme: gli allergeni, costruire le consistenze, e trasformare questi assaggi in veri piccoli pasti. Stai andando benissimo, mama. A presto."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Allergeni, consistenze & costruire veri pasti",
+        "duration": "± 8 min",
+        "desc": "Introdurre gli allergeni in sicurezza, far progredire le consistenze, gli alimenti ricchi di ferro, e cosa evitare nel primo anno.",
+        "vedaPrompt": "Ho appena visto la lezione 3 del corso I Primi Assaggi (allergeni e consistenze). Mi aiuti a fare un piano semplice per introdurre gli allergeni e costruire le consistenze per il mio bimbo?",
+        "script": [
+          {
+            "h": "Benvenuta",
+            "p": [
+              "Bentornata, mama. Questa lezione tratta le cose su cui mi fanno più domande — allergeni e consistenze. So che possono sembrare intimidenti, ma alla fine ti sentirai calma e chiara su entrambi. Tuffiamoci."
+            ]
+          },
+          {
+            "h": "Allergeni: presto e spesso",
+            "p": [
+              "Ecco qualcosa che è cambiato davvero negli ultimi anni. Una volta si pensava che si dovessero ritardare gli alimenti allergizzanti. Oggi sappiamo che è vero il contrario: introdurre presto gli allergeni comuni — una volta avviati i solidi, intorno ai sei mesi — e mantenerli regolarmente nella dieta del tuo bimbo riduce effettivamente il rischio di sviluppare allergie.",
+              "I principali allergeni da introdurre includono arachidi (come burro di arachidi liscio diluito con acqua o latte — mai noci intere), uova (ben cotte), latticini come yogurt e formaggio, grano, soia, pesce, crostacei e sesamo. Introducili uno alla volta, in piccola quantità, preferibilmente prima nel corso della giornata così puoi osservare il bimbo per il resto della giornata. Una volta che un alimento è stato introdotto senza problemi, continua a offrirlo regolarmente — circa due volte a settimana — perché la continuità è ciò che mantiene la protezione.",
+              "Osserva i segni di una reazione: orticaria, gonfiore, vomito, o difficoltà respiratorie. La maggior parte delle reazioni sono lievi, ma se vedi mai gonfiore del viso o delle labbra, difficoltà a respirare, o il bimbo diventa floscio o molto sofferente, chiama i servizi di emergenza immediatamente. Se il tuo bimbo ha eczema grave o un'allergia alimentare già nota, parla con il tuo medico prima di iniziare con gli allergeni — potrebbe guidarti a iniziare sotto supervisione."
+            ]
+          },
+          {
+            "h": "Costruire le consistenze nel tempo",
+            "p": [
+              "La consistenza è un percorso, e andare avanti conta. I bimbi che restano troppo a lungo sulle puree lisce possono trovare i grumi più difficili da accettare in seguito. Quindi progrediamo delicatamente: inizia liscio, poi nel giro di qualche settimana passa a puree più dense con grumi morbidi, poi alimenti tritati e sminuzzati morbidi, e morbidi bocconcini che possono raccogliere da soli.",
+              "Cerca di offrire una gamma di consistenze e tanti bocconcini da tenere in mano intorno ai nove mesi, e la maggior parte degli alimenti in stile familiare — morbidi, tagliati in modo appropriato — intorno ai dodici mesi. Non c'è fretta giorno per giorno, ma continua a spingere in avanti. Un piccolo grumo che li fa sputacchiare è apprendimento, non fallimento."
+            ]
+          },
+          {
+            "h": "Non dimenticare il ferro",
+            "p": [
+              "Lo ripeto perché è fondamentale: il ferro. Dal sesto mese circa il tuo bimbo ha bisogno di ferro dagli alimenti. Assicurati che la maggior parte dei giorni includa un alimento ricco di ferro — carne rossa o pollo ben cotti, legumi, lenticchie, tofu, uova, o cereali arricchiti di ferro. Abbinare alimenti ricchi di ferro con un po' di vitamina C, come della frutta morbida o delle verdure, aiuta il corpo ad assorbirlo ancora meglio."
+            ]
+          },
+          {
+            "h": "Alimenti da evitare nel primo anno",
+            "p": [
+              "Alcuni alimenti da tenere fuori dal menu nel primo anno. Niente miele — può contenere batteri che causano il botulismo infantile, e quel rischio è reale fino ai dodici mesi. Niente sale aggiunto — i loro reni non riescono a gestirlo, quindi non aggiungere sale al loro cibo e vai leggero con cose salate come i dadi da brodo e le carni lavorate. Vai molto leggero anche con lo zucchero aggiunto. Evita il latte vaccino intero come bevanda principale fino ai dodici mesi, anche se un po' in cottura o yogurt e formaggio vanno bene. E niente alimenti a rischio soffocamento come noci intere, uva intera, popcorn, o pezzi duri crudi — ne parliamo di più sui tagli sicuri nella prossima lezione.",
+              "Non pensarci troppo, mama. È un breve elenco di no chiari, e tutto il resto è aperto per esplorare felicemente."
+            ]
+          },
+          {
+            "h": "Costruire veri piccoli pasti",
+            "p": [
+              "Ora mettiamo tutto insieme in pasti veri. Un bel piattino equilibrato per il bimbo ha un alimento ricco di ferro, una verdura o un frutto, e qualcosa con un po' di grassi sani o energia — come lenticchie con carota morbida e qualche fettina di avocado, o uovo strapazzato con fettine di pane morbido tostato e bastoncini di cetriolo. Offri acqua in una tazza aperta o un bicchierino a flusso libero durante i pasti.",
+              "La varietà è la tua amica in questo momento. Più colori, sapori e consistenze incontra il tuo bimbo in questa fase, più tende a diventare un mangiatore avventuroso. Nella prossima lezione ci assicureremo che tutto questo avvenga in sicurezza — rigurgito vs soffocamento, e il setup sicuro perfetto. A presto, mama."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Rigurgito vs soffocamento & un setup sicuro",
+        "duration": "± 7 min",
+        "desc": "La differenza cruciale tra rigurgito e soffocamento, un setup sicuro per i pasti, e come preparare gli alimenti per ridurre il rischio.",
+        "vedaPrompt": "Ho appena visto la lezione 4 del corso I Primi Assaggi (rigurgito vs soffocamento e sicurezza). Mi aiuti a preparare pasti sicuri e a capire la differenza tra rigurgito e soffocamento?",
+        "script": [
+          {
+            "h": "Benvenuta",
+            "p": [
+              "Ok mama, questa è la lezione che toglierà la preoccupazione più grande dalle tue spalle. La paura del soffocamento è la numero uno che trattiene le mamme dal godersi i solidi. Quindi sostituiamo la paura con la conoscenza — perché quando capisci cosa succede e come preparare le cose in sicurezza, puoi rilassarti e lasciare che il tuo bimbo impari."
+            ]
+          },
+          {
+            "h": "Il rigurgito è normale e protettivo",
+            "p": [
+              "Prima di tutto, la cosa più importante: il rigurgito non è soffocamento. Il rigurgito è un riflesso normale, sano, protettivo. È il corpo del tuo bimbo che impara a spostare il cibo in sicurezza nella bocca e a spingerlo in avanti se va troppo indietro troppo presto. Nei bimbi, il riflesso del rigurgito viene attivato molto più avanti sulla lingua rispetto agli adulti — ed è esattamente per questo che sputacchiano così facilmente e così spesso all'inizio.",
+              "Il rigurgito sembra drammatico: tosse, sputacchi, occhi lacrimosi, viso rosso, magari spingono il cibo fuori o rimettono anche un po'. È rumoroso, e può essere spaventoso da guardare. Ma ecco la chiave — il tuo bimbo ce la sta facendo. È rumoroso e attivo. La cosa migliore che puoi fare è restare calma, tenere le mani indietro, e lasciargli risolvere la cosa. Intervenire o farsi prendere dal panico può in realtà trasformare un rigurgito in un problema. Lascialo imparare."
+            ]
+          },
+          {
+            "h": "Com'è davvero il soffocamento",
+            "p": [
+              "Il soffocamento è diverso, ed è silenzioso. Un bimbo che sta davvero soffocando di solito non riesce a fare rumore perché le vie aeree sono bloccate. Potresti vedere silenzio, nessuna tosse efficace, un'espressione di panico o angoscia, pelle che diventa bluastra intorno alle labbra, o cedimento del corpo. È allora che agisci immediatamente.",
+              "Ti raccomando caldamente, con affetto, che tu e chiunque si prenda cura del tuo bimbo facciate un corso di primo soccorso infantile e risposta al soffocamento — in presenza o uno buono online. Conoscere le pacche sulle scapole e le compressioni toraciche per un neonato, ed essere in grado di eseguirle senza esitazione, è la cosa più preziosa che puoi avere nel tuo repertorio. Per favore non affidarti a un video nel momento del bisogno — imparalo adesso, prima di averne mai bisogno. Se un bimbo sta soffocando e non riesce a respirare, chiama i servizi di emergenza immediatamente."
+            ]
+          },
+          {
+            "h": "Il setup sicuro",
+            "p": [
+              "Ora preveniamo i problemi in primo luogo con un setup sicuro. Tieni sempre il tuo bimbo completamente eretto — mai reclinato, mai nel seggiolino dell'auto o nel dondolino, e mai che mangi mentre gattonando, cammina, o nel passeggino in movimento. Allaccialo al seggiolone. Rimani sempre a portata di mano e dedica piena attenzione al pasto — niente uscire dalla stanza, niente imboccare in macchina dove non riesci a raggiungerlo.",
+              "Tieni i pasti calmi e senza fretta. Non lasciare che i fratelli più grandi diano cibo al bimbo, e non imboccare un bimbo che ride, piange, o è distratto. Un bimbo concentrato, eretto e sorvegliato è un bimbo sicuro."
+            ]
+          },
+          {
+            "h": "Preparare il cibo in sicurezza",
+            "p": [
+              "Come prepari il cibo fa un'enorme differenza. Cuoci verdure e frutta dure finché non sono abbastanza morbide da schiacciare tra pollice e indice. Taglia i cibi rotondi piccoli in modo che non possano ostruire le vie aeree: uva e pomodorini tagliati in quarti per il lungo, mai interi. Taglia gli alimenti a forma di salsiccia per il lungo, non a rondelle. Rimuovi noccioli, semi, spine e bucce dure.",
+              "Evita completamente quest'anno i classici alimenti ad alto rischio: noci intere, popcorn, mela o carota crude dure a pezzi, uva intera, marshmallow, e cucchiaiate di burro di frutta secca denso direttamente dal cucchiaio — diluiscilo invece. Per i bocconcini da prendere, lunghe strisce morbide grandi quanto il tuo dito sono le più facili da tenere in mano e masticare in sicurezza per le manine piccole."
+            ]
+          },
+          {
+            "h": "Ce la fai",
+            "p": [
+              "Respira, mama. Con un setup eretto, la tua piena attenzione, il cibo preparato in sicurezza, e un corso di primo soccorso nel tuo bagaglio, hai fatto tutto ciò che puoi per rendere questo sicuro. Il rigurgito accadrà ancora — è apprendimento. Resta calma, tieni le mani indietro, e fidati del tuo bimbo.",
+              "Nell'ultima lezione arriviamo alla parte più bella: rendere i pasti gioiosi, rilassati, e una parte splendida della vita familiare. A presto."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Rendere i pasti gioiosi",
+        "duration": "± 6 min",
+        "desc": "La divisione delle responsabilità, gestire i rifiuti, abbracciare il caos, e crescere un mangiatore felice e avventuroso.",
+        "vedaPrompt": "Ho appena visto la lezione 5 del corso I Primi Assaggi (pasti gioiosi). Mi aiuti a costruire abitudini rilassate e felici a tavola e a gestire i momenti in cui il mio bimbo rifiuta il cibo?",
+        "script": [
+          {
+            "h": "Ce l'hai fatta",
+            "p": [
+              "Mama, sei arrivata all'ultima lezione — e dovresti sentirti fiera. Sai quando iniziare, come cominciare, come gestire allergeni e consistenze, e come tenere tutto al sicuro. Ora parliamo del cuore di tutto: rendere i pasti gioiosi. Perché le abitudini e le emozioni che costruisci ora plasmano il modo in cui il tuo bambino mangerà per il resto della sua vita."
+            ]
+          },
+          {
+            "h": "Chi è responsabile di cosa",
+            "p": [
+              "Ecco l'idea più liberatoria nell'alimentazione, e voglio che tu la tenga stretta: tu decidi COSA viene offerto, e QUANDO e DOVE. Il tuo bimbo decide SE mangiare e QUANTO. È la divisione delle responsabilità, e toglie così tanta pressione da entrambi.",
+              "Il tuo unico compito è offrire una varietà di buoni alimenti in un ambiente tranquillo. Non è davvero compito tuo far mangiare al tuo bimbo una certa quantità. Quando proviamo a controllare quanto entra — spingendo, offrendo ricompense, il cucchiaio aereo, distraendo con gli schermi — si ritorce contro e rende l'alimentazione stressante. Fidati dell'appetito del tuo bimbo. Sa notevolmente bene quanto ha bisogno."
+            ]
+          },
+          {
+            "h": "Quando dicono no",
+            "p": [
+              "Il tuo bimbo rifiuterà degli alimenti. Adorerà l'avocado un giorno e lo lancerà dall'altra parte della stanza il giorno dopo. È completamente normale e non è un segnale di un problema. Ecco il numero magico: possono volerci dieci, quindici, anche venti esposizioni prima che un bimbo accetti un nuovo alimento. Quindi quando rifiuta, non cancellarlo dalla lista — continua a offrirlo dolcemente un altro giorno, senza pressione.",
+              "Non forzare mai, non offrire mai ricompense, non fare mai storie per un rifiuto. Resta neutrale e tranquilla. 'No grazie? Va bene così.' Più sei calma di fronte ai rifiuti, prima tendono ad accettare. La pressione crea mangiatori difficili; la pazienza crea mangiatori avventurosi."
+            ]
+          },
+          {
+            "h": "Lascia che sia disordinato",
+            "p": [
+              "Ho bisogno che tu faccia pace con il disordine, mama, perché il disordine è come imparano i bimbi. Schiacciare, spalmare, far cadere, dipingere il vassoio con lo yogurt — è il tuo bimbo che esplora le consistenze e costruisce capacità. Un bimbo a cui si permette di sporcarsi gloriosamente è un bimbo che impara ad amare il cibo.",
+              "Rendilo più facile per te: un bavaglino grande o solo il pannolino, un tappetino anti-sporco sotto la sedia, e basse aspettative di ordine. Resisti all'impulso di pulire mani e viso costantemente durante il pasto — tieni la grande pulizia per la fine. Lascialo sporcarsi."
+            ]
+          },
+          {
+            "h": "Mangiate insieme",
+            "p": [
+              "La cosa più potente che puoi fare è semplice: mangiate insieme. I bimbi imparano a mangiare osservandoci. Quando il tuo bimbo ti vede gustare gli stessi alimenti, masticare, sorridere, chiacchierare, vuole partecipare. Quindi ogni volta che puoi, siediti e mangia con il tuo bimbo, anche solo qualcosa di piccolo, e lascialo vedere il cibo come una cosa felice e sociale.",
+              "Offri gli stessi alimenti che mangia la famiglia dove è sicuro farlo. È meno lavoro per te e dice al tuo bimbo: questo è quello che facciamo, ed è bello."
+            ]
+          },
+          {
+            "h": "Sei straordinaria",
+            "p": [
+              "Mama, sono così fiera di te. Iniziare con i solidi non riguarda piatti perfetti o un bimbo che mangia tutto. Riguarda l'offrire amore, varietà e calma — e fidarsi del tuo piccolo per fare il resto. Alcuni giorni divorerà tutto; altri giorni mangerà niente ma con entusiasmo. Entrambi sono completamente normali.",
+              "Resta rilassata, tienilo gioioso, e ricorda che i pasti riguardano la connessione tanto quanto la nutrizione. E se mai avessi una domanda — su un nuovo alimento, una fase difficile, qualsiasi cosa — apri MomzVeda e chiacchiera con me quando vuoi. È esattamente per questo che ci sono. Stai dando al tuo bimbo un inizio meraviglioso, mama. Goditi ogni minuto disordinato."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
