@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Jouw Emoties",
+    "subtitle": "Een zachte gids voor je gevoelens tijdens de zwangerschap en kraamtijd · je staat er niet alleen voor",
+    "emoji": "💗",
+    "intro": "Vijf korte videolessen met Veda over de emotionele kant van het pas moeder zijn. Van weten dat elk gevoel er mag zijn, tot het onderscheiden van de gewone kraamtranen van iets ernstigers, het onder ogen zien van overweldiging en schuldgevoel, mild zijn voor jezelf en jullie band laten groeien — eerlijk, zacht en zonder oordeel. Bekijk ze wanneer je een lieve stem nodig hebt, mama.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Al je gevoelens mogen er zijn",
+        "duration": "± 5 min",
+        "desc": "Waarom die enorme mix van emoties in het pril moederschap normaal is — en waarom je niet elke seconde dankbaar hoeft te zijn om een goede moeder te zijn.",
+        "vedaPrompt": "Ik heb net les 1 van de cursus Jouw Emoties bekeken (al je gevoelens mogen er zijn). Mijn emoties voelen de laatste tijd overweldigend — kun je me helpen begrijpen wat ik voel en milder voor mezelf te zijn?",
+        "script": [
+          {
+            "h": "Wat je ook voelt, het mag er zijn",
+            "p": [
+              "Oké mama, voordat we over iets anders praten, wil ik dat je dit hoort... wat je op dit moment ook voelt, het mag er zijn. De eerste weken en maanden met een baby kunnen de allergrootste mix van emoties losmaken. Diepe liefde en onverwacht verdriet. Vreugde en rouw, soms in datzelfde uur. Je kunt met heel je hart van je baby houden en je tegelijk overweldigd, eenzaam of helemaal niet jezelf voelen. Niets daarvan maakt je een slechte moeder. Het maakt je een menselijke."
+            ]
+          },
+          {
+            "h": "Natuurlijk zijn je gevoelens groot",
+            "p": [
+              "Er gebeurt zo veel tegelijk. Je hormonen verschuiven enorm. Je draait op gebroken nachten. Je hele identiteit wordt in realtime herschreven. Natuurlijk zijn je gevoelens groot. Dat hoort ook zo. En hier is iets wat veel te weinig gezegd wordt... je hoeft niet elke seconde dankbaar te zijn om een goede moeder te zijn."
+            ]
+          },
+          {
+            "h": "Twee dingen kunnen tegelijk waar zijn",
+            "p": [
+              "Je mag dit zwaar vinden. Je mag je oude leven missen en tegelijk van dit nieuwe houden. Twee dingen kunnen tegelijk waar zijn. In de komende lessen sorteren we deze gevoelens samen, heel zacht. Wat normaal is, wat extra steun verdient, en hoe je door dit alles heen milder voor jezelf kunt zijn. Haal voor nu gewoon even adem, mama. Je faalt niet. Je voelt. En dat is precies zoals het hoort."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Kraamtranen of iets meer?",
+        "duration": "± 6 min",
+        "desc": "Het verschil tussen de gewone kraamtranen en een postnatale depressie of angst — de signalen om op te letten en wanneer je aan de bel trekt.",
+        "vedaPrompt": "Ik heb net les 2 van de cursus Jouw Emoties bekeken (kraamtranen of iets meer). Kun je me helpen begrijpen of wat ik voel klinkt als de gewone kraamtranen of als iets waarvoor ik naar een arts moet?",
+        "script": [
+          {
+            "h": "De kraamtranen",
+            "p": [
+              "Laten we het hebben over iets wat de meeste mama's voelen maar weinigen verwachten... de kraamtranen. In de eerste dagen na de bevalling, terwijl je hormonen kelderen, is het ontzettend gewoon om je huilerig, prikkelbaar, angstig of gewoon emotioneel rauw te voelen. Je huilt misschien om niets, of om alles. Dit overkomt de meeste kersverse moeders, het piekt meestal rond dag drie tot vijf, en het trekt doorgaans vanzelf weg binnen zo'n twee weken. Dat zijn de kraamtranen, en ze horen bij het wennen."
+            ]
+          },
+          {
+            "h": "Wanneer het iets meer is",
+            "p": [
+              "Maar soms trekken die gevoelens niet weg... ze zetten zich vast en worden zwaarder. Hier praten we voorzichtig over postnatale depressie en angst. De signalen om op te letten: een sombere stemming of leegte die het grootste deel van de dag aanhoudt, de meeste dagen. Het verliezen van interesse in dingen waar je vroeger van genoot. Moeite om een band met je baby op te bouwen. Constante zorgen of malende gedachten. Slecht slapen, zelfs als je baby slaapt. Gevoelens van schuld, waardeloosheid of hopeloosheid. Dit is geen zwakte, mama, en het is absoluut niet jouw schuld. Het is een echte en heel goed behandelbare medische aandoening, en hij komt veel vaker voor dan je denkt."
+            ]
+          },
+          {
+            "h": "Hoe je het verschil herkent — en wanneer je hulp zoekt",
+            "p": [
+              "De eenvoudigste manier om het verschil te herkennen is tijd en zwaarte. Kraamtranen zijn kort en trekken weg. Depressie en angst blijven hangen en trekken je naar beneden. Als je gevoelens langer dan twee weken aanhouden, of ooit beangstigend of te zwaar om te dragen voelen, neem dan alsjeblieft contact op met je arts of verloskundige. En als je ooit gedachten hebt om jezelf of je baby iets aan te doen, behandel dat dan als spoed en zoek meteen hulp. Erover praten is niet overdreven. Het is moedig, en het is de eerste stap om je weer jezelf te voelen."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Overweldiging, woede en schuldgevoel",
+        "duration": "± 6 min",
+        "desc": "De gevoelens die we niet posten — woede, wrok en schuld — waarom ze menselijk zijn, en wat je doet op het heetst van het moment.",
+        "vedaPrompt": "Ik heb net les 3 van de cursus Jouw Emoties bekeken (overweldiging, woede en schuldgevoel). Ik voel me de laatste tijd overweldigd en soms zelfs boos — kun je me helpen met deze gevoelens om te gaan zonder zo veel schuldgevoel?",
+        "script": [
+          {
+            "h": "Je bent geen monster",
+            "p": [
+              "Laten we het nu hebben over de gevoelens die we niet posten... de overweldiging, de woede en het schuldgevoel. Want mama, als je een flits van woede hebt gevoeld toen het huilen maar niet stopte, of een golf van wrok om drie uur 's nachts, dan ben je geen monster. Je bent een uitgeput mens dat overprikkeld, opgebrand en op je laatste reserves draait. Woede in het moederschap is echt, en meestal gaat het eigenlijk niet over de baby. Het gaat over zó volkomen uitgeput en uitgerekt zijn dat er niets meer voor jezelf overblijft."
+            ]
+          },
+          {
+            "h": "Op het heetst van het moment mag je pauzeren",
+            "p": [
+              "Het belangrijkste is wat je met dat gevoel doet op het heetst van het moment. Wanneer de overweldiging stijgt en je voelt dat je je grens bereikt, mag je altijd pauzeren. Leg je baby op een veilige plek neer, zoals het bedje, ga naar een andere kamer en haal een minuut of twee een paar keer rustig adem. Een baby die heel even veilig in het bedje huilt, is helemaal prima. Een ouder op het randje heeft die reset nodig, en even weglopen om te kalmeren is geen falen... het beschermt jullie allebei."
+            ]
+          },
+          {
+            "h": "Schuldgevoel betekent dat je geeft",
+            "p": [
+              "En dan is er het schuldgevoel, dat stemmetje dat fluistert dat je niet genoeg doet. Mama, schuldgevoel is geen bewijs dat je het verkeerd doet. Vaker is het een teken van hoe diep je geeft. Je zult niet elk uur van elke dag een kalme, glimlachende ouder zijn, en dat heeft je baby ook niet nodig. Je baby heeft jou nodig, echt en proberend. Probeer tegen jezelf te praten zoals je tegen een dierbare vriendin in jouw schoenen zou praten... met geduld, niet met straf. Je draagt zo veel. Natuurlijk loopt het soms over."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Mild zijn voor jezelf en om hulp vragen",
+        "duration": "± 6 min",
+        "desc": "Net zo lief voor jezelf zijn als voor een vriendin, kleine momenten van zorg voor jezelf beschermen, en je naasten binnenlaten.",
+        "vedaPrompt": "Ik heb net les 4 van de cursus Jouw Emoties bekeken (mild zijn voor jezelf en om hulp vragen). Kun je me helpen milder voor mezelf te zijn en uit te vinden hoe ik om de steun vraag die ik nodig heb?",
+        "script": [
+          {
+            "h": "Mild zijn voor jezelf is geen luxe",
+            "p": [
+              "Oké mama, deze les gaat over waar zo veel van ons het slechtst in zijn... lief zijn voor onszelf, en anderen binnenlaten. Laten we beginnen met mild zijn voor jezelf, want het is geen luxe. Het is hoe je het volhoudt. Denk eens hoe je je beste vriendin zou troosten als zij was waar jij nu bent. Je zou haar nooit lui noemen of zeggen dat ze faalt. Je zou haar vertellen dat ze geweldig werk levert onder onmogelijke omstandigheden. Mama, jij verdient precies diezelfde woorden."
+            ]
+          },
+          {
+            "h": "Leg de lat bewust lager",
+            "p": [
+              "Leg de lat bewust lager. Een gevoede baby en een uitgeruste moeder is een geslaagde dag. De was kan wachten. En probeer de allerkleinste momenten van zorg voor jezelf te beschermen... een warme douche, tien rustige minuten met een kop thee, een korte wandeling in de frisse lucht met de kinderwagen. Dit is niet egoïstisch. Je kunt niet schenken uit een lege kan, en zelfs een beetje bijvullen helpt je om vanuit een steviger plek moeder te zijn."
+            ]
+          },
+          {
+            "h": "Laat je naasten binnen",
+            "p": [
+              "Nu het moeilijke deel voor zo veel van ons... om hulp vragen. Er bestaat een mythe dat een goede moeder alles alleen doet. Die mythe is uitputtend en gewoon niet waar. Mensen waren nooit bedoeld om baby's in isolatie groot te brengen. Dus laat mensen binnen. Zeg ja als iemand aanbiedt de baby vast te houden of een maaltijd te brengen. En wees concreet... vraag je partner om de nachtvoeding, vraag een vriendin om langs te komen, vraag je moeder om een was te draaien. Mensen willen helpen, mama. Ze weten vaak alleen niet hoe totdat je het zegt. Leunen op je naasten maakt je niet zwak. Het maakt je wijs."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Verbinding en vooruitkijken",
+        "duration": "± 6 min",
+        "desc": "Waarom de band langzaam groeit, de dingen om dichtbij te houden, en de kleine overwinningen opmerken terwijl de mist optrekt.",
+        "vedaPrompt": "Ik heb net les 5 van de cursus Jouw Emoties bekeken (verbinding en vooruitkijken). Kun je me helpen hoopvoller te kijken naar de weg die voor me ligt en de kleine overwinningen in mijn dagen met mijn baby op te merken?",
+        "script": [
+          {
+            "h": "Deze periode voelt niet voor altijd zo",
+            "p": [
+              "En hier is het deel dat ik echt wil dat je vasthoudt, mama... deze periode, met al haar intensiteit, voelt niet voor altijd zo. De mist trekt op. De dagen vinden langzaam een ritme. En de band die je opbouwt, zelfs op de zwaarste dagen, groeit er stilletjes onderdoor. Je hoeft geen magische band te voelen op het moment dat je baby er is. Voor veel moeders groeit de liefde in de kleine, gewone momenten. De voedingen midden in de nacht. De manier waarop ze zich tegen je borst nestelen. Die eerste echte, tandeloze glimlach waar je adem van stokt. Een band is geen enkele bliksemflits. Het is een langzaam, gestaag weefsel, en elk teder moment is weer een draad."
+            ]
+          },
+          {
+            "h": "Een paar dingen om dichtbij te houden",
+            "p": [
+              "Dus terwijl je vooruitkijkt, houden we een paar dingen dichtbij. Je gevoelens, allemaal, zijn geldig en ze zullen blijven veranderen. Je mag vreugde vinden en toch zware dagen hebben. Steun zoeken is een teken van kracht, niet van falen. En voor jezelf zorgen is een onderdeel van voor je baby zorgen, nooit los daarvan."
+            ]
+          },
+          {
+            "h": "Merk de kleine overwinningen op",
+            "p": [
+              "Merk de kleine overwinningen op. Je hebt een huiltje gesust. Je bent door een lange nacht heen gekomen. Je was er vandaag weer. Die momenten zijn niet klein, mama. Ze zijn alles. Jij bent precies de moeder die je baby nodig heeft. Geen perfecte... een echte, liefdevolle, aanwezige. Wees zacht voor jezelf op deze reis. Je doet het zo veel beter dan je weet. En je bent nooit, nooit zo alleen als je je voelt. Je kunt dit, mama. Eén ademteug, één moment, één dag tegelijk."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

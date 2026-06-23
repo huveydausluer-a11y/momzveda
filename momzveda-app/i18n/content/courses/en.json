@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Your Emotions",
+    "subtitle": "A gentle guide to your feelings in pregnancy & postpartum · you're not alone",
+    "emoji": "💗",
+    "intro": "Five short video lessons with Veda for the emotional side of new motherhood. From knowing that every feeling is allowed, to telling the normal baby blues from something more, to facing overwhelm and guilt, finding self-compassion, and growing your connection — honest, gentle, and judgment-free. Watch them whenever you need a kind voice, mama.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "All Your Feelings Are Allowed",
+        "duration": "± 5 min",
+        "desc": "Why the huge mix of emotions in early motherhood is normal — and why you don't have to feel grateful every second to be a good mom.",
+        "vedaPrompt": "I just watched Lesson 1 of the Your Emotions course (all your feelings are allowed). My emotions have felt overwhelming lately — can you help me understand what I'm feeling and be kinder to myself?",
+        "script": [
+          {
+            "h": "Whatever you're feeling is allowed",
+            "p": [
+              "Okay mama, before we talk about anything else, I want you to hear this... whatever you are feeling right now is allowed. The early weeks and months with a baby can stir up the most enormous mix of emotions. Deep love and unexpected sadness. Joy and grief, sometimes in the very same hour. You can adore your baby with your whole heart and still feel overwhelmed, lonely, or completely unlike yourself. None of that makes you a bad mother. It makes you a human one."
+            ]
+          },
+          {
+            "h": "Of course your feelings are big",
+            "p": [
+              "So much is happening at once. Your hormones are shifting dramatically. You're running on broken sleep. Your whole identity is being rewritten in real time. Of course your feelings are big. They're supposed to be. And here's something nobody says often enough... you don't have to feel grateful every single second to be a good mom."
+            ]
+          },
+          {
+            "h": "Two things can be true",
+            "p": [
+              "You're allowed to find this hard. You're allowed to miss your old life and love this new one at the same time. Two things can be true. In the lessons ahead, we'll gently sort through these feelings together. What's normal, what deserves extra support, and how to be kinder to yourself through all of it. For now, just take a breath, mama. You're not failing. You're feeling. And that's exactly as it should be."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Baby Blues or Something More?",
+        "duration": "± 6 min",
+        "desc": "The difference between the normal baby blues and postnatal depression or anxiety — the signs to notice and when to reach out.",
+        "vedaPrompt": "I just watched Lesson 2 of the Your Emotions course (baby blues or something more). Can you help me understand whether what I'm feeling sounds like the normal baby blues or something I should talk to a doctor about?",
+        "script": [
+          {
+            "h": "The baby blues",
+            "p": [
+              "Let's talk about something most mamas feel but few expect... the baby blues. In the first days after birth, as your hormones come crashing down, it's incredibly common to feel weepy, irritable, anxious, or just emotionally raw. You might cry over nothing, or everything. This affects most new mothers, it usually peaks around day three to five, and it tends to lift on its own within about two weeks. That's the baby blues, and it's a normal part of adjusting."
+            ]
+          },
+          {
+            "h": "When it's something more",
+            "p": [
+              "But sometimes those feelings don't fade... they dig in and grow heavier. This is where we gently talk about postnatal depression and anxiety. The signs to notice: a low mood or emptiness that lingers most of the day, most days. Losing interest in things you used to enjoy. Struggling to bond with your baby. Constant worry or racing thoughts. Trouble sleeping even when your baby sleeps. Feelings of guilt, worthlessness, or hopelessness. This is not a weakness, mama, and it is absolutely not your fault. It's a real and very treatable medical condition, and it is far more common than you'd think."
+            ]
+          },
+          {
+            "h": "How to tell the difference — and when to reach out",
+            "p": [
+              "The simplest way to tell the difference is time and weight. Blues are brief and lift. Depression and anxiety linger and pull you down. If your feelings last beyond two weeks, or ever feel frightening or too heavy to carry, please reach out to your doctor or midwife. And if you ever have thoughts of harming yourself or your baby, treat that as urgent and get help straight away. Speaking up isn't dramatic. It's brave, and it's the first step toward feeling like yourself again."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Overwhelm, Anger & Guilt",
+        "duration": "± 6 min",
+        "desc": "The feelings we don't post about — rage, resentment, and guilt — why they're human, and what to do in the hot moment.",
+        "vedaPrompt": "I just watched Lesson 3 of the Your Emotions course (overwhelm, anger and guilt). I've been feeling overwhelmed and even angry sometimes — can you help me cope with these feelings without so much guilt?",
+        "script": [
+          {
+            "h": "You're not a monster",
+            "p": [
+              "Now let's talk about the feelings we don't post about... the overwhelm, the anger, and the guilt. Because mama, if you've felt a flash of rage when the crying won't stop, or a wave of resentment at three in the morning, you are not a monster. You're a depleted human being who is touched out, worn down, and running on empty. Anger in motherhood is real, and it usually isn't really about the baby. It's about being so utterly exhausted and stretched with nothing left for yourself."
+            ]
+          },
+          {
+            "h": "In the hot moment, it's okay to pause",
+            "p": [
+              "The most important thing is what you do with that feeling in the hot moment. When the overwhelm rises and you feel yourself reaching your edge, it is always okay to pause. Lay your baby down somewhere safe, like their crib, step into another room, and take a few slow breaths for a minute or two. A baby crying safely in their cot for a moment is completely fine. A parent at breaking point needs that reset, and walking away to calm down is not failing... it's protecting you both."
+            ]
+          },
+          {
+            "h": "Guilt means you care",
+            "p": [
+              "And then there's the guilt, that voice whispering you're not doing enough. Mama, guilt is not evidence that you're doing it wrong. More often it's a sign of how deeply you care. You will not be a calm, smiling parent every hour of every day, and your baby does not need that. They need you, real and trying. Try to talk to yourself the way you'd talk to a dear friend in your shoes... with patience, not punishment. You're carrying so much. Of course it spills over sometimes."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Self-Compassion & Asking for Help",
+        "duration": "± 6 min",
+        "desc": "Being as kind to yourself as you'd be to a friend, protecting small pockets of care, and letting your village in.",
+        "vedaPrompt": "I just watched Lesson 4 of the Your Emotions course (self-compassion and asking for help). Can you help me be kinder to myself and figure out how to ask for the support I need?",
+        "script": [
+          {
+            "h": "Self-compassion isn't a luxury",
+            "p": [
+              "Okay mama, this lesson is about the thing that so many of us are worst at... being kind to ourselves, and letting other people in. Let's start with self-compassion, because it isn't a luxury. It's how you keep going. Think about how you'd comfort your best friend if she were where you are. You'd never call her lazy or say she's failing. You'd tell her she's doing an incredible job under impossible conditions. Mama, you deserve those exact same words."
+            ]
+          },
+          {
+            "h": "Lower the bar on purpose",
+            "p": [
+              "Lower the bar on purpose. A fed baby and a resting mother is a successful day. The laundry can wait. And try to protect the smallest pockets of care for yourself... a warm shower, ten quiet minutes with a cup of tea, a short walk in fresh air with the pram. These aren't selfish. You cannot pour from an empty cup, and refilling even a little helps you mother from a steadier place."
+            ]
+          },
+          {
+            "h": "Let your village in",
+            "p": [
+              "Now, the hard part for so many of us... asking for help. There is this myth that a good mother does it all alone. That myth is exhausting and it simply isn't true. Humans were never meant to raise babies in isolation. So let people in. Say yes when someone offers to hold the baby or bring a meal. And get specific... ask your partner to take the night feed, ask a friend to come sit with you, ask your mum to run a load of washing. People want to help, mama. They often just don't know how until you tell them. Leaning on your village doesn't make you weak. It makes you wise."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Connection & Looking Ahead",
+        "duration": "± 6 min",
+        "desc": "Why bonding grows slowly, the things to hold close, and noticing the little wins as the fog lifts.",
+        "vedaPrompt": "I just watched Lesson 5 of the Your Emotions course (connection and looking ahead). Can you help me feel more hopeful about the road ahead and notice the small wins in my days with my baby?",
+        "script": [
+          {
+            "h": "This season won't feel this way forever",
+            "p": [
+              "And here's the part I really want you to hold onto, mama... this season, with all its intensity, will not feel this way forever. The fog does lift. The days slowly find a rhythm. And the connection you're building, even on the hardest days, is quietly growing underneath it all. You don't have to feel a magical bond the instant your baby arrives. For many mothers, love grows in the small, ordinary moments. The middle-of-the-night feeds. The way they settle into your chest. That first real, gummy smile that knocks the breath out of you. Bonding is not a single lightning strike. It's a slow, steady weave, and every gentle moment is another thread."
+            ]
+          },
+          {
+            "h": "A few things to hold close",
+            "p": [
+              "So as you look ahead, let's keep a few things close. Your feelings, all of them, are valid and they will keep changing. You are allowed to find joy and still have hard days. Reaching out for support is a sign of strength, not failure. And taking care of yourself is part of taking care of your baby, never separate from it."
+            ]
+          },
+          {
+            "h": "Notice the little wins",
+            "p": [
+              "Notice the little wins. You soothed a cry. You made it through a long night. You showed up again today. Those moments are not small, mama. They are everything. You are exactly the mother your baby needs. Not a perfect one... a real, loving, present one. Be gentle with yourself on this journey. You're doing so much better than you know. And you are never, ever as alone as you feel. You've got this, mama. One breath, one moment, one day at a time."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

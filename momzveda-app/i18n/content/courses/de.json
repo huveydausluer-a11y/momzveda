@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Deine Gefühle",
+    "subtitle": "Ein sanfter Begleiter für deine Gefühle in Schwangerschaft & Wochenbett · du bist nicht allein",
+    "emoji": "💗",
+    "intro": "Fünf kurze Videolektionen mit Veda für die emotionale Seite des frischen Mutterseins. Vom Wissen, dass jedes Gefühl erlaubt ist, über das Unterscheiden des normalen Babyblues von etwas Ernsterem, bis hin zum Umgang mit Überforderung und Schuldgefühlen, dem Finden von Selbstmitgefühl und dem Wachsen eurer Verbindung — ehrlich, sanft und ohne jedes Urteil. Schau sie dir an, wann immer du eine liebevolle Stimme brauchst, mama.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "All deine Gefühle sind erlaubt",
+        "duration": "± 5 Min.",
+        "desc": "Warum der riesige Gefühlsmix im frischen Muttersein normal ist — und warum du nicht jede Sekunde dankbar sein musst, um eine gute Mama zu sein.",
+        "vedaPrompt": "Ich habe gerade Lektion 1 des Kurses „Deine Gefühle“ gesehen (all deine Gefühle sind erlaubt). Meine Gefühle fühlen sich in letzter Zeit überwältigend an — kannst du mir helfen zu verstehen, was ich fühle, und sanfter mit mir selbst zu sein?",
+        "script": [
+          {
+            "h": "Was auch immer du fühlst, ist erlaubt",
+            "p": [
+              "Okay mama, bevor wir über irgendetwas anderes sprechen, möchte ich, dass du das hörst... was auch immer du gerade fühlst, ist erlaubt. Die ersten Wochen und Monate mit einem Baby können den allergrößten Gefühlsmix aufwirbeln. Tiefe Liebe und unerwartete Traurigkeit. Freude und Trauer, manchmal in ein und derselben Stunde. Du kannst dein Baby von ganzem Herzen lieben und dich trotzdem überfordert, einsam oder dir selbst völlig fremd fühlen. Nichts davon macht dich zu einer schlechten Mutter. Es macht dich zu einer menschlichen."
+            ]
+          },
+          {
+            "h": "Natürlich sind deine Gefühle groß",
+            "p": [
+              "So vieles geschieht gleichzeitig. Deine Hormone stellen sich dramatisch um. Du läufst auf zerstückeltem Schlaf. Deine ganze Identität wird in Echtzeit neu geschrieben. Natürlich sind deine Gefühle groß. Das sollen sie auch sein. Und hier ist etwas, das viel zu selten gesagt wird... du musst nicht jede einzelne Sekunde dankbar sein, um eine gute Mama zu sein."
+            ]
+          },
+          {
+            "h": "Zweierlei kann zugleich wahr sein",
+            "p": [
+              "Du darfst das hier schwer finden. Du darfst dein altes Leben vermissen und dein neues zugleich lieben. Zweierlei kann zugleich wahr sein. In den kommenden Lektionen sortieren wir diese Gefühle gemeinsam und ganz behutsam. Was normal ist, was zusätzliche Unterstützung verdient und wie du auf diesem ganzen Weg sanfter mit dir selbst sein kannst. Für den Moment atme einfach durch, mama. Du versagst nicht. Du fühlst. Und genau so soll es sein."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Babyblues oder etwas Ernsteres?",
+        "duration": "± 6 Min.",
+        "desc": "Der Unterschied zwischen dem normalen Babyblues und einer postnatalen Depression oder Angst — die Anzeichen, auf die du achten solltest, und wann du dir Hilfe holst.",
+        "vedaPrompt": "Ich habe gerade Lektion 2 des Kurses „Deine Gefühle“ gesehen (Babyblues oder etwas Ernsteres). Kannst du mir helfen zu verstehen, ob das, was ich fühle, nach dem normalen Babyblues klingt oder nach etwas, worüber ich mit einer Ärztin sprechen sollte?",
+        "script": [
+          {
+            "h": "Der Babyblues",
+            "p": [
+              "Sprechen wir über etwas, das die meisten Mamas fühlen, aber kaum eine erwartet... den Babyblues. In den ersten Tagen nach der Geburt, wenn deine Hormone abstürzen, ist es ungemein häufig, sich weinerlich, reizbar, ängstlich oder einfach emotional wund zu fühlen. Vielleicht weinst du über nichts, oder über alles. Das betrifft die meisten frischgebackenen Mütter, erreicht meist um den dritten bis fünften Tag seinen Höhepunkt und legt sich in der Regel von selbst innerhalb von etwa zwei Wochen. Das ist der Babyblues, und er gehört ganz normal zum Ankommen dazu."
+            ]
+          },
+          {
+            "h": "Wenn es etwas Ernsteres ist",
+            "p": [
+              "Aber manchmal verschwinden diese Gefühle nicht... sie graben sich ein und werden schwerer. Hier sprechen wir ganz behutsam über die postnatale Depression und Angst. Die Anzeichen, auf die du achten solltest: eine gedrückte Stimmung oder Leere, die die meiste Zeit des Tages anhält, an den meisten Tagen. Der Verlust der Freude an Dingen, die du früher genossen hast. Schwierigkeiten, eine Bindung zu deinem Baby aufzubauen. Ständige Sorge oder rasende Gedanken. Schlafprobleme, selbst wenn dein Baby schläft. Gefühle von Schuld, Wertlosigkeit oder Hoffnungslosigkeit. Das ist keine Schwäche, mama, und es ist ganz sicher nicht deine Schuld. Es ist eine echte und sehr gut behandelbare medizinische Erkrankung, und sie ist weit häufiger, als du denkst."
+            ]
+          },
+          {
+            "h": "Wie du den Unterschied erkennst — und wann du dir Hilfe holst",
+            "p": [
+              "Am einfachsten erkennst du den Unterschied an Zeit und Schwere. Der Blues ist kurz und legt sich. Depression und Angst bleiben und ziehen dich nach unten. Wenn deine Gefühle länger als zwei Wochen anhalten, oder sich je beängstigend oder zu schwer zum Tragen anfühlen, wende dich bitte an deine Ärztin oder deine Hebamme. Und wenn du jemals Gedanken hast, dir selbst oder deinem Baby etwas anzutun, behandle das als dringend und hol dir sofort Hilfe. Es auszusprechen ist nicht dramatisch. Es ist mutig, und es ist der erste Schritt, dich wieder wie du selbst zu fühlen."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Überforderung, Wut & Schuld",
+        "duration": "± 6 Min.",
+        "desc": "Die Gefühle, über die wir nichts posten — Wut, Groll und Schuld — warum sie menschlich sind und was du im hitzigen Moment tun kannst.",
+        "vedaPrompt": "Ich habe gerade Lektion 3 des Kurses „Deine Gefühle“ gesehen (Überforderung, Wut und Schuld). Ich fühle mich in letzter Zeit überfordert und manchmal sogar wütend — kannst du mir helfen, mit diesen Gefühlen umzugehen, ohne so viel Schuld zu empfinden?",
+        "script": [
+          {
+            "h": "Du bist kein Ungeheuer",
+            "p": [
+              "Sprechen wir jetzt über die Gefühle, über die wir nichts posten... die Überforderung, die Wut und die Schuld. Denn mama, wenn du einen Anflug von Wut gespürt hast, wenn das Weinen einfach nicht aufhört, oder eine Welle von Groll um drei Uhr morgens, dann bist du kein Ungeheuer. Du bist ein erschöpfter Mensch, der am Ende der Kraft, ausgelaugt und völlig leer ist. Wut im Muttersein ist real, und meistens geht es eigentlich gar nicht um das Baby. Es geht darum, so unendlich müde und überdehnt zu sein, ohne dass für dich selbst noch etwas übrig bleibt."
+            ]
+          },
+          {
+            "h": "Im hitzigen Moment darfst du innehalten",
+            "p": [
+              "Das Wichtigste ist, was du mit diesem Gefühl im hitzigen Moment machst. Wenn die Überforderung steigt und du spürst, dass du an deine Grenze kommst, darfst du immer innehalten. Lege dein Baby an einem sicheren Ort ab, zum Beispiel in sein Bettchen, geh in einen anderen Raum und atme ein, zwei Minuten lang ein paarmal langsam durch. Ein Baby, das einen Moment sicher in seinem Bettchen weint, ist völlig in Ordnung. Ein Elternteil am Rande des Zusammenbruchs braucht diesen Reset, und kurz wegzugehen, um dich zu beruhigen, ist kein Versagen... es schützt euch beide."
+            ]
+          },
+          {
+            "h": "Schuld bedeutet, dass es dir nicht egal ist",
+            "p": [
+              "Und dann ist da die Schuld, diese Stimme, die dir zuflüstert, du tätest nicht genug. Mama, Schuld ist kein Beweis dafür, dass du es falsch machst. Viel öfter ist sie ein Zeichen dafür, wie tief es dir am Herzen liegt. Du wirst nicht jede Stunde an jedem Tag ein ruhiges, lächelndes Elternteil sein, und das braucht dein Baby auch nicht. Es braucht dich, echt und bemüht. Versuch, mit dir selbst so zu sprechen, wie du mit einer lieben Freundin in deiner Lage sprechen würdest... mit Geduld, nicht mit Strafe. Du trägst so viel. Natürlich läuft es manchmal über."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Selbstmitgefühl & um Hilfe bitten",
+        "duration": "± 6 Min.",
+        "desc": "So gütig zu dir selbst zu sein, wie du es zu einer Freundin wärst, kleine Inseln der Fürsorge zu schützen und dein Dorf hereinzulassen.",
+        "vedaPrompt": "Ich habe gerade Lektion 4 des Kurses „Deine Gefühle“ gesehen (Selbstmitgefühl und um Hilfe bitten). Kannst du mir helfen, sanfter mit mir selbst zu sein und herauszufinden, wie ich um die Unterstützung bitte, die ich brauche?",
+        "script": [
+          {
+            "h": "Selbstmitgefühl ist kein Luxus",
+            "p": [
+              "Okay mama, in dieser Lektion geht es um das, worin so viele von uns am schlechtesten sind... gütig zu uns selbst zu sein und andere hereinzulassen. Fangen wir mit dem Selbstmitgefühl an, denn es ist kein Luxus. Es ist das, was dich am Laufen hält. Denk daran, wie du deine beste Freundin trösten würdest, wenn sie da wäre, wo du gerade bist. Du würdest sie nie faul nennen oder sagen, sie versage. Du würdest ihr sagen, dass sie einen unglaublichen Job unter unmöglichen Bedingungen macht. Mama, genau diese Worte hast du verdient."
+            ]
+          },
+          {
+            "h": "Leg die Latte bewusst tiefer",
+            "p": [
+              "Leg die Latte bewusst tiefer. Ein sattes Baby und eine ausgeruhte Mutter sind ein gelungener Tag. Die Wäsche kann warten. Und versuch, dir die kleinsten Inseln der Fürsorge zu schützen... eine warme Dusche, zehn ruhige Minuten mit einer Tasse Tee, ein kurzer Spaziergang an der frischen Luft mit dem Kinderwagen. Das ist nicht egoistisch. Aus einer leeren Tasse kannst du nicht einschenken, und schon ein bisschen nachzufüllen hilft dir, aus einer ruhigeren Mitte heraus Mutter zu sein."
+            ]
+          },
+          {
+            "h": "Lass dein Dorf herein",
+            "p": [
+              "Jetzt der für so viele von uns schwere Teil... um Hilfe bitten. Es gibt diesen Mythos, dass eine gute Mutter alles allein schafft. Dieser Mythos ist erschöpfend, und er stimmt einfach nicht. Menschen waren nie dafür gemacht, Babys in Isolation großzuziehen. Also lass Menschen herein. Sag Ja, wenn jemand anbietet, das Baby zu halten oder eine Mahlzeit zu bringen. Und werde konkret... bitte deinen Partner, die nächtliche Mahlzeit zu übernehmen, bitte eine Freundin, sich zu dir zu setzen, bitte deine Mutter, eine Ladung Wäsche zu waschen. Menschen wollen helfen, mama. Oft wissen sie nur nicht, wie, bis du es ihnen sagst. Dich auf dein Dorf zu stützen, macht dich nicht schwach. Es macht dich klug."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Verbindung & der Blick nach vorn",
+        "duration": "± 6 Min.",
+        "desc": "Warum Bindung langsam wächst, die Dinge, die du dir nah halten darfst, und das Bemerken der kleinen Erfolge, wenn der Nebel sich lichtet.",
+        "vedaPrompt": "Ich habe gerade Lektion 5 des Kurses „Deine Gefühle“ gesehen (Verbindung und der Blick nach vorn). Kannst du mir helfen, mich hoffnungsvoller für den Weg vor mir zu fühlen und die kleinen Erfolge in meinen Tagen mit meinem Baby zu bemerken?",
+        "script": [
+          {
+            "h": "Diese Zeit wird sich nicht für immer so anfühlen",
+            "p": [
+              "Und hier ist der Teil, den ich dir wirklich ans Herz legen möchte, mama... diese Zeit, mit all ihrer Wucht, wird sich nicht für immer so anfühlen. Der Nebel lichtet sich. Die Tage finden langsam einen Rhythmus. Und die Verbindung, die du aufbaust, wächst selbst an den schwersten Tagen ganz leise im Verborgenen weiter. Du musst keine magische Bindung in dem Augenblick spüren, in dem dein Baby ankommt. Bei vielen Müttern wächst die Liebe in den kleinen, gewöhnlichen Momenten. Den Mahlzeiten mitten in der Nacht. Der Art, wie es sich an deine Brust kuschelt. Diesem ersten echten, zahnlosen Lächeln, das dir den Atem raubt. Bindung ist kein einzelner Blitzschlag. Sie ist ein langsames, stetiges Verweben, und jeder zarte Moment ist ein weiterer Faden."
+            ]
+          },
+          {
+            "h": "Ein paar Dinge, die du dir nah halten darfst",
+            "p": [
+              "Wenn du also nach vorn blickst, halten wir uns ein paar Dinge nah. Deine Gefühle, alle davon, sind gültig, und sie werden sich immer weiter verändern. Du darfst Freude empfinden und trotzdem schwere Tage haben. Sich Unterstützung zu holen ist ein Zeichen von Stärke, nicht von Versagen. Und für dich selbst zu sorgen ist Teil davon, für dein Baby zu sorgen, niemals getrennt davon."
+            ]
+          },
+          {
+            "h": "Bemerke die kleinen Erfolge",
+            "p": [
+              "Bemerke die kleinen Erfolge. Du hast ein Weinen getröstet. Du bist durch eine lange Nacht gekommen. Du warst auch heute wieder da. Diese Momente sind nicht klein, mama. Sie sind alles. Du bist genau die Mutter, die dein Baby braucht. Keine perfekte... eine echte, liebevolle, präsente. Sei sanft mit dir selbst auf diesem Weg. Du machst es so viel besser, als du weißt. Und du bist niemals, niemals so allein, wie du dich fühlst. Du schaffst das, mama. Ein Atemzug, ein Moment, ein Tag nach dem anderen."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

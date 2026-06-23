@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Suas emoções",
+    "subtitle": "Um guia gentil para os seus sentimentos na gravidez e no pós-parto · você não está sozinha",
+    "emoji": "💗",
+    "intro": "Cinco lições curtas em vídeo com a Veda para o lado emocional da maternidade recente. Desde saber que todo sentimento é permitido, até diferenciar o baby blues normal de algo mais sério, enfrentar a sobrecarga e a culpa, encontrar autocompaixão e fazer crescer a sua conexão — com honestidade, gentileza e sem julgamentos. Assista sempre que precisar de uma voz acolhedora, mamã.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Todos os seus sentimentos são permitidos",
+        "duration": "± 5 min",
+        "desc": "Por que a enorme mistura de emoções no início da maternidade é normal — e por que você não precisa se sentir grata a cada segundo para ser uma boa mãe.",
+        "vedaPrompt": "Acabei de ver a Lição 1 do curso Suas emoções (todos os seus sentimentos são permitidos). As minhas emoções têm parecido avassaladoras ultimamente — pode me ajudar a entender o que estou sentindo e a ser mais gentil comigo mesma?",
+        "script": [
+          {
+            "h": "Seja o que for que você esteja sentindo, é permitido",
+            "p": [
+              "Está bem, mamã, antes de falarmos de qualquer outra coisa, quero que você ouça isto... seja o que for que você esteja sentindo neste momento, é permitido. As primeiras semanas e meses com um bebé podem despertar a maior das misturas de emoções. Amor profundo e uma tristeza inesperada. Alegria e luto, às vezes na mesma hora. Você pode adorar o seu bebé de todo o coração e, ainda assim, sentir-se sobrecarregada, sozinha ou completamente diferente de si mesma. Nada disso faz de você uma mãe ruim. Faz de você uma mãe humana."
+            ]
+          },
+          {
+            "h": "Claro que os seus sentimentos são grandes",
+            "p": [
+              "Tanta coisa está a acontecer ao mesmo tempo. As suas hormonas estão a mudar drasticamente. Você está a viver com um sono interrompido. A sua identidade inteira está a ser reescrita em tempo real. Claro que os seus sentimentos são grandes. É suposto que sejam. E aqui vai uma coisa que ninguém diz vezes suficientes... você não precisa de se sentir grata a cada segundo para ser uma boa mãe."
+            ]
+          },
+          {
+            "h": "Duas coisas podem ser verdade",
+            "p": [
+              "Você tem o direito de achar isto difícil. Tem o direito de sentir saudade da sua vida antiga e de amar esta nova ao mesmo tempo. Duas coisas podem ser verdade. Nas próximas lições, vamos organizar gentilmente esses sentimentos juntas. O que é normal, o que merece um apoio extra e como ser mais gentil consigo mesma ao longo de tudo isto. Por agora, apenas respire, mamã. Você não está a falhar. Você está a sentir. E é exatamente assim que tem de ser."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Baby blues ou algo mais sério?",
+        "duration": "± 6 min",
+        "desc": "A diferença entre o baby blues normal e a depressão ou ansiedade pós-parto — os sinais a notar e quando procurar ajuda.",
+        "vedaPrompt": "Acabei de ver a Lição 2 do curso Suas emoções (baby blues ou algo mais sério). Pode me ajudar a entender se o que estou sentindo parece o baby blues normal ou algo de que eu deveria falar com um médico?",
+        "script": [
+          {
+            "h": "O baby blues",
+            "p": [
+              "Vamos falar de algo que quase todas as mamãs sentem mas poucas esperam... o baby blues. Nos primeiros dias após o parto, à medida que as suas hormonas despencam, é incrivelmente comum sentir-se chorosa, irritável, ansiosa ou simplesmente emocionalmente em carne viva. Você pode chorar por nada, ou por tudo. Isto afeta a maioria das novas mães, costuma atingir o auge por volta do terceiro ao quinto dia e tende a passar sozinho dentro de cerca de duas semanas. Isso é o baby blues, e é uma parte normal da adaptação."
+            ]
+          },
+          {
+            "h": "Quando é algo mais sério",
+            "p": [
+              "Mas, às vezes, esses sentimentos não passam... eles aprofundam-se e ficam mais pesados. É aqui que falamos gentilmente sobre a depressão e a ansiedade pós-parto. Os sinais a notar: um humor baixo ou um vazio que persiste na maior parte do dia, na maioria dos dias. Perder o interesse em coisas de que você costumava gostar. Ter dificuldade em criar laços com o seu bebé. Preocupação constante ou pensamentos acelerados. Dificuldade em dormir mesmo quando o seu bebé dorme. Sentimentos de culpa, de inutilidade ou de desesperança. Isto não é uma fraqueza, mamã, e definitivamente não é culpa sua. É uma condição médica real e perfeitamente tratável, e é muito mais comum do que você imagina."
+            ]
+          },
+          {
+            "h": "Como notar a diferença — e quando procurar ajuda",
+            "p": [
+              "A forma mais simples de notar a diferença é o tempo e o peso. O blues é breve e passa. A depressão e a ansiedade persistem e puxam você para baixo. Se os seus sentimentos durarem para além de duas semanas, ou se alguma vez parecerem assustadores ou pesados demais para carregar, por favor procure o seu médico ou parteira. E se você alguma vez tiver pensamentos de fazer mal a si mesma ou ao seu bebé, trate isso como urgente e procure ajuda imediatamente. Falar abertamente não é exagero. É coragem, e é o primeiro passo para voltar a sentir-se você mesma."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Sobrecarga, raiva e culpa",
+        "duration": "± 6 min",
+        "desc": "Os sentimentos que não publicamos — raiva, ressentimento e culpa — por que são humanos e o que fazer no momento mais difícil.",
+        "vedaPrompt": "Acabei de ver a Lição 3 do curso Suas emoções (sobrecarga, raiva e culpa). Tenho me sentido sobrecarregada e até com raiva às vezes — pode me ajudar a lidar com esses sentimentos sem tanta culpa?",
+        "script": [
+          {
+            "h": "Você não é um monstro",
+            "p": [
+              "Agora vamos falar dos sentimentos que não publicamos por aí... a sobrecarga, a raiva e a culpa. Porque, mamã, se você sentiu um lampejo de raiva quando o choro não para, ou uma onda de ressentimento às três da manhã, você não é um monstro. Você é um ser humano esgotado, no limite do toque, desgastado e a funcionar com as reservas no zero. A raiva na maternidade é real, e geralmente não tem a ver com o bebé. Tem a ver com estar tão completamente exausta e exigida, sem nada que sobre para si mesma."
+            ]
+          },
+          {
+            "h": "No momento mais difícil, está tudo bem em fazer uma pausa",
+            "p": [
+              "O mais importante é o que você faz com esse sentimento no momento mais difícil. Quando a sobrecarga sobe e você sente que está a chegar ao seu limite, está sempre tudo bem em fazer uma pausa. Deite o seu bebé num lugar seguro, como o berço, vá para outra divisão e respire devagar por um minuto ou dois. Um bebé a chorar em segurança no berço por um momento é completamente normal. Uma mãe à beira do limite precisa desse respiro, e afastar-se para se acalmar não é falhar... é proteger as duas."
+            ]
+          },
+          {
+            "h": "A culpa significa que você se importa",
+            "p": [
+              "E depois há a culpa, aquela voz a sussurrar que você não está a fazer o suficiente. Mamã, a culpa não é prova de que você está a fazer tudo errado. Mais frequentemente, é sinal de quão profundamente você se importa. Você não vai ser uma mãe calma e sorridente a cada hora de cada dia, e o seu bebé não precisa disso. Ele precisa de você, real e empenhada. Tente falar consigo mesma da forma como falaria com uma amiga querida no seu lugar... com paciência, não com punição. Você está a carregar tanta coisa. Claro que, às vezes, transborda."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Autocompaixão e pedir ajuda",
+        "duration": "± 6 min",
+        "desc": "Ser tão gentil consigo mesma quanto seria com uma amiga, proteger pequenos momentos de cuidado e deixar a sua rede entrar.",
+        "vedaPrompt": "Acabei de ver a Lição 4 do curso Suas emoções (autocompaixão e pedir ajuda). Pode me ajudar a ser mais gentil comigo mesma e a descobrir como pedir o apoio de que preciso?",
+        "script": [
+          {
+            "h": "Autocompaixão não é um luxo",
+            "p": [
+              "Está bem, mamã, esta lição é sobre aquilo em que tantas de nós somos péssimas... ser gentil connosco mesmas e deixar as outras pessoas entrarem. Vamos começar pela autocompaixão, porque ela não é um luxo. É o que mantém você de pé. Pense em como você consolaria a sua melhor amiga se ela estivesse onde você está. Você nunca a chamaria de preguiçosa nem diria que ela está a falhar. Você diria a ela que está a fazer um trabalho incrível em condições impossíveis. Mamã, você merece exatamente essas mesmas palavras."
+            ]
+          },
+          {
+            "h": "Baixe a fasquia de propósito",
+            "p": [
+              "Baixe a fasquia de propósito. Um bebé alimentado e uma mãe descansada já são um dia bem-sucedido. A roupa pode esperar. E tente proteger os mais pequenos momentos de cuidado consigo mesma... um banho quente, dez minutos de silêncio com uma chávena de chá, um passeio curto ao ar livre com o carrinho. Isto não é egoísmo. Você não consegue dar daquilo que não tem, e reabastecer-se nem que seja um pouco ajuda você a maternar a partir de um lugar mais firme."
+            ]
+          },
+          {
+            "h": "Deixe a sua rede entrar",
+            "p": [
+              "Agora, a parte difícil para tantas de nós... pedir ajuda. Existe este mito de que uma boa mãe faz tudo sozinha. Esse mito é exaustivo e simplesmente não é verdade. Os seres humanos nunca foram feitos para criar bebés em isolamento. Por isso, deixe as pessoas entrarem. Diga sim quando alguém se oferecer para segurar o bebé ou trazer uma refeição. E seja específica... peça ao seu companheiro para fazer a mamada da noite, peça a uma amiga para vir ficar consigo, peça à sua mãe para pôr uma máquina de roupa. As pessoas querem ajudar, mamã. Muitas vezes, elas só não sabem como até você lhes dizer. Apoiar-se na sua rede não faz de você fraca. Faz de você sábia."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Conexão e olhar em frente",
+        "duration": "± 6 min",
+        "desc": "Por que o vínculo cresce devagar, as coisas a guardar perto do coração e reparar nas pequenas vitórias à medida que a névoa se dissipa.",
+        "vedaPrompt": "Acabei de ver a Lição 5 do curso Suas emoções (conexão e olhar em frente). Pode me ajudar a sentir mais esperança em relação ao caminho à frente e a reparar nas pequenas vitórias dos meus dias com o meu bebé?",
+        "script": [
+          {
+            "h": "Esta fase não vai ser assim para sempre",
+            "p": [
+              "E aqui está a parte que eu realmente quero que você guarde, mamã... esta fase, com toda a sua intensidade, não vai ser assim para sempre. A névoa dissipa-se. Os dias vão encontrando, devagar, um ritmo. E a conexão que você está a construir, mesmo nos dias mais difíceis, está a crescer silenciosamente por baixo de tudo. Você não precisa de sentir um vínculo mágico no instante em que o seu bebé chega. Para muitas mães, o amor cresce nos pequenos momentos do dia a dia. As mamadas no meio da noite. A forma como ele se aconchega ao seu peito. Aquele primeiro sorriso de verdade, banguela, que tira o fôlego de você. O vínculo não é um único raio. É um tear lento e constante, e cada momento gentil é mais um fio."
+            ]
+          },
+          {
+            "h": "Algumas coisas para guardar perto do coração",
+            "p": [
+              "Por isso, ao olhar em frente, vamos guardar algumas coisas perto do coração. Os seus sentimentos, todos eles, são válidos e vão continuar a mudar. Você tem o direito de sentir alegria e ainda assim ter dias difíceis. Procurar apoio é um sinal de força, não de fracasso. E cuidar de si mesma faz parte de cuidar do seu bebé, nunca está separado disso."
+            ]
+          },
+          {
+            "h": "Repare nas pequenas vitórias",
+            "p": [
+              "Repare nas pequenas vitórias. Você acalmou um choro. Você atravessou uma longa noite. Você apareceu mais uma vez hoje. Esses momentos não são pequenos, mamã. Eles são tudo. Você é exatamente a mãe de que o seu bebé precisa. Não uma mãe perfeita... uma mãe real, amorosa e presente. Seja gentil consigo mesma nesta jornada. Você está a ir muito melhor do que imagina. E você nunca, jamais, está tão sozinha quanto se sente. Você consegue, mamã. Uma respiração, um momento, um dia de cada vez."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

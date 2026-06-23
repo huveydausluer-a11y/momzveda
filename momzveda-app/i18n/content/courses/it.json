@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Le tue emozioni",
+    "subtitle": "Una guida dolce ai tuoi sentimenti in gravidanza e nel postpartum · non sei sola",
+    "emoji": "💗",
+    "intro": "Cinque brevi videolezioni con Veda dedicate al lato emotivo della nuova maternità. Dal sapere che ogni emozione è lecita, al distinguere il normale baby blues da qualcosa di più, fino ad affrontare il senso di sopraffazione e di colpa, ritrovare la gentilezza verso te stessa e far crescere il vostro legame — con sincerità, dolcezza e senza giudizi. Guardale ogni volta che hai bisogno di una voce gentile, mama.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Ogni tua emozione è lecita",
+        "duration": "± 5 min",
+        "desc": "Perché l'enorme groviglio di emozioni dei primi tempi della maternità è normale — e perché non devi sentirti grata ogni singolo istante per essere una brava mamma.",
+        "vedaPrompt": "Ho appena visto la lezione 1 del corso Le tue emozioni (ogni tua emozione è lecita). Le mie emozioni mi sono sembrate travolgenti ultimamente — mi aiuti a capire cosa sto provando e a essere più gentile con me stessa?",
+        "script": [
+          {
+            "h": "Qualunque cosa tu stia provando è lecita",
+            "p": [
+              "Allora mama, prima di parlare di qualsiasi altra cosa, voglio che tu senta questo... qualunque cosa tu stia provando in questo momento è lecita. Le prime settimane e i primi mesi con un bimbo possono risvegliare il groviglio di emozioni più enorme che ci sia. Amore profondo e tristezza inaspettata. Gioia e dolore, a volte nella stessa identica ora. Puoi adorare il tuo bimbo con tutto il cuore e sentirti comunque sopraffatta, sola, o completamente diversa da te stessa. Niente di tutto questo fa di te una cattiva madre. Fa di te una madre umana."
+            ]
+          },
+          {
+            "h": "È normale che le tue emozioni siano enormi",
+            "p": [
+              "Sta succedendo così tanto tutto insieme. I tuoi ormoni stanno cambiando in modo travolgente. Vai avanti con un sonno spezzato. La tua intera identità si sta riscrivendo in tempo reale. È normale che le tue emozioni siano enormi. Devono esserlo. Ed ecco una cosa che nessuno dice abbastanza spesso... non devi sentirti grata ogni singolo secondo per essere una brava mamma."
+            ]
+          },
+          {
+            "h": "Due cose possono essere vere insieme",
+            "p": [
+              "Hai il diritto di trovarlo difficile. Hai il diritto di rimpiangere la tua vita di prima e di amare questa nuova vita allo stesso tempo. Due cose possono essere vere insieme. Nelle prossime lezioni faremo ordine tra questi sentimenti, con dolcezza e insieme. Cosa è normale, cosa merita un sostegno in più, e come essere più gentile con te stessa in tutto questo. Per ora, fai solo un respiro, mama. Non stai fallendo. Stai sentendo. Ed è esattamente così che deve essere."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Baby blues o qualcosa di più?",
+        "duration": "± 6 min",
+        "desc": "La differenza tra il normale baby blues e la depressione o l'ansia postnatale — i segnali a cui prestare attenzione e quando chiedere aiuto.",
+        "vedaPrompt": "Ho appena visto la lezione 2 del corso Le tue emozioni (baby blues o qualcosa di più). Mi aiuti a capire se quello che provo somiglia al normale baby blues o a qualcosa di cui dovrei parlare con un medico?",
+        "script": [
+          {
+            "h": "Il baby blues",
+            "p": [
+              "Parliamo di qualcosa che quasi tutte le mamme provano ma in poche se lo aspettano... il baby blues. Nei primi giorni dopo il parto, mentre gli ormoni crollano di colpo, è incredibilmente comune sentirsi piene di lacrime, irritabili, ansiose, o semplicemente a fior di pelle. Potresti piangere per niente, o per tutto. Riguarda la maggior parte delle nuove mamme, di solito raggiunge il culmine intorno al terzo o quinto giorno, e tende a passare da solo nel giro di un paio di settimane. Questo è il baby blues, ed è una parte normale dell'adattamento."
+            ]
+          },
+          {
+            "h": "Quando è qualcosa di più",
+            "p": [
+              "Ma a volte quei sentimenti non svaniscono... mettono radici e diventano sempre più pesanti. È qui che parliamo, con dolcezza, della depressione e dell'ansia postnatale. I segnali a cui prestare attenzione: un umore basso o un senso di vuoto che persiste per gran parte della giornata, quasi tutti i giorni. La perdita di interesse per le cose che prima ti piacevano. La fatica a creare un legame con il tuo bimbo. Una preoccupazione costante o pensieri che corrono senza sosta. La difficoltà a dormire anche quando il tuo bimbo dorme. Sentimenti di colpa, di inutilità o di disperazione. Questa non è una debolezza, mama, e non è assolutamente colpa tua. È una condizione medica reale e molto curabile, ed è molto più comune di quanto pensi."
+            ]
+          },
+          {
+            "h": "Come riconoscere la differenza — e quando chiedere aiuto",
+            "p": [
+              "Il modo più semplice per riconoscere la differenza è il tempo e il peso. Il blues è breve e passa. La depressione e l'ansia persistono e ti trascinano verso il basso. Se i tuoi sentimenti durano oltre le due settimane, o se mai ti sembrano spaventosi o troppo pesanti da portare, ti prego, rivolgiti al tuo medico o alla tua ostetrica. E se mai dovessi avere pensieri di fare del male a te stessa o al tuo bimbo, trattalo come un'urgenza e chiedi aiuto subito. Parlarne non è esagerare. È un atto di coraggio, ed è il primo passo per tornare a sentirti te stessa."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Sopraffazione, rabbia e senso di colpa",
+        "duration": "± 6 min",
+        "desc": "I sentimenti di cui non parliamo sui social — la rabbia, il risentimento e il senso di colpa — perché sono umani, e cosa fare nel momento più difficile.",
+        "vedaPrompt": "Ho appena visto la lezione 3 del corso Le tue emozioni (sopraffazione, rabbia e senso di colpa). Mi sono sentita sopraffatta e a volte persino arrabbiata — mi aiuti a gestire questi sentimenti senza tanto senso di colpa?",
+        "script": [
+          {
+            "h": "Non sei un mostro",
+            "p": [
+              "Adesso parliamo dei sentimenti di cui non parliamo sui social... la sopraffazione, la rabbia e il senso di colpa. Perché mama, se hai provato un lampo di rabbia quando il pianto non si fermava, o un'ondata di risentimento alle tre del mattino, non sei un mostro. Sei un essere umano svuotato, sopraffatto dal contatto continuo, logorato e ormai a secco. La rabbia nella maternità è reale, e di solito non riguarda davvero il bimbo. Riguarda l'essere così totalmente esausta e tirata da ogni parte, senza più nulla rimasto per te stessa."
+            ]
+          },
+          {
+            "h": "Nel momento più difficile, va bene fermarsi",
+            "p": [
+              "La cosa più importante è ciò che fai di quel sentimento nel momento più difficile. Quando la sopraffazione cresce e senti di essere arrivata al limite, va sempre bene fermarsi. Posa il tuo bimbo in un posto sicuro, come la sua culla, esci in un'altra stanza, e fai qualche respiro lento per un minuto o due. Un bimbo che piange al sicuro nella sua culla per un momento va benissimo. Un genitore al punto di rottura ha bisogno di quella pausa, e allontanarti per calmarti non è fallire... è proteggere entrambi."
+            ]
+          },
+          {
+            "h": "Il senso di colpa significa che ci tieni",
+            "p": [
+              "E poi c'è il senso di colpa, quella voce che ti sussurra che non stai facendo abbastanza. Mama, il senso di colpa non è la prova che stai sbagliando. Molto più spesso è il segno di quanto profondamente ci tieni. Non sarai un genitore calmo e sorridente ogni ora di ogni giorno, e il tuo bimbo non ne ha bisogno. Ha bisogno di te, vera e che ci prova. Prova a parlare a te stessa come parleresti a una cara amica nei tuoi panni... con pazienza, non con punizioni. Stai portando così tanto. È normale che ogni tanto trabocchi."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Gentilezza verso te stessa e chiedere aiuto",
+        "duration": "± 6 min",
+        "desc": "Essere gentile con te stessa come lo saresti con un'amica, proteggere piccoli spazi di cura, e lasciar entrare la tua rete di sostegno.",
+        "vedaPrompt": "Ho appena visto la lezione 4 del corso Le tue emozioni (gentilezza verso te stessa e chiedere aiuto). Mi aiuti a essere più gentile con me stessa e a capire come chiedere il sostegno di cui ho bisogno?",
+        "script": [
+          {
+            "h": "La gentilezza verso te stessa non è un lusso",
+            "p": [
+              "Allora mama, questa lezione parla della cosa in cui tante di noi sono pessime... essere gentili con noi stesse, e lasciar entrare gli altri. Cominciamo dalla gentilezza verso te stessa, perché non è un lusso. È ciò che ti permette di andare avanti. Pensa a come consoleresti la tua migliore amica se fosse al posto tuo. Non la chiameresti mai pigra né le diresti che sta fallendo. Le diresti che sta facendo un lavoro incredibile in condizioni impossibili. Mama, ti meriti esattamente quelle stesse parole."
+            ]
+          },
+          {
+            "h": "Abbassa l'asticella di proposito",
+            "p": [
+              "Abbassa l'asticella di proposito. Un bimbo nutrito e una mamma che riposa sono una giornata riuscita. Il bucato può aspettare. E prova a proteggere i più piccoli spazi di cura per te stessa... una doccia calda, dieci minuti tranquilli con una tazza di tè, una breve passeggiata all'aria aperta con la carrozzina. Non sono egoismo. Non puoi versare da una tazza vuota, e riempirla anche solo un po' ti aiuta a fare la mamma da un punto più saldo."
+            ]
+          },
+          {
+            "h": "Lascia entrare la tua rete di sostegno",
+            "p": [
+              "Ora, la parte difficile per così tante di noi... chiedere aiuto. C'è questo mito secondo cui una brava madre fa tutto da sola. Quel mito è sfiancante e semplicemente non è vero. Gli esseri umani non sono mai stati fatti per crescere i bimbi nell'isolamento. Quindi lascia entrare le persone. Di' di sì quando qualcuno si offre di tenere il bimbo o di portarti da mangiare. E sii precisa... chiedi al tuo compagno di occuparsi della poppata notturna, chiedi a un'amica di venire a starti vicino, chiedi a tua mamma di mettere su una lavatrice. Le persone vogliono aiutare, mama. Spesso semplicemente non sanno come, finché non glielo dici. Appoggiarti alla tua rete di sostegno non ti rende debole. Ti rende saggia."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Il legame e lo sguardo al futuro",
+        "duration": "± 6 min",
+        "desc": "Perché il legame cresce lentamente, le cose da tenere strette, e notare le piccole conquiste mentre la nebbia si dirada.",
+        "vedaPrompt": "Ho appena visto la lezione 5 del corso Le tue emozioni (il legame e lo sguardo al futuro). Mi aiuti a sentirmi più fiduciosa per la strada che ho davanti e a notare le piccole conquiste nelle mie giornate con il mio bimbo?",
+        "script": [
+          {
+            "h": "Questa stagione non sarà così per sempre",
+            "p": [
+              "Ed ecco la parte che voglio davvero che tu tenga stretta, mama... questa stagione, con tutta la sua intensità, non sarà così per sempre. La nebbia si dirada. Le giornate trovano lentamente un ritmo. E il legame che stai costruendo, anche nei giorni più duri, sta crescendo in silenzio sotto tutto questo. Non devi sentire un legame magico nell'istante in cui arriva il tuo bimbo. Per molte mamme, l'amore cresce nei piccoli momenti di ogni giorno. Le poppate nel cuore della notte. Il modo in cui si accoccola sul tuo petto. Quel primo vero sorriso sdentato che ti toglie il fiato. Il legame non è un singolo fulmine. È un intreccio lento e costante, e ogni momento di dolcezza è un altro filo."
+            ]
+          },
+          {
+            "h": "Qualche cosa da tenere stretta",
+            "p": [
+              "Quindi, mentre guardi avanti, teniamo strette alcune cose. I tuoi sentimenti, tutti quanti, sono validi e continueranno a cambiare. Hai il diritto di provare gioia e di avere comunque giornate difficili. Chiedere sostegno è un segno di forza, non di fallimento. E prenderti cura di te stessa è parte del prenderti cura del tuo bimbo, mai una cosa separata da esso."
+            ]
+          },
+          {
+            "h": "Nota le piccole conquiste",
+            "p": [
+              "Nota le piccole conquiste. Hai calmato un pianto. Sei arrivata in fondo a una lunga notte. Anche oggi ci sei stata. Quei momenti non sono piccoli, mama. Sono tutto. Sei esattamente la mamma di cui il tuo bimbo ha bisogno. Non una mamma perfetta... una mamma vera, amorevole, presente. Sii gentile con te stessa in questo cammino. Te la stai cavando molto meglio di quanto tu creda. E non sei mai, mai così sola come ti senti. Ce la fai, mama. Un respiro, un momento, un giorno alla volta."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

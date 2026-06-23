@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Tus emociones",
+    "subtitle": "Una guía suave para tus sentimientos en el embarazo y el posparto · no estás sola",
+    "emoji": "💗",
+    "intro": "Cinco lecciones cortas en vídeo con Veda para el lado emocional de la nueva maternidad. Desde saber que cada sentimiento está permitido, hasta distinguir la melancolía posparto normal de algo más serio, pasando por afrontar el agobio y la culpa, encontrar autocompasión y hacer crecer tu vínculo — con honestidad, suavidad y sin juicios. Míralas siempre que necesites una voz amable, mamá.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Todos tus sentimientos están permitidos",
+        "duration": "± 5 min",
+        "desc": "Por qué la enorme mezcla de emociones de los primeros tiempos de la maternidad es normal — y por qué no tienes que sentirte agradecida cada segundo para ser una buena mamá.",
+        "vedaPrompt": "Acabo de ver la lección 1 del curso Tus emociones (todos tus sentimientos están permitidos). Mis emociones se han sentido abrumadoras últimamente — ¿puedes ayudarme a entender lo que siento y a ser más amable conmigo misma?",
+        "script": [
+          {
+            "h": "Sea lo que sea que sientas, está permitido",
+            "p": [
+              "Vale, mamá, antes de hablar de nada más, quiero que escuches esto... sea lo que sea que estés sintiendo ahora mismo, está permitido. Las primeras semanas y meses con un bebé pueden remover la mezcla de emociones más enorme. Amor profundo y tristeza inesperada. Alegría y duelo, a veces en la misma hora. Puedes adorar a tu bebé con todo tu corazón y aun así sentirte desbordada, sola o completamente desconocida para ti misma. Nada de eso te convierte en una mala madre. Te convierte en una madre humana."
+            ]
+          },
+          {
+            "h": "Claro que tus sentimientos son intensos",
+            "p": [
+              "Están pasando muchísimas cosas a la vez. Tus hormonas están cambiando de forma drástica. Funcionas con un sueño hecho pedazos. Toda tu identidad se está reescribiendo en tiempo real. Claro que tus sentimientos son intensos. Es lo que tiene que pasar. Y aquí va algo que nadie dice lo suficiente... no tienes que sentirte agradecida cada segundo para ser una buena mamá."
+            ]
+          },
+          {
+            "h": "Dos cosas pueden ser ciertas a la vez",
+            "p": [
+              "Tienes derecho a que esto te resulte difícil. Tienes derecho a echar de menos tu vida de antes y a amar esta nueva al mismo tiempo. Dos cosas pueden ser ciertas a la vez. En las lecciones que vienen, iremos ordenando estos sentimientos juntas, con suavidad. Qué es normal, qué merece un apoyo extra, y cómo ser más amable contigo misma a través de todo ello. Por ahora, solo respira, mamá. No estás fracasando. Estás sintiendo. Y eso es exactamente como debe ser."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "¿Melancolía posparto o algo más?",
+        "duration": "± 6 min",
+        "desc": "La diferencia entre la melancolía posparto normal y la depresión o ansiedad posnatal — las señales que conviene notar y cuándo pedir ayuda.",
+        "vedaPrompt": "Acabo de ver la lección 2 del curso Tus emociones (melancolía posparto o algo más). ¿Puedes ayudarme a entender si lo que siento suena a la melancolía posparto normal o a algo de lo que debería hablar con un médico?",
+        "script": [
+          {
+            "h": "La melancolía posparto",
+            "p": [
+              "Hablemos de algo que casi todas las mamás sienten pero pocas esperan... la melancolía posparto. En los primeros días después del parto, mientras tus hormonas caen en picado, es increíblemente común sentirse llorosa, irritable, ansiosa o simplemente a flor de piel. Puede que llores por nada, o por todo. Esto les pasa a la mayoría de las mamás recientes, suele alcanzar su punto máximo entre el tercer y el quinto día, y tiende a disiparse por sí sola en unas dos semanas. Eso es la melancolía posparto, y es una parte normal de la adaptación."
+            ]
+          },
+          {
+            "h": "Cuándo es algo más",
+            "p": [
+              "Pero a veces esos sentimientos no se desvanecen... se afianzan y se vuelven más pesados. Aquí es donde hablamos, con suavidad, de la depresión y la ansiedad posnatal. Las señales que conviene notar: un ánimo bajo o una sensación de vacío que persiste casi todo el día, casi todos los días. Perder el interés por cosas que antes disfrutabas. Costarte vincularte con tu bebé. Preocupación constante o pensamientos acelerados. Problemas para dormir incluso cuando tu bebé duerme. Sentimientos de culpa, de no valer nada o de desesperanza. Esto no es una debilidad, mamá, y desde luego no es culpa tuya. Es una condición médica real y muy tratable, y es mucho más común de lo que crees."
+            ]
+          },
+          {
+            "h": "Cómo notar la diferencia — y cuándo pedir ayuda",
+            "p": [
+              "La forma más sencilla de notar la diferencia es el tiempo y el peso. La melancolía es breve y se levanta. La depresión y la ansiedad persisten y tiran de ti hacia abajo. Si tus sentimientos duran más de dos semanas, o si en algún momento te resultan aterradores o demasiado pesados de cargar, por favor, acude a tu médico o tu matrona. Y si alguna vez tienes pensamientos de hacerte daño a ti misma o a tu bebé, trátalo como una urgencia y busca ayuda de inmediato. Hablar no es exagerar. Es de valientes, y es el primer paso para volver a sentirte tú misma."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Agobio, enfado y culpa",
+        "duration": "± 6 min",
+        "desc": "Los sentimientos de los que no publicamos en redes — la rabia, el resentimiento y la culpa — por qué son humanos, y qué hacer en el momento de mayor tensión.",
+        "vedaPrompt": "Acabo de ver la lección 3 del curso Tus emociones (agobio, enfado y culpa). Me he estado sintiendo desbordada e incluso enfadada a veces — ¿puedes ayudarme a sobrellevar estos sentimientos sin tanta culpa?",
+        "script": [
+          {
+            "h": "No eres un monstruo",
+            "p": [
+              "Ahora hablemos de los sentimientos de los que no publicamos en redes... el agobio, el enfado y la culpa. Porque, mamá, si has sentido un destello de rabia cuando el llanto no para, o una ola de resentimiento a las tres de la madrugada, no eres un monstruo. Eres un ser humano agotado, sin batería, sobreestimulada y funcionando con las reservas vacías. El enfado en la maternidad es real, y casi nunca tiene que ver de verdad con el bebé. Tiene que ver con estar tan absolutamente exhausta y estirada que no te queda nada para ti."
+            ]
+          },
+          {
+            "h": "En el momento de tensión, está bien hacer una pausa",
+            "p": [
+              "Lo más importante es qué haces con ese sentimiento en el momento de mayor tensión. Cuando el agobio sube y notas que estás llegando a tu límite, siempre está bien hacer una pausa. Deja a tu bebé en un lugar seguro, como su cuna, sal a otra habitación y respira despacio durante uno o dos minutos. Un bebé llorando a salvo en su cuna durante un momento está completamente bien. Una madre al borde de su límite necesita ese respiro, y alejarte para calmarte no es fallar... es protegeros a las dos."
+            ]
+          },
+          {
+            "h": "La culpa significa que te importa",
+            "p": [
+              "Y luego está la culpa, esa voz que susurra que no estás haciendo lo suficiente. Mamá, la culpa no es una prueba de que lo estés haciendo mal. Más bien suele ser una señal de lo profundamente que te importa. No vas a ser una madre tranquila y sonriente cada hora de cada día, y tu bebé no necesita eso. Te necesita a ti, real y haciendo lo que puedes. Intenta hablarte como le hablarías a una buena amiga en tu lugar... con paciencia, no con castigo. Estás cargando con muchísimo. Claro que a veces se desborda."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Autocompasión y pedir ayuda",
+        "duration": "± 6 min",
+        "desc": "Ser tan amable contigo misma como lo serías con una amiga, proteger pequeños espacios de cuidado, y dejar entrar a tu tribu.",
+        "vedaPrompt": "Acabo de ver la lección 4 del curso Tus emociones (autocompasión y pedir ayuda). ¿Puedes ayudarme a ser más amable conmigo misma y a descubrir cómo pedir el apoyo que necesito?",
+        "script": [
+          {
+            "h": "La autocompasión no es un lujo",
+            "p": [
+              "Vale, mamá, esta lección trata sobre eso en lo que tantas de nosotras somos peores... ser amables con nosotras mismas y dejar entrar a los demás. Empecemos por la autocompasión, porque no es un lujo. Es lo que te permite seguir adelante. Piensa en cómo consolarías a tu mejor amiga si estuviera donde estás tú. Nunca la llamarías vaga ni le dirías que está fracasando. Le dirías que está haciendo un trabajo increíble en condiciones imposibles. Mamá, tú mereces exactamente esas mismas palabras."
+            ]
+          },
+          {
+            "h": "Baja el listón a propósito",
+            "p": [
+              "Baja el listón a propósito. Un bebé alimentado y una madre que ha descansado es un día logrado. La colada puede esperar. E intenta proteger los espacios más pequeños de cuidado para ti misma... una ducha caliente, diez minutos tranquilos con una taza de té, un paseo corto al aire libre con el cochecito. Esto no es egoísmo. No puedes dar de una taza vacía, y rellenarla aunque sea un poco te ayuda a maternar desde un lugar más firme."
+            ]
+          },
+          {
+            "h": "Deja entrar a tu tribu",
+            "p": [
+              "Ahora, la parte difícil para tantas de nosotras... pedir ayuda. Existe ese mito de que una buena madre lo hace todo sola. Ese mito es agotador y, sencillamente, no es cierto. Los seres humanos nunca estuvimos hechos para criar bebés en aislamiento. Así que deja entrar a la gente. Di que sí cuando alguien se ofrezca a sostener al bebé o a traerte comida. Y sé concreta... pídele a tu pareja que se encargue de la toma nocturna, pídele a una amiga que venga a hacerte compañía, pídele a tu madre que ponga una lavadora. La gente quiere ayudar, mamá. Muchas veces solo no saben cómo hasta que se lo dices. Apoyarte en tu tribu no te hace débil. Te hace sabia."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "El vínculo y mirar hacia delante",
+        "duration": "± 6 min",
+        "desc": "Por qué el vínculo crece despacio, las cosas que conviene tener presentes, y notar las pequeñas victorias a medida que la niebla se levanta.",
+        "vedaPrompt": "Acabo de ver la lección 5 del curso Tus emociones (el vínculo y mirar hacia delante). ¿Puedes ayudarme a sentir más esperanza ante el camino que viene y a notar las pequeñas victorias en mis días con mi bebé?",
+        "script": [
+          {
+            "h": "Esta etapa no se va a sentir así para siempre",
+            "p": [
+              "Y aquí viene la parte que de verdad quiero que guardes, mamá... esta etapa, con toda su intensidad, no se va a sentir así para siempre. La niebla se levanta. Los días encuentran poco a poco su ritmo. Y el vínculo que estás construyendo, incluso en los días más difíciles, está creciendo en silencio por debajo de todo. No tienes que sentir un vínculo mágico en el instante en que llega tu bebé. Para muchas madres, el amor crece en los pequeños momentos cotidianos. Las tomas en mitad de la noche. La forma en que se acurruca contra tu pecho. Esa primera sonrisa de verdad, sin dientes, que te deja sin aliento. Vincularse no es un único rayo de luz. Es un tejido lento y constante, y cada momento tierno es otro hilo."
+            ]
+          },
+          {
+            "h": "Unas cuantas cosas para tener presentes",
+            "p": [
+              "Así que, mientras miras hacia delante, tengamos presentes unas cuantas cosas. Tus sentimientos, todos ellos, son válidos y seguirán cambiando. Tienes derecho a encontrar alegría y aun así tener días difíciles. Buscar apoyo es una señal de fortaleza, no de fracaso. Y cuidarte a ti misma es parte de cuidar a tu bebé, nunca algo separado de ello."
+            ]
+          },
+          {
+            "h": "Nota las pequeñas victorias",
+            "p": [
+              "Nota las pequeñas victorias. Calmaste un llanto. Superaste una noche larga. Volviste a estar presente hoy. Esos momentos no son pequeños, mamá. Lo son todo. Eres exactamente la madre que tu bebé necesita. No una madre perfecta... una madre real, amorosa y presente. Sé amable contigo misma en este camino. Lo estás haciendo mucho mejor de lo que crees. Y nunca, jamás, estás tan sola como te sientes. Tú puedes con esto, mamá. Una respiración, un momento, un día a la vez."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

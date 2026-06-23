@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Duyguların",
+    "subtitle": "Hamilelikte ve doğum sonrası duygularına yönelik nazik bir rehber · yalnız değilsin",
+    "emoji": "💗",
+    "intro": "Anne olmanın duygusal yanı için Veda ile beş kısa video ders. Her duygunun yerinde olduğunu bilmekten, normal lohusalık hüznünü daha derin bir şeyden ayırt etmeye; bunalmayla ve suçlulukla yüzleşmekten, kendine şefkat göstermeye ve bağınızı büyütmeye kadar — dürüst, nazik ve yargısız. Şefkatli bir sese ihtiyaç duyduğun her an izleyebilirsin, anne.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Bütün Duyguların Yerinde",
+        "duration": "± 5 dk",
+        "desc": "Anneliğin ilk dönemindeki o büyük duygu karmaşasının neden normal olduğu — ve iyi bir anne olmak için her saniye minnettar hissetmen gerekmediği.",
+        "vedaPrompt": "Duyguların kursunun 1. dersini yeni izledim (bütün duyguların yerinde). Son zamanlarda duygularım çok yoğun hissettiriyor — ne hissettiğimi anlamama ve kendime daha şefkatli davranmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Ne hissedersen hisset, yerinde",
+            "p": [
+              "Tamam anne, başka bir şey konuşmadan önce şunu duymanı istiyorum... şu an ne hissediyorsan, hissetmen yerinde. Bir bebekle geçen ilk haftalar ve aylar, insanın içinde kocaman bir duygu karmaşası uyandırabilir. Derin bir sevgi ve beklenmedik bir hüzün. Bazen aynı saatin içinde hem sevinç hem de keder. Bebeğine tüm kalbinle hayran olabilir ve yine de bunalmış, yalnız ya da hiç kendin gibi hissetmiyor olabilirsin. Bunların hiçbiri seni kötü bir anne yapmaz. Sadece insan olduğunu gösterir."
+            ]
+          },
+          {
+            "h": "Duygularının büyük olması çok doğal",
+            "p": [
+              "Aynı anda o kadar çok şey oluyor ki. Hormonların büyük bir hızla değişiyor. Bölük pörçük uykuyla ayakta duruyorsun. Bütün kimliğin gözünün önünde yeniden yazılıyor. Duygularının büyük olması elbette çok doğal. Öyle olması gerekiyor zaten. Ve kimsenin yeterince dile getirmediği bir şey var... iyi bir anne olmak için her saniye minnettar hissetmen gerekmiyor."
+            ]
+          },
+          {
+            "h": "İki şey aynı anda doğru olabilir",
+            "p": [
+              "Bunu zor bulmaya hakkın var. Hem eski hayatını özleyip hem de bu yenisini sevmeye hakkın var. İki şey aynı anda doğru olabilir. Önümüzdeki derslerde bu duyguları birlikte nazikçe ayıklayacağız. Neyin normal olduğunu, neyin biraz daha fazla destek gerektirdiğini ve tüm bunların içinde kendine nasıl daha şefkatli davranabileceğini. Şimdilik sadece bir nefes al, anne. Başarısız olmuyorsun. Hissediyorsun. Ve tam olması gerektiği gibi."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Lohusalık Hüznü mü, Daha Fazlası mı?",
+        "duration": "± 6 dk",
+        "desc": "Normal lohusalık hüznü ile doğum sonrası depresyon veya kaygı arasındaki fark — dikkat edilmesi gereken belirtiler ve ne zaman yardım istenmeli.",
+        "vedaPrompt": "Duyguların kursunun 2. dersini yeni izledim (lohusalık hüznü mü, daha fazlası mı). Hissettiklerimin normal lohusalık hüznü mü yoksa bir doktorla konuşmam gereken bir şey mi olduğunu anlamama yardım eder misin?",
+        "script": [
+          {
+            "h": "Lohusalık hüznü",
+            "p": [
+              "Çoğu annenin yaşadığı ama pek azının beklediği bir şeyden bahsedelim... lohusalık hüznü. Doğumdan sonraki ilk günlerde, hormonların hızla düşerken kendini ağlamaklı, sinirli, kaygılı ya da duygusal olarak çok kırılgan hissetmen son derece yaygındır. Hiçbir şeye, ya da her şeye ağlayabilirsin. Bu, yeni annelerin çoğunu etkiler, genellikle üçüncü ile beşinci günler arasında doruğa ulaşır ve çoğunlukla iki hafta içinde kendiliğinden geçer. İşte bu lohusalık hüznüdür ve uyum sürecinin normal bir parçasıdır."
+            ]
+          },
+          {
+            "h": "Daha fazlası olduğunda",
+            "p": [
+              "Ama bazen bu duygular geçmez... iyice yerleşir ve daha da ağırlaşır. İşte burada doğum sonrası depresyon ve kaygı üzerine nazikçe konuşuyoruz. Dikkat edilmesi gereken belirtiler: günün çoğunda, çoğu gün süren düşük bir ruh hâli ya da bir boşluk hissi. Eskiden keyif aldığın şeylere olan ilgini kaybetmek. Bebeğinle bağ kurmakta zorlanmak. Sürekli endişe ya da hızla akan düşünceler. Bebeğin uyuduğunda bile uyuyamamak. Suçluluk, değersizlik ya da umutsuzluk duyguları. Bu bir zayıflık değil, anne, ve kesinlikle senin suçun değil. Gerçek ve tedavi edilebilir tıbbi bir durumdur, üstelik düşündüğünden çok daha yaygındır."
+            ]
+          },
+          {
+            "h": "Farkı nasıl anlarsın — ve ne zaman yardım istemeli",
+            "p": [
+              "Farkı anlamanın en basit yolu süre ve ağırlıktır. Hüzün kısa sürer ve geçer. Depresyon ve kaygı ise kalıcıdır ve seni aşağı çeker. Eğer duyguların iki haftadan uzun sürüyorsa, ya da bir an bile korkutucu veya taşınamayacak kadar ağır geliyorsa, lütfen doktoruna ya da ebene başvur. Ve eğer kendine ya da bebeğine zarar verme düşüncelerin olursa, bunu acil bir durum olarak gör ve hemen yardım al. Sesini yükseltmek abartı değildir. Cesarettir ve yeniden kendin gibi hissetmeye doğru atılan ilk adımdır."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Bunalma, Öfke ve Suçluluk",
+        "duration": "± 6 dk",
+        "desc": "Paylaşımlarda yer vermediğimiz duygular — öfke, kızgınlık ve suçluluk — bunların neden insanca olduğu ve o kızgın anda ne yapılacağı.",
+        "vedaPrompt": "Duyguların kursunun 3. dersini yeni izledim (bunalma, öfke ve suçluluk). Son zamanlarda kendimi bunalmış, hatta bazen öfkeli hissediyorum — bu duygularla bu kadar çok suçluluk duymadan başa çıkmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Sen bir canavar değilsin",
+            "p": [
+              "Şimdi paylaşımlarda yer vermediğimiz duygulardan konuşalım... bunalma, öfke ve suçluluk. Çünkü anne, ağlama bir türlü dinmediğinde içinde bir öfke parlamışsa ya da gecenin üçünde bir kızgınlık dalgası gelmişse, sen bir canavar değilsin. Sen tükenmiş, kendine ayıracak gücü kalmamış, yıpranmış ve bitkin bir insansın. Annelikte öfke gerçektir ve çoğu zaman aslında bebekle ilgili değildir. Sınırına dek yorgun, kendine hiçbir şey kalmayacak kadar gerilmiş olmakla ilgilidir."
+            ]
+          },
+          {
+            "h": "O kızgın anda durmak yerindedir",
+            "p": [
+              "En önemli olan, o kızgın anda bu duyguyla ne yaptığındır. Bunalma yükseldiğinde ve kendini sınırına geliyor hissettiğinde, durmak her zaman yerindedir. Bebeğini güvenli bir yere, örneğin beşiğine yatır, başka bir odaya geç ve bir iki dakika boyunca yavaş yavaş birkaç nefes al. Güvenle yatağında bir an ağlayan bir bebek tamamen yolundadır. Kopma noktasındaki bir ebeveynin ise bu molaya ihtiyacı vardır; sakinleşmek için kenara çekilmek başarısızlık değildir... bu, ikinizi de korumaktır."
+            ]
+          },
+          {
+            "h": "Suçluluk, önemsediğini gösterir",
+            "p": [
+              "Bir de o suçluluk var, kulağına yeterince çabalamadığını fısıldayan o ses. Anne, suçluluk yanlış yaptığının kanıtı değildir. Çoğu zaman ne kadar derinden önemsediğinin bir işaretidir. Her günün her saatinde sakin, gülümseyen bir ebeveyn olmayacaksın ve bebeğinin buna ihtiyacı da yok. Onun ihtiyacı sensin, gerçek ve çabalayan hâlinle. Kendine, senin yerinde olan değerli bir arkadaşınla konuşur gibi davranmaya çalış... ceza vererek değil, sabırla. O kadar çok şey taşıyorsun ki. Arada taşması elbette çok doğal."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Kendine Şefkat ve Yardım İstemek",
+        "duration": "± 6 dk",
+        "desc": "Bir arkadaşına davranır gibi kendine de şefkatli olmak, küçük ilgi anlarını korumak ve çevreni içeri buyur etmek.",
+        "vedaPrompt": "Duyguların kursunun 4. dersini yeni izledim (kendine şefkat ve yardım istemek). Kendime daha şefkatli davranmama ve ihtiyacım olan desteği nasıl isteyeceğimi bulmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Kendine şefkat bir lüks değil",
+            "p": [
+              "Tamam anne, bu ders çoğumuzun en zorlandığı şeyle ilgili... kendimize şefkatli davranmak ve başkalarını içeri buyur etmek. Kendine şefkatle başlayalım, çünkü o bir lüks değil. Ayakta kalmanın yolu o. En yakın arkadaşın senin yerinde olsaydı onu nasıl teselli ederdin, bir düşün. Ona asla tembel demez ya da başarısız olduğunu söylemezdin. Ona, imkânsız koşullar altında inanılmaz bir iş çıkardığını söylerdin. Anne, sen de aynı sözleri hak ediyorsun."
+            ]
+          },
+          {
+            "h": "Çıtayı bilerek indir",
+            "p": [
+              "Çıtayı bilerek indir. Karnı doymuş bir bebek ve dinlenmiş bir anne, başarılı bir gün demektir. Çamaşır bekleyebilir. Ve kendine ayıracağın en küçük ilgi anlarını korumaya çalış... ılık bir duş, bir fincan çayla on sessiz dakika, bebek arabasıyla temiz havada kısa bir yürüyüş. Bunlar bencillik değil. Boş bir bardaktan dolduramazsın ve azıcık bile olsa yeniden dolmak, anneliği daha sağlam bir yerden yapmana yardım eder."
+            ]
+          },
+          {
+            "h": "Çevreni içeri buyur et",
+            "p": [
+              "Şimdi de çoğumuz için zor olan kısma gelelim... yardım istemek. İyi bir annenin her şeyi tek başına yaptığına dair bir efsane var. Bu efsane yorucudur ve hiç de doğru değildir. İnsanlar bebekleri asla yalnız başına büyütmek için yaratılmadı. O yüzden insanları içeri buyur et. Biri bebeği tutmayı ya da yemek getirmeyi teklif ettiğinde evet de. Ve net ol... eşinden gece beslemesini üstlenmesini iste, bir arkadaşından gelip yanında oturmasını iste, annenden bir makine çamaşır yıkamasını iste. İnsanlar yardım etmek istiyor, anne. Çoğu zaman sen söyleyene kadar nasıl yardım edeceklerini bilmiyorlar sadece. Çevrene yaslanmak seni zayıf yapmaz. Akıllı yapar."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Bağ Kurmak ve İleriye Bakmak",
+        "duration": "± 6 dk",
+        "desc": "Bağın neden yavaş yavaş büyüdüğü, sımsıkı tutulacak şeyler ve sis dağılırken küçük zaferleri fark etmek.",
+        "vedaPrompt": "Duyguların kursunun 5. dersini yeni izledim (bağ kurmak ve ileriye bakmak). Önümdeki yol için daha umutlu hissetmeme ve bebeğimle geçen günlerimdeki küçük zaferleri fark etmeme yardım eder misin?",
+        "script": [
+          {
+            "h": "Bu dönem her zaman böyle hissettirmeyecek",
+            "p": [
+              "Ve sımsıkı tutmanı gerçekten istediğim kısım şu, anne... tüm yoğunluğuyla bu dönem, her zaman böyle hissettirmeyecek. Sis dağılır. Günler yavaş yavaş bir düzene kavuşur. Ve kurmakta olduğun bağ, en zor günlerde bile, tüm bunların altında sessizce büyüyor. Bebeğin gelir gelmez sihirli bir bağ hissetmek zorunda değilsin. Pek çok anne için sevgi, küçük, sıradan anlarda büyür. Gecenin ortasındaki beslemeler. Bebeğin göğsüne yaslanışı. Soluğunu kesen o ilk gerçek, dişsiz gülümseme. Bağ kurmak tek bir şimşek çakması değildir. Yavaş, sabırlı bir dokumadır ve her nazik an, başka bir iplik ekler."
+            ]
+          },
+          {
+            "h": "Sımsıkı tutulacak birkaç şey",
+            "p": [
+              "Bu yüzden ileriye bakarken, birkaç şeyi yanımızda tutalım. Duyguların, hepsi, geçerlidir ve değişmeye devam edecekler. Hem sevinç bulup hem de zor günler yaşamaya hakkın var. Destek istemek bir güç işaretidir, başarısızlık değil. Ve kendine bakman, bebeğine bakmanın bir parçasıdır; ondan asla ayrı değildir."
+            ]
+          },
+          {
+            "h": "Küçük zaferleri fark et",
+            "p": [
+              "Küçük zaferleri fark et. Bir ağlamayı dindirdin. Uzun bir geceyi atlattın. Bugün yine ortaya çıktın. Bu anlar küçük değil, anne. Her şey demek onlar. Sen, bebeğinin tam da ihtiyaç duyduğu annesin. Kusursuz bir anne değil... gerçek, sevgi dolu, var olan bir anne. Bu yolculukta kendine nazik davran. Düşündüğünden çok daha iyi gidiyorsun. Ve hissettiğin kadar asla, asla yalnız değilsin. Üstesinden gelebilirsin, anne. Bir nefes, bir an, her seferinde bir gün."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -559,5 +559,148 @@
         ]
       }
     ]
+  },
+  "your-emotions": {
+    "title": "Tes émotions",
+    "subtitle": "Un guide tout en douceur pour tes émotions pendant la grossesse et le post-partum · tu n'es pas seule",
+    "emoji": "💗",
+    "intro": "Cinq courtes leçons vidéo avec Veda pour le côté émotionnel de la nouvelle maternité. De l'idée que chaque émotion a le droit d'exister, à la différence entre le baby blues normal et quelque chose de plus profond, en passant par le sentiment d'être débordée et la culpabilité, la bienveillance envers toi-même et le lien qui grandit — un accompagnement honnête, doux et sans jugement. Regarde-les chaque fois que tu as besoin d'une voix bienveillante, maman.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Toutes tes émotions ont le droit d'exister",
+        "duration": "± 5 min",
+        "desc": "Pourquoi ce grand mélange d'émotions des débuts de la maternité est normal — et pourquoi tu n'as pas besoin de te sentir reconnaissante à chaque seconde pour être une bonne mère.",
+        "vedaPrompt": "Je viens de regarder la leçon 1 du cours Tes émotions (toutes tes émotions ont le droit d'exister). Mes émotions me submergent ces derniers temps — peux-tu m'aider à comprendre ce que je ressens et à être plus douce avec moi-même ?",
+        "script": [
+          {
+            "h": "Tout ce que tu ressens a le droit d'exister",
+            "p": [
+              "D'accord maman, avant de parler de quoi que ce soit d'autre, je veux que tu entendes ceci... tout ce que tu ressens en ce moment a le droit d'exister. Les premières semaines et les premiers mois avec un bébé peuvent faire remonter le plus immense mélange d'émotions. Un amour profond et une tristesse inattendue. De la joie et du chagrin, parfois dans la même heure. Tu peux adorer ton bébé de tout ton cœur et te sentir quand même débordée, seule, ou complètement étrangère à toi-même. Rien de tout cela ne fait de toi une mauvaise mère. Cela fait de toi une mère humaine."
+            ]
+          },
+          {
+            "h": "Bien sûr que tes émotions sont intenses",
+            "p": [
+              "Tellement de choses se passent en même temps. Tes hormones changent radicalement. Tu fonctionnes avec un sommeil en miettes. Toute ton identité se réécrit en temps réel. Bien sûr que tes émotions sont intenses. Elles sont censées l'être. Et voici quelque chose qu'on ne dit pas assez souvent... tu n'as pas besoin de te sentir reconnaissante à chaque seconde pour être une bonne mère."
+            ]
+          },
+          {
+            "h": "Deux choses peuvent être vraies en même temps",
+            "p": [
+              "Tu as le droit de trouver ça difficile. Tu as le droit de regretter ta vie d'avant et d'aimer cette nouvelle vie en même temps. Deux choses peuvent être vraies en même temps. Dans les leçons à venir, on va démêler tout doucement ces émotions ensemble. Ce qui est normal, ce qui mérite un soutien supplémentaire, et comment être plus douce avec toi-même à travers tout ça. Pour l'instant, prends simplement une respiration, maman. Tu n'es pas en train d'échouer. Tu es en train de ressentir. Et c'est exactement comme ça que ça doit être."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Baby blues ou quelque chose de plus ?",
+        "duration": "± 6 min",
+        "desc": "La différence entre le baby blues normal et la dépression ou l'anxiété post-partum — les signes à repérer et quand demander de l'aide.",
+        "vedaPrompt": "Je viens de regarder la leçon 2 du cours Tes émotions (baby blues ou quelque chose de plus). Peux-tu m'aider à comprendre si ce que je ressens ressemble au baby blues normal ou à quelque chose dont je devrais parler à un médecin ?",
+        "script": [
+          {
+            "h": "Le baby blues",
+            "p": [
+              "Parlons de quelque chose que la plupart des mamans ressentent mais auquel peu s'attendent... le baby blues. Dans les premiers jours après la naissance, alors que tes hormones dégringolent, il est incroyablement fréquent de se sentir au bord des larmes, irritable, anxieuse, ou simplement à fleur de peau. Tu peux pleurer pour un rien, ou pour tout. Cela touche la plupart des nouvelles mères, ça atteint généralement son pic entre le troisième et le cinquième jour, et ça a tendance à s'estomper tout seul en deux semaines environ. C'est le baby blues, et c'est une partie normale de l'adaptation."
+            ]
+          },
+          {
+            "h": "Quand c'est quelque chose de plus",
+            "p": [
+              "Mais parfois, ces émotions ne s'estompent pas... elles s'installent et deviennent plus lourdes. C'est là qu'on parle tout doucement de la dépression et de l'anxiété post-partum. Les signes à repérer : une humeur basse ou un sentiment de vide qui persiste presque toute la journée, presque tous les jours. Une perte d'intérêt pour des choses que tu aimais avant. Des difficultés à créer un lien avec ton bébé. Une inquiétude constante ou des pensées qui s'emballent. Des troubles du sommeil même quand ton bébé dort. Des sentiments de culpabilité, de dévalorisation ou de désespoir. Ce n'est pas une faiblesse, maman, et ce n'est absolument pas de ta faute. C'est une vraie maladie, qui se soigne très bien, et elle est bien plus fréquente que tu ne le penses."
+            ]
+          },
+          {
+            "h": "Comment faire la différence — et quand demander de l'aide",
+            "p": [
+              "La façon la plus simple de faire la différence, c'est le temps et le poids des émotions. Le baby blues est bref et s'estompe. La dépression et l'anxiété s'installent et te tirent vers le bas. Si tes émotions durent au-delà de deux semaines, ou si elles te semblent un jour effrayantes ou trop lourdes à porter, parle-en s'il te plaît à ton médecin ou à ta sage-femme. Et si jamais tu as des pensées de te faire du mal ou d'en faire à ton bébé, considère cela comme urgent et fais-toi aider tout de suite. En parler n'a rien d'excessif. C'est courageux, et c'est le premier pas pour te sentir à nouveau toi-même."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Débordement, colère et culpabilité",
+        "duration": "± 6 min",
+        "desc": "Les émotions dont on ne parle jamais sur les réseaux — la rage, le ressentiment et la culpabilité — pourquoi elles sont humaines, et quoi faire dans le feu de l'instant.",
+        "vedaPrompt": "Je viens de regarder la leçon 3 du cours Tes émotions (débordement, colère et culpabilité). Je me sens débordée et parfois même en colère — peux-tu m'aider à gérer ces émotions sans autant de culpabilité ?",
+        "script": [
+          {
+            "h": "Tu n'es pas un monstre",
+            "p": [
+              "Parlons maintenant des émotions dont on ne parle jamais sur les réseaux... le sentiment d'être débordée, la colère et la culpabilité. Parce que maman, si tu as ressenti un éclair de rage quand les pleurs ne s'arrêtent pas, ou une vague de ressentiment à trois heures du matin, tu n'es pas un monstre. Tu es un être humain épuisé, à bout de toucher, usé, qui tourne à vide. La colère dans la maternité est bien réelle, et le plus souvent elle n'est pas vraiment dirigée contre le bébé. Elle vient de cet épuisement total, de cet étirement où il ne te reste plus rien pour toi-même."
+            ]
+          },
+          {
+            "h": "Dans le feu de l'instant, tu as le droit de faire une pause",
+            "p": [
+              "Le plus important, c'est ce que tu fais de cette émotion dans le feu de l'instant. Quand le débordement monte et que tu te sens arriver au bout, tu as toujours le droit de faire une pause. Dépose ton bébé dans un endroit sûr, comme son lit, va dans une autre pièce, et prends quelques respirations lentes pendant une minute ou deux. Un bébé qui pleure en sécurité dans son lit le temps d'un instant, c'est tout à fait correct. Un parent au bord de la rupture a besoin de cette pause, et s'éloigner pour se calmer, ce n'est pas échouer... c'est vous protéger tous les deux."
+            ]
+          },
+          {
+            "h": "La culpabilité veut dire que tu tiens à ton bébé",
+            "p": [
+              "Et puis il y a la culpabilité, cette petite voix qui murmure que tu n'en fais pas assez. Maman, la culpabilité n'est pas la preuve que tu fais les choses de travers. Le plus souvent, c'est le signe à quel point tu tiens profondément à ton bébé. Tu ne seras pas une mère calme et souriante à chaque heure de chaque journée, et ton bébé n'a pas besoin de ça. Il a besoin de toi, vraie et qui fait de son mieux. Essaie de te parler comme tu parlerais à une amie très chère qui serait à ta place... avec patience, pas avec des reproches. Tu portes tellement de choses. C'est normal que ça déborde parfois."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Bienveillance envers soi et demander de l'aide",
+        "duration": "± 6 min",
+        "desc": "Être aussi douce avec toi-même que tu le serais avec une amie, préserver de petits espaces de soin, et laisser entrer ton entourage.",
+        "vedaPrompt": "Je viens de regarder la leçon 4 du cours Tes émotions (bienveillance envers soi et demander de l'aide). Peux-tu m'aider à être plus douce avec moi-même et à trouver comment demander le soutien dont j'ai besoin ?",
+        "script": [
+          {
+            "h": "La bienveillance envers soi n'est pas un luxe",
+            "p": [
+              "D'accord maman, cette leçon parle de ce dans quoi tant d'entre nous sommes les plus mauvaises... être douce avec soi-même, et laisser les autres entrer. Commençons par la bienveillance envers toi-même, parce que ce n'est pas un luxe. C'est ce qui te permet de tenir. Pense à la façon dont tu réconforterais ta meilleure amie si elle était à ta place. Tu ne la traiterais jamais de paresseuse et tu ne lui dirais jamais qu'elle échoue. Tu lui dirais qu'elle fait un travail incroyable dans des conditions impossibles. Maman, tu mérites exactement ces mêmes mots."
+            ]
+          },
+          {
+            "h": "Baisse la barre, volontairement",
+            "p": [
+              "Baisse la barre, volontairement. Un bébé nourri et une mère qui se repose, c'est une journée réussie. La lessive peut attendre. Et essaie de préserver les plus petits espaces de soin pour toi-même... une douche chaude, dix minutes de calme avec une tasse de thé, une petite marche au grand air avec la poussette. Ce n'est pas de l'égoïsme. On ne peut pas verser à partir d'une tasse vide, et la remplir, même un tout petit peu, t'aide à materner depuis un endroit plus stable."
+            ]
+          },
+          {
+            "h": "Laisse entrer ton entourage",
+            "p": [
+              "Maintenant, la partie difficile pour tant d'entre nous... demander de l'aide. Il existe ce mythe selon lequel une bonne mère fait tout toute seule. Ce mythe est épuisant et il est tout simplement faux. Les humains n'ont jamais été faits pour élever des bébés dans l'isolement. Alors laisse les gens entrer. Dis oui quand quelqu'un propose de porter le bébé ou d'apporter un repas. Et sois précise... demande à ton ou ta partenaire de se charger de la tétée de nuit, demande à une amie de venir te tenir compagnie, demande à ta mère de lancer une machine. Les gens veulent t'aider, maman. Souvent, ils ne savent juste pas comment tant que tu ne leur dis pas. T'appuyer sur ton entourage ne te rend pas faible. Ça te rend sage."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Le lien qui grandit et regarder vers l'avant",
+        "duration": "± 6 min",
+        "desc": "Pourquoi le lien se construit lentement, les choses à garder précieusement, et remarquer les petites victoires à mesure que le brouillard se lève.",
+        "vedaPrompt": "Je viens de regarder la leçon 5 du cours Tes émotions (le lien et regarder vers l'avant). Peux-tu m'aider à me sentir plus pleine d'espoir face à ce qui m'attend et à remarquer les petites victoires de mes journées avec mon bébé ?",
+        "script": [
+          {
+            "h": "Cette période ne sera pas toujours ainsi",
+            "p": [
+              "Et voici la partie que je veux vraiment que tu gardes en toi, maman... cette période, avec toute son intensité, ne sera pas toujours ainsi. Le brouillard finit par se lever. Les journées trouvent peu à peu un rythme. Et le lien que tu construis, même les jours les plus difficiles, grandit tout doucement sous la surface. Tu n'as pas besoin de ressentir un lien magique à l'instant même où ton bébé arrive. Pour beaucoup de mères, l'amour grandit dans les petits moments ordinaires. Les tétées au milieu de la nuit. La façon dont il se blottit contre ta poitrine. Ce premier vrai sourire sans dents qui te coupe le souffle. Le lien n'est pas un coup de foudre unique. C'est un tissage lent et régulier, et chaque moment de tendresse en est un fil de plus."
+            ]
+          },
+          {
+            "h": "Quelques choses à garder précieusement",
+            "p": [
+              "Alors, en regardant vers l'avant, gardons quelques choses précieusement. Tes émotions, toutes, sont légitimes et elles continueront de changer. Tu as le droit de trouver de la joie et d'avoir quand même des jours difficiles. Demander du soutien est un signe de force, pas d'échec. Et prendre soin de toi fait partie du fait de prendre soin de ton bébé, ce n'en est jamais séparé."
+            ]
+          },
+          {
+            "h": "Remarque les petites victoires",
+            "p": [
+              "Remarque les petites victoires. Tu as apaisé des pleurs. Tu as traversé une longue nuit. Tu es encore là aujourd'hui. Ces moments ne sont pas petits, maman. Ils sont tout. Tu es exactement la mère dont ton bébé a besoin. Pas une mère parfaite... une mère vraie, aimante, présente. Sois douce avec toi-même sur ce chemin. Tu t'en sors bien mieux que tu ne le crois. Et tu n'es jamais, au grand jamais, aussi seule que tu te sens. Tu vas y arriver, maman. Une respiration, un moment, un jour à la fois."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
