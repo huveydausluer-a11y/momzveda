@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "Erholung im Wochenbett",
+    "subtitle": "Heilung für Körper und Seele nach der Geburt · sei sanft mit dir, mama",
+    "emoji": "🌸",
+    "intro": "Fünf kurze Videolektionen mit Veda für dein viertes Trimester. Vom Verstehen, was in deinem Körper wirklich vor sich geht, über Ruhe und die Warnzeichen, bei denen du anrufen solltest, bis hin zu deiner Körpermitte und deinem Beckenboden, Nährung und Schlaf und dem emotionalen Wandel, eine Mutter zu werden — ehrlich, sanft und ohne jedes Urteil. Es gibt keinen Preis fürs Eilen, mama. Dein Körper und dein Herz dürfen in ihrem eigenen Tempo heilen.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Was in deinem Körper vorgeht",
+        "duration": "± 5 Min.",
+        "desc": "Wie Erholung in den ersten Wochen wirklich aussieht — Blutungen, Nachwehen, Nähte, Wundsein — und warum es keinen Preis fürs Eilen gibt.",
+        "vedaPrompt": "Ich habe gerade Lektion 1 des Kurses „Erholung im Wochenbett“ gesehen (was in deinem Körper vorgeht). Kannst du mir helfen zu verstehen, was in diesen ersten Wochen der Heilung normal ist und wie ich sanft mit mir selbst sein kann?",
+        "script": [
+          {
+            "h": "Dein Körper hat gerade etwas Außergewöhnliches geleistet",
+            "p": [
+              "Okay mama, bevor wir irgendwohin gehen, möchte ich, dass du langsam durchatmest... denn dein Körper hat gerade etwas Außergewöhnliches geleistet. Ob du dein Baby vaginal oder per Kaiserschnitt zur Welt gebracht hast — du hast eines der kraftvollsten Ereignisse durchlebt, das ein Körper durchleben kann, und jetzt bist du in der Erholung. Echte Erholung, die Art, die Zeit und Zärtlichkeit verdient."
+            ]
+          },
+          {
+            "h": "Was in diesen ersten Wochen geschieht",
+            "p": [
+              "Sprechen wir also ganz behutsam darüber, was in diesen ersten Wochen tatsächlich passiert. Du hast Blutungen, den sogenannten Wochenfluss, während deine Gebärmutter heilt und sich wieder zusammenzieht. Er beginnt rot und stark, ein bisschen wie eine kräftige Periode, und verblasst dann über einige Wochen langsam zu Rosa, dann Braun, dann einem blassen Cremeton. Das ist völlig normal. Du spürst vielleicht ein Ziehen, manchmal Nachwehen genannt, besonders beim Stillen, während sich deine Gebärmutter wieder auf ihre Größe zusammenzieht. Wenn du Nähte hast, von einem Riss oder einem Kaiserschnitt, fühlt sich dieser Bereich empfindlich an und braucht achtsame, sanfte Pflege, während er zusammenwächst. Vielleicht bist du an Stellen wund, an denen du es nicht erwartet hast, schwitzt mehr als sonst und fühlst dich völlig ausgewrungen. All das ist dein Körper, der genau das tut, wofür er gemacht ist."
+            ]
+          },
+          {
+            "h": "Jetzt ist nicht die Zeit, schnell wieder die Alte zu sein",
+            "p": [
+              "Und hier ist der Teil, den ich dich wirklich hören lassen möchte, mama... jetzt ist nicht die Zeit, schnell wieder die Alte zu sein. Es gibt keinen Preis fürs Eilen. Die alte Vorstellung, dass du nach einer Woche wieder auf den Beinen sein solltest, tut deiner Heilung keinen Gefallen. Dein Körper hat neun Monate lang einen ganzen Menschen sicher behütet. Er darf sich Zeit nehmen, wieder zu sich selbst zu finden. Senke also bewusst deine Erwartungen, ruhe mehr, als es sich produktiv anfühlt, und behandle dich mit derselben Geduld, die du jedem schenken würdest, der sich von etwas Großem erholt. Denn genau das tust du."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Ruhe, Heilung & wann du anrufen solltest",
+        "duration": "± 6 Min.",
+        "desc": "Warum Ruhe gerade jetzt die eigentliche Arbeit ist — und die Warnzeichen nach der Geburt, bei denen du deine Hebamme, deine Ärztin oder den Notdienst anrufen solltest.",
+        "vedaPrompt": "Ich habe gerade Lektion 2 des Kurses „Erholung im Wochenbett“ gesehen (Ruhe, Heilung und wann du anrufen solltest). Kannst du mir helfen zu verstehen, welche Symptome normal sind und welche bedeuten, dass ich mich an eine Ärztin wenden sollte?",
+        "script": [
+          {
+            "h": "Lass die Welt kleiner werden",
+            "p": [
+              "Sprechen wir jetzt über Ruhe und über die Signale, die dir sagen, den Hörer in die Hand zu nehmen. In vielen Kulturen gibt es ein geschütztes Zeitfenster nach der Geburt, eine Art Wochenbett im wahrsten Sinne, in dem die frischgebackene Mutter umsorgt, warm gehalten und von allen Pflichten befreit wird, sodass ihre einzige Aufgabe darin besteht, zu heilen und ihr Baby zu halten. Darin steckt tiefe Weisheit, mama. Dein Körper heilt am schnellsten, wenn du ruhst, gut genährt bist und dich nicht überforderst. Lass die Welt also in diesen ersten Wochen kleiner werden. Bleib in der Nähe deines Bettes. Nimm jedes Hilfsangebot an. Schlafe, wann immer du kannst, auch wenn das Geschirr warten muss. Heilung ist gerade die Arbeit, und Ruhe ist, wie du sie tust."
+            ]
+          },
+          {
+            "h": "Wann du Hilfe holen solltest",
+            "p": [
+              "Gleichzeitig möchte ich, dass du weißt, was bei deinem Körper normal ist, damit du erkennen kannst, wann etwas eine Ärztin braucht — nicht um dir Angst zu machen, sondern einfach um dich sicher zu halten. Die meiste Erholung verläuft ereignislos, aber bitte ruf deine Hebamme, deine Ärztin oder den Notdienst an, wenn dir eines davon auffällt. Eine Blutung, die in einer Stunde eine Binde durchtränkt, oder das Abgehen großer Klumpen. Fieber, Schüttelfrost oder eine Wunde, die heiß, geschwollen ist oder unangenehm riecht — das kann auf eine Infektion hinweisen. Starke Schmerzen, die schlimmer statt besser werden. Schmerzen, Rötung oder Schwellung in einem Bein, oder plötzliche Atemnot oder Brustschmerzen, die dringend behandelt werden müssen. Pochende Kopfschmerzen mit Sehstörungen, oder das Gefühl, dir sei einfach insgesamt sehr schlecht."
+            ]
+          },
+          {
+            "h": "Vertrau deinem Bauchgefühl",
+            "p": [
+              "Nichts davon bedeutet, dass du etwas falsch gemacht hast, mama. Es bedeutet nur, dass dein Körper um Unterstützung bittet, und dich schnell zu melden ist genau der richtige Schritt. Vertrau deinem Bauchgefühl. Du kennst dich selbst. Wenn sich etwas nicht richtig anfühlt, darfst du immer fragen. Es ist niemals übertrieben, nachzufragen."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Deine Körpermitte & dein Beckenboden",
+        "duration": "± 6 Min.",
+        "desc": "Rektusdiastase und der Beckenboden nach der Geburt — der sanfte Weg ohne Crunches, um wieder Verbindung aufzunehmen, und die Anzeichen, die du einer Beckenboden-Physiotherapie melden solltest.",
+        "vedaPrompt": "Ich habe gerade Lektion 3 des Kurses „Erholung im Wochenbett“ gesehen (deine Körpermitte und dein Beckenboden). Kannst du mir helfen zu verstehen, wie ich behutsam wieder Verbindung zu meiner Körpermitte aufnehme und wann ich zu einer Beckenboden-Physiotherapie gehen sollte?",
+        "script": [
+          {
+            "h": "Was die Schwangerschaft deiner Körpermitte abverlangt hat",
+            "p": [
+              "Sprechen wir über deine Körpermitte und deinen Beckenboden, mama, denn sie haben in der Schwangerschaft so viel still getragen und verdienen jetzt ein wenig sanfte Aufmerksamkeit. In diesen neun Monaten haben sich deine Bauchmuskeln gedehnt, um Platz zu schaffen, und die beiden Muskelstränge vorn an deinem Bauch trennen sich oft ein wenig, um deinem wachsenden Baby Raum zu geben. Das nennt man Rektusdiastase, und es ist völlig normal. Bei den meisten Müttern schließt sich der Spalt über die kommenden Wochen und Monate von allein. Darunter hat dein Beckenboden, die Muskelhängematte, die deine Blase und Gebärmutter stützt, enorme Arbeit geleistet und fühlt sich vielleicht gerade schwach, schwer oder einfach anders an."
+            ]
+          },
+          {
+            "h": "Der sanfte Weg nach vorn",
+            "p": [
+              "Hier ist also der sanfte Weg nach vorn. In den ersten Wochen gibt es nichts zu reparieren und nichts zu überstürzen. Deine einzigen Aufgaben sind Ruhe und sanfte Bewegung, wie kurze, langsame Spaziergänge, sobald du dich bereit fühlst. Wenn du dich danach fühlst, kannst du behutsam beginnen, wieder Verbindung zu diesen Muskeln aufzunehmen. Ein einfacher Einstieg ist die Atmung... stell dir beim Ausatmen vor, dass du deinen Beckenboden sanft nach oben ziehst, wie ein Heben ohne Pressen, und ihn dann beim Einatmen vollständig entspannst. Kein Anspannen, kein Nach-unten-Drücken, noch keine Crunches. Sanft und langsam gewinnt hier."
+            ]
+          },
+          {
+            "h": "Anzeichen, die du melden solltest",
+            "p": [
+              "Ein paar Anzeichen sind es wert, deiner Ärztin oder einer Beckenboden-Physiotherapie gemeldet zu werden: ungewollter Urinverlust, wenn du hustest, lachst oder niest, über die ersten Tage hinaus, ein Gefühl von Schwere oder Ziehen nach unten, oder ein deutlicher Spalt oder eine Vorwölbung am Bauch, die sich nicht beruhigt. Das ist häufig und sehr gut behandelbar, mama, und eine Beckenboden-Physiotherapie ist Gold wert. Sei mit diesem Teil geduldig. Deine Körpermitte baut sich von innen nach außen wieder auf, sanft, mit der Zeit, nicht über Nacht."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Nahrung, Flüssigkeit, Schlaf & Energie",
+        "duration": "± 6 Min.",
+        "desc": "Dich nähren, während du heilst — eisenreiches Essen, ausreichend trinken, kluge Ruhe — und dir selbst Nachsicht schenken bei der Achterbahn an Energie in dieser Zeit.",
+        "vedaPrompt": "Ich habe gerade Lektion 4 des Kurses „Erholung im Wochenbett“ gesehen (Nahrung, Flüssigkeit, Schlaf und Energie). Kannst du mir helfen herauszufinden, wie ich mich nähre und mehr Ruhe bekomme, während ich mich erhole und mein Baby versorge?",
+        "script": [
+          {
+            "h": "Auf leerem Tank kannst du nicht heilen",
+            "p": [
+              "Okay mama, sprechen wir über Nahrung, denn auf leerem Tank kannst du nicht heilen, und du zählst genauso viel wie der kleine Mensch, den du fütterst. Sich von der Geburt zu erholen und, wenn du stillst, Milch zu bilden, kostet echte Energie, daher ist dies nicht der Moment für Einschränken oder Diäten. Dies ist der Moment fürs Nähren. Ziel auf warme, herzhafte, einfache Mahlzeiten ab... denk an Eiweiß, um Gewebe wieder aufzubauen, Vollkorn und gesunde Fette für gleichmäßige Energie und reichlich Obst und Gemüse. Eisenreiche Lebensmittel wie rotes Fleisch, Linsen und grünes Blattgemüse sind nach dem Blutverlust der Geburt besonders hilfreich. Und halte Snacks in Reichweite, denn der Hunger hat so eine Art, sich mitten beim Füttern anzuschleichen."
+            ]
+          },
+          {
+            "h": "Flüssigkeit und Schlaf",
+            "p": [
+              "Ausreichend zu trinken ist wichtiger, als du denkst, mama. Besonders das Stillen macht durstig, halte also eine große Wasserflasche dort bereit, wo du fütterst, und trink immer wieder ein paar Schlucke. Und dann ist da der Schlaf, das, was am knappsten ist. Durchgeschlafene Nächte wirst du noch nicht bekommen, und das ist in Ordnung, aber du kannst klug vorgehen. Der älteste Rat ist immer noch der beste... schlafe, wenn das Baby schläft, auch ein Nickerchen von zwanzig Minuten zählt. Lass jemand anderen eine Mahlzeit übernehmen oder auf das Baby aufpassen, damit du eine längere Strecke am Stück bekommst. Senke die Latte beim Haushalt und schütze Ruhe wie Medizin, denn für die Heilung ist sie genau das."
+            ]
+          },
+          {
+            "h": "Schenk dir Nachsicht bei der Energie",
+            "p": [
+              "Und schenk dir Nachsicht bei deiner Energie. An manchen Tagen fühlst du dich fast wie ein Mensch, und an anderen bist du völlig platt, und beides ist normal in dieser Zeit. Eine kleine Anmerkung, mama... wenn du dich so erschöpft fühlst, dass keine Ruhe daran etwas ändert, sehr kurzatmig oder schwindelig bist oder dein Herz rast, sprich es bei deiner Ärztin an, denn das kann manchmal auf einen niedrigen Eisenwert hindeuten, der überprüft werden sollte. Nähre dich liebevoll. Auch du bist es wert, genährt zu werden."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Deine Seele & eine Mutter werden",
+        "duration": "± 6 Min.",
+        "desc": "Erholung ist nicht nur körperlich — Matreszenz, der Babyblues, wann eine gedrückte Stimmung mehr ist, und die Wahrheiten, die du dir nah halten darfst, während du nach vorn blickst.",
+        "vedaPrompt": "Ich habe gerade Lektion 5 des Kurses „Erholung im Wochenbett“ gesehen (deine Seele und eine Mutter werden). Kannst du mir helfen, die emotionale Seite der Erholung zu verstehen und zu erkennen, ob das, was ich fühle, mehr als der Babyblues ist?",
+        "script": [
+          {
+            "h": "Erholung ist nicht nur körperlich",
+            "p": [
+              "Und hier ist der Teil, den ich dich am meisten festhalten lassen möchte, mama... Erholung ist nicht nur körperlich. Während dein Körper heilt, erholen sich auch dein Herz und dein Gefühl für dich selbst, und das verdient genauso viel Fürsorge. Eine Mutter zu werden schreibt dich neu. Es gibt sogar ein Wort dafür, Matreszenz, der tiefgreifende Wandel ins Muttersein, ein bisschen wie die Pubertät, alles auf einmal. Wenn du dich also an manchen Tagen im Spiegel ansiehst und dich kaum wiedererkennst, wenn du deiner alten Freiheit nachtrauerst, während du dein Baby zugleich vergötterst, dann ist das keine Undankbarkeit. Das ist Verwandlung, und in sie hineinzuwachsen braucht Zeit. Sei geduldig mit der Frau, die du gerade wirst."
+            ]
+          },
+          {
+            "h": "Babyblues oder etwas Ernsteres",
+            "p": [
+              "In diesen ersten Wochen, während sich deine Hormone einpendeln und dein Schlaf zerstückelt ist, ist es ganz normal, sich weinerlich, empfindlich und wund zu fühlen. Dieser Babyblues legt sich in der Regel innerhalb von etwa zwei Wochen. Aber wenn eine gedrückte Stimmung, eine schwere Angst oder ein flaches, abgekoppeltes Gefühl darüber hinaus bleibt, die meiste Zeit des Tages an den meisten Tagen, dann trag es bitte nicht still mit dir herum. Die Wochenbettdepression und die Wochenbettangst sind häufig und sehr gut behandelbar, und sich an deine Ärztin oder deine Hebamme zu wenden ist etwas Mutiges und Liebevolles, niemals ein Versagen. Und wenn du jemals beängstigende Gedanken hast oder Gedanken, dir selbst etwas anzutun, behandle das bitte als dringend und hol dir sofort Hilfe. Du verdienst Unterstützung, mama, schnell und ohne Scham."
+            ]
+          },
+          {
+            "h": "Halte dir das nah",
+            "p": [
+              "Wenn du nach vorn blickst, halte dir das nah. Dein Körper heilt in seinem eigenen Tempo, und dein Herz auch. Ruhe ist keine Faulheit, sie ist Erholung. Um Hilfe zu bitten ist Stärke. Und für dich selbst zu sorgen ist Teil davon, für dein Baby zu sorgen, niemals davon getrennt. Du machst es so viel besser, als du weißt. Sei sanft mit dir selbst, mama. Ein Tag nach dem anderen."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

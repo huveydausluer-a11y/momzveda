@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "Récupération post-partum",
+    "subtitle": "Guérir ton corps et ton esprit après la naissance · sois douce avec toi-même, maman",
+    "emoji": "🌸",
+    "intro": "Cinq courtes leçons vidéo avec Veda pour ton quatrième trimestre. De comprendre ce qui arrive vraiment à ton corps, au repos et aux signaux d'alerte qui doivent te faire appeler, à ton centre et ton plancher pelvien, à la nourriture et au sommeil, jusqu'au bouleversement émotionnel de devenir mère — un accompagnement honnête, doux et sans jugement. Il n'y a pas de prix pour aller vite, maman. Ton corps et ton cœur ont le droit de guérir à leur propre rythme.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Ce qui arrive à ton corps",
+        "duration": "± 5 min",
+        "desc": "À quoi ressemble vraiment la récupération dans les premières semaines — saignements, tranchées, points de suture, courbatures — et pourquoi il n'y a pas de prix pour aller vite.",
+        "vedaPrompt": "Je viens de regarder la leçon 1 du cours Récupération post-partum (ce qui arrive à ton corps). Peux-tu m'aider à comprendre ce qui est normal dans ces premières semaines de guérison et comment être douce avec moi-même ?",
+        "script": [
+          {
+            "h": "Ton corps vient d'accomplir quelque chose d'extraordinaire",
+            "p": [
+              "D'accord maman, avant d'aller plus loin, je veux que tu prennes une respiration lente... parce que ton corps vient d'accomplir quelque chose d'extraordinaire. Que tu aies mis ton bébé au monde par voie basse ou par césarienne, tu as traversé l'un des événements les plus puissants qu'un corps puisse vivre, et maintenant tu es en récupération. Une vraie récupération, celle qui mérite du temps et de la tendresse."
+            ]
+          },
+          {
+            "h": "Ce qui se passe pendant ces premières semaines",
+            "p": [
+              "Alors parlons tout doucement de ce qui se passe vraiment pendant ces premières semaines. Tu auras des saignements, qu'on appelle les lochies, à mesure que ton utérus guérit et reprend sa taille. Ils commencent rouges et abondants, un peu comme de fortes règles, puis s'éclaircissent peu à peu vers le rose, puis le brun, puis un crème pâle au fil de quelques semaines. C'est tout à fait normal. Tu peux ressentir des crampes, qu'on appelle parfois des tranchées, surtout pendant les tétées, tandis que ton utérus se contracte pour retrouver sa taille. Si tu as des points de suture, après une déchirure ou une césarienne, cette zone sera sensible et aura besoin de soins doux et attentifs pendant qu'elle se referme. Tu peux être endolorie à des endroits inattendus, transpirer plus que d'habitude, et te sentir essorée. Tout cela, c'est ton corps qui fait exactement ce pour quoi il est conçu."
+            ]
+          },
+          {
+            "h": "Ce n'est pas la saison pour « retrouver la forme »",
+            "p": [
+              "Voici la partie que je veux vraiment que tu entendes, maman... ce n'est pas la saison pour « retrouver la forme ». Il n'y a pas de prix pour aller vite. Cette vieille idée que tu devrais être debout et active en une semaine dessert ta guérison. Ton corps a gardé un être humain entier en sécurité pendant neuf mois. Il a le droit de prendre son temps pour revenir à lui-même. Alors baisse volontairement tes attentes, repose-toi plus que ça ne te semble productif, et traite-toi avec la même patience que tu accorderais à quelqu'un qui se remet de quelque chose d'énorme. Parce que c'est exactement ce que tu es."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Repos, guérison et quand appeler",
+        "duration": "± 6 min",
+        "desc": "Pourquoi le repos est le vrai travail en ce moment — et les signaux d'alerte après la naissance qui doivent te faire appeler ta sage-femme, ton médecin ou les secours.",
+        "vedaPrompt": "Je viens de regarder la leçon 2 du cours Récupération post-partum (repos, guérison et quand appeler). Peux-tu m'aider à comprendre quels symptômes sont normaux et lesquels signifient que je devrais contacter un médecin ?",
+        "script": [
+          {
+            "h": "Laisse le monde se faire plus petit",
+            "p": [
+              "Parlons maintenant du repos, et des signaux qui te disent de décrocher le téléphone. Dans beaucoup de cultures, il existe une parenthèse sacrée après la naissance, une sorte de période de relevailles, où la nouvelle maman est nourrie, gardée au chaud et libérée des tâches, pour que son seul rôle soit de guérir et de tenir son bébé. Il y a une profonde sagesse là-dedans, maman. Ton corps guérit le plus vite quand tu te reposes, que tu es nourrie et que tu ne te forces pas. Alors pendant ces premières semaines, laisse le monde se faire plus petit. Reste près de ton lit. Accepte chaque proposition d'aide. Dors quand tu peux, même si la vaisselle attend. Guérir est le travail en ce moment, et le repos, c'est comme ça que tu le fais."
+            ]
+          },
+          {
+            "h": "Quand appeler à l'aide",
+            "p": [
+              "En même temps, je veux que tu connaisses ce qui est normal pour ton corps, pour pouvoir repérer quand quelque chose nécessite un médecin, non pas pour t'effrayer, juste pour te garder en sécurité. La plupart du temps, la récupération se passe sans encombre, mais appelle s'il te plaît ta sage-femme, ton médecin ou les secours si tu remarques l'un de ces signes. Un saignement qui imbibe une protection en une heure, ou l'expulsion de gros caillots. De la fièvre, des frissons, ou une plaie chaude, gonflée ou qui sent mauvais, ce qui peut signaler une infection. Une douleur intense qui s'aggrave au lieu de s'améliorer. Une douleur, une rougeur ou un gonflement dans une seule jambe, ou un essoufflement soudain ou une douleur dans la poitrine, qui nécessitent des soins urgents. Un mal de tête lancinant avec des troubles de la vision, ou le sentiment d'être globalement très mal en point."
+            ]
+          },
+          {
+            "h": "Fie-toi à ton instinct",
+            "p": [
+              "Aucun de ces signes ne veut dire que tu as mal fait quelque chose, maman. Ils veulent simplement dire que ton corps demande du renfort, et réagir vite est exactement le bon réflexe. Fie-toi à ton instinct. Tu te connais. Si quelque chose te semble anormal, tu as toujours le droit de demander. Ce n'est jamais une réaction exagérée que de vérifier."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Ton centre et ton plancher pelvien",
+        "duration": "± 6 min",
+        "desc": "Le diastasis et le plancher pelvien après la naissance — le chemin doux, sans abdos, pour te reconnecter, et les signes à signaler à un kiné spécialisé en rééducation périnéale.",
+        "vedaPrompt": "Je viens de regarder la leçon 3 du cours Récupération post-partum (ton centre et ton plancher pelvien). Peux-tu m'aider à comprendre comment commencer doucement à me reconnecter à mon centre et quand consulter un kiné en rééducation périnéale ?",
+        "script": [
+          {
+            "h": "Ce que la grossesse a demandé à ton centre",
+            "p": [
+              "Parlons de ton centre et de ton plancher pelvien, maman, car ils ont porté tellement de choses en silence pendant la grossesse et ils méritent un peu d'attention douce maintenant. Pendant ces neuf mois, les muscles de ton ventre se sont étirés pour faire de la place, et les deux bandes de muscles qui descendent au milieu de ton ventre se séparent souvent un peu pour accueillir ton bébé qui grandit. C'est ce qu'on appelle le diastasis, et c'est tout à fait normal. Pour la plupart des mamans, il se resserre de lui-même au fil des semaines et des mois à venir. En dessous, ton plancher pelvien, ce hamac de muscles qui soutient ta vessie et ton utérus, a fourni un travail énorme et peut te sembler faible, lourd, ou simplement différent en ce moment."
+            ]
+          },
+          {
+            "h": "Le chemin tout en douceur",
+            "p": [
+              "Alors voici le chemin tout en douceur. Dans les premières semaines, il n'y a rien à réparer et rien à précipiter. Tes seules tâches sont le repos et le mouvement facile, comme de courtes marches lentes une fois que tu te sens prête. Quand tu t'en sens capable, tu peux commencer à te reconnecter à ces muscles tout doucement. Une façon simple de commencer, c'est la respiration... sur une expiration, imagine que tu remontes doucement ton plancher pelvien, comme si tu le soulevais sans forcer, puis relâche complètement en inspirant. Pas de contraction forte, pas de poussée vers le bas, pas d'abdos pour l'instant. Ici, c'est la douceur et la lenteur qui l'emportent."
+            ]
+          },
+          {
+            "h": "Les signes à signaler",
+            "p": [
+              "Quelques signes valent la peine d'être signalés à ton médecin ou à un kiné spécialisé en rééducation périnéale : des fuites urinaires quand tu tousses, ris ou éternues au-delà des premiers jours, une sensation de lourdeur ou de pesanteur vers le bas, ou un écart ou un bombement visible au niveau du ventre qui ne se résorbe pas. Ce sont des choses fréquentes et qui se traitent très bien, maman, et un kiné en rééducation périnéale vaut son pesant d'or. Sois patiente avec cette partie. Ton centre se reconstruit de l'intérieur vers l'extérieur, doucement, avec le temps, pas du jour au lendemain."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Nourriture, hydratation, sommeil et énergie",
+        "duration": "± 6 min",
+        "desc": "Te nourrir pendant que tu guéris — aliments riches en fer, hydratation, repos stratégique — et t'accorder de l'indulgence face à l'énergie en dents de scie de cette période.",
+        "vedaPrompt": "Je viens de regarder la leçon 4 du cours Récupération post-partum (nourriture, hydratation, sommeil et énergie). Peux-tu m'aider à trouver comment me nourrir et me reposer davantage pendant que je récupère et que je m'occupe de mon bébé ?",
+        "script": [
+          {
+            "h": "On ne peut pas guérir le ventre vide",
+            "p": [
+              "D'accord maman, parlons de nourriture, car tu ne peux pas guérir le ventre vide, et tu comptes autant que la petite personne que tu nourris. Récupérer de la naissance, et fabriquer du lait si tu allaites, demande une vraie énergie, alors ce n'est pas le moment de te restreindre ou de faire un régime. C'est le moment de te nourrir. Vise des repas chauds, copieux et faciles... pense aux protéines pour reconstruire les tissus, aux céréales complètes et aux bonnes graisses pour une énergie stable, et à beaucoup de fruits et de légumes. Les aliments riches en fer comme la viande rouge, les lentilles et les légumes verts à feuilles sont particulièrement utiles après la perte de sang de l'accouchement. Et garde des en-cas à portée de main, car la faim a tendance à te surprendre en pleine tétée."
+            ]
+          },
+          {
+            "h": "Hydratation et sommeil",
+            "p": [
+              "L'hydratation compte plus que tu ne le crois, maman. L'allaitement en particulier donne soif, alors garde une grande bouteille d'eau partout où tu allaites et bois à petites gorgées souvent. Et puis il y a le sommeil, la chose la plus rare de toutes. Tu n'auras pas encore de nuits complètes, et c'est normal, mais tu peux être stratégique. Le plus vieux conseil reste le meilleur... dors quand ton bébé dort, même un assoupissement de vingt minutes compte. Laisse quelqu'un d'autre s'occuper d'une tétée ou garder le bébé pour que tu puisses avoir une plage de sommeil plus longue. Abaisse tes exigences sur le ménage, et protège ton repos comme un médicament, car pour guérir, c'en est vraiment un."
+            ]
+          },
+          {
+            "h": "Accorde-toi de l'indulgence sur l'énergie",
+            "p": [
+              "Et accorde-toi de l'indulgence sur l'énergie. Certains jours tu te sentiras presque humaine, et d'autres jours tu seras à plat, et les deux sont normaux pendant cette période. Une petite remarque, maman... si tu te sens complètement épuisée d'une façon que le repos ne soulage pas, très essoufflée, étourdie, ou avec le cœur qui s'emballe, parles-en à ton médecin, car cela peut parfois signaler un manque de fer qu'il vaut la peine de vérifier. Nourris-toi avec bienveillance. Tu mérites toi aussi d'être nourrie."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Ton esprit et devenir mère",
+        "duration": "± 6 min",
+        "desc": "La récupération n'est pas seulement physique — la matrescence, le baby blues, quand l'humeur basse est quelque chose de plus, et les vérités à garder précieusement en regardant vers l'avant.",
+        "vedaPrompt": "Je viens de regarder la leçon 5 du cours Récupération post-partum (ton esprit et devenir mère). Peux-tu m'aider à comprendre le côté émotionnel de la récupération et à savoir si ce que je ressens est plus que le baby blues ?",
+        "script": [
+          {
+            "h": "La récupération n'est pas seulement physique",
+            "p": [
+              "Et voici la partie que je veux le plus que tu gardes en toi, maman... la récupération n'est pas seulement physique. Pendant que ton corps guérit, ton cœur et ton sentiment d'identité se rétablissent eux aussi, et cela mérite tout autant de soin. Devenir mère te réécrit. Il y a même un mot pour ça, la matrescence, ce bouleversement profond vers la maternité, un peu comme l'adolescence, mais tout d'un coup. Alors si certains jours tu te regardes dans le miroir sans tout à fait te reconnaître, si tu fais le deuil de ta liberté d'avant tout en adorant ton bébé, ce n'est pas de l'ingratitude. C'est une transformation, et il faut du temps pour grandir dedans. Sois patiente avec la femme que tu es en train de devenir."
+            ]
+          },
+          {
+            "h": "Baby blues, ou quelque chose de plus",
+            "p": [
+              "Pendant ces premières semaines, avec tes hormones qui se stabilisent et ton sommeil en miettes, il est très fréquent de se sentir larmoyante, à fleur de peau et à vif. Ce baby blues s'estompe généralement en deux semaines environ. Mais si une humeur basse, une anxiété lourde, ou un sentiment de vide et de déconnexion persiste au-delà, presque toute la journée presque tous les jours, ne le porte pas en silence s'il te plaît. La dépression et l'anxiété post-partum sont fréquentes et se soignent très bien, et tendre la main à ton médecin ou à ta sage-femme est un geste courageux et plein d'amour, jamais un échec. Et si jamais tu as des pensées effrayantes, ou des pensées de te faire du mal, considère cela comme urgent et fais-toi aider tout de suite. Tu mérites du soutien, maman, vite et sans honte."
+            ]
+          },
+          {
+            "h": "Garde ces vérités précieusement",
+            "p": [
+              "En regardant vers l'avant, garde ces vérités précieusement. Ton corps guérit à son propre rythme, et ton cœur aussi. Le repos n'est pas de la paresse, c'est de la récupération. Demander de l'aide est une force. Et prendre soin de toi fait partie du fait de prendre soin de ton bébé, ce n'en est jamais séparé. Tu t'en sors bien mieux que tu ne le crois. Sois douce avec toi-même, maman. Un jour à la fois."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

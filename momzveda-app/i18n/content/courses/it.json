@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "La ripresa nel postpartum",
+    "subtitle": "Guarire il corpo e la mente dopo il parto · sii gentile con te stessa, mama",
+    "emoji": "🌸",
+    "intro": "Cinque brevi videolezioni con Veda per il tuo quarto trimestre. Dal capire cosa sta davvero succedendo al tuo corpo, al riposo e ai segnali d'allarme per cui dovresti chiamare, fino al core e al pavimento pelvico, al nutrimento e al sonno, e al cambiamento emotivo del diventare madre — con sincerità, dolcezza e senza giudizi. Non c'è nessun premio per chi va di fretta, mama. Il tuo corpo e il tuo cuore hanno il diritto di guarire con i loro tempi.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Cosa sta succedendo al tuo corpo",
+        "duration": "± 5 min",
+        "desc": "Com'è davvero la ripresa nelle prime settimane — il sanguinamento, i dolori post parto, i punti, l'indolenzimento — e perché non c'è nessun premio per chi va di fretta.",
+        "vedaPrompt": "Ho appena visto la lezione 1 del corso La ripresa nel postpartum (cosa sta succedendo al tuo corpo). Mi aiuti a capire cosa è normale in queste prime settimane di guarigione e come essere gentile con me stessa?",
+        "script": [
+          {
+            "h": "Il tuo corpo ha appena fatto qualcosa di straordinario",
+            "p": [
+              "Allora mama, prima di andare avanti, voglio che tu faccia un respiro lento... perché il tuo corpo ha appena fatto qualcosa di straordinario. Che tu abbia partorito il tuo bimbo per via vaginale o con un cesareo, hai attraversato uno degli eventi più potenti che un corpo possa vivere, e adesso sei nella fase di ripresa. Una ripresa vera, di quelle che meritano tempo e tenerezza."
+            ]
+          },
+          {
+            "h": "Cosa succede in queste prime settimane",
+            "p": [
+              "Allora, parliamo con dolcezza di cosa sta davvero succedendo in queste prime settimane. Avrai un sanguinamento, chiamato lochiazioni, mentre l'utero guarisce e torna delle sue dimensioni. All'inizio è rosso e abbondante, un po' come una mestruazione intensa, poi sfuma lentamente in rosa, poi marrone, poi un crema pallido nel giro di qualche settimana. È del tutto normale. Potresti sentire dei crampi, a volte chiamati dolori post parto, soprattutto durante la poppata, mentre l'utero si contrae per tornare delle sue dimensioni. Se hai dei punti, da una lacerazione o da un cesareo, quella zona sarà dolente e avrà bisogno di cure attente e delicate mentre si rimargina. Potresti sentirti indolenzita in punti che non ti aspettavi, sudare più del solito e sentirti spremuta. Tutto questo è il tuo corpo che fa esattamente ciò per cui è fatto."
+            ]
+          },
+          {
+            "h": "Non è la stagione del tornare in forma in fretta",
+            "p": [
+              "Ed ecco la parte che voglio davvero che tu senta, mama... questa non è la stagione del tornare in forma in fretta. Non c'è nessun premio per chi va di corsa. La vecchia idea che dovresti essere in piedi e di nuovo attiva nel giro di una settimana fa un torto alla tua guarigione. Il tuo corpo ha tenuto al sicuro un intero essere umano per nove mesi. Ha il diritto di prendersi il suo tempo per tornare a sé. Quindi abbassa le aspettative di proposito, riposa più di quanto sembri produttivo, e trattati con la stessa pazienza che daresti a chiunque si stia rimettendo da qualcosa di grande. Perché è esattamente ciò che sei."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Riposo, guarigione e quando chiamare",
+        "duration": "± 6 min",
+        "desc": "Perché il riposo è il vero lavoro in questo momento — e i segnali d'allarme dopo il parto per cui dovresti chiamare la tua ostetrica, il tuo medico o i servizi d'emergenza.",
+        "vedaPrompt": "Ho appena visto la lezione 2 del corso La ripresa nel postpartum (riposo, guarigione e quando chiamare). Mi aiuti a capire quali sintomi sono normali e quali invece significano che dovrei rivolgermi a un medico?",
+        "script": [
+          {
+            "h": "Lascia che il mondo si faccia più piccolo",
+            "p": [
+              "Adesso parliamo del riposo, e dei segnali che ti dicono di prendere il telefono. In molte culture c'è una finestra sacra dopo il parto, una specie di periodo di quarantena, in cui la neomamma viene nutrita, tenuta al caldo e liberata dalle faccende, così che il suo unico compito sia guarire e tenere in braccio il suo bimbo. C'è una saggezza profonda in questo, mama. Il tuo corpo guarisce più in fretta quando riposi, sei nutrita e non ti sforzi. Quindi in queste prime settimane, lascia che il mondo si faccia più piccolo. Resta vicina al tuo letto. Accetta ogni offerta di aiuto. Dormi quando puoi, anche se i piatti aspettano. Guarire è il lavoro in questo momento, e il riposo è il modo in cui lo fai."
+            ]
+          },
+          {
+            "h": "Quando chiedere aiuto",
+            "p": [
+              "Allo stesso tempo, voglio che tu conosca cosa è normale per il tuo corpo, così da accorgerti quando qualcosa ha bisogno di un medico, non per spaventarti, solo per tenerti al sicuro. La maggior parte delle riprese fila liscia, ma ti prego, chiama la tua ostetrica, il tuo medico o i servizi d'emergenza se noti una di queste cose. Un sanguinamento che impregna un assorbente in un'ora, o la perdita di grossi coaguli. Febbre, brividi, o una ferita calda, gonfia o dall'odore strano, che possono indicare un'infezione. Un dolore forte che peggiora invece di migliorare. Dolore, arrossamento o gonfiore in una gamba sola, o un'improvvisa mancanza di fiato o dolore al petto, che richiedono cure urgenti. Un mal di testa martellante con disturbi della vista, o il sentirti in generale molto male."
+            ]
+          },
+          {
+            "h": "Fidati del tuo istinto",
+            "p": [
+              "Nessuna di queste cose significa che hai fatto qualcosa di sbagliato, mama. Significano solo che il tuo corpo sta chiedendo rinforzi, e chiedere aiuto in fretta è esattamente la mossa giusta. Fidati del tuo istinto. Tu conosci te stessa. Se qualcosa non ti torna, ti è sempre concesso di chiedere. Non è mai un'esagerazione fare un controllo."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Il tuo core e il pavimento pelvico",
+        "duration": "± 6 min",
+        "desc": "La diastasi e il pavimento pelvico dopo il parto — il percorso dolce, senza addominali, per riconnetterti, e i segnali da segnalare a una fisioterapista del pavimento pelvico.",
+        "vedaPrompt": "Ho appena visto la lezione 3 del corso La ripresa nel postpartum (il tuo core e il pavimento pelvico). Mi aiuti a capire come iniziare con dolcezza a riconnettermi con il mio core e quando rivolgermi a una fisioterapista del pavimento pelvico?",
+        "script": [
+          {
+            "h": "Cosa la gravidanza ha chiesto al tuo core",
+            "p": [
+              "Parliamo del tuo core e del tuo pavimento pelvico, mama, perché in silenzio hanno sostenuto così tanto durante la gravidanza e adesso meritano un po' di attenzione delicata. In quei nove mesi, i muscoli della pancia si sono allungati per fare spazio, e le due fasce di muscolo lungo il davanti del tuo addome spesso si separano un po' per accogliere il tuo bimbo che cresce. Questo si chiama diastasi, ed è del tutto normale. Per la maggior parte delle mamme si richiude da sola nelle settimane e nei mesi seguenti. Sotto, il tuo pavimento pelvico, quell'amaca di muscoli che sostiene la vescica e l'utero, ha fatto un lavoro enorme e ora potrebbe sentirsi debole, pesante, o semplicemente diverso."
+            ]
+          },
+          {
+            "h": "Il percorso dolce da seguire",
+            "p": [
+              "Ecco allora il percorso dolce da seguire. Nelle prime settimane, non c'è niente da sistemare e niente da affrettare. I tuoi unici compiti sono il riposo e un movimento leggero, come passeggiate brevi e lente quando te la senti. Quando ti senti pronta, puoi iniziare a riconnetterti con questi muscoli con delicatezza. Un modo semplice per cominciare è il respiro... mentre espiri, immagina di sollevare dolcemente il pavimento pelvico verso l'alto, come un sollevamento senza sforzo, e poi rilascia completamente mentre inspiri. Niente contrazioni forzate, niente spinte verso il basso, niente addominali per ora. Qui vince il dolce e lento."
+            ]
+          },
+          {
+            "h": "Segnali da segnalare",
+            "p": [
+              "Alcuni segnali vale la pena segnalarli al tuo medico o a una fisioterapista del pavimento pelvico: perdite di pipì quando tossisci, ridi o starnutisci oltre i primi giorni, una sensazione di pesantezza o di qualcosa che tira verso il basso, o un evidente spazio o una protrusione nella pancia che non si sta sistemando. Sono cose comuni e molto curabili, mama, e una fisioterapista del pavimento pelvico vale tanto oro quanto pesa. Sii paziente con questa parte. Il tuo core si ricostruisce dall'interno verso l'esterno, con dolcezza, nel tempo, non da un giorno all'altro."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Nutrimento, idratazione, sonno ed energia",
+        "duration": "± 6 min",
+        "desc": "Nutrirti mentre guarisci — cibi ricchi di ferro, idratazione, riposo strategico — e concederti indulgenza sull'energia altalenante di questa stagione.",
+        "vedaPrompt": "Ho appena visto la lezione 4 del corso La ripresa nel postpartum (nutrimento, idratazione, sonno ed energia). Mi aiuti a capire come nutrirmi e riposare di più mentre mi rimetto e mi prendo cura del mio bimbo?",
+        "script": [
+          {
+            "h": "Non puoi guarire a stomaco vuoto",
+            "p": [
+              "Allora mama, parliamo di nutrimento, perché non puoi guarire a stomaco vuoto, e tu conti tanto quanto la piccola persona che stai nutrendo. Rimetterti dal parto, e produrre latte se allatti, richiede energia vera, quindi questo non è il momento di restrizioni o diete. Questo è il momento di nutrirti. Punta a pasti caldi, sostanziosi e semplici... pensa a proteine per ricostruire i tessuti, cereali integrali e grassi sani per un'energia costante, e tanta frutta e verdura. I cibi ricchi di ferro come la carne rossa, le lenticchie e le verdure a foglia verde sono particolarmente utili dopo la perdita di sangue del parto. E tieni degli spuntini a portata di mano, perché la fame ha il vizio di arrivare di soppiatto a metà poppata."
+            ]
+          },
+          {
+            "h": "Idratazione e sonno",
+            "p": [
+              "L'idratazione conta più di quanto pensi, mama. L'allattamento in particolare fa venire sete, quindi tieni una grande bottiglia d'acqua ovunque allatti e bevi spesso a piccoli sorsi. Poi c'è il sonno, la cosa più scarsa di tutte. Per ora non avrai notti intere, e va bene, ma puoi essere strategica. Il consiglio più antico è ancora il migliore... dormi quando dorme il tuo bimbo, anche una pennichella di venti minuti conta. Lascia che qualcun altro si occupi di una poppata o tenga d'occhio il bimbo così tu puoi fare un sonno un po' più lungo. Abbassa l'asticella delle faccende di casa, e proteggi il riposo come se fosse una medicina, perché per la guarigione lo è davvero."
+            ]
+          },
+          {
+            "h": "Concediti indulgenza sull'energia",
+            "p": [
+              "E concediti indulgenza sull'energia. Certi giorni ti sentirai quasi umana, e altri giorni sarai a terra, ed entrambe le cose sono normali in questa stagione. Una piccola nota, mama... se ti senti completamente esausta in un modo che il riposo non scalfisce, molto affannata, con le vertigini, o con il cuore che corre, parlane con il tuo medico, perché a volte può indicare un ferro basso che vale la pena controllare. Nutriti con gentilezza. Vali la pena di essere nutrita anche tu."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "La tua mente e il diventare madre",
+        "duration": "± 6 min",
+        "desc": "La ripresa non è solo fisica — la matrescenza, il baby blues, quando l'umore basso è qualcosa di più, e le verità da tenere strette mentre guardi avanti.",
+        "vedaPrompt": "Ho appena visto la lezione 5 del corso La ripresa nel postpartum (la tua mente e il diventare madre). Mi aiuti a capire il lato emotivo della ripresa e a riconoscere se quello che provo è qualcosa di più del baby blues?",
+        "script": [
+          {
+            "h": "La ripresa non è solo fisica",
+            "p": [
+              "Ed ecco la parte che più voglio che tu tenga stretta, mama... la ripresa non è solo fisica. Mentre il tuo corpo guarisce, anche il tuo cuore e il tuo senso di te stessa si stanno rimettendo, e questo merita altrettanta cura. Diventare madre ti riscrive. C'è perfino una parola per questo, matrescenza, il profondo passaggio verso la maternità, un po' come l'adolescenza, tutto in una volta. Quindi se certi giorni ti guardi allo specchio e non ti riconosci del tutto, se rimpiangi la tua vecchia libertà mentre adori il tuo bimbo, non è ingratitudine. È trasformazione, e ci vuole tempo per crescerci dentro. Sii paziente con la donna che stai diventando."
+            ]
+          },
+          {
+            "h": "Baby blues, o qualcosa di più",
+            "p": [
+              "In queste prime settimane, con gli ormoni che si assestano e il sonno spezzato, è molto comune sentirsi piene di lacrime, sensibili e a fior di pelle. Quel baby blues di solito passa nel giro di circa due settimane. Ma se un umore basso, un'ansia pesante, o una sensazione piatta e di distacco persistono oltre, per gran parte della giornata quasi tutti i giorni, ti prego, non portarlo in silenzio. La depressione e l'ansia postnatale sono comuni e molto curabili, e rivolgerti al tuo medico o alla tua ostetrica è una cosa coraggiosa e amorevole da fare, mai un fallimento. E se mai dovessi avere pensieri spaventosi, o pensieri di fare del male a te stessa, ti prego, trattalo come un'urgenza e chiedi aiuto subito. Meriti sostegno, mama, in fretta e senza vergogna."
+            ]
+          },
+          {
+            "h": "Tieni strette queste cose",
+            "p": [
+              "Mentre guardi avanti, tieni strette queste cose. Il tuo corpo sta guarendo con i suoi tempi, e così il tuo cuore. Il riposo non è pigrizia, è ripresa. Chiedere aiuto è forza. E prenderti cura di te stessa è parte del prenderti cura del tuo bimbo, mai una cosa separata da esso. Te la stai cavando molto meglio di quanto tu creda. Sii gentile con te stessa, mama. Un giorno alla volta."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

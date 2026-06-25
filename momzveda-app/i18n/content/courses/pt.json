@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "Recuperação pós-parto",
+    "subtitle": "Curar o seu corpo e a sua mente depois do parto · seja gentil consigo mesma, mamã",
+    "emoji": "🌸",
+    "intro": "Cinco lições curtas em vídeo com a Veda para o seu quarto trimestre. Desde compreender o que está realmente a acontecer ao seu corpo, até ao descanso e aos sinais de alerta que significam que deve ligar, passando pelo seu core e pavimento pélvico, pela alimentação e pelo sono, e pela mudança emocional de se tornar mãe — com honestidade, gentileza e sem julgamentos. Não há prémio por ter pressa, mamã. O seu corpo e o seu coração têm o direito de sarar ao seu próprio ritmo.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "O que está a acontecer ao seu corpo",
+        "duration": "± 5 min",
+        "desc": "Como é, na verdade, a recuperação nas primeiras semanas — sangramento, dores de pós-parto, pontos, sensibilidade — e por que não há prémio por ter pressa.",
+        "vedaPrompt": "Acabei de ver a Lição 1 do curso Recuperação pós-parto (o que está a acontecer ao seu corpo). Pode me ajudar a entender o que é normal nestas primeiras semanas de recuperação e como ser gentil comigo mesma?",
+        "script": [
+          {
+            "h": "O seu corpo acabou de fazer algo extraordinário",
+            "p": [
+              "Está bem, mamã, antes de irmos a qualquer lado, quero que você respire devagar... porque o seu corpo acabou de fazer algo extraordinário. Quer tenha tido o seu bebé por parto vaginal ou por cesariana, você passou por um dos acontecimentos mais poderosos por que um corpo pode passar, e agora está em recuperação. Recuperação a sério, daquela que merece tempo e ternura."
+            ]
+          },
+          {
+            "h": "O que está a acontecer nestas primeiras semanas",
+            "p": [
+              "Então vamos falar gentilmente do que está, na verdade, a acontecer nestas primeiras semanas. Você vai ter um sangramento, chamado lóquios, à medida que o seu útero sara e volta a encolher. Começa vermelho e intenso, um pouco como uma menstruação forte, e depois vai desvanecendo devagar para rosa, depois castanho, depois um creme pálido ao longo de algumas semanas. Isso é completamente normal. Você pode sentir cólicas, às vezes chamadas dores de pós-parto, sobretudo durante as mamadas, à medida que o útero contrai para voltar ao tamanho. Se tiver pontos, de uma laceração ou de uma cesariana, essa zona vai estar sensível e precisar de cuidados cuidadosos e gentis enquanto cicatriza. Você pode estar dorida em sítios onde não esperava, a suar mais do que o habitual e a sentir-se esgotada. Tudo isto é o seu corpo a fazer exatamente aquilo para que foi feito."
+            ]
+          },
+          {
+            "h": "Esta não é a época de voltar logo ao normal",
+            "p": [
+              "Aqui está a parte que eu mais quero que você ouça, mamã... esta não é a época de voltar logo ao normal. Não há prémio por ter pressa. Aquela velha ideia de que devia estar de pé e a correr numa semana faz um mau favor à sua recuperação. O seu corpo manteve um ser humano inteiro em segurança durante nove meses. Tem o direito de levar o seu tempo a voltar a si mesmo. Por isso baixe as suas expectativas de propósito, descanse mais do que parece produtivo e trate-se com a mesma paciência que daria a qualquer pessoa a recuperar de algo grande. Porque é exatamente isso que você é."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Descanso, cura e quando ligar",
+        "duration": "± 6 min",
+        "desc": "Por que o descanso é o verdadeiro trabalho neste momento — e os sinais de alerta após o parto que significam que deve ligar à sua parteira, médico ou aos serviços de emergência.",
+        "vedaPrompt": "Acabei de ver a Lição 2 do curso Recuperação pós-parto (descanso, cura e quando ligar). Pode me ajudar a entender quais os sintomas que são normais e quais significam que devo procurar um médico?",
+        "script": [
+          {
+            "h": "Deixe o mundo ficar mais pequeno",
+            "p": [
+              "Agora vamos falar do descanso, e dos sinais que lhe dizem para pegar no telefone. Em muitas culturas há uma janela sagrada após o parto, uma espécie de período de resguardo, em que a nova mãe é alimentada, mantida quente e libertada das tarefas, para que a sua única função seja sarar e acolher o seu bebé. Há uma sabedoria profunda nisso, mamã. O seu corpo sara mais depressa quando você está a descansar, bem alimentada e sem se forçar. Por isso, nestas primeiras semanas, deixe o mundo ficar mais pequeno. Fique perto da sua cama. Aceite todas as ofertas de ajuda. Durma quando puder, mesmo que a loiça espere. A cura é o trabalho neste momento, e o descanso é a forma de o fazer."
+            ]
+          },
+          {
+            "h": "Quando procurar ajuda",
+            "p": [
+              "Ao mesmo tempo, quero que você conheça o normal do seu corpo, para conseguir perceber quando algo precisa de um médico, não para a assustar, apenas para a manter em segurança. A maior parte das recuperações decorre sem sobressaltos, mas, por favor, ligue à sua parteira, médico ou aos serviços de emergência se notar algum destes sinais. Um sangramento que encharca um penso numa hora, ou a expulsão de coágulos grandes. Febre, arrepios, ou uma ferida que está quente, inchada ou com mau cheiro, o que pode indicar uma infeção. Dor intensa que está a piorar em vez de melhorar. Dor, vermelhidão ou inchaço numa só perna, ou falta de ar súbita ou dor no peito, que precisam de cuidados urgentes. Uma dor de cabeça latejante com alterações na visão, ou sentir-se geralmente muito mal."
+            ]
+          },
+          {
+            "h": "Confie no seu instinto",
+            "p": [
+              "Nenhum destes sinais significa que você fez algo de errado, mamã. Significam apenas que o seu corpo está a pedir reforços, e procurar ajuda depressa é exatamente a atitude certa. Confie no seu instinto. Você conhece-se. Se algo lhe parecer estranho, tem sempre permissão para perguntar. Nunca é um exagero ir confirmar."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "O seu core e o pavimento pélvico",
+        "duration": "± 6 min",
+        "desc": "Diástase e o pavimento pélvico após o parto — o caminho gentil, sem abdominais, para voltar a ligar-se, e os sinais que vale a pena mencionar a um fisioterapeuta pélvico.",
+        "vedaPrompt": "Acabei de ver a Lição 3 do curso Recuperação pós-parto (o seu core e o pavimento pélvico). Pode me ajudar a entender como começar gentilmente a voltar a ligar-me ao meu core e quando consultar um fisioterapeuta pélvico?",
+        "script": [
+          {
+            "h": "O que a gravidez pediu ao seu core",
+            "p": [
+              "Vamos falar do seu core e do seu pavimento pélvico, mamã, porque eles carregaram tanta coisa em silêncio durante a gravidez e merecem agora uma atenção gentil. Durante esses nove meses, os músculos da sua barriga esticaram para dar espaço, e as duas bandas de músculo que descem pela frente da barriga muitas vezes separam-se um pouco para acomodar o seu bebé em crescimento. A isso chama-se diástase, e é completamente normal. Para a maioria das mães, volta a aproximar-se sozinha ao longo das semanas e meses seguintes. Por baixo, o seu pavimento pélvico, a rede de músculos que sustenta a sua bexiga e o seu útero, fez um trabalho enorme e pode sentir-se fraco, pesado, ou simplesmente diferente neste momento."
+            ]
+          },
+          {
+            "h": "O caminho gentil em frente",
+            "p": [
+              "Então aqui está o caminho gentil em frente. Nas primeiras semanas, não há nada a corrigir e nada a apressar. As suas únicas funções são descansar e mover-se com suavidade, como caminhadas curtas e lentas assim que se sentir preparada. Quando se sentir com vontade, pode começar a voltar a ligar-se a estes músculos com suavidade. Uma forma simples de começar é com a respiração... ao expirar, imagine que está a puxar suavemente o pavimento pélvico para cima, como se o elevasse sem esforço, e depois a relaxá-lo por completo ao inspirar. Sem apertar, sem empurrar para baixo, sem abdominais ainda. Aqui, suave e devagar é que ganha."
+            ]
+          },
+          {
+            "h": "Sinais que vale a pena mencionar",
+            "p": [
+              "Alguns sinais vale a pena mencionar ao seu médico ou a um fisioterapeuta de saúde pélvica: perdas de chichi quando tosse, ri ou espirra para além dos primeiros dias, uma sensação de peso ou de algo a puxar lá em baixo, ou uma falha visível ou uma saliência na barriga que não está a assentar. Isto é comum e muito tratável, mamã, e um fisioterapeuta pélvico vale o seu peso em ouro. Tenha paciência com esta parte. O seu core reconstrói-se de dentro para fora, com gentileza, ao longo do tempo, não de um dia para o outro."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Alimentação, hidratação, sono e energia",
+        "duration": "± 6 min",
+        "desc": "Nutrir-se enquanto sara — alimentos ricos em ferro, hidratação, descanso estratégico — e ser indulgente consigo mesma face à energia que sobe e desce nesta fase.",
+        "vedaPrompt": "Acabei de ver a Lição 4 do curso Recuperação pós-parto (alimentação, hidratação, sono e energia). Pode me ajudar a perceber como me nutrir e descansar mais enquanto recupero e cuido do meu bebé?",
+        "script": [
+          {
+            "h": "Não dá para sarar de barriga vazia",
+            "p": [
+              "Está bem, mamã, vamos falar de alimentação, porque não dá para sarar de barriga vazia, e você importa tanto quanto a pequenina pessoa que está a alimentar. Recuperar do parto, e produzir leite se estiver a amamentar, exige energia a sério, por isso este não é o momento para restrições ou dietas. Este é o momento para se nutrir. Aposte em refeições quentes, substanciais e fáceis... pense em proteínas para reconstruir os tecidos, cereais integrais e gorduras saudáveis para uma energia estável, e bastante fruta e legumes. Os alimentos ricos em ferro, como carne vermelha, lentilhas e folhas verdes, são especialmente úteis depois da perda de sangue do parto. E mantenha lanches ao alcance da mão, porque a fome tem o hábito de aparecer a meio de uma mamada."
+            ]
+          },
+          {
+            "h": "Hidratação e sono",
+            "p": [
+              "A hidratação importa mais do que você imagina, mamã. A amamentação, em especial, dá sede, por isso mantenha uma garrafa grande de água onde quer que amamente e beba goles com frequência. Depois há o sono, aquilo que está em maior falta. Você ainda não vai ter noites inteiras, e tudo bem, mas pode ser estratégica. O conselho mais antigo continua a ser o melhor... durma quando o bebé dorme, mesmo uma soneca de vinte minutos conta. Deixe outra pessoa dar uma mamada ou vigiar o bebé para que você consiga um período mais longo. Baixe a fasquia das tarefas de casa e proteja o descanso como se fosse um remédio, porque, para a cura, é mesmo."
+            ]
+          },
+          {
+            "h": "Seja indulgente consigo mesma quanto à energia",
+            "p": [
+              "E seja indulgente consigo mesma quanto à energia. Há dias em que vai sentir-se quase humana, e outros em que vai estar arrasada, e ambos são normais nesta fase. Uma pequena nota, mamã... se você se sentir totalmente exausta de uma forma que o descanso não resolve, muito ofegante, tonta, ou com o coração acelerado, mencione isso ao seu médico, pois às vezes pode apontar para ferro baixo, que vale a pena verificar. Alimente-se com carinho. Você também merece ser nutrida."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "A sua mente e tornar-se mãe",
+        "duration": "± 6 min",
+        "desc": "A recuperação não é só física — a matrescência, o baby blues, quando o humor baixo é algo mais, e as verdades a guardar perto à medida que olha em frente.",
+        "vedaPrompt": "Acabei de ver a Lição 5 do curso Recuperação pós-parto (a sua mente e tornar-se mãe). Pode me ajudar a entender o lado emocional da recuperação e a saber se o que estou a sentir é mais do que o baby blues?",
+        "script": [
+          {
+            "h": "A recuperação não é só física",
+            "p": [
+              "E aqui está a parte que eu mais quero que você guarde, mamã... a recuperação não é só física. Enquanto o seu corpo sara, o seu coração e o seu sentido de si mesma também estão a recuperar, e isso merece tanto cuidado quanto o resto. Tornar-se mãe reescreve-a. Há até uma palavra para isso, matrescência, a profunda transição para a maternidade, um pouco como a adolescência, tudo de uma vez. Por isso, se em alguns dias você se olha ao espelho e não se reconhece bem, se sente saudade da sua antiga liberdade mesmo enquanto adora o seu bebé, isso não é ingratidão. É transformação, e leva tempo a amadurecer. Tenha paciência com a mulher em que se está a tornar."
+            ]
+          },
+          {
+            "h": "Baby blues, ou algo mais",
+            "p": [
+              "Nestas primeiras semanas, com as suas hormonas a assentar e o seu sono interrompido, é muito comum sentir-se chorosa, sensível e em carne viva. Esse baby blues costuma passar dentro de cerca de duas semanas. Mas se um humor baixo, uma ansiedade pesada, ou uma sensação de vazio e desligamento persistir para além disso, na maior parte do dia, na maioria dos dias, por favor não carregue isso em silêncio. A depressão e a ansiedade pós-parto são comuns e muito tratáveis, e procurar o seu médico ou parteira é uma atitude corajosa e amorosa, nunca um fracasso. E se você alguma vez tiver pensamentos assustadores, ou pensamentos de fazer mal a si mesma, por favor trate isso como urgente e procure ajuda imediatamente. Você merece apoio, mamã, depressa e sem vergonha."
+            ]
+          },
+          {
+            "h": "Guarde isto perto do coração",
+            "p": [
+              "Ao olhar em frente, guarde isto perto do coração. O seu corpo está a sarar ao seu próprio ritmo, e o seu coração também. Descansar não é preguiça, é recuperação. Pedir ajuda é força. E cuidar de si mesma faz parte de cuidar do seu bebé, nunca está separado disso. Você está a ir muito melhor do que imagina. Seja gentil consigo mesma, mamã. Um dia de cada vez."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

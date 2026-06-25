@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "Recuperación posparto",
+    "subtitle": "Sanar tu cuerpo y tu mente después del parto · sé suave contigo misma, mamá",
+    "emoji": "🌸",
+    "intro": "Cinco lecciones cortas en vídeo con Veda para tu cuarto trimestre. Desde entender lo que de verdad le está pasando a tu cuerpo, hasta el descanso y las señales de alarma que indican que debes llamar, pasando por tu centro y tu suelo pélvico, la nutrición y el sueño, y el cambio emocional de convertirte en madre — con honestidad, suavidad y sin juicios. No hay premio por correr, mamá. Tu cuerpo y tu corazón tienen derecho a sanar a su propio ritmo.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Lo que le está pasando a tu cuerpo",
+        "duration": "± 5 min",
+        "desc": "Cómo es de verdad la recuperación en las primeras semanas — el sangrado, los entuertos, los puntos, el dolor — y por qué no hay premio por correr.",
+        "vedaPrompt": "Acabo de ver la lección 1 del curso Recuperación posparto (lo que le está pasando a tu cuerpo). ¿Puedes ayudarme a entender qué es normal en estas primeras semanas de recuperación y cómo ser suave conmigo misma?",
+        "script": [
+          {
+            "h": "Tu cuerpo acaba de hacer algo extraordinario",
+            "p": [
+              "Vale, mamá, antes de ir a ningún sitio, quiero que respires despacio... porque tu cuerpo acaba de hacer algo extraordinario. Tanto si diste a luz a tu bebé por parto vaginal como por cesárea, has pasado por uno de los acontecimientos más poderosos que un cuerpo puede vivir, y ahora estás en recuperación. Recuperación de verdad, de la que merece tiempo y ternura."
+            ]
+          },
+          {
+            "h": "Lo que pasa en estas primeras semanas",
+            "p": [
+              "Así que hablemos con suavidad de lo que de verdad está pasando en estas primeras semanas. Tendrás sangrado, llamado loquios, mientras tu útero sana y vuelve a encogerse. Empieza rojo y abundante, un poco como una regla fuerte, y luego se va aclarando poco a poco a rosado, después marrón, y por último a un crema pálido a lo largo de unas semanas. Eso es completamente normal. Puede que sientas cólicos, a veces llamados entuertos, sobre todo durante las tomas, mientras tu útero se contrae para volver a su tamaño. Si tienes puntos, de un desgarro o de una cesárea, esa zona estará sensible y necesitará cuidados cuidadosos y suaves mientras cicatriza. Puede que te duelan partes donde no lo esperabas, que sudes más de lo habitual y que te sientas exprimida. Todo esto es tu cuerpo haciendo exactamente aquello para lo que está diseñado."
+            ]
+          },
+          {
+            "h": "Esta no es la temporada de recuperar la forma a toda prisa",
+            "p": [
+              "Aquí va la parte que de verdad quiero que escuches, mamá... esta no es la temporada de recuperar la forma a toda prisa. No hay premio por correr. La vieja idea de que deberías estar en pie y correteando en una semana le hace un flaco favor a tu recuperación. Tu cuerpo mantuvo a salvo a un ser humano entero durante nueve meses. Tiene derecho a tomarse su tiempo para volver a sí mismo. Así que baja tus expectativas a propósito, descansa más de lo que parece productivo, y trátate con la misma paciencia que le darías a cualquiera que se recupera de algo grande. Porque eso es exactamente lo que eres."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Descanso, recuperación y cuándo llamar",
+        "duration": "± 6 min",
+        "desc": "Por qué el descanso es el verdadero trabajo ahora mismo — y las señales de alarma tras el parto que indican que debes llamar a tu matrona, tu médico o los servicios de urgencia.",
+        "vedaPrompt": "Acabo de ver la lección 2 del curso Recuperación posparto (descanso, recuperación y cuándo llamar). ¿Puedes ayudarme a entender qué síntomas son normales y cuáles significan que debería acudir a un médico?",
+        "script": [
+          {
+            "h": "Deja que el mundo se haga más pequeño",
+            "p": [
+              "Ahora hablemos del descanso, y de las señales que te dicen que cojas el teléfono. En muchas culturas existe una ventana sagrada después del parto, una especie de cuarentena de reposo, en la que se alimenta a la nueva madre, se la mantiene caliente y se la libera de las tareas para que su único trabajo sea sanar y sostener a su bebé. Hay una sabiduría profunda en eso, mamá. Tu cuerpo sana más rápido cuando descansas, estás nutrida y no te exiges. Así que en estas primeras semanas, deja que el mundo se haga más pequeño. Quédate cerca de tu cama. Acepta cada ofrecimiento de ayuda. Duerme cuando puedas, aunque los platos esperen. Sanar es el trabajo ahora mismo, y el descanso es la forma de hacerlo."
+            ]
+          },
+          {
+            "h": "Cuándo pedir ayuda",
+            "p": [
+              "Al mismo tiempo, quiero que sepas qué es lo normal en tu cuerpo para que puedas detectar cuándo algo necesita a un médico, no para asustarte, solo para mantenerte a salvo. La mayoría de las recuperaciones transcurren sin incidentes, pero por favor llama a tu matrona, a tu médico o a los servicios de urgencia si notas cualquiera de estas cosas. Sangrado que empapa una compresa en una hora, o expulsión de coágulos grandes. Fiebre, escalofríos, o una herida caliente, hinchada o con mal olor, lo que puede indicar una infección. Dolor intenso que empeora en lugar de mejorar. Dolor, enrojecimiento o hinchazón en una sola pierna, o una falta de aire repentina o dolor en el pecho, que necesitan atención urgente. Un dolor de cabeza intenso y palpitante con cambios en la visión, o sentirte muy mal en general."
+            ]
+          },
+          {
+            "h": "Confía en tu instinto",
+            "p": [
+              "Nada de esto significa que hayas hecho algo mal, mamá. Solo significa que tu cuerpo está pidiendo refuerzos, y pedir ayuda rápido es justo lo correcto. Confía en tu instinto. Tú te conoces. Si algo no te encaja, siempre tienes permiso para preguntar. Nunca es una exageración consultarlo."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Tu centro y tu suelo pélvico",
+        "duration": "± 6 min",
+        "desc": "La diástasis y el suelo pélvico después del parto — el camino suave, sin abdominales, para reconectar, y las señales que conviene comentar con una fisioterapeuta de suelo pélvico.",
+        "vedaPrompt": "Acabo de ver la lección 3 del curso Recuperación posparto (tu centro y tu suelo pélvico). ¿Puedes ayudarme a entender cómo empezar a reconectar suavemente con mi centro y cuándo acudir a una fisioterapeuta de suelo pélvico?",
+        "script": [
+          {
+            "h": "Lo que el embarazo le pidió a tu centro",
+            "p": [
+              "Hablemos de tu centro y de tu suelo pélvico, mamá, porque sostuvieron en silencio muchísimo durante el embarazo y ahora merecen un poco de atención suave. Durante esos nueve meses, los músculos de tu vientre se estiraron para hacer sitio, y las dos bandas de músculo que recorren la parte delantera de tu tripa a menudo se separan un poco para dar cabida a tu bebé en crecimiento. Eso se llama diástasis, y es completamente normal. En la mayoría de las madres se vuelve a juntar por sí sola a lo largo de las semanas y los meses que vienen. Por debajo, tu suelo pélvico, la hamaca de músculos que sostiene tu vejiga y tu útero, hizo un trabajo enorme y puede que ahora lo sientas débil, pesado o simplemente diferente."
+            ]
+          },
+          {
+            "h": "El camino suave hacia delante",
+            "p": [
+              "Así que este es el camino suave hacia delante. En las primeras semanas, no hay nada que arreglar ni nada que apresurar. Tus únicos trabajos son descansar y moverte con suavidad, como paseos cortos y lentos cuando te sientas preparada. Cuando te veas con ánimo, puedes empezar a reconectar con estos músculos con delicadeza. Una forma sencilla de empezar es la respiración... al exhalar, imagina que elevas suavemente tu suelo pélvico, como si levantaras sin forzar, y luego lo relajas por completo al inhalar. Sin apretar, sin empujar hacia abajo, y sin abdominales todavía. Aquí gana lo suave y lo lento."
+            ]
+          },
+          {
+            "h": "Señales que conviene comentar",
+            "p": [
+              "Hay unas cuantas señales que conviene comentar con tu médico o con una fisioterapeuta de suelo pélvico: escapes de pis al toser, reír o estornudar más allá de los primeros días, una sensación de pesadez o de que algo tira hacia abajo, o un hueco evidente o un abultamiento en tu tripa que no se asienta. Esto es común y muy tratable, mamá, y una fisioterapeuta de suelo pélvico vale su peso en oro. Ten paciencia con esta parte. Tu centro se reconstruye de dentro hacia fuera, con suavidad, con el tiempo, no de la noche a la mañana."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Alimento, hidratación, sueño y energía",
+        "duration": "± 6 min",
+        "desc": "Nutrirte mientras sanas — comida rica en hierro, hidratación, descanso estratégico — y darte margen ante la energía cambiante de esta etapa.",
+        "vedaPrompt": "Acabo de ver la lección 4 del curso Recuperación posparto (alimento, hidratación, sueño y energía). ¿Puedes ayudarme a averiguar cómo nutrirme y descansar más mientras me recupero y cuido de mi bebé?",
+        "script": [
+          {
+            "h": "No puedes sanar con el depósito vacío",
+            "p": [
+              "Vale, mamá, hablemos de alimento, porque no puedes sanar con el depósito vacío, y tú importas tanto como la personita a la que alimentas. Recuperarte del parto, y producir leche si das el pecho, requiere energía de verdad, así que este no es el momento de restringir ni de hacer dieta. Este es el momento de nutrirte. Apunta a comidas calientes, sustanciosas y fáciles... piensa en proteínas para reconstruir el tejido, cereales integrales y grasas saludables para una energía estable, y mucha fruta y verdura. Los alimentos ricos en hierro como la carne roja, las lentejas y las verduras de hoja verde resultan especialmente útiles después de la pérdida de sangre del parto. Y ten tentempiés a mano, porque el hambre tiene la costumbre de aparecer a mitad de una toma."
+            ]
+          },
+          {
+            "h": "Hidratación y sueño",
+            "p": [
+              "La hidratación importa más de lo que crees, mamá. Dar el pecho, en particular, da mucha sed, así que ten una botella grande de agua allí donde alimentes a tu bebé y bebe a sorbos a menudo. Y luego está el sueño, lo que más escasea. Todavía no vas a tener noches de un tirón, y no pasa nada, pero puedes ser estratégica. El consejo más antiguo sigue siendo el mejor... duerme cuando el bebé duerma, hasta una cabezada de veinte minutos cuenta. Deja que otra persona se encargue de una toma o vigile al bebé para que tú puedas dormir un tramo más largo. Baja el listón de las tareas de casa, y protege el descanso como si fuera medicina, porque para sanar, de verdad lo es."
+            ]
+          },
+          {
+            "h": "Date margen con la energía",
+            "p": [
+              "Y date margen con la energía. Algunos días te sentirás casi humana, y otros días estarás por los suelos, y las dos cosas son normales en esta etapa. Una pequeña nota, mamá... si te sientes completamente agotada de una forma que el descanso no alivia, muy falta de aire, mareada, o el corazón se te acelera, coméntaselo a tu médico, ya que a veces puede apuntar a un nivel bajo de hierro que conviene revisar. Aliméntate con cariño. Tú también mereces que te nutran."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Tu mente y convertirte en madre",
+        "duration": "± 6 min",
+        "desc": "La recuperación no es solo física — la matrescencia, la melancolía posparto, cuándo el ánimo bajo es algo más, y las verdades que conviene guardar cerca al mirar hacia delante.",
+        "vedaPrompt": "Acabo de ver la lección 5 del curso Recuperación posparto (tu mente y convertirte en madre). ¿Puedes ayudarme a entender el lado emocional de la recuperación y a saber si lo que siento es más que la melancolía posparto?",
+        "script": [
+          {
+            "h": "La recuperación no es solo física",
+            "p": [
+              "Y aquí viene la parte que más quiero que guardes, mamá... la recuperación no es solo física. Mientras tu cuerpo sana, tu corazón y tu sentido de quién eres también se están recuperando, y eso merece tanto cuidado como lo demás. Convertirte en madre te reescribe. Hasta hay una palabra para ello, matrescencia, el cambio profundo hacia la maternidad, un poco como la adolescencia, pero todo de golpe. Así que si algunos días te miras al espejo y no te reconoces del todo, si añoras tu antigua libertad incluso mientras adoras a tu bebé, eso no es ingratitud. Eso es transformación, y lleva tiempo crecer hacia ella. Ten paciencia con la mujer en la que te estás convirtiendo."
+            ]
+          },
+          {
+            "h": "Melancolía posparto, o algo más",
+            "p": [
+              "En estas primeras semanas, con tus hormonas asentándose y tu sueño hecho pedazos, es muy común sentirse llorosa, sensible y a flor de piel. Esa melancolía posparto suele aliviarse en unas dos semanas. Pero si un ánimo bajo, una ansiedad pesada, o una sensación apagada y desconectada se prolonga más allá de eso, casi todo el día casi todos los días, por favor no lo lleves en silencio. La depresión y la ansiedad posnatal son comunes y muy tratables, y acudir a tu médico o a tu matrona es algo valiente y lleno de amor, nunca un fracaso. Y si alguna vez tienes pensamientos que te asustan, o pensamientos de hacerte daño, por favor trátalo como una urgencia y busca ayuda de inmediato. Mereces apoyo, mamá, rápido y sin vergüenza."
+            ]
+          },
+          {
+            "h": "Guarda esto cerca",
+            "p": [
+              "Mientras miras hacia delante, guarda esto cerca. Tu cuerpo está sanando a su propio ritmo, y tu corazón también. El descanso no es pereza, es recuperación. Pedir ayuda es fortaleza. Y cuidarte a ti misma es parte de cuidar a tu bebé, nunca algo separado de ello. Lo estás haciendo mucho mejor de lo que crees. Sé suave contigo misma, mamá. Un día a la vez."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

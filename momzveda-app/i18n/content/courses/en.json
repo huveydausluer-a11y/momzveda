@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "Postpartum Recovery",
+    "subtitle": "Healing your body and mind after birth · be gentle with yourself, mama",
+    "emoji": "🌸",
+    "intro": "Five short video lessons with Veda for your fourth trimester. From understanding what's really happening to your body, to rest and the warning signs that mean you should call, to your core and pelvic floor, nourishment and sleep, and the emotional shift of becoming a mother — honest, gentle, and judgment-free. There is no prize for rushing, mama. Your body and your heart get to heal on their own time.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "What's Happening to Your Body",
+        "duration": "± 5 min",
+        "desc": "What recovery actually looks like in the early weeks — bleeding, afterpains, stitches, soreness — and why there is no prize for rushing.",
+        "vedaPrompt": "I just watched Lesson 1 of the Postpartum Recovery course (what's happening to your body). Can you help me understand what's normal in these early weeks of healing and how to be gentle with myself?",
+        "script": [
+          {
+            "h": "Your body just did something extraordinary",
+            "p": [
+              "Okay mama, before we go anywhere, I want you to take a slow breath... because your body just did something extraordinary. Whether you birthed your baby vaginally or by cesarean, you have been through one of the most powerful events a body can go through, and now you are in recovery. Real recovery, the kind that deserves time and tenderness."
+            ]
+          },
+          {
+            "h": "What's happening in these first weeks",
+            "p": [
+              "So let's gently talk about what's actually happening in these first weeks. You'll have bleeding, called lochia, as your womb heals and shrinks back down. It starts red and heavy, a bit like a strong period, then slowly fades to pink, then brown, then a pale cream over a few weeks. That's completely normal. You might feel cramping, sometimes called afterpains, especially while feeding, as your uterus contracts back to size. If you have stitches, from a tear or a cesarean, that area will feel tender and need careful, gentle care while it knits back together. You may be sore in places you didn't expect, sweating more than usual, and feeling wrung out. All of this is your body doing exactly what it's designed to do."
+            ]
+          },
+          {
+            "h": "This is not the season to bounce back",
+            "p": [
+              "Here's the part I really want you to hear, mama... this is not the season to bounce back. There is no prize for rushing. The old idea that you should be up and running in a week does your healing a disservice. Your body kept a whole human safe for nine months. It gets to take its time coming home to itself. So lower your expectations on purpose, rest more than feels productive, and treat yourself with the same patience you'd give anyone recovering from something big. Because that's exactly what you are."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Rest, Healing & When to Call",
+        "duration": "± 6 min",
+        "desc": "Why rest is the real work right now — and the warning signs after birth that mean you should call your midwife, doctor, or emergency services.",
+        "vedaPrompt": "I just watched Lesson 2 of the Postpartum Recovery course (rest, healing and when to call). Can you help me understand which symptoms are normal and which ones mean I should reach out to a doctor?",
+        "script": [
+          {
+            "h": "Let the world get smaller",
+            "p": [
+              "Now let's talk about rest, and about the signals that tell you to pick up the phone. In many cultures there's a sacred window after birth, a kind of lying-in period, where the new mother is fed, kept warm, and freed from chores so her only job is to heal and hold her baby. There's deep wisdom in that, mama. Your body heals fastest when you're resting, nourished, and not pushing. So in these early weeks, let the world get smaller. Stay close to your bed. Accept every offer of help. Sleep when you can, even if the dishes wait. Healing is the work right now, and rest is how you do it."
+            ]
+          },
+          {
+            "h": "When to call for help",
+            "p": [
+              "At the same time, I want you to know your body's normal so you can spot when something needs a doctor, not to frighten you, just to keep you safe. Most recovery is uneventful, but please call your midwife, doctor, or emergency services if you notice any of these. Bleeding that soaks a pad in an hour, or passing large clots. A fever, chills, or a wound that's hot, swollen, or smells off, which can signal infection. Severe pain that's getting worse instead of better. Pain, redness, or swelling in one leg, or sudden breathlessness or chest pain, which need urgent care. A pounding headache with vision changes, or feeling generally very unwell."
+            ]
+          },
+          {
+            "h": "Trust your gut",
+            "p": [
+              "None of these mean you did anything wrong, mama. They just mean your body is asking for backup, and reaching out quickly is exactly the right move. Trust your gut. You know yourself. If something feels off, you are always allowed to ask. It's never an overreaction to check."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Your Core & Pelvic Floor",
+        "duration": "± 6 min",
+        "desc": "Diastasis and the pelvic floor after birth — the gentle, no-crunches path to reconnecting, and the signs worth flagging to a pelvic physio.",
+        "vedaPrompt": "I just watched Lesson 3 of the Postpartum Recovery course (your core and pelvic floor). Can you help me understand how to gently start reconnecting with my core and when to see a pelvic physiotherapist?",
+        "script": [
+          {
+            "h": "What pregnancy asked of your core",
+            "p": [
+              "Let's talk about your core and your pelvic floor, mama, because these quietly carried so much during pregnancy and they deserve some gentle attention now. During those nine months, your belly muscles stretched to make room, and the two bands of muscle down the front of your tummy often separate a little to accommodate your growing baby. That's called diastasis, and it's completely normal. For most mothers it narrows back on its own over the weeks and months ahead. Underneath, your pelvic floor, the hammock of muscles that supports your bladder and womb, did enormous work and may feel weak, heavy, or just different right now."
+            ]
+          },
+          {
+            "h": "The gentle path forward",
+            "p": [
+              "So here's the gentle path forward. In the early weeks, there is nothing to fix and nothing to rush. Your only jobs are rest and easy movement, like short, slow walks once you feel ready. When you feel up to it, you can begin reconnecting with these muscles softly. A simple way to start is breathing... on an exhale, imagine gently drawing your pelvic floor up, like lifting without straining, then fully relaxing as you breathe in. No clenching, no pushing down, no crunches yet. Soft and slow wins here."
+            ]
+          },
+          {
+            "h": "Signs worth flagging",
+            "p": [
+              "A few signs are worth flagging to your doctor or a pelvic health physiotherapist: leaking wee when you cough, laugh, or sneeze beyond the early days, a feeling of heaviness or dragging down below, or a noticeable gap or doming in your tummy that isn't settling. These are common and very treatable, mama, and a pelvic physio is worth their weight in gold. Be patient with this part. Your core rebuilds from the inside out, gently, over time, not overnight."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Fuel, Hydration, Sleep & Energy",
+        "duration": "± 6 min",
+        "desc": "Nourishing yourself while you heal — iron-rich food, hydration, strategic rest — and giving yourself grace on the up-and-down energy of this season.",
+        "vedaPrompt": "I just watched Lesson 4 of the Postpartum Recovery course (fuel, hydration, sleep and energy). Can you help me figure out how to nourish myself and get more rest while recovering and caring for my baby?",
+        "script": [
+          {
+            "h": "You can't heal on empty",
+            "p": [
+              "Okay mama, let's talk about fuel, because you cannot heal on empty, and you matter just as much as the little person you're feeding. Recovering from birth, and making milk if you're breastfeeding, takes real energy, so this is not the moment for restricting or dieting. This is the moment for nourishing. Aim for warm, hearty, easy meals... think proteins to rebuild tissue, whole grains and healthy fats for steady energy, and plenty of fruit and vegetables. Iron-rich foods like red meat, lentils, and leafy greens are especially helpful after the blood loss of birth. And keep snacks within reach, because hunger has a way of sneaking up mid-feed."
+            ]
+          },
+          {
+            "h": "Hydration and sleep",
+            "p": [
+              "Hydration matters more than you'd think, mama. Breastfeeding in particular makes you thirsty, so keep a big bottle of water wherever you feed and sip often. Then there's sleep, the thing in shortest supply. You won't get unbroken nights yet, and that's okay, but you can be strategic. The oldest advice is still the best... sleep when the baby sleeps, even a twenty-minute doze counts. Let someone else take a feed or watch the baby so you can get one longer stretch. Lower the housework bar, and protect rest like it's medicine, because for healing, it truly is."
+            ]
+          },
+          {
+            "h": "Give yourself grace on energy",
+            "p": [
+              "And give yourself grace on energy. Some days you'll feel almost human, and other days you'll be flattened, and both are normal in this season. One small note, mama... if you feel utterly exhausted in a way that rest doesn't touch, very breathless, dizzy, or your heart races, mention it to your doctor, as it can sometimes point to low iron worth checking. Feed yourself kindly. You're worth nourishing too."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Your Mind & Becoming a Mother",
+        "duration": "± 6 min",
+        "desc": "Recovery isn't only physical — matrescence, the baby blues, when low mood is something more, and the truths to hold close as you look ahead.",
+        "vedaPrompt": "I just watched Lesson 5 of the Postpartum Recovery course (your mind and becoming a mother). Can you help me understand the emotional side of recovery and how to know if what I'm feeling is more than the baby blues?",
+        "script": [
+          {
+            "h": "Recovery isn't only physical",
+            "p": [
+              "And here's the part I most want you to hold onto, mama... recovery isn't only physical. While your body heals, your heart and your sense of self are recovering too, and that deserves just as much care. Becoming a mother rewrites you. There's even a word for it, matrescence, the profound shift into motherhood, a bit like adolescence, all at once. So if you look in the mirror some days and don't quite recognize yourself, if you grieve your old freedom even as you adore your baby, that's not ingratitude. That's transformation, and it takes time to grow into. Be patient with the woman you're becoming."
+            ]
+          },
+          {
+            "h": "Baby blues, or something more",
+            "p": [
+              "In these early weeks, with your hormones settling and your sleep broken, it's very common to feel weepy, tender, and raw. Those baby blues usually ease within about two weeks. But if a low mood, heavy anxiety, or a flat, disconnected feeling lingers beyond that, most of the day on most days, please don't carry it quietly. Postnatal depression and anxiety are common and very treatable, and reaching out to your doctor or midwife is a brave, loving thing to do, never a failure. And if you ever have frightening thoughts, or thoughts of harming yourself, please treat that as urgent and get help straight away. You deserve support, mama, fast and without shame."
+            ]
+          },
+          {
+            "h": "Hold these close",
+            "p": [
+              "As you look ahead, hold these close. Your body is healing on its own timeline, and so is your heart. Rest is not laziness, it's recovery. Asking for help is strength. And taking care of yourself is part of taking care of your baby, never separate from it. You're doing so much better than you know. Be gentle with yourself, mama. One day at a time."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

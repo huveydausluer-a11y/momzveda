@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "Doğum Sonrası İyileşme",
+    "subtitle": "Doğumdan sonra bedenini ve zihnini iyileştirmek · kendine nazik davran, anne",
+    "emoji": "🌸",
+    "intro": "Dördüncü trimestrin için Veda ile beş kısa video ders. Bedenine gerçekte ne olduğunu anlamaktan, dinlenmeye ve aramanı gerektiren uyarı işaretlerine; karın merkezin ve pelvik tabanına, beslenmen ve uykuna, bir de anne olmanın o duygusal dönüşümüne kadar — dürüst, nazik ve yargısız. Acele etmenin bir ödülü yok, anne. Bedenin de kalbin de kendi zamanında iyileşmeye hak kazandı.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Bedenine Neler Oluyor",
+        "duration": "± 5 dk",
+        "desc": "İlk haftalarda iyileşmenin gerçekte nasıl göründüğü — kanama, ardı sancılar, dikişler, hassasiyet — ve acele etmenin neden bir ödülü olmadığı.",
+        "vedaPrompt": "Doğum Sonrası İyileşme kursunun 1. dersini yeni izledim (bedenine neler oluyor). İyileşmenin bu ilk haftalarında neyin normal olduğunu anlamama ve kendime nazik davranmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Bedenin az önce olağanüstü bir şey yaptı",
+            "p": [
+              "Tamam anne, başka bir yere geçmeden önce yavaşça bir nefes almanı istiyorum... çünkü bedenin az önce olağanüstü bir şey yaptı. Bebeğini ister normal yoldan ister sezaryenle doğurmuş ol, bir bedenin geçebileceği en güçlü deneyimlerden birinden geçtin ve şimdi iyileşme sürecindesin. Gerçek bir iyileşme, zaman ve şefkat hak eden türden."
+            ]
+          },
+          {
+            "h": "Bu ilk haftalarda neler oluyor",
+            "p": [
+              "O hâlde bu ilk haftalarda gerçekte neler olduğunu nazikçe konuşalım. Rahmin iyileşip eski boyutuna dönerken, lohusa kanaması denilen bir kanaman olacak. Önce kırmızı ve yoğun başlar, biraz kuvvetli bir âdet gibi, sonra birkaç hafta içinde yavaşça pembeye, ardından kahverengiye, en sonunda da soluk bir krem rengine döner. Bu tamamen normaldir. Özellikle emzirirken, rahmin eski boyutuna kasılırken ardı sancılar denilen kramplar hissedebilirsin. Bir yırtık ya da sezaryenden dolayı dikişlerin varsa, o bölge hassas olacak ve iyileşip kapanırken dikkatli ve nazik bir bakıma ihtiyaç duyacaktır. Hiç beklemediğin yerlerinde ağrı duyabilir, her zamankinden çok terleyebilir ve kendini sıkılıp atılmış gibi bitkin hissedebilirsin. Bütün bunlar, bedeninin tam da yapmak üzere tasarlandığı şeyi yapmasıdır."
+            ]
+          },
+          {
+            "h": "Bu, hemen eski hâline dönme dönemi değil",
+            "p": [
+              "İşte gerçekten duymanı istediğim kısım, anne... bu, hemen eski hâline dönme dönemi değil. Acele etmenin bir ödülü yok. Bir hafta içinde ayağa kalkıp koşturman gerektiğine dair o eski fikir, iyileşmene kötülük eder. Bedenin koca bir insanı dokuz ay boyunca güvende tuttu. Kendine geri dönmek için zamana ihtiyacı var. O hâlde beklentilerini bilerek düşür, verimli hissettireninden daha çok dinlen ve büyük bir şeyden iyileşen herkese göstereceğin sabrı kendine de göster. Çünkü tam olarak öyle birisin."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Dinlenmek, İyileşmek ve Ne Zaman Aramalı",
+        "duration": "± 6 dk",
+        "desc": "Şu an asıl işin neden dinlenmek olduğu — ve doğumdan sonra ebeni, doktorunu ya da acil servisi aramanı gerektiren uyarı işaretleri.",
+        "vedaPrompt": "Doğum Sonrası İyileşme kursunun 2. dersini yeni izledim (dinlenmek, iyileşmek ve ne zaman aramalı). Hangi belirtilerin normal, hangilerinin bir doktora başvurmam gerektiğini gösterdiğini anlamama yardım eder misin?",
+        "script": [
+          {
+            "h": "Dünyanın küçülmesine izin ver",
+            "p": [
+              "Şimdi dinlenmekten ve telefona uzanmanı söyleyen işaretlerden konuşalım. Birçok kültürde doğumdan sonra kutsal bir pencere, bir tür loğusalık dönemi vardır; yeni annenin doyurulduğu, sıcak tutulduğu ve ev işlerinden muaf kılındığı, böylece tek görevinin iyileşmek ve bebeğini kucağında tutmak olduğu bir dönem. Bunda derin bir bilgelik var, anne. Bedenin en hızlı; dinlenirken, beslenirken ve kendini zorlamazken iyileşir. O hâlde bu ilk haftalarda dünyanın küçülmesine izin ver. Yatağının yakınında kal. Her yardım teklifini kabul et. Bulaşıklar beklese de, fırsat bulduğunda uyu. Şu an asıl iş iyileşmek ve bunu dinlenerek yaparsın."
+            ]
+          },
+          {
+            "h": "Ne zaman yardım çağırmalı",
+            "p": [
+              "Aynı zamanda, bir şeyin doktor gerektirdiğini fark edebilmen için bedeninin normalini bilmeni istiyorum; seni korkutmak için değil, sadece seni güvende tutmak için. İyileşmenin çoğu olaysız geçer, ama şunlardan herhangi birini fark edersen lütfen ebeni, doktorunu ya da acil servisi ara. Bir saat içinde bir pedi tamamen ıslatan kanama ya da büyük pıhtılar gelmesi. Ateş, titreme ya da bir yaranın sıcak, şiş veya kötü kokuyor olması — ki bu enfeksiyona işaret edebilir. İyileşmek yerine giderek kötüleşen şiddetli ağrı. Bir bacakta ağrı, kızarıklık ya da şişlik veya ani nefes darlığı ya da göğüs ağrısı — ki bunlar acil bakım gerektirir. Görme değişiklikleriyle birlikte zonklayan bir baş ağrısı ya da genel olarak kendini çok kötü hissetmek."
+            ]
+          },
+          {
+            "h": "İçgüdüne güven",
+            "p": [
+              "Bunların hiçbiri yanlış bir şey yaptığın anlamına gelmez, anne. Yalnızca bedeninin destek istediği anlamına gelir ve hızla başvurmak tam olarak doğru harekettir. İçgüdüne güven. Kendini sen tanırsın. Bir şey sana tuhaf geliyorsa, sormaya her zaman hakkın var. Kontrol ettirmek asla abartı değildir."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Karın Merkezin ve Pelvik Tabanın",
+        "duration": "± 6 dk",
+        "desc": "Doğumdan sonra diyastaz ve pelvik taban — mekik çekmeden, nazikçe yeniden bağ kurmanın yolu ve bir pelvik fizyoterapiste iletmeye değer işaretler.",
+        "vedaPrompt": "Doğum Sonrası İyileşme kursunun 3. dersini yeni izledim (karın merkezin ve pelvik tabanın). Karın merkezimle nazikçe yeniden bağ kurmaya nasıl başlayacağımı ve ne zaman bir pelvik fizyoterapiste gitmem gerektiğini anlamama yardım eder misin?",
+        "script": [
+          {
+            "h": "Hamilelik karın merkezinden ne istedi",
+            "p": [
+              "Karın merkezinden ve pelvik tabanından konuşalım, anne, çünkü bunlar hamilelik boyunca sessizce o kadar çok şey taşıdı ki şimdi biraz nazik bir ilgiyi hak ediyorlar. O dokuz ay boyunca karın kasların yer açmak için gerildi ve karnının ön tarafından inen iki kas bandı, büyüyen bebeğine yer açmak için çoğu zaman biraz ayrılır. Buna diyastaz denir ve tamamen normaldir. Çoğu anne için önümüzdeki haftalar ve aylar içinde kendiliğinden geri kapanır. Bunun altında, mesaneni ve rahmini destekleyen kaslardan oluşan o hamak gibi pelvik tabanın muazzam bir iş çıkardı ve şu an zayıf, ağır ya da sadece farklı hissedebilir."
+            ]
+          },
+          {
+            "h": "İleriye doğru nazik yol",
+            "p": [
+              "İşte ileriye doğru nazik yol. İlk haftalarda düzeltilecek bir şey ve acele edilecek bir şey yok. Tek görevin dinlenmek ve hazır hissettiğinde kısa, yavaş yürüyüşler gibi kolay hareketler. Kendini buna hazır hissettiğinde, bu kaslarla yumuşakça yeniden bağ kurmaya başlayabilirsin. Başlamanın basit bir yolu nefestir... bir nefes verişte, zorlanmadan kaldırır gibi pelvik tabanını nazikçe yukarı doğru çektiğini hayal et, sonra nefes alırken tamamen gevşet. Sıkma yok, aşağı doğru ıkınma yok, henüz mekik yok. Burada yumuşak ve yavaş olan kazanır."
+            ]
+          },
+          {
+            "h": "İletmeye değer işaretler",
+            "p": [
+              "Birkaç işaret, doktoruna ya da bir pelvik sağlık fizyoterapistine iletmeye değer: ilk günleri aştıktan sonra öksürdüğünde, güldüğünde ya da hapşırdığında idrar kaçırmak, aşağıda bir ağırlık ya da aşağı doğru çekilme hissi veya karnında oturmayan belirgin bir açıklık ya da kabarma. Bunlar yaygındır ve çok kolay tedavi edilir, anne; bir pelvik fizyoterapist ağırlığınca altın değerindedir. Bu kısımda sabırlı ol. Karın merkezin içeriden dışarıya doğru, nazikçe, zamanla yeniden inşa olur, bir gecede değil."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Beslenme, Sıvı Alımı, Uyku ve Enerji",
+        "duration": "± 6 dk",
+        "desc": "İyileşirken kendini beslemek — demir açısından zengin yiyecekler, sıvı alımı, stratejik dinlenme — ve bu dönemin inişli çıkışlı enerjisi konusunda kendine müsamaha göstermek.",
+        "vedaPrompt": "Doğum Sonrası İyileşme kursunun 4. dersini yeni izledim (beslenme, sıvı alımı, uyku ve enerji). İyileşirken ve bebeğime bakarken kendimi nasıl besleyeceğimi ve daha çok nasıl dinleneceğimi bulmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Boş mideyle iyileşemezsin",
+            "p": [
+              "Tamam anne, beslenmeden konuşalım, çünkü boş mideyle iyileşemezsin ve sen, beslediğin o küçük insan kadar önemlisin. Doğumdan iyileşmek ve emziriyorsan süt yapmak gerçek bir enerji ister, bu yüzden şu an kısıtlama ya da diyet zamanı değil. Bu, kendini besleme zamanı. Sıcak, doyurucu ve kolay öğünleri hedefle... dokuyu yeniden inşa etmek için proteinleri, istikrarlı enerji için tam tahılları ve sağlıklı yağları, bol bol da meyve ve sebzeyi düşün. Kırmızı et, mercimek ve koyu yeşil yapraklı sebzeler gibi demir açısından zengin yiyecekler, doğumdaki kan kaybından sonra özellikle yararlıdır. Ve atıştırmalıkları el altında tut, çünkü açlık beslenme ortasında sinsice gelip çatmayı bilir."
+            ]
+          },
+          {
+            "h": "Sıvı alımı ve uyku",
+            "p": [
+              "Sıvı alımı düşündüğünden daha önemlidir, anne. Özellikle emzirmek seni susatır, bu yüzden beslediğin her yere büyük bir su şişesi koy ve sık sık yudumla. Bir de uyku var, en kıt olan şey. Henüz kesintisiz geceler yaşamayacaksın ve bunda bir sorun yok, ama stratejik olabilirsin. En eski tavsiye hâlâ en iyisi... bebek uyurken sen de uyu, yirmi dakikalık bir şekerleme bile sayılır. Bir beslemeyi ya da bebeğe göz kulak olmayı başka birine bırak ki daha uzun bir aralık uyuyabilesin. Ev işi çıtasını indir ve dinlenmeyi bir ilaç gibi koru, çünkü iyileşmek için gerçekten öyledir."
+            ]
+          },
+          {
+            "h": "Enerji konusunda kendine müsamaha göster",
+            "p": [
+              "Ve enerji konusunda kendine müsamaha göster. Bazı günler neredeyse insan gibi hissedecek, bazı günlerse yere serileceksin ve bu dönemde ikisi de normaldir. Küçük bir not, anne... eğer kendini dinlenmenin dokunamadığı bir şekilde tükenmiş, çok nefessiz, baş dönmeli hissediyorsan ya da kalbin hızla çarpıyorsa, bunu doktoruna söyle; çünkü bu bazen kontrol edilmeye değer bir demir eksikliğine işaret edebilir. Kendini sevecenlikle besle. Sen de beslenmeye değersin."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Zihnin ve Anne Olmak",
+        "duration": "± 6 dk",
+        "desc": "İyileşme yalnızca bedensel değildir — matresans, lohusalık hüznü, düşük ruh hâli ne zaman daha fazlasıdır ve ileriye bakarken sımsıkı tutulacak gerçekler.",
+        "vedaPrompt": "Doğum Sonrası İyileşme kursunun 5. dersini yeni izledim (zihnin ve anne olmak). İyileşmenin duygusal yanını anlamama ve hissettiğimin lohusalık hüznünden fazlası olup olmadığını nasıl anlayacağımı kavramama yardım eder misin?",
+        "script": [
+          {
+            "h": "İyileşme yalnızca bedensel değildir",
+            "p": [
+              "Ve en çok sımsıkı tutmanı istediğim kısım şu, anne... iyileşme yalnızca bedensel değildir. Bedenin iyileşirken kalbin ve benlik duygun da iyileşiyor ve bu da en az onun kadar özen hak ediyor. Anne olmak seni yeniden yazar. Hatta bunun bir adı bile var: matresans, anneliğe geçişin o derin dönüşümü, biraz ergenlik gibi ama hepsi bir anda. Bu yüzden bazı günler aynaya bakıp kendini pek tanıyamıyorsan, bebeğine bayılırken bile eski özgürlüğünün yasını tutuyorsan, bu nankörlük değildir. Bu bir dönüşümdür ve içine yerleşmek zaman alır. Olmakta olduğun kadına karşı sabırlı ol."
+            ]
+          },
+          {
+            "h": "Lohusalık hüznü mü, daha fazlası mı",
+            "p": [
+              "Bu ilk haftalarda, hormonların yerine otururken ve uykun bölük pörçükken; ağlamaklı, kırılgan ve incinmiş hissetmek çok yaygındır. O lohusalık hüznü genellikle yaklaşık iki hafta içinde hafifler. Ama düşük bir ruh hâli, ağır bir kaygı ya da boş ve kopuk bir his bunun ötesine geçip günün çoğunda, çoğu gün sürerse, lütfen bunu sessizce taşıma. Doğum sonrası depresyon ve kaygı yaygındır ve çok kolay tedavi edilir; doktoruna ya da ebene başvurmak cesur ve sevgi dolu bir adımdır, asla bir başarısızlık değil. Ve eğer bir an bile korkutucu düşüncelerin ya da kendine zarar verme düşüncelerin olursa, lütfen bunu acil bir durum olarak gör ve hemen yardım al. Desteği hak ediyorsun, anne; hızla ve utanç duymadan."
+            ]
+          },
+          {
+            "h": "Bunları sımsıkı tut",
+            "p": [
+              "İleriye bakarken bunları sımsıkı tut. Bedenin kendi zamanlamasında iyileşiyor ve kalbin de öyle. Dinlenmek tembellik değil, iyileşmedir. Yardım istemek güçtür. Ve kendine bakmak, bebeğine bakmanın bir parçasıdır, ondan asla ayrı değildir. Düşündüğünden çok daha iyi gidiyorsun. Kendine nazik davran, anne. Her seferinde bir gün."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

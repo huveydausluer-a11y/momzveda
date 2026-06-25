@@ -702,5 +702,148 @@
         ]
       }
     ]
+  },
+  "postpartum-recovery": {
+    "title": "Herstel na de Bevalling",
+    "subtitle": "Je lichaam en geest helen na de geboorte · wees lief voor jezelf, mama",
+    "emoji": "🌸",
+    "intro": "Vijf korte videolessen met Veda voor je vierde trimester. Van begrijpen wat er echt met je lichaam gebeurt, tot rust en de waarschuwingssignalen waarbij je moet bellen, tot je buikspieren en bekkenbodem, voeding en slaap, en de emotionele verschuiving van moeder worden — eerlijk, zacht en zonder oordeel. Er staat geen prijs op haasten, mama. Je lichaam en je hart mogen helen op hun eigen tempo.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Wat er met je lichaam gebeurt",
+        "duration": "± 5 min",
+        "desc": "Hoe herstel er in de eerste weken echt uitziet — bloedverlies, naweeën, hechtingen, gevoeligheid — en waarom er geen prijs staat op haasten.",
+        "vedaPrompt": "Ik heb net les 1 van de cursus Herstel na de Bevalling bekeken (wat er met je lichaam gebeurt). Kun je me helpen begrijpen wat normaal is in deze eerste weken van herstel en hoe ik mild voor mezelf kan zijn?",
+        "script": [
+          {
+            "h": "Je lichaam heeft net iets buitengewoons gedaan",
+            "p": [
+              "Oké mama, voordat we ergens beginnen, wil ik dat je rustig even ademhaalt... want je lichaam heeft net iets buitengewoons gedaan. Of je je baby nu vaginaal of via een keizersnede ter wereld bracht, je hebt een van de krachtigste dingen meegemaakt die een lichaam kan meemaken, en nu ben je aan het herstellen. Echt herstel, het soort dat tijd en tederheid verdient."
+            ]
+          },
+          {
+            "h": "Wat er in deze eerste weken gebeurt",
+            "p": [
+              "Laten we dus zachtjes bespreken wat er in deze eerste weken eigenlijk gebeurt. Je hebt bloedverlies, dat heet kraamzuivering of lochia, terwijl je baarmoeder geneest en weer kleiner wordt. Het begint rood en hevig, een beetje als een stevige menstruatie, en vervaagt dan langzaam naar roze, dan bruin, dan een bleek crèmekleur over een paar weken. Dat is volkomen normaal. Je voelt misschien krampen, soms naweeën genoemd, vooral tijdens het voeden, terwijl je baarmoeder weer samentrekt naar haar oude formaat. Als je hechtingen hebt, van een inscheuring of een keizersnede, voelt dat gebied gevoelig en heeft het zorgvuldige, zachte verzorging nodig terwijl het weer dichtgroeit. Je bent misschien gevoelig op plekken waar je het niet verwachtte, transpireert meer dan normaal en voelt je uitgewrongen. Dit is allemaal je lichaam dat precies doet waarvoor het gemaakt is."
+            ]
+          },
+          {
+            "h": "Dit is niet het seizoen om er weer bovenop te springen",
+            "p": [
+              "En dit is het deel dat ik je echt wil laten horen, mama... dit is niet het seizoen om er weer bovenop te springen. Er staat geen prijs op haasten. Dat oude idee dat je binnen een week weer paraat moet zijn doet je herstel tekort. Je lichaam heeft negen maanden lang een heel mensje veilig gehouden. Het mag de tijd nemen om weer bij zichzelf thuis te komen. Dus stel je verwachtingen bewust lager bij, rust meer dan productief voelt, en behandel jezelf met hetzelfde geduld dat je iedereen zou gunnen die herstelt van iets groots. Want dat is precies wat jij bent."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Rust, herstel & wanneer je moet bellen",
+        "duration": "± 6 min",
+        "desc": "Waarom rust nu het echte werk is — en de waarschuwingssignalen na de bevalling waarbij je je verloskundige, arts of de spoedlijn moet bellen.",
+        "vedaPrompt": "Ik heb net les 2 van de cursus Herstel na de Bevalling bekeken (rust, herstel en wanneer je moet bellen). Kun je me helpen begrijpen welke symptomen normaal zijn en welke betekenen dat ik contact moet opnemen met een arts?",
+        "script": [
+          {
+            "h": "Laat de wereld kleiner worden",
+            "p": [
+              "Laten we het nu over rust hebben, en over de signalen die je vertellen om de telefoon te pakken. In veel culturen bestaat er een gewijd venster na de bevalling, een soort kraamperiode, waarin de kersverse moeder wordt gevoed, warm gehouden en vrijgesteld van klusjes, zodat haar enige taak is om te helen en haar baby vast te houden. Daar zit diepe wijsheid in, mama. Je lichaam herstelt het snelst wanneer je rust, goed gevoed bent en jezelf niet voorbijloopt. Dus laat in deze eerste weken de wereld kleiner worden. Blijf dicht bij je bed. Neem elk aanbod van hulp aan. Slaap wanneer je kunt, ook als de afwas wacht. Herstellen is op dit moment het werk, en rust is hoe je dat doet."
+            ]
+          },
+          {
+            "h": "Wanneer je hulp moet inroepen",
+            "p": [
+              "Tegelijkertijd wil ik dat je weet wat normaal is voor je lichaam, zodat je kunt herkennen wanneer iets een arts nodig heeft, niet om je bang te maken, maar gewoon om je veilig te houden. Het meeste herstel verloopt zonder problemen, maar bel alsjeblieft je verloskundige, arts of de spoedlijn als je een van deze dingen opmerkt. Bloedverlies dat in een uur een verband doorweekt, of het verliezen van grote stolsels. Koorts, koude rillingen, of een wond die heet, gezwollen is of vreemd ruikt, wat op een infectie kan wijzen. Hevige pijn die erger wordt in plaats van beter. Pijn, roodheid of zwelling in één been, of plotselinge kortademigheid of pijn op de borst, die dringende zorg nodig hebben. Een bonkende hoofdpijn met veranderingen in je zicht, of je gewoon heel ziek voelen."
+            ]
+          },
+          {
+            "h": "Vertrouw op je gevoel",
+            "p": [
+              "Geen van deze dingen betekent dat je iets verkeerd hebt gedaan, mama. Ze betekenen alleen dat je lichaam om steun vraagt, en snel aan de bel trekken is precies de juiste stap. Vertrouw op je gevoel. Je kent jezelf. Als iets niet goed voelt, mag je het altijd vragen. Het is nooit overdreven om het te laten checken."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Je buikspieren & bekkenbodem",
+        "duration": "± 6 min",
+        "desc": "Diastase en de bekkenbodem na de bevalling — de zachte weg zonder buikspieroefeningen om weer verbinding te maken, en de signalen die het waard zijn om aan een bekkenfysiotherapeut te melden.",
+        "vedaPrompt": "Ik heb net les 3 van de cursus Herstel na de Bevalling bekeken (je buikspieren en bekkenbodem). Kun je me helpen begrijpen hoe ik zachtjes weer verbinding kan maken met mijn buikspieren en wanneer ik naar een bekkenfysiotherapeut moet?",
+        "script": [
+          {
+            "h": "Wat de zwangerschap van je buikspieren vroeg",
+            "p": [
+              "Laten we het hebben over je buikspieren en je bekkenbodem, mama, want die hebben tijdens de zwangerschap stilletjes zo veel gedragen en ze verdienen nu wat zachte aandacht. In die negen maanden rekten je buikspieren op om ruimte te maken, en de twee spierbanden aan de voorkant van je buik wijken vaak een stukje uiteen om plaats te maken voor je groeiende baby. Dat heet diastase, en het is volkomen normaal. Bij de meeste moeders sluit het zich in de weken en maanden die komen vanzelf weer. Daaronder heeft je bekkenbodem, het hangmatje van spieren dat je blaas en baarmoeder ondersteunt, enorm werk verzet en voelt nu misschien zwak, zwaar of gewoon anders."
+            ]
+          },
+          {
+            "h": "De zachte weg vooruit",
+            "p": [
+              "Dit is dus de zachte weg vooruit. In de eerste weken is er niets te repareren en niets om te haasten. Je enige taken zijn rust en lichte beweging, zoals korte, langzame wandelingen zodra je je daar klaar voor voelt. Wanneer je het aankan, kun je zachtjes beginnen weer verbinding te maken met deze spieren. Een simpele manier om te beginnen is met ademhalen... trek bij een uitademing je bekkenbodem voorzichtig omhoog, alsof je optilt zonder te persen, en ontspan dan helemaal terwijl je inademt. Niet knijpen, niet naar beneden persen, en nog geen buikspieroefeningen. Zacht en langzaam wint hier."
+            ]
+          },
+          {
+            "h": "Signalen die het waard zijn om te melden",
+            "p": [
+              "Een paar signalen zijn het waard om aan je arts of een bekkenfysiotherapeut te melden: urineverlies als je hoest, lacht of niest dat na de eerste dagen blijft aanhouden, een gevoel van zwaarte of naar beneden trekken daar beneden, of een duidelijke opening of bolling in je buik die niet tot rust komt. Dit komt veel voor en is heel goed behandelbaar, mama, en een bekkenfysiotherapeut is goud waard. Wees geduldig met dit deel. Je buikspieren bouwen zich van binnenuit weer op, zachtjes, in de loop van de tijd, niet van de ene op de andere dag."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Voeding, vocht, slaap & energie",
+        "duration": "± 6 min",
+        "desc": "Jezelf voeden terwijl je herstelt — ijzerrijk eten, voldoende vocht, slimme rust — en mild zijn voor jezelf bij de op-en-neergaande energie van deze periode.",
+        "vedaPrompt": "Ik heb net les 4 van de cursus Herstel na de Bevalling bekeken (voeding, vocht, slaap en energie). Kun je me helpen uitvinden hoe ik mezelf goed kan voeden en meer rust kan krijgen terwijl ik herstel en voor mijn baby zorg?",
+        "script": [
+          {
+            "h": "Je kunt niet helen op een lege tank",
+            "p": [
+              "Oké mama, laten we het over voeding hebben, want je kunt niet helen op een lege tank, en jij telt net zoveel als dat kleine mensje dat jij voedt. Herstellen van de bevalling, en melk maken als je borstvoeding geeft, kost echte energie, dus dit is niet het moment om jezelf te beperken of te lijnen. Dit is het moment om jezelf te voeden. Mik op warme, voedzame, makkelijke maaltijden... denk aan eiwitten om weefsel te herstellen, volkoren producten en gezonde vetten voor stabiele energie, en volop fruit en groente. IJzerrijk eten zoals rood vlees, linzen en bladgroenten is bijzonder behulpzaam na het bloedverlies van de bevalling. En houd snacks binnen handbereik, want honger overvalt je nogal eens midden in een voeding."
+            ]
+          },
+          {
+            "h": "Vocht en slaap",
+            "p": [
+              "Voldoende vocht is belangrijker dan je zou denken, mama. Borstvoeding maakt je vooral dorstig, dus houd een grote fles water bij de hand waar je voedt en neem vaak een slokje. Dan is er slaap, het schaarste goed van allemaal. Je krijgt nog geen ononderbroken nachten, en dat is oké, maar je kunt wel slim zijn. Het oudste advies is nog altijd het beste... slaap wanneer de baby slaapt, zelfs een dutje van twintig minuten telt. Laat iemand anders een voeding doen of op de baby letten, zodat jij één langer stuk kunt slapen. Leg de lat voor het huishouden lager, en bescherm rust alsof het medicijn is, want voor je herstel is het dat echt."
+            ]
+          },
+          {
+            "h": "Wees mild voor jezelf over je energie",
+            "p": [
+              "En wees mild voor jezelf over je energie. Sommige dagen voel je je bijna weer mens, en andere dagen lig je helemaal plat, en allebei is normaal in deze periode. Eén klein dingetje, mama... als je je volkomen uitgeput voelt op een manier waar rust niets aan verandert, heel kortademig, duizelig, of je hart bonkt, vertel het dan aan je arts, want het kan soms wijzen op een ijzertekort dat het checken waard is. Voed jezelf met liefde. Jij bent het ook waard om gevoed te worden."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Je geest & moeder worden",
+        "duration": "± 6 min",
+        "desc": "Herstel is niet alleen lichamelijk — matrescentie, de kraamtranen, wanneer een sombere stemming iets meer is, en de waarheden om dichtbij te houden terwijl je vooruitkijkt.",
+        "vedaPrompt": "Ik heb net les 5 van de cursus Herstel na de Bevalling bekeken (je geest en moeder worden). Kun je me helpen de emotionele kant van herstel te begrijpen en te weten of wat ik voel meer is dan de gewone kraamtranen?",
+        "script": [
+          {
+            "h": "Herstel is niet alleen lichamelijk",
+            "p": [
+              "En dit is het deel dat ik je het allerliefst wil laten vasthouden, mama... herstel is niet alleen lichamelijk. Terwijl je lichaam heelt, herstellen je hart en je gevoel van wie je bent ook, en dat verdient net zo veel zorg. Moeder worden herschrijft je. Er bestaat zelfs een woord voor, matrescentie, de diepe overgang naar het moederschap, een beetje zoals de puberteit, maar dan allemaal tegelijk. Dus als je je sommige dagen in de spiegel kijkt en jezelf niet helemaal herkent, als je je oude vrijheid rouwt terwijl je tegelijk dol bent op je baby, dan is dat geen ondankbaarheid. Dat is transformatie, en het kost tijd om daarin te groeien. Wees geduldig met de vrouw die je aan het worden bent."
+            ]
+          },
+          {
+            "h": "Kraamtranen, of iets meer",
+            "p": [
+              "In deze eerste weken, terwijl je hormonen tot rust komen en je slaap gebroken is, is het heel gewoon om je huilerig, gevoelig en rauw te voelen. Die kraamtranen trekken meestal binnen zo'n twee weken weg. Maar als een sombere stemming, zware angst, of een vlak, afgesloten gevoel daarna blijft hangen, het grootste deel van de dag op de meeste dagen, draag het dan alsjeblieft niet in stilte. Een postnatale depressie en angst komen veel voor en zijn heel goed behandelbaar, en contact opnemen met je arts of verloskundige is iets dappers en liefdevols, nooit een falen. En als je ooit beangstigende gedachten hebt, of gedachten om jezelf iets aan te doen, behandel dat dan als spoed en zoek meteen hulp. Je verdient steun, mama, snel en zonder schaamte."
+            ]
+          },
+          {
+            "h": "Houd deze dingen dichtbij",
+            "p": [
+              "Terwijl je vooruitkijkt, houd deze dingen dichtbij. Je lichaam heelt op zijn eigen tempo, en je hart ook. Rust is geen luiheid, het is herstel. Om hulp vragen is kracht. En voor jezelf zorgen is een onderdeel van voor je baby zorgen, nooit los daarvan. Je doet het zo veel beter dan je weet. Wees lief voor jezelf, mama. Eén dag tegelijk."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

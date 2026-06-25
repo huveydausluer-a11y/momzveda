@@ -9,6 +9,7 @@ const COURSES = {
   'baby-sleep-guide': { lessons: 5, freeLessons: [1] },
   'starting-solids': { lessons: 5, freeLessons: [1] },
   'your-emotions': { lessons: 5, freeLessons: [1] },
+  'postpartum-recovery': { lessons: 5, freeLessons: [1] },
   'first-week-home': { lessons: 1, freeLessons: [], file: 'first-week-home.mp4' },
 };
 
