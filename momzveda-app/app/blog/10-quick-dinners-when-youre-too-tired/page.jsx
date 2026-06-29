@@ -42,7 +42,7 @@ export default function BlogPost() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: '#F2F8F5',
+      background: '#F3EFFB',
       fontFamily: "'DM Sans', sans-serif",
     }}>
       <script
@@ -53,11 +53,11 @@ export default function BlogPost() {
         maxWidth: 720,
         margin: '0 auto',
         padding: '48px 24px',
-        color: '#1A2E23',
+        color: '#1B0B3B',
         lineHeight: 1.8,
       }}>
         <a href="/blog" style={{
-          color: '#22C55E',
+          color: '#1E90E8',
           textDecoration: 'none',
           fontSize: 14,
           fontWeight: 600,
@@ -82,8 +82,8 @@ export default function BlogPost() {
           }}>
             Recipes
           </span>
-          <span style={{ color: '#6B9A7E', fontSize: 13 }}>March 12, 2026</span>
-          <span style={{ color: '#6B9A7E', fontSize: 13 }}>&middot; 4 min read</span>
+          <span style={{ color: '#6E5C8A', fontSize: 13 }}>March 12, 2026</span>
+          <span style={{ color: '#6E5C8A', fontSize: 13 }}>&middot; 4 min read</span>
         </div>
 
         <h1 style={{
@@ -96,7 +96,7 @@ export default function BlogPost() {
           10 Quick Dinner Ideas When You Are Too Tired to Cook
         </h1>
 
-        <p style={{ fontSize: 18, color: '#3D6B50', marginBottom: 32, fontStyle: 'italic' }}>
+        <p style={{ fontSize: 18, color: '#5A1690', marginBottom: 32, fontStyle: 'italic' }}>
           Some days, the most heroic thing a mom can do is feed everyone. These meals make that easy.
         </p>
 
@@ -110,7 +110,7 @@ export default function BlogPost() {
         {recipes.map((recipe, i) => (
           <div key={i} style={{
             background: '#FFFFFF',
-            border: '1px solid #D5E8DC',
+            border: '1px solid #E2D5F3',
             borderRadius: 12,
             padding: 24,
             marginTop: 24,
@@ -121,8 +121,8 @@ export default function BlogPost() {
                 {i + 1}. {recipe.name}
               </h2>
               <span style={{
-                background: '#E8F7EE',
-                color: '#16A34A',
+                background: '#EDE4FB',
+                color: '#5A1690',
                 fontSize: 12,
                 fontWeight: 600,
                 padding: '4px 10px',
@@ -132,7 +132,7 @@ export default function BlogPost() {
                 {recipe.time}
               </span>
             </div>
-            <p style={{ margin: 0, color: '#3D6B50', fontSize: 15 }}>
+            <p style={{ margin: 0, color: '#5A1690', fontSize: 15 }}>
               {recipe.desc}
             </p>
           </div>
@@ -147,7 +147,7 @@ export default function BlogPost() {
 
         <div style={{
           background: '#FFFFFF',
-          border: '1px solid #D5E8DC',
+          border: '1px solid #E2D5F3',
           borderRadius: 16,
           padding: 32,
           marginTop: 40,
@@ -157,12 +157,12 @@ export default function BlogPost() {
           <p style={{ fontSize: 20, fontWeight: 600, marginBottom: 8 }}>
             Need more recipe ideas?
           </p>
-          <p style={{ color: '#3D6B50', fontSize: 15, marginBottom: 20 }}>
+          <p style={{ color: '#5A1690', fontSize: 15, marginBottom: 20 }}>
             Ask MomzVeda for personalized meal suggestions based on what you have on hand.
           </p>
           <a href="/signup" style={{
             display: 'inline-block',
-            background: '#22C55E',
+            background: '#1E90E8',
             color: '#FFFFFF',
             padding: '12px 32px',
             borderRadius: 12,

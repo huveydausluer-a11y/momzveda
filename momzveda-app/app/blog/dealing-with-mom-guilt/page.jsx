@@ -29,7 +29,7 @@ export default function BlogPost() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: '#F2F8F5',
+      background: '#F3EFFB',
       fontFamily: "'DM Sans', sans-serif",
     }}>
       <script
@@ -40,11 +40,11 @@ export default function BlogPost() {
         maxWidth: 720,
         margin: '0 auto',
         padding: '48px 24px',
-        color: '#1A2E23',
+        color: '#1B0B3B',
         lineHeight: 1.8,
       }}>
         <a href="/blog" style={{
-          color: '#22C55E',
+          color: '#1E90E8',
           textDecoration: 'none',
           fontSize: 14,
           fontWeight: 600,
@@ -69,8 +69,8 @@ export default function BlogPost() {
           }}>
             Mental Health
           </span>
-          <span style={{ color: '#6B9A7E', fontSize: 13 }}>March 12, 2026</span>
-          <span style={{ color: '#6B9A7E', fontSize: 13 }}>&middot; 6 min read</span>
+          <span style={{ color: '#6E5C8A', fontSize: 13 }}>March 12, 2026</span>
+          <span style={{ color: '#6E5C8A', fontSize: 13 }}>&middot; 6 min read</span>
         </div>
 
         <h1 style={{
@@ -83,7 +83,7 @@ export default function BlogPost() {
           Dealing with Mom Guilt: You Are Doing Better Than You Think
         </h1>
 
-        <p style={{ fontSize: 18, color: '#3D6B50', marginBottom: 32, fontStyle: 'italic' }}>
+        <p style={{ fontSize: 18, color: '#5A1690', marginBottom: 32, fontStyle: 'italic' }}>
           If you have ever felt guilty about something as a mom, congratulations — it means you care deeply. Now let us talk about letting some of that weight go.
         </p>
 
@@ -153,8 +153,8 @@ export default function BlogPost() {
         </h2>
 
         <div style={{
-          background: '#F0FAF4',
-          border: '1px solid #D5E8DC',
+          background: '#F3EFFB',
+          border: '1px solid #E2D5F3',
           borderRadius: 16,
           padding: 32,
           marginTop: 16,
@@ -166,7 +166,7 @@ export default function BlogPost() {
             fontWeight: 600,
             fontStyle: 'italic',
             fontFamily: "'Playfair Display', serif",
-            color: '#1A2E23',
+            color: '#1B0B3B',
             margin: 0,
           }}>
             You do not have to enjoy every moment to be a great mom. You just have to keep showing up — even on the hard days. Especially on the hard days.
@@ -182,7 +182,7 @@ export default function BlogPost() {
 
         <div style={{
           background: '#FFFFFF',
-          border: '1px solid #D5E8DC',
+          border: '1px solid #E2D5F3',
           borderRadius: 16,
           padding: 32,
           marginTop: 40,
@@ -192,12 +192,12 @@ export default function BlogPost() {
           <p style={{ fontSize: 20, fontWeight: 600, marginBottom: 8 }}>
             Need a daily reminder that you are doing great?
           </p>
-          <p style={{ color: '#3D6B50', fontSize: 15, marginBottom: 20 }}>
+          <p style={{ color: '#5A1690', fontSize: 15, marginBottom: 20 }}>
             MomzVeda sends you daily affirmations and is always here when you need to talk.
           </p>
           <a href="/signup" style={{
             display: 'inline-block',
-            background: '#22C55E',
+            background: '#1E90E8',
             color: '#FFFFFF',
             padding: '12px 32px',
             borderRadius: 12,
@@ -210,11 +210,11 @@ export default function BlogPost() {
         </div>
 
         <div style={{
-          borderTop: '1px solid #D5E8DC',
+          borderTop: '1px solid #E2D5F3',
           marginTop: 48,
           paddingTop: 24,
         }}>
-          <p style={{ color: '#6B9A7E', fontSize: 14, fontStyle: 'italic' }}>
+          <p style={{ color: '#6E5C8A', fontSize: 14, fontStyle: 'italic' }}>
             If you are struggling with persistent feelings of guilt, anxiety, or depression that affect your daily life, please reach out to a healthcare professional. MomzVeda is here for daily support, not crisis intervention. You deserve professional help when you need it.
           </p>
         </div>

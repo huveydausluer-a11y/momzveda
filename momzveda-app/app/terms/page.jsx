@@ -4,11 +4,11 @@ export const metadata = {
 
 export default function TermsOfService() {
   return (
-    <div style={{ maxWidth: 720, margin: '0 auto', padding: '48px 24px', fontFamily: "'DM Sans', sans-serif", color: '#1A2E23', lineHeight: 1.8 }}>
-      <a href="/" style={{ color: '#22C55E', textDecoration: 'none', fontSize: 14, fontWeight: 600 }}>← Back to MomzVeda</a>
+    <div style={{ maxWidth: 720, margin: '0 auto', padding: '48px 24px', fontFamily: "'DM Sans', sans-serif", color: '#1B0B3B', lineHeight: 1.8 }}>
+      <a href="/" style={{ color: '#1E90E8', textDecoration: 'none', fontSize: 14, fontWeight: 600 }}>← Back to MomzVeda</a>
 
       <h1 style={{ fontSize: 32, fontWeight: 700, marginTop: 24, marginBottom: 8 }}>Terms of Service</h1>
-      <p style={{ color: '#6B9A7E', marginBottom: 32 }}>Last updated: February 2026</p>
+      <p style={{ color: '#6E5C8A', marginBottom: 32 }}>Last updated: February 2026</p>
 
       <div style={{ background: '#FEF3C7', border: '1px solid #F59E0B', borderRadius: 12, padding: 20, marginBottom: 32 }}>
         <p style={{ fontWeight: 700, color: '#92400E', margin: 0, marginBottom: 8, fontSize: 15 }}>⚠️ IMPORTANT — PLEASE READ CAREFULLY BEFORE USING MOMZVEDA</p>
@@ -115,7 +115,7 @@ export default function TermsOfService() {
       <h2 style={{ fontSize: 20, fontWeight: 700, marginTop: 32, marginBottom: 12 }}>20. Contact</h2>
       <p>For questions about these Terms of Service, contact us at <strong>legal@momzveda.com</strong>.</p>
 
-      <div style={{ marginTop: 48, padding: '24px 0', borderTop: '1px solid #D5E8DC', fontSize: 13, color: '#6B9A7E' }}>
+      <div style={{ marginTop: 48, padding: '24px 0', borderTop: '1px solid #E2D5F3', fontSize: 13, color: '#6E5C8A' }}>
         © 2026 MomzVeda. All rights reserved.
       </div>
     </div>

@@ -4,8 +4,8 @@
   "description": "An AI-powered supportive mom friend for emotional support, parenting tips, recipes, and daily affirmations.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#F2F8F5",
-  "theme_color": "#0F1F15",
+  "background_color": "#F3EFFB",
+  "theme_color": "#1B0B3B",
   "orientation": "portrait",
   "scope": "/",
   "icons": [

@@ -35,7 +35,7 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: '#0F1F15',
+  themeColor: '#1B0B3B',
 };
 
 export default function RootLayout({ children }) {
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         <meta name="apple-mobile-web-app-title" content="MomzVeda" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="application-name" content="MomzVeda" />
-        <meta name="msapplication-TileColor" content="#0F1F15" />
+        <meta name="msapplication-TileColor" content="#1B0B3B" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

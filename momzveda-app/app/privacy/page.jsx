@@ -4,11 +4,11 @@ export const metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <div style={{ maxWidth: 720, margin: '0 auto', padding: '48px 24px', fontFamily: "'DM Sans', sans-serif", color: '#1A2E23', lineHeight: 1.8 }}>
-      <a href="/" style={{ color: '#22C55E', textDecoration: 'none', fontSize: 14, fontWeight: 600 }}>← Back to MomzVeda</a>
+    <div style={{ maxWidth: 720, margin: '0 auto', padding: '48px 24px', fontFamily: "'DM Sans', sans-serif", color: '#1B0B3B', lineHeight: 1.8 }}>
+      <a href="/" style={{ color: '#1E90E8', textDecoration: 'none', fontSize: 14, fontWeight: 600 }}>← Back to MomzVeda</a>
 
       <h1 style={{ fontSize: 32, fontWeight: 700, marginTop: 24, marginBottom: 8 }}>Privacy Policy</h1>
-      <p style={{ color: '#6B9A7E', marginBottom: 32 }}>Last updated: February 2026</p>
+      <p style={{ color: '#6E5C8A', marginBottom: 32 }}>Last updated: February 2026</p>
 
       <div style={{ background: '#FEF3C7', border: '1px solid #F59E0B', borderRadius: 12, padding: 20, marginBottom: 32 }}>
         <p style={{ fontWeight: 700, color: '#92400E', margin: 0, marginBottom: 8, fontSize: 15 }}>⚠️ IMPORTANT NOTICE</p>
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
       <p>We do not sell, trade, rent, or share your personal information with third parties for their marketing purposes. We may share information in the following limited circumstances: with AI service providers (such as Anthropic) to process your chat messages and generate responses; with hosting and infrastructure providers to operate the Service; if required by law, court order, or governmental request; to protect the rights, property, or safety of MomzVeda, our users, or the public; and in connection with a merger, acquisition, or sale of assets (with notice to users).</p>
 
       <h2 style={{ fontSize: 20, fontWeight: 700, marginTop: 32, marginBottom: 12 }}>6. Third-Party AI Processing</h2>
-      <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 12, padding: 20, marginBottom: 16 }}>
+      <div style={{ background: '#E3F1FC', border: '1px solid #BBD9F5', borderRadius: 12, padding: 20, marginBottom: 16 }}>
         <p style={{ margin: 0, marginBottom: 12 }}>MomzVeda uses Anthropic's Claude AI to power its conversational features. When you send a message, your text is transmitted to Anthropic's servers for processing. This means:</p>
         <p style={{ margin: 0, paddingLeft: 16, marginBottom: 4 }}>• Your messages are sent to Anthropic's API to generate responses</p>
         <p style={{ margin: 0, paddingLeft: 16, marginBottom: 4 }}>• Anthropic's own privacy policy and data handling practices apply to this processing</p>
@@ -108,7 +108,7 @@ export default function PrivacyPolicy() {
         <strong>General inquiries:</strong> hello@momzveda.com
       </p>
 
-      <div style={{ marginTop: 48, padding: '24px 0', borderTop: '1px solid #D5E8DC', fontSize: 13, color: '#6B9A7E' }}>
+      <div style={{ marginTop: 48, padding: '24px 0', borderTop: '1px solid #E2D5F3', fontSize: 13, color: '#6E5C8A' }}>
         © 2026 MomzVeda. All rights reserved.
       </div>
     </div>

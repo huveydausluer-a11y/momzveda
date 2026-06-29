@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
-  <rect width="192" height="192" rx="34" fill="#0F1F15"/>
-  <rect x="46" y="68" width="100" height="2" rx="1" fill="#22C55E" opacity="0.4"/>
-  <text x="72" y="98" font-size="32" fill="#22C55E" font-family="Arial Black, Impact, sans-serif" font-weight="900" letter-spacing="1">M</text>
-  <text x="96" y="98" font-size="32" fill="#22C55E" font-family="Arial Black, Impact, sans-serif" font-weight="900" letter-spacing="1">omz</text>
-  <text x="143" y="98" font-size="28" fill="#3B82F6" font-family="Georgia, Times New Roman, serif" font-style="italic" letter-spacing="1">V</text>
-  <text x="96" y="98" text-anchor="middle" font-size="32" fill="#22C55E" font-family="Arial Black, Impact, sans-serif" font-weight="900" letter-spacing="1">Momz</text>
-  <text x="139" y="98" font-size="28" fill="#3B82F6" font-family="Georgia, Times New Roman, serif" font-style="italic">Veda</text>
-  <rect x="46" y="108" width="100" height="2" rx="1" fill="#3B82F6" opacity="0.4"/>
+  <rect width="192" height="192" rx="34" fill="#1B0B3B"/>
+  <rect x="46" y="68" width="100" height="2" rx="1" fill="#1E90E8" opacity="0.4"/>
+  <text x="72" y="98" font-size="32" fill="#1E90E8" font-family="Arial Black, Impact, sans-serif" font-weight="900" letter-spacing="1">M</text>
+  <text x="96" y="98" font-size="32" fill="#1E90E8" font-family="Arial Black, Impact, sans-serif" font-weight="900" letter-spacing="1">omz</text>
+  <text x="143" y="98" font-size="28" fill="#7A1FB0" font-family="Georgia, Times New Roman, serif" font-style="italic" letter-spacing="1">V</text>
+  <text x="96" y="98" text-anchor="middle" font-size="32" fill="#1E90E8" font-family="Arial Black, Impact, sans-serif" font-weight="900" letter-spacing="1">Momz</text>
+  <text x="139" y="98" font-size="28" fill="#7A1FB0" font-family="Georgia, Times New Roman, serif" font-style="italic">Veda</text>
+  <rect x="46" y="108" width="100" height="2" rx="1" fill="#7A1FB0" opacity="0.4"/>
   <text x="96" y="128" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.3)" font-family="Arial, sans-serif" font-weight="600" letter-spacing="3">YOUR MOM FRIEND</text>
 </svg>

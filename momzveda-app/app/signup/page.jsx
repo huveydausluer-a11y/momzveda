@@ -5,9 +5,9 @@ import { useRouter } from 'next/navigation';
 import { createClient } from '../../lib/supabase-browser';
 import { useTranslation } from '../../i18n';
 
-const GREEN = '#22C55E', GREEN_DARK = '#16A34A', BLUE = '#3B82F6', BG = '#F2F8F5';
-const CARD_BG = '#FFFFFF', TEXT_DARK = '#1A2E23', TEXT_MID = '#3D6B50', TEXT_LIGHT = '#6B9A7E';
-const BORDER = '#D5E8DC';
+const GREEN = '#1E90E8', GREEN_DARK = '#5A1690', BLUE = '#7A1FB0', BG = '#F3EFFB';
+const CARD_BG = '#FFFFFF', TEXT_DARK = '#1B0B3B', TEXT_MID = '#5A1690', TEXT_LIGHT = '#6E5C8A';
+const BORDER = '#E2D5F3';
 
 export default function SignupPage() {
   const router = useRouter();
@@ -44,7 +44,7 @@ export default function SignupPage() {
   };
 
   const inputStyle = {
-    border: `2px solid ${BORDER}`, fontSize: 15, color: TEXT_DARK, background: '#FAFDF7',
+    border: `2px solid ${BORDER}`, fontSize: 15, color: TEXT_DARK, background: '#FBFAFE',
     borderRadius: 14, padding: '12px 16px', width: '100%', fontFamily: "'DM Sans', sans-serif",
     outline: 'none', transition: 'border-color 0.2s',
   };
@@ -109,7 +109,7 @@ export default function SignupPage() {
                   width: '100%', background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF',
                   border: 'none', borderRadius: 16, padding: '14px', fontSize: 16, fontWeight: 700,
                   cursor: loading ? 'default' : 'pointer', fontFamily: "'DM Sans', sans-serif",
-                  boxShadow: '0 4px 16px rgba(34,197,94,0.3)', opacity: loading ? 0.6 : 1,
+                  boxShadow: '0 4px 16px rgba(30,144,232,0.3)', opacity: loading ? 0.6 : 1,
                   transition: 'all 0.2s',
                 }}>
                   {loading ? t('signup.submitting') : t('signup.submitButton')}

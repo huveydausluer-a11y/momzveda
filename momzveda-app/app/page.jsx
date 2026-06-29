@@ -6,9 +6,9 @@ import { createClient } from '../lib/supabase-browser';
 import { useTranslation } from '../i18n';
 
 // ── CONSTANTS ──
-const GREEN = '#22C55E', GREEN_DARK = '#16A34A', BLUE = '#3B82F6', BG = '#F2F8F5';
-const CARD_BG = '#FFFFFF', TEXT_DARK = '#1A2E23', TEXT_MID = '#3D6B50', TEXT_LIGHT = '#6B9A7E';
-const BORDER = '#D5E8DC', BORDER_LIGHT = '#E8F2EC';
+const GREEN = '#1E90E8', GREEN_DARK = '#5A1690', BLUE = '#7A1FB0', BG = '#F3EFFB';
+const CARD_BG = '#FFFFFF', TEXT_DARK = '#1B0B3B', TEXT_MID = '#5A1690', TEXT_LIGHT = '#6E5C8A';
+const BORDER = '#E2D5F3', BORDER_LIGHT = '#E9E0F7';
 
 // Content arrays are now loaded from i18n/content/ via useTranslation().getContent()
 
@@ -16,7 +16,7 @@ const BORDER = '#D5E8DC', BORDER_LIGHT = '#E8F2EC';
 // ── COMPONENTS ──
 function TypingIndicator() {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '12px 18px', background: '#EBF7F0', borderRadius: 20, borderBottomLeftRadius: 4, width: 'fit-content', marginLeft: 8 }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '12px 18px', background: '#F3EFFB', borderRadius: 20, borderBottomLeftRadius: 4, width: 'fit-content', marginLeft: 8 }}>
       {[0, 1, 2].map(i => <div key={i} style={{ width: 8, height: 8, borderRadius: '50%', background: GREEN, animation: `bounce 1.2s ease-in-out ${i * 0.15}s infinite` }} />)}
     </div>
   );
@@ -26,12 +26,12 @@ function MessageBubble({ message, isUser }) {
   return (
     <div style={{ display: 'flex', justifyContent: isUser ? 'flex-end' : 'flex-start', marginBottom: 12, paddingLeft: isUser ? 48 : 0, paddingRight: isUser ? 0 : 48, animation: 'fadeSlideIn 0.3s ease-out' }}>
       {!isUser && (
-        <div style={{ width: 36, height: 36, borderRadius: '50%', marginRight: 8, flexShrink: 0, background: `linear-gradient(135deg, ${GREEN}, ${BLUE})`, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 4, boxShadow: '0 2px 8px rgba(34,197,94,0.25)' }}>
+        <div style={{ width: 36, height: 36, borderRadius: '50%', marginRight: 8, flexShrink: 0, background: `linear-gradient(135deg, ${GREEN}, ${BLUE})`, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 4, boxShadow: '0 2px 8px rgba(30,144,232,0.25)' }}>
           <span style={{ fontFamily: "'Archivo Black', sans-serif", fontSize: 13, color: '#FFF' }}>M</span>
           <span style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic', fontSize: 13, color: '#FFF' }}>v</span>
         </div>
       )}
-      <div style={{ padding: '14px 18px', background: isUser ? `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})` : '#EBF7F0', color: isUser ? '#FFF' : TEXT_DARK, borderRadius: 20, borderBottomRightRadius: isUser ? 4 : 20, borderBottomLeftRadius: isUser ? 20 : 4, fontSize: 15, lineHeight: 1.65, boxShadow: isUser ? '0 2px 12px rgba(34,197,94,0.2)' : '0 1px 8px rgba(0,0,0,0.04)', whiteSpace: 'pre-wrap' }}>
+      <div style={{ padding: '14px 18px', background: isUser ? `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})` : '#F3EFFB', color: isUser ? '#FFF' : TEXT_DARK, borderRadius: 20, borderBottomRightRadius: isUser ? 4 : 20, borderBottomLeftRadius: isUser ? 20 : 4, fontSize: 15, lineHeight: 1.65, boxShadow: isUser ? '0 2px 12px rgba(30,144,232,0.2)' : '0 1px 8px rgba(0,0,0,0.04)', whiteSpace: 'pre-wrap' }}>
         {message}
       </div>
     </div>
@@ -60,12 +60,12 @@ function CourseVideo({ courseId, lessonN, t }) {
       <video
         controls playsInline preload="metadata" src={video.url}
         controlsList="nodownload"
-        style={{ display: 'block', width: '100%', maxWidth: 270, margin: '0 auto 12px', borderRadius: 14, background: '#0F1F15', aspectRatio: '9 / 16' }}
+        style={{ display: 'block', width: '100%', maxWidth: 270, margin: '0 auto 12px', borderRadius: 14, background: '#1B0B3B', aspectRatio: '9 / 16' }}
       />
     );
   }
   return (
-    <div style={{ width: '100%', maxWidth: 270, aspectRatio: '9 / 16', borderRadius: 14, background: 'linear-gradient(135deg, #EBF7F0, #D5E8DC)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8, margin: '0 auto 12px', padding: 16, textAlign: 'center' }}>
+    <div style={{ width: '100%', maxWidth: 270, aspectRatio: '9 / 16', borderRadius: 14, background: 'linear-gradient(135deg, #F3EFFB, #E2D5F3)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8, margin: '0 auto 12px', padding: 16, textAlign: 'center' }}>
       <span style={{ fontSize: 36 }}>{video.status === 'loading' ? '🌙' : '🎬'}</span>
       <span style={{ fontSize: 13, color: TEXT_MID, fontWeight: 600, lineHeight: 1.5 }}>
         {video.status === 'loading' ? '…' : t(video.status === 'soon' ? 'course.comingSoon' : 'course.videoError')}
@@ -139,14 +139,14 @@ function OnboardingFlow({ onComplete }) {
   const progress = ((step) / (totalSteps - 1)) * 100;
 
   const inputStyle = {
-    border: `2px solid ${BORDER}`, fontSize: 15, color: TEXT_DARK, background: '#FAFDF7',
+    border: `2px solid ${BORDER}`, fontSize: 15, color: TEXT_DARK, background: '#FBFAFE',
     borderRadius: 14, padding: '12px 16px', width: '100%', fontFamily: "'DM Sans', sans-serif",
     outline: 'none', transition: 'border-color 0.2s',
   };
   const btnPrimary = {
     background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none',
     borderRadius: 16, padding: '14px 32px', fontSize: 16, fontWeight: 700, cursor: 'pointer',
-    fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 16px rgba(34,197,94,0.3)',
+    fontFamily: "'DM Sans', sans-serif", boxShadow: '0 4px 16px rgba(30,144,232,0.3)',
     transition: 'all 0.2s', opacity: canProceed() ? 1 : 0.4, pointerEvents: canProceed() ? 'auto' : 'none',
   };
   const btnSecondary = {
@@ -161,14 +161,14 @@ function OnboardingFlow({ onComplete }) {
     border: sel ? 'none' : `1.5px solid ${BORDER}`,
     borderRadius: 12, padding: '10px 14px', fontSize: 13, fontWeight: 600, cursor: 'pointer',
     fontFamily: "'DM Sans', sans-serif", transition: 'all 0.2s',
-    boxShadow: sel ? '0 3px 10px rgba(34,197,94,0.2)' : '0 1px 3px rgba(0,0,0,0.04)',
+    boxShadow: sel ? '0 3px 10px rgba(30,144,232,0.2)' : '0 1px 3px rgba(0,0,0,0.04)',
   });
   const optionCard = (sel) => ({
-    background: sel ? '#EBF7F0' : CARD_BG,
+    background: sel ? '#F3EFFB' : CARD_BG,
     border: sel ? `2px solid ${GREEN}` : `1.5px solid ${BORDER_LIGHT}`,
     borderRadius: 14, padding: '14px 16px', cursor: 'pointer', textAlign: 'left',
     display: 'flex', alignItems: 'center', gap: 12, transition: 'all 0.2s',
-    boxShadow: sel ? '0 3px 10px rgba(34,197,94,0.1)' : '0 1px 3px rgba(0,0,0,0.04)',
+    boxShadow: sel ? '0 3px 10px rgba(30,144,232,0.1)' : '0 1px 3px rgba(0,0,0,0.04)',
     fontFamily: "'DM Sans', sans-serif",
   });
 
@@ -314,7 +314,7 @@ function OnboardingFlow({ onComplete }) {
             ))}
 
             <button onClick={addChild} style={{
-              width: '100%', background: '#F0FAF4', border: `1.5px dashed ${GREEN}`,
+              width: '100%', background: '#F3EFFB', border: `1.5px dashed ${GREEN}`,
               borderRadius: 12, padding: '10px', fontSize: 14, color: GREEN_DARK,
               fontWeight: 600, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif",
             }}>{t('onboarding.children.addAnother')}</button>
@@ -422,20 +422,20 @@ function OnboardingFlow({ onComplete }) {
               <div style={{ display: 'flex', gap: 8 }}>
                 <a href="/terms" target="_blank" style={{
                   flex: 1, textAlign: 'center', padding: '12px', borderRadius: 12,
-                  background: '#F0FAF4', color: GREEN_DARK, fontSize: 14, fontWeight: 600,
+                  background: '#F3EFFB', color: GREEN_DARK, fontSize: 14, fontWeight: 600,
                   textDecoration: 'none', border: `1.5px solid ${BORDER}`,
                 }}>{t('onboarding.terms.termsLink')}</a>
                 <a href="/privacy" target="_blank" style={{
                   flex: 1, textAlign: 'center', padding: '12px', borderRadius: 12,
-                  background: '#EFF6FF', color: '#2563EB', fontSize: 14, fontWeight: 600,
-                  textDecoration: 'none', border: '1.5px solid #BFDBFE',
+                  background: '#E3F1FC', color: '#5A1690', fontSize: 14, fontWeight: 600,
+                  textDecoration: 'none', border: '1.5px solid #BBD9F5',
                 }}>{t('onboarding.terms.privacyLink')}</a>
               </div>
             </div>
 
             <label style={{
               display: 'flex', alignItems: 'flex-start', gap: 12, cursor: 'pointer',
-              background: acceptedTerms ? '#EBF7F0' : CARD_BG,
+              background: acceptedTerms ? '#F3EFFB' : CARD_BG,
               border: acceptedTerms ? `2px solid ${GREEN}` : `2px solid ${BORDER}`,
               borderRadius: 14, padding: 14, transition: 'all 0.2s',
             }}>
@@ -841,7 +841,7 @@ export default function Home() {
     setNewWin('');
   };
 
-  const inputStyle = { border: 'none', fontSize: 14, color: TEXT_DARK, background: '#F0FAF4', borderRadius: 12, padding: '10px 14px', width: '100%', fontFamily: "'DM Sans', sans-serif", outline: 'none' };
+  const inputStyle = { border: 'none', fontSize: 14, color: TEXT_DARK, background: '#F3EFFB', borderRadius: 12, padding: '10px 14px', width: '100%', fontFamily: "'DM Sans', sans-serif", outline: 'none' };
 
   // Loading screen while fetching user data
   if (loading) {
@@ -889,7 +889,7 @@ export default function Home() {
       `}</style>
 
       {/* ── HEADER ── */}
-      <div style={{ background: 'linear-gradient(135deg, #0F1F15, #152B1E)', padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', boxShadow: '0 4px 20px rgba(0,0,0,0.15)', zIndex: 10 }}>
+      <div style={{ background: 'linear-gradient(135deg, #1B0B3B, #2A0F52)', padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', boxShadow: '0 4px 20px rgba(0,0,0,0.15)', zIndex: 10 }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1 }}>
           <div style={{ width: 140, height: 1.5, background: `linear-gradient(90deg, ${GREEN}, ${BLUE})`, borderRadius: 2, opacity: 0.4, marginBottom: 8 }} />
           <div style={{ display: 'flex', alignItems: 'baseline' }}>
@@ -914,7 +914,7 @@ export default function Home() {
 
       {/* ── INSTALL APP BANNER ── */}
       {showInstallPrompt && (
-        <div style={{ background: 'linear-gradient(135deg, #EBF7F0, #D4EDDA)', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: 12, borderBottom: `1px solid ${BORDER}` }}>
+        <div style={{ background: 'linear-gradient(135deg, #F3EFFB, #E2D5F3)', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: 12, borderBottom: `1px solid ${BORDER}` }}>
           <span style={{ fontSize: 26 }}>📱</span>
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK }}>Get the MomzVeda App!</div>
@@ -929,7 +929,7 @@ export default function Home() {
             } else {
               setShowInstallModal(true);
             }
-          }} style={{ background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none', borderRadius: 10, padding: '8px 16px', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", whiteSpace: 'nowrap', boxShadow: '0 2px 8px rgba(46,125,50,0.3)' }}>
+          }} style={{ background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#FFF', border: 'none', borderRadius: 10, padding: '8px 16px', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", whiteSpace: 'nowrap', boxShadow: '0 2px 8px rgba(30,144,232,0.3)' }}>
             Install Free
           </button>
           <button onClick={() => setShowInstallPrompt(false)} style={{ background: 'none', border: 'none', color: TEXT_LIGHT, fontSize: 14, cursor: 'pointer', padding: '0 4px' }} title="Remind me later">✕</button>
@@ -946,7 +946,7 @@ export default function Home() {
               <div style={{ fontSize: 13, color: TEXT_MID, marginTop: 4 }}>Add to your home screen for the best experience</div>
             </div>
 
-            <div style={{ background: '#F0FFF4', borderRadius: 14, padding: '16px', marginBottom: 12 }}>
+            <div style={{ background: '#F3EFFB', borderRadius: 14, padding: '16px', marginBottom: 12 }}>
               <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 8 }}>iPhone / iPad</div>
               <div style={{ fontSize: 12, color: TEXT_MID, lineHeight: 1.6 }}>
                 1. Tap the <span style={{ fontSize: 14 }}>⬆️</span> <strong>Share</strong> button at the bottom<br/>
@@ -955,7 +955,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div style={{ background: '#F0FFF4', borderRadius: 14, padding: '16px', marginBottom: 12 }}>
+            <div style={{ background: '#F3EFFB', borderRadius: 14, padding: '16px', marginBottom: 12 }}>
               <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 8 }}>Android</div>
               <div style={{ fontSize: 12, color: TEXT_MID, lineHeight: 1.6 }}>
                 1. Tap the <strong>⋮ menu</strong> (top right)<br/>
@@ -964,7 +964,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div style={{ background: '#F0FFF4', borderRadius: 14, padding: '16px', marginBottom: 20 }}>
+            <div style={{ background: '#F3EFFB', borderRadius: 14, padding: '16px', marginBottom: 20 }}>
               <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 8 }}>Desktop</div>
               <div style={{ fontSize: 12, color: TEXT_MID, lineHeight: 1.6 }}>
                 Click the <strong>install icon</strong> in your browser's address bar
@@ -997,7 +997,7 @@ export default function Home() {
         ].map(tab => (
           <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{
             flex: 1, padding: '10px 0', border: 'none', cursor: 'pointer', fontSize: 12, fontWeight: 600,
-            background: activeTab === tab.id ? '#EBF7F0' : 'transparent',
+            background: activeTab === tab.id ? '#F3EFFB' : 'transparent',
             color: activeTab === tab.id ? GREEN_DARK : TEXT_LIGHT,
             borderBottom: activeTab === tab.id ? `2px solid ${GREEN}` : '2px solid transparent',
             transition: 'all 0.2s', fontFamily: "'DM Sans', sans-serif",
@@ -1012,7 +1012,7 @@ export default function Home() {
         {activeTab === 'chat' && (<>
           {/* Daily Tip */}
           {dailyTip && (
-            <div style={{ background: 'linear-gradient(135deg, #EBF7F0, #E0F0FF)', borderRadius: 16, padding: '14px 16px', marginBottom: 12, fontSize: 14, color: TEXT_DARK, lineHeight: 1.5 }}>
+            <div style={{ background: 'linear-gradient(135deg, #F3EFFB, #E3F1FC)', borderRadius: 16, padding: '14px 16px', marginBottom: 12, fontSize: 14, color: TEXT_DARK, lineHeight: 1.5 }}>
               {dailyTip}
             </div>
           )}
@@ -1035,7 +1035,7 @@ export default function Home() {
           )}
           {/* Affirmation */}
           {affirmation && showWelcome && (
-            <div style={{ background: 'linear-gradient(135deg, #E8F7EE, #DCEFFE)', borderRadius: 20, padding: '22px 20px', marginBottom: 16, position: 'relative', overflow: 'hidden', boxShadow: '0 2px 16px rgba(34,197,94,0.08)' }}>
+            <div style={{ background: 'linear-gradient(135deg, #EDE4FB, #E3F1FC)', borderRadius: 20, padding: '22px 20px', marginBottom: 16, position: 'relative', overflow: 'hidden', boxShadow: '0 2px 16px rgba(30,144,232,0.08)' }}>
               <div style={{ position: 'absolute', top: -20, right: -20, width: 80, height: 80, borderRadius: '50%', background: 'rgba(255,255,255,0.35)' }} />
               <div style={{ fontSize: 12, fontWeight: 600, color: GREEN_DARK, marginBottom: 6, letterSpacing: '0.05em' }}>✨ {t('chat.todayAffirmation')}</div>
               <div style={{ fontSize: 16, color: TEXT_DARK, lineHeight: 1.6, fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>{affirmation}</div>
@@ -1104,7 +1104,7 @@ export default function Home() {
               </div>
 
               {!isPremium && !course.fullyPremium && (
-                <div style={{ fontSize: 13, fontWeight: 600, color: GREEN_DARK, background: '#EBF7F0', borderRadius: 12, padding: '10px 14px', marginBottom: 14 }}>{t('course.freeIntro')}</div>
+                <div style={{ fontSize: 13, fontWeight: 600, color: GREEN_DARK, background: '#F3EFFB', borderRadius: 12, padding: '10px 14px', marginBottom: 14 }}>{t('course.freeIntro')}</div>
               )}
 
               {/* Lessons */}
@@ -1129,7 +1129,7 @@ export default function Home() {
                         {locked
                           ? <span style={{ fontSize: 16 }}>🔒</span>
                           : (!isPremium && lesson.n === 1)
-                            ? <span style={{ fontSize: 10, fontWeight: 700, color: GREEN_DARK, background: '#EBF7F0', padding: '3px 8px', borderRadius: 8 }}>{t('course.free')}</span>
+                            ? <span style={{ fontSize: 10, fontWeight: 700, color: GREEN_DARK, background: '#F3EFFB', padding: '3px 8px', borderRadius: 8 }}>{t('course.free')}</span>
                             : <span style={{ fontSize: 13, color: TEXT_LIGHT }}>{isOpen ? '▾' : '▸'}</span>}
                       </button>
 
@@ -1143,7 +1143,7 @@ export default function Home() {
                             {Array.isArray(lesson.script) && lesson.script.length > 0 && (
                               <div className="lesson-script" dir={rtl ? 'rtl' : 'ltr'}>
                                 <div style={{ fontSize: 12, fontWeight: 700, color: GREEN_DARK, textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 8 }}>{t('course.transcript')}</div>
-                                <div className="script-scroll" style={{ background: '#FAFCFB', border: `1px solid ${BORDER}`, borderRadius: 12, padding: '12px 14px', textAlign: rtl ? 'right' : 'left' }}>
+                                <div className="script-scroll" style={{ background: '#FBFAFE', border: `1px solid ${BORDER}`, borderRadius: 12, padding: '12px 14px', textAlign: rtl ? 'right' : 'left' }}>
                                   {lesson.script.map((sec, si) => (
                                     <div key={si} style={{ marginBottom: si === lesson.script.length - 1 ? 0 : 14 }}>
                                       {sec.h && <div style={{ fontSize: 13, fontWeight: 700, color: TEXT_DARK, marginBottom: 5, fontFamily: "'Playfair Display', serif" }}>{sec.h}</div>}
@@ -1158,7 +1158,7 @@ export default function Home() {
                           </div>
                           <p style={{ fontSize: 13, color: TEXT_MID, lineHeight: 1.6, marginBottom: 12 }}>{lesson.desc}</p>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                            <button onClick={() => toggleLessonDone(activeCourse, lesson.n)} style={{ background: isDone ? '#EBF7F0' : `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: isDone ? GREEN_DARK : '#FFF', border: 'none', borderRadius: 12, padding: '10px 16px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
+                            <button onClick={() => toggleLessonDone(activeCourse, lesson.n)} style={{ background: isDone ? '#F3EFFB' : `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: isDone ? GREEN_DARK : '#FFF', border: 'none', borderRadius: 12, padding: '10px 16px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
                               {isDone ? t('course.done') : t('course.markDone')}
                             </button>
                             <button onClick={() => sendMessage(lesson.vedaPrompt)} style={{ background: CARD_BG, color: TEXT_MID, border: `1.5px solid ${BORDER}`, borderRadius: 12, padding: '10px 16px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: "'DM Sans', sans-serif" }}>
@@ -1201,7 +1201,7 @@ export default function Home() {
               <div style={{ display: 'grid', gap: 10 }}>
                 {(getContent('guidedJourneys') || []).map((j, i) => (
                   <button key={i} onClick={() => { if (j.courseId) { setActiveCourse(j.courseId); setExpandedLesson(1); } else { sendMessage(j.prompt); } }} style={{ background: CARD_BG, border: `1.5px solid ${BORDER}`, borderRadius: 16, padding: '16px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 14, transition: 'all 0.2s', fontFamily: "'DM Sans', sans-serif" }}
-                    onMouseEnter={e => { e.currentTarget.style.borderColor = GREEN; e.currentTarget.style.boxShadow = '0 4px 12px rgba(34,197,94,0.1)'; }}
+                    onMouseEnter={e => { e.currentTarget.style.borderColor = GREEN; e.currentTarget.style.boxShadow = '0 4px 12px rgba(30,144,232,0.1)'; }}
                     onMouseLeave={e => { e.currentTarget.style.borderColor = BORDER; e.currentTarget.style.boxShadow = 'none'; }}
                   >
                     <span style={{ fontSize: 28 }}>{j.emoji}</span>
@@ -1224,7 +1224,7 @@ export default function Home() {
                         <div style={{ fontSize: 12, color: TEXT_LIGHT }}>{j.desc}</div>
                       </div>
                       {j.courseId && !j.premium
-                        ? <span style={{ fontSize: 10, fontWeight: 700, color: GREEN_DARK, background: '#EBF7F0', padding: '3px 8px', borderRadius: 8, whiteSpace: 'nowrap' }}>{t('course.free')}</span>
+                        ? <span style={{ fontSize: 10, fontWeight: 700, color: GREEN_DARK, background: '#F3EFFB', padding: '3px 8px', borderRadius: 8, whiteSpace: 'nowrap' }}>{t('course.free')}</span>
                         : <span style={{ fontSize: 18 }}>🔒</span>}
                     </div>
                   ))}
@@ -1272,7 +1272,7 @@ export default function Home() {
                 </div>
               </div>
             ) : (
-              <button onClick={() => setShowAddChild(true)} style={{ width: '100%', background: '#EBF7F0', border: `1.5px dashed ${GREEN}`, borderRadius: 16, padding: '14px', cursor: 'pointer', fontSize: 14, color: GREEN_DARK, fontWeight: 600, marginTop: 4, fontFamily: "'DM Sans', sans-serif" }}>
+              <button onClick={() => setShowAddChild(true)} style={{ width: '100%', background: '#F3EFFB', border: `1.5px dashed ${GREEN}`, borderRadius: 16, padding: '14px', cursor: 'pointer', fontSize: 14, color: GREEN_DARK, fontWeight: 600, marginTop: 4, fontFamily: "'DM Sans', sans-serif" }}>
                 {t('kids.addChild')}
               </button>
             )}
@@ -1286,7 +1286,7 @@ export default function Home() {
             <div style={{ fontSize: 13, color: TEXT_LIGHT, marginBottom: 16 }}>{t('wins.subtitle')}</div>
             <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
               <input value={newWin} onChange={e => setNewWin(e.target.value)} onKeyDown={e => e.key === 'Enter' && addWin()} placeholder={t('wins.placeholder')} style={{ ...inputStyle, flex: 1 }} />
-              <button onClick={addWin} disabled={!newWin.trim()} style={{ background: newWin.trim() ? GREEN : '#D5E8DC', color: '#FFF', border: 'none', borderRadius: 12, padding: '10px 18px', cursor: newWin.trim() ? 'pointer' : 'default', fontWeight: 600, fontSize: 14, transition: 'all 0.2s' }}>+</button>
+              <button onClick={addWin} disabled={!newWin.trim()} style={{ background: newWin.trim() ? GREEN : '#E2D5F3', color: '#FFF', border: 'none', borderRadius: 12, padding: '10px 18px', cursor: newWin.trim() ? 'pointer' : 'default', fontWeight: 600, fontSize: 14, transition: 'all 0.2s' }}>+</button>
             </div>
             {momWins.length === 0 ? (
               <div style={{ textAlign: 'center', padding: '40px 20px', color: TEXT_LIGHT, fontSize: 14, lineHeight: 1.6 }}>
@@ -1343,7 +1343,7 @@ export default function Home() {
             ))}
 
             {/* Blog Link */}
-            <div style={{ textAlign: 'center', marginTop: 24, padding: 20, background: '#EBF7F0', borderRadius: 14 }}>
+            <div style={{ textAlign: 'center', marginTop: 24, padding: 20, background: '#F3EFFB', borderRadius: 14 }}>
               <div style={{ fontSize: 14, fontWeight: 600, color: TEXT_DARK, marginBottom: 8 }}>Looking for parenting tips?</div>
               <a href="/blog" style={{ color: GREEN, fontSize: 14, fontWeight: 600, textDecoration: 'none' }}>
                 Visit our Blog &rarr;
@@ -1357,9 +1357,9 @@ export default function Home() {
       {activeTab === 'chat' && !showWelcome && !isTyping && (
         <div style={{ padding: '6px 16px', overflowX: 'auto', display: 'flex', gap: 6, borderTop: `1px solid ${BORDER_LIGHT}` }}>
           {(getContent('quickTopics') || []).slice(0, 5).map((qt, i) => (
-            <button key={i} onClick={() => sendMessage(qt.prompt)} style={{ background: '#EBF7F0', border: `1px solid ${BORDER}`, borderRadius: 20, padding: '5px 12px', cursor: 'pointer', whiteSpace: 'nowrap', fontSize: 12, color: TEXT_MID, fontWeight: 500, transition: 'all 0.2s', flexShrink: 0, fontFamily: "'DM Sans', sans-serif" }}
-              onMouseEnter={e => { e.target.style.background = '#D5F0DC'; e.target.style.borderColor = GREEN; }}
-              onMouseLeave={e => { e.target.style.background = '#EBF7F0'; e.target.style.borderColor = BORDER; }}
+            <button key={i} onClick={() => sendMessage(qt.prompt)} style={{ background: '#F3EFFB', border: `1px solid ${BORDER}`, borderRadius: 20, padding: '5px 12px', cursor: 'pointer', whiteSpace: 'nowrap', fontSize: 12, color: TEXT_MID, fontWeight: 500, transition: 'all 0.2s', flexShrink: 0, fontFamily: "'DM Sans', sans-serif" }}
+              onMouseEnter={e => { e.target.style.background = '#E2D5F3'; e.target.style.borderColor = GREEN; }}
+              onMouseLeave={e => { e.target.style.background = '#F3EFFB'; e.target.style.borderColor = BORDER; }}
             >{qt.emoji} {qt.label}</button>
           ))}
         </div>
@@ -1410,7 +1410,7 @@ export default function Home() {
                   } catch { setIsRecording(false); }
                 }
               }}
-                style={{ width: 36, height: 36, borderRadius: '50%', background: isRecording ? '#EF4444' : (isPremium ? 'rgba(34,197,94,0.1)' : 'rgba(0,0,0,0.05)'), border: isRecording ? '2px solid #EF4444' : `1px solid ${isPremium ? BORDER : '#E0E0E0'}`, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s', flexShrink: 0, animation: isRecording ? 'pulse 1.5s infinite' : 'none' }}>
+                style={{ width: 36, height: 36, borderRadius: '50%', background: isRecording ? '#EF4444' : (isPremium ? 'rgba(30,144,232,0.1)' : 'rgba(0,0,0,0.05)'), border: isRecording ? '2px solid #EF4444' : `1px solid ${isPremium ? BORDER : '#E0E0E0'}`, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s', flexShrink: 0, animation: isRecording ? 'pulse 1.5s infinite' : 'none' }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={isRecording ? '#FFF' : (isPremium ? GREEN_DARK : '#999')} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
                   <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
@@ -1421,7 +1421,7 @@ export default function Home() {
             )}
             {/* Send button */}
             <button onClick={() => (!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? setShowUpgrade(true) : sendMessage(input)} disabled={(!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? false : (!input.trim() || isTyping)}
-              style={{ width: 40, height: 40, borderRadius: '50%', background: (!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? 'linear-gradient(135deg, #F59E0B, #D97706)' : (input.trim() && !isTyping ? `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})` : '#D5E8DC'), border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s', flexShrink: 0 }}>
+              style={{ width: 40, height: 40, borderRadius: '50%', background: (!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? 'linear-gradient(135deg, #F59E0B, #D97706)' : (input.trim() && !isTyping ? `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})` : '#E2D5F3'), border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s', flexShrink: 0 }}>
               {(!isPremium && dailyMsgCount >= FREE_MSG_LIMIT) ? (
                 <span style={{ color: '#FFF', fontSize: 16 }}>✨</span>
               ) : (

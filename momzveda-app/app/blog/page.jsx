@@ -45,7 +45,7 @@ export default function BlogPage() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: '#F2F8F5',
+      background: '#F3EFFB',
       fontFamily: "'DM Sans', sans-serif",
     }}>
       <div style={{
@@ -54,7 +54,7 @@ export default function BlogPage() {
         padding: '48px 24px',
       }}>
         <a href="/" style={{
-          color: '#22C55E',
+          color: '#1E90E8',
           textDecoration: 'none',
           fontSize: 14,
           fontWeight: 600,
@@ -65,7 +65,7 @@ export default function BlogPage() {
         <h1 style={{
           fontSize: 36,
           fontWeight: 700,
-          color: '#1A2E23',
+          color: '#1B0B3B',
           marginTop: 24,
           marginBottom: 8,
           fontFamily: "'Playfair Display', serif",
@@ -73,7 +73,7 @@ export default function BlogPage() {
           MomzVeda Blog
         </h1>
         <p style={{
-          color: '#6B9A7E',
+          color: '#6E5C8A',
           fontSize: 16,
           marginBottom: 40,
           lineHeight: 1.6,
@@ -92,7 +92,7 @@ export default function BlogPage() {
                 background: '#FFFFFF',
                 borderRadius: 16,
                 padding: 32,
-                border: '1px solid #D5E8DC',
+                border: '1px solid #E2D5F3',
                 transition: 'box-shadow 0.2s ease, transform 0.2s ease',
                 cursor: 'pointer',
               }}>
@@ -103,8 +103,8 @@ export default function BlogPage() {
                   marginBottom: 12,
                 }}>
                   <span style={{
-                    background: '#E8F7EE',
-                    color: '#16A34A',
+                    background: '#EDE4FB',
+                    color: '#5A1690',
                     fontSize: 12,
                     fontWeight: 600,
                     padding: '4px 12px',
@@ -112,24 +112,24 @@ export default function BlogPage() {
                   }}>
                     {post.category}
                   </span>
-                  <span style={{ color: '#6B9A7E', fontSize: 13 }}>
+                  <span style={{ color: '#6E5C8A', fontSize: 13 }}>
                     {post.date}
                   </span>
-                  <span style={{ color: '#6B9A7E', fontSize: 13 }}>
+                  <span style={{ color: '#6E5C8A', fontSize: 13 }}>
                     &middot; {post.readTime}
                   </span>
                 </div>
                 <h2 style={{
                   fontSize: 22,
                   fontWeight: 700,
-                  color: '#1A2E23',
+                  color: '#1B0B3B',
                   marginBottom: 8,
                   lineHeight: 1.3,
                 }}>
                   {post.title}
                 </h2>
                 <p style={{
-                  color: '#3D6B50',
+                  color: '#5A1690',
                   fontSize: 15,
                   lineHeight: 1.6,
                   margin: 0,
@@ -147,18 +147,18 @@ export default function BlogPage() {
           padding: 32,
           background: '#FFFFFF',
           borderRadius: 16,
-          border: '1px solid #D5E8DC',
+          border: '1px solid #E2D5F3',
         }}>
           <p style={{
             fontSize: 18,
             fontWeight: 600,
-            color: '#1A2E23',
+            color: '#1B0B3B',
             marginBottom: 8,
           }}>
             Need someone to talk to right now?
           </p>
           <p style={{
-            color: '#3D6B50',
+            color: '#5A1690',
             fontSize: 14,
             marginBottom: 16,
           }}>
@@ -166,7 +166,7 @@ export default function BlogPage() {
           </p>
           <a href="/signup" style={{
             display: 'inline-block',
-            background: '#22C55E',
+            background: '#1E90E8',
             color: '#FFFFFF',
             padding: '12px 32px',
             borderRadius: 12,

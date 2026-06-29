@@ -29,7 +29,7 @@ export default function BlogPost() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: '#F2F8F5',
+      background: '#F3EFFB',
       fontFamily: "'DM Sans', sans-serif",
     }}>
       <script
@@ -40,11 +40,11 @@ export default function BlogPost() {
         maxWidth: 720,
         margin: '0 auto',
         padding: '48px 24px',
-        color: '#1A2E23',
+        color: '#1B0B3B',
         lineHeight: 1.8,
       }}>
         <a href="/blog" style={{
-          color: '#22C55E',
+          color: '#1E90E8',
           textDecoration: 'none',
           fontSize: 14,
           fontWeight: 600,
@@ -60,8 +60,8 @@ export default function BlogPost() {
           marginBottom: 12,
         }}>
           <span style={{
-            background: '#E8F7EE',
-            color: '#16A34A',
+            background: '#EDE4FB',
+            color: '#5A1690',
             fontSize: 12,
             fontWeight: 600,
             padding: '4px 12px',
@@ -69,10 +69,10 @@ export default function BlogPost() {
           }}>
             Motherhood
           </span>
-          <span style={{ color: '#6B9A7E', fontSize: 13 }}>
+          <span style={{ color: '#6E5C8A', fontSize: 13 }}>
             March 12, 2026
           </span>
-          <span style={{ color: '#6B9A7E', fontSize: 13 }}>
+          <span style={{ color: '#6E5C8A', fontSize: 13 }}>
             &middot; 5 min read
           </span>
         </div>
@@ -87,7 +87,7 @@ export default function BlogPost() {
           Why Every Mom Deserves a Non-Judgmental Friend at 3am
         </h1>
 
-        <p style={{ fontSize: 18, color: '#3D6B50', marginBottom: 32, fontStyle: 'italic' }}>
+        <p style={{ fontSize: 18, color: '#5A1690', marginBottom: 32, fontStyle: 'italic' }}>
           Motherhood can be the most rewarding experience in the world — and the loneliest. Especially at 3am.
         </p>
 
@@ -149,7 +149,7 @@ export default function BlogPost() {
 
         <div style={{
           background: '#FFFFFF',
-          border: '1px solid #D5E8DC',
+          border: '1px solid #E2D5F3',
           borderRadius: 16,
           padding: 32,
           marginTop: 40,
@@ -159,12 +159,12 @@ export default function BlogPost() {
           <p style={{ fontSize: 20, fontWeight: 600, marginBottom: 8 }}>
             MomzVeda is your always-available mom friend
           </p>
-          <p style={{ color: '#3D6B50', fontSize: 15, marginBottom: 20 }}>
+          <p style={{ color: '#5A1690', fontSize: 15, marginBottom: 20 }}>
             Warm, supportive, and never judgmental — even at 3am. Start free with 5 messages a day.
           </p>
           <a href="/signup" style={{
             display: 'inline-block',
-            background: '#22C55E',
+            background: '#1E90E8',
             color: '#FFFFFF',
             padding: '12px 32px',
             borderRadius: 12,
@@ -196,11 +196,11 @@ export default function BlogPost() {
         </p>
 
         <div style={{
-          borderTop: '1px solid #D5E8DC',
+          borderTop: '1px solid #E2D5F3',
           marginTop: 48,
           paddingTop: 24,
         }}>
-          <p style={{ color: '#6B9A7E', fontSize: 14, fontStyle: 'italic' }}>
+          <p style={{ color: '#6E5C8A', fontSize: 14, fontStyle: 'italic' }}>
             If you are struggling with postpartum depression, anxiety, or thoughts of self-harm, please reach out to a healthcare professional. MomzVeda is here for daily support, not crisis intervention. You deserve professional help when you need it.
           </p>
         </div>

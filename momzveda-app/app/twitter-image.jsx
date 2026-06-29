@@ -17,15 +17,15 @@ export default function Image() {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          background: 'linear-gradient(135deg, #0F1F15 0%, #1A3A25 100%)',
+          background: 'linear-gradient(135deg, #1B0B3B 0%, #2A0F52 100%)',
           fontFamily: 'sans-serif',
         }}
       >
         <div style={{ display: 'flex', alignItems: 'baseline' }}>
-          <span style={{ fontSize: 72, fontWeight: 900, color: '#22C55E', letterSpacing: 3 }}>
+          <span style={{ fontSize: 72, fontWeight: 900, color: '#1E90E8', letterSpacing: 3 }}>
             Momz
           </span>
-          <span style={{ fontSize: 68, fontStyle: 'italic', color: '#3B82F6', letterSpacing: 3 }}>
+          <span style={{ fontSize: 68, fontStyle: 'italic', color: '#7A1FB0', letterSpacing: 3 }}>
             Veda
           </span>
         </div>
