@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Breastfeeding",
+    "subtitle": "Support and guidance without judgment · however you're feeding, you're doing a beautiful job, mama",
+    "emoji": "🍼",
+    "intro": "Five short video lessons with Veda for your breastfeeding journey. From the very first days and colostrum, to a deep and comfortable latch, milk supply and cluster feeding, the common challenges and when to call, and combo feeding, pumping and your own wellbeing — warm, practical, and completely judgment-free. However you feed your baby, mama, you and your baby are learning each other, and that's exactly where you're meant to be.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "The Basics & The First Days",
+        "duration": "± 2 min",
+        "desc": "The first hours and days — colostrum, skin to skin, and how supply and demand really works, so those frequent early feeds make sense.",
+        "vedaPrompt": "I just watched Lesson 1 of the Breastfeeding course (the basics and the first days). Can you help me understand colostrum, skin to skin, and how supply and demand works in these early days?",
+        "script": [
+          {
+            "h": "You and your baby are learning each other",
+            "p": [
+              "Okay mama, before we talk about anything else, I want you to hear this... however feeding goes for you, you and your baby are learning each other. Breastfeeding is natural, but it isn't always instinctive, and almost nobody just knows how on day one. So let's gently start at the very beginning."
+            ]
+          },
+          {
+            "h": "Colostrum and skin to skin",
+            "p": [
+              "In those first hours and days, your breasts make something called colostrum. It's thick, golden, and there in tiny amounts, and that's exactly right. Your newborn's tummy is the size of a little marble, so those small sips are perfectly enough. Colostrum is rich and protective, like a first gift from your body, and your milk will come in more fully a few days later. One of the most powerful things you can do early on is skin to skin. Holding your baby bare against your chest keeps them warm and calm, steadies their breathing, and wakes up those early feeding instincts. You may notice them bobbing, rooting, turning toward you, looking for the breast all on their own. That's the beginning of the whole rhythm."
+            ]
+          },
+          {
+            "h": "Supply and demand",
+            "p": [
+              "And here's the heart of it, mama... breastfeeding works on supply and demand. The more your baby feeds, the more your body learns to make. In these early days that can mean feeding very often, eight, ten, twelve times in a day, sometimes more. That's not a sign anything is wrong. That's your baby placing the order, and your body filling it. Newborns feed a lot, and night feeds matter too, so try to let go of the clock for now. Watch your baby, not the time. And if it feels hard, or tender, or nothing like the calm pictures you imagined, please know that's so common. You're not behind. You're not failing. You and your baby are just at the very start of learning this together, and that's exactly where you're meant to be."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "A Good Latch & Comfortable Positions",
+        "duration": "± 2 min",
+        "desc": "Getting a deep, comfortable latch — bringing baby to the breast, the signs of a good latch, positions that work for your body, and what to do about pain.",
+        "vedaPrompt": "I just watched Lesson 2 of the Breastfeeding course (a good latch and comfortable positions). Can you help me get a deeper, more comfortable latch and figure out which feeding positions might work for me?",
+        "script": [
+          {
+            "h": "It's a breast feed, not a nipple feed",
+            "p": [
+              "Okay mama, let's talk about the latch, because so much of comfortable feeding comes down to how your baby takes the breast. Here's the key idea... it's not a nipple feed, it's a breast feed. You want your baby to take a big mouthful, not just the tip. To help that happen, bring your baby to you rather than leaning yourself down to them. Line them up tummy to tummy, nose to nipple, so they have to tip their head back a little and open wide, like a big yawn. When they do, guide them on chin first, so the nipple points up toward the roof of their mouth and they get a deep, asymmetric latch."
+            ]
+          },
+          {
+            "h": "Signs of a good latch, and positions",
+            "p": [
+              "Signs of a good latch are lovely to learn. Their mouth is open wide, lips flanged out like little fish lips, more of the underside of the areola in their mouth than the top. Their chin is touching the breast, their cheeks look full and round, not dimpled in. And you'll hear rhythmic sucking and soft swallowing, not clicking. Now let's find a position that works for your body. The cradle hold is the classic, baby across your lap, head in the crook of your arm. The football, or rugby hold, tucks baby along your side under your arm, which many mamas love after a cesarean or with a bigger chest. And laid back, leaning into pillows with baby resting on your chest, lets gravity and their instincts do a lot of the work. There's no single right one. Try them, get comfy, use pillows generously."
+            ]
+          },
+          {
+            "h": "Pain is a signal, not a rule",
+            "p": [
+              "And here's something I really want you to remember, mama... pain is a signal, not a rule. A good latch can feel like a strong tug, but it should not be toe curling, pinching, ongoing pain. If it hurts, gently break the suction with your finger in the corner of their mouth, and try again. Feeding shouldn't mean gritting your teeth. If the pain keeps coming back, that's your cue to reach out to a lactation consultant. Getting hands on help is one of the kindest things you can do for both of you."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Milk Supply, Feeding Rhythms & Cluster Feeding",
+        "duration": "± 2 min",
+        "desc": "The 'am I making enough milk?' worry — the real signs to watch, why cluster feeding is normal, and the basics of expressing and storing milk.",
+        "vedaPrompt": "I just watched Lesson 3 of the Breastfeeding course (milk supply, feeding rhythms and cluster feeding). Can you help me understand whether my baby is getting enough and what cluster feeding means?",
+        "script": [
+          {
+            "h": "Am I making enough milk?",
+            "p": [
+              "Okay mama, let's talk about the question almost every breastfeeding mother asks at some point... am I making enough milk? It's such a common worry, partly because you can't see ounces, you can't measure what they're getting. So I want to give you the things you actually can watch. The best signs are at the other end. In the early weeks, once your milk is in, you're looking for plenty of wet diapers, around six or more heavy, soaked ones a day, and regular dirty ones too. Diapers are your daily report card. Add to that a baby who is generally settling after feeds, and steady weight gain at their check ups, and those are your real reassurance, far more than how full your breasts feel or how long a feed lasts."
+            ]
+          },
+          {
+            "h": "Cluster feeding is normal",
+            "p": [
+              "Now, cluster feeding. There will be evenings, or whole stretches, where your baby wants to feed again and again, barely coming off, fussy in between. Mama, this is normal. It tends to cluster in the evenings and around growth spurts, often around three weeks, six weeks, three months. It can feel like your milk has disappeared or your baby is never satisfied, but it's actually the opposite. This is your baby boosting your supply, placing a bigger order so your body makes more. It passes. Ride it with snacks, water, a comfy spot, and a show to watch."
+            ]
+          },
+          {
+            "h": "Expressing, storage, and when to ask",
+            "p": [
+              "If you want to introduce a bottle, or you're thinking ahead to time apart, you might start expressing. You can hand express or use a pump, usually once feeding feels established, often around a few weeks in, though there's no perfect rule. As a simple storage guide, freshly expressed milk keeps several hours at room temperature, a few days in the fridge, and months in the freezer, and always label it with the date. Thaw gently, never in a hot microwave. And please hear this, mama... if you ever feel truly unsure whether your baby is getting enough, if feeds seem off, or weight or diapers worry you, that is not a failure, that is a phone call. Reach out to your doctor or a lactation consultant. Asking is the strong move, every single time."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Common Challenges & When to Call",
+        "duration": "± 2 min",
+        "desc": "The common bumps — sore nipples, engorgement, blocked ducts, mastitis and thrush — what helps, and the simple rule for when to call.",
+        "vedaPrompt": "I just watched Lesson 4 of the Breastfeeding course (common challenges and when to call). Can you help me work out whether what I'm feeling is a normal bump or something I should call about?",
+        "script": [
+          {
+            "h": "Sore nipples, engorgement, blocked ducts",
+            "p": [
+              "Okay mama, let's talk honestly about the bumps, because breastfeeding can come with some, and knowing what they are makes them far less scary. Let's start with sore or cracked nipples. These are common in the early days, and most often they trace back to the latch, so revisiting how baby takes the breast is the first fix. In the meantime, a little of your own breast milk rubbed in, or a clean, nipple safe balm, and letting them air dry can soothe a lot. Then there's engorgement, when your milk comes in and your breasts feel hard, swollen, and tender, almost overfull. Gentle feeding often, a warm flannel or a quick warm shower before feeds to help it flow, and something cool after, all bring relief. It usually settles within a few days as supply and demand find their balance. Sometimes a duct gets blocked, and you feel a tender lump or a sore spot. The classic kindness here is to keep feeding from that side, feed often, and gently massage the lump toward the nipple while baby feeds or in a warm shower. Most clear with rest and gentle care."
+            ]
+          },
+          {
+            "h": "Mastitis and thrush — when to call",
+            "p": [
+              "Now, I want to talk about mastitis calmly, because the word sounds frightening and it really doesn't need to. Mastitis is inflammation in the breast, and it can come with a hot, red, painful patch, and you feeling unwell, achy, even feverish, like you've come down with the flu. Here's your simple rule, mama, no panic needed... if you have a red, painful breast together with a fever or flu like feelings, that's the moment to call your doctor or lactation consultant. Don't wait it out. It's very treatable, especially early, and you can usually keep feeding right through it. One more, thrush, a yeast issue that can cause stinging, itching, or pink, sore nipples, sometimes with white patches in baby's mouth. That one also just needs a call, because you and baby are usually treated together."
+            ]
+          },
+          {
+            "h": "The through line: reach out early",
+            "p": [
+              "None of these mean you're doing it wrong, mama. They're common, they're manageable, and the through line is always the same... when something feels red, feverish, or just not right, you reach out. Getting support early isn't fussing. It's exactly what good care looks like."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Combo Feeding, Pumping, Going Back to Work & Your Wellbeing",
+        "duration": "± 2 min",
+        "desc": "Taking the pressure off — combo feeding, pumping, heading back to work, and caring for your own wellbeing, however you end up feeding your baby.",
+        "vedaPrompt": "I just watched Lesson 5 of the Breastfeeding course (combo feeding, pumping, going back to work and your wellbeing). Can you help me think through my feeding options and how to look after myself?",
+        "script": [
+          {
+            "h": "Combo feeding is a loving choice",
+            "p": [
+              "Okay mama, for this last lesson I want to take the pressure all the way down, because how you feed your baby matters far less than that your baby is fed and you are okay. Let's talk about combo feeding, mixing breast and bottle, breast milk or formula. So many families do this, and it is a completely valid, loving way to feed a baby. Maybe it gives you a longer stretch of sleep, lets a partner share night feeds, eases you back toward work, or simply protects your sanity. None of that is failure. A fed baby and a mother who can keep going, that is the win. Every time."
+            ]
+          },
+          {
+            "h": "Pumping and going back to work",
+            "p": [
+              "If you're pumping, whether to build a stash, share feeds, or get ready for time apart, it helps to find a rhythm that fits your day, and to know that what you pump in one session is not a true measure of all you make, babies are far more efficient than any machine. And going back to work, mama, give yourself a runway. Start a little stash in the weeks before, practice the bottle, talk to your workplace about breaks and a private space and somewhere to store milk if you're pumping there. It can feel like a lot, and it usually settles into its own routine sooner than you'd think."
+            ]
+          },
+          {
+            "h": "There's no prize for the hardest way",
+            "p": [
+              "Through all of it, I want you to hold on to this. There is no prize for doing it the hardest way. If breastfeeding is going beautifully, wonderful. If it's been a struggle, if you've combo fed, pumped, switched to formula, or stopped sooner than you planned, you have not let anyone down. You fed your baby with love and you did it while healing and exhausted and learning, and that is enormous. Lean on your people, ask for the help, say the thing out loud when it's hard. And if feeding ever starts to weigh on your heart in a heavier way, please talk to someone you trust or your doctor, because your wellbeing is part of this too. So take a breath, mama, and really let this land... however you are feeding your baby, you are already doing a beautiful job."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

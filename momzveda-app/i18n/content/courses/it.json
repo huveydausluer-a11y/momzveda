@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Allattamento",
+    "subtitle": "Sostegno e guida senza giudizio · comunque tu stia nutrendo il tuo bambino, stai facendo un lavoro meraviglioso, mamma",
+    "emoji": "🍼",
+    "intro": "Cinque brevi videolezioni con Veda per il tuo percorso di allattamento. Dai primissimi giorni e dal colostro, fino a un attacco profondo e comodo, alla produzione di latte e alle poppate a grappolo, alle difficoltà più comuni e a quando chiamare, e all'allattamento misto, al tiralatte e al tuo benessere — con calore, praticità e senza alcun giudizio. Comunque tu nutra il tuo bambino, mamma, tu e il tuo bambino vi state conoscendo, ed è esattamente lì che dovete essere.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Le basi & i primi giorni",
+        "duration": "± 2 min",
+        "desc": "Le prime ore e i primi giorni — colostro, pelle a pelle, e come funziona davvero la domanda e offerta, così quelle poppate frequenti dei primi tempi acquistano senso.",
+        "vedaPrompt": "Ho appena visto la lezione 1 del corso Allattamento (le basi e i primi giorni). Puoi aiutarmi a capire il colostro, il pelle a pelle e come funziona la domanda e offerta in questi primi giorni?",
+        "script": [
+          {
+            "h": "Tu e il tuo bambino vi state conoscendo",
+            "p": [
+              "Va bene mamma, prima di parlare di qualsiasi altra cosa, voglio che tu senta questo... comunque vada l'allattamento per te, tu e il tuo bambino vi state conoscendo. Allattare è naturale, ma non è sempre istintivo, e quasi nessuna sa semplicemente come si fa al primo giorno. Quindi cominciamo delicatamente proprio dall'inizio."
+            ]
+          },
+          {
+            "h": "Colostro e pelle a pelle",
+            "p": [
+              "In quelle prime ore e nei primi giorni, il tuo seno produce una cosa chiamata colostro. È denso, dorato, e presente in quantità minime, ed è esattamente giusto così. Lo stomaco del tuo neonato è grande come una piccola biglia, quindi quei piccoli sorsi sono perfettamente sufficienti. Il colostro è ricco e protettivo, come un primo dono del tuo corpo, e il tuo latte arriverà più abbondante qualche giorno dopo. Una delle cose più potenti che puoi fare nei primi tempi è il pelle a pelle. Tenere il tuo bambino nudo contro il petto lo mantiene caldo e tranquillo, stabilizza il suo respiro e risveglia quegli istinti precoci di nutrizione. Potresti notarlo dondolare, cercare con la bocca, girarsi verso di te, cercare il seno tutto da solo. È l'inizio di tutto il ritmo."
+            ]
+          },
+          {
+            "h": "Domanda e offerta",
+            "p": [
+              "Ed ecco il cuore di tutto, mamma... l'allattamento funziona sulla domanda e offerta. Più il tuo bambino poppa, più il tuo corpo impara a produrre. In questi primi giorni può voler dire poppare molto spesso, otto, dieci, dodici volte al giorno, a volte di più. Non è un segno che qualcosa non va. È il tuo bambino che fa l'ordine, e il tuo corpo che lo evade. I neonati poppano tanto, e anche le poppate notturne contano, quindi cerca per ora di lasciar perdere l'orologio. Guarda il tuo bambino, non l'ora. E se ti sembra difficile, o doloroso, o niente come le immagini serene che avevi immaginato, ti prego di sapere che è così comune. Non sei indietro. Non stai fallendo. Tu e il tuo bambino siete solo all'inizio di questo apprendimento insieme, ed è esattamente lì che dovete essere."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Un buon attacco & posizioni comode",
+        "duration": "± 2 min",
+        "desc": "Ottenere un attacco profondo e comodo — portare il bambino al seno, i segni di un buon attacco, le posizioni che funzionano per il tuo corpo, e cosa fare per il dolore.",
+        "vedaPrompt": "Ho appena visto la lezione 2 del corso Allattamento (un buon attacco e posizioni comode). Puoi aiutarmi a ottenere un attacco più profondo e comodo e a capire quali posizioni per allattare potrebbero funzionare per me?",
+        "script": [
+          {
+            "h": "È una poppata al seno, non al capezzolo",
+            "p": [
+              "Va bene mamma, parliamo dell'attacco, perché gran parte di un allattamento comodo dipende da come il tuo bambino prende il seno. Ecco l'idea chiave... non è una poppata al capezzolo, è una poppata al seno. Vuoi che il tuo bambino prenda una bella boccata, non solo la punta. Per aiutare che succeda, porta il tuo bambino verso di te invece di chinarti tu verso di lui. Allineatelo pancia a pancia, naso al capezzolo, così deve inclinare un po' la testa all'indietro e aprire bene la bocca, come un grande sbadiglio. Quando lo fa, guidalo attaccandolo prima con il mento, così il capezzolo punta verso il palato e lui ottiene un attacco profondo e asimmetrico."
+            ]
+          },
+          {
+            "h": "Segni di un buon attacco, e posizioni",
+            "p": [
+              "I segni di un buon attacco sono bellissimi da imparare. La bocca è ben aperta, le labbra estroflesse come piccole labbra di pesce, più della parte inferiore dell'areola in bocca che di quella superiore. Il mento tocca il seno, le guance appaiono piene e tonde, non infossate. E sentirai una suzione ritmica e una deglutizione morbida, non uno schiocco. Ora troviamo una posizione che funzioni per il tuo corpo. La posizione a culla è la classica, il bambino di traverso sul grembo, la testa nell'incavo del braccio. La posizione a rugby, o football, sistema il bambino lungo il tuo fianco sotto il braccio, e molte mamme la adorano dopo un cesareo o con un seno più grande. E la posizione reclinata, appoggiata ai cuscini con il bambino sul petto, lascia che la gravità e i suoi istinti facciano gran parte del lavoro. Non ce n'è una sola giusta. Provale, mettiti comoda, usa i cuscini in abbondanza."
+            ]
+          },
+          {
+            "h": "Il dolore è un segnale, non una regola",
+            "p": [
+              "Ed ecco una cosa che voglio davvero che tu ricordi, mamma... il dolore è un segnale, non una regola. Un buon attacco può dare la sensazione di un forte tiraggio, ma non dovrebbe essere un dolore da far contorcere le dita dei piedi, pizzicante, persistente. Se fa male, interrompi delicatamente la suzione con il dito nell'angolo della sua bocca, e riprova. Allattare non dovrebbe voler dire stringere i denti. Se il dolore continua a ripresentarsi, quello è il tuo segnale per rivolgerti a una consulente per l'allattamento. Ricevere un aiuto pratico è una delle cose più gentili che puoi fare per entrambi."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Produzione di latte, ritmi delle poppate & poppate a grappolo",
+        "duration": "± 2 min",
+        "desc": "La preoccupazione «sto producendo abbastanza latte?» — i segni veri da osservare, perché le poppate a grappolo sono normali, e le basi per tirare e conservare il latte.",
+        "vedaPrompt": "Ho appena visto la lezione 3 del corso Allattamento (produzione di latte, ritmi delle poppate e poppate a grappolo). Puoi aiutarmi a capire se il mio bambino sta prendendo abbastanza e cosa significano le poppate a grappolo?",
+        "script": [
+          {
+            "h": "Sto producendo abbastanza latte?",
+            "p": [
+              "Va bene mamma, parliamo della domanda che quasi ogni mamma che allatta si pone a un certo punto... sto producendo abbastanza latte? È una preoccupazione così comune, in parte perché non puoi vedere i millilitri, non puoi misurare quanto sta prendendo. Quindi voglio darti le cose che invece puoi osservare. I segni migliori sono all'altra estremità. Nelle prime settimane, una volta arrivato il tuo latte, cerchi tanti pannolini bagnati, circa sei o più al giorno, ben pesanti e inzuppati, e anche pannolini sporchi regolari. I pannolini sono la tua pagella quotidiana. Aggiungi a questo un bambino che generalmente si tranquillizza dopo le poppate, e una crescita di peso costante alle visite di controllo, e quelle sono le tue vere rassicurazioni, molto più di quanto pieno ti sembri il seno o quanto dura una poppata."
+            ]
+          },
+          {
+            "h": "Le poppate a grappolo sono normali",
+            "p": [
+              "Ora, le poppate a grappolo. Ci saranno serate, o interi periodi, in cui il tuo bambino vuole poppare ancora e ancora, staccandosi a malapena, agitato nel frattempo. Mamma, è normale. Tendono a raggrupparsi la sera e attorno agli scatti di crescita, spesso verso le tre settimane, le sei settimane, i tre mesi. Può sembrare che il tuo latte sia scomparso o che il tuo bambino non sia mai soddisfatto, ma è in realtà l'opposto. È il tuo bambino che aumenta la tua produzione, che fa un ordine più grande così il tuo corpo produce di più. Passa. Affrontala con qualche spuntino, dell'acqua, un posticino comodo, e una serie da guardare."
+            ]
+          },
+          {
+            "h": "Tirare, conservare, e quando chiedere",
+            "p": [
+              "Se vuoi introdurre il biberon, o stai pensando in anticipo a un periodo di distacco, potresti iniziare a tirare il latte. Puoi tirarlo a mano o usare un tiralatte, di solito una volta che l'allattamento è ben avviato, spesso dopo qualche settimana, anche se non c'è una regola perfetta. Come semplice guida alla conservazione, il latte appena tirato si mantiene diverse ore a temperatura ambiente, qualche giorno in frigorifero, e mesi nel congelatore, ed etichettalo sempre con la data. Scongelalo delicatamente, mai in un microonde bollente. E ti prego di sentire questo, mamma... se mai ti senti davvero insicura sul fatto che il tuo bambino stia prendendo abbastanza, se le poppate ti sembrano strane, o il peso o i pannolini ti preoccupano, quello non è un fallimento, quello è una telefonata. Rivolgiti al tuo medico o a una consulente per l'allattamento. Chiedere è la mossa forte, ogni singola volta."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Difficoltà comuni & quando chiamare",
+        "duration": "± 2 min",
+        "desc": "Gli ostacoli comuni — capezzoli doloranti, ingorgo, dotti ostruiti, mastite e mughetto — cosa aiuta, e la regola semplice per capire quando chiamare.",
+        "vedaPrompt": "Ho appena visto la lezione 4 del corso Allattamento (difficoltà comuni e quando chiamare). Puoi aiutarmi a capire se ciò che sento è un normale ostacolo o qualcosa per cui dovrei chiamare?",
+        "script": [
+          {
+            "h": "Capezzoli doloranti, ingorgo, dotti ostruiti",
+            "p": [
+              "Va bene mamma, parliamo onestamente degli ostacoli, perché l'allattamento può portarne alcuni, e sapere cosa sono li rende molto meno spaventosi. Cominciamo dai capezzoli doloranti o screpolati. Sono comuni nei primi giorni, e il più delle volte risalgono all'attacco, quindi rivedere come il bambino prende il seno è la prima soluzione. Nel frattempo, un po' del tuo stesso latte materno spalmato, o una pomata pulita e sicura per i capezzoli, e lasciarli asciugare all'aria può alleviare parecchio. Poi c'è l'ingorgo, quando arriva il tuo latte e il seno diventa duro, gonfio e dolorante, quasi troppo pieno. Poppare delicatamente spesso, un panno caldo o una rapida doccia calda prima delle poppate per aiutare il flusso, e qualcosa di fresco dopo, portano tutti sollievo. Di solito si risolve nel giro di qualche giorno man mano che domanda e offerta trovano il loro equilibrio. A volte un dotto si ostruisce, e senti un nodulo dolente o un punto dolorante. La classica gentilezza qui è continuare a poppare da quel lato, poppare spesso, e massaggiare delicatamente il nodulo verso il capezzolo mentre il bambino poppa o sotto una doccia calda. La maggior parte si risolve con riposo e cure delicate."
+            ]
+          },
+          {
+            "h": "Mastite e mughetto — quando chiamare",
+            "p": [
+              "Ora, voglio parlare della mastite con calma, perché la parola suona spaventosa e davvero non deve. La mastite è un'infiammazione del seno, e può presentarsi con una zona calda, rossa, dolorosa, e con te che ti senti male, dolorante, persino con la febbre, come se ti fosse venuta l'influenza. Ecco la tua regola semplice, mamma, niente panico... se hai un seno rosso e dolorante insieme a febbre o sensazioni influenzali, quello è il momento di chiamare il tuo medico o la consulente per l'allattamento. Non aspettare che passi. È molto curabile, specialmente presto, e di solito puoi continuare a poppare per tutto il tempo. Un altro ancora, il mughetto, un problema da lievito che può causare bruciore, prurito, o capezzoli rosati e doloranti, a volte con macchie bianche nella bocca del bambino. Anche quello ha semplicemente bisogno di una telefonata, perché tu e il bambino di solito venite curati insieme."
+            ]
+          },
+          {
+            "h": "Il filo conduttore: chiedi aiuto presto",
+            "p": [
+              "Nessuna di queste cose significa che stai sbagliando, mamma. Sono comuni, sono gestibili, e il filo conduttore è sempre lo stesso... quando qualcosa sembra rosso, febbrile, o semplicemente non giusto, chiedi aiuto. Cercare sostegno presto non è fare storie. È esattamente ciò che significa una buona cura."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Allattamento misto, tiralatte, il rientro al lavoro & il tuo benessere",
+        "duration": "± 2 min",
+        "desc": "Togliere la pressione — allattamento misto, tiralatte, il rientro al lavoro, e prenderti cura del tuo benessere, comunque tu finisca per nutrire il tuo bambino.",
+        "vedaPrompt": "Ho appena visto la lezione 5 del corso Allattamento (allattamento misto, tiralatte, rientro al lavoro e il tuo benessere). Puoi aiutarmi a riflettere sulle mie opzioni di alimentazione e su come prendermi cura di me stessa?",
+        "script": [
+          {
+            "h": "L'allattamento misto è una scelta d'amore",
+            "p": [
+              "Va bene mamma, per quest'ultima lezione voglio abbassare del tutto la pressione, perché come nutri il tuo bambino conta molto meno del fatto che il tuo bambino sia nutrito e tu stia bene. Parliamo dell'allattamento misto, alternare seno e biberon, latte materno o artificiale. Tantissime famiglie lo fanno, ed è un modo del tutto valido e amorevole di nutrire un bambino. Forse ti dà un tratto di sonno più lungo, permette al partner di condividere le poppate notturne, ti agevola il rientro al lavoro, o semplicemente protegge la tua serenità. Niente di tutto questo è un fallimento. Un bambino nutrito e una mamma che riesce ad andare avanti, quella è la vittoria. Ogni volta."
+            ]
+          },
+          {
+            "h": "Il tiralatte e il rientro al lavoro",
+            "p": [
+              "Se usi il tiralatte, che sia per creare una scorta, condividere le poppate, o prepararti a un periodo di distacco, aiuta trovare un ritmo che si adatti alla tua giornata, e sapere che quanto tiri in una sessione non è una vera misura di tutto ciò che produci, i bambini sono molto più efficienti di qualsiasi macchina. E per il rientro al lavoro, mamma, concediti del tempo di preparazione. Comincia una piccola scorta nelle settimane precedenti, fai pratica con il biberon, parla con il tuo posto di lavoro delle pause e di uno spazio privato e di un posto dove conservare il latte se tiri lì. Può sembrare tanto, e di solito trova la sua routine prima di quanto pensi."
+            ]
+          },
+          {
+            "h": "Non c'è nessun premio per la via più difficile",
+            "p": [
+              "Attraverso tutto questo, voglio che tu ti tenga stretta questa cosa. Non c'è nessun premio per farlo nel modo più difficile. Se l'allattamento sta andando meravigliosamente, benissimo. Se è stato una lotta, se hai fatto l'allattamento misto, hai usato il tiralatte, sei passata al latte artificiale, o hai smesso prima di quanto avevi programmato, non hai deluso nessuno. Hai nutrito il tuo bambino con amore e l'hai fatto mentre guarivi ed eri esausta e stavi imparando, e questo è enorme. Appoggiati alle tue persone, chiedi aiuto, dì la cosa a voce alta quando è difficile. E se l'alimentazione mai iniziasse a pesarti sul cuore in un modo più gravoso, ti prego di parlarne con qualcuno di cui ti fidi o con il tuo medico, perché anche il tuo benessere fa parte di tutto questo. Quindi fai un respiro, mamma, e lascia davvero che questo arrivi... comunque tu stia nutrendo il tuo bambino, stai già facendo un lavoro meraviglioso."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

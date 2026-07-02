@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Lactancia",
+    "subtitle": "Apoyo y orientación sin juicios · sea cual sea la forma en que alimentes a tu bebé, lo estás haciendo maravillosamente, mamá",
+    "emoji": "🍼",
+    "intro": "Cinco lecciones cortas en vídeo con Veda para tu camino en la lactancia. Desde los primerísimos días y el calostro, hasta un agarre profundo y cómodo, la producción de leche y las tomas en racimo, los retos más comunes y cuándo llamar, y la lactancia mixta, la extracción y tu propio bienestar — cálido, práctico y completamente libre de juicios. Sea cual sea la forma en que alimentes a tu bebé, mamá, tú y tu bebé os estáis conociendo, y ahí es exactamente donde debéis estar.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Lo básico y los primeros días",
+        "duration": "± 2 min",
+        "desc": "Las primeras horas y días — el calostro, el piel con piel, y cómo funciona de verdad la oferta y la demanda, para que esas tomas frecuentes del principio tengan sentido.",
+        "vedaPrompt": "Acabo de ver la lección 1 del curso de Lactancia (lo básico y los primeros días). ¿Puedes ayudarme a entender el calostro, el piel con piel y cómo funciona la oferta y la demanda en estos primeros días?",
+        "script": [
+          {
+            "h": "Tú y tu bebé os estáis conociendo",
+            "p": [
+              "Vale, mamá, antes de hablar de cualquier otra cosa, quiero que escuches esto... sea como sea que vaya la alimentación para ti, tú y tu bebé os estáis conociendo. La lactancia es natural, pero no siempre es instintiva, y casi nadie sabe simplemente cómo hacerlo el primer día. Así que empecemos con suavidad desde el principio de todo."
+            ]
+          },
+          {
+            "h": "El calostro y el piel con piel",
+            "p": [
+              "En esas primeras horas y días, tus pechos producen algo llamado calostro. Es espeso, dorado, y está ahí en cantidades diminutas, y eso es exactamente lo correcto. El estómago de tu recién nacido es del tamaño de una canica pequeña, así que esos pequeños sorbos son perfectamente suficientes. El calostro es rico y protector, como un primer regalo de tu cuerpo, y tu leche subirá de forma más plena unos días después. Una de las cosas más poderosas que puedes hacer al principio es el piel con piel. Sostener a tu bebé desnudo contra tu pecho lo mantiene calentito y en calma, estabiliza su respiración, y despierta esos primeros instintos de alimentación. Puede que lo notes cabeceando, buscando, girándose hacia ti, buscando el pecho por sí solo. Ese es el comienzo de todo el ritmo."
+            ]
+          },
+          {
+            "h": "Oferta y demanda",
+            "p": [
+              "Y aquí está el corazón de todo, mamá... la lactancia funciona por oferta y demanda. Cuanto más mama tu bebé, más aprende tu cuerpo a producir. En estos primeros días eso puede significar dar el pecho muy a menudo, ocho, diez, doce veces al día, a veces más. Eso no es señal de que algo vaya mal. Es tu bebé haciendo el pedido, y tu cuerpo cumpliéndolo. Los recién nacidos maman mucho, y las tomas nocturnas también importan, así que intenta soltar el reloj por ahora. Mira a tu bebé, no la hora. Y si se siente difícil, o dolorido, o nada parecido a las imágenes tranquilas que imaginabas, por favor, debes saber que eso es muy común. No vas con retraso. No estás fallando. Tú y tu bebé simplemente estáis en el mismísimo comienzo de aprender esto juntos, y ahí es exactamente donde debéis estar."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Un buen agarre y posturas cómodas",
+        "duration": "± 2 min",
+        "desc": "Conseguir un agarre profundo y cómodo — acercar al bebé al pecho, las señales de un buen agarre, posturas que funcionan para tu cuerpo, y qué hacer ante el dolor.",
+        "vedaPrompt": "Acabo de ver la lección 2 del curso de Lactancia (un buen agarre y posturas cómodas). ¿Puedes ayudarme a conseguir un agarre más profundo y cómodo y a descubrir qué posturas para dar el pecho podrían funcionarme?",
+        "script": [
+          {
+            "h": "Es una toma de pecho, no de pezón",
+            "p": [
+              "Vale, mamá, hablemos del agarre, porque gran parte de una alimentación cómoda depende de cómo tu bebé toma el pecho. Aquí está la idea clave... no es una toma de pezón, es una toma de pecho. Quieres que tu bebé tome un buen bocado, no solo la punta. Para ayudar a que eso ocurra, acerca a tu bebé hacia ti en lugar de inclinarte tú hacia él. Alinéalo barriga con barriga, nariz con pezón, para que tenga que echar la cabeza un poco hacia atrás y abrir bien la boca, como un gran bostezo. Cuando lo haga, guíalo con la barbilla primero, para que el pezón apunte hacia arriba, hacia el paladar, y consiga un agarre profundo y asimétrico."
+            ]
+          },
+          {
+            "h": "Señales de un buen agarre, y posturas",
+            "p": [
+              "Las señales de un buen agarre son preciosas de aprender. Su boca está bien abierta, los labios evertidos hacia fuera como labios de pez, con más de la parte inferior de la areola dentro de la boca que de la parte superior. Su barbilla toca el pecho, sus mejillas se ven llenas y redondas, no hundidas. Y oirás una succión rítmica y una deglución suave, no chasquidos. Ahora encontremos una postura que funcione para tu cuerpo. La postura de cuna es la clásica, el bebé cruzado sobre tu regazo, la cabeza en el hueco de tu brazo. La postura de balón, o de rugby, coloca al bebé a lo largo de tu costado bajo tu brazo, algo que muchas mamás adoran tras una cesárea o con un pecho más grande. Y la postura recostada, apoyándote en almohadas con el bebé descansando sobre tu pecho, deja que la gravedad y sus instintos hagan gran parte del trabajo. No hay una única correcta. Pruébalas, ponte cómoda, usa almohadas con generosidad."
+            ]
+          },
+          {
+            "h": "El dolor es una señal, no una regla",
+            "p": [
+              "Y aquí hay algo que de verdad quiero que recuerdes, mamá... el dolor es una señal, no una regla. Un buen agarre puede sentirse como un tirón fuerte, pero no debería ser un dolor punzante, pellizcante, continuo, que te haga encoger los dedos de los pies. Si duele, rompe con suavidad la succión con tu dedo en la comisura de su boca, e inténtalo de nuevo. Dar el pecho no debería significar apretar los dientes. Si el dolor sigue volviendo, esa es tu señal para acudir a una asesora de lactancia. Recibir ayuda práctica es una de las cosas más amables que puedes hacer por las dos."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Producción de leche, ritmos de alimentación y tomas en racimo",
+        "duration": "± 2 min",
+        "desc": "La preocupación de «¿estoy produciendo suficiente leche?» — las señales reales que observar, por qué las tomas en racimo son normales, y lo básico de extraer y guardar la leche.",
+        "vedaPrompt": "Acabo de ver la lección 3 del curso de Lactancia (producción de leche, ritmos de alimentación y tomas en racimo). ¿Puedes ayudarme a entender si mi bebé está tomando suficiente y qué significan las tomas en racimo?",
+        "script": [
+          {
+            "h": "¿Estoy produciendo suficiente leche?",
+            "p": [
+              "Vale, mamá, hablemos de la pregunta que casi todas las madres que dan el pecho se hacen en algún momento... ¿estoy produciendo suficiente leche? Es una preocupación muy común, en parte porque no puedes ver los mililitros, no puedes medir lo que están tomando. Así que quiero darte las cosas que sí puedes observar. Las mejores señales están en el otro extremo. En las primeras semanas, una vez que ha subido la leche, buscas muchos pañales mojados, alrededor de seis o más bien pesados y empapados al día, y también deposiciones regulares. Los pañales son tu boletín de notas diario. Añade a eso un bebé que en general se calma tras las tomas, y un aumento de peso constante en sus revisiones, y esas son tu verdadera tranquilidad, mucho más que lo llenos que sientas los pechos o lo que dure una toma."
+            ]
+          },
+          {
+            "h": "Las tomas en racimo son normales",
+            "p": [
+              "Ahora, las tomas en racimo. Habrá tardes, o etapas enteras, en las que tu bebé quiera mamar una y otra vez, apenas soltándose, inquieto entre toma y toma. Mamá, esto es normal. Suele agruparse en las tardes y alrededor de los estirones, a menudo en torno a las tres semanas, las seis semanas, los tres meses. Puede sentirse como si tu leche hubiera desaparecido o tu bebé nunca estuviera satisfecho, pero en realidad es lo contrario. Es tu bebé aumentando tu producción, haciendo un pedido más grande para que tu cuerpo produzca más. Pasa. Súrfealo con tentempiés, agua, un sitio cómodo, y una serie que ver."
+            ]
+          },
+          {
+            "h": "Extracción, conservación, y cuándo pedir ayuda",
+            "p": [
+              "Si quieres introducir un biberón, o estás pensando por adelantado en tiempos separadas, puede que empieces a extraer leche. Puedes extraer a mano o usar un sacaleches, normalmente una vez que la lactancia se siente asentada, a menudo unas semanas después, aunque no hay una regla perfecta. Como guía sencilla de conservación, la leche recién extraída se mantiene varias horas a temperatura ambiente, unos días en la nevera, y meses en el congelador, y etiquétala siempre con la fecha. Descongela con suavidad, nunca en un microondas caliente. Y por favor escucha esto, mamá... si alguna vez te sientes de verdad insegura de si tu bebé está tomando suficiente, si las tomas parecen ir mal, o el peso o los pañales te preocupan, eso no es un fracaso, eso es una llamada de teléfono. Acude a tu médico o a una asesora de lactancia. Pedir ayuda es la jugada fuerte, cada vez."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Retos comunes y cuándo llamar",
+        "duration": "± 2 min",
+        "desc": "Los baches comunes — pezones doloridos, ingurgitación, conductos obstruidos, mastitis y candidiasis — qué ayuda, y la regla sencilla de cuándo llamar.",
+        "vedaPrompt": "Acabo de ver la lección 4 del curso de Lactancia (retos comunes y cuándo llamar). ¿Puedes ayudarme a distinguir si lo que siento es un bache normal o algo por lo que debería llamar?",
+        "script": [
+          {
+            "h": "Pezones doloridos, ingurgitación, conductos obstruidos",
+            "p": [
+              "Vale, mamá, hablemos con honestidad de los baches, porque la lactancia puede venir con algunos, y saber qué son los hace mucho menos temibles. Empecemos por los pezones doloridos o agrietados. Son comunes en los primeros días, y lo más frecuente es que se deban al agarre, así que revisar cómo toma el pecho el bebé es el primer arreglo. Mientras tanto, un poco de tu propia leche frotada, o un bálsamo limpio y seguro para el pezón, y dejarlos secar al aire pueden aliviar mucho. Luego está la ingurgitación, cuando sube la leche y tus pechos se sienten duros, hinchados y sensibles, casi demasiado llenos. Dar el pecho con suavidad y a menudo, un paño tibio o una ducha caliente rápida antes de las tomas para ayudar a que fluya, y algo frío después, todo eso trae alivio. Suele asentarse en unos días a medida que la oferta y la demanda encuentran su equilibrio. A veces un conducto se obstruye, y sientes un bulto sensible o un punto dolorido. La clásica amabilidad aquí es seguir dando el pecho de ese lado, dar el pecho a menudo, y masajear con suavidad el bulto hacia el pezón mientras el bebé mama o en una ducha caliente. La mayoría se resuelven con descanso y cuidado suave."
+            ]
+          },
+          {
+            "h": "Mastitis y candidiasis — cuándo llamar",
+            "p": [
+              "Ahora, quiero hablar de la mastitis con calma, porque la palabra suena aterradora y de verdad no hace falta que lo sea. La mastitis es una inflamación en el pecho, y puede venir con una zona caliente, roja y dolorosa, y contigo sintiéndote mal, con dolores, incluso con fiebre, como si hubieras cogido la gripe. Aquí está tu regla sencilla, mamá, sin necesidad de pánico... si tienes un pecho rojo y dolorido junto con fiebre o sensación de gripe, ese es el momento de llamar a tu médico o asesora de lactancia. No lo dejes pasar. Es muy tratable, sobre todo pronto, y normalmente puedes seguir dando el pecho a través de ello. Una más, la candidiasis, un problema de hongos que puede causar escozor, picor, o pezones rosados y doloridos, a veces con placas blancas en la boca del bebé. Esa también solo necesita una llamada, porque tú y el bebé normalmente os tratáis juntos."
+            ]
+          },
+          {
+            "h": "El hilo conductor: pide ayuda pronto",
+            "p": [
+              "Nada de esto significa que lo estés haciendo mal, mamá. Son comunes, son manejables, y el hilo conductor es siempre el mismo... cuando algo se siente rojo, febril, o simplemente no está bien, pides ayuda. Buscar apoyo pronto no es exagerar. Es exactamente cómo se ve el buen cuidado."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Lactancia mixta, extracción, volver al trabajo y tu bienestar",
+        "duration": "± 2 min",
+        "desc": "Quitarte presión — la lactancia mixta, la extracción, volver al trabajo, y cuidar tu propio bienestar, sea como sea que acabes alimentando a tu bebé.",
+        "vedaPrompt": "Acabo de ver la lección 5 del curso de Lactancia (lactancia mixta, extracción, volver al trabajo y tu bienestar). ¿Puedes ayudarme a pensar en mis opciones de alimentación y en cómo cuidarme a mí misma?",
+        "script": [
+          {
+            "h": "La lactancia mixta es una elección llena de amor",
+            "p": [
+              "Vale, mamá, para esta última lección quiero bajar toda la presión al máximo, porque cómo alimentas a tu bebé importa mucho menos que el que tu bebé esté alimentado y tú estés bien. Hablemos de la lactancia mixta, combinar pecho y biberón, leche materna o fórmula. Muchísimas familias lo hacen, y es una forma completamente válida y llena de amor de alimentar a un bebé. Quizás te da un tramo de sueño más largo, deja que una pareja comparta las tomas nocturnas, te facilita la vuelta al trabajo, o simplemente protege tu cordura. Nada de eso es un fracaso. Un bebé alimentado y una madre que puede seguir adelante, ese es el triunfo. Cada vez."
+            ]
+          },
+          {
+            "h": "La extracción y volver al trabajo",
+            "p": [
+              "Si te estás sacando leche, ya sea para crear una reserva, compartir las tomas, o prepararte para tiempos separadas, ayuda encontrar un ritmo que encaje con tu día, y saber que lo que extraes en una sesión no es una medida real de todo lo que produces, los bebés son mucho más eficientes que cualquier máquina. Y al volver al trabajo, mamá, date un margen. Empieza una pequeña reserva en las semanas previas, practica el biberón, habla con tu trabajo sobre las pausas y un espacio privado y algún sitio donde guardar la leche si te la sacas allí. Puede sentirse como mucho, y normalmente se asienta en su propia rutina antes de lo que crees."
+            ]
+          },
+          {
+            "h": "No hay premio por hacerlo del modo más difícil",
+            "p": [
+              "A través de todo esto, quiero que te quedes con esto. No hay premio por hacerlo del modo más difícil. Si la lactancia va de maravilla, estupendo. Si ha sido una lucha, si has dado lactancia mixta, te has sacado leche, has pasado a la fórmula, o has parado antes de lo que planeabas, no le has fallado a nadie. Alimentaste a tu bebé con amor y lo hiciste mientras sanabas y estabas agotada y aprendías, y eso es enorme. Apóyate en tu gente, pide la ayuda, di lo que sientes en voz alta cuando sea difícil. Y si la alimentación alguna vez empieza a pesarte en el corazón de una forma más grave, por favor habla con alguien de confianza o con tu médico, porque tu bienestar también forma parte de esto. Así que respira, mamá, y deja que esto de verdad cale... sea como sea que estés alimentando a tu bebé, ya lo estás haciendo maravillosamente."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

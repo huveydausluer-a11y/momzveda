@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Stillen",
+    "subtitle": "Unterstützung und Begleitung ohne Urteil · wie auch immer du fütterst, du machst das wunderbar, mama",
+    "emoji": "🍼",
+    "intro": "Fünf kurze Videolektionen mit Veda für deinen Stillweg. Von den allerersten Tagen und dem Kolostrum über ein tiefes, angenehmes Anlegen, die Milchbildung und das Clusterfüttern, die häufigen Herausforderungen und wann du anrufen solltest, bis hin zum Kombinieren von Stillen und Flasche, dem Abpumpen und deinem eigenen Wohlbefinden — warm, praktisch und völlig ohne Urteil. Wie auch immer du dein Baby fütterst, mama, du und dein Baby lernen einander kennen, und genau da sollst du gerade sein.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Die Grundlagen & die ersten Tage",
+        "duration": "± 2 Min.",
+        "desc": "Die ersten Stunden und Tage — Kolostrum, Haut an Haut, und wie Angebot und Nachfrage wirklich funktionieren, damit diese häufigen frühen Mahlzeiten Sinn ergeben.",
+        "vedaPrompt": "Ich habe gerade Lektion 1 des Kurses „Stillen“ gesehen (die Grundlagen und die ersten Tage). Kannst du mir helfen, das Kolostrum, das Haut-an-Haut und die Funktionsweise von Angebot und Nachfrage in diesen ersten Tagen zu verstehen?",
+        "script": [
+          {
+            "h": "Du und dein Baby lernen einander kennen",
+            "p": [
+              "Okay mama, bevor wir über irgendetwas anderes sprechen, möchte ich, dass du das hörst... wie auch immer das Füttern für dich läuft, du und dein Baby lernen einander kennen. Stillen ist natürlich, aber es ist nicht immer instinktiv, und fast niemand weiß am ersten Tag einfach, wie es geht. Fangen wir also ganz sanft am allerersten Anfang an."
+            ]
+          },
+          {
+            "h": "Kolostrum und Haut an Haut",
+            "p": [
+              "In diesen ersten Stunden und Tagen bilden deine Brüste etwas, das Kolostrum genannt wird. Es ist dick, goldfarben und in winzigen Mengen da, und das ist genau richtig so. Der Magen deines Neugeborenen ist so groß wie eine kleine Murmel, deshalb sind diese kleinen Schlucke völlig ausreichend. Kolostrum ist reichhaltig und schützend, wie ein erstes Geschenk deines Körpers, und deine Milch kommt ein paar Tage später vollständiger ein. Eines der kraftvollsten Dinge, die du früh tun kannst, ist Haut an Haut. Dein Baby nackt an deine Brust zu halten hält es warm und ruhig, beruhigt seine Atmung und weckt diese frühen Fütterinstinkte. Vielleicht bemerkst du, wie es mit dem Köpfchen wippt, sucht, sich dir zuwendet und ganz von allein nach der Brust sucht. Das ist der Anfang des ganzen Rhythmus."
+            ]
+          },
+          {
+            "h": "Angebot und Nachfrage",
+            "p": [
+              "Und hier ist der Kern, mama... Stillen funktioniert nach Angebot und Nachfrage. Je öfter dein Baby trinkt, desto mehr lernt dein Körper zu bilden. In diesen ersten Tagen kann das bedeuten, sehr oft zu füttern, acht, zehn, zwölf Mal am Tag, manchmal mehr. Das ist kein Zeichen, dass etwas nicht stimmt. Das ist dein Baby, das die Bestellung aufgibt, und dein Körper, der sie erfüllt. Neugeborene trinken viel, und auch die nächtlichen Mahlzeiten sind wichtig, versuch also, die Uhr für den Moment loszulassen. Beobachte dein Baby, nicht die Zeit. Und wenn es sich schwer anfühlt, oder empfindlich, oder ganz anders als die ruhigen Bilder, die du dir vorgestellt hast, dann wisse bitte, dass das so häufig ist. Du bist nicht im Rückstand. Du versagst nicht. Du und dein Baby steht nur ganz am Anfang, das gemeinsam zu lernen, und genau da sollst du gerade sein."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Ein gutes Anlegen & bequeme Positionen",
+        "duration": "± 2 Min.",
+        "desc": "Ein tiefes, angenehmes Anlegen erreichen — das Baby zur Brust bringen, die Zeichen für ein gutes Anlegen, Positionen, die zu deinem Körper passen, und was du bei Schmerzen tun kannst.",
+        "vedaPrompt": "Ich habe gerade Lektion 2 des Kurses „Stillen“ gesehen (ein gutes Anlegen und bequeme Positionen). Kannst du mir helfen, ein tieferes, angenehmeres Anlegen zu erreichen und herauszufinden, welche Stillpositionen für mich funktionieren könnten?",
+        "script": [
+          {
+            "h": "Es ist ein Brust-Trinken, kein Brustwarzen-Trinken",
+            "p": [
+              "Okay mama, sprechen wir über das Anlegen, denn so viel vom angenehmen Füttern hängt davon ab, wie dein Baby die Brust nimmt. Hier ist der entscheidende Gedanke... es ist kein Brustwarzen-Trinken, es ist ein Brust-Trinken. Du möchtest, dass dein Baby einen großen Mund voll nimmt, nicht nur die Spitze. Damit das gelingt, bring dein Baby zu dir, statt dich zu ihm hinunterzubeugen. Richte es Bauch an Bauch aus, Nase auf Höhe der Brustwarze, damit es das Köpfchen ein wenig in den Nacken legen und weit öffnen muss, wie bei einem großen Gähnen. Wenn es das tut, führe es mit dem Kinn zuerst heran, sodass die Brustwarze nach oben zum Gaumen zeigt und es ein tiefes, asymmetrisches Anlegen bekommt."
+            ]
+          },
+          {
+            "h": "Zeichen für ein gutes Anlegen, und Positionen",
+            "p": [
+              "Die Zeichen für ein gutes Anlegen sind schön zu lernen. Der Mund ist weit geöffnet, die Lippen sind nach außen gestülpt wie kleine Fischlippen, mehr von der Unterseite des Warzenhofs im Mund als von der Oberseite. Das Kinn berührt die Brust, die Wangen wirken voll und rund, nicht eingezogen. Und du hörst rhythmisches Saugen und leises Schlucken, kein Schnalzen. Finden wir nun eine Position, die zu deinem Körper passt. Die Wiegehaltung ist der Klassiker, das Baby quer über deinem Schoß, das Köpfchen in deiner Armbeuge. Der Football- oder Rugby-Griff bettet das Baby seitlich unter deinem Arm ein, was viele Mamas nach einem Kaiserschnitt oder mit einer größeren Brust lieben. Und die zurückgelehnte Haltung, in Kissen gelehnt mit dem Baby auf deiner Brust, lässt die Schwerkraft und seine Instinkte viel von der Arbeit übernehmen. Es gibt nicht die eine richtige. Probier sie aus, mach es dir bequem, nimm großzügig Kissen."
+            ]
+          },
+          {
+            "h": "Schmerz ist ein Signal, keine Regel",
+            "p": [
+              "Und hier ist etwas, das ich wirklich möchte, dass du dir merkst, mama... Schmerz ist ein Signal, keine Regel. Ein gutes Anlegen kann sich wie ein kräftiges Ziehen anfühlen, aber es sollte kein Schmerz sein, der dir die Zehen einrollt, der kneift oder anhält. Wenn es wehtut, löse das Vakuum sanft mit deinem Finger im Mundwinkel und versuch es erneut. Füttern sollte nicht bedeuten, die Zähne zusammenzubeißen. Wenn der Schmerz immer wiederkommt, ist das dein Hinweis, dich an eine Stillberaterin zu wenden. Dir konkrete Hilfe zu holen ist eines der liebevollsten Dinge, die du für euch beide tun kannst."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Milchbildung, Fütterrhythmen & Clusterfüttern",
+        "duration": "± 2 Min.",
+        "desc": "Die Sorge „Bilde ich genug Milch?“ — die echten Zeichen, auf die du achten solltest, warum Clusterfüttern normal ist, und die Grundlagen des Abpumpens und Aufbewahrens von Milch.",
+        "vedaPrompt": "Ich habe gerade Lektion 3 des Kurses „Stillen“ gesehen (Milchbildung, Fütterrhythmen und Clusterfüttern). Kannst du mir helfen zu verstehen, ob mein Baby genug bekommt und was Clusterfüttern bedeutet?",
+        "script": [
+          {
+            "h": "Bilde ich genug Milch?",
+            "p": [
+              "Okay mama, sprechen wir über die Frage, die sich fast jede stillende Mutter irgendwann stellt... bilde ich genug Milch? Es ist so eine häufige Sorge, teils weil du keine Milliliter sehen kannst, du kannst nicht messen, was dein Baby bekommt. Deshalb möchte ich dir die Dinge geben, die du tatsächlich beobachten kannst. Die besten Zeichen sind am anderen Ende. In den ersten Wochen, sobald deine Milch da ist, achtest du auf viele nasse Windeln, etwa sechs oder mehr schwere, durchnässte am Tag, und auch regelmäßige volle. Windeln sind dein tägliches Zeugnis. Dazu ein Baby, das sich nach den Mahlzeiten im Allgemeinen beruhigt, und eine stetige Gewichtszunahme bei den Untersuchungen, und das ist deine echte Beruhigung, weit mehr als wie voll sich deine Brüste anfühlen oder wie lange eine Mahlzeit dauert."
+            ]
+          },
+          {
+            "h": "Clusterfüttern ist normal",
+            "p": [
+              "Nun zum Clusterfüttern. Es wird Abende geben, oder ganze Phasen, in denen dein Baby wieder und wieder trinken will, kaum von der Brust loslässt, dazwischen quengelt. Mama, das ist normal. Es häuft sich meist am Abend und rund um Wachstumsschübe, oft etwa in der dritten Woche, der sechsten Woche, im dritten Monat. Es kann sich anfühlen, als wäre deine Milch verschwunden oder dein Baby nie satt, aber tatsächlich ist es das Gegenteil. Das ist dein Baby, das deine Milchbildung ankurbelt, eine größere Bestellung aufgibt, damit dein Körper mehr bildet. Es geht vorbei. Übersteh es mit Snacks, Wasser, einem gemütlichen Platz und einer Serie zum Schauen."
+            ]
+          },
+          {
+            "h": "Abpumpen, Aufbewahrung und wann du fragen solltest",
+            "p": [
+              "Wenn du eine Flasche einführen möchtest, oder wenn du schon an Zeit getrennt voneinander denkst, kannst du anfangen abzupumpen. Du kannst von Hand ausstreichen oder eine Pumpe benutzen, meist sobald sich das Füttern eingespielt anfühlt, oft nach ein paar Wochen, auch wenn es keine perfekte Regel gibt. Als einfacher Leitfaden zur Aufbewahrung: frisch abgepumpte Milch hält bei Zimmertemperatur mehrere Stunden, im Kühlschrank ein paar Tage und im Gefrierfach Monate, und beschrifte sie immer mit dem Datum. Tau sie sanft auf, niemals in einer heißen Mikrowelle. Und bitte hör das, mama... wenn du dir jemals wirklich unsicher bist, ob dein Baby genug bekommt, wenn die Mahlzeiten seltsam wirken, oder Gewicht oder Windeln dir Sorgen machen, dann ist das kein Versagen, das ist ein Anruf. Wende dich an deine Ärztin oder eine Stillberaterin. Zu fragen ist der starke Schritt, jedes einzelne Mal."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Häufige Herausforderungen & wann du anrufen solltest",
+        "duration": "± 2 Min.",
+        "desc": "Die häufigen Hürden — wunde Brustwarzen, Milchstau, verstopfte Milchgänge, Mastitis und Soor — was hilft, und die einfache Regel, wann du anrufen solltest.",
+        "vedaPrompt": "Ich habe gerade Lektion 4 des Kurses „Stillen“ gesehen (häufige Herausforderungen und wann du anrufen solltest). Kannst du mir helfen herauszufinden, ob das, was ich spüre, eine normale Hürde ist oder etwas, weswegen ich anrufen sollte?",
+        "script": [
+          {
+            "h": "Wunde Brustwarzen, Milchstau, verstopfte Milchgänge",
+            "p": [
+              "Okay mama, sprechen wir ehrlich über die Hürden, denn Stillen kann einige mit sich bringen, und zu wissen, was sie sind, macht sie weit weniger beängstigend. Fangen wir mit wunden oder rissigen Brustwarzen an. Diese sind in den ersten Tagen häufig, und meistens lassen sie sich auf das Anlegen zurückführen, deshalb ist es die erste Lösung, noch einmal anzuschauen, wie das Baby die Brust nimmt. In der Zwischenzeit kann ein wenig deiner eigenen Muttermilch eingerieben, oder ein sauberer, für die Brustwarze geeigneter Balsam, und die Brustwarzen an der Luft trocknen zu lassen, viel lindern. Dann gibt es den Milchstau, wenn deine Milch einschießt und sich deine Brüste hart, geschwollen und empfindlich anfühlen, fast übervoll. Sanftes, häufiges Füttern, ein warmer Waschlappen oder eine kurze warme Dusche vor dem Füttern, um den Milchfluss zu unterstützen, und etwas Kühles danach, all das bringt Erleichterung. Meist legt es sich innerhalb weniger Tage, sobald Angebot und Nachfrage ihr Gleichgewicht finden. Manchmal verstopft ein Milchgang, und du spürst einen empfindlichen Knoten oder eine wunde Stelle. Die klassische Zuwendung hier ist, weiter aus dieser Seite zu füttern, oft zu füttern und den Knoten sanft in Richtung der Brustwarze zu massieren, während das Baby trinkt oder unter einer warmen Dusche. Die meisten lösen sich mit Ruhe und sanfter Pflege."
+            ]
+          },
+          {
+            "h": "Mastitis und Soor — wann du anrufen solltest",
+            "p": [
+              "Nun möchte ich ganz ruhig über Mastitis sprechen, denn das Wort klingt beängstigend, und das muss es wirklich nicht. Mastitis ist eine Entzündung in der Brust, und sie kann mit einer heißen, roten, schmerzhaften Stelle einhergehen, und damit, dass du dich unwohl fühlst, gliederschmerzend, sogar fiebrig, als hättest du eine Grippe bekommen. Hier ist deine einfache Regel, mama, keine Panik nötig... wenn du eine rote, schmerzhafte Brust zusammen mit Fieber oder grippeähnlichen Gefühlen hast, dann ist das der Moment, deine Ärztin oder Stillberaterin anzurufen. Warte es nicht ab. Es ist sehr gut behandelbar, besonders früh, und du kannst meist einfach weiter durchfüttern. Und noch eines, Soor, ein Hefepilz-Problem, das brennende, juckende oder rosa, wunde Brustwarzen verursachen kann, manchmal mit weißen Belägen im Mund des Babys. Auch das braucht einfach einen Anruf, denn du und dein Baby werden meist gemeinsam behandelt."
+            ]
+          },
+          {
+            "h": "Der rote Faden: melde dich früh",
+            "p": [
+              "Nichts davon bedeutet, dass du es falsch machst, mama. Sie sind häufig, sie sind beherrschbar, und der rote Faden ist immer derselbe... wenn sich etwas rot, fiebrig oder einfach nicht richtig anfühlt, meldest du dich. Sich früh Unterstützung zu holen ist kein Aufhebens. Genau so sieht gute Fürsorge aus."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Kombinieren, Abpumpen, zurück in den Job & dein Wohlbefinden",
+        "duration": "± 2 Min.",
+        "desc": "Den Druck herausnehmen — Stillen und Flasche kombinieren, Abpumpen, zurück in den Job, und für dein eigenes Wohlbefinden sorgen, wie auch immer du dein Baby am Ende fütterst.",
+        "vedaPrompt": "Ich habe gerade Lektion 5 des Kurses „Stillen“ gesehen (kombinieren, abpumpen, zurück in den Job und dein Wohlbefinden). Kannst du mir helfen, meine Fütteroptionen zu durchdenken und wie ich auf mich selbst achte?",
+        "script": [
+          {
+            "h": "Kombinieren ist eine liebevolle Entscheidung",
+            "p": [
+              "Okay mama, für diese letzte Lektion möchte ich den Druck ganz nach unten nehmen, denn wie du dein Baby fütterst, ist weit weniger wichtig, als dass dein Baby gefüttert ist und es dir gut geht. Sprechen wir über das Kombinieren, das Mischen von Brust und Flasche, Muttermilch oder Säuglingsnahrung. So viele Familien machen das, und es ist ein völlig gültiger, liebevoller Weg, ein Baby zu füttern. Vielleicht verschafft es dir eine längere Strecke Schlaf, lässt einen Partner nächtliche Mahlzeiten teilen, erleichtert dir den Weg zurück in den Job oder schützt einfach deinen Verstand. Nichts davon ist Versagen. Ein gefüttertes Baby und eine Mutter, die weitermachen kann, das ist der Gewinn. Jedes Mal."
+            ]
+          },
+          {
+            "h": "Abpumpen und zurück in den Job",
+            "p": [
+              "Wenn du abpumpst, ob um einen Vorrat aufzubauen, Mahlzeiten zu teilen oder dich auf Zeit getrennt voneinander vorzubereiten, hilft es, einen Rhythmus zu finden, der in deinen Tag passt, und zu wissen, dass das, was du in einer Sitzung abpumpst, kein echtes Maß für alles ist, was du bildest, Babys sind weit effizienter als jede Maschine. Und beim Zurück in den Job, mama, gib dir eine Anlaufstrecke. Beginne in den Wochen davor einen kleinen Vorrat, übe die Flasche, sprich mit deinem Arbeitsplatz über Pausen und einen privaten Raum und einen Ort, um Milch aufzubewahren, falls du dort abpumpst. Es kann sich nach viel anfühlen, und es pendelt sich meist schneller in seinen eigenen Ablauf ein, als du denkst."
+            ]
+          },
+          {
+            "h": "Es gibt keinen Preis für den härtesten Weg",
+            "p": [
+              "Bei all dem möchte ich, dass du dich an das hier hältst. Es gibt keinen Preis dafür, es auf die härteste Weise zu tun. Wenn das Stillen wunderbar läuft, herrlich. Wenn es ein Kampf war, wenn du kombiniert, abgepumpt, auf Säuglingsnahrung umgestellt oder früher aufgehört hast, als du geplant hattest, dann hast du niemanden im Stich gelassen. Du hast dein Baby mit Liebe gefüttert, und du hast es getan, während du geheilt und erschöpft warst und dazugelernt hast, und das ist gewaltig. Stütze dich auf deine Menschen, bitte um die Hilfe, sprich es laut aus, wenn es schwer ist. Und wenn das Füttern jemals beginnt, schwerer auf deinem Herzen zu lasten, sprich bitte mit jemandem, dem du vertraust, oder mit deiner Ärztin, denn auch dein Wohlbefinden gehört dazu. Also atme durch, mama, und lass das wirklich ankommen... wie auch immer du dein Baby fütterst, du machst das bereits wunderbar."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

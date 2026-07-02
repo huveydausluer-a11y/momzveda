@@ -10,6 +10,7 @@ const COURSES = {
   'starting-solids': { lessons: 5, freeLessons: [1] },
   'your-emotions': { lessons: 5, freeLessons: [1] },
   'postpartum-recovery': { lessons: 5, freeLessons: [1] },
+  'breastfeeding': { lessons: 5, freeLessons: [1] },
   'first-week-home': { lessons: 1, freeLessons: [], file: 'first-week-home.mp4' },
 };
 

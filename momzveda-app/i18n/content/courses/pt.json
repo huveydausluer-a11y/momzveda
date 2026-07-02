@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Amamentação",
+    "subtitle": "Apoio e orientação sem julgamentos · seja qual for a forma como alimenta, está a fazer um trabalho lindo, mamã",
+    "emoji": "🍼",
+    "intro": "Cinco lições curtas em vídeo com a Veda para a sua jornada de amamentação. Desde os primeiros dias e o colostro, até uma pega profunda e confortável, a produção de leite e as mamadas em cacho, os desafios comuns e quando ligar, e a alimentação mista, a extração de leite e o seu próprio bem-estar — com calor, sentido prático e completamente sem julgamentos. Seja qual for a forma como alimenta o seu bebé, mamã, você e o seu bebé estão a aprender a conhecer-se, e é exatamente aí que devem estar.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "O básico e os primeiros dias",
+        "duration": "± 2 min",
+        "desc": "As primeiras horas e dias — colostro, pele com pele, e como a produção por procura realmente funciona, para que aquelas mamadas frequentes do início façam sentido.",
+        "vedaPrompt": "Acabei de ver a Lição 1 do curso Amamentação (o básico e os primeiros dias). Pode me ajudar a entender o colostro, a pele com pele, e como funciona a produção por procura nestes primeiros dias?",
+        "script": [
+          {
+            "h": "Você e o seu bebé estão a aprender a conhecer-se",
+            "p": [
+              "Está bem, mamã, antes de falarmos de qualquer outra coisa, quero que você ouça isto... seja como for que a alimentação corra para si, você e o seu bebé estão a aprender a conhecer-se. A amamentação é natural, mas nem sempre é instintiva, e quase ninguém simplesmente sabe como se faz no primeiro dia. Por isso vamos começar gentilmente pelo princípio de tudo."
+            ]
+          },
+          {
+            "h": "Colostro e pele com pele",
+            "p": [
+              "Nessas primeiras horas e dias, os seus seios produzem algo chamado colostro. É espesso, dourado, e em quantidades minúsculas, e isso está exatamente certo. O estômago do seu recém-nascido é do tamanho de um berlinde, por isso esses pequenos golos são perfeitamente suficientes. O colostro é rico e protetor, como uma primeira dádiva do seu corpo, e o seu leite vai descer de forma mais plena alguns dias depois. Uma das coisas mais poderosas que pode fazer logo no início é a pele com pele. Segurar o seu bebé nu contra o seu peito mantém-no quente e calmo, estabiliza a respiração dele, e desperta esses primeiros instintos de mamar. Você pode repará-lo a mexer a cabeça, a procurar, a virar-se para si, à procura do seio por conta própria. É o começo de todo o ritmo."
+            ]
+          },
+          {
+            "h": "Produção por procura",
+            "p": [
+              "E aqui está o coração de tudo, mamã... a amamentação funciona por produção e procura. Quanto mais o seu bebé mama, mais o seu corpo aprende a produzir. Nestes primeiros dias, isso pode significar mamar muitas vezes, oito, dez, doze vezes por dia, às vezes mais. Isso não é sinal de que algo está errado. É o seu bebé a fazer a encomenda, e o seu corpo a satisfazê-la. Os recém-nascidos mamam muito, e as mamadas noturnas também importam, por isso tente esquecer o relógio por agora. Observe o seu bebé, não as horas. E se parecer difícil, ou sensível, ou nada parecido com as imagens serenas que imaginou, por favor saiba que isso é tão comum. Você não está atrasada. Você não está a falhar. Você e o seu bebé estão apenas no início de aprender isto juntos, e é exatamente aí que devem estar."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Uma boa pega e posições confortáveis",
+        "duration": "± 2 min",
+        "desc": "Conseguir uma pega profunda e confortável — trazer o bebé ao seio, os sinais de uma boa pega, posições que resultam para o seu corpo, e o que fazer em relação à dor.",
+        "vedaPrompt": "Acabei de ver a Lição 2 do curso Amamentação (uma boa pega e posições confortáveis). Pode me ajudar a conseguir uma pega mais profunda e confortável e a descobrir quais as posições de mamada que podem resultar para mim?",
+        "script": [
+          {
+            "h": "É uma mamada de seio, não de mamilo",
+            "p": [
+              "Está bem, mamã, vamos falar da pega, porque grande parte de uma amamentação confortável depende de como o seu bebé agarra o seio. Aqui está a ideia-chave... não é uma mamada de mamilo, é uma mamada de seio. Você quer que o seu bebé apanhe uma grande boca cheia, não apenas a ponta. Para ajudar a que isso aconteça, traga o seu bebé até si em vez de se inclinar para ele. Alinhe-os barriga com barriga, nariz com o mamilo, para que tenham de inclinar a cabeça um pouco para trás e abrir bem a boca, como um grande bocejo. Quando o fizerem, guie-os pelo queixo primeiro, para que o mamilo aponte para cima em direção ao céu da boca e eles consigam uma pega profunda e assimétrica."
+            ]
+          },
+          {
+            "h": "Sinais de uma boa pega, e posições",
+            "p": [
+              "Os sinais de uma boa pega são adoráveis de aprender. A boca deles está bem aberta, os lábios virados para fora como pequenos lábios de peixe, mais a parte de baixo da aréola na boca do que a de cima. O queixo está a tocar o seio, as bochechas parecem cheias e redondas, não afundadas. E você vai ouvir uma sucção ritmada e uma deglutição suave, não estalidos. Agora vamos encontrar uma posição que resulte para o seu corpo. A posição de berço é a clássica, o bebé ao longo do seu colo, a cabeça na dobra do seu braço. A posição de rugby, ou de bola, encaixa o bebé ao seu lado, debaixo do braço, que muitas mamãs adoram depois de uma cesariana ou com um peito maior. E a posição reclinada, apoiada em almofadas com o bebé pousado no seu peito, deixa a gravidade e os instintos dele fazerem grande parte do trabalho. Não há uma única forma certa. Experimente-as, ponha-se confortável, use almofadas generosamente."
+            ]
+          },
+          {
+            "h": "A dor é um sinal, não uma regra",
+            "p": [
+              "E aqui está algo que eu realmente quero que você recorde, mamã... a dor é um sinal, não uma regra. Uma boa pega pode dar a sensação de um puxão forte, mas não deve ser uma dor de fazer encolher os dedos, a apertar, ou constante. Se doer, quebre suavemente a sucção com o seu dedo no canto da boca deles, e tente de novo. Amamentar não deve significar cerrar os dentes. Se a dor continuar a voltar, esse é o seu sinal para procurar uma consultora de amamentação. Receber ajuda prática é uma das coisas mais bondosas que pode fazer por ambos."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Produção de leite, ritmos de mamada e mamadas em cacho",
+        "duration": "± 2 min",
+        "desc": "A preocupação do «estarei a produzir leite suficiente?» — os verdadeiros sinais a observar, por que as mamadas em cacho são normais, e o básico de extrair e guardar o leite.",
+        "vedaPrompt": "Acabei de ver a Lição 3 do curso Amamentação (produção de leite, ritmos de mamada e mamadas em cacho). Pode me ajudar a entender se o meu bebé está a receber o suficiente e o que significam as mamadas em cacho?",
+        "script": [
+          {
+            "h": "Estarei a produzir leite suficiente?",
+            "p": [
+              "Está bem, mamã, vamos falar da pergunta que quase todas as mães que amamentam fazem a certa altura... estarei a produzir leite suficiente? É uma preocupação tão comum, em parte porque não consegue ver os mililitros, não consegue medir o que eles estão a receber. Por isso quero dar-lhe as coisas que você realmente consegue observar. Os melhores sinais estão do outro lado. Nas primeiras semanas, assim que o leite descer, você procura muitas fraldas molhadas, cerca de seis ou mais bem pesadas e encharcadas por dia, e também fraldas sujas regulares. As fraldas são o seu boletim diário. Junte a isso um bebé que geralmente fica sossegado depois das mamadas, e um ganho de peso constante nas consultas, e esses são o seu verdadeiro alívio, muito mais do que o quão cheios os seus seios se sentem ou quanto tempo dura uma mamada."
+            ]
+          },
+          {
+            "h": "As mamadas em cacho são normais",
+            "p": [
+              "Agora, as mamadas em cacho. Vai haver noites, ou períodos inteiros, em que o seu bebé quer mamar vez após vez, mal saindo do seio, agitado no meio. Mamã, isto é normal. Costuma concentrar-se ao fim da tarde e à noite e à volta dos estirões de crescimento, muitas vezes por volta das três semanas, seis semanas, três meses. Pode parecer que o seu leite desapareceu ou que o seu bebé nunca fica satisfeito, mas é na verdade o oposto. É o seu bebé a impulsionar a sua produção, a fazer uma encomenda maior para que o seu corpo produza mais. Passa. Atravesse-o com lanches, água, um sítio confortável, e uma série para ver."
+            ]
+          },
+          {
+            "h": "Extração, armazenamento, e quando pedir",
+            "p": [
+              "Se quiser introduzir um biberão, ou se estiver a pensar num tempo separada dele, pode começar a extrair leite. Pode fazer extração manual ou usar uma bomba, geralmente assim que a amamentação parecer estabelecida, muitas vezes por volta de umas semanas depois, embora não haja uma regra perfeita. Como guia simples de armazenamento, o leite acabado de extrair aguenta várias horas à temperatura ambiente, alguns dias no frigorífico, e meses no congelador, e rotule sempre com a data. Descongele suavemente, nunca num micro-ondas quente. E por favor ouça isto, mamã... se alguma vez você se sentir verdadeiramente insegura sobre se o seu bebé está a receber o suficiente, se as mamadas parecerem estranhas, ou se o peso ou as fraldas a preocuparem, isso não é um fracasso, é um telefonema. Procure o seu médico ou uma consultora de amamentação. Perguntar é a atitude forte, sempre, sem exceção."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Desafios comuns e quando ligar",
+        "duration": "± 2 min",
+        "desc": "Os solavancos comuns — mamilos doridos, ingurgitamento, ductos bloqueados, mastite e sapinho — o que ajuda, e a regra simples de quando ligar.",
+        "vedaPrompt": "Acabei de ver a Lição 4 do curso Amamentação (desafios comuns e quando ligar). Pode me ajudar a perceber se o que estou a sentir é um solavanco normal ou algo por que devo ligar?",
+        "script": [
+          {
+            "h": "Mamilos doridos, ingurgitamento, ductos bloqueados",
+            "p": [
+              "Está bem, mamã, vamos falar honestamente dos solavancos, porque a amamentação pode trazer alguns, e saber o que são torna-os muito menos assustadores. Vamos começar pelos mamilos doridos ou gretados. São comuns nos primeiros dias, e na maioria das vezes remetem para a pega, por isso rever como o bebé agarra o seio é a primeira solução. Entretanto, um pouco do seu próprio leite materno esfregado na zona, ou um bálsamo limpo e seguro para mamilos, e deixá-los secar ao ar, pode acalmar muito. Depois há o ingurgitamento, quando o leite desce e os seus seios ficam duros, inchados e sensíveis, quase demasiado cheios. Mamadas suaves e frequentes, uma toalha morna ou um duche morno rápido antes das mamadas para ajudar o leite a fluir, e algo frio depois, trazem todos alívio. Costuma acalmar dentro de alguns dias, à medida que a produção e a procura encontram o seu equilíbrio. Às vezes um ducto fica bloqueado, e você sente um caroço sensível ou um ponto dorido. A clássica bondade aqui é continuar a amamentar desse lado, mamar com frequência, e massajar gentilmente o caroço em direção ao mamilo enquanto o bebé mama ou num duche morno. A maioria resolve-se com descanso e cuidado gentil."
+            ]
+          },
+          {
+            "h": "Mastite e sapinho — quando ligar",
+            "p": [
+              "Agora, quero falar da mastite com calma, porque a palavra soa assustadora e realmente não precisa de ser. A mastite é uma inflamação no seio, e pode vir com uma zona quente, vermelha e dolorosa, e com você a sentir-se mal disposta, com dores, até febril, como se tivesse apanhado uma gripe. Aqui está a sua regra simples, mamã, sem pânico necessário... se tiver um seio vermelho e doloroso juntamente com febre ou sensações de gripe, esse é o momento de ligar ao seu médico ou consultora de amamentação. Não espere para ver. É muito tratável, sobretudo cedo, e normalmente pode continuar a amamentar durante todo o processo. Mais uma, o sapinho, um problema de fungos que pode causar ardor, comichão, ou mamilos rosados e doridos, às vezes com placas brancas na boca do bebé. Essa também precisa apenas de um telefonema, porque você e o bebé costumam ser tratados juntos."
+            ]
+          },
+          {
+            "h": "O fio condutor: procure ajuda cedo",
+            "p": [
+              "Nenhum destes significa que você está a fazer algo errado, mamã. São comuns, são geríveis, e o fio condutor é sempre o mesmo... quando algo parecer vermelho, febril, ou simplesmente estranho, você procura ajuda. Procurar apoio cedo não é fazer alarido. É exatamente o aspeto de um bom cuidado."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Alimentação mista, extração, voltar ao trabalho e o seu bem-estar",
+        "duration": "± 2 min",
+        "desc": "Aliviar a pressão — alimentação mista, extração de leite, voltar ao trabalho, e cuidar do seu próprio bem-estar, seja qual for a forma como acaba por alimentar o seu bebé.",
+        "vedaPrompt": "Acabei de ver a Lição 5 do curso Amamentação (alimentação mista, extração, voltar ao trabalho e o seu bem-estar). Pode me ajudar a refletir sobre as minhas opções de alimentação e sobre como cuidar de mim mesma?",
+        "script": [
+          {
+            "h": "A alimentação mista é uma escolha cheia de amor",
+            "p": [
+              "Está bem, mamã, para esta última lição quero baixar a pressão até ao fundo, porque a forma como você alimenta o seu bebé importa muito menos do que o facto de o seu bebé estar alimentado e de você estar bem. Vamos falar da alimentação mista, combinar seio e biberão, leite materno ou fórmula. Tantas famílias fazem isto, e é uma forma completamente válida e cheia de amor de alimentar um bebé. Talvez lhe dê um período de sono mais longo, deixe um parceiro partilhar as mamadas noturnas, a ajude a regressar ao trabalho, ou simplesmente proteja a sua sanidade. Nada disso é um fracasso. Um bebé alimentado e uma mãe que consegue continuar, essa é a vitória. Sempre."
+            ]
+          },
+          {
+            "h": "Extração e voltar ao trabalho",
+            "p": [
+              "Se estiver a extrair leite, seja para criar uma reserva, partilhar as mamadas, ou preparar-se para um tempo separada, ajuda encontrar um ritmo que se adapte ao seu dia, e saber que o que você extrai numa sessão não é uma verdadeira medida de tudo o que produz, os bebés são muito mais eficientes do que qualquer máquina. E quanto a voltar ao trabalho, mamã, dê-se uma margem. Comece uma pequena reserva nas semanas anteriores, pratique o biberão, fale com o seu local de trabalho sobre pausas e um espaço privado e um sítio para guardar o leite se estiver a extrair lá. Pode parecer muita coisa, e normalmente assenta na sua própria rotina mais cedo do que imaginaria."
+            ]
+          },
+          {
+            "h": "Não há prémio pelo caminho mais difícil",
+            "p": [
+              "Ao longo de tudo isto, quero que você se agarre a isto. Não há prémio por fazer as coisas do caminho mais difícil. Se a amamentação estiver a correr lindamente, maravilhoso. Se tiver sido uma luta, se você fez alimentação mista, extraiu leite, mudou para fórmula, ou parou mais cedo do que planeou, você não desiludiu ninguém. Você alimentou o seu bebé com amor e fê-lo enquanto sarava e exausta e a aprender, e isso é enorme. Apoie-se nas suas pessoas, peça a ajuda, diga a coisa em voz alta quando for difícil. E se a alimentação alguma vez começar a pesar no seu coração de uma forma mais pesada, por favor fale com alguém em quem confie ou com o seu médico, porque o seu bem-estar também faz parte disto. Por isso respire, mamã, e deixe isto assentar de verdade... seja qual for a forma como está a alimentar o seu bebé, você já está a fazer um trabalho lindo."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

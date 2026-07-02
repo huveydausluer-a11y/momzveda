@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Emzirme",
+    "subtitle": "Yargısız destek ve rehberlik · nasıl besliyor olursan ol, harika bir iş çıkarıyorsun anne",
+    "emoji": "🍼",
+    "intro": "Veda ile emzirme yolculuğun için beş kısa video ders. İlk günlerden ve kolostrumdan, derin ve rahat bir emme tutuşuna, süt üretimi ve kümelenen beslenmelere, sık karşılaşılan zorluklara ve ne zaman arayacağına, ayrıca karışık beslemeye, süt sağmaya ve kendi iyiliğine kadar — sıcak, pratik ve tamamen yargısız. Bebeğini nasıl besliyor olursan ol anne, sen ve bebeğin birbirinizi öğreniyorsunuz ve tam olarak olman gereken yerdesin.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Temeller ve İlk Günler",
+        "duration": "± 2 dk.",
+        "desc": "İlk saatler ve günler — kolostrum, ten tene temas ve arz-talebin gerçekte nasıl işlediği, böylece o sık erken beslenmeler anlam kazansın.",
+        "vedaPrompt": "Emzirme kursunun 1. dersini yeni izledim (temeller ve ilk günler). Kolostrumu, ten tene teması ve bu ilk günlerde arz-talebin nasıl işlediğini anlamama yardım eder misin?",
+        "script": [
+          {
+            "h": "Sen ve bebeğin birbirinizi öğreniyorsunuz",
+            "p": [
+              "Tamam anne, başka bir şeyden konuşmadan önce şunu duymanı istiyorum... beslenme senin için nasıl gidiyor olursa olsun, sen ve bebeğin birbirinizi öğreniyorsunuz. Emzirme doğaldır, ama her zaman içgüdüsel değildir ve neredeyse hiç kimse daha ilk günden bunu nasıl yapacağını bilmez. O yüzden hadi en baştan nazikçe başlayalım."
+            ]
+          },
+          {
+            "h": "Kolostrum ve ten tene temas",
+            "p": [
+              "O ilk saatlerde ve günlerde göğüslerin kolostrum denen bir şey üretir. Koyu, altın renkli ve minik miktarlardadır ve tam olarak böyle olması gerekir. Yenidoğanının midesi küçük bir bilye kadardır, bu yüzden o küçük yudumlar fazlasıyla yeterlidir. Kolostrum zengin ve koruyucudur, bedeninden gelen ilk hediye gibidir ve sütün birkaç gün sonra daha doluca gelecektir. Erken dönemde yapabileceğin en güçlü şeylerden biri ten tene temastır. Bebeğini çıplak olarak göğsüne yaslamak onu sıcak ve sakin tutar, nefesini dengeler ve o erken beslenme içgüdülerini uyandırır. Onun sallanarak, arama yaparak, sana dönerek göğsü kendi başına aradığını fark edebilirsin. İşte tüm ritmin başlangıcı bu."
+            ]
+          },
+          {
+            "h": "Arz ve talep",
+            "p": [
+              "Ve işin özü de şu anne... emzirme arz ve talep üzerine işler. Bebeğin ne kadar çok emerse, bedenin o kadar çok üretmeyi öğrenir. Bu ilk günlerde bu, çok sık beslemek anlamına gelebilir; günde sekiz, on, on iki kez, bazen daha fazla. Bu bir şeyin ters gittiğinin işareti değildir. Bu, bebeğinin siparişi vermesi ve bedeninin siparişi karşılamasıdır. Yenidoğanlar çok beslenir ve gece beslenmeleri de önemlidir, o yüzden şimdilik saati bir kenara bırakmaya çalış. Saate değil, bebeğine bak. Ve zor, hassas geliyorsa ya da hayal ettiğin o sakin tablolardan hiçbirine benzemiyorsa, lütfen bil ki bu çok yaygındır. Geride kalmadın. Başarısız olmuyorsun. Sen ve bebeğin bunu birlikte öğrenmenin daha en başındasınız ve tam olarak olman gereken yerdesin."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "İyi Bir Emme Tutuşu ve Rahat Pozisyonlar",
+        "duration": "± 2 dk.",
+        "desc": "Derin ve rahat bir emme tutuşu yakalamak — bebeği göğse getirmek, iyi bir tutuşun işaretleri, bedenine uygun pozisyonlar ve ağrı için ne yapılacağı.",
+        "vedaPrompt": "Emzirme kursunun 2. dersini yeni izledim (iyi bir emme tutuşu ve rahat pozisyonlar). Daha derin ve rahat bir emme tutuşu yakalamama ve bana uygun beslenme pozisyonlarını bulmama yardım eder misin?",
+        "script": [
+          {
+            "h": "Bu göğüs emmesidir, meme ucu emmesi değil",
+            "p": [
+              "Tamam anne, hadi emme tutuşundan konuşalım, çünkü rahat beslenmenin büyük bir kısmı bebeğinin göğsü nasıl aldığına bağlıdır. İşte anahtar fikir... bu bir meme ucu emmesi değil, bir göğüs emmesidir. Bebeğinin sadece ucunu değil, kocaman bir ağız dolusu almasını istersin. Bunun olması için, kendini ona doğru eğmek yerine bebeğini sana getir. Onu karın karına, burun meme ucuna gelecek şekilde hizala, böylece başını biraz geriye atmak ve büyük bir esneme gibi ağzını kocaman açmak zorunda kalsın. Açtığında, onu önce çene gelecek şekilde yönlendir, böylece meme ucu ağzının tavanına doğru işaret etsin ve derin, asimetrik bir tutuş yakalasın."
+            ]
+          },
+          {
+            "h": "İyi bir tutuşun işaretleri ve pozisyonlar",
+            "p": [
+              "İyi bir tutuşun işaretlerini öğrenmek çok güzeldir. Ağzı kocaman açık, dudakları küçük balık dudakları gibi dışa kıvrık, ağzında areolanın üst kısmından çok alt kısmı var. Çenesi göğse değiyor, yanakları içe çökük değil, dolgun ve yuvarlak görünüyor. Ve tıklama değil, ritmik bir emme ve yumuşak bir yutkunma duyacaksın. Şimdi bedenine uygun bir pozisyon bulalım. Beşik tutuşu klasik olandır; bebek kucağında enine, başı kolunun kıvrımında. Amerikan futbolu ya da rugby tutuşu bebeği kolunun altında, yanına doğru yerleştirir; birçok anne bunu sezaryenden sonra ya da daha büyük bir göğüsle sever. Ve arkaya yaslanma pozisyonunda, yastıklara yaslanıp bebeği göğsünde dinlenirken, yerçekimi ve onun içgüdüleri işin çoğunu yapar. Tek bir doğrusu yoktur. Onları dene, rahatına bak, yastıkları bol bol kullan."
+            ]
+          },
+          {
+            "h": "Ağrı bir kural değil, bir işarettir",
+            "p": [
+              "Ve gerçekten hatırlamanı istediğim bir şey var anne... ağrı bir kural değil, bir işarettir. İyi bir tutuş güçlü bir çekiş gibi hissettirebilir, ama ayak parmaklarını kıvırtacak, sıkıştıran, sürüp giden bir ağrı olmamalıdır. Acıyorsa, parmağını ağzının köşesine sokup emmeyi nazikçe kes ve tekrar dene. Beslenmek dişlerini sıkmak anlamına gelmemeli. Ağrı sürekli geri geliyorsa, bu bir emzirme danışmanına ulaşman gerektiğinin işaretidir. Elle uygulamalı yardım almak, ikiniz için de yapabileceğin en şefkatli şeylerden biridir."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Süt Üretimi, Beslenme Ritimleri ve Kümelenen Beslenmeler",
+        "duration": "± 2 dk.",
+        "desc": "«Yeterli süt üretiyor muyum?» kaygısı — dikkat edilecek gerçek işaretler, kümelenen beslenmelerin neden normal olduğu ve süt sağma ile saklamanın temelleri.",
+        "vedaPrompt": "Emzirme kursunun 3. dersini yeni izledim (süt üretimi, beslenme ritimleri ve kümelenen beslenmeler). Bebeğimin yeterince alıp almadığını ve kümelenen beslenmenin ne anlama geldiğini anlamama yardım eder misin?",
+        "script": [
+          {
+            "h": "Yeterli süt üretiyor muyum?",
+            "p": [
+              "Tamam anne, hadi neredeyse her emziren annenin bir noktada sorduğu soruyu konuşalım... yeterli süt üretiyor muyum? Bu çok yaygın bir endişe, kısmen çünkü mililitreleri göremezsin, ne kadar aldıklarını ölçemezsin. O yüzden sana aslında izleyebileceğin şeyleri vermek istiyorum. En iyi işaretler diğer uçtadır. İlk haftalarda, sütün geldikten sonra, bol miktarda ıslak bez aramalısın; günde altı ya da daha fazla ağır, sırılsıklam bez ve düzenli kirli bezler de. Bezler senin günlük karnendir. Buna genellikle beslenmelerden sonra sakinleşen bir bebek ve kontrollerdeki istikrarlı kilo alımı da eklendiğinde, işte bunlar senin gerçek güvencelerin; göğsünün ne kadar dolu hissettirdiğinden ya da bir beslenmenin ne kadar sürdüğünden çok daha fazlası."
+            ]
+          },
+          {
+            "h": "Kümelenen beslenme normaldir",
+            "p": [
+              "Şimdi, kümelenen beslenme. Öyle akşamlar ya da uzun süreler olacak ki bebeğin tekrar tekrar beslenmek isteyecek, göğsünden neredeyse hiç ayrılmayacak, aralarda huysuzlanacak. Anne, bu normaldir. Genellikle akşamları ve büyüme ataklarının çevresinde kümelenir, çoğu zaman üç hafta, altı hafta, üç ay civarında. Sanki sütün kaybolmuş ya da bebeğin asla doymuyormuş gibi hissettirebilir, ama aslında tam tersidir. Bu, bebeğinin süt üretimini artırmasıdır; bedenin daha fazla üretsin diye daha büyük bir sipariş vermesidir. Bu geçer. Atıştırmalıklar, su, rahat bir köşe ve izleyecek bir dizi ile atlat."
+            ]
+          },
+          {
+            "h": "Süt sağma, saklama ve ne zaman sorulmalı",
+            "p": [
+              "Bir biberon tanıtmak istiyorsan ya da ayrı geçireceğin zamanı düşünüyorsan, süt sağmaya başlayabilirsin. Genellikle beslenme oturmuş hissettiğinde, çoğu zaman birkaç hafta sonra elle ya da bir pompayla sağabilirsin, ama mükemmel bir kural yoktur. Basit bir saklama rehberi olarak, taze sağılmış süt oda sıcaklığında birkaç saat, buzdolabında birkaç gün ve dondurucuda aylarca dayanır ve her zaman üzerine tarih yaz. Nazikçe çöz, asla sıcak bir mikrodalgada değil. Ve lütfen şunu duy anne... bebeğinin yeterince alıp almadığından gerçekten emin olamadığın bir an olursa, beslenmeler ters görünüyorsa ya da kilo ya da bezler seni endişelendiriyorsa, bu bir başarısızlık değil, bir telefon görüşmesidir. Doktoruna ya da bir emzirme danışmanına ulaş. Sormak, her seferinde, güçlü olan hamledir."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Sık Karşılaşılan Zorluklar ve Ne Zaman Aramalı",
+        "duration": "± 2 dk.",
+        "desc": "Sık karşılaşılan aksaklıklar — hassas meme uçları, süt göllenmesi, tıkalı kanallar, mastit ve pamukçuk — neyin yardımcı olduğu ve ne zaman aranacağına dair basit kural.",
+        "vedaPrompt": "Emzirme kursunun 4. dersini yeni izledim (sık karşılaşılan zorluklar ve ne zaman aramalı). Hissettiğim şeyin normal bir aksaklık mı yoksa arama yapmam gereken bir şey mi olduğunu anlamama yardım eder misin?",
+        "script": [
+          {
+            "h": "Hassas meme uçları, süt göllenmesi, tıkalı kanallar",
+            "p": [
+              "Tamam anne, hadi aksaklıklar hakkında dürüstçe konuşalım, çünkü emzirmenin beraberinde bazı aksaklıklar gelebilir ve bunların ne olduğunu bilmek onları çok daha az korkutucu kılar. Hassas ya da çatlamış meme uçlarıyla başlayalım. Bunlar ilk günlerde yaygındır ve çoğu zaman kökeninde emme tutuşu yatar, o yüzden bebeğin göğsü nasıl aldığına yeniden bakmak ilk çözümdür. Bu arada, kendi sütünden bir miktarını sürmek ya da temiz, meme ucu için güvenli bir merhem ve onları havada kurumaya bırakmak epeyce rahatlatabilir. Sonra süt göllenmesi var; sütün geldiğinde ve göğüslerin sert, şişkin ve hassas, neredeyse aşırı dolu hissettiğinde olan durum. Sık sık nazikçe beslemek, sütün akmasına yardımcı olmak için beslenmelerden önce sıcak bir bez ya da hızlı bir sıcak duş ve sonrasında serin bir şey, hepsi rahatlama getirir. Genellikle arz ve talep dengesini bulunca birkaç gün içinde yatışır. Bazen bir kanal tıkanır ve hassas bir sertlik ya da ağrılı bir nokta hissedersin. Buradaki klasik şefkat, o taraftan beslemeye devam etmek, sık beslemek ve bebek beslenirken ya da sıcak bir duşta sertliği nazikçe meme ucuna doğru masajlamaktır. Çoğu, dinlenme ve nazik bir özenle açılır."
+            ]
+          },
+          {
+            "h": "Mastit ve pamukçuk — ne zaman aramalı",
+            "p": [
+              "Şimdi, mastit hakkında sakince konuşmak istiyorum, çünkü kelime korkutucu geliyor ve gerçekten öyle olması gerekmiyor. Mastit göğüsteki bir iltihaptır ve sıcak, kırmızı, ağrılı bir alanla birlikte gelebilir ve senin kendini kötü, ağrılı, hatta ateşli hissetmenle; sanki gribe yakalanmış gibi. İşte basit kuralın anne, paniğe gerek yok... kırmızı, ağrılı bir göğsün ateş ya da grip benzeri hislerle birlikte varsa, işte o zaman doktoruna ya da emzirme danışmanına aramanın vaktidir. Geçmesini bekleme. Özellikle erkenden çok tedavi edilebilir ve genellikle boyunca beslemeye devam edebilirsin. Bir tane daha, pamukçuk; batma, kaşıntı ya da pembe, ağrılı meme uçlarına yol açabilen ve bazen bebeğin ağzında beyaz lekelerle görülen bir maya sorunudur. O da sadece bir arama gerektirir, çünkü sen ve bebeğin genellikle birlikte tedavi edilirsiniz."
+            ]
+          },
+          {
+            "h": "Ortak nokta: erkenden ulaş",
+            "p": [
+              "Bunların hiçbiri yanlış yaptığın anlamına gelmez anne. Yaygındırlar, yönetilebilirler ve ortak nokta her zaman aynıdır... bir şey kırmızı, ateşli ya da sadece bir tuhaf hissettirdiğinde, ulaşırsın. Erkenden destek almak yaygara koparmak değildir. Tam olarak iyi bakımın nasıl göründüğüdür."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Karışık Besleme, Süt Sağma, İşe Dönmek ve Kendi İyiliğin",
+        "duration": "± 2 dk.",
+        "desc": "Baskıyı azaltmak — karışık besleme, süt sağma, işe geri dönmek ve bebeğini nasıl besliyor olursan ol kendi iyiliğine özen göstermek.",
+        "vedaPrompt": "Emzirme kursunun 5. dersini yeni izledim (karışık besleme, süt sağma, işe dönmek ve kendi iyiliğin). Beslenme seçeneklerimi ve kendime nasıl bakacağımı düşünmeme yardım eder misin?",
+        "script": [
+          {
+            "h": "Karışık besleme sevgi dolu bir tercihtir",
+            "p": [
+              "Tamam anne, bu son ders için baskıyı sonuna kadar indirmek istiyorum, çünkü bebeğini nasıl beslediğin, bebeğinin beslenmiş olmasından ve senin iyi olmandan çok daha az önemlidir. Hadi karışık beslemeden konuşalım; göğüs ve biberonu, anne sütü ya da mamayı karıştırmaktan. Pek çok aile bunu yapar ve bir bebeği beslemenin tamamen geçerli, sevgi dolu bir yoludur. Belki sana daha uzun bir uyku aralığı verir, bir eşin gece beslenmelerini paylaşmasını sağlar, işe dönüşünü kolaylaştırır ya da sadece akıl sağlığını korur. Bunların hiçbiri başarısızlık değildir. Beslenmiş bir bebek ve devam edebilen bir anne, işte kazanç budur. Her seferinde."
+            ]
+          },
+          {
+            "h": "Süt sağma ve işe geri dönmek",
+            "p": [
+              "Süt sağıyorsan, ister bir stok oluşturmak, beslenmeleri paylaşmak ya da ayrı geçireceğin zamana hazırlanmak için olsun, gününe uyan bir ritim bulmak yardımcı olur ve şunu bilmek de: bir seansta sağdığın miktar, ürettiğin her şeyin gerçek bir ölçüsü değildir, bebekler herhangi bir makineden çok daha verimlidir. Ve işe geri dönmeye gelince anne, kendine bir hazırlık süresi tanı. Öncesindeki haftalarda küçük bir stok oluşturmaya başla, biberonu deneyerek pratik yap, iş yerinle molalar, özel bir alan ve orada süt sağıyorsan sütü saklayacak bir yer hakkında konuş. Çok şey gibi hissettirebilir ve genellikle düşündüğünden daha erken kendi rutinine oturur."
+            ]
+          },
+          {
+            "h": "En zor yoldan yapmanın bir ödülü yok",
+            "p": [
+              "Tüm bunlar boyunca şuna tutunmanı istiyorum. En zor yoldan yapmanın bir ödülü yoktur. Emzirme harika gidiyorsa, ne güzel. Zorlu geçtiyse, karışık besledin, süt sağdın, mamaya geçtin ya da planladığından daha erken bıraktıysan, kimseyi hayal kırıklığına uğratmadın. Bebeğini sevgiyle besledin ve bunu iyileşirken, tükenmişken ve öğrenirken yaptın ve bu çok büyük bir şey. İnsanlarına yaslan, yardım iste, zor olduğunda söyle. Ve besleme kalbine bir gün daha ağır bir şekilde yük olmaya başlarsa, lütfen güvendiğin biriyle ya da doktorunla konuş, çünkü senin iyiliğin de bunun bir parçası. O yüzden bir nefes al anne ve bunun gerçekten içine işlemesine izin ver... bebeğini nasıl besliyor olursan ol, sen zaten harika bir iş çıkarıyorsun."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

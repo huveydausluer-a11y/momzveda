@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Allaitement",
+    "subtitle": "Un soutien et un accompagnement sans jugement · quelle que soit ta façon de nourrir ton bébé, tu fais un travail merveilleux, maman",
+    "emoji": "🍼",
+    "intro": "Cinq courtes leçons vidéo avec Veda pour ton parcours d'allaitement. Des tout premiers jours et du colostrum, jusqu'à une prise du sein profonde et confortable, la lactation et les tétées groupées, les difficultés courantes et quand appeler, et l'allaitement mixte, le tire-lait et ton propre bien-être — chaleureux, pratique et totalement sans jugement. Quelle que soit ta façon de nourrir ton bébé, maman, ton bébé et toi apprenez à vous connaître, et c'est exactement là que vous devez être.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "Les bases et les premiers jours",
+        "duration": "± 2 min",
+        "desc": "Les premières heures et les premiers jours — le colostrum, le peau à peau, et comment fonctionne vraiment l'offre et la demande, pour que ces tétées précoces et fréquentes prennent tout leur sens.",
+        "vedaPrompt": "Je viens de regarder la leçon 1 du cours Allaitement (les bases et les premiers jours). Peux-tu m'aider à comprendre le colostrum, le peau à peau, et comment fonctionne l'offre et la demande dans ces premiers jours ?",
+        "script": [
+          {
+            "h": "Ton bébé et toi apprenez à vous connaître",
+            "p": [
+              "D'accord maman, avant de parler de quoi que ce soit d'autre, je veux que tu entendes ceci... quelle que soit la façon dont l'allaitement se passe pour toi, ton bébé et toi apprenez à vous connaître. L'allaitement est naturel, mais il n'est pas toujours instinctif, et presque personne ne sait tout simplement comment faire dès le premier jour. Alors commençons tout doucement, tout au début."
+            ]
+          },
+          {
+            "h": "Le colostrum et le peau à peau",
+            "p": [
+              "Pendant ces premières heures et ces premiers jours, tes seins fabriquent quelque chose qu'on appelle le colostrum. Il est épais, doré, et présent en toutes petites quantités, et c'est exactement comme il faut. L'estomac de ton nouveau-né a la taille d'une petite bille, alors ces petites gorgées sont parfaitement suffisantes. Le colostrum est riche et protecteur, comme un premier cadeau de ton corps, et ton lait montera plus abondamment quelques jours plus tard. L'une des choses les plus puissantes que tu puisses faire dès le début, c'est le peau à peau. Tenir ton bébé nu contre ta poitrine le garde au chaud et apaisé, régularise sa respiration, et réveille ces premiers instincts de tétée. Tu pourras le voir dodeliner de la tête, chercher le sein, se tourner vers toi, chercher le sein tout seul. C'est le début de tout le rythme."
+            ]
+          },
+          {
+            "h": "L'offre et la demande",
+            "p": [
+              "Et voici le cœur de tout ça, maman... l'allaitement fonctionne sur l'offre et la demande. Plus ton bébé tète, plus ton corps apprend à produire. Ces premiers jours, cela peut vouloir dire des tétées très fréquentes, huit, dix, douze fois par jour, parfois plus. Ce n'est pas le signe que quelque chose ne va pas. C'est ton bébé qui passe la commande, et ton corps qui la remplit. Les nouveau-nés tètent beaucoup, et les tétées de nuit comptent aussi, alors essaie de lâcher l'horloge pour l'instant. Observe ton bébé, pas l'heure. Et si ça te semble difficile, ou douloureux, ou rien à voir avec les images paisibles que tu imaginais, sache que c'est tellement fréquent. Tu n'es pas en retard. Tu n'échoues pas. Ton bébé et toi êtes simplement au tout début de cet apprentissage à deux, et c'est exactement là que vous devez être."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Une bonne prise du sein et des positions confortables",
+        "duration": "± 2 min",
+        "desc": "Obtenir une prise du sein profonde et confortable — amener bébé au sein, les signes d'une bonne prise, les positions adaptées à ton corps, et que faire en cas de douleur.",
+        "vedaPrompt": "Je viens de regarder la leçon 2 du cours Allaitement (une bonne prise du sein et des positions confortables). Peux-tu m'aider à obtenir une prise du sein plus profonde et plus confortable et à trouver quelles positions d'allaitement pourraient me convenir ?",
+        "script": [
+          {
+            "h": "C'est une tétée du sein, pas du mamelon",
+            "p": [
+              "D'accord maman, parlons de la prise du sein, car une grande partie du confort de l'allaitement dépend de la façon dont ton bébé prend le sein. Voici l'idée clé... ce n'est pas une tétée du mamelon, c'est une tétée du sein. Tu veux que ton bébé prenne une grande bouchée, pas juste le bout. Pour que cela arrive, amène ton bébé vers toi plutôt que de te pencher vers lui. Aligne-le ventre contre ventre, nez face au mamelon, pour qu'il doive incliner un peu sa tête en arrière et ouvrir grand, comme un grand bâillement. Quand il le fait, guide-le menton en premier, pour que le mamelon pointe vers le haut du palais et qu'il obtienne une prise profonde et asymétrique."
+            ]
+          },
+          {
+            "h": "Les signes d'une bonne prise, et les positions",
+            "p": [
+              "Les signes d'une bonne prise sont précieux à apprendre. Sa bouche est grande ouverte, les lèvres retroussées vers l'extérieur comme de petites lèvres de poisson, avec plus de la partie basse de l'aréole dans sa bouche que du haut. Son menton touche le sein, ses joues paraissent pleines et rondes, pas creusées. Et tu entendras une succion rythmée et une déglutition douce, pas des clics. Maintenant, trouvons une position qui convient à ton corps. La position du berceau est la classique, bébé en travers de tes genoux, la tête au creux de ton bras. La position du ballon de rugby cale bébé le long de ton flanc, sous ton bras, que beaucoup de mamans adorent après une césarienne ou avec une forte poitrine. Et la position allongée en arrière, appuyée dans des coussins avec bébé posé sur ta poitrine, laisse la gravité et ses instincts faire une grande partie du travail. Il n'y en a pas une seule qui soit la bonne. Essaie-les, installe-toi confortablement, et utilise généreusement des coussins."
+            ]
+          },
+          {
+            "h": "La douleur est un signal, pas une règle",
+            "p": [
+              "Et voici quelque chose que je veux vraiment que tu retiennes, maman... la douleur est un signal, pas une règle. Une bonne prise peut donner une sensation de forte traction, mais elle ne devrait pas être une douleur qui te fait crisper les orteils, qui pince, ou qui persiste. Si ça fait mal, romps doucement la succion avec ton doigt au coin de sa bouche, et recommence. Allaiter ne devrait pas vouloir dire serrer les dents. Si la douleur revient sans cesse, c'est ton signal pour contacter une consultante en lactation. Recevoir une aide concrète est l'une des choses les plus douces que tu puisses faire pour vous deux."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Lactation, rythmes de tétée et tétées groupées",
+        "duration": "± 2 min",
+        "desc": "L'inquiétude du « est-ce que je produis assez de lait ? » — les vrais signes à observer, pourquoi les tétées groupées sont normales, et les bases pour tirer et conserver son lait.",
+        "vedaPrompt": "Je viens de regarder la leçon 3 du cours Allaitement (lactation, rythmes de tétée et tétées groupées). Peux-tu m'aider à comprendre si mon bébé reçoit assez et ce que signifient les tétées groupées ?",
+        "script": [
+          {
+            "h": "Est-ce que je produis assez de lait ?",
+            "p": [
+              "D'accord maman, parlons de la question que presque toutes les mamans qui allaitent se posent à un moment ou à un autre... est-ce que je produis assez de lait ? C'est une inquiétude tellement fréquente, en partie parce que tu ne peux pas voir les millilitres, tu ne peux pas mesurer ce qu'il reçoit. Alors je veux te donner les choses que tu peux vraiment observer. Les meilleurs signes se trouvent à l'autre bout. Dans les premières semaines, une fois que ton lait est monté, tu cherches beaucoup de couches mouillées, environ six ou plus bien lourdes et trempées par jour, et des couches sales régulières aussi. Les couches sont ton bulletin quotidien. Ajoute à cela un bébé qui s'apaise généralement après les tétées, et une prise de poids régulière lors de ses visites de contrôle, et voilà tes vraies sources de réassurance, bien plus que la sensation de plénitude de tes seins ou la durée d'une tétée."
+            ]
+          },
+          {
+            "h": "Les tétées groupées sont normales",
+            "p": [
+              "Maintenant, les tétées groupées. Il y aura des soirées, ou des plages entières, où ton bébé voudra téter encore et encore, se détachant à peine, grognon entre-temps. Maman, c'est normal. Cela a tendance à se concentrer en soirée et autour des poussées de croissance, souvent vers trois semaines, six semaines, trois mois. On peut avoir l'impression que ton lait a disparu ou que ton bébé n'est jamais rassasié, mais c'est en fait l'inverse. C'est ton bébé qui booste ta lactation, qui passe une commande plus grande pour que ton corps en produise davantage. Ça passe. Traverse ça avec des en-cas, de l'eau, un coin confortable, et une série à regarder."
+            ]
+          },
+          {
+            "h": "Tirer son lait, le conserver, et quand demander",
+            "p": [
+              "Si tu veux introduire un biberon, ou que tu anticipes un temps de séparation, tu pourrais commencer à tirer ton lait. Tu peux le tirer à la main ou utiliser un tire-lait, généralement une fois que l'allaitement te semble bien établi, souvent après quelques semaines, même s'il n'y a pas de règle parfaite. Comme guide simple de conservation, le lait fraîchement tiré se garde plusieurs heures à température ambiante, quelques jours au réfrigérateur, et des mois au congélateur, et étiquette-le toujours avec la date. Décongèle en douceur, jamais dans un micro-ondes brûlant. Et écoute bien ceci, maman... si tu te sens un jour vraiment incertaine que ton bébé reçoit assez, si les tétées te semblent anormales, ou si le poids ou les couches t'inquiètent, ce n'est pas un échec, c'est un coup de téléphone. Contacte ton médecin ou une consultante en lactation. Demander est le geste fort, à chaque fois."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Difficultés courantes et quand appeler",
+        "duration": "± 2 min",
+        "desc": "Les obstacles courants — mamelons douloureux, engorgement, canaux bouchés, mastite et muguet — ce qui aide, et la règle simple pour savoir quand appeler.",
+        "vedaPrompt": "Je viens de regarder la leçon 4 du cours Allaitement (difficultés courantes et quand appeler). Peux-tu m'aider à déterminer si ce que je ressens est un obstacle normal ou quelque chose pour lequel je devrais appeler ?",
+        "script": [
+          {
+            "h": "Mamelons douloureux, engorgement, canaux bouchés",
+            "p": [
+              "D'accord maman, parlons honnêtement des obstacles, car l'allaitement peut en comporter quelques-uns, et savoir de quoi il s'agit les rend bien moins effrayants. Commençons par les mamelons douloureux ou crevassés. Ils sont fréquents dans les premiers jours, et le plus souvent ils remontent à la prise du sein, alors revoir la façon dont bébé prend le sein est le premier remède. En attendant, un peu de ton propre lait maternel étalé dessus, ou un baume propre et sûr pour les mamelons, et les laisser sécher à l'air, peut beaucoup apaiser. Ensuite il y a l'engorgement, quand ton lait monte et que tes seins te semblent durs, gonflés et sensibles, presque trop pleins. Des tétées douces et fréquentes, un linge chaud ou une douche chaude rapide avant les tétées pour aider le lait à couler, et quelque chose de frais après, tout cela apporte du soulagement. Cela se calme généralement en quelques jours, à mesure que l'offre et la demande trouvent leur équilibre. Parfois un canal se bouche, et tu sens une petite boule sensible ou un point douloureux. La grande bienveillance ici, c'est de continuer à téter de ce côté, de téter souvent, et de masser doucement la boule vers le mamelon pendant que bébé tète ou sous une douche chaude. La plupart se résorbent avec du repos et des soins doux."
+            ]
+          },
+          {
+            "h": "Mastite et muguet — quand appeler",
+            "p": [
+              "Maintenant, je veux te parler de la mastite calmement, car le mot fait peur et il n'a vraiment pas besoin de faire peur. La mastite est une inflammation du sein, et elle peut s'accompagner d'une plaque chaude, rouge et douloureuse, et d'une sensation de malaise, de courbatures, voire de fièvre, comme si tu couvais une grippe. Voici ta règle simple, maman, pas besoin de paniquer... si tu as un sein rouge et douloureux avec en plus de la fièvre ou une sensation grippale, c'est le moment d'appeler ton médecin ou ta consultante en lactation. N'attends pas que ça passe. Ça se soigne très bien, surtout tôt, et tu peux généralement continuer à téter tout du long. Encore une, le muguet, un problème de levures qui peut provoquer des brûlures, des démangeaisons, ou des mamelons roses et douloureux, parfois avec des plaques blanches dans la bouche de bébé. Celui-là aussi nécessite simplement un appel, car toi et bébé êtes généralement traités ensemble."
+            ]
+          },
+          {
+            "h": "Le fil conducteur : demande de l'aide tôt",
+            "p": [
+              "Rien de tout cela ne veut dire que tu fais mal, maman. Ce sont des choses fréquentes, gérables, et le fil conducteur est toujours le même... quand quelque chose te semble rouge, fiévreux, ou simplement pas normal, tu demandes de l'aide. Chercher du soutien tôt, ce n'est pas s'affoler. C'est exactement à quoi ressemble un bon soin."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Allaitement mixte, tire-lait, reprise du travail et ton bien-être",
+        "duration": "± 2 min",
+        "desc": "Relâcher la pression — l'allaitement mixte, le tire-lait, la reprise du travail, et prendre soin de ton propre bien-être, quelle que soit la façon dont tu finis par nourrir ton bébé.",
+        "vedaPrompt": "Je viens de regarder la leçon 5 du cours Allaitement (allaitement mixte, tire-lait, reprise du travail et ton bien-être). Peux-tu m'aider à réfléchir à mes options d'alimentation et à la façon de prendre soin de moi ?",
+        "script": [
+          {
+            "h": "L'allaitement mixte est un choix plein d'amour",
+            "p": [
+              "D'accord maman, pour cette dernière leçon je veux faire retomber toute la pression, car la façon dont tu nourris ton bébé compte bien moins que le fait que ton bébé soit nourri et que toi tu ailles bien. Parlons de l'allaitement mixte, mélanger le sein et le biberon, lait maternel ou lait infantile. Tellement de familles font ça, et c'est une façon parfaitement valable et pleine d'amour de nourrir un bébé. Peut-être que ça te donne une plage de sommeil plus longue, que ça permet à un partenaire de partager les tétées de nuit, que ça t'aide à revenir vers le travail, ou que ça préserve tout simplement ta santé mentale. Rien de tout ça n'est un échec. Un bébé nourri et une mère qui peut continuer, voilà la victoire. À chaque fois."
+            ]
+          },
+          {
+            "h": "Le tire-lait et la reprise du travail",
+            "p": [
+              "Si tu tires ton lait, que ce soit pour te constituer une réserve, partager les tétées, ou te préparer à un temps de séparation, ça aide de trouver un rythme qui s'accorde à ta journée, et de savoir que ce que tu tires en une séance n'est pas une vraie mesure de tout ce que tu produis, les bébés sont bien plus efficaces que n'importe quelle machine. Et pour la reprise du travail, maman, accorde-toi une piste d'envol. Commence une petite réserve dans les semaines qui précèdent, entraîne-toi au biberon, parle à ton employeur des pauses, d'un espace privé et d'un endroit pour conserver le lait si tu tires sur place. Ça peut sembler beaucoup, et ça s'installe généralement dans sa propre routine plus vite que tu ne le penses."
+            ]
+          },
+          {
+            "h": "Il n'y a pas de prix pour la façon la plus difficile",
+            "p": [
+              "À travers tout cela, je veux que tu gardes ceci en toi. Il n'y a pas de prix pour le faire de la façon la plus difficile. Si l'allaitement se passe à merveille, c'est merveilleux. Si ça a été une lutte, si tu as fait de l'allaitement mixte, tiré ton lait, es passée au lait infantile, ou as arrêté plus tôt que prévu, tu n'as déçu personne. Tu as nourri ton bébé avec amour et tu l'as fait tout en guérissant, épuisée et en train d'apprendre, et c'est énorme. Appuie-toi sur tes proches, demande de l'aide, dis les choses à voix haute quand c'est dur. Et si l'alimentation commence un jour à peser sur ton cœur d'une façon plus lourde, s'il te plaît parles-en à quelqu'un en qui tu as confiance ou à ton médecin, car ton bien-être fait partie de tout ça aussi. Alors prends une respiration, maman, et laisse vraiment ceci résonner... quelle que soit ta façon de nourrir ton bébé, tu fais déjà un travail merveilleux."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

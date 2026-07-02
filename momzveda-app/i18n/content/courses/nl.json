@@ -845,5 +845,148 @@
         ]
       }
     ]
+  },
+  "breastfeeding": {
+    "title": "Borstvoeding",
+    "subtitle": "Steun en begeleiding zonder oordeel · hoe je ook voedt, je doet het geweldig, mama",
+    "emoji": "🍼",
+    "intro": "Vijf korte videolessen met Veda voor jouw borstvoedingsreis. Van de allereerste dagen en colostrum, tot een diepe en comfortabele aanleg, melkproductie en clustervoeden, de veelvoorkomende uitdagingen en wanneer je moet bellen, en combivoeding, kolven en je eigen welzijn — warm, praktisch en volledig zonder oordeel. Hoe je je baby ook voedt, mama, jij en je baby zijn elkaar aan het leren kennen, en dat is precies waar je hoort te zijn.",
+    "lessons": [
+      {
+        "n": 1,
+        "title": "De basis & de eerste dagen",
+        "duration": "± 2 min",
+        "desc": "De eerste uren en dagen — colostrum, huid-op-huid, en hoe vraag en aanbod echt werkt, zodat die frequente vroege voedingen logisch worden.",
+        "vedaPrompt": "Ik heb net les 1 van de cursus Borstvoeding gekeken (de basis en de eerste dagen). Kun je me helpen begrijpen wat colostrum is, hoe huid-op-huid werkt, en hoe vraag en aanbod werkt in deze eerste dagen?",
+        "script": [
+          {
+            "h": "Jij en je baby zijn elkaar aan het leren kennen",
+            "p": [
+              "Oké mama, voordat we het over iets anders hebben, wil ik dat je dit hoort... hoe het voeden ook voor je verloopt, jij en je baby zijn elkaar aan het leren kennen. Borstvoeding is natuurlijk, maar het is niet altijd instinctief, en bijna niemand weet gewoon hoe het moet op dag één. Dus laten we zachtjes helemaal bij het begin beginnen."
+            ]
+          },
+          {
+            "h": "Colostrum en huid-op-huid",
+            "p": [
+              "In die eerste uren en dagen maken je borsten iets wat colostrum heet. Het is dik, goudkleurig, en er is maar heel weinig van, en dat is precies goed. Het maagje van je pasgeborene is zo groot als een klein knikkertje, dus die kleine slokjes zijn ruim voldoende. Colostrum is rijk en beschermend, als een eerste cadeau van je lichaam, en je melk komt een paar dagen later voller op gang. Een van de krachtigste dingen die je vroeg kunt doen is huid-op-huid. Je baby bloot tegen je borst houden houdt hem warm en kalm, brengt zijn ademhaling tot rust, en wekt die vroege voedingsinstincten. Je merkt misschien dat hij knikkebolt, zoekt, zich naar je toe draait, helemaal zelf op zoek naar de borst. Dat is het begin van het hele ritme."
+            ]
+          },
+          {
+            "h": "Vraag en aanbod",
+            "p": [
+              "En hier zit de kern, mama... borstvoeding werkt op vraag en aanbod. Hoe meer je baby drinkt, hoe meer je lichaam leert te maken. In deze eerste dagen kan dat betekenen dat je heel vaak voedt, acht, tien, twaalf keer per dag, soms meer. Dat is geen teken dat er iets mis is. Dat is je baby die de bestelling plaatst, en je lichaam dat hem invult. Pasgeborenen drinken veel, en nachtvoedingen tellen ook mee, dus probeer de klok voorlopig los te laten. Kijk naar je baby, niet naar de tijd. En als het zwaar voelt, of gevoelig, of helemaal niet zoals de kalme plaatjes die je je had voorgesteld, weet dan alsjeblieft dat dat zo vaak voorkomt. Je loopt niet achter. Je faalt niet. Jij en je baby staan gewoon helemaal aan het begin van dit samen leren, en dat is precies waar je hoort te zijn."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Een goede aanleg & comfortabele houdingen",
+        "duration": "± 2 min",
+        "desc": "Een diepe, comfortabele aanleg krijgen — je baby naar de borst brengen, de tekenen van een goede aanleg, houdingen die bij jouw lichaam passen, en wat te doen bij pijn.",
+        "vedaPrompt": "Ik heb net les 2 van de cursus Borstvoeding gekeken (een goede aanleg en comfortabele houdingen). Kun je me helpen een diepere, comfortabelere aanleg te krijgen en uitzoeken welke voedingshoudingen voor mij zouden kunnen werken?",
+        "script": [
+          {
+            "h": "Het is een borstvoeding, geen tepelvoeding",
+            "p": [
+              "Oké mama, laten we het over de aanleg hebben, want zoveel van comfortabel voeden hangt af van hoe je baby de borst neemt. Dit is de kerngedachte... het is geen tepelvoeding, het is een borstvoeding. Je wilt dat je baby een grote mond vol neemt, niet alleen het topje. Om dat te helpen gebeuren, breng je je baby naar je toe in plaats van jezelf naar hem toe te buigen. Leg hem buikje tegen buikje, neusje tegenover tepel, zodat hij zijn hoofdje een beetje naar achteren moet kantelen en wijd moet opengaan, als een grote geeuw. Als hij dat doet, leid je hem met de kin eerst aan, zodat de tepel omhoog wijst naar het gehemelte en hij een diepe, asymmetrische aanleg krijgt."
+            ]
+          },
+          {
+            "h": "Tekenen van een goede aanleg, en houdingen",
+            "p": [
+              "De tekenen van een goede aanleg zijn heerlijk om te leren kennen. Zijn mondje is wijd open, de lipjes naar buiten gekruld als kleine visslipjes, meer van de onderkant van de tepelhof in zijn mond dan van de bovenkant. Zijn kin raakt de borst, zijn wangetjes zien er vol en rond uit, niet naar binnen gedeukt. En je hoort ritmisch zuigen en zacht slikken, geen klikgeluiden. Laten we nu een houding vinden die bij jouw lichaam past. De wieghouding is de klassieke, baby dwars op je schoot, hoofdje in de kromming van je arm. De rugbyhouding stopt de baby langs je zij onder je arm, wat veel mama's heerlijk vinden na een keizersnede of met een grotere borst. En achteroverleunend, tegen kussens leunend met de baby rustend op je borst, laat de zwaartekracht en zijn instincten veel van het werk doen. Er is geen enkele juiste. Probeer ze, maak het jezelf comfortabel, gebruik royaal kussens."
+            ]
+          },
+          {
+            "h": "Pijn is een signaal, geen regel",
+            "p": [
+              "En dit is iets wat ik echt wil dat je onthoudt, mama... pijn is een signaal, geen regel. Een goede aanleg kan aanvoelen als een stevige trek, maar het zou geen door merg en been gaande, knijpende, aanhoudende pijn moeten zijn. Als het pijn doet, verbreek dan zachtjes de zuiging met je vinger in het hoekje van zijn mondje, en probeer het opnieuw. Voeden zou niet moeten betekenen dat je je tanden op elkaar klemt. Als de pijn steeds terugkomt, is dat je teken om contact op te nemen met een lactatiekundige. Er persoonlijk hulp bij halen is een van de liefste dingen die je voor jullie beiden kunt doen."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Melkproductie, voedingsritmes & clustervoeden",
+        "duration": "± 2 min",
+        "desc": "De zorg 'maak ik wel genoeg melk?' — de echte tekenen om op te letten, waarom clustervoeden normaal is, en de basis van kolven en melk bewaren.",
+        "vedaPrompt": "Ik heb net les 3 van de cursus Borstvoeding gekeken (melkproductie, voedingsritmes en clustervoeden). Kun je me helpen begrijpen of mijn baby genoeg binnenkrijgt en wat clustervoeden inhoudt?",
+        "script": [
+          {
+            "h": "Maak ik wel genoeg melk?",
+            "p": [
+              "Oké mama, laten we het over de vraag hebben die bijna elke borstvoedende moeder zich op een gegeven moment stelt... maak ik wel genoeg melk? Het is zo'n veelvoorkomende zorg, deels omdat je geen milliliters kunt zien, je kunt niet meten wat ze binnenkrijgen. Dus ik wil je de dingen geven waar je wél op kunt letten. De beste tekenen zijn aan de andere kant. In de eerste weken, zodra je melk er is, let je op flink wat natte luiers, ongeveer zes of meer zware, doorweekte per dag, en regelmatig vuile luiers ook. Luiers zijn je dagelijkse rapport. Voeg daar een baby aan toe die over het algemeen tot rust komt na voedingen, en gestage gewichtstoename bij de controles, en dat is je echte geruststelling, veel meer dan hoe vol je borsten voelen of hoe lang een voeding duurt."
+            ]
+          },
+          {
+            "h": "Clustervoeden is normaal",
+            "p": [
+              "Nu, clustervoeden. Er zullen avonden zijn, of hele periodes, waarin je baby keer op keer wil drinken, nauwelijks loslaat, tussendoor onrustig is. Mama, dit is normaal. Het neigt zich te clusteren in de avonden en rond groeispurts, vaak rond drie weken, zes weken, drie maanden. Het kan voelen alsof je melk is verdwenen of je baby nooit tevreden is, maar het is eigenlijk het tegenovergestelde. Dit is je baby die je melkproductie opkrikt, een grotere bestelling plaatst zodat je lichaam meer maakt. Het gaat voorbij. Kom er doorheen met snacks, water, een comfortabel plekje, en een serie om te kijken."
+            ]
+          },
+          {
+            "h": "Kolven, bewaren, en wanneer je moet vragen",
+            "p": [
+              "Als je een fles wilt introduceren, of je denkt vooruit aan tijd apart, kun je beginnen met kolven. Je kunt met de hand kolven of een kolf gebruiken, meestal zodra het voeden gevestigd voelt, vaak rond een paar weken erin, al is er geen perfecte regel. Als simpele bewaarrichtlijn: verse afgekolfde melk blijft enkele uren goed op kamertemperatuur, een paar dagen in de koelkast, en maanden in de vriezer, en label het altijd met de datum. Ontdooi voorzichtig, nooit in een hete magnetron. En hoor dit alsjeblieft, mama... als je je ooit echt onzeker voelt of je baby genoeg binnenkrijgt, als voedingen niet lekker lijken te gaan, of gewicht of luiers je zorgen baren, dan is dat geen falen, dat is een telefoontje. Neem contact op met je arts of een lactatiekundige. Vragen is de sterke zet, elke keer weer."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Veelvoorkomende uitdagingen & wanneer je moet bellen",
+        "duration": "± 2 min",
+        "desc": "De veelvoorkomende hobbels — pijnlijke tepels, stuwing, verstopte melkkanalen, borstontsteking en spruw — wat helpt, en de simpele regel voor wanneer je moet bellen.",
+        "vedaPrompt": "Ik heb net les 4 van de cursus Borstvoeding gekeken (veelvoorkomende uitdagingen en wanneer je moet bellen). Kun je me helpen uitzoeken of wat ik voel een normale hobbel is of iets waarvoor ik zou moeten bellen?",
+        "script": [
+          {
+            "h": "Pijnlijke tepels, stuwing, verstopte melkkanalen",
+            "p": [
+              "Oké mama, laten we eerlijk over de hobbels praten, want borstvoeding kan er wat met zich meebrengen, en weten wat ze zijn maakt ze veel minder eng. Laten we beginnen met pijnlijke of gekloofde tepels. Die komen vaak voor in de eerste dagen, en meestal zijn ze terug te voeren op de aanleg, dus nog eens kijken naar hoe de baby de borst neemt is de eerste oplossing. Ondertussen kan een beetje van je eigen borstmelk erin gewreven, of een schone, tepelveilige balsem, en ze aan de lucht laten drogen, veel verzachten. Dan is er stuwing, wanneer je melk erin schiet en je borsten hard, gezwollen en gevoelig aanvoelen, bijna te vol. Zacht en vaak voeden, een warme washand of een snelle warme douche voor de voeding om het te laten stromen, en iets koels erna, brengen allemaal verlichting. Het gaat meestal binnen een paar dagen liggen naarmate vraag en aanbod hun balans vinden. Soms raakt een melkkanaal verstopt, en voel je een gevoelig knobbeltje of een pijnlijke plek. De klassieke zorg hierbij is om vanaf die kant te blijven voeden, vaak te voeden, en het knobbeltje zachtjes richting de tepel te masseren terwijl de baby drinkt of onder een warme douche. De meeste trekken weg met rust en zachte zorg."
+            ]
+          },
+          {
+            "h": "Borstontsteking en spruw — wanneer je moet bellen",
+            "p": [
+              "Nu wil ik het rustig over borstontsteking hebben, want het woord klinkt beangstigend en dat hoeft echt niet. Borstontsteking is een ontsteking in de borst, en die kan gepaard gaan met een hete, rode, pijnlijke plek, en jij die je onwel voelt, met pijntjes, zelfs koortsig, alsof je griep hebt gekregen. Dit is je simpele regel, mama, geen paniek nodig... als je een rode, pijnlijke borst hebt samen met koorts of griepachtige gevoelens, dan is dat het moment om je arts of lactatiekundige te bellen. Wacht het niet uit. Het is goed te behandelen, vooral vroeg, en je kunt er meestal gewoon doorheen blijven voeden. Nog eentje, spruw, een gistprobleem dat stekende, jeukende, of roze, pijnlijke tepels kan veroorzaken, soms met witte plekjes in het mondje van de baby. Ook die heeft gewoon een telefoontje nodig, want jij en de baby worden meestal samen behandeld."
+            ]
+          },
+          {
+            "h": "De rode draad: neem vroeg contact op",
+            "p": [
+              "Geen van deze betekent dat je het verkeerd doet, mama. Ze komen vaak voor, ze zijn te behandelen, en de rode draad is altijd dezelfde... als iets rood, koortsig, of gewoon niet goed voelt, neem je contact op. Vroeg steun zoeken is geen overdreven doen. Het is precies hoe goede zorg eruitziet."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Combivoeding, kolven, weer aan het werk & je welzijn",
+        "duration": "± 2 min",
+        "desc": "De druk eraf halen — combivoeding, kolven, weer aan het werk gaan, en zorgen voor je eigen welzijn, hoe je je baby uiteindelijk ook voedt.",
+        "vedaPrompt": "Ik heb net les 5 van de cursus Borstvoeding gekeken (combivoeding, kolven, weer aan het werk en je welzijn). Kun je me helpen mijn voedingsopties te overdenken en hoe ik voor mezelf kan zorgen?",
+        "script": [
+          {
+            "h": "Combivoeding is een liefdevolle keuze",
+            "p": [
+              "Oké mama, voor deze laatste les wil ik de druk helemaal wegnemen, want hoe je je baby voedt is veel minder belangrijk dan dát je baby gevoed is en jij oké bent. Laten we het over combivoeding hebben, borst en fles mengen, borstmelk of flesvoeding. Zoveel gezinnen doen dit, en het is een volledig geldige, liefdevolle manier om een baby te voeden. Misschien geeft het je een langer stuk slaap, laat het een partner de nachtvoedingen delen, helpt het je makkelijker terug naar het werk, of beschermt het simpelweg je geestelijke rust. Niets daarvan is falen. Een gevoede baby en een moeder die kan doorgaan, dat is de winst. Elke keer."
+            ]
+          },
+          {
+            "h": "Kolven en weer aan het werk gaan",
+            "p": [
+              "Als je kolft, of het nu is om een voorraad op te bouwen, voedingen te delen, of je voor te bereiden op tijd apart, helpt het om een ritme te vinden dat bij je dag past, en te weten dat wat je in één sessie kolft geen echte maatstaf is voor alles wat je maakt, baby's zijn veel efficiënter dan welke machine dan ook. En wat betreft weer aan het werk gaan, mama, geef jezelf een aanloop. Begin een kleine voorraad in de weken ervoor, oefen met de fles, praat met je werkplek over pauzes en een aparte ruimte en ergens om melk te bewaren als je daar kolft. Het kan als veel voelen, en het valt meestal sneller in zijn eigen routine dan je zou denken."
+            ]
+          },
+          {
+            "h": "Er is geen prijs voor de moeilijkste weg",
+            "p": [
+              "Bij dit alles wil ik dat je dit vasthoudt. Er is geen prijs voor het op de moeilijkste manier doen. Als borstvoeding prachtig verloopt, geweldig. Als het een worsteling is geweest, als je combivoeding hebt gegeven, hebt gekolfd, bent overgestapt op flesvoeding, of eerder bent gestopt dan je van plan was, dan heb je niemand teleurgesteld. Je hebt je baby met liefde gevoed en je deed het terwijl je aan het herstellen was en uitgeput en aan het leren, en dat is enorm. Steun op je mensen, vraag om de hulp, zeg het hardop als het zwaar is. En als het voeden ooit op een zwaardere manier op je hart begint te drukken, praat dan alsjeblieft met iemand die je vertrouwt of met je arts, want jouw welzijn hoort hier ook bij. Dus haal even adem, mama, en laat dit echt binnenkomen... hoe je je baby ook voedt, je doet het al geweldig."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
