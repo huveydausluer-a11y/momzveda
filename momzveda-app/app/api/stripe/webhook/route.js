@@ -74,6 +74,16 @@ export async function POST(request) {
       break;
     }
 
+    case 'customer.subscription.trial_will_end': {
+      // Fires ~3 days before the 30-day free trial ends. No custom mailer is wired up
+      // yet — the reminder currently relies on Stripe's own "trial ending" customer
+      // email (enable it in Stripe Dashboard -> Settings -> Customer emails). Logged
+      // here as a hook point for a future localized Resend-based reminder.
+      const subscription = event.data.object;
+      console.log('Trial ending soon for subscription', subscription.id, 'at', new Date(subscription.trial_end * 1000).toISOString());
+      break;
+    }
+
     default:
       console.log('Unhandled event type:', event.type);
   }

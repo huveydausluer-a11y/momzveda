@@ -6,7 +6,8 @@
     "cancel": "Cancel",
     "remove": "Remove",
     "install": "Install",
-    "logout": "Logout"
+    "logout": "Logout",
+    "manageSubscription": "Manage subscription"
   },
   "login": {
     "title": "Welcome back, mama!",
@@ -186,7 +187,8 @@
     "prioritySpeed": "Priority response speed",
     "weeklyTips": "Personalized weekly tips for your child",
     "voiceMessages": "Voice messages — hands-free chatting",
-    "monthly": "€9.99/month",
+    "monthly": "Start my free month",
+    "trialNote": "First month free, then €14/month. Cancel anytime.",
     "yearly": "€69.99/year",
     "yearlySave": "save 42%",
     "maybeLater": "Maybe later",

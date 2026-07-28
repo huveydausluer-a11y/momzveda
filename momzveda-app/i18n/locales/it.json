@@ -6,7 +6,8 @@
     "cancel": "Annulla",
     "remove": "Rimuovi",
     "install": "Installa",
-    "logout": "Esci"
+    "logout": "Esci",
+    "manageSubscription": "Gestisci abbonamento"
   },
   "login": {
     "title": "Bentornata, mamma!",
@@ -186,7 +187,8 @@
     "prioritySpeed": "Velocità di risposta prioritaria",
     "weeklyTips": "Consigli settimanali personalizzati per il tuo bambino",
     "voiceMessages": "Messaggi vocali — chatta a mani libere",
-    "monthly": "€9,99/mese",
+    "monthly": "Inizia il mio mese gratuito",
+    "trialNote": "Primo mese gratis, poi 14€/mese. Annulla quando vuoi.",
     "yearly": "€69,99/anno",
     "yearlySave": "risparmia il 42%",
     "maybeLater": "Forse più tardi",

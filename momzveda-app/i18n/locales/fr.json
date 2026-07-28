@@ -6,7 +6,8 @@
     "cancel": "Annuler",
     "remove": "Supprimer",
     "install": "Installer",
-    "logout": "Déconnexion"
+    "logout": "Déconnexion",
+    "manageSubscription": "Gérer l'abonnement"
   },
   "login": {
     "title": "Bon retour, maman !",
@@ -186,7 +187,8 @@
     "prioritySpeed": "Vitesse de réponse prioritaire",
     "weeklyTips": "Conseils hebdomadaires personnalisés pour votre enfant",
     "voiceMessages": "Messages vocaux — discutez les mains libres",
-    "monthly": "€9,99/mois",
+    "monthly": "Commencer mon mois gratuit",
+    "trialNote": "Premier mois gratuit, puis 14€/mois. Résiliable à tout moment.",
     "yearly": "€69,99/an",
     "yearlySave": "économise 42%",
     "maybeLater": "Peut-être plus tard",

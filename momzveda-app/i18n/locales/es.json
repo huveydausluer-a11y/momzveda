@@ -6,7 +6,8 @@
     "cancel": "Cancelar",
     "remove": "Eliminar",
     "install": "Instalar",
-    "logout": "Cerrar sesión"
+    "logout": "Cerrar sesión",
+    "manageSubscription": "Gestionar suscripción"
   },
   "login": {
     "title": "¡Bienvenida de vuelta, mamá!",
@@ -186,7 +187,8 @@
     "prioritySpeed": "Velocidad de respuesta prioritaria",
     "weeklyTips": "Consejos semanales personalizados para tu hijo",
     "voiceMessages": "Mensajes de voz — chatea con manos libres",
-    "monthly": "€9,99/mes",
+    "monthly": "Empezar mi mes gratis",
+    "trialNote": "Primer mes gratis, luego 14€/mes. Cancela cuando quieras.",
     "yearly": "€69,99/año",
     "yearlySave": "ahorra 42%",
     "maybeLater": "Quizás después",

@@ -637,7 +637,7 @@ export default function Home() {
       const res = await fetch('/api/stripe/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ priceId, customerEmail: user?.email }),
+        body: JSON.stringify({ priceId, customerEmail: user?.email, plan }),
       });
 
       const data = await res.json();
@@ -646,6 +646,26 @@ export default function Home() {
       }
     } catch (err) {
       console.error('Checkout error:', err);
+    }
+  };
+
+  // Stripe billing portal handler — lets users manage or cancel their subscription
+  const handleManageSubscription = async () => {
+    try {
+      const res = await fetch('/api/stripe/portal', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ customerEmail: user?.email }),
+      });
+
+      const data = await res.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        console.error('Billing portal error:', data.error);
+      }
+    } catch (err) {
+      console.error('Billing portal error:', err);
     }
   };
 
@@ -907,6 +927,12 @@ export default function Home() {
         {!isPremium && (
           <button onClick={() => setShowUpgrade(true)} style={{ position: 'absolute', right: 16, top: 16, background: 'linear-gradient(135deg, #F59E0B, #D97706)', border: 'none', borderRadius: 12, padding: '6px 12px', cursor: 'pointer', fontSize: 11, color: '#FFF', fontWeight: 700, boxShadow: '0 2px 8px rgba(245,158,11,0.3)', animation: 'fadeSlideIn 0.5s ease' }}>
             ✨ Premium
+          </button>
+        )}
+        {/* Manage subscription button (cancel/update card via Stripe billing portal) */}
+        {isPremium && (
+          <button onClick={handleManageSubscription} style={{ position: 'absolute', right: 16, top: 16, background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 12, padding: '6px 10px', cursor: 'pointer', fontSize: 11, color: 'rgba(255,255,255,0.75)', fontWeight: 600 }}>
+            {t('common.manageSubscription')}
           </button>
         )}
       </div>
@@ -1475,6 +1501,9 @@ export default function Home() {
               }}>
                 {t('upgrade.monthly')}
               </button>
+              <div style={{ fontSize: 12, color: TEXT_LIGHT, textAlign: 'center', marginTop: -2, marginBottom: 14, lineHeight: 1.5 }}>
+                {t('upgrade.trialNote')}
+              </div>
               <button onClick={() => handleUpgrade('yearly')} style={{
                 width: '100%', background: '#FFF7ED', color: '#92400E', border: '2px solid #FDE68A',
                 borderRadius: 16, padding: '14px', fontSize: 15, fontWeight: 700, cursor: 'pointer',

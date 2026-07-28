@@ -6,7 +6,8 @@
     "cancel": "キャンセル",
     "remove": "削除",
     "install": "インストール",
-    "logout": "ログアウト"
+    "logout": "ログアウト",
+    "manageSubscription": "サブスクリプションを管理"
   },
   "login": {
     "title": "おかえりなさい、ママ！",
@@ -186,7 +187,8 @@
     "prioritySpeed": "優先レスポンス",
     "weeklyTips": "お子様に合わせた週間パーソナルティップス",
     "voiceMessages": "音声メッセージ — ハンズフリーでチャット",
-    "monthly": "€9.99/月",
+    "monthly": "無料の1か月を始める",
+    "trialNote": "最初の1か月は無料、その後は月14ユーロ。いつでも解約できます。",
     "yearly": "€69.99/年",
     "yearlySave": "42%お得",
     "maybeLater": "また後で",

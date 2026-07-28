@@ -6,7 +6,8 @@
     "cancel": "Abbrechen",
     "remove": "Entfernen",
     "install": "Installieren",
-    "logout": "Abmelden"
+    "logout": "Abmelden",
+    "manageSubscription": "Abo verwalten"
   },
   "login": {
     "title": "Willkommen zurück, Mama!",
@@ -186,7 +187,8 @@
     "prioritySpeed": "Bevorzugte Antwortgeschwindigkeit",
     "weeklyTips": "Persönliche wöchentliche Tipps für dein Kind",
     "voiceMessages": "Sprachnachrichten — freihändig chatten",
-    "monthly": "€9,99/Monat",
+    "monthly": "Meinen kostenlosen Monat starten",
+    "trialNote": "Erster Monat gratis, danach €14/Monat. Jederzeit kündbar.",
     "yearly": "€69,99/Jahr",
     "yearlySave": "42% sparen",
     "maybeLater": "Vielleicht später",

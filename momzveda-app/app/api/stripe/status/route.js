@@ -43,19 +43,22 @@ export async function POST(request) {
       return Response.json({ isPremium: false });
     }
 
-    // Check active subscriptions
+    // Check subscriptions — 'trialing' counts as premium too, so the 30-day free trial
+    // grants full access, not just 'active' (post-trial) subscriptions.
     const subscriptions = await stripe.subscriptions.list({
       customer: customers.data[0].id,
-      status: 'active',
-      limit: 1,
+      status: 'all',
+      limit: 5,
     });
 
-    const isPremium = subscriptions.data.length > 0;
-    const subscription = subscriptions.data[0] || null;
+    const subscription = subscriptions.data.find(s => ['active', 'trialing'].includes(s.status)) || null;
+    const isPremium = !!subscription;
 
     return Response.json({
       isPremium,
       plan: subscription ? (subscription.items.data[0]?.price?.recurring?.interval === 'year' ? 'yearly' : 'monthly') : null,
+      isTrialing: subscription?.status === 'trialing',
+      trialEnd: subscription?.trial_end ? new Date(subscription.trial_end * 1000).toISOString() : null,
       currentPeriodEnd: subscription?.current_period_end ? new Date(subscription.current_period_end * 1000).toISOString() : null,
     });
   } catch (error) {

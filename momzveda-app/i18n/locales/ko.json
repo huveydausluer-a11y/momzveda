@@ -6,7 +6,8 @@
     "cancel": "취소",
     "remove": "삭제",
     "install": "설치",
-    "logout": "로그아웃"
+    "logout": "로그아웃",
+    "manageSubscription": "구독 관리"
   },
   "login": {
     "title": "다시 와줬구나, 엄마!",
@@ -186,7 +187,8 @@
     "prioritySpeed": "우선 응답",
     "weeklyTips": "아이를 위한 맞춤형 주간 팁",
     "voiceMessages": "음성 메시지 — 핸즈프리 채팅",
-    "monthly": "€9.99/월",
+    "monthly": "무료 한 달 시작하기",
+    "trialNote": "첫 달은 무료, 이후 월 14유로. 언제든지 취소할 수 있어요.",
     "yearly": "€69.99/년",
     "yearlySave": "42% 절약",
     "maybeLater": "나중에 할게요",

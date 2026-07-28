@@ -6,7 +6,8 @@
     "cancel": "İptal",
     "remove": "Kaldır",
     "install": "Yükle",
-    "logout": "Çıkış Yap"
+    "logout": "Çıkış Yap",
+    "manageSubscription": "Aboneliği yönet"
   },
   "login": {
     "title": "Tekrar hoş geldin, anne!",
@@ -186,7 +187,8 @@
     "prioritySpeed": "Öncelikli yanıt hızı",
     "weeklyTips": "Çocuğunuz için kişiselleştirilmiş haftalık ipuçları",
     "voiceMessages": "Sesli mesajlar — eller serbest sohbet",
-    "monthly": "€9,99/ay",
+    "monthly": "Ücretsiz ayımı başlat",
+    "trialNote": "İlk ay ücretsiz, sonra ayda 14€. İstediğin zaman iptal edebilirsin.",
     "yearly": "€69,99/yıl",
     "yearlySave": "%42 tasarruf",
     "maybeLater": "Belki sonra",

@@ -3,11 +3,16 @@ import Stripe from 'stripe';
 export async function POST(request) {
   try {
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-    const { priceId, customerEmail } = await request.json();
+    const { priceId, customerEmail, plan } = await request.json();
 
     if (!priceId) {
       return Response.json({ error: 'Price ID is required.' }, { status: 400 });
     }
+
+    // Monthly plan starts with a 30-day free trial; card is still required up front
+    // (payment_method_collection: 'always') so billing continues automatically at
+    // EUR 14/month once the trial ends. Yearly has no trial.
+    const isTrial = plan === 'monthly';
 
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',
@@ -30,6 +35,12 @@ export async function POST(request) {
         metadata: {
           source: 'momzveda_app',
         },
+        ...(isTrial && {
+          trial_period_days: 30,
+          trial_settings: {
+            end_behavior: { missing_payment_method: 'cancel' },
+          },
+        }),
       },
     });
 

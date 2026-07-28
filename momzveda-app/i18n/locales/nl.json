@@ -6,7 +6,8 @@
     "cancel": "Annuleren",
     "remove": "Verwijderen",
     "install": "Installeren",
-    "logout": "Uitloggen"
+    "logout": "Uitloggen",
+    "manageSubscription": "Abonnement beheren"
   },
   "login": {
     "title": "Welkom terug, mama!",
@@ -186,7 +187,8 @@
     "prioritySpeed": "Prioriteit reactiesnelheid",
     "weeklyTips": "Persoonlijke wekelijkse tips voor jouw kind",
     "voiceMessages": "Spraakberichten — handsfree chatten",
-    "monthly": "€9,99/maand",
+    "monthly": "Start mijn gratis maand",
+    "trialNote": "Eerste maand gratis, daarna €14/maand. Je kunt altijd opzeggen.",
     "yearly": "€69,99/jaar",
     "yearlySave": "bespaar 42%",
     "maybeLater": "Misschien later",
