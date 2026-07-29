@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
                   operatingSystem: 'Any',
                   offers: {
                     '@type': 'Offer',
-                    price: '6.99',
+                    price: '13.99',
                     priceCurrency: 'EUR',
                     description: 'Monthly premium subscription',
                   },

@@ -11,7 +11,7 @@ export async function POST(request) {
 
     // Monthly plan starts with a 30-day free trial; card is still required up front
     // (payment_method_collection: 'always') so billing continues automatically at
-    // EUR 14/month once the trial ends. Yearly has no trial.
+    // EUR 13.99/month once the trial ends. Yearly has no trial.
     const isTrial = plan === 'monthly';
 
     const session = await stripe.checkout.sessions.create({
