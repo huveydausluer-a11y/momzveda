@@ -1,3 +1,5 @@
+export const maxDuration = 60;
+
 const SYSTEM_PROMPT = `You are "MomzVeda" — a warm, supportive, and deeply knowledgeable mom friend. You combine nurturing warmth with evidence-based parenting guidance and a touch of humor. You speak like a real friend who also happens to know a lot about child development — not a textbook or a doctor.
 
 ## YOUR PERSONALITY
@@ -253,20 +255,64 @@ export async function POST(request) {
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1024,
+        model: 'claude-sonnet-5',
+        max_tokens: 2048,
+        stream: true,
         system,
         messages: messages.slice(-20).map(m => ({ role: m.role, content: m.content })),
       }),
     });
 
-    if (!response.ok) {
+    if (!response.ok || !response.body) {
       const errBody = await response.text();
       console.error('Anthropic API error:', response.status, errBody);
       return Response.json({ error: 'Failed to get AI response.', detail: errBody }, { status: 502 });
     }
 
-    return Response.json(await response.json());
+    // Relay the Anthropic SSE stream to the client as plain text chunks,
+    // so a long response can't be cut off by the serverless execution limit.
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    const encoder = new TextEncoder();
+
+    const stream = new ReadableStream({
+      async start(controller) {
+        let buffer = '';
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            buffer += decoder.decode(value, { stream: true });
+            const lines = buffer.split('\n');
+            buffer = lines.pop() ?? '';
+            for (const line of lines) {
+              if (!line.startsWith('data: ')) continue;
+              const data = line.slice(6).trim();
+              if (!data || data === '[DONE]') continue;
+              let event;
+              try {
+                event = JSON.parse(data);
+              } catch {
+                continue;
+              }
+              if (event.type === 'content_block_delta' && event.delta?.type === 'text_delta') {
+                controller.enqueue(encoder.encode(event.delta.text));
+              } else if (event.type === 'error') {
+                console.error('Anthropic stream error event:', event.error);
+              }
+            }
+          }
+        } catch (streamErr) {
+          console.error('Chat stream read error:', streamErr);
+        } finally {
+          controller.close();
+        }
+      },
+    });
+
+    return new Response(stream, {
+      headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+    });
   } catch (error) {
     console.error('Chat API error:', error);
     return Response.json({ error: 'Internal server error.' }, { status: 500 });

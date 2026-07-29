@@ -803,26 +803,61 @@ export default function Home() {
       setDailyMsgCount(newCount);
     }
 
+    let assistantText = '';
+    let streamingStarted = false;
+
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: newMsgs, childProfiles, momProfile }),
       });
-      if (!res.ok) throw new Error();
-      const data = await res.json();
-      const text2 = data.content?.map(c => c.text || '').join('') || t('chat.errorRetry');
-      setMessages(prev => [...prev, { role: 'assistant', content: text2 }]);
+
+      if (!res.ok || !res.body) {
+        let errPayload = null;
+        try { errPayload = await res.json(); } catch {}
+        console.error('Chat API error:', res.status, errPayload);
+        throw new Error(errPayload?.error || `HTTP ${res.status}`);
+      }
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        if (!chunk) continue;
+        assistantText += chunk;
+        if (!streamingStarted) {
+          streamingStarted = true;
+          setIsTyping(false);
+          setMessages(prev => [...prev, { role: 'assistant', content: assistantText }]);
+        } else {
+          setMessages(prev => {
+            const updated = [...prev];
+            updated[updated.length - 1] = { role: 'assistant', content: assistantText };
+            return updated;
+          });
+        }
+      }
+
+      if (!streamingStarted) {
+        assistantText = t('chat.errorRetry');
+        setMessages(prev => [...prev, { role: 'assistant', content: assistantText }]);
+      }
+
       // Sync messages to Supabase
       if (user) {
         supabase.from('messages').insert([
           { user_id: user.id, role: 'user', content: text },
-          { user_id: user.id, role: 'assistant', content: text2 },
+          { user_id: user.id, role: 'assistant', content: assistantText },
         ]).then(() => {});
         const today = new Date().toDateString();
         supabase.from('daily_usage').upsert({ user_id: user.id, date: today, msg_count: dailyMsgCount + 1 }, { onConflict: 'user_id,date' }).then(() => {});
       }
-    } catch {
+    } catch (err) {
+      console.error('Chat request failed:', err);
       setMessages(prev => [...prev, { role: 'assistant', content: t('chat.errorGeneral') }]);
     }
     setIsTyping(false);
