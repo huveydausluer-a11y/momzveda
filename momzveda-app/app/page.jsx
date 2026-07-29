@@ -523,6 +523,12 @@ export default function Home() {
   const FREE_MSG_LIMIT = 5;
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
+  const typewriterRef = useRef(null);
+
+  // Make sure a typewriter-reveal interval never outlives the component
+  useEffect(() => () => {
+    if (typewriterRef.current) clearInterval(typewriterRef.current);
+  }, []);
 
   // ── Load user session + data from Supabase ──
   useEffect(() => {
@@ -803,8 +809,50 @@ export default function Home() {
       setDailyMsgCount(newCount);
     }
 
-    let assistantText = '';
-    let streamingStarted = false;
+    let fullText = '';      // everything received from the stream so far (the typewriter's target)
+    let revealed = 0;       // how many characters of fullText are currently shown in the bubble
+    let streamDone = false;
+    let bubbleAdded = false;
+
+    const TYPE_TICK_MS = 20;       // ~1 char per tick under normal load -> a natural typing speed
+    const CATCHUP_DIVISOR = 30;    // the bigger the backlog, the more chars/tick to catch up
+
+    const stopTypewriter = () => {
+      if (typewriterRef.current) {
+        clearInterval(typewriterRef.current);
+        typewriterRef.current = null;
+      }
+    };
+
+    const renderRevealed = () => {
+      setMessages(prev => {
+        const updated = [...prev];
+        updated[updated.length - 1] = { role: 'assistant', content: fullText.slice(0, revealed) };
+        return updated;
+      });
+    };
+
+    const startTypewriter = () => {
+      if (typewriterRef.current) return; // already running
+      typewriterRef.current = setInterval(() => {
+        if (revealed >= fullText.length) {
+          if (streamDone) stopTypewriter();
+          return;
+        }
+        const backlog = fullText.length - revealed;
+        let next = Math.min(fullText.length, revealed + Math.max(1, Math.ceil(backlog / CATCHUP_DIVISOR)));
+        // Don't split a surrogate-pair emoji across two reveal ticks
+        if (next < fullText.length) {
+          const code = fullText.charCodeAt(next - 1);
+          if (code >= 0xd800 && code <= 0xdbff) next += 1;
+        }
+        revealed = next;
+        renderRevealed();
+      }, TYPE_TICK_MS);
+    };
+
+    // Defensive reset in case a previous turn's interval is somehow still around
+    stopTypewriter();
 
     try {
       const res = await fetch('/api/chat', {
@@ -828,36 +876,45 @@ export default function Home() {
         if (done) break;
         const chunk = decoder.decode(value, { stream: true });
         if (!chunk) continue;
-        assistantText += chunk;
-        if (!streamingStarted) {
-          streamingStarted = true;
+        fullText += chunk;
+        if (!bubbleAdded) {
+          bubbleAdded = true;
           setIsTyping(false);
-          setMessages(prev => [...prev, { role: 'assistant', content: assistantText }]);
-        } else {
-          setMessages(prev => {
-            const updated = [...prev];
-            updated[updated.length - 1] = { role: 'assistant', content: assistantText };
-            return updated;
-          });
+          setMessages(prev => [...prev, { role: 'assistant', content: '' }]);
         }
+        startTypewriter();
       }
 
-      if (!streamingStarted) {
-        assistantText = t('chat.errorRetry');
-        setMessages(prev => [...prev, { role: 'assistant', content: assistantText }]);
+      streamDone = true;
+
+      if (!bubbleAdded) {
+        fullText = t('chat.errorRetry');
+        revealed = fullText.length;
+        setMessages(prev => [...prev, { role: 'assistant', content: fullText }]);
+      } else {
+        // In case everything arrived in one go and the interval never had to
+        // do more than one tick, this lets it notice streamDone and wrap up.
+        startTypewriter();
       }
 
-      // Sync messages to Supabase
+      // Sync messages to Supabase (uses the full text, independent of the
+      // in-progress reveal animation)
       if (user) {
         supabase.from('messages').insert([
           { user_id: user.id, role: 'user', content: text },
-          { user_id: user.id, role: 'assistant', content: assistantText },
+          { user_id: user.id, role: 'assistant', content: fullText },
         ]).then(() => {});
         const today = new Date().toDateString();
         supabase.from('daily_usage').upsert({ user_id: user.id, date: today, msg_count: dailyMsgCount + 1 }, { onConflict: 'user_id,date' }).then(() => {});
       }
     } catch (err) {
       console.error('Chat request failed:', err);
+      stopTypewriter();
+      if (bubbleAdded) {
+        // Show whatever arrived in full rather than leaving it mid-reveal
+        revealed = fullText.length;
+        renderRevealed();
+      }
       setMessages(prev => [...prev, { role: 'assistant', content: t('chat.errorGeneral') }]);
     }
     setIsTyping(false);
