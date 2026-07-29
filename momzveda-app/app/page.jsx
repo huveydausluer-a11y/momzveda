@@ -173,7 +173,7 @@ function OnboardingFlow({ onComplete }) {
   });
 
   return (
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: BG, fontFamily: "'DM Sans', sans-serif", overflow: 'hidden' }}>
+    <div style={{ height: '100%', display: 'flex', flexDirection: 'column', background: BG, fontFamily: "'DM Sans', sans-serif", overflow: 'hidden' }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Archivo+Black&display=swap');
         @keyframes fadeSlideIn { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
@@ -901,7 +901,7 @@ export default function Home() {
   // Loading screen while fetching user data
   if (loading) {
     return (
-      <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: BG, fontFamily: "'DM Sans', sans-serif" }}>
+      <div style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: BG, fontFamily: "'DM Sans', sans-serif" }}>
         <div style={{ textAlign: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'center', marginBottom: 16 }}>
             <span style={{ fontFamily: "'Archivo Black', sans-serif", fontSize: 28, color: GREEN }}>Momz</span>
@@ -919,7 +919,7 @@ export default function Home() {
   }
 
   return (
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: BG, fontFamily: "'DM Sans', sans-serif" }}>
+    <div style={{ height: '100%', display: 'flex', flexDirection: 'column', background: BG, fontFamily: "'DM Sans', sans-serif" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Archivo+Black&display=swap');
         @keyframes bounce { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
@@ -1428,7 +1428,7 @@ export default function Home() {
 
       {/* ── INPUT ── */}
       {activeTab === 'chat' && (
-        <div style={{ padding: '10px 16px 18px', background: BG, borderTop: `1px solid ${BORDER_LIGHT}` }}>
+        <div style={{ paddingTop: 10, paddingLeft: 16, paddingRight: 16, paddingBottom: 'calc(18px + env(safe-area-inset-bottom))', background: BG, borderTop: `1px solid ${BORDER_LIGHT}`, flexShrink: 0 }}>
           {/* Message counter for free users */}
           {!isPremium && (
             <div style={{ textAlign: 'center', marginBottom: 6 }}>

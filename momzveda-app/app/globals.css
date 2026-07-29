@@ -6,6 +6,7 @@
 
 html, body {
   height: 100%;
+  height: 100dvh; /* iOS Safari: 100vh ignores the collapsible toolbar and clips content below it */
   overflow: hidden;
   font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
