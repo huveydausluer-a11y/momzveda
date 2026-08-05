@@ -814,8 +814,10 @@ export default function Home() {
     let streamDone = false;
     let bubbleAdded = false;
 
-    const TYPE_TICK_MS = 20;       // ~1 char per tick under normal load -> a natural typing speed
-    const CATCHUP_DIVISOR = 30;    // the bigger the backlog, the more chars/tick to catch up
+    const TYPE_TICK_MS = 50;         // ~1 char per tick = ~50ms/char = average reading pace (~230 wpm)
+    const CATCHUP_START = 500;      // stay at pure reading pace until the backlog is this far behind
+    const CATCHUP_DIVISOR = 400;    // how gently the backlog beyond that ramps up the speed
+    const MAX_CHARS_PER_TICK = 2;   // cap: never more than ~2x reading pace, so it never "flashes"
 
     const stopTypewriter = () => {
       if (typewriterRef.current) {
@@ -840,7 +842,10 @@ export default function Home() {
           return;
         }
         const backlog = fullText.length - revealed;
-        let next = Math.min(fullText.length, revealed + Math.max(1, Math.ceil(backlog / CATCHUP_DIVISOR)));
+        const step = backlog > CATCHUP_START
+          ? Math.min(MAX_CHARS_PER_TICK, 1 + Math.floor((backlog - CATCHUP_START) / CATCHUP_DIVISOR))
+          : 1;
+        let next = Math.min(fullText.length, revealed + step);
         // Don't split a surrogate-pair emoji across two reveal ticks
         if (next < fullText.length) {
           const code = fullText.charCodeAt(next - 1);
